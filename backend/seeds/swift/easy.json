@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which code line uses string concatenation in Swift source code?",
+    "options": [
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "join(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Swift."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Swift source code?",
+    "options": [
+      "require(\"lib\")",
+      "use lib;",
+      "include <lib>",
+      "import Foundation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'import Foundation' for Swift."
+  },
+  {
+    "question": "Which file extension is standard for Swift library imports?",
+    "options": [
+      ".txt",
+      ".md",
+      ".swift",
+      ".json"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.swift' for Swift."
+  },
+  {
+    "question": "Which keyword declares a constant value in Swift function definitions?",
+    "options": [
+      "let",
+      "static",
+      "let",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'let' for Swift."
+  },
+  {
+    "question": "Which operator checks equality in Swift conditional logic?",
+    "options": [
+      "=",
+      "===",
+      "!=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which file extension is standard for Swift source code?",
+    "options": [
+      ".md",
+      ".json",
+      ".swift",
+      ".txt"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.swift' for Swift."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Swift library imports?",
+    "options": [
+      "25",
+      "0",
+      "2",
+      "10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '10' for Swift."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Swift loop logic?",
+    "options": [
+      "print(\"Hello\")",
+      "echo \"Hello\";",
+      "console.log(\"Hello\")",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'print(\"Hello\")' for Swift."
+  },
+  {
+    "question": "Which sign is used to assign values in Swift conditional logic?",
+    "options": [
+      "=",
+      "==",
+      "=>",
+      ":="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '=' for Swift."
+  },
+  {
+    "question": "Which keyword begins a loop in Swift conditional logic?",
+    "options": [
+      "while",
+      "for",
+      "repeat",
+      "loop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for Swift."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in Swift loop logic?",
+    "options": [
+      "variables",
+      "comments",
+      "functions",
+      "classes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'functions' for Swift."
+  },
+  {
+    "question": "Which code line uses string concatenation in Swift conditional logic?",
+    "options": [
+      "concat(\"Hello\", \"World\")",
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Swift."
+  },
+  {
+    "question": "Which sign is used to assign values in Swift header files?",
+    "options": [
+      "=>",
+      "==",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '=' for Swift."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Swift header files?",
+    "options": [
+      "function main() {}",
+      "main()",
+      "def main():",
+      "func example() {}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'func example() {}' for Swift."
+  },
+  {
+    "question": "Which sign is used to assign values in Swift loop logic?",
+    "options": [
+      ":=",
+      "=",
+      "=>",
+      "=="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '=' for Swift."
+  },
+  {
+    "question": "Which code line uses string concatenation in Swift loop logic?",
+    "options": [
+      "join(\"Hello\", \"World\")",
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Swift."
+  },
+  {
+    "question": "What is the result of 3 + 4 in Swift source code?",
+    "options": [
+      "0",
+      "34",
+      "Error",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '7' for Swift."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Swift source code?",
+    "options": [
+      "static",
+      "var",
+      "let",
+      "let"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'let' for Swift."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Swift library imports?",
+    "options": [
+      "puts \"Hello\"",
+      "print(\"Hello\")",
+      "echo \"Hello\";",
+      "console.log(\"Hello\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'print(\"Hello\")' for Swift."
+  },
+  {
+    "question": "Which value is commonly used for true in Swift function definitions?",
+    "options": [
+      "True",
+      "False",
+      "true",
+      "false"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'true' for Swift."
+  },
+  {
+    "question": "What is the result of 3 + 4 in Swift library imports?",
+    "options": [
+      "34",
+      "0",
+      "Error",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '7' for Swift."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in Swift header files?",
+    "options": [
+      "variables",
+      "classes",
+      "comments",
+      "functions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'functions' for Swift."
+  },
+  {
+    "question": "Which file extension is standard for Swift header files?",
+    "options": [
+      ".txt",
+      ".json",
+      ".swift",
+      ".md"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.swift' for Swift."
+  },
+  {
+    "question": "Which file extension is standard for Swift function definitions?",
+    "options": [
+      ".swift",
+      ".txt",
+      ".json",
+      ".md"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.swift' for Swift."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Swift loop logic?",
+    "options": [
+      "import Foundation",
+      "use lib;",
+      "include <lib>",
+      "require(\"lib\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'import Foundation' for Swift."
+  },
+  {
+    "question": "Which value is commonly used for true in Swift library imports?",
+    "options": [
+      "true",
+      "False",
+      "false",
+      "True"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'true' for Swift."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Swift library imports?",
+    "options": [
+      "def main():",
+      "function main() {}",
+      "main()",
+      "func example() {}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'func example() {}' for Swift."
+  },
+  {
+    "question": "Which option fills the blank in Swift conditional logic: let x = 5; x = 10; // __? ",
+    "options": [
+      "declaration",
+      "assignment",
+      "comparison",
+      "iteration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'assignment' for Swift."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Swift loop logic?",
+    "options": [
+      "let",
+      "static",
+      "let",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'let' for Swift."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in Swift conditional logic?",
+    "options": [
+      "//",
+      "#",
+      "<!-- -->",
+      "/* */"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '//' for Swift."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in Swift header files?",
+    "options": [
+      "<!-- -->",
+      "/* */",
+      "//",
+      "#"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '//' for Swift."
+  },
+  {
+    "question": "Which value represents false in Swift loop logic?",
+    "options": [
+      "false",
+      "True",
+      "False",
+      "true"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'false' for Swift."
+  },
+  {
+    "question": "Which keyword begins a loop in Swift source code?",
+    "options": [
+      "loop",
+      "repeat",
+      "for",
+      "while"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for Swift."
+  },
+  {
+    "question": "What is the result of 3 + 4 in Swift conditional logic?",
+    "options": [
+      "0",
+      "7",
+      "34",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '7' for Swift."
+  },
+  {
+    "question": "What is the result of 8 - 3 in Swift source code?",
+    "options": [
+      "5",
+      "3",
+      "8",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '5' for Swift."
+  },
+  {
+    "question": "Which option fills the blank in Swift loop logic: let x = 5; x = 10; // __? ",
+    "options": [
+      "iteration",
+      "assignment",
+      "declaration",
+      "comparison"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'assignment' for Swift."
+  },
+  {
+    "question": "Which operator checks equality in Swift function definitions?",
+    "options": [
+      "=",
+      "!=",
+      "==",
+      "==="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in Swift library imports?",
+    "options": [
+      "//",
+      "/* */",
+      "#",
+      "<!-- -->"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '//' for Swift."
+  },
+  {
+    "question": "Which operator checks equality in Swift header files?",
+    "options": [
+      "==",
+      "=",
+      "!=",
+      "==="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which keyword begins a loop in Swift loop logic?",
+    "options": [
+      "while",
+      "loop",
+      "for",
+      "repeat"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for Swift."
+  },
+  {
+    "question": "Which option fills the blank in Swift library imports: let x = 5; x = 10; // __? ",
+    "options": [
+      "assignment",
+      "iteration",
+      "declaration",
+      "comparison"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'assignment' for Swift."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in Swift library imports?",
+    "options": [
+      "classes",
+      "variables",
+      "functions",
+      "comments"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'functions' for Swift."
+  },
+  {
+    "question": "Which operator checks equality in Swift library imports?",
+    "options": [
+      "==",
+      "=",
+      "!=",
+      "==="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which value is commonly used for true in Swift conditional logic?",
+    "options": [
+      "false",
+      "True",
+      "False",
+      "true"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'true' for Swift."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Swift loop logic?",
+    "options": [
+      "25",
+      "10",
+      "0",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '10' for Swift."
+  },
+  {
+    "question": "Which value is commonly used for true in Swift loop logic?",
+    "options": [
+      "False",
+      "True",
+      "true",
+      "false"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'true' for Swift."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in Swift function definitions?",
+    "options": [
+      "/* */",
+      "<!-- -->",
+      "//",
+      "#"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '//' for Swift."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Swift source code?",
+    "options": [
+      "func example() {}",
+      "main()",
+      "function main() {}",
+      "def main():"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'func example() {}' for Swift."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Swift conditional logic?",
+    "options": [
+      "print(\"Hello\")",
+      "puts \"Hello\"",
+      "echo \"Hello\";",
+      "console.log(\"Hello\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'print(\"Hello\")' for Swift."
+  },
+  {
+    "question": "What is the result of 8 - 3 in Swift loop logic?",
+    "options": [
+      "5",
+      "3",
+      "2",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '5' for Swift."
+  }
+]

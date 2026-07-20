@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which data structure is fastest for random access by index in Rust memory management?",
+    "options": [
+      "queue",
+      "linked list",
+      "stack",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Rust."
+  },
+  {
+    "question": "Which statement checks for equality in Rust data types?",
+    "options": [
+      "=>",
+      "=",
+      "==",
+      ":="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Rust."
+  },
+  {
+    "question": "Which statement checks for equality in Rust loop logic?",
+    "options": [
+      "=>",
+      ":=",
+      "==",
+      "="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Rust."
+  },
+  {
+    "question": "Which statement checks for equality in Rust library imports?",
+    "options": [
+      "==",
+      "=>",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Rust."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Rust header files?",
+    "options": [
+      "transient",
+      "volatile",
+      "static",
+      "dynamic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for Rust."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Rust applications in input/output?",
+    "options": [
+      "async tasks",
+      "inheritance",
+      "closures",
+      "generics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for Rust."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Rust error handling?",
+    "options": [
+      "polymorphism",
+      "modularity",
+      "encapsulation",
+      "abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Rust."
+  },
+  {
+    "question": "Which statement checks for equality in Rust source code?",
+    "options": [
+      "==",
+      "=",
+      ":=",
+      "=>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Rust."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Rust data types?",
+    "options": [
+      "inheritance",
+      "composition",
+      "delegation",
+      "aggregation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for Rust."
+  },
+  {
+    "question": "Which statement best describes memory management in Rust source code?",
+    "options": [
+      "implicit typing",
+      "syntax highlighting",
+      "runtime binding",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Rust function definitions?",
+    "options": [
+      "stack",
+      "array",
+      "queue",
+      "linked list"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Rust."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Rust library imports?",
+    "options": [
+      "modularity",
+      "abstraction",
+      "polymorphism",
+      "encapsulation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for Rust."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Rust code in data types?",
+    "options": [
+      "const",
+      "var",
+      "mutable",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for Rust."
+  },
+  {
+    "question": "Which statement best describes memory management in Rust input/output?",
+    "options": [
+      "implicit typing",
+      "syntax highlighting",
+      "runtime binding",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Rust applications in header files?",
+    "options": [
+      "inheritance",
+      "generics",
+      "async tasks",
+      "closures"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'async tasks' for Rust."
+  },
+  {
+    "question": "Which keyword defines a class in Rust input/output?",
+    "options": [
+      "struct",
+      "namespace",
+      "module",
+      "package"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'struct' for Rust."
+  },
+  {
+    "question": "Which keyword defines a class in Rust conditional logic?",
+    "options": [
+      "package",
+      "module",
+      "namespace",
+      "struct"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'struct' for Rust."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Rust error handling?",
+    "options": [
+      "delegation",
+      "aggregation",
+      "composition",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Rust."
+  },
+  {
+    "question": "Which statement checks for equality in Rust error handling?",
+    "options": [
+      "=>",
+      ":=",
+      "=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Rust."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Rust function definitions?",
+    "options": [
+      "dynamic",
+      "volatile",
+      "transient",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for Rust."
+  },
+  {
+    "question": "Which statement best describes memory management in Rust data types?",
+    "options": [
+      "implicit typing",
+      "automatic garbage collection",
+      "syntax highlighting",
+      "runtime binding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Rust applications in function definitions?",
+    "options": [
+      "generics",
+      "inheritance",
+      "closures",
+      "async tasks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'async tasks' for Rust."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Rust code in header files?",
+    "options": [
+      "var",
+      "mutable",
+      "const",
+      "let"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for Rust."
+  },
+  {
+    "question": "Which statement best describes memory management in Rust loop logic?",
+    "options": [
+      "runtime binding",
+      "implicit typing",
+      "automatic garbage collection",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Rust data types?",
+    "options": [
+      "array",
+      "queue",
+      "stack",
+      "linked list"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Rust."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Rust input/output?",
+    "options": [
+      "stack",
+      "queue",
+      "array",
+      "linked list"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Rust."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Rust error handling?",
+    "options": [
+      "optional types",
+      "exceptions",
+      "inheritance",
+      "global variables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'optional types' for Rust."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Rust memory management?",
+    "options": [
+      "optional types",
+      "global variables",
+      "exceptions",
+      "inheritance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'optional types' for Rust."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Rust code in library imports?",
+    "options": [
+      "mutable",
+      "const",
+      "let",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for Rust."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Rust loop logic?",
+    "options": [
+      "abstraction",
+      "modularity",
+      "polymorphism",
+      "encapsulation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Rust."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Rust library imports?",
+    "options": [
+      "linked list",
+      "queue",
+      "stack",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Rust."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Rust error handling?",
+    "options": [
+      "linked list",
+      "array",
+      "queue",
+      "stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Rust."
+  },
+  {
+    "question": "Which keyword defines a class in Rust header files?",
+    "options": [
+      "module",
+      "package",
+      "namespace",
+      "struct"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'struct' for Rust."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Rust code in function definitions?",
+    "options": [
+      "let",
+      "var",
+      "mutable",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for Rust."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Rust applications in data types?",
+    "options": [
+      "async tasks",
+      "inheritance",
+      "closures",
+      "generics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for Rust."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Rust applications in memory management?",
+    "options": [
+      "async tasks",
+      "closures",
+      "inheritance",
+      "generics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for Rust."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Rust applications in loop logic?",
+    "options": [
+      "inheritance",
+      "generics",
+      "async tasks",
+      "closures"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'async tasks' for Rust."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Rust loop logic?",
+    "options": [
+      "dynamic",
+      "volatile",
+      "transient",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for Rust."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Rust code in source code?",
+    "options": [
+      "var",
+      "let",
+      "mutable",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for Rust."
+  },
+  {
+    "question": "Which statement best describes memory management in Rust conditional logic?",
+    "options": [
+      "syntax highlighting",
+      "runtime binding",
+      "automatic garbage collection",
+      "implicit typing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Rust input/output?",
+    "options": [
+      "composition",
+      "delegation",
+      "aggregation",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Rust."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Rust source code?",
+    "options": [
+      "optional types",
+      "exceptions",
+      "global variables",
+      "inheritance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'optional types' for Rust."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Rust function definitions?",
+    "options": [
+      "polymorphism",
+      "modularity",
+      "abstraction",
+      "encapsulation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Rust."
+  },
+  {
+    "question": "Which statement checks for equality in Rust conditional logic?",
+    "options": [
+      "==",
+      ":=",
+      "=",
+      "=>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Rust."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Rust data types?",
+    "options": [
+      "static",
+      "transient",
+      "volatile",
+      "dynamic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for Rust."
+  },
+  {
+    "question": "Which statement best describes memory management in Rust library imports?",
+    "options": [
+      "runtime binding",
+      "automatic garbage collection",
+      "syntax highlighting",
+      "implicit typing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
+  },
+  {
+    "question": "Which statement best describes memory management in Rust error handling?",
+    "options": [
+      "syntax highlighting",
+      "runtime binding",
+      "automatic garbage collection",
+      "implicit typing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
+  },
+  {
+    "question": "Which keyword defines a class in Rust loop logic?",
+    "options": [
+      "package",
+      "struct",
+      "namespace",
+      "module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'struct' for Rust."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Rust applications in conditional logic?",
+    "options": [
+      "async tasks",
+      "inheritance",
+      "closures",
+      "generics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for Rust."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Rust data types?",
+    "options": [
+      "global variables",
+      "optional types",
+      "inheritance",
+      "exceptions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'optional types' for Rust."
+  }
+]

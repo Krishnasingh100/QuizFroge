@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which value represents false in Ruby loop logic?",
+    "options": [
+      "true",
+      "false",
+      "True",
+      "False"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'false' for Ruby."
+  },
+  {
+    "question": "Which keyword declares a constant value in Ruby conditional logic?",
+    "options": [
+      "CONST",
+      "static",
+      "var",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which keyword declares a constant value in Ruby header files?",
+    "options": [
+      "static",
+      "let",
+      "CONST",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Ruby header files?",
+    "options": [
+      "function main() {}",
+      "def main():",
+      "main()",
+      "def example; end"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'def example; end' for Ruby."
+  },
+  {
+    "question": "What is the result of 8 - 3 in Ruby source code?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '5' for Ruby."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Ruby header files?",
+    "options": [
+      "CONST",
+      "var",
+      "static",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Ruby header files?",
+    "options": [
+      "25",
+      "2",
+      "0",
+      "10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '10' for Ruby."
+  },
+  {
+    "question": "Which file extension is standard for Ruby loop logic?",
+    "options": [
+      ".txt",
+      ".md",
+      ".rb",
+      ".json"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.rb' for Ruby."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Ruby source code?",
+    "options": [
+      "function main() {}",
+      "main()",
+      "def example; end",
+      "def main():"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'def example; end' for Ruby."
+  },
+  {
+    "question": "Which file extension is standard for Ruby source code?",
+    "options": [
+      ".txt",
+      ".md",
+      ".json",
+      ".rb"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '.rb' for Ruby."
+  },
+  {
+    "question": "What is the result of 3 + 4 in Ruby library imports?",
+    "options": [
+      "Error",
+      "7",
+      "34",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '7' for Ruby."
+  },
+  {
+    "question": "Which keyword declares a constant value in Ruby library imports?",
+    "options": [
+      "static",
+      "let",
+      "var",
+      "CONST"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Ruby header files?",
+    "options": [
+      "require(\"lib\")",
+      "use lib;",
+      "include <lib>",
+      "require 'json'"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'require 'json'' for Ruby."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Ruby source code?",
+    "options": [
+      "static",
+      "let",
+      "CONST",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which keyword declares a constant value in Ruby source code?",
+    "options": [
+      "let",
+      "var",
+      "static",
+      "CONST"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Ruby header files?",
+    "options": [
+      "puts \"Hello\"",
+      "echo \"Hello\";",
+      "puts \"Hello\"",
+      "console.log(\"Hello\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'puts \"Hello\"' for Ruby."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Ruby library imports?",
+    "options": [
+      "def example; end",
+      "def main():",
+      "main()",
+      "function main() {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'def example; end' for Ruby."
+  },
+  {
+    "question": "Which code line uses string concatenation in Ruby source code?",
+    "options": [
+      "\"Hello\" + \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" . \"World\"",
+      "join(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Ruby."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in Ruby conditional logic?",
+    "options": [
+      "variables",
+      "comments",
+      "functions",
+      "classes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'functions' for Ruby."
+  },
+  {
+    "question": "Which value is commonly used for true in Ruby source code?",
+    "options": [
+      "False",
+      "true",
+      "false",
+      "True"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'true' for Ruby."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Ruby conditional logic?",
+    "options": [
+      "continue",
+      "stop",
+      "return",
+      "break"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'break' for Ruby."
+  },
+  {
+    "question": "What is the result of 3 + 4 in Ruby loop logic?",
+    "options": [
+      "Error",
+      "7",
+      "34",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '7' for Ruby."
+  },
+  {
+    "question": "Which file extension is standard for Ruby conditional logic?",
+    "options": [
+      ".md",
+      ".rb",
+      ".json",
+      ".txt"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '.rb' for Ruby."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in Ruby function definitions?",
+    "options": [
+      "/* */",
+      "#",
+      "//",
+      "<!-- -->"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '#' for Ruby."
+  },
+  {
+    "question": "Which value is commonly used for true in Ruby function definitions?",
+    "options": [
+      "True",
+      "False",
+      "false",
+      "true"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'true' for Ruby."
+  },
+  {
+    "question": "Which keyword begins a loop in Ruby library imports?",
+    "options": [
+      "repeat",
+      "while",
+      "for",
+      "loop"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for Ruby."
+  },
+  {
+    "question": "Which option fills the blank in Ruby conditional logic: CONST x = 5; x = 10; // __? ",
+    "options": [
+      "assignment",
+      "comparison",
+      "iteration",
+      "declaration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'assignment' for Ruby."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Ruby conditional logic?",
+    "options": [
+      "use lib;",
+      "require(\"lib\")",
+      "require 'json'",
+      "include <lib>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'require 'json'' for Ruby."
+  },
+  {
+    "question": "Which keyword begins a loop in Ruby conditional logic?",
+    "options": [
+      "while",
+      "repeat",
+      "loop",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for Ruby."
+  },
+  {
+    "question": "Which value represents false in Ruby source code?",
+    "options": [
+      "False",
+      "true",
+      "false",
+      "True"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'false' for Ruby."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Ruby loop logic?",
+    "options": [
+      "var",
+      "static",
+      "CONST",
+      "let"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Ruby conditional logic?",
+    "options": [
+      "CONST",
+      "let",
+      "static",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which operator checks equality in Ruby library imports?",
+    "options": [
+      "==",
+      "!=",
+      "=",
+      "==="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Ruby."
+  },
+  {
+    "question": "Which value represents false in Ruby library imports?",
+    "options": [
+      "False",
+      "true",
+      "True",
+      "false"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'false' for Ruby."
+  },
+  {
+    "question": "Which file extension is standard for Ruby library imports?",
+    "options": [
+      ".json",
+      ".txt",
+      ".rb",
+      ".md"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.rb' for Ruby."
+  },
+  {
+    "question": "Which code line uses string concatenation in Ruby library imports?",
+    "options": [
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" . \"World\"",
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\""
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Ruby."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in Ruby loop logic?",
+    "options": [
+      "variables",
+      "comments",
+      "functions",
+      "classes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'functions' for Ruby."
+  },
+  {
+    "question": "What is the result of 8 - 3 in Ruby header files?",
+    "options": [
+      "2",
+      "8",
+      "5",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '5' for Ruby."
+  },
+  {
+    "question": "Which keyword declares a constant value in Ruby function definitions?",
+    "options": [
+      "static",
+      "let",
+      "var",
+      "CONST"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Ruby conditional logic?",
+    "options": [
+      "10",
+      "0",
+      "25",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '10' for Ruby."
+  },
+  {
+    "question": "What is the result of 3 + 4 in Ruby conditional logic?",
+    "options": [
+      "Error",
+      "7",
+      "0",
+      "34"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '7' for Ruby."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Ruby loop logic?",
+    "options": [
+      "main()",
+      "function main() {}",
+      "def example; end",
+      "def main():"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'def example; end' for Ruby."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in Ruby library imports?",
+    "options": [
+      "classes",
+      "functions",
+      "comments",
+      "variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'functions' for Ruby."
+  },
+  {
+    "question": "Which keyword begins a loop in Ruby loop logic?",
+    "options": [
+      "while",
+      "loop",
+      "for",
+      "repeat"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for Ruby."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Ruby loop logic?",
+    "options": [
+      "continue",
+      "break",
+      "return",
+      "stop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'break' for Ruby."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Ruby source code?",
+    "options": [
+      "echo \"Hello\";",
+      "console.log(\"Hello\")",
+      "puts \"Hello\"",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'puts \"Hello\"' for Ruby."
+  },
+  {
+    "question": "Which value represents false in Ruby header files?",
+    "options": [
+      "true",
+      "False",
+      "false",
+      "True"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'false' for Ruby."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Ruby library imports?",
+    "options": [
+      "include <lib>",
+      "require 'json'",
+      "require(\"lib\")",
+      "use lib;"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'require 'json'' for Ruby."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in Ruby conditional logic?",
+    "options": [
+      "/* */",
+      "//",
+      "<!-- -->",
+      "#"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '#' for Ruby."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in Ruby library imports?",
+    "options": [
+      "<!-- -->",
+      "#",
+      "/* */",
+      "//"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '#' for Ruby."
+  }
+]

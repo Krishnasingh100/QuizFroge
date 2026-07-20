@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword in PHP creates a new variable in source code?",
+    "options": [
+      "static",
+      "const",
+      "class",
+      "let"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'let' for PHP."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in PHP source code?",
+    "options": [
+      "dynamic",
+      "immutable",
+      "temporary",
+      "mutable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for PHP."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in PHP conditional logic?",
+    "options": [
+      "iteration",
+      "recursion",
+      "compilation",
+      "optimization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'recursion' for PHP."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in PHP data types?",
+    "options": [
+      "2",
+      "16",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for PHP."
+  },
+  {
+    "question": "Which operator in PHP is used for string concatenation in library imports?",
+    "options": [
+      "||",
+      "##",
+      "+",
+      "&"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for PHP."
+  },
+  {
+    "question": "Which line represents a correct function definition in PHP conditional logic?",
+    "options": [
+      "function example() {}",
+      "function main",
+      "def main",
+      "main() {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function example() {}' for PHP."
+  },
+  {
+    "question": "Which keyword in PHP creates a new variable in conditional logic?",
+    "options": [
+      "class",
+      "static",
+      "let",
+      "const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'let' for PHP."
+  },
+  {
+    "question": "Which line represents a valid import or include in PHP function definitions?",
+    "options": [
+      "include <sys>",
+      "include 'file.php';",
+      "import module",
+      "require(\"module\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'include 'file.php';' for PHP."
+  },
+  {
+    "question": "Which operator in PHP is used for string concatenation in function definitions?",
+    "options": [
+      "||",
+      "##",
+      "&",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for PHP."
+  },
+  {
+    "question": "Which term often describes a collection of values in PHP data types?",
+    "options": [
+      "function",
+      "object",
+      "array",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for PHP."
+  },
+  {
+    "question": "Which keyword declares a function in PHP function definitions?",
+    "options": [
+      "class",
+      "const",
+      "var",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for PHP."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in PHP source code?",
+    "options": [
+      "iteration",
+      "recursion",
+      "optimization",
+      "compilation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'recursion' for PHP."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in PHP header files?",
+    "options": [
+      "iteration",
+      "optimization",
+      "recursion",
+      "compilation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for PHP."
+  },
+  {
+    "question": "Which operator in PHP is used for string concatenation in loop logic?",
+    "options": [
+      "&",
+      "##",
+      "+",
+      "||"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for PHP."
+  },
+  {
+    "question": "Which keyword in PHP indicates a return value from a function in loop logic?",
+    "options": [
+      "exit",
+      "return",
+      "break",
+      "yield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for PHP."
+  },
+  {
+    "question": "Which keyword in PHP creates a new variable in header files?",
+    "options": [
+      "const",
+      "let",
+      "static",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'let' for PHP."
+  },
+  {
+    "question": "Which term often describes a collection of values in PHP function definitions?",
+    "options": [
+      "function",
+      "object",
+      "class",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for PHP."
+  },
+  {
+    "question": "Which keyword in PHP creates a new variable in data types?",
+    "options": [
+      "static",
+      "let",
+      "const",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'let' for PHP."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in PHP source code?",
+    "options": [
+      "switch",
+      "when",
+      "if",
+      "case"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for PHP."
+  },
+  {
+    "question": "Which term often describes a collection of values in PHP library imports?",
+    "options": [
+      "array",
+      "class",
+      "function",
+      "object"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for PHP."
+  },
+  {
+    "question": "Which operator is used to compare two values in PHP loop logic?",
+    "options": [
+      "==",
+      "===",
+      "<>",
+      "!="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for PHP."
+  },
+  {
+    "question": "Which keyword in PHP indicates a return value from a function in library imports?",
+    "options": [
+      "exit",
+      "yield",
+      "return",
+      "break"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for PHP."
+  },
+  {
+    "question": "Which operator in PHP is used for string concatenation in data types?",
+    "options": [
+      "&",
+      "||",
+      "+",
+      "##"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for PHP."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in PHP memory management?",
+    "options": [
+      "when",
+      "switch",
+      "if",
+      "case"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for PHP."
+  },
+  {
+    "question": "Which keyword defines a function or method name in PHP library imports?",
+    "options": [
+      "class",
+      "module",
+      "int",
+      "struct"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int' for PHP."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in PHP header files?",
+    "options": [
+      "immutable",
+      "dynamic",
+      "temporary",
+      "mutable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for PHP."
+  },
+  {
+    "question": "Which term often describes a collection of values in PHP source code?",
+    "options": [
+      "array",
+      "class",
+      "function",
+      "object"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for PHP."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in PHP conditional logic?",
+    "options": [
+      "if",
+      "case",
+      "for",
+      "switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for PHP."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in PHP loop logic?",
+    "options": [
+      "16",
+      "2",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for PHP."
+  },
+  {
+    "question": "Which line represents a valid import or include in PHP header files?",
+    "options": [
+      "include 'file.php';",
+      "require(\"module\")",
+      "import module",
+      "include <sys>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'include 'file.php';' for PHP."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in PHP source code?",
+    "options": [
+      "16",
+      "8",
+      "6",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '8' for PHP."
+  },
+  {
+    "question": "Which operator is used to compare two values in PHP conditional logic?",
+    "options": [
+      "===",
+      "!=",
+      "<>",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for PHP."
+  },
+  {
+    "question": "Which keyword declares a function in PHP conditional logic?",
+    "options": [
+      "var",
+      "int",
+      "class",
+      "const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for PHP."
+  },
+  {
+    "question": "Which term often describes a collection of values in PHP loop logic?",
+    "options": [
+      "function",
+      "object",
+      "class",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for PHP."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in PHP loop logic?",
+    "options": [
+      "compilation",
+      "optimization",
+      "recursion",
+      "iteration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for PHP."
+  },
+  {
+    "question": "Which line represents a correct function definition in PHP function definitions?",
+    "options": [
+      "function example() {}",
+      "main() {}",
+      "def main",
+      "function main"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function example() {}' for PHP."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in PHP function definitions?",
+    "options": [
+      "2",
+      "6",
+      "16",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for PHP."
+  },
+  {
+    "question": "Which operator in PHP is used for string concatenation in header files?",
+    "options": [
+      "##",
+      "&",
+      "||",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for PHP."
+  },
+  {
+    "question": "Which line represents a valid import or include in PHP conditional logic?",
+    "options": [
+      "include 'file.php';",
+      "import module",
+      "require(\"module\")",
+      "include <sys>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'include 'file.php';' for PHP."
+  },
+  {
+    "question": "Which keyword declares a function in PHP source code?",
+    "options": [
+      "class",
+      "int",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for PHP."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in PHP conditional logic?",
+    "options": [
+      "dynamic",
+      "mutable",
+      "immutable",
+      "temporary"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'immutable' for PHP."
+  },
+  {
+    "question": "Which keyword declares a function in PHP header files?",
+    "options": [
+      "var",
+      "class",
+      "int",
+      "const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int' for PHP."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in PHP header files?",
+    "options": [
+      "when",
+      "switch",
+      "if",
+      "case"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for PHP."
+  },
+  {
+    "question": "Which line represents a correct function definition in PHP data types?",
+    "options": [
+      "main() {}",
+      "def main",
+      "function example() {}",
+      "function main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function example() {}' for PHP."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in PHP source code?",
+    "options": [
+      "switch",
+      "case",
+      "if",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for PHP."
+  },
+  {
+    "question": "Which keyword in PHP indicates a return value from a function in header files?",
+    "options": [
+      "yield",
+      "break",
+      "return",
+      "exit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for PHP."
+  },
+  {
+    "question": "Which keyword in PHP indicates a return value from a function in source code?",
+    "options": [
+      "return",
+      "yield",
+      "break",
+      "exit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'return' for PHP."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in PHP loop logic?",
+    "options": [
+      "for",
+      "case",
+      "if",
+      "switch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for PHP."
+  },
+  {
+    "question": "Which line represents a correct function definition in PHP loop logic?",
+    "options": [
+      "function example() {}",
+      "main() {}",
+      "def main",
+      "function main"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function example() {}' for PHP."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in PHP conditional logic?",
+    "options": [
+      "16",
+      "8",
+      "2",
+      "6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '8' for PHP."
+  }
+]

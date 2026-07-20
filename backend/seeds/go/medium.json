@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword declares a function in Go data types?",
+    "options": [
+      "const",
+      "class",
+      "var",
+      "func"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'func' for Go."
+  },
+  {
+    "question": "Which term often describes a collection of values in Go library imports?",
+    "options": [
+      "object",
+      "array",
+      "class",
+      "function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Go."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Go data types?",
+    "options": [
+      "when",
+      "switch",
+      "case",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'if' for Go."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Go source code?",
+    "options": [
+      "6",
+      "2",
+      "8",
+      "16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for Go."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Go library imports?",
+    "options": [
+      "when",
+      "case",
+      "switch",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'if' for Go."
+  },
+  {
+    "question": "Which operator in Go is used for string concatenation in header files?",
+    "options": [
+      "||",
+      "##",
+      "+",
+      "&"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for Go."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Go source code?",
+    "options": [
+      "func",
+      "module",
+      "struct",
+      "class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'func' for Go."
+  },
+  {
+    "question": "Which keyword in Go indicates a return value from a function in header files?",
+    "options": [
+      "exit",
+      "return",
+      "break",
+      "yield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for Go."
+  },
+  {
+    "question": "Which keyword declares a function in Go library imports?",
+    "options": [
+      "const",
+      "class",
+      "func",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'func' for Go."
+  },
+  {
+    "question": "Which operator is used to compare two values in Go loop logic?",
+    "options": [
+      "==",
+      "<>",
+      "!=",
+      "==="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Go."
+  },
+  {
+    "question": "Which line represents a correct function definition in Go source code?",
+    "options": [
+      "function main",
+      "def main",
+      "main() {}",
+      "func main()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'func main()' for Go."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Go memory management?",
+    "options": [
+      "case",
+      "when",
+      "switch",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'if' for Go."
+  },
+  {
+    "question": "Which keyword in Go creates a new variable in source code?",
+    "options": [
+      "let",
+      "static",
+      "class",
+      "const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'let' for Go."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Go function definitions?",
+    "options": [
+      "dynamic",
+      "immutable",
+      "temporary",
+      "mutable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for Go."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Go conditional logic?",
+    "options": [
+      "2",
+      "6",
+      "16",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for Go."
+  },
+  {
+    "question": "Which keyword in Go indicates a return value from a function in source code?",
+    "options": [
+      "break",
+      "exit",
+      "return",
+      "yield"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for Go."
+  },
+  {
+    "question": "Which line represents a valid import or include in Go source code?",
+    "options": [
+      "import module",
+      "import \"fmt\"",
+      "include <sys>",
+      "require(\"module\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'import \"fmt\"' for Go."
+  },
+  {
+    "question": "Which keyword declares a function in Go function definitions?",
+    "options": [
+      "var",
+      "class",
+      "func",
+      "const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'func' for Go."
+  },
+  {
+    "question": "Which keyword in Go indicates a return value from a function in loop logic?",
+    "options": [
+      "exit",
+      "yield",
+      "return",
+      "break"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for Go."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Go conditional logic?",
+    "options": [
+      "optimization",
+      "iteration",
+      "recursion",
+      "compilation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for Go."
+  },
+  {
+    "question": "Which operator is used to compare two values in Go data types?",
+    "options": [
+      "==",
+      "===",
+      "!=",
+      "<>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Go."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Go library imports?",
+    "options": [
+      "mutable",
+      "temporary",
+      "immutable",
+      "dynamic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'immutable' for Go."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Go function definitions?",
+    "options": [
+      "when",
+      "case",
+      "switch",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'if' for Go."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Go library imports?",
+    "options": [
+      "recursion",
+      "optimization",
+      "compilation",
+      "iteration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for Go."
+  },
+  {
+    "question": "Which line represents a correct function definition in Go function definitions?",
+    "options": [
+      "function main",
+      "main() {}",
+      "func main()",
+      "def main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'func main()' for Go."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Go header files?",
+    "options": [
+      "case",
+      "if",
+      "when",
+      "switch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for Go."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Go source code?",
+    "options": [
+      "compilation",
+      "iteration",
+      "recursion",
+      "optimization"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for Go."
+  },
+  {
+    "question": "Which keyword in Go creates a new variable in loop logic?",
+    "options": [
+      "const",
+      "let",
+      "class",
+      "static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'let' for Go."
+  },
+  {
+    "question": "Which operator in Go is used for string concatenation in source code?",
+    "options": [
+      "&",
+      "||",
+      "##",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for Go."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Go loop logic?",
+    "options": [
+      "case",
+      "switch",
+      "when",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'if' for Go."
+  },
+  {
+    "question": "Which keyword declares a function in Go memory management?",
+    "options": [
+      "class",
+      "const",
+      "var",
+      "func"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'func' for Go."
+  },
+  {
+    "question": "Which term often describes a collection of values in Go header files?",
+    "options": [
+      "object",
+      "array",
+      "function",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Go."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Go loop logic?",
+    "options": [
+      "2",
+      "6",
+      "8",
+      "16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for Go."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Go data types?",
+    "options": [
+      "iteration",
+      "compilation",
+      "optimization",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for Go."
+  },
+  {
+    "question": "Which line represents a valid import or include in Go library imports?",
+    "options": [
+      "include <sys>",
+      "require(\"module\")",
+      "import \"fmt\"",
+      "import module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'import \"fmt\"' for Go."
+  },
+  {
+    "question": "Which operator is used to compare two values in Go conditional logic?",
+    "options": [
+      "<>",
+      "==",
+      "!=",
+      "==="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Go."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Go function definitions?",
+    "options": [
+      "for",
+      "case",
+      "switch",
+      "if"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for Go."
+  },
+  {
+    "question": "Which line represents a valid import or include in Go function definitions?",
+    "options": [
+      "require(\"module\")",
+      "import module",
+      "import \"fmt\"",
+      "include <sys>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'import \"fmt\"' for Go."
+  },
+  {
+    "question": "Which term often describes a collection of values in Go loop logic?",
+    "options": [
+      "function",
+      "object",
+      "array",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Go."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Go library imports?",
+    "options": [
+      "module",
+      "func",
+      "struct",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'func' for Go."
+  },
+  {
+    "question": "Which keyword declares a function in Go loop logic?",
+    "options": [
+      "class",
+      "func",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'func' for Go."
+  },
+  {
+    "question": "Which operator in Go is used for string concatenation in function definitions?",
+    "options": [
+      "&",
+      "+",
+      "||",
+      "##"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '+' for Go."
+  },
+  {
+    "question": "Which operator in Go is used for string concatenation in loop logic?",
+    "options": [
+      "+",
+      "&",
+      "##",
+      "||"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for Go."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Go conditional logic?",
+    "options": [
+      "immutable",
+      "temporary",
+      "mutable",
+      "dynamic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for Go."
+  },
+  {
+    "question": "Which keyword in Go creates a new variable in function definitions?",
+    "options": [
+      "class",
+      "const",
+      "let",
+      "static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'let' for Go."
+  },
+  {
+    "question": "Which keyword in Go creates a new variable in library imports?",
+    "options": [
+      "const",
+      "static",
+      "let",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'let' for Go."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Go loop logic?",
+    "options": [
+      "struct",
+      "func",
+      "module",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'func' for Go."
+  },
+  {
+    "question": "Which keyword in Go indicates a return value from a function in function definitions?",
+    "options": [
+      "return",
+      "exit",
+      "break",
+      "yield"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'return' for Go."
+  },
+  {
+    "question": "Which keyword in Go creates a new variable in conditional logic?",
+    "options": [
+      "static",
+      "let",
+      "const",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'let' for Go."
+  },
+  {
+    "question": "Which line represents a valid import or include in Go loop logic?",
+    "options": [
+      "require(\"module\")",
+      "import \"fmt\"",
+      "import module",
+      "include <sys>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'import \"fmt\"' for Go."
+  }
+]

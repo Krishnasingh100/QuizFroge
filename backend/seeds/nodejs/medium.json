@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which value is the result of 4 * 2 in Node.js data types?",
+    "options": [
+      "8",
+      "16",
+      "6",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '8' for Node.js."
+  },
+  {
+    "question": "Which term often describes a collection of values in Node.js loop logic?",
+    "options": [
+      "function",
+      "array",
+      "object",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Node.js."
+  },
+  {
+    "question": "Which keyword in Node.js creates a new variable in loop logic?",
+    "options": [
+      "static",
+      "class",
+      "var",
+      "const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'var' for Node.js."
+  },
+  {
+    "question": "Which operator in Node.js is used for string concatenation in loop logic?",
+    "options": [
+      "||",
+      "##",
+      "+",
+      "&"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for Node.js."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Node.js library imports?",
+    "options": [
+      "immutable",
+      "temporary",
+      "mutable",
+      "dynamic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for Node.js."
+  },
+  {
+    "question": "Which operator is used to compare two values in Node.js source code?",
+    "options": [
+      "==",
+      "!=",
+      "===",
+      "<>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '===' for Node.js."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Node.js library imports?",
+    "options": [
+      "for",
+      "if",
+      "switch",
+      "case"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for Node.js."
+  },
+  {
+    "question": "Which operator in Node.js is used for string concatenation in data types?",
+    "options": [
+      "&",
+      "+",
+      "##",
+      "||"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '+' for Node.js."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Node.js source code?",
+    "options": [
+      "2",
+      "16",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for Node.js."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Node.js conditional logic?",
+    "options": [
+      "switch",
+      "for",
+      "if",
+      "case"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for Node.js."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Node.js library imports?",
+    "options": [
+      "6",
+      "8",
+      "2",
+      "16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '8' for Node.js."
+  },
+  {
+    "question": "Which line represents a correct function definition in Node.js library imports?",
+    "options": [
+      "function main() {}",
+      "main() {}",
+      "def main",
+      "function main"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function main() {}' for Node.js."
+  },
+  {
+    "question": "Which line represents a correct function definition in Node.js function definitions?",
+    "options": [
+      "function main",
+      "def main",
+      "main() {}",
+      "function main() {}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function main() {}' for Node.js."
+  },
+  {
+    "question": "Which keyword declares a function in Node.js source code?",
+    "options": [
+      "const",
+      "class",
+      "var",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for Node.js."
+  },
+  {
+    "question": "Which operator is used to compare two values in Node.js library imports?",
+    "options": [
+      "!=",
+      "<>",
+      "===",
+      "=="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '===' for Node.js."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Node.js function definitions?",
+    "options": [
+      "module",
+      "struct",
+      "function",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for Node.js."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Node.js source code?",
+    "options": [
+      "optimization",
+      "recursion",
+      "iteration",
+      "compilation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'recursion' for Node.js."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Node.js source code?",
+    "options": [
+      "function",
+      "class",
+      "module",
+      "struct"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for Node.js."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Node.js conditional logic?",
+    "options": [
+      "module",
+      "class",
+      "struct",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for Node.js."
+  },
+  {
+    "question": "Which term often describes a collection of values in Node.js data types?",
+    "options": [
+      "class",
+      "object",
+      "array",
+      "function"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Node.js."
+  },
+  {
+    "question": "Which term often describes a collection of values in Node.js header files?",
+    "options": [
+      "class",
+      "array",
+      "function",
+      "object"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Node.js."
+  },
+  {
+    "question": "Which keyword in Node.js indicates a return value from a function in data types?",
+    "options": [
+      "yield",
+      "break",
+      "return",
+      "exit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for Node.js."
+  },
+  {
+    "question": "Which keyword in Node.js creates a new variable in header files?",
+    "options": [
+      "var",
+      "const",
+      "class",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'var' for Node.js."
+  },
+  {
+    "question": "Which keyword in Node.js creates a new variable in data types?",
+    "options": [
+      "class",
+      "var",
+      "const",
+      "static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'var' for Node.js."
+  },
+  {
+    "question": "Which line represents a correct function definition in Node.js header files?",
+    "options": [
+      "def main",
+      "function main",
+      "function main() {}",
+      "main() {}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function main() {}' for Node.js."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Node.js loop logic?",
+    "options": [
+      "compilation",
+      "optimization",
+      "iteration",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for Node.js."
+  },
+  {
+    "question": "Which line represents a valid import or include in Node.js loop logic?",
+    "options": [
+      "include <sys>",
+      "require(\"module\")",
+      "import module",
+      "const fs = require(\"fs\");"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const fs = require(\"fs\");' for Node.js."
+  },
+  {
+    "question": "Which keyword in Node.js creates a new variable in conditional logic?",
+    "options": [
+      "var",
+      "const",
+      "class",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'var' for Node.js."
+  },
+  {
+    "question": "Which keyword in Node.js indicates a return value from a function in library imports?",
+    "options": [
+      "break",
+      "return",
+      "exit",
+      "yield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for Node.js."
+  },
+  {
+    "question": "Which line represents a valid import or include in Node.js data types?",
+    "options": [
+      "const fs = require(\"fs\");",
+      "import module",
+      "require(\"module\")",
+      "include <sys>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const fs = require(\"fs\");' for Node.js."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Node.js header files?",
+    "options": [
+      "for",
+      "switch",
+      "case",
+      "if"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for Node.js."
+  },
+  {
+    "question": "Which keyword in Node.js creates a new variable in function definitions?",
+    "options": [
+      "static",
+      "const",
+      "class",
+      "var"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'var' for Node.js."
+  },
+  {
+    "question": "Which operator in Node.js is used for string concatenation in conditional logic?",
+    "options": [
+      "+",
+      "&",
+      "##",
+      "||"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for Node.js."
+  },
+  {
+    "question": "Which term often describes a collection of values in Node.js library imports?",
+    "options": [
+      "class",
+      "object",
+      "array",
+      "function"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Node.js."
+  },
+  {
+    "question": "Which operator in Node.js is used for string concatenation in library imports?",
+    "options": [
+      "||",
+      "+",
+      "&",
+      "##"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '+' for Node.js."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Node.js memory management?",
+    "options": [
+      "case",
+      "if",
+      "when",
+      "switch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for Node.js."
+  },
+  {
+    "question": "Which line represents a correct function definition in Node.js conditional logic?",
+    "options": [
+      "def main",
+      "main() {}",
+      "function main() {}",
+      "function main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function main() {}' for Node.js."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Node.js loop logic?",
+    "options": [
+      "8",
+      "6",
+      "16",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '8' for Node.js."
+  },
+  {
+    "question": "Which keyword declares a function in Node.js loop logic?",
+    "options": [
+      "const",
+      "class",
+      "var",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for Node.js."
+  },
+  {
+    "question": "Which keyword declares a function in Node.js memory management?",
+    "options": [
+      "var",
+      "const",
+      "function",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for Node.js."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Node.js data types?",
+    "options": [
+      "temporary",
+      "dynamic",
+      "mutable",
+      "immutable"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'immutable' for Node.js."
+  },
+  {
+    "question": "Which keyword in Node.js indicates a return value from a function in source code?",
+    "options": [
+      "exit",
+      "return",
+      "yield",
+      "break"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for Node.js."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Node.js function definitions?",
+    "options": [
+      "case",
+      "if",
+      "when",
+      "switch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for Node.js."
+  },
+  {
+    "question": "Which keyword declares a function in Node.js data types?",
+    "options": [
+      "function",
+      "var",
+      "class",
+      "const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for Node.js."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Node.js header files?",
+    "options": [
+      "dynamic",
+      "immutable",
+      "temporary",
+      "mutable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for Node.js."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Node.js source code?",
+    "options": [
+      "immutable",
+      "dynamic",
+      "mutable",
+      "temporary"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for Node.js."
+  },
+  {
+    "question": "Which term often describes a collection of values in Node.js function definitions?",
+    "options": [
+      "function",
+      "object",
+      "array",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Node.js."
+  },
+  {
+    "question": "Which line represents a valid import or include in Node.js source code?",
+    "options": [
+      "require(\"module\")",
+      "import module",
+      "include <sys>",
+      "const fs = require(\"fs\");"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const fs = require(\"fs\");' for Node.js."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Node.js function definitions?",
+    "options": [
+      "iteration",
+      "recursion",
+      "compilation",
+      "optimization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'recursion' for Node.js."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Node.js data types?",
+    "options": [
+      "function",
+      "module",
+      "class",
+      "struct"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for Node.js."
+  }
+]

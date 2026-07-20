@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which term often describes a collection of values in C++ data types?",
+    "options": [
+      "function",
+      "array",
+      "class",
+      "object"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for C++."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in C++ data types?",
+    "options": [
+      "immutable",
+      "mutable",
+      "temporary",
+      "dynamic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for C++."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in C++ function definitions?",
+    "options": [
+      "for",
+      "if",
+      "switch",
+      "case"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for C++."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C++ data types?",
+    "options": [
+      "case",
+      "when",
+      "if",
+      "switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for C++."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in C++ function definitions?",
+    "options": [
+      "iteration",
+      "optimization",
+      "compilation",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for C++."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in C++ library imports?",
+    "options": [
+      "immutable",
+      "mutable",
+      "dynamic",
+      "temporary"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for C++."
+  },
+  {
+    "question": "Which line represents a valid import or include in C++ library imports?",
+    "options": [
+      "require(\"module\")",
+      "#include <iostream>",
+      "import module",
+      "include <sys>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '#include <iostream>' for C++."
+  },
+  {
+    "question": "Which operator is used to compare two values in C++ source code?",
+    "options": [
+      "!=",
+      "<>",
+      "===",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which keyword declares a function in C++ header files?",
+    "options": [
+      "const",
+      "int",
+      "var",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which keyword in C++ indicates a return value from a function in data types?",
+    "options": [
+      "exit",
+      "return",
+      "yield",
+      "break"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for C++."
+  },
+  {
+    "question": "Which keyword in C++ creates a new variable in header files?",
+    "options": [
+      "const",
+      "int",
+      "class",
+      "static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in C++ data types?",
+    "options": [
+      "recursion",
+      "optimization",
+      "compilation",
+      "iteration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for C++."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in C++ loop logic?",
+    "options": [
+      "case",
+      "for",
+      "switch",
+      "if"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for C++."
+  },
+  {
+    "question": "Which keyword declares a function in C++ data types?",
+    "options": [
+      "int",
+      "class",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which term often describes a collection of values in C++ conditional logic?",
+    "options": [
+      "object",
+      "array",
+      "class",
+      "function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for C++."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C++ memory management?",
+    "options": [
+      "when",
+      "case",
+      "switch",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'if' for C++."
+  },
+  {
+    "question": "Which keyword declares a function in C++ loop logic?",
+    "options": [
+      "class",
+      "var",
+      "const",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which keyword defines a function or method name in C++ conditional logic?",
+    "options": [
+      "class",
+      "int",
+      "struct",
+      "module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in C++ header files?",
+    "options": [
+      "case",
+      "switch",
+      "for",
+      "if"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for C++."
+  },
+  {
+    "question": "Which keyword in C++ creates a new variable in library imports?",
+    "options": [
+      "const",
+      "int",
+      "static",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which keyword in C++ creates a new variable in conditional logic?",
+    "options": [
+      "static",
+      "int",
+      "const",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which line represents a correct function definition in C++ function definitions?",
+    "options": [
+      "def main",
+      "main() {}",
+      "int main()",
+      "function main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int main()' for C++."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in C++ conditional logic?",
+    "options": [
+      "temporary",
+      "mutable",
+      "dynamic",
+      "immutable"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'immutable' for C++."
+  },
+  {
+    "question": "Which keyword in C++ creates a new variable in data types?",
+    "options": [
+      "int",
+      "static",
+      "const",
+      "class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which operator is used to compare two values in C++ conditional logic?",
+    "options": [
+      "==",
+      "===",
+      "!=",
+      "<>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C++ header files?",
+    "options": [
+      "2",
+      "6",
+      "16",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for C++."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in C++ source code?",
+    "options": [
+      "mutable",
+      "dynamic",
+      "temporary",
+      "immutable"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'immutable' for C++."
+  },
+  {
+    "question": "Which keyword in C++ indicates a return value from a function in header files?",
+    "options": [
+      "break",
+      "return",
+      "yield",
+      "exit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for C++."
+  },
+  {
+    "question": "Which operator in C++ is used for string concatenation in source code?",
+    "options": [
+      "||",
+      "+",
+      "&",
+      "##"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '+' for C++."
+  },
+  {
+    "question": "Which keyword declares a function in C++ library imports?",
+    "options": [
+      "var",
+      "int",
+      "class",
+      "const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which keyword defines a function or method name in C++ source code?",
+    "options": [
+      "module",
+      "struct",
+      "class",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in C++ header files?",
+    "options": [
+      "compilation",
+      "recursion",
+      "iteration",
+      "optimization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'recursion' for C++."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in C++ conditional logic?",
+    "options": [
+      "optimization",
+      "recursion",
+      "iteration",
+      "compilation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'recursion' for C++."
+  },
+  {
+    "question": "Which keyword declares a function in C++ source code?",
+    "options": [
+      "var",
+      "int",
+      "class",
+      "const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which keyword defines a function or method name in C++ function definitions?",
+    "options": [
+      "module",
+      "class",
+      "int",
+      "struct"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int' for C++."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C++ library imports?",
+    "options": [
+      "8",
+      "16",
+      "2",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '8' for C++."
+  },
+  {
+    "question": "Which line represents a valid import or include in C++ data types?",
+    "options": [
+      "include <sys>",
+      "import module",
+      "#include <iostream>",
+      "require(\"module\")"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '#include <iostream>' for C++."
+  },
+  {
+    "question": "Which operator in C++ is used for string concatenation in loop logic?",
+    "options": [
+      "+",
+      "&",
+      "||",
+      "##"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for C++."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C++ function definitions?",
+    "options": [
+      "6",
+      "16",
+      "2",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for C++."
+  },
+  {
+    "question": "Which operator in C++ is used for string concatenation in function definitions?",
+    "options": [
+      "||",
+      "&",
+      "##",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for C++."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in C++ source code?",
+    "options": [
+      "case",
+      "if",
+      "switch",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for C++."
+  },
+  {
+    "question": "Which operator in C++ is used for string concatenation in header files?",
+    "options": [
+      "+",
+      "&",
+      "##",
+      "||"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for C++."
+  },
+  {
+    "question": "Which line represents a correct function definition in C++ conditional logic?",
+    "options": [
+      "function main",
+      "def main",
+      "main() {}",
+      "int main()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int main()' for C++."
+  },
+  {
+    "question": "Which keyword in C++ indicates a return value from a function in function definitions?",
+    "options": [
+      "exit",
+      "break",
+      "return",
+      "yield"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for C++."
+  },
+  {
+    "question": "Which line represents a valid import or include in C++ function definitions?",
+    "options": [
+      "import module",
+      "require(\"module\")",
+      "#include <iostream>",
+      "include <sys>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '#include <iostream>' for C++."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C++ conditional logic?",
+    "options": [
+      "8",
+      "2",
+      "16",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '8' for C++."
+  },
+  {
+    "question": "Which line represents a correct function definition in C++ loop logic?",
+    "options": [
+      "function main",
+      "main() {}",
+      "int main()",
+      "def main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int main()' for C++."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in C++ header files?",
+    "options": [
+      "dynamic",
+      "temporary",
+      "mutable",
+      "immutable"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'immutable' for C++."
+  },
+  {
+    "question": "Which line represents a valid import or include in C++ source code?",
+    "options": [
+      "#include <iostream>",
+      "import module",
+      "include <sys>",
+      "require(\"module\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '#include <iostream>' for C++."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C++ source code?",
+    "options": [
+      "if",
+      "when",
+      "switch",
+      "case"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'if' for C++."
+  }
+]

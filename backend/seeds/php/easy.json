@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which file extension is standard for PHP header files?",
+    "options": [
+      ".txt",
+      ".md",
+      ".json",
+      ".php"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '.php' for PHP."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in PHP conditional logic?",
+    "options": [
+      "/* */",
+      "//",
+      "#",
+      "<!-- -->"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '//' for PHP."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in PHP library imports?",
+    "options": [
+      "25",
+      "0",
+      "2",
+      "10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '10' for PHP."
+  },
+  {
+    "question": "Which phrase describes the main function signature in PHP conditional logic?",
+    "options": [
+      "function example() {}",
+      "main()",
+      "def main():",
+      "function main() {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function example() {}' for PHP."
+  },
+  {
+    "question": "Which value is commonly used for true in PHP source code?",
+    "options": [
+      "False",
+      "true",
+      "false",
+      "True"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'true' for PHP."
+  },
+  {
+    "question": "What is the result of 8 - 3 in PHP loop logic?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '5' for PHP."
+  },
+  {
+    "question": "Which keyword declares a constant value in PHP library imports?",
+    "options": [
+      "let",
+      "const",
+      "static",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for PHP."
+  },
+  {
+    "question": "What is the result of 3 + 4 in PHP conditional logic?",
+    "options": [
+      "0",
+      "Error",
+      "34",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '7' for PHP."
+  },
+  {
+    "question": "Which statement imports libraries or packages in PHP header files?",
+    "options": [
+      "include <lib>",
+      "require(\"lib\")",
+      "include 'file.php';",
+      "use lib;"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'include 'file.php';' for PHP."
+  },
+  {
+    "question": "What is the result of 8 - 3 in PHP source code?",
+    "options": [
+      "3",
+      "2",
+      "8",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '5' for PHP."
+  },
+  {
+    "question": "Which keyword declares a constant value in PHP header files?",
+    "options": [
+      "var",
+      "const",
+      "static",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for PHP."
+  },
+  {
+    "question": "Which keyword declares a constant value in PHP conditional logic?",
+    "options": [
+      "var",
+      "const",
+      "static",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for PHP."
+  },
+  {
+    "question": "Which sign is used to assign values in PHP loop logic?",
+    "options": [
+      "==",
+      "=>",
+      "=",
+      ":="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '=' for PHP."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in PHP header files?",
+    "options": [
+      "break",
+      "continue",
+      "return",
+      "stop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'break' for PHP."
+  },
+  {
+    "question": "Which value represents false in PHP source code?",
+    "options": [
+      "false",
+      "True",
+      "true",
+      "False"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'false' for PHP."
+  },
+  {
+    "question": "Which code line uses string concatenation in PHP source code?",
+    "options": [
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" . \"World\"",
+      "\"Hello\" + \"World\"",
+      "concat(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for PHP."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in PHP conditional logic?",
+    "options": [
+      "console.log(\"Hello\")",
+      "echo \"Hello\";",
+      "echo \"Hello\";",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'echo \"Hello\";' for PHP."
+  },
+  {
+    "question": "Which value represents false in PHP loop logic?",
+    "options": [
+      "true",
+      "False",
+      "false",
+      "True"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'false' for PHP."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in PHP library imports?",
+    "options": [
+      "puts \"Hello\"",
+      "echo \"Hello\";",
+      "echo \"Hello\";",
+      "console.log(\"Hello\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'echo \"Hello\";' for PHP."
+  },
+  {
+    "question": "Which value represents false in PHP library imports?",
+    "options": [
+      "False",
+      "True",
+      "true",
+      "false"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'false' for PHP."
+  },
+  {
+    "question": "Which value is commonly used for true in PHP header files?",
+    "options": [
+      "False",
+      "true",
+      "false",
+      "True"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'true' for PHP."
+  },
+  {
+    "question": "Which option fills the blank in PHP header files: const x = 5; x = 10; // __? ",
+    "options": [
+      "iteration",
+      "assignment",
+      "comparison",
+      "declaration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'assignment' for PHP."
+  },
+  {
+    "question": "What is the result of 8 - 3 in PHP header files?",
+    "options": [
+      "3",
+      "5",
+      "2",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '5' for PHP."
+  },
+  {
+    "question": "Which keyword begins a loop in PHP loop logic?",
+    "options": [
+      "loop",
+      "for",
+      "repeat",
+      "while"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for PHP."
+  },
+  {
+    "question": "Which operator checks equality in PHP loop logic?",
+    "options": [
+      "=",
+      "===",
+      "!=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for PHP."
+  },
+  {
+    "question": "What is the result of 8 - 3 in PHP library imports?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '5' for PHP."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in PHP source code?",
+    "options": [
+      "echo \"Hello\";",
+      "echo \"Hello\";",
+      "console.log(\"Hello\")",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'echo \"Hello\";' for PHP."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in PHP header files?",
+    "options": [
+      "2",
+      "0",
+      "25",
+      "10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '10' for PHP."
+  },
+  {
+    "question": "What is the result of 3 + 4 in PHP header files?",
+    "options": [
+      "0",
+      "7",
+      "34",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '7' for PHP."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in PHP loop logic?",
+    "options": [
+      "return",
+      "continue",
+      "stop",
+      "break"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'break' for PHP."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in PHP loop logic?",
+    "options": [
+      "variables",
+      "comments",
+      "functions",
+      "classes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'functions' for PHP."
+  },
+  {
+    "question": "Which file extension is standard for PHP source code?",
+    "options": [
+      ".md",
+      ".php",
+      ".json",
+      ".txt"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '.php' for PHP."
+  },
+  {
+    "question": "Which phrase describes the main function signature in PHP loop logic?",
+    "options": [
+      "def main():",
+      "function example() {}",
+      "main()",
+      "function main() {}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function example() {}' for PHP."
+  },
+  {
+    "question": "Which phrase describes the main function signature in PHP source code?",
+    "options": [
+      "main()",
+      "function example() {}",
+      "function main() {}",
+      "def main():"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function example() {}' for PHP."
+  },
+  {
+    "question": "Which operator checks equality in PHP source code?",
+    "options": [
+      "==",
+      "===",
+      "!=",
+      "="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for PHP."
+  },
+  {
+    "question": "Which code line uses string concatenation in PHP loop logic?",
+    "options": [
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" . \"World\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for PHP."
+  },
+  {
+    "question": "Which keyword declares a constant value in PHP source code?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for PHP."
+  },
+  {
+    "question": "Which code line uses string concatenation in PHP header files?",
+    "options": [
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" . \"World\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for PHP."
+  },
+  {
+    "question": "Which option fills the blank in PHP library imports: const x = 5; x = 10; // __? ",
+    "options": [
+      "iteration",
+      "comparison",
+      "assignment",
+      "declaration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'assignment' for PHP."
+  },
+  {
+    "question": "Which file extension is standard for PHP function definitions?",
+    "options": [
+      ".php",
+      ".md",
+      ".txt",
+      ".json"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.php' for PHP."
+  },
+  {
+    "question": "Which sign is used to assign values in PHP source code?",
+    "options": [
+      "=>",
+      "=",
+      "==",
+      ":="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '=' for PHP."
+  },
+  {
+    "question": "Which option fills the blank in PHP source code: const x = 5; x = 10; // __? ",
+    "options": [
+      "declaration",
+      "comparison",
+      "assignment",
+      "iteration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'assignment' for PHP."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in PHP header files?",
+    "options": [
+      "puts \"Hello\"",
+      "echo \"Hello\";",
+      "console.log(\"Hello\")",
+      "echo \"Hello\";"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'echo \"Hello\";' for PHP."
+  },
+  {
+    "question": "Which keyword declares a constant value in PHP function definitions?",
+    "options": [
+      "let",
+      "static",
+      "var",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for PHP."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in PHP function definitions?",
+    "options": [
+      "#",
+      "<!-- -->",
+      "/* */",
+      "//"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '//' for PHP."
+  },
+  {
+    "question": "Which code line correctly declares a constant in PHP conditional logic?",
+    "options": [
+      "var",
+      "const",
+      "let",
+      "static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for PHP."
+  },
+  {
+    "question": "Which code line correctly declares a constant in PHP source code?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for PHP."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in PHP conditional logic?",
+    "options": [
+      "functions",
+      "comments",
+      "variables",
+      "classes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'functions' for PHP."
+  },
+  {
+    "question": "Which statement imports libraries or packages in PHP conditional logic?",
+    "options": [
+      "require(\"lib\")",
+      "include <lib>",
+      "use lib;",
+      "include 'file.php';"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'include 'file.php';' for PHP."
+  },
+  {
+    "question": "Which value is commonly used for true in PHP library imports?",
+    "options": [
+      "True",
+      "false",
+      "False",
+      "true"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'true' for PHP."
+  }
+]

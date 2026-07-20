@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which feature is commonly used for concurrency in Kotlin applications in library imports?",
+    "options": [
+      "closures",
+      "generics",
+      "async tasks",
+      "inheritance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'async tasks' for Kotlin."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Kotlin error handling?",
+    "options": [
+      "array",
+      "stack",
+      "linked list",
+      "queue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Kotlin."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Kotlin applications in header files?",
+    "options": [
+      "generics",
+      "closures",
+      "async tasks",
+      "inheritance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'async tasks' for Kotlin."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Kotlin code in loop logic?",
+    "options": [
+      "let",
+      "val",
+      "mutable",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'val' for Kotlin."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Kotlin loop logic?",
+    "options": [
+      "queue",
+      "array",
+      "stack",
+      "linked list"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Kotlin."
+  },
+  {
+    "question": "Which keyword defines a class in Kotlin function definitions?",
+    "options": [
+      "namespace",
+      "function",
+      "module",
+      "package"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for Kotlin."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Kotlin header files?",
+    "options": [
+      "static",
+      "transient",
+      "dynamic",
+      "volatile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for Kotlin."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Kotlin code in input/output?",
+    "options": [
+      "val",
+      "var",
+      "mutable",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'val' for Kotlin."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Kotlin applications in function definitions?",
+    "options": [
+      "generics",
+      "closures",
+      "inheritance",
+      "async tasks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'async tasks' for Kotlin."
+  },
+  {
+    "question": "Which statement best describes memory management in Kotlin loop logic?",
+    "options": [
+      "runtime binding",
+      "automatic garbage collection",
+      "implicit typing",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Kotlin code in function definitions?",
+    "options": [
+      "mutable",
+      "let",
+      "var",
+      "val"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'val' for Kotlin."
+  },
+  {
+    "question": "Which statement best describes memory management in Kotlin error handling?",
+    "options": [
+      "syntax highlighting",
+      "implicit typing",
+      "runtime binding",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
+  },
+  {
+    "question": "Which statement checks for equality in Kotlin memory management?",
+    "options": [
+      "==",
+      "=>",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Kotlin."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Kotlin conditional logic?",
+    "options": [
+      "inheritance",
+      "global variables",
+      "None handling",
+      "exceptions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for Kotlin."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Kotlin source code?",
+    "options": [
+      "global variables",
+      "inheritance",
+      "exceptions",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for Kotlin."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Kotlin applications in error handling?",
+    "options": [
+      "closures",
+      "async tasks",
+      "inheritance",
+      "generics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async tasks' for Kotlin."
+  },
+  {
+    "question": "Which statement checks for equality in Kotlin source code?",
+    "options": [
+      "==",
+      "=>",
+      "=",
+      ":="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Kotlin."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Kotlin loop logic?",
+    "options": [
+      "polymorphism",
+      "encapsulation",
+      "abstraction",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for Kotlin."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Kotlin source code?",
+    "options": [
+      "dynamic",
+      "static",
+      "volatile",
+      "transient"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for Kotlin."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Kotlin applications in data types?",
+    "options": [
+      "inheritance",
+      "closures",
+      "generics",
+      "async tasks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'async tasks' for Kotlin."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Kotlin input/output?",
+    "options": [
+      "aggregation",
+      "composition",
+      "delegation",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Kotlin."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Kotlin source code?",
+    "options": [
+      "polymorphism",
+      "encapsulation",
+      "modularity",
+      "abstraction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Kotlin."
+  },
+  {
+    "question": "Which keyword defines a class in Kotlin header files?",
+    "options": [
+      "module",
+      "package",
+      "namespace",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for Kotlin."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Kotlin header files?",
+    "options": [
+      "polymorphism",
+      "encapsulation",
+      "modularity",
+      "abstraction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Kotlin."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Kotlin error handling?",
+    "options": [
+      "global variables",
+      "exceptions",
+      "None handling",
+      "inheritance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for Kotlin."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Kotlin library imports?",
+    "options": [
+      "abstraction",
+      "encapsulation",
+      "polymorphism",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for Kotlin."
+  },
+  {
+    "question": "Which statement best describes memory management in Kotlin source code?",
+    "options": [
+      "implicit typing",
+      "syntax highlighting",
+      "runtime binding",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Kotlin code in data types?",
+    "options": [
+      "var",
+      "val",
+      "let",
+      "mutable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'val' for Kotlin."
+  },
+  {
+    "question": "Which keyword defines a class in Kotlin conditional logic?",
+    "options": [
+      "module",
+      "namespace",
+      "function",
+      "package"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for Kotlin."
+  },
+  {
+    "question": "Which statement best describes memory management in Kotlin function definitions?",
+    "options": [
+      "syntax highlighting",
+      "runtime binding",
+      "implicit typing",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Kotlin loop logic?",
+    "options": [
+      "aggregation",
+      "composition",
+      "delegation",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Kotlin."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Kotlin function definitions?",
+    "options": [
+      "encapsulation",
+      "polymorphism",
+      "modularity",
+      "abstraction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Kotlin."
+  },
+  {
+    "question": "Which keyword defines a class in Kotlin data types?",
+    "options": [
+      "package",
+      "function",
+      "module",
+      "namespace"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for Kotlin."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Kotlin source code?",
+    "options": [
+      "stack",
+      "array",
+      "linked list",
+      "queue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Kotlin."
+  },
+  {
+    "question": "Which statement best describes memory management in Kotlin memory management?",
+    "options": [
+      "syntax highlighting",
+      "runtime binding",
+      "implicit typing",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Kotlin library imports?",
+    "options": [
+      "queue",
+      "array",
+      "linked list",
+      "stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Kotlin."
+  },
+  {
+    "question": "Which statement checks for equality in Kotlin input/output?",
+    "options": [
+      "=",
+      ":=",
+      "=>",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Kotlin."
+  },
+  {
+    "question": "Which statement best describes memory management in Kotlin library imports?",
+    "options": [
+      "automatic garbage collection",
+      "syntax highlighting",
+      "runtime binding",
+      "implicit typing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Kotlin header files?",
+    "options": [
+      "composition",
+      "aggregation",
+      "delegation",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Kotlin."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Kotlin data types?",
+    "options": [
+      "volatile",
+      "static",
+      "dynamic",
+      "transient"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for Kotlin."
+  },
+  {
+    "question": "Which statement checks for equality in Kotlin library imports?",
+    "options": [
+      "=>",
+      "=",
+      "==",
+      ":="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Kotlin."
+  },
+  {
+    "question": "Which statement checks for equality in Kotlin loop logic?",
+    "options": [
+      "=",
+      "==",
+      ":=",
+      "=>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Kotlin."
+  },
+  {
+    "question": "Which statement checks for equality in Kotlin data types?",
+    "options": [
+      "==",
+      "=>",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Kotlin."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Kotlin conditional logic?",
+    "options": [
+      "delegation",
+      "composition",
+      "inheritance",
+      "aggregation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'inheritance' for Kotlin."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Kotlin code in library imports?",
+    "options": [
+      "let",
+      "mutable",
+      "val",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'val' for Kotlin."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Kotlin error handling?",
+    "options": [
+      "dynamic",
+      "volatile",
+      "static",
+      "transient"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for Kotlin."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Kotlin code in memory management?",
+    "options": [
+      "var",
+      "mutable",
+      "let",
+      "val"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'val' for Kotlin."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Kotlin data types?",
+    "options": [
+      "encapsulation",
+      "abstraction",
+      "modularity",
+      "polymorphism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Kotlin."
+  },
+  {
+    "question": "Which keyword defines a class in Kotlin source code?",
+    "options": [
+      "namespace",
+      "module",
+      "function",
+      "package"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for Kotlin."
+  },
+  {
+    "question": "Which statement best describes memory management in Kotlin input/output?",
+    "options": [
+      "runtime binding",
+      "syntax highlighting",
+      "implicit typing",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
+  }
+]

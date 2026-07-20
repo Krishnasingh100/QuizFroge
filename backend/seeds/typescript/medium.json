@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in TypeScript function definitions?",
+    "options": [
+      "immutable",
+      "temporary",
+      "dynamic",
+      "mutable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for TypeScript."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in TypeScript source code?",
+    "options": [
+      "optimization",
+      "recursion",
+      "iteration",
+      "compilation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'recursion' for TypeScript."
+  },
+  {
+    "question": "Which operator in TypeScript is used for string concatenation in header files?",
+    "options": [
+      "&",
+      "||",
+      "##",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for TypeScript."
+  },
+  {
+    "question": "Which line represents a correct function definition in TypeScript function definitions?",
+    "options": [
+      "function example(): void {}",
+      "def main",
+      "main() {}",
+      "function main"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function example(): void {}' for TypeScript."
+  },
+  {
+    "question": "Which term often describes a collection of values in TypeScript library imports?",
+    "options": [
+      "function",
+      "class",
+      "array",
+      "object"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for TypeScript."
+  },
+  {
+    "question": "Which keyword in TypeScript creates a new variable in loop logic?",
+    "options": [
+      "class",
+      "static",
+      "const",
+      "let"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'let' for TypeScript."
+  },
+  {
+    "question": "Which keyword in TypeScript indicates a return value from a function in header files?",
+    "options": [
+      "break",
+      "exit",
+      "return",
+      "yield"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for TypeScript."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in TypeScript loop logic?",
+    "options": [
+      "switch",
+      "if",
+      "when",
+      "case"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for TypeScript."
+  },
+  {
+    "question": "Which operator is used to compare two values in TypeScript function definitions?",
+    "options": [
+      "===",
+      "<>",
+      "!=",
+      "=="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which keyword in TypeScript indicates a return value from a function in function definitions?",
+    "options": [
+      "exit",
+      "break",
+      "return",
+      "yield"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for TypeScript."
+  },
+  {
+    "question": "Which line represents a valid import or include in TypeScript conditional logic?",
+    "options": [
+      "include <sys>",
+      "require(\"module\")",
+      "import useState from \"react\";",
+      "import module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'import useState from \"react\";' for TypeScript."
+  },
+  {
+    "question": "Which line represents a correct function definition in TypeScript conditional logic?",
+    "options": [
+      "function main",
+      "function example(): void {}",
+      "def main",
+      "main() {}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function example(): void {}' for TypeScript."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in TypeScript loop logic?",
+    "options": [
+      "dynamic",
+      "temporary",
+      "immutable",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'immutable' for TypeScript."
+  },
+  {
+    "question": "Which line represents a correct function definition in TypeScript loop logic?",
+    "options": [
+      "function example(): void {}",
+      "function main",
+      "def main",
+      "main() {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function example(): void {}' for TypeScript."
+  },
+  {
+    "question": "Which operator is used to compare two values in TypeScript loop logic?",
+    "options": [
+      "!=",
+      "<>",
+      "==",
+      "==="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which keyword declares a function in TypeScript function definitions?",
+    "options": [
+      "var",
+      "int",
+      "const",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for TypeScript."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in TypeScript function definitions?",
+    "options": [
+      "6",
+      "8",
+      "16",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '8' for TypeScript."
+  },
+  {
+    "question": "Which operator is used to compare two values in TypeScript conditional logic?",
+    "options": [
+      "<>",
+      "===",
+      "!=",
+      "=="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which keyword in TypeScript indicates a return value from a function in loop logic?",
+    "options": [
+      "yield",
+      "break",
+      "exit",
+      "return"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'return' for TypeScript."
+  },
+  {
+    "question": "Which keyword in TypeScript creates a new variable in header files?",
+    "options": [
+      "let",
+      "class",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'let' for TypeScript."
+  },
+  {
+    "question": "Which keyword declares a function in TypeScript data types?",
+    "options": [
+      "const",
+      "int",
+      "class",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for TypeScript."
+  },
+  {
+    "question": "Which operator is used to compare two values in TypeScript library imports?",
+    "options": [
+      "<>",
+      "!=",
+      "===",
+      "=="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which keyword declares a function in TypeScript source code?",
+    "options": [
+      "class",
+      "const",
+      "int",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int' for TypeScript."
+  },
+  {
+    "question": "Which keyword in TypeScript indicates a return value from a function in data types?",
+    "options": [
+      "exit",
+      "return",
+      "break",
+      "yield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for TypeScript."
+  },
+  {
+    "question": "Which operator in TypeScript is used for string concatenation in function definitions?",
+    "options": [
+      "||",
+      "+",
+      "##",
+      "&"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '+' for TypeScript."
+  },
+  {
+    "question": "Which keyword declares a function in TypeScript header files?",
+    "options": [
+      "const",
+      "var",
+      "int",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int' for TypeScript."
+  },
+  {
+    "question": "Which operator in TypeScript is used for string concatenation in loop logic?",
+    "options": [
+      "||",
+      "##",
+      "+",
+      "&"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for TypeScript."
+  },
+  {
+    "question": "Which keyword in TypeScript creates a new variable in source code?",
+    "options": [
+      "let",
+      "static",
+      "const",
+      "class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'let' for TypeScript."
+  },
+  {
+    "question": "Which term often describes a collection of values in TypeScript data types?",
+    "options": [
+      "class",
+      "function",
+      "array",
+      "object"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for TypeScript."
+  },
+  {
+    "question": "Which keyword defines a function or method name in TypeScript source code?",
+    "options": [
+      "int",
+      "module",
+      "class",
+      "struct"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for TypeScript."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in TypeScript library imports?",
+    "options": [
+      "if",
+      "case",
+      "when",
+      "switch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'if' for TypeScript."
+  },
+  {
+    "question": "Which line represents a correct function definition in TypeScript data types?",
+    "options": [
+      "def main",
+      "function example(): void {}",
+      "function main",
+      "main() {}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function example(): void {}' for TypeScript."
+  },
+  {
+    "question": "Which keyword defines a function or method name in TypeScript library imports?",
+    "options": [
+      "int",
+      "struct",
+      "module",
+      "class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for TypeScript."
+  },
+  {
+    "question": "Which line represents a valid import or include in TypeScript source code?",
+    "options": [
+      "import useState from \"react\";",
+      "import module",
+      "include <sys>",
+      "require(\"module\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'import useState from \"react\";' for TypeScript."
+  },
+  {
+    "question": "Which term often describes a collection of values in TypeScript conditional logic?",
+    "options": [
+      "object",
+      "class",
+      "array",
+      "function"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for TypeScript."
+  },
+  {
+    "question": "Which operator is used to compare two values in TypeScript data types?",
+    "options": [
+      "===",
+      "<>",
+      "==",
+      "!="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in TypeScript data types?",
+    "options": [
+      "dynamic",
+      "temporary",
+      "immutable",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'immutable' for TypeScript."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in TypeScript function definitions?",
+    "options": [
+      "iteration",
+      "recursion",
+      "optimization",
+      "compilation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'recursion' for TypeScript."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in TypeScript data types?",
+    "options": [
+      "2",
+      "8",
+      "6",
+      "16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '8' for TypeScript."
+  },
+  {
+    "question": "Which keyword in TypeScript creates a new variable in conditional logic?",
+    "options": [
+      "const",
+      "let",
+      "static",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'let' for TypeScript."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in TypeScript memory management?",
+    "options": [
+      "switch",
+      "case",
+      "when",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'if' for TypeScript."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in TypeScript source code?",
+    "options": [
+      "if",
+      "switch",
+      "for",
+      "case"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for TypeScript."
+  },
+  {
+    "question": "Which keyword in TypeScript indicates a return value from a function in source code?",
+    "options": [
+      "break",
+      "exit",
+      "return",
+      "yield"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for TypeScript."
+  },
+  {
+    "question": "Which keyword declares a function in TypeScript conditional logic?",
+    "options": [
+      "class",
+      "const",
+      "int",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int' for TypeScript."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in TypeScript header files?",
+    "options": [
+      "compilation",
+      "optimization",
+      "iteration",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for TypeScript."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in TypeScript header files?",
+    "options": [
+      "mutable",
+      "dynamic",
+      "immutable",
+      "temporary"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'immutable' for TypeScript."
+  },
+  {
+    "question": "Which keyword defines a function or method name in TypeScript conditional logic?",
+    "options": [
+      "module",
+      "int",
+      "struct",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for TypeScript."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in TypeScript loop logic?",
+    "options": [
+      "switch",
+      "for",
+      "if",
+      "case"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for TypeScript."
+  },
+  {
+    "question": "Which keyword in TypeScript indicates a return value from a function in library imports?",
+    "options": [
+      "break",
+      "return",
+      "exit",
+      "yield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for TypeScript."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in TypeScript function definitions?",
+    "options": [
+      "case",
+      "switch",
+      "for",
+      "if"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for TypeScript."
+  }
+]

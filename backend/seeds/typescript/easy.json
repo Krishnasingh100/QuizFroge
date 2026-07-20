@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which statement imports libraries or packages in TypeScript source code?",
+    "options": [
+      "require(\"lib\")",
+      "import useState from \"react\";",
+      "use lib;",
+      "include <lib>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'import useState from \"react\";' for TypeScript."
+  },
+  {
+    "question": "Which code line uses string concatenation in TypeScript conditional logic?",
+    "options": [
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "join(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for TypeScript."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in TypeScript source code?",
+    "options": [
+      "functions",
+      "classes",
+      "comments",
+      "variables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'functions' for TypeScript."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in TypeScript library imports?",
+    "options": [
+      "echo \"Hello\";",
+      "print(\"Hello\")",
+      "console.log(\"Hello\")",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'print(\"Hello\")' for TypeScript."
+  },
+  {
+    "question": "Which phrase describes the main function signature in TypeScript conditional logic?",
+    "options": [
+      "main()",
+      "function main() {}",
+      "function example(): void {}",
+      "def main():"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function example(): void {}' for TypeScript."
+  },
+  {
+    "question": "What is the result of 3 + 4 in TypeScript header files?",
+    "options": [
+      "Error",
+      "34",
+      "0",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '7' for TypeScript."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in TypeScript loop logic?",
+    "options": [
+      "echo \"Hello\";",
+      "console.log(\"Hello\")",
+      "puts \"Hello\"",
+      "print(\"Hello\")"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'print(\"Hello\")' for TypeScript."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in TypeScript library imports?",
+    "options": [
+      "classes",
+      "variables",
+      "functions",
+      "comments"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'functions' for TypeScript."
+  },
+  {
+    "question": "Which code line correctly declares a constant in TypeScript loop logic?",
+    "options": [
+      "const",
+      "static",
+      "var",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for TypeScript."
+  },
+  {
+    "question": "Which operator checks equality in TypeScript header files?",
+    "options": [
+      "==",
+      "=",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in TypeScript header files?",
+    "options": [
+      "continue",
+      "break",
+      "stop",
+      "return"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'break' for TypeScript."
+  },
+  {
+    "question": "Which keyword declares a constant value in TypeScript header files?",
+    "options": [
+      "let",
+      "const",
+      "static",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for TypeScript."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in TypeScript header files?",
+    "options": [
+      "<!-- -->",
+      "/* */",
+      "//",
+      "#"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '//' for TypeScript."
+  },
+  {
+    "question": "Which option fills the blank in TypeScript library imports: const x = 5; x = 10; // __? ",
+    "options": [
+      "assignment",
+      "comparison",
+      "declaration",
+      "iteration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'assignment' for TypeScript."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in TypeScript loop logic?",
+    "options": [
+      "classes",
+      "variables",
+      "comments",
+      "functions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'functions' for TypeScript."
+  },
+  {
+    "question": "Which file extension is standard for TypeScript header files?",
+    "options": [
+      ".ts",
+      ".json",
+      ".md",
+      ".txt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.ts' for TypeScript."
+  },
+  {
+    "question": "What is the result of 8 - 3 in TypeScript header files?",
+    "options": [
+      "5",
+      "2",
+      "8",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '5' for TypeScript."
+  },
+  {
+    "question": "Which phrase describes the main function signature in TypeScript loop logic?",
+    "options": [
+      "main()",
+      "function main() {}",
+      "function example(): void {}",
+      "def main():"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function example(): void {}' for TypeScript."
+  },
+  {
+    "question": "Which value is commonly used for true in TypeScript source code?",
+    "options": [
+      "False",
+      "false",
+      "true",
+      "True"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'true' for TypeScript."
+  },
+  {
+    "question": "Which code line correctly declares a constant in TypeScript library imports?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for TypeScript."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in TypeScript source code?",
+    "options": [
+      "return",
+      "stop",
+      "break",
+      "continue"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'break' for TypeScript."
+  },
+  {
+    "question": "Which option fills the blank in TypeScript conditional logic: const x = 5; x = 10; // __? ",
+    "options": [
+      "declaration",
+      "assignment",
+      "iteration",
+      "comparison"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'assignment' for TypeScript."
+  },
+  {
+    "question": "Which code line uses string concatenation in TypeScript header files?",
+    "options": [
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "join(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for TypeScript."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in TypeScript conditional logic?",
+    "options": [
+      "25",
+      "2",
+      "10",
+      "0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '10' for TypeScript."
+  },
+  {
+    "question": "Which code line correctly declares a constant in TypeScript header files?",
+    "options": [
+      "var",
+      "const",
+      "static",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for TypeScript."
+  },
+  {
+    "question": "Which statement imports libraries or packages in TypeScript library imports?",
+    "options": [
+      "import useState from \"react\";",
+      "include <lib>",
+      "require(\"lib\")",
+      "use lib;"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'import useState from \"react\";' for TypeScript."
+  },
+  {
+    "question": "Which code line uses string concatenation in TypeScript library imports?",
+    "options": [
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\"",
+      "join(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for TypeScript."
+  },
+  {
+    "question": "Which phrase describes the main function signature in TypeScript header files?",
+    "options": [
+      "function example(): void {}",
+      "main()",
+      "function main() {}",
+      "def main():"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function example(): void {}' for TypeScript."
+  },
+  {
+    "question": "Which keyword begins a loop in TypeScript library imports?",
+    "options": [
+      "loop",
+      "for",
+      "repeat",
+      "while"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for TypeScript."
+  },
+  {
+    "question": "Which option fills the blank in TypeScript loop logic: const x = 5; x = 10; // __? ",
+    "options": [
+      "iteration",
+      "declaration",
+      "comparison",
+      "assignment"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'assignment' for TypeScript."
+  },
+  {
+    "question": "Which operator checks equality in TypeScript function definitions?",
+    "options": [
+      "!=",
+      "==",
+      "===",
+      "="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which file extension is standard for TypeScript conditional logic?",
+    "options": [
+      ".json",
+      ".txt",
+      ".ts",
+      ".md"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.ts' for TypeScript."
+  },
+  {
+    "question": "What is the result of 8 - 3 in TypeScript conditional logic?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '5' for TypeScript."
+  },
+  {
+    "question": "Which phrase describes the main function signature in TypeScript library imports?",
+    "options": [
+      "function main() {}",
+      "def main():",
+      "main()",
+      "function example(): void {}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function example(): void {}' for TypeScript."
+  },
+  {
+    "question": "What is the result of 3 + 4 in TypeScript loop logic?",
+    "options": [
+      "7",
+      "34",
+      "Error",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '7' for TypeScript."
+  },
+  {
+    "question": "Which phrase describes the main function signature in TypeScript source code?",
+    "options": [
+      "function example(): void {}",
+      "main()",
+      "function main() {}",
+      "def main():"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function example(): void {}' for TypeScript."
+  },
+  {
+    "question": "Which operator checks equality in TypeScript loop logic?",
+    "options": [
+      "=",
+      "===",
+      "!=",
+      "=="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which value is commonly used for true in TypeScript library imports?",
+    "options": [
+      "True",
+      "false",
+      "False",
+      "true"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'true' for TypeScript."
+  },
+  {
+    "question": "What is the result of 3 + 4 in TypeScript conditional logic?",
+    "options": [
+      "0",
+      "34",
+      "Error",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '7' for TypeScript."
+  },
+  {
+    "question": "Which operator checks equality in TypeScript library imports?",
+    "options": [
+      "=",
+      "===",
+      "==",
+      "!="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in TypeScript function definitions?",
+    "options": [
+      "#",
+      "<!-- -->",
+      "/* */",
+      "//"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '//' for TypeScript."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in TypeScript source code?",
+    "options": [
+      "print(\"Hello\")",
+      "puts \"Hello\"",
+      "console.log(\"Hello\")",
+      "echo \"Hello\";"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'print(\"Hello\")' for TypeScript."
+  },
+  {
+    "question": "What is the result of 8 - 3 in TypeScript source code?",
+    "options": [
+      "3",
+      "2",
+      "8",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '5' for TypeScript."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in TypeScript conditional logic?",
+    "options": [
+      "stop",
+      "continue",
+      "return",
+      "break"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'break' for TypeScript."
+  },
+  {
+    "question": "Which sign is used to assign values in TypeScript library imports?",
+    "options": [
+      "==",
+      "=",
+      "=>",
+      ":="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '=' for TypeScript."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in TypeScript conditional logic?",
+    "options": [
+      "puts \"Hello\"",
+      "print(\"Hello\")",
+      "echo \"Hello\";",
+      "console.log(\"Hello\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'print(\"Hello\")' for TypeScript."
+  },
+  {
+    "question": "Which operator checks equality in TypeScript conditional logic?",
+    "options": [
+      "!=",
+      "==",
+      "=",
+      "==="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which code line correctly declares a constant in TypeScript conditional logic?",
+    "options": [
+      "var",
+      "static",
+      "let",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for TypeScript."
+  },
+  {
+    "question": "What is the result of 3 + 4 in TypeScript source code?",
+    "options": [
+      "34",
+      "Error",
+      "0",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '7' for TypeScript."
+  },
+  {
+    "question": "Which value is commonly used for true in TypeScript conditional logic?",
+    "options": [
+      "True",
+      "False",
+      "true",
+      "false"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'true' for TypeScript."
+  }
+]

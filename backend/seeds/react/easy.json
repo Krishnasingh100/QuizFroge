@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which syntax creates JSX elements in React on components?",
+    "options": [
+      "[div]Hello[/div]",
+      "<div>Hello>",
+      "{{div}}Hello",
+      "<div>Hello</div>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<div>Hello</div>' for React."
+  },
+  {
+    "question": "Which keyword defines a function component in React on state?",
+    "options": [
+      "const",
+      "function",
+      "let",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for React."
+  },
+  {
+    "question": "Which useEffect hook manages state in React on hooks?",
+    "options": [
+      "useState",
+      "useMemo",
+      "useEffect",
+      "useCallback"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which hook is used for memoizing expensive calculations in React on props?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useCallback",
+      "useMemo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which useState hook manages state in React on context?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useMemo",
+      "useCallback"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which useEffect hook memoizes a value in React on memoization?",
+    "options": [
+      "useContext",
+      "useState",
+      "useEffect",
+      "useMemo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which useEffect hook accesses context in React on memoization?",
+    "options": [
+      "useReducer",
+      "useState",
+      "useContext",
+      "useEffect"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useContext' for React."
+  },
+  {
+    "question": "Which statement returns the UI tree from a component in React on memoization?",
+    "options": [
+      "yield",
+      "output",
+      "return",
+      "render"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for React."
+  },
+  {
+    "question": "Which hook is used for memoizing expensive calculations in React on hooks?",
+    "options": [
+      "useCallback",
+      "useState",
+      "useEffect",
+      "useMemo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which file extension is common for React components on hooks?",
+    "options": [
+      ".css",
+      ".js",
+      ".html",
+      ".jsx"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '.jsx' for React."
+  },
+  {
+    "question": "Which useCallback hook memoizes a value in React on state?",
+    "options": [
+      "useMemo",
+      "useEffect",
+      "useState",
+      "useContext"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which file extension is common for React components on state?",
+    "options": [
+      ".js",
+      ".html",
+      ".css",
+      ".jsx"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '.jsx' for React."
+  },
+  {
+    "question": "Which property passes data into components in React on props?",
+    "options": [
+      "refs",
+      "state",
+      "props",
+      "context"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which hook is used to access context values in React on components?",
+    "options": [
+      "useEffect",
+      "useContext",
+      "useRef",
+      "useState"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useContext' for React."
+  },
+  {
+    "question": "Which prop is used to track a unique element in a list in React on components?",
+    "options": [
+      "className",
+      "key",
+      "ref",
+      "id"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'key' for React."
+  },
+  {
+    "question": "Which keyword defines a function component in React on rendering?",
+    "options": [
+      "class",
+      "function",
+      "let",
+      "const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for React."
+  },
+  {
+    "question": "Which file extension is common for React components on context?",
+    "options": [
+      ".jsx",
+      ".js",
+      ".html",
+      ".css"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.jsx' for React."
+  },
+  {
+    "question": "Which value represents a React component property in React on hooks?",
+    "options": [
+      "props",
+      "hooks",
+      "state",
+      "context"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which syntax creates JSX elements in React on hooks?",
+    "options": [
+      "[div]Hello[/div]",
+      "{{div}}Hello",
+      "<div>Hello>",
+      "<div>Hello</div>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<div>Hello</div>' for React."
+  },
+  {
+    "question": "Which useMemo hook accesses context in React on props?",
+    "options": [
+      "useContext",
+      "useEffect",
+      "useReducer",
+      "useState"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useContext' for React."
+  },
+  {
+    "question": "Which value represents a React component property in React on context?",
+    "options": [
+      "state",
+      "context",
+      "props",
+      "hooks"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which value represents a React component property in React on state?",
+    "options": [
+      "state",
+      "props",
+      "hooks",
+      "context"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which syntax creates JSX elements in React on context?",
+    "options": [
+      "<div>Hello</div>",
+      "<div>Hello>",
+      "[div]Hello[/div]",
+      "{{div}}Hello"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<div>Hello</div>' for React."
+  },
+  {
+    "question": "Which property passes data into components in React on state?",
+    "options": [
+      "refs",
+      "props",
+      "context",
+      "state"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which prop is used to track a unique element in a list in React on hooks?",
+    "options": [
+      "id",
+      "ref",
+      "className",
+      "key"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'key' for React."
+  },
+  {
+    "question": "Which useCallback hook manages state in React on state?",
+    "options": [
+      "useCallback",
+      "useState",
+      "useEffect",
+      "useMemo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which hook is used to access context values in React on props?",
+    "options": [
+      "useRef",
+      "useEffect",
+      "useContext",
+      "useState"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useContext' for React."
+  },
+  {
+    "question": "Which useMemo hook memoizes a value in React on props?",
+    "options": [
+      "useContext",
+      "useEffect",
+      "useMemo",
+      "useState"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which hook is used for memoizing expensive calculations in React on context?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useCallback",
+      "useMemo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which useState hook manages state in React on components?",
+    "options": [
+      "useState",
+      "useMemo",
+      "useEffect",
+      "useCallback"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which statement returns the UI tree from a component in React on hooks?",
+    "options": [
+      "return",
+      "yield",
+      "output",
+      "render"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'return' for React."
+  },
+  {
+    "question": "Which hook is used to access context values in React on state?",
+    "options": [
+      "useEffect",
+      "useContext",
+      "useRef",
+      "useState"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useContext' for React."
+  },
+  {
+    "question": "Which useState hook is used for side effects in React on components?",
+    "options": [
+      "useState",
+      "useReducer",
+      "useContext",
+      "useEffect"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which property passes data into components in React on rendering?",
+    "options": [
+      "props",
+      "refs",
+      "state",
+      "context"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which useState hook memoizes a value in React on context?",
+    "options": [
+      "useContext",
+      "useMemo",
+      "useState",
+      "useEffect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which prop is used to track a unique element in a list in React on rendering?",
+    "options": [
+      "className",
+      "key",
+      "id",
+      "ref"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'key' for React."
+  },
+  {
+    "question": "Which useState hook is used for side effects in React on context?",
+    "options": [
+      "useReducer",
+      "useEffect",
+      "useContext",
+      "useState"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which useEffect hook memoizes a callback in React on hooks?",
+    "options": [
+      "useEffect",
+      "useCallback",
+      "useMemo",
+      "useState"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useCallback' for React."
+  },
+  {
+    "question": "Which useCallback hook is used for side effects in React on state?",
+    "options": [
+      "useState",
+      "useReducer",
+      "useContext",
+      "useEffect"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which file extension is common for React components on props?",
+    "options": [
+      ".jsx",
+      ".css",
+      ".js",
+      ".html"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.jsx' for React."
+  },
+  {
+    "question": "Which hook is used for memoizing expensive calculations in React on state?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useCallback",
+      "useMemo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which file extension is common for React components on components?",
+    "options": [
+      ".html",
+      ".css",
+      ".jsx",
+      ".js"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.jsx' for React."
+  },
+  {
+    "question": "Which keyword defines a function component in React on hooks?",
+    "options": [
+      "function",
+      "const",
+      "class",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for React."
+  },
+  {
+    "question": "Which statement returns the UI tree from a component in React on props?",
+    "options": [
+      "output",
+      "render",
+      "return",
+      "yield"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for React."
+  },
+  {
+    "question": "Which value represents a React component property in React on rendering?",
+    "options": [
+      "props",
+      "state",
+      "hooks",
+      "context"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which syntax creates JSX elements in React on rendering?",
+    "options": [
+      "<div>Hello>",
+      "[div]Hello[/div]",
+      "<div>Hello</div>",
+      "{{div}}Hello"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<div>Hello</div>' for React."
+  },
+  {
+    "question": "Which useState hook memoizes a callback in React on components?",
+    "options": [
+      "useMemo",
+      "useCallback",
+      "useEffect",
+      "useState"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useCallback' for React."
+  },
+  {
+    "question": "Which value represents a React component property in React on props?",
+    "options": [
+      "state",
+      "context",
+      "props",
+      "hooks"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which React concept lets data flow down from parent to child in React on props?",
+    "options": [
+      "hooks",
+      "state",
+      "context",
+      "props"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which hook is used to access context values in React on context?",
+    "options": [
+      "useState",
+      "useRef",
+      "useContext",
+      "useEffect"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useContext' for React."
+  }
+]

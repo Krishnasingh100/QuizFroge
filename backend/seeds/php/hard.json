@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword defines a class in PHP input/output?",
+    "options": [
+      "namespace",
+      "function",
+      "module",
+      "package"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for PHP."
+  },
+  {
+    "question": "Which statement checks for equality in PHP library imports?",
+    "options": [
+      "==",
+      "=",
+      ":=",
+      "=>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for PHP."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in PHP memory management?",
+    "options": [
+      "volatile",
+      "dynamic",
+      "transient",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for PHP."
+  },
+  {
+    "question": "Which keyword defines a class in PHP function definitions?",
+    "options": [
+      "namespace",
+      "module",
+      "function",
+      "package"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for PHP."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in PHP code in library imports?",
+    "options": [
+      "var",
+      "let",
+      "mutable",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for PHP."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in PHP conditional logic?",
+    "options": [
+      "linked list",
+      "array",
+      "queue",
+      "stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for PHP."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in PHP input/output?",
+    "options": [
+      "inheritance",
+      "composition",
+      "delegation",
+      "aggregation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for PHP."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in PHP header files?",
+    "options": [
+      "None handling",
+      "exceptions",
+      "global variables",
+      "inheritance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None handling' for PHP."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in PHP source code?",
+    "options": [
+      "abstraction",
+      "encapsulation",
+      "modularity",
+      "polymorphism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for PHP."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in PHP loop logic?",
+    "options": [
+      "array",
+      "linked list",
+      "queue",
+      "stack"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for PHP."
+  },
+  {
+    "question": "Which statement checks for equality in PHP error handling?",
+    "options": [
+      ":=",
+      "=>",
+      "=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for PHP."
+  },
+  {
+    "question": "Which statement best describes memory management in PHP error handling?",
+    "options": [
+      "implicit typing",
+      "automatic garbage collection",
+      "runtime binding",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for PHP."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in PHP function definitions?",
+    "options": [
+      "global variables",
+      "inheritance",
+      "exceptions",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for PHP."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in PHP function definitions?",
+    "options": [
+      "dynamic",
+      "static",
+      "volatile",
+      "transient"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for PHP."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in PHP code in input/output?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for PHP."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in PHP code in function definitions?",
+    "options": [
+      "var",
+      "const",
+      "mutable",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for PHP."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in PHP applications in function definitions?",
+    "options": [
+      "async tasks",
+      "closures",
+      "generics",
+      "inheritance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for PHP."
+  },
+  {
+    "question": "Which keyword defines a class in PHP loop logic?",
+    "options": [
+      "package",
+      "namespace",
+      "function",
+      "module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for PHP."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in PHP applications in header files?",
+    "options": [
+      "async tasks",
+      "closures",
+      "generics",
+      "inheritance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for PHP."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in PHP loop logic?",
+    "options": [
+      "delegation",
+      "composition",
+      "inheritance",
+      "aggregation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'inheritance' for PHP."
+  },
+  {
+    "question": "Which statement best describes memory management in PHP loop logic?",
+    "options": [
+      "implicit typing",
+      "automatic garbage collection",
+      "syntax highlighting",
+      "runtime binding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for PHP."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in PHP function definitions?",
+    "options": [
+      "polymorphism",
+      "modularity",
+      "encapsulation",
+      "abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for PHP."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in PHP source code?",
+    "options": [
+      "delegation",
+      "composition",
+      "aggregation",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for PHP."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in PHP library imports?",
+    "options": [
+      "encapsulation",
+      "modularity",
+      "abstraction",
+      "polymorphism"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for PHP."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in PHP code in source code?",
+    "options": [
+      "var",
+      "const",
+      "mutable",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for PHP."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in PHP memory management?",
+    "options": [
+      "abstraction",
+      "modularity",
+      "polymorphism",
+      "encapsulation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for PHP."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in PHP library imports?",
+    "options": [
+      "transient",
+      "volatile",
+      "static",
+      "dynamic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for PHP."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in PHP applications in data types?",
+    "options": [
+      "generics",
+      "inheritance",
+      "async tasks",
+      "closures"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'async tasks' for PHP."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in PHP applications in error handling?",
+    "options": [
+      "closures",
+      "inheritance",
+      "async tasks",
+      "generics"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'async tasks' for PHP."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in PHP loop logic?",
+    "options": [
+      "exceptions",
+      "inheritance",
+      "global variables",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for PHP."
+  },
+  {
+    "question": "Which statement checks for equality in PHP source code?",
+    "options": [
+      "==",
+      "=>",
+      "=",
+      ":="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for PHP."
+  },
+  {
+    "question": "Which keyword defines a class in PHP error handling?",
+    "options": [
+      "function",
+      "package",
+      "module",
+      "namespace"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for PHP."
+  },
+  {
+    "question": "Which statement checks for equality in PHP loop logic?",
+    "options": [
+      ":=",
+      "=>",
+      "=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for PHP."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in PHP loop logic?",
+    "options": [
+      "modularity",
+      "encapsulation",
+      "abstraction",
+      "polymorphism"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for PHP."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in PHP applications in source code?",
+    "options": [
+      "closures",
+      "inheritance",
+      "async tasks",
+      "generics"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'async tasks' for PHP."
+  },
+  {
+    "question": "Which keyword defines a class in PHP data types?",
+    "options": [
+      "package",
+      "function",
+      "module",
+      "namespace"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for PHP."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in PHP conditional logic?",
+    "options": [
+      "inheritance",
+      "exceptions",
+      "global variables",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for PHP."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in PHP loop logic?",
+    "options": [
+      "dynamic",
+      "transient",
+      "static",
+      "volatile"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for PHP."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in PHP memory management?",
+    "options": [
+      "aggregation",
+      "delegation",
+      "composition",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for PHP."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in PHP applications in memory management?",
+    "options": [
+      "generics",
+      "async tasks",
+      "inheritance",
+      "closures"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async tasks' for PHP."
+  },
+  {
+    "question": "Which keyword defines a class in PHP library imports?",
+    "options": [
+      "namespace",
+      "function",
+      "package",
+      "module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for PHP."
+  },
+  {
+    "question": "Which keyword defines a class in PHP header files?",
+    "options": [
+      "package",
+      "namespace",
+      "module",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for PHP."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in PHP header files?",
+    "options": [
+      "array",
+      "stack",
+      "linked list",
+      "queue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for PHP."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in PHP source code?",
+    "options": [
+      "transient",
+      "volatile",
+      "dynamic",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for PHP."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in PHP input/output?",
+    "options": [
+      "static",
+      "dynamic",
+      "transient",
+      "volatile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for PHP."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in PHP applications in loop logic?",
+    "options": [
+      "closures",
+      "async tasks",
+      "generics",
+      "inheritance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async tasks' for PHP."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in PHP function definitions?",
+    "options": [
+      "composition",
+      "delegation",
+      "inheritance",
+      "aggregation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'inheritance' for PHP."
+  },
+  {
+    "question": "Which keyword defines a class in PHP memory management?",
+    "options": [
+      "function",
+      "package",
+      "module",
+      "namespace"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for PHP."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in PHP error handling?",
+    "options": [
+      "volatile",
+      "static",
+      "dynamic",
+      "transient"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for PHP."
+  },
+  {
+    "question": "Which keyword defines a class in PHP conditional logic?",
+    "options": [
+      "namespace",
+      "package",
+      "module",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for PHP."
+  }
+]

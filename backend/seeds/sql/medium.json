@@ -1,0 +1,409 @@
+[
+  {
+    "question": "Which SQL keyword tests two conditions and returns true if both are true?",
+    "options": [
+      "BETWEEN",
+      "OR",
+      "AND",
+      "NOT"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'AND' for SQL."
+  },
+  {
+    "question": "Which SQL expression tests whether a value appears in a list?",
+    "options": [
+      "EXISTS",
+      "IN",
+      "LIKE",
+      "BETWEEN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'IN' for SQL."
+  },
+  {
+    "question": "Which SQL operator combines two conditions where either may be true?",
+    "options": [
+      "OR",
+      "XOR",
+      "AND",
+      "NOT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'OR' for SQL."
+  },
+  {
+    "question": "Which SQL clause is used to limit rows for pagination in PostgreSQL?",
+    "options": [
+      "OFFSET",
+      "TOP",
+      "FETCH",
+      "LIMIT"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'LIMIT' for SQL."
+  },
+  {
+    "question": "Which SQL keyword is used to specify non-matching rows from the left table?",
+    "options": [
+      "LEFT JOIN",
+      "FULL JOIN",
+      "INNER JOIN",
+      "RIGHT JOIN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'LEFT JOIN' for SQL."
+  },
+  {
+    "question": "Which SQL keyword is used to change the column definition in a table?",
+    "options": [
+      "ALTER TABLE",
+      "UPDATE TABLE",
+      "CHANGE TABLE",
+      "MODIFY TABLE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'ALTER TABLE' for SQL."
+  },
+  {
+    "question": "Which SQL expression tests whether a column contains no value?",
+    "options": [
+      "IS NULL",
+      "= NULL",
+      "NULL",
+      "NOT NULL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'IS NULL' for SQL."
+  },
+  {
+    "question": "Which SQL keyword combines results from two SELECT queries and removes duplicates?",
+    "options": [
+      "UNION",
+      "EXCEPT",
+      "UNION ALL",
+      "INTERSECT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'UNION' for SQL."
+  },
+  {
+    "question": "Which SQL keyword is used to define a primary key on a table?",
+    "options": [
+      "UNIQUE",
+      "FOREIGN KEY",
+      "PRIMARY KEY",
+      "CHECK"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'PRIMARY KEY' for SQL."
+  },
+  {
+    "question": "Which SQL command creates a sequence for generating unique values?",
+    "options": [
+      "CREATE VIEW",
+      "CREATE TABLE",
+      "CREATE SEQUENCE",
+      "CREATE INDEX"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'CREATE SEQUENCE' for SQL."
+  },
+  {
+    "question": "Which SQL operator tests whether a value is between two bounds?",
+    "options": [
+      "BETWEEN",
+      "EXISTS",
+      "LIKE",
+      "IN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'BETWEEN' for SQL."
+  },
+  {
+    "question": "Which SQL statement returns the structure of a table in MySQL?",
+    "options": [
+      "EXPLAIN",
+      "DESCRIBE",
+      "SELECT",
+      "SHOW"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'DESCRIBE' for SQL."
+  },
+  {
+    "question": "Which SQL join returns all rows from the right table and matching rows from the left?",
+    "options": [
+      "FULL OUTER JOIN",
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "LEFT JOIN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'RIGHT JOIN' for SQL."
+  },
+  {
+    "question": "Which SQL operator combines two conditions where both must be true?",
+    "options": [
+      "NOT",
+      "BETWEEN",
+      "OR",
+      "AND"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'AND' for SQL."
+  },
+  {
+    "question": "Which SQL join returns only rows with matching values in both tables?",
+    "options": [
+      "FULL OUTER JOIN",
+      "INNER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'INNER JOIN' for SQL."
+  },
+  {
+    "question": "Which SQL function adds numeric values in a column?",
+    "options": [
+      "TOTAL()",
+      "COUNT()",
+      "SUM()",
+      "AVG()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'SUM()' for SQL."
+  },
+  {
+    "question": "Which SQL keyword is used to create a temporary table?",
+    "options": [
+      "CREATE GLOBAL TEMPORARY TABLE",
+      "CREATE TEMP TABLE",
+      "CREATE TEMPORARY TABLE",
+      "CREATE TABLE"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'CREATE TEMPORARY TABLE' for SQL."
+  },
+  {
+    "question": "Which SQL function returns the number of distinct values in a column?",
+    "options": [
+      "AVG(column)",
+      "COUNT(DISTINCT column)",
+      "SUM(column)",
+      "COUNT(column)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'COUNT(DISTINCT column)' for SQL."
+  },
+  {
+    "question": "Which SQL keyword removes duplicate rows from query results?",
+    "options": [
+      "NONE",
+      "ALL",
+      "DISTINCT",
+      "UNIQUE"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'DISTINCT' for SQL."
+  },
+  {
+    "question": "Which SQL keyword tests two conditions and returns true if either is true?",
+    "options": [
+      "XOR",
+      "NOT",
+      "OR",
+      "AND"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'OR' for SQL."
+  },
+  {
+    "question": "Which SQL statement creates a view?",
+    "options": [
+      "CREATE VIEW",
+      "CREATE TABLE",
+      "CREATE INDEX",
+      "CREATE DATABASE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'CREATE VIEW' for SQL."
+  },
+  {
+    "question": "Which SQL clause specifies join conditions between tables?",
+    "options": [
+      "ON",
+      "WHERE",
+      "WITH",
+      "USING"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'ON' for SQL."
+  },
+  {
+    "question": "Which SQL expression tests that a value is not in a list?",
+    "options": [
+      "NOT EXISTS",
+      "NOT IN",
+      "IN",
+      "NOT LIKE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'NOT IN' for SQL."
+  },
+  {
+    "question": "Which SQL function returns the minimum value in a column?",
+    "options": [
+      "MAX()",
+      "MIN()",
+      "SUM()",
+      "AVG()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'MIN()' for SQL."
+  },
+  {
+    "question": "Which SQL clause filters grouped rows after aggregation?",
+    "options": [
+      "HAVING",
+      "WHERE",
+      "GROUP BY",
+      "ORDER BY"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'HAVING' for SQL."
+  },
+  {
+    "question": "Which SQL clause sorts results by one or more columns?",
+    "options": [
+      "GROUP BY",
+      "WHERE",
+      "HAVING",
+      "ORDER BY"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'ORDER BY' for SQL."
+  },
+  {
+    "question": "Which SQL clause filters the result of an aggregate function?",
+    "options": [
+      "ORDER BY",
+      "WHERE",
+      "GROUP BY",
+      "HAVING"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'HAVING' for SQL."
+  },
+  {
+    "question": "Which SQL statement removes a column from a table?",
+    "options": [
+      "DROP TABLE",
+      "ALTER TABLE ... DROP COLUMN",
+      "ALTER TABLE ... ADD COLUMN",
+      "DELETE COLUMN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'ALTER TABLE ... DROP COLUMN' for SQL."
+  },
+  {
+    "question": "Which SQL clause adds a condition after a JOIN?",
+    "options": [
+      "USING",
+      "ON",
+      "HAVING",
+      "WHERE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'ON' for SQL."
+  },
+  {
+    "question": "Which SQL join returns matching rows plus unmatched rows from both tables?",
+    "options": [
+      "FULL OUTER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN",
+      "INNER JOIN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'FULL OUTER JOIN' for SQL."
+  },
+  {
+    "question": "Which SQL keyword preserves duplicate rows when combining query results?",
+    "options": [
+      "UNION",
+      "EXCEPT",
+      "UNION ALL",
+      "INTERSECT"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'UNION ALL' for SQL."
+  },
+  {
+    "question": "Which SQL join returns all rows from the left table and matching rows from the right?",
+    "options": [
+      "INNER JOIN",
+      "FULL OUTER JOIN",
+      "LEFT JOIN",
+      "RIGHT JOIN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'LEFT JOIN' for SQL."
+  },
+  {
+    "question": "Which SQL clause groups rows before applying aggregate functions?",
+    "options": [
+      "HAVING",
+      "WHERE",
+      "ORDER BY",
+      "GROUP BY"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'GROUP BY' for SQL."
+  },
+  {
+    "question": "Which SQL function returns the maximum value in a column?",
+    "options": [
+      "AVG()",
+      "SUM()",
+      "MIN()",
+      "MAX()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'MAX()' for SQL."
+  },
+  {
+    "question": "Which SQL clause is used after SELECT to specify a temporary table?",
+    "options": [
+      "FROM",
+      "WITH",
+      "JOIN",
+      "INTO"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'WITH' for SQL."
+  },
+  {
+    "question": "Which SQL function returns the average of a numeric column?",
+    "options": [
+      "COUNT()",
+      "SUM()",
+      "AVG()",
+      "MAX()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'AVG()' for SQL."
+  },
+  {
+    "question": "Which SQL keyword creates an index on a table column?",
+    "options": [
+      "ADD INDEX",
+      "INDEX TABLE",
+      "CREATE INDEX",
+      "MAKE INDEX"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'CREATE INDEX' for SQL."
+  }
+]

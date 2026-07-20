@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which sign is used to assign values in Python library imports?",
+    "options": [
+      "=",
+      ":=",
+      "==",
+      "=>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '=' for Python."
+  },
+  {
+    "question": "Which keyword declares a constant value in Python function definitions?",
+    "options": [
+      "static",
+      "None",
+      "var",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'None' for Python."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Python library imports?",
+    "options": [
+      "break",
+      "stop",
+      "return",
+      "continue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'break' for Python."
+  },
+  {
+    "question": "Which operator checks equality in Python source code?",
+    "options": [
+      "!=",
+      "==",
+      "=",
+      "==="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Python loop logic?",
+    "options": [
+      "console.log(\"Hello\")",
+      "print(\"Hello\")",
+      "echo \"Hello\";",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'print(\"Hello\")' for Python."
+  },
+  {
+    "question": "Which operator checks equality in Python header files?",
+    "options": [
+      "!=",
+      "=",
+      "===",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which operator checks equality in Python conditional logic?",
+    "options": [
+      "!=",
+      "==",
+      "===",
+      "="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which option fills the blank in Python library imports: None x = 5; x = 10; // __? ",
+    "options": [
+      "declaration",
+      "assignment",
+      "iteration",
+      "comparison"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'assignment' for Python."
+  },
+  {
+    "question": "Which code line uses string concatenation in Python conditional logic?",
+    "options": [
+      "\"Hello\" . \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\""
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Python."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Python source code?",
+    "options": [
+      "continue",
+      "return",
+      "break",
+      "stop"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'break' for Python."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in Python function definitions?",
+    "options": [
+      "/* */",
+      "#",
+      "//",
+      "<!-- -->"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '#' for Python."
+  },
+  {
+    "question": "What is the result of 3 + 4 in Python loop logic?",
+    "options": [
+      "Error",
+      "34",
+      "0",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '7' for Python."
+  },
+  {
+    "question": "Which keyword begins a loop in Python library imports?",
+    "options": [
+      "repeat",
+      "loop",
+      "for",
+      "while"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for Python."
+  },
+  {
+    "question": "Which value is commonly used for true in Python source code?",
+    "options": [
+      "False",
+      "false",
+      "true",
+      "True"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'True' for Python."
+  },
+  {
+    "question": "Which code line uses string concatenation in Python header files?",
+    "options": [
+      "\"Hello\" + \"World\"",
+      "join(\"Hello\", \"World\")",
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" . \"World\""
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Python."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Python conditional logic?",
+    "options": [
+      "25",
+      "0",
+      "10",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '10' for Python."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Python source code?",
+    "options": [
+      "None",
+      "var",
+      "static",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None' for Python."
+  },
+  {
+    "question": "Which value is commonly used for true in Python header files?",
+    "options": [
+      "false",
+      "true",
+      "False",
+      "True"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'True' for Python."
+  },
+  {
+    "question": "Which sign is used to assign values in Python loop logic?",
+    "options": [
+      "==",
+      "=>",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '=' for Python."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Python conditional logic?",
+    "options": [
+      "require(\"lib\")",
+      "include <lib>",
+      "use lib;",
+      "import math"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'import math' for Python."
+  },
+  {
+    "question": "Which keyword begins a loop in Python header files?",
+    "options": [
+      "repeat",
+      "loop",
+      "while",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for Python."
+  },
+  {
+    "question": "Which value is commonly used for true in Python loop logic?",
+    "options": [
+      "False",
+      "True",
+      "true",
+      "false"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'True' for Python."
+  },
+  {
+    "question": "What is the result of 8 - 3 in Python source code?",
+    "options": [
+      "2",
+      "8",
+      "3",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '5' for Python."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Python loop logic?",
+    "options": [
+      "continue",
+      "stop",
+      "break",
+      "return"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'break' for Python."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Python library imports?",
+    "options": [
+      "puts \"Hello\"",
+      "console.log(\"Hello\")",
+      "echo \"Hello\";",
+      "print(\"Hello\")"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'print(\"Hello\")' for Python."
+  },
+  {
+    "question": "Which value is commonly used for true in Python function definitions?",
+    "options": [
+      "false",
+      "True",
+      "true",
+      "False"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'True' for Python."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Python conditional logic?",
+    "options": [
+      "stop",
+      "continue",
+      "return",
+      "break"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'break' for Python."
+  },
+  {
+    "question": "Which sign is used to assign values in Python source code?",
+    "options": [
+      "==",
+      "=",
+      "=>",
+      ":="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '=' for Python."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Python header files?",
+    "options": [
+      "None",
+      "static",
+      "var",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None' for Python."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Python library imports?",
+    "options": [
+      "0",
+      "10",
+      "25",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '10' for Python."
+  },
+  {
+    "question": "Which code line uses string concatenation in Python loop logic?",
+    "options": [
+      "\"Hello\" . \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "join(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Python."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Python header files?",
+    "options": [
+      "2",
+      "0",
+      "25",
+      "10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '10' for Python."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Python library imports?",
+    "options": [
+      "use lib;",
+      "import math",
+      "require(\"lib\")",
+      "include <lib>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'import math' for Python."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Python source code?",
+    "options": [
+      "import math",
+      "use lib;",
+      "include <lib>",
+      "require(\"lib\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'import math' for Python."
+  },
+  {
+    "question": "Which option fills the blank in Python conditional logic: None x = 5; x = 10; // __? ",
+    "options": [
+      "iteration",
+      "comparison",
+      "declaration",
+      "assignment"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'assignment' for Python."
+  },
+  {
+    "question": "Which value is commonly used for true in Python library imports?",
+    "options": [
+      "True",
+      "False",
+      "true",
+      "false"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'True' for Python."
+  },
+  {
+    "question": "Which keyword declares a constant value in Python loop logic?",
+    "options": [
+      "let",
+      "static",
+      "None",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None' for Python."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Python source code?",
+    "options": [
+      "def main():",
+      "main()",
+      "function main() {}",
+      "def main():"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'def main():' for Python."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Python library imports?",
+    "options": [
+      "var",
+      "static",
+      "None",
+      "let"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None' for Python."
+  },
+  {
+    "question": "Which code line uses string concatenation in Python library imports?",
+    "options": [
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" . \"World\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Python."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Python source code?",
+    "options": [
+      "2",
+      "10",
+      "0",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '10' for Python."
+  },
+  {
+    "question": "Which value represents false in Python conditional logic?",
+    "options": [
+      "False",
+      "false",
+      "true",
+      "True"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'False' for Python."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Python header files?",
+    "options": [
+      "def main():",
+      "def main():",
+      "main()",
+      "function main() {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'def main():' for Python."
+  },
+  {
+    "question": "Which file extension is standard for Python library imports?",
+    "options": [
+      ".py",
+      ".txt",
+      ".md",
+      ".json"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.py' for Python."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Python header files?",
+    "options": [
+      "continue",
+      "stop",
+      "break",
+      "return"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'break' for Python."
+  },
+  {
+    "question": "Which sign is used to assign values in Python header files?",
+    "options": [
+      "=",
+      "=>",
+      "==",
+      ":="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '=' for Python."
+  },
+  {
+    "question": "Which keyword declares a constant value in Python conditional logic?",
+    "options": [
+      "None",
+      "var",
+      "let",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None' for Python."
+  },
+  {
+    "question": "Which operator checks equality in Python library imports?",
+    "options": [
+      "==",
+      "=",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which file extension is standard for Python loop logic?",
+    "options": [
+      ".json",
+      ".md",
+      ".py",
+      ".txt"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.py' for Python."
+  },
+  {
+    "question": "Which file extension is standard for Python source code?",
+    "options": [
+      ".py",
+      ".json",
+      ".md",
+      ".txt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.py' for Python."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which file extension is used for HTML documents in web page?",
+    "options": [
+      ".txt",
+      ".html",
+      ".css",
+      ".js"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '.html' for HTML."
+  },
+  {
+    "question": "Which tag defines a list item in HTML on list?",
+    "options": [
+      "<li>",
+      "<dl>",
+      "<ul>",
+      "<ol>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<li>' for HTML."
+  },
+  {
+    "question": "Which attribute sets the link destination in HTML on image?",
+    "options": [
+      "alt",
+      "src",
+      "title",
+      "href"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which tag wraps the main content of a HTML page in form?",
+    "options": [
+      "<section>",
+      "<body>",
+      "<head>",
+      "<footer>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<body>' for HTML."
+  },
+  {
+    "question": "Which syntax marks a comment in HTML on document head?",
+    "options": [
+      "<!-- -->",
+      "//",
+      "#",
+      "/* */"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<!-- -->' for HTML."
+  },
+  {
+    "question": "Which syntax marks a comment in HTML on form?",
+    "options": [
+      "#",
+      "<!-- -->",
+      "/* */",
+      "//"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<!-- -->' for HTML."
+  },
+  {
+    "question": "Which tag defines the page head in HTML on image?",
+    "options": [
+      "<head>",
+      "<html>",
+      "<title>",
+      "<body>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<head>' for HTML."
+  },
+  {
+    "question": "Which tag wraps the main content of a HTML page in image?",
+    "options": [
+      "<footer>",
+      "<section>",
+      "<body>",
+      "<head>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<body>' for HTML."
+  },
+  {
+    "question": "Which tag wraps the main content of a HTML page in document head?",
+    "options": [
+      "<head>",
+      "<footer>",
+      "<body>",
+      "<section>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<body>' for HTML."
+  },
+  {
+    "question": "Which syntax marks a comment in HTML on link?",
+    "options": [
+      "<!-- -->",
+      "#",
+      "/* */",
+      "//"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<!-- -->' for HTML."
+  },
+  {
+    "question": "Which syntax marks a comment in HTML on list?",
+    "options": [
+      "#",
+      "<!-- -->",
+      "/* */",
+      "//"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<!-- -->' for HTML."
+  },
+  {
+    "question": "Which tag wraps the main content of a HTML page in table row?",
+    "options": [
+      "<head>",
+      "<body>",
+      "<footer>",
+      "<section>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<body>' for HTML."
+  },
+  {
+    "question": "Which tag wraps the main content of a HTML page in list?",
+    "options": [
+      "<head>",
+      "<footer>",
+      "<section>",
+      "<body>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<body>' for HTML."
+  },
+  {
+    "question": "Which file extension is used for HTML documents in document head?",
+    "options": [
+      ".txt",
+      ".js",
+      ".css",
+      ".html"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '.html' for HTML."
+  },
+  {
+    "question": "Which attribute sets the link destination in HTML on content section?",
+    "options": [
+      "title",
+      "href",
+      "src",
+      "alt"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which tag defines a table row in HTML on navigation?",
+    "options": [
+      "<td>",
+      "<table>",
+      "<th>",
+      "<tr>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<tr>' for HTML."
+  },
+  {
+    "question": "Which tag defines the page head in HTML on navigation?",
+    "options": [
+      "<head>",
+      "<body>",
+      "<title>",
+      "<html>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<head>' for HTML."
+  },
+  {
+    "question": "Which tag defines a paragraph in HTML on form?",
+    "options": [
+      "<h1>",
+      "<p>",
+      "<span>",
+      "<div>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<p>' for HTML."
+  },
+  {
+    "question": "Which syntax marks a comment in HTML on image?",
+    "options": [
+      "#",
+      "/* */",
+      "//",
+      "<!-- -->"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<!-- -->' for HTML."
+  },
+  {
+    "question": "Which attribute sets the link destination in HTML on document head?",
+    "options": [
+      "alt",
+      "src",
+      "title",
+      "href"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which element embeds an image in HTML on link?",
+    "options": [
+      "<picture>",
+      "<figure>",
+      "<image>",
+      "<img>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<img>' for HTML."
+  },
+  {
+    "question": "Which tag defines a paragraph in HTML on table row?",
+    "options": [
+      "<p>",
+      "<span>",
+      "<div>",
+      "<h1>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<p>' for HTML."
+  },
+  {
+    "question": "Which tag defines the page head in HTML on web page?",
+    "options": [
+      "<html>",
+      "<head>",
+      "<body>",
+      "<title>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<head>' for HTML."
+  },
+  {
+    "question": "Which tag wraps the main content of a HTML page in navigation?",
+    "options": [
+      "<head>",
+      "<section>",
+      "<body>",
+      "<footer>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<body>' for HTML."
+  },
+  {
+    "question": "Which element embeds an image in HTML on paragraph?",
+    "options": [
+      "<img>",
+      "<picture>",
+      "<image>",
+      "<figure>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<img>' for HTML."
+  },
+  {
+    "question": "Which tag defines the page head in HTML on document head?",
+    "options": [
+      "<head>",
+      "<html>",
+      "<title>",
+      "<body>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<head>' for HTML."
+  },
+  {
+    "question": "Which tag is used to represent a hyperlink in HTML on link?",
+    "options": [
+      "<href>",
+      "<a>",
+      "<link>",
+      "<url>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<a>' for HTML."
+  },
+  {
+    "question": "Which tag defines a paragraph in HTML on image?",
+    "options": [
+      "<h1>",
+      "<span>",
+      "<div>",
+      "<p>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<p>' for HTML."
+  },
+  {
+    "question": "Which attribute sets the link destination in HTML on list?",
+    "options": [
+      "src",
+      "alt",
+      "href",
+      "title"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which tag defines a paragraph in HTML on paragraph?",
+    "options": [
+      "<h1>",
+      "<span>",
+      "<p>",
+      "<div>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<p>' for HTML."
+  },
+  {
+    "question": "Which tag wraps the main content of a HTML page in web page?",
+    "options": [
+      "<footer>",
+      "<section>",
+      "<head>",
+      "<body>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<body>' for HTML."
+  },
+  {
+    "question": "Which attribute sets the link destination in HTML on link?",
+    "options": [
+      "alt",
+      "title",
+      "href",
+      "src"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which tag defines a paragraph in HTML on navigation?",
+    "options": [
+      "<div>",
+      "<p>",
+      "<span>",
+      "<h1>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<p>' for HTML."
+  },
+  {
+    "question": "Which tag defines a paragraph in HTML on link?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<span>",
+      "<div>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<p>' for HTML."
+  },
+  {
+    "question": "Which attribute sets the link destination in HTML on form?",
+    "options": [
+      "alt",
+      "href",
+      "title",
+      "src"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which tag is used to represent a hyperlink in HTML on image?",
+    "options": [
+      "<href>",
+      "<a>",
+      "<url>",
+      "<link>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<a>' for HTML."
+  },
+  {
+    "question": "Which tag defines a paragraph in HTML on list?",
+    "options": [
+      "<p>",
+      "<h1>",
+      "<div>",
+      "<span>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<p>' for HTML."
+  },
+  {
+    "question": "Which tag defines a table row in HTML on form?",
+    "options": [
+      "<th>",
+      "<table>",
+      "<tr>",
+      "<td>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<tr>' for HTML."
+  },
+  {
+    "question": "Which tag is used to represent a hyperlink in HTML on form?",
+    "options": [
+      "<url>",
+      "<link>",
+      "<a>",
+      "<href>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<a>' for HTML."
+  },
+  {
+    "question": "Which element embeds an image in HTML on document head?",
+    "options": [
+      "<figure>",
+      "<img>",
+      "<picture>",
+      "<image>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<img>' for HTML."
+  },
+  {
+    "question": "Which file extension is used for HTML documents in table row?",
+    "options": [
+      ".txt",
+      ".html",
+      ".js",
+      ".css"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '.html' for HTML."
+  },
+  {
+    "question": "Which tag defines a list item in HTML on link?",
+    "options": [
+      "<li>",
+      "<ol>",
+      "<dl>",
+      "<ul>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<li>' for HTML."
+  },
+  {
+    "question": "Which tag defines a table row in HTML on paragraph?",
+    "options": [
+      "<tr>",
+      "<td>",
+      "<th>",
+      "<table>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<tr>' for HTML."
+  },
+  {
+    "question": "Which file extension is used for HTML documents in content section?",
+    "options": [
+      ".js",
+      ".html",
+      ".txt",
+      ".css"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '.html' for HTML."
+  },
+  {
+    "question": "Which syntax marks a comment in HTML on content section?",
+    "options": [
+      "#",
+      "/* */",
+      "//",
+      "<!-- -->"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<!-- -->' for HTML."
+  },
+  {
+    "question": "Which tag is used to represent a hyperlink in HTML on table row?",
+    "options": [
+      "<url>",
+      "<a>",
+      "<link>",
+      "<href>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<a>' for HTML."
+  },
+  {
+    "question": "Which tag defines the page head in HTML on form?",
+    "options": [
+      "<title>",
+      "<html>",
+      "<body>",
+      "<head>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<head>' for HTML."
+  },
+  {
+    "question": "Which tag is used to represent a hyperlink in HTML on paragraph?",
+    "options": [
+      "<a>",
+      "<link>",
+      "<url>",
+      "<href>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<a>' for HTML."
+  },
+  {
+    "question": "Which attribute sets the link destination in HTML on table row?",
+    "options": [
+      "alt",
+      "title",
+      "src",
+      "href"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which element embeds an image in HTML on list?",
+    "options": [
+      "<image>",
+      "<img>",
+      "<figure>",
+      "<picture>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<img>' for HTML."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which sign is used to assign values in Rust source code?",
+    "options": [
+      "==",
+      "=>",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '=' for Rust."
+  },
+  {
+    "question": "Which keyword declares a constant value in Rust function definitions?",
+    "options": [
+      "let",
+      "static",
+      "var",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for Rust."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Rust header files?",
+    "options": [
+      "console.log(\"Hello\")",
+      "puts \"Hello\"",
+      "print(\"Hello\")",
+      "echo \"Hello\";"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'print(\"Hello\")' for Rust."
+  },
+  {
+    "question": "Which value represents false in Rust library imports?",
+    "options": [
+      "False",
+      "false",
+      "true",
+      "True"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'false' for Rust."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Rust header files?",
+    "options": [
+      "25",
+      "10",
+      "2",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '10' for Rust."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Rust loop logic?",
+    "options": [
+      "10",
+      "0",
+      "2",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '10' for Rust."
+  },
+  {
+    "question": "Which operator checks equality in Rust loop logic?",
+    "options": [
+      "=",
+      "==",
+      "!=",
+      "==="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Rust."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in Rust conditional logic?",
+    "options": [
+      "//",
+      "<!-- -->",
+      "#",
+      "/* */"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '//' for Rust."
+  },
+  {
+    "question": "What is the result of 8 - 3 in Rust conditional logic?",
+    "options": [
+      "5",
+      "8",
+      "3",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '5' for Rust."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Rust loop logic?",
+    "options": [
+      "use std::io;",
+      "require(\"lib\")",
+      "use lib;",
+      "include <lib>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'use std::io;' for Rust."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Rust conditional logic?",
+    "options": [
+      "def main():",
+      "fn main()",
+      "function main() {}",
+      "main()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'fn main()' for Rust."
+  },
+  {
+    "question": "Which value is commonly used for true in Rust conditional logic?",
+    "options": [
+      "true",
+      "false",
+      "False",
+      "True"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'true' for Rust."
+  },
+  {
+    "question": "Which code line uses string concatenation in Rust loop logic?",
+    "options": [
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" . \"World\"",
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\""
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Rust."
+  },
+  {
+    "question": "Which value represents false in Rust loop logic?",
+    "options": [
+      "True",
+      "true",
+      "False",
+      "false"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'false' for Rust."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Rust loop logic?",
+    "options": [
+      "var",
+      "let",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for Rust."
+  },
+  {
+    "question": "Which keyword declares a constant value in Rust header files?",
+    "options": [
+      "static",
+      "var",
+      "let",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for Rust."
+  },
+  {
+    "question": "Which keyword declares a constant value in Rust loop logic?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for Rust."
+  },
+  {
+    "question": "Which option fills the blank in Rust source code: const x = 5; x = 10; // __? ",
+    "options": [
+      "comparison",
+      "iteration",
+      "assignment",
+      "declaration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'assignment' for Rust."
+  },
+  {
+    "question": "Which value is commonly used for true in Rust source code?",
+    "options": [
+      "false",
+      "True",
+      "true",
+      "False"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'true' for Rust."
+  },
+  {
+    "question": "What is the result of 3 + 4 in Rust loop logic?",
+    "options": [
+      "34",
+      "Error",
+      "7",
+      "0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '7' for Rust."
+  },
+  {
+    "question": "Which value is commonly used for true in Rust library imports?",
+    "options": [
+      "True",
+      "False",
+      "false",
+      "true"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'true' for Rust."
+  },
+  {
+    "question": "Which value is commonly used for true in Rust header files?",
+    "options": [
+      "true",
+      "True",
+      "false",
+      "False"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'true' for Rust."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Rust header files?",
+    "options": [
+      "var",
+      "const",
+      "static",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for Rust."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Rust source code?",
+    "options": [
+      "0",
+      "2",
+      "10",
+      "25"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '10' for Rust."
+  },
+  {
+    "question": "Which option fills the blank in Rust library imports: const x = 5; x = 10; // __? ",
+    "options": [
+      "assignment",
+      "comparison",
+      "declaration",
+      "iteration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'assignment' for Rust."
+  },
+  {
+    "question": "Which value represents false in Rust source code?",
+    "options": [
+      "false",
+      "True",
+      "true",
+      "False"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'false' for Rust."
+  },
+  {
+    "question": "What is the result of 8 - 3 in Rust source code?",
+    "options": [
+      "5",
+      "2",
+      "8",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '5' for Rust."
+  },
+  {
+    "question": "Which sign is used to assign values in Rust library imports?",
+    "options": [
+      ":=",
+      "==",
+      "=",
+      "=>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '=' for Rust."
+  },
+  {
+    "question": "Which sign is used to assign values in Rust conditional logic?",
+    "options": [
+      ":=",
+      "=>",
+      "=",
+      "=="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '=' for Rust."
+  },
+  {
+    "question": "Which code line uses string concatenation in Rust source code?",
+    "options": [
+      "\"Hello\" . \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "join(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Rust."
+  },
+  {
+    "question": "Which file extension is standard for Rust header files?",
+    "options": [
+      ".txt",
+      ".rs",
+      ".json",
+      ".md"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '.rs' for Rust."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Rust conditional logic?",
+    "options": [
+      "include <lib>",
+      "use lib;",
+      "use std::io;",
+      "require(\"lib\")"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'use std::io;' for Rust."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Rust source code?",
+    "options": [
+      "echo \"Hello\";",
+      "console.log(\"Hello\")",
+      "print(\"Hello\")",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'print(\"Hello\")' for Rust."
+  },
+  {
+    "question": "Which file extension is standard for Rust loop logic?",
+    "options": [
+      ".rs",
+      ".json",
+      ".md",
+      ".txt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.rs' for Rust."
+  },
+  {
+    "question": "Which value is commonly used for true in Rust loop logic?",
+    "options": [
+      "false",
+      "true",
+      "True",
+      "False"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'true' for Rust."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Rust header files?",
+    "options": [
+      "fn main()",
+      "def main():",
+      "main()",
+      "function main() {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'fn main()' for Rust."
+  },
+  {
+    "question": "Which option fills the blank in Rust loop logic: const x = 5; x = 10; // __? ",
+    "options": [
+      "iteration",
+      "comparison",
+      "declaration",
+      "assignment"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'assignment' for Rust."
+  },
+  {
+    "question": "Which keyword declares a constant value in Rust library imports?",
+    "options": [
+      "const",
+      "static",
+      "var",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for Rust."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Rust source code?",
+    "options": [
+      "break",
+      "stop",
+      "continue",
+      "return"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'break' for Rust."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Rust library imports?",
+    "options": [
+      "function main() {}",
+      "def main():",
+      "main()",
+      "fn main()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'fn main()' for Rust."
+  },
+  {
+    "question": "Which keyword begins a loop in Rust library imports?",
+    "options": [
+      "while",
+      "for",
+      "repeat",
+      "loop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for Rust."
+  },
+  {
+    "question": "Which value represents false in Rust header files?",
+    "options": [
+      "false",
+      "True",
+      "true",
+      "False"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'false' for Rust."
+  },
+  {
+    "question": "Which sign is used to assign values in Rust header files?",
+    "options": [
+      "==",
+      ":=",
+      "=",
+      "=>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '=' for Rust."
+  },
+  {
+    "question": "Which value is commonly used for true in Rust function definitions?",
+    "options": [
+      "False",
+      "true",
+      "false",
+      "True"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'true' for Rust."
+  },
+  {
+    "question": "What is the result of 3 + 4 in Rust conditional logic?",
+    "options": [
+      "7",
+      "Error",
+      "0",
+      "34"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '7' for Rust."
+  },
+  {
+    "question": "Which code line uses string concatenation in Rust conditional logic?",
+    "options": [
+      "\"Hello\" . \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\""
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Rust."
+  },
+  {
+    "question": "Which keyword begins a loop in Rust loop logic?",
+    "options": [
+      "loop",
+      "while",
+      "repeat",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for Rust."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Rust loop logic?",
+    "options": [
+      "function main() {}",
+      "main()",
+      "fn main()",
+      "def main():"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'fn main()' for Rust."
+  },
+  {
+    "question": "Which code line uses string concatenation in Rust header files?",
+    "options": [
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\"",
+      "join(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Rust."
+  },
+  {
+    "question": "Which operator checks equality in Rust conditional logic?",
+    "options": [
+      "!=",
+      "==",
+      "===",
+      "="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Rust."
+  }
+]

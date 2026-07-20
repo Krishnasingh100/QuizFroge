@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which Git command saves staged changes as a new commit in staging area?",
+    "options": [
+      "git add",
+      "git status",
+      "git push",
+      "git commit"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git commit' for Git."
+  },
+  {
+    "question": "Which Git command uploads commits to a remote repository from staging area?",
+    "options": [
+      "git push",
+      "git pull",
+      "git commit",
+      "git fetch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git push' for Git."
+  },
+  {
+    "question": "Which Git command switches to another branch in staging area?",
+    "options": [
+      "git merge",
+      "git branch",
+      "git pull",
+      "git checkout"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git checkout' for Git."
+  },
+  {
+    "question": "Which Git command saves staged changes as a new commit in stash area?",
+    "options": [
+      "git status",
+      "git commit",
+      "git push",
+      "git add"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git commit' for Git."
+  },
+  {
+    "question": "Which Git command adds changes to the staging area in staging area?",
+    "options": [
+      "git push",
+      "git add",
+      "git checkout",
+      "git commit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git add' for Git."
+  },
+  {
+    "question": "Which Git command adds changes to the staging area in merge conflicts?",
+    "options": [
+      "git commit",
+      "git push",
+      "git checkout",
+      "git add"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git add' for Git."
+  },
+  {
+    "question": "Which Git command saves staged changes as a new commit in main branch?",
+    "options": [
+      "git add",
+      "git commit",
+      "git push",
+      "git status"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git commit' for Git."
+  },
+  {
+    "question": "Which Git command creates a new branch in merge conflicts?",
+    "options": [
+      "git checkout",
+      "git merge",
+      "git branch",
+      "git pull"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command shows differences between commits in merge conflicts?",
+    "options": [
+      "git diff",
+      "git show",
+      "git log",
+      "git status"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git diff' for Git."
+  },
+  {
+    "question": "Which Git command downloads changes from a remote repository into merge conflicts?",
+    "options": [
+      "git merge",
+      "git push",
+      "git fetch",
+      "git pull"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git pull' for Git."
+  },
+  {
+    "question": "Which Git command makes a copy of a remote repository locally in feature branch?",
+    "options": [
+      "git push",
+      "git fetch",
+      "git init",
+      "git clone"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git clone' for Git."
+  },
+  {
+    "question": "Which Git command shows differences between commits in remote repository?",
+    "options": [
+      "git status",
+      "git log",
+      "git diff",
+      "git show"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git diff' for Git."
+  },
+  {
+    "question": "Which Git command uploads commits to a remote repository from feature branch?",
+    "options": [
+      "git pull",
+      "git push",
+      "git commit",
+      "git fetch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git push' for Git."
+  },
+  {
+    "question": "Which Git command switches to another branch in remote repository?",
+    "options": [
+      "git pull",
+      "git merge",
+      "git branch",
+      "git checkout"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git checkout' for Git."
+  },
+  {
+    "question": "Which Git command makes a copy of a remote repository locally in commit history?",
+    "options": [
+      "git init",
+      "git clone",
+      "git push",
+      "git fetch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git clone' for Git."
+  },
+  {
+    "question": "Which Git command shows the status of working tree changes in merge conflicts?",
+    "options": [
+      "git status",
+      "git diff",
+      "git log",
+      "git push"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git status' for Git."
+  },
+  {
+    "question": "Which Git command shows the status of working tree changes in commit history?",
+    "options": [
+      "git log",
+      "git diff",
+      "git push",
+      "git status"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git status' for Git."
+  },
+  {
+    "question": "Which Git command makes a copy of a remote repository locally in staging area?",
+    "options": [
+      "git clone",
+      "git fetch",
+      "git push",
+      "git init"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git clone' for Git."
+  },
+  {
+    "question": "Which Git command adds changes to the staging area in commit history?",
+    "options": [
+      "git commit",
+      "git push",
+      "git add",
+      "git checkout"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git add' for Git."
+  },
+  {
+    "question": "Which Git command adds changes to the staging area in local repository?",
+    "options": [
+      "git commit",
+      "git add",
+      "git push",
+      "git checkout"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git add' for Git."
+  },
+  {
+    "question": "Which Git command switches to another branch in commit history?",
+    "options": [
+      "git pull",
+      "git checkout",
+      "git branch",
+      "git merge"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git checkout' for Git."
+  },
+  {
+    "question": "Which Git command adds changes to the staging area in working tree?",
+    "options": [
+      "git push",
+      "git add",
+      "git checkout",
+      "git commit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git add' for Git."
+  },
+  {
+    "question": "Which Git command saves staged changes as a new commit in working tree?",
+    "options": [
+      "git push",
+      "git add",
+      "git status",
+      "git commit"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git commit' for Git."
+  },
+  {
+    "question": "Which Git command makes a copy of a remote repository locally in working tree?",
+    "options": [
+      "git push",
+      "git init",
+      "git clone",
+      "git fetch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git clone' for Git."
+  },
+  {
+    "question": "Which Git command shows differences between commits in main branch?",
+    "options": [
+      "git diff",
+      "git show",
+      "git status",
+      "git log"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git diff' for Git."
+  },
+  {
+    "question": "Which Git command creates a new branch in staging area?",
+    "options": [
+      "git branch",
+      "git checkout",
+      "git pull",
+      "git merge"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command adds changes to the staging area in branch history?",
+    "options": [
+      "git push",
+      "git add",
+      "git checkout",
+      "git commit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git add' for Git."
+  },
+  {
+    "question": "Which Git command saves staged changes as a new commit in remote repository?",
+    "options": [
+      "git add",
+      "git status",
+      "git push",
+      "git commit"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git commit' for Git."
+  },
+  {
+    "question": "Which Git command initializes a new repository in stash area?",
+    "options": [
+      "git clone",
+      "git init",
+      "git pull",
+      "git add"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git init' for Git."
+  },
+  {
+    "question": "Which Git command switches to another branch in feature branch?",
+    "options": [
+      "git branch",
+      "git pull",
+      "git checkout",
+      "git merge"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git checkout' for Git."
+  },
+  {
+    "question": "Which Git command creates a new branch in remote repository?",
+    "options": [
+      "git merge",
+      "git checkout",
+      "git pull",
+      "git branch"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command creates a new branch in branch history?",
+    "options": [
+      "git pull",
+      "git merge",
+      "git checkout",
+      "git branch"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command creates a new branch in working tree?",
+    "options": [
+      "git checkout",
+      "git branch",
+      "git pull",
+      "git merge"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command creates a new branch in local repository?",
+    "options": [
+      "git branch",
+      "git merge",
+      "git pull",
+      "git checkout"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command shows the status of working tree changes in remote repository?",
+    "options": [
+      "git log",
+      "git push",
+      "git status",
+      "git diff"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git status' for Git."
+  },
+  {
+    "question": "Which Git command creates a new branch in stash area?",
+    "options": [
+      "git pull",
+      "git branch",
+      "git merge",
+      "git checkout"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command saves staged changes as a new commit in feature branch?",
+    "options": [
+      "git add",
+      "git commit",
+      "git status",
+      "git push"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git commit' for Git."
+  },
+  {
+    "question": "Which Git command shows differences between commits in feature branch?",
+    "options": [
+      "git show",
+      "git diff",
+      "git status",
+      "git log"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git diff' for Git."
+  },
+  {
+    "question": "Which Git command shows the status of working tree changes in main branch?",
+    "options": [
+      "git status",
+      "git log",
+      "git diff",
+      "git push"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git status' for Git."
+  },
+  {
+    "question": "Which Git command downloads changes from a remote repository into feature branch?",
+    "options": [
+      "git push",
+      "git merge",
+      "git fetch",
+      "git pull"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git pull' for Git."
+  },
+  {
+    "question": "Which Git command switches to another branch in local repository?",
+    "options": [
+      "git branch",
+      "git checkout",
+      "git merge",
+      "git pull"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git checkout' for Git."
+  },
+  {
+    "question": "Which Git command uploads commits to a remote repository from commit history?",
+    "options": [
+      "git pull",
+      "git push",
+      "git fetch",
+      "git commit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git push' for Git."
+  },
+  {
+    "question": "Which Git command switches to another branch in working tree?",
+    "options": [
+      "git branch",
+      "git pull",
+      "git checkout",
+      "git merge"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git checkout' for Git."
+  },
+  {
+    "question": "Which Git command creates a new branch in main branch?",
+    "options": [
+      "git pull",
+      "git merge",
+      "git checkout",
+      "git branch"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command saves staged changes as a new commit in local repository?",
+    "options": [
+      "git status",
+      "git add",
+      "git push",
+      "git commit"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git commit' for Git."
+  },
+  {
+    "question": "Which Git command shows differences between commits in local repository?",
+    "options": [
+      "git diff",
+      "git status",
+      "git log",
+      "git show"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git diff' for Git."
+  },
+  {
+    "question": "Which Git command initializes a new repository in commit history?",
+    "options": [
+      "git pull",
+      "git add",
+      "git init",
+      "git clone"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git init' for Git."
+  },
+  {
+    "question": "Which Git command uploads commits to a remote repository from stash area?",
+    "options": [
+      "git fetch",
+      "git push",
+      "git pull",
+      "git commit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git push' for Git."
+  },
+  {
+    "question": "Which Git command adds changes to the staging area in remote repository?",
+    "options": [
+      "git commit",
+      "git push",
+      "git add",
+      "git checkout"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git add' for Git."
+  },
+  {
+    "question": "Which Git command uploads commits to a remote repository from merge conflicts?",
+    "options": [
+      "git pull",
+      "git push",
+      "git fetch",
+      "git commit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git push' for Git."
+  }
+]

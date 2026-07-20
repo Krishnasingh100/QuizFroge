@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword defines a class in JavaScript library imports?",
+    "options": [
+      "function",
+      "namespace",
+      "module",
+      "package"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for JavaScript."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in JavaScript source code?",
+    "options": [
+      "queue",
+      "linked list",
+      "stack",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for JavaScript."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in JavaScript code in header files?",
+    "options": [
+      "let",
+      "mutable",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in JavaScript source code?",
+    "options": [
+      "inheritance",
+      "global variables",
+      "exceptions",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for JavaScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in JavaScript function definitions?",
+    "options": [
+      "aggregation",
+      "delegation",
+      "inheritance",
+      "composition"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'inheritance' for JavaScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in JavaScript conditional logic?",
+    "options": [
+      "modularity",
+      "encapsulation",
+      "polymorphism",
+      "abstraction"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for JavaScript."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in JavaScript conditional logic?",
+    "options": [
+      "None handling",
+      "exceptions",
+      "inheritance",
+      "global variables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None handling' for JavaScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in JavaScript data types?",
+    "options": [
+      "modularity",
+      "abstraction",
+      "polymorphism",
+      "encapsulation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for JavaScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in JavaScript header files?",
+    "options": [
+      "aggregation",
+      "inheritance",
+      "composition",
+      "delegation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for JavaScript."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in JavaScript applications in library imports?",
+    "options": [
+      "async/await",
+      "generics",
+      "inheritance",
+      "closures"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async/await' for JavaScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in JavaScript loop logic?",
+    "options": [
+      "static",
+      "transient",
+      "dynamic",
+      "volatile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for JavaScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in JavaScript function definitions?",
+    "options": [
+      "encapsulation",
+      "modularity",
+      "polymorphism",
+      "abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for JavaScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in JavaScript error handling?",
+    "options": [
+      "inheritance",
+      "aggregation",
+      "delegation",
+      "composition"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for JavaScript."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in JavaScript memory management?",
+    "options": [
+      "exceptions",
+      "inheritance",
+      "None handling",
+      "global variables"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for JavaScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in JavaScript memory management?",
+    "options": [
+      "composition",
+      "delegation",
+      "inheritance",
+      "aggregation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'inheritance' for JavaScript."
+  },
+  {
+    "question": "Which statement checks for equality in JavaScript error handling?",
+    "options": [
+      ":=",
+      "=>",
+      "=",
+      "==="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '===' for JavaScript."
+  },
+  {
+    "question": "Which statement best describes memory management in JavaScript conditional logic?",
+    "options": [
+      "implicit typing",
+      "automatic garbage collection",
+      "runtime binding",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for JavaScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in JavaScript library imports?",
+    "options": [
+      "volatile",
+      "dynamic",
+      "transient",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for JavaScript."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in JavaScript code in function definitions?",
+    "options": [
+      "let",
+      "var",
+      "mutable",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in JavaScript data types?",
+    "options": [
+      "static",
+      "dynamic",
+      "transient",
+      "volatile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for JavaScript."
+  },
+  {
+    "question": "Which keyword defines a class in JavaScript header files?",
+    "options": [
+      "package",
+      "function",
+      "module",
+      "namespace"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for JavaScript."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in JavaScript code in input/output?",
+    "options": [
+      "const",
+      "mutable",
+      "let",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in JavaScript code in data types?",
+    "options": [
+      "var",
+      "let",
+      "mutable",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in JavaScript source code?",
+    "options": [
+      "delegation",
+      "aggregation",
+      "composition",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for JavaScript."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in JavaScript code in loop logic?",
+    "options": [
+      "mutable",
+      "const",
+      "var",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in JavaScript header files?",
+    "options": [
+      "static",
+      "transient",
+      "dynamic",
+      "volatile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for JavaScript."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in JavaScript loop logic?",
+    "options": [
+      "queue",
+      "stack",
+      "array",
+      "linked list"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for JavaScript."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in JavaScript data types?",
+    "options": [
+      "stack",
+      "array",
+      "queue",
+      "linked list"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for JavaScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in JavaScript input/output?",
+    "options": [
+      "static",
+      "transient",
+      "volatile",
+      "dynamic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for JavaScript."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in JavaScript function definitions?",
+    "options": [
+      "global variables",
+      "None handling",
+      "inheritance",
+      "exceptions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'None handling' for JavaScript."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in JavaScript applications in error handling?",
+    "options": [
+      "generics",
+      "async/await",
+      "closures",
+      "inheritance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async/await' for JavaScript."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in JavaScript applications in data types?",
+    "options": [
+      "generics",
+      "closures",
+      "inheritance",
+      "async/await"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'async/await' for JavaScript."
+  },
+  {
+    "question": "Which keyword defines a class in JavaScript source code?",
+    "options": [
+      "module",
+      "package",
+      "function",
+      "namespace"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for JavaScript."
+  },
+  {
+    "question": "Which keyword defines a class in JavaScript error handling?",
+    "options": [
+      "namespace",
+      "function",
+      "module",
+      "package"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for JavaScript."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in JavaScript library imports?",
+    "options": [
+      "inheritance",
+      "global variables",
+      "exceptions",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for JavaScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in JavaScript input/output?",
+    "options": [
+      "aggregation",
+      "delegation",
+      "composition",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for JavaScript."
+  },
+  {
+    "question": "Which statement checks for equality in JavaScript data types?",
+    "options": [
+      ":=",
+      "===",
+      "=",
+      "=>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '===' for JavaScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in JavaScript memory management?",
+    "options": [
+      "static",
+      "dynamic",
+      "volatile",
+      "transient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for JavaScript."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in JavaScript code in library imports?",
+    "options": [
+      "let",
+      "mutable",
+      "var",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in JavaScript code in source code?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in JavaScript conditional logic?",
+    "options": [
+      "static",
+      "dynamic",
+      "transient",
+      "volatile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for JavaScript."
+  },
+  {
+    "question": "Which statement checks for equality in JavaScript function definitions?",
+    "options": [
+      ":=",
+      "=>",
+      "=",
+      "==="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '===' for JavaScript."
+  },
+  {
+    "question": "Which keyword defines a class in JavaScript conditional logic?",
+    "options": [
+      "package",
+      "module",
+      "function",
+      "namespace"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for JavaScript."
+  },
+  {
+    "question": "Which statement best describes memory management in JavaScript input/output?",
+    "options": [
+      "implicit typing",
+      "automatic garbage collection",
+      "syntax highlighting",
+      "runtime binding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for JavaScript."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in JavaScript library imports?",
+    "options": [
+      "queue",
+      "array",
+      "linked list",
+      "stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for JavaScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in JavaScript library imports?",
+    "options": [
+      "aggregation",
+      "delegation",
+      "inheritance",
+      "composition"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'inheritance' for JavaScript."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in JavaScript applications in header files?",
+    "options": [
+      "closures",
+      "generics",
+      "async/await",
+      "inheritance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'async/await' for JavaScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in JavaScript error handling?",
+    "options": [
+      "modularity",
+      "encapsulation",
+      "abstraction",
+      "polymorphism"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for JavaScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in JavaScript memory management?",
+    "options": [
+      "polymorphism",
+      "abstraction",
+      "modularity",
+      "encapsulation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for JavaScript."
+  },
+  {
+    "question": "Which statement best describes memory management in JavaScript data types?",
+    "options": [
+      "syntax highlighting",
+      "runtime binding",
+      "implicit typing",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for JavaScript."
+  }
+]

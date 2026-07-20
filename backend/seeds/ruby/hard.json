@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword defines a class in Ruby memory management?",
+    "options": [
+      "module",
+      "package",
+      "namespace",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for Ruby."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Ruby error handling?",
+    "options": [
+      "polymorphism",
+      "abstraction",
+      "encapsulation",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for Ruby."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Ruby code in library imports?",
+    "options": [
+      "CONST",
+      "let",
+      "mutable",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Ruby code in source code?",
+    "options": [
+      "let",
+      "var",
+      "CONST",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Ruby applications in library imports?",
+    "options": [
+      "generics",
+      "inheritance",
+      "closures",
+      "async tasks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'async tasks' for Ruby."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Ruby applications in error handling?",
+    "options": [
+      "inheritance",
+      "async tasks",
+      "generics",
+      "closures"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async tasks' for Ruby."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Ruby loop logic?",
+    "options": [
+      "linked list",
+      "array",
+      "queue",
+      "stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Ruby."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Ruby applications in input/output?",
+    "options": [
+      "async tasks",
+      "closures",
+      "generics",
+      "inheritance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for Ruby."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Ruby library imports?",
+    "options": [
+      "inheritance",
+      "composition",
+      "aggregation",
+      "delegation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for Ruby."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Ruby applications in function definitions?",
+    "options": [
+      "inheritance",
+      "generics",
+      "closures",
+      "async tasks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'async tasks' for Ruby."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Ruby code in loop logic?",
+    "options": [
+      "let",
+      "mutable",
+      "var",
+      "CONST"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which keyword defines a class in Ruby conditional logic?",
+    "options": [
+      "function",
+      "package",
+      "module",
+      "namespace"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for Ruby."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Ruby loop logic?",
+    "options": [
+      "static",
+      "transient",
+      "dynamic",
+      "volatile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for Ruby."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Ruby source code?",
+    "options": [
+      "volatile",
+      "dynamic",
+      "transient",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for Ruby."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Ruby data types?",
+    "options": [
+      "volatile",
+      "dynamic",
+      "static",
+      "transient"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for Ruby."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Ruby conditional logic?",
+    "options": [
+      "abstraction",
+      "modularity",
+      "encapsulation",
+      "polymorphism"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Ruby."
+  },
+  {
+    "question": "Which keyword defines a class in Ruby input/output?",
+    "options": [
+      "function",
+      "package",
+      "module",
+      "namespace"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for Ruby."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Ruby data types?",
+    "options": [
+      "stack",
+      "queue",
+      "linked list",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Ruby."
+  },
+  {
+    "question": "Which statement best describes memory management in Ruby error handling?",
+    "options": [
+      "syntax highlighting",
+      "implicit typing",
+      "runtime binding",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Ruby."
+  },
+  {
+    "question": "Which statement best describes memory management in Ruby input/output?",
+    "options": [
+      "implicit typing",
+      "syntax highlighting",
+      "automatic garbage collection",
+      "runtime binding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Ruby."
+  },
+  {
+    "question": "Which keyword defines a class in Ruby error handling?",
+    "options": [
+      "module",
+      "package",
+      "function",
+      "namespace"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for Ruby."
+  },
+  {
+    "question": "Which statement checks for equality in Ruby conditional logic?",
+    "options": [
+      "==",
+      "=>",
+      "=",
+      ":="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Ruby."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Ruby memory management?",
+    "options": [
+      "dynamic",
+      "transient",
+      "static",
+      "volatile"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for Ruby."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Ruby memory management?",
+    "options": [
+      "abstraction",
+      "modularity",
+      "polymorphism",
+      "encapsulation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Ruby."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Ruby memory management?",
+    "options": [
+      "queue",
+      "linked list",
+      "stack",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Ruby."
+  },
+  {
+    "question": "Which statement best describes memory management in Ruby loop logic?",
+    "options": [
+      "runtime binding",
+      "implicit typing",
+      "automatic garbage collection",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Ruby."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Ruby function definitions?",
+    "options": [
+      "None handling",
+      "exceptions",
+      "inheritance",
+      "global variables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None handling' for Ruby."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Ruby code in input/output?",
+    "options": [
+      "let",
+      "CONST",
+      "var",
+      "mutable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which statement checks for equality in Ruby input/output?",
+    "options": [
+      ":=",
+      "=",
+      "=>",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Ruby."
+  },
+  {
+    "question": "Which statement checks for equality in Ruby header files?",
+    "options": [
+      "=",
+      ":=",
+      "==",
+      "=>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Ruby."
+  },
+  {
+    "question": "Which keyword defines a class in Ruby library imports?",
+    "options": [
+      "function",
+      "namespace",
+      "module",
+      "package"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for Ruby."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Ruby code in data types?",
+    "options": [
+      "let",
+      "var",
+      "CONST",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Ruby code in conditional logic?",
+    "options": [
+      "let",
+      "var",
+      "mutable",
+      "CONST"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which statement best describes memory management in Ruby memory management?",
+    "options": [
+      "syntax highlighting",
+      "automatic garbage collection",
+      "runtime binding",
+      "implicit typing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for Ruby."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Ruby function definitions?",
+    "options": [
+      "encapsulation",
+      "modularity",
+      "polymorphism",
+      "abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Ruby."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Ruby code in memory management?",
+    "options": [
+      "let",
+      "var",
+      "CONST",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'CONST' for Ruby."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Ruby library imports?",
+    "options": [
+      "abstraction",
+      "encapsulation",
+      "modularity",
+      "polymorphism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Ruby."
+  },
+  {
+    "question": "Which keyword defines a class in Ruby loop logic?",
+    "options": [
+      "function",
+      "module",
+      "package",
+      "namespace"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for Ruby."
+  },
+  {
+    "question": "Which statement checks for equality in Ruby error handling?",
+    "options": [
+      ":=",
+      "=>",
+      "==",
+      "="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Ruby."
+  },
+  {
+    "question": "Which statement checks for equality in Ruby memory management?",
+    "options": [
+      "=",
+      "==",
+      ":=",
+      "=>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Ruby."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Ruby function definitions?",
+    "options": [
+      "aggregation",
+      "delegation",
+      "composition",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Ruby."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Ruby header files?",
+    "options": [
+      "delegation",
+      "aggregation",
+      "inheritance",
+      "composition"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'inheritance' for Ruby."
+  },
+  {
+    "question": "Which keyword defines a class in Ruby function definitions?",
+    "options": [
+      "module",
+      "package",
+      "function",
+      "namespace"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for Ruby."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Ruby applications in header files?",
+    "options": [
+      "async tasks",
+      "inheritance",
+      "generics",
+      "closures"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for Ruby."
+  },
+  {
+    "question": "Which keyword defines a class in Ruby data types?",
+    "options": [
+      "function",
+      "module",
+      "namespace",
+      "package"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for Ruby."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Ruby loop logic?",
+    "options": [
+      "modularity",
+      "abstraction",
+      "encapsulation",
+      "polymorphism"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for Ruby."
+  },
+  {
+    "question": "Which statement checks for equality in Ruby data types?",
+    "options": [
+      "=>",
+      "==",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Ruby."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Ruby conditional logic?",
+    "options": [
+      "linked list",
+      "queue",
+      "array",
+      "stack"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Ruby."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Ruby source code?",
+    "options": [
+      "inheritance",
+      "aggregation",
+      "composition",
+      "delegation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for Ruby."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Ruby header files?",
+    "options": [
+      "array",
+      "stack",
+      "queue",
+      "linked list"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Ruby."
+  }
+]

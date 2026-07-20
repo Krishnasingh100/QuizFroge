@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which property controls how white space is handled in CSS on image?",
+    "options": [
+      "text-overflow",
+      "white-space",
+      "line-height",
+      "overflow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'white-space' for CSS."
+  },
+  {
+    "question": "Which property sets a background image in CSS on content?",
+    "options": [
+      "image",
+      "background",
+      "background-image",
+      "url"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'background-image' for CSS."
+  },
+  {
+    "question": "Which property lets content wrap onto a new line in CSS on content?",
+    "options": [
+      "justify-content",
+      "align-items",
+      "flex-wrap",
+      "flex-direction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'flex-wrap' for CSS."
+  },
+  {
+    "question": "Which property sets a background image in CSS on header?",
+    "options": [
+      "image",
+      "background-image",
+      "url",
+      "background"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'background-image' for CSS."
+  },
+  {
+    "question": "Which CSS property controls horizontal overflow in CSS on footer?",
+    "options": [
+      "overflow-x",
+      "overflow",
+      "overflow-y",
+      "position"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'overflow-x' for CSS."
+  },
+  {
+    "question": "Which value makes a flex container use row layout in CSS on header?",
+    "options": [
+      "align-items: center",
+      "justify-content: flex-start",
+      "flex-direction: row",
+      "display: flex"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'flex-direction: row' for CSS."
+  },
+  {
+    "question": "Which property sets the gap between grid rows in CSS on button?",
+    "options": [
+      "gap",
+      "grid-gap",
+      "row-gap",
+      "column-gap"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'row-gap' for CSS."
+  },
+  {
+    "question": "Which property sets a background image in CSS on card?",
+    "options": [
+      "background-image",
+      "background",
+      "image",
+      "url"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'background-image' for CSS."
+  },
+  {
+    "question": "Which selector matches an element by id in CSS on card?",
+    "options": [
+      "main",
+      "*main",
+      ".main",
+      "#main"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '#main' for CSS."
+  },
+  {
+    "question": "Which property sets the distance between the element and its border in CSS on container?",
+    "options": [
+      "margin",
+      "border",
+      "outline",
+      "padding"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'padding' for CSS."
+  },
+  {
+    "question": "Which property changes the opacity in CSS on footer?",
+    "options": [
+      "opacity",
+      "visibility",
+      "display",
+      "filter"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'opacity' for CSS."
+  },
+  {
+    "question": "Which value makes a flex container use row layout in CSS on main?",
+    "options": [
+      "display: flex",
+      "flex-direction: row",
+      "align-items: center",
+      "justify-content: flex-start"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'flex-direction: row' for CSS."
+  },
+  {
+    "question": "Which property lets content wrap onto a new line in CSS on image?",
+    "options": [
+      "justify-content",
+      "flex-direction",
+      "align-items",
+      "flex-wrap"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'flex-wrap' for CSS."
+  },
+  {
+    "question": "Which CSS property controls horizontal overflow in CSS on form?",
+    "options": [
+      "overflow",
+      "position",
+      "overflow-y",
+      "overflow-x"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'overflow-x' for CSS."
+  },
+  {
+    "question": "Which value makes a flex container use row layout in CSS on card?",
+    "options": [
+      "align-items: center",
+      "flex-direction: row",
+      "justify-content: flex-start",
+      "display: flex"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'flex-direction: row' for CSS."
+  },
+  {
+    "question": "Which value makes a flex container use row layout in CSS on image?",
+    "options": [
+      "flex-direction: row",
+      "justify-content: flex-start",
+      "display: flex",
+      "align-items: center"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'flex-direction: row' for CSS."
+  },
+  {
+    "question": "Which property sets the gap between grid rows in CSS on main?",
+    "options": [
+      "grid-gap",
+      "gap",
+      "row-gap",
+      "column-gap"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'row-gap' for CSS."
+  },
+  {
+    "question": "Which property sets a background image in CSS on main?",
+    "options": [
+      "background-image",
+      "background",
+      "image",
+      "url"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'background-image' for CSS."
+  },
+  {
+    "question": "Which property sets the distance between the element and its border in CSS on main?",
+    "options": [
+      "padding",
+      "margin",
+      "border",
+      "outline"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'padding' for CSS."
+  },
+  {
+    "question": "Which property lets content wrap onto a new line in CSS on form?",
+    "options": [
+      "align-items",
+      "flex-direction",
+      "flex-wrap",
+      "justify-content"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'flex-wrap' for CSS."
+  },
+  {
+    "question": "Which selector matches an element by id in CSS on nav?",
+    "options": [
+      "main",
+      ".main",
+      "#main",
+      "*main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '#main' for CSS."
+  },
+  {
+    "question": "Which property changes the opacity in CSS on card?",
+    "options": [
+      "visibility",
+      "opacity",
+      "filter",
+      "display"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'opacity' for CSS."
+  },
+  {
+    "question": "Which property lets content wrap onto a new line in CSS on header?",
+    "options": [
+      "justify-content",
+      "flex-direction",
+      "align-items",
+      "flex-wrap"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'flex-wrap' for CSS."
+  },
+  {
+    "question": "Which selector matches an element by id in CSS on footer?",
+    "options": [
+      "main",
+      "#main",
+      ".main",
+      "*main"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '#main' for CSS."
+  },
+  {
+    "question": "Which property sets the gap between grid rows in CSS on container?",
+    "options": [
+      "gap",
+      "column-gap",
+      "row-gap",
+      "grid-gap"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'row-gap' for CSS."
+  },
+  {
+    "question": "Which selector matches an element by id in CSS on form?",
+    "options": [
+      ".main",
+      "main",
+      "*main",
+      "#main"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '#main' for CSS."
+  },
+  {
+    "question": "Which value makes a flex container use row layout in CSS on content?",
+    "options": [
+      "justify-content: flex-start",
+      "align-items: center",
+      "display: flex",
+      "flex-direction: row"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'flex-direction: row' for CSS."
+  },
+  {
+    "question": "Which property sets the gap between grid rows in CSS on header?",
+    "options": [
+      "row-gap",
+      "gap",
+      "column-gap",
+      "grid-gap"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'row-gap' for CSS."
+  },
+  {
+    "question": "Which property sets a background image in CSS on form?",
+    "options": [
+      "url",
+      "background",
+      "image",
+      "background-image"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'background-image' for CSS."
+  },
+  {
+    "question": "Which property lets content wrap onto a new line in CSS on button?",
+    "options": [
+      "flex-direction",
+      "justify-content",
+      "flex-wrap",
+      "align-items"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'flex-wrap' for CSS."
+  },
+  {
+    "question": "Which property lets content wrap onto a new line in CSS on container?",
+    "options": [
+      "align-items",
+      "flex-wrap",
+      "justify-content",
+      "flex-direction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'flex-wrap' for CSS."
+  },
+  {
+    "question": "Which property sets the gap between grid rows in CSS on nav?",
+    "options": [
+      "row-gap",
+      "grid-gap",
+      "gap",
+      "column-gap"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'row-gap' for CSS."
+  },
+  {
+    "question": "Which property sets a background image in CSS on footer?",
+    "options": [
+      "image",
+      "background-image",
+      "background",
+      "url"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'background-image' for CSS."
+  },
+  {
+    "question": "Which CSS property controls horizontal overflow in CSS on main?",
+    "options": [
+      "position",
+      "overflow-x",
+      "overflow",
+      "overflow-y"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'overflow-x' for CSS."
+  },
+  {
+    "question": "Which property changes the opacity in CSS on container?",
+    "options": [
+      "filter",
+      "visibility",
+      "opacity",
+      "display"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'opacity' for CSS."
+  },
+  {
+    "question": "Which property controls how white space is handled in CSS on container?",
+    "options": [
+      "line-height",
+      "text-overflow",
+      "overflow",
+      "white-space"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'white-space' for CSS."
+  },
+  {
+    "question": "Which property defines the stacking order of positioned elements in CSS on image?",
+    "options": [
+      "order",
+      "opacity",
+      "visibility",
+      "z-index"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'z-index' for CSS."
+  },
+  {
+    "question": "Which property sets the distance between the element and its border in CSS on content?",
+    "options": [
+      "margin",
+      "border",
+      "outline",
+      "padding"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'padding' for CSS."
+  },
+  {
+    "question": "Which property sets the gap between grid rows in CSS on card?",
+    "options": [
+      "column-gap",
+      "row-gap",
+      "gap",
+      "grid-gap"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'row-gap' for CSS."
+  },
+  {
+    "question": "Which selector matches an element by id in CSS on container?",
+    "options": [
+      ".main",
+      "#main",
+      "main",
+      "*main"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '#main' for CSS."
+  },
+  {
+    "question": "Which property changes the opacity in CSS on main?",
+    "options": [
+      "visibility",
+      "display",
+      "filter",
+      "opacity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'opacity' for CSS."
+  },
+  {
+    "question": "Which CSS property controls horizontal overflow in CSS on button?",
+    "options": [
+      "overflow-x",
+      "position",
+      "overflow-y",
+      "overflow"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'overflow-x' for CSS."
+  },
+  {
+    "question": "Which property sets the gap between grid rows in CSS on footer?",
+    "options": [
+      "gap",
+      "grid-gap",
+      "row-gap",
+      "column-gap"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'row-gap' for CSS."
+  },
+  {
+    "question": "Which property defines the stacking order of positioned elements in CSS on card?",
+    "options": [
+      "order",
+      "visibility",
+      "opacity",
+      "z-index"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'z-index' for CSS."
+  },
+  {
+    "question": "Which property controls how white space is handled in CSS on button?",
+    "options": [
+      "overflow",
+      "line-height",
+      "text-overflow",
+      "white-space"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'white-space' for CSS."
+  },
+  {
+    "question": "Which property changes the opacity in CSS on button?",
+    "options": [
+      "opacity",
+      "filter",
+      "visibility",
+      "display"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'opacity' for CSS."
+  },
+  {
+    "question": "Which property defines the stacking order of positioned elements in CSS on container?",
+    "options": [
+      "order",
+      "opacity",
+      "visibility",
+      "z-index"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'z-index' for CSS."
+  },
+  {
+    "question": "Which CSS property controls horizontal overflow in CSS on header?",
+    "options": [
+      "overflow-y",
+      "overflow",
+      "overflow-x",
+      "position"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'overflow-x' for CSS."
+  },
+  {
+    "question": "Which property sets the distance between the element and its border in CSS on nav?",
+    "options": [
+      "border",
+      "outline",
+      "padding",
+      "margin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'padding' for CSS."
+  },
+  {
+    "question": "Which value makes a flex container use row layout in CSS on footer?",
+    "options": [
+      "display: flex",
+      "justify-content: flex-start",
+      "align-items: center",
+      "flex-direction: row"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'flex-direction: row' for CSS."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which value is commonly used for true in C library imports?",
+    "options": [
+      "True",
+      "false",
+      "true",
+      "1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '1' for C."
+  },
+  {
+    "question": "Which operator checks equality in C conditional logic?",
+    "options": [
+      "!=",
+      "===",
+      "==",
+      "="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for C."
+  },
+  {
+    "question": "Which keyword declares a constant value in C function definitions?",
+    "options": [
+      "var",
+      "const",
+      "static",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in C library imports?",
+    "options": [
+      "//",
+      "/* */",
+      "<!-- -->",
+      "#"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '//' for C."
+  },
+  {
+    "question": "Which keyword begins a loop in C conditional logic?",
+    "options": [
+      "while",
+      "for",
+      "loop",
+      "repeat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for C."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in C source code?",
+    "options": [
+      "break",
+      "stop",
+      "return",
+      "continue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'break' for C."
+  },
+  {
+    "question": "Which sign is used to assign values in C library imports?",
+    "options": [
+      "=",
+      ":=",
+      "=>",
+      "=="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '=' for C."
+  },
+  {
+    "question": "Which code line correctly declares a constant in C header files?",
+    "options": [
+      "let",
+      "const",
+      "static",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which file extension is standard for C function definitions?",
+    "options": [
+      ".json",
+      ".txt",
+      ".md",
+      ".c"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '.c' for C."
+  },
+  {
+    "question": "Which keyword begins a loop in C loop logic?",
+    "options": [
+      "while",
+      "loop",
+      "for",
+      "repeat"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for C."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in C header files?",
+    "options": [
+      "console.log(\"Hello\")",
+      "echo \"Hello\";",
+      "puts \"Hello\"",
+      "print(\"Hello\")"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'print(\"Hello\")' for C."
+  },
+  {
+    "question": "Which value is commonly used for true in C source code?",
+    "options": [
+      "false",
+      "True",
+      "true",
+      "1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '1' for C."
+  },
+  {
+    "question": "What is the result of 3 + 4 in C header files?",
+    "options": [
+      "0",
+      "34",
+      "7",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '7' for C."
+  },
+  {
+    "question": "Which keyword declares a constant value in C loop logic?",
+    "options": [
+      "const",
+      "let",
+      "static",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which code line correctly declares a constant in C source code?",
+    "options": [
+      "const",
+      "var",
+      "let",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which keyword begins a loop in C header files?",
+    "options": [
+      "loop",
+      "for",
+      "while",
+      "repeat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for C."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in C loop logic?",
+    "options": [
+      "<!-- -->",
+      "//",
+      "/* */",
+      "#"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '//' for C."
+  },
+  {
+    "question": "Which value is commonly used for true in C function definitions?",
+    "options": [
+      "1",
+      "false",
+      "true",
+      "True"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '1' for C."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in C library imports?",
+    "options": [
+      "2",
+      "10",
+      "0",
+      "25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '10' for C."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in C loop logic?",
+    "options": [
+      "functions",
+      "classes",
+      "variables",
+      "comments"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'functions' for C."
+  },
+  {
+    "question": "Which keyword declares a constant value in C header files?",
+    "options": [
+      "let",
+      "const",
+      "static",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which sign is used to assign values in C loop logic?",
+    "options": [
+      "=>",
+      ":=",
+      "==",
+      "="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '=' for C."
+  },
+  {
+    "question": "Which code line correctly declares a constant in C library imports?",
+    "options": [
+      "const",
+      "var",
+      "static",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which code line uses string concatenation in C loop logic?",
+    "options": [
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\"",
+      "join(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for C."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in C conditional logic?",
+    "options": [
+      "/* */",
+      "<!-- -->",
+      "//",
+      "#"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '//' for C."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in C loop logic?",
+    "options": [
+      "stop",
+      "break",
+      "return",
+      "continue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'break' for C."
+  },
+  {
+    "question": "What is the result of 8 - 3 in C loop logic?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '5' for C."
+  },
+  {
+    "question": "Which value is commonly used for true in C loop logic?",
+    "options": [
+      "false",
+      "True",
+      "1",
+      "true"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '1' for C."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in C conditional logic?",
+    "options": [
+      "echo \"Hello\";",
+      "console.log(\"Hello\")",
+      "puts \"Hello\"",
+      "print(\"Hello\")"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'print(\"Hello\")' for C."
+  },
+  {
+    "question": "Which phrase describes the main function signature in C header files?",
+    "options": [
+      "def main():",
+      "main()",
+      "function main() {}",
+      "int main()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int main()' for C."
+  },
+  {
+    "question": "What is the result of 3 + 4 in C loop logic?",
+    "options": [
+      "34",
+      "7",
+      "Error",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '7' for C."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in C function definitions?",
+    "options": [
+      "<!-- -->",
+      "//",
+      "/* */",
+      "#"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '//' for C."
+  },
+  {
+    "question": "Which option fills the blank in C source code: const x = 5; x = 10; // __? ",
+    "options": [
+      "assignment",
+      "declaration",
+      "iteration",
+      "comparison"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'assignment' for C."
+  },
+  {
+    "question": "Which phrase describes the main function signature in C conditional logic?",
+    "options": [
+      "main()",
+      "def main():",
+      "function main() {}",
+      "int main()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int main()' for C."
+  },
+  {
+    "question": "Which value is commonly used for true in C header files?",
+    "options": [
+      "false",
+      "1",
+      "True",
+      "true"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '1' for C."
+  },
+  {
+    "question": "What is the result of 3 + 4 in C conditional logic?",
+    "options": [
+      "Error",
+      "7",
+      "0",
+      "34"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '7' for C."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in C library imports?",
+    "options": [
+      "print(\"Hello\")",
+      "console.log(\"Hello\")",
+      "echo \"Hello\";",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'print(\"Hello\")' for C."
+  },
+  {
+    "question": "Which value is commonly used for true in C conditional logic?",
+    "options": [
+      "True",
+      "true",
+      "1",
+      "false"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '1' for C."
+  },
+  {
+    "question": "Which option fills the blank in C conditional logic: const x = 5; x = 10; // __? ",
+    "options": [
+      "assignment",
+      "iteration",
+      "comparison",
+      "declaration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'assignment' for C."
+  },
+  {
+    "question": "Which operator checks equality in C loop logic?",
+    "options": [
+      "==",
+      "!=",
+      "===",
+      "="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for C."
+  },
+  {
+    "question": "Which option fills the blank in C library imports: const x = 5; x = 10; // __? ",
+    "options": [
+      "declaration",
+      "iteration",
+      "assignment",
+      "comparison"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'assignment' for C."
+  },
+  {
+    "question": "Which file extension is standard for C loop logic?",
+    "options": [
+      ".md",
+      ".json",
+      ".c",
+      ".txt"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.c' for C."
+  },
+  {
+    "question": "Which code line uses string concatenation in C library imports?",
+    "options": [
+      "\"Hello\" . \"World\"",
+      "\"Hello\" + \"World\"",
+      "join(\"Hello\", \"World\")",
+      "concat(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for C."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in C header files?",
+    "options": [
+      "continue",
+      "stop",
+      "return",
+      "break"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'break' for C."
+  },
+  {
+    "question": "Which operator checks equality in C header files?",
+    "options": [
+      "!=",
+      "==",
+      "===",
+      "="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for C."
+  },
+  {
+    "question": "Which keyword declares a constant value in C source code?",
+    "options": [
+      "var",
+      "const",
+      "static",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in C conditional logic?",
+    "options": [
+      "classes",
+      "comments",
+      "functions",
+      "variables"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'functions' for C."
+  },
+  {
+    "question": "Which statement imports libraries or packages in C source code?",
+    "options": [
+      "use lib;",
+      "#include <stdio.h>",
+      "require(\"lib\")",
+      "include <lib>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '#include <stdio.h>' for C."
+  },
+  {
+    "question": "Which keyword begins a loop in C library imports?",
+    "options": [
+      "loop",
+      "while",
+      "for",
+      "repeat"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for C."
+  },
+  {
+    "question": "Which operator checks equality in C source code?",
+    "options": [
+      "=",
+      "!=",
+      "==",
+      "==="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for C."
+  }
+]

@@ -1,0 +1,387 @@
+[
+  {
+    "question": "Which SQL statement removes a database?",
+    "options": [
+      "TRUNCATE DATABASE",
+      "REMOVE DATABASE",
+      "DELETE DATABASE",
+      "DROP DATABASE"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'DROP DATABASE' for SQL."
+  },
+  {
+    "question": "Which SQL clause is used to order rows before applying OFFSET?",
+    "options": [
+      "LIMIT",
+      "WHERE",
+      "ORDER BY",
+      "GROUP BY"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'ORDER BY' for SQL."
+  },
+  {
+    "question": "Which SQL function returns the current date in many databases?",
+    "options": [
+      "CURRENT_DATE",
+      "GETDATE()",
+      "NOW()",
+      "TODAY()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'CURRENT_DATE' for SQL."
+  },
+  {
+    "question": "Which SQL keyword returns rows found by a subquery?",
+    "options": [
+      "ANY",
+      "IN",
+      "LIKE",
+      "EXISTS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'IN' for SQL."
+  },
+  {
+    "question": "Which SQL clause adds a label for an expression in a query result?",
+    "options": [
+      "LABEL",
+      "ALIAS",
+      "NAME",
+      "AS"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'AS' for SQL."
+  },
+  {
+    "question": "Which SQL keyword forces a join to include all rows from both tables?",
+    "options": [
+      "FULL OUTER JOIN",
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "LEFT JOIN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'FULL OUTER JOIN' for SQL."
+  },
+  {
+    "question": "Which SQL keyword returns rows that exist in one query but not another?",
+    "options": [
+      "EXCEPT",
+      "MINUS",
+      "INTERSECT",
+      "UNION"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'EXCEPT' for SQL."
+  },
+  {
+    "question": "Which SQL operator tests for the existence of rows in a subquery?",
+    "options": [
+      "EXISTS",
+      "ANY",
+      "IN",
+      "SOME"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'EXISTS' for SQL."
+  },
+  {
+    "question": "Which SQL function returns the first non-null value from its arguments?",
+    "options": [
+      "COALESCE",
+      "NULLIF",
+      "NVL",
+      "IFNULL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'COALESCE' for SQL."
+  },
+  {
+    "question": "Which SQL statement creates a temporary table for the session?",
+    "options": [
+      "CREATE TEMPORARY TABLE",
+      "CREATE GLOBAL TEMPORARY TABLE",
+      "CREATE TABLE",
+      "CREATE TEMP TABLE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'CREATE TEMPORARY TABLE' for SQL."
+  },
+  {
+    "question": "Which SQL clause defines an alias for a table?",
+    "options": [
+      "LABEL",
+      "AS",
+      "RENAME",
+      "ALIAS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'AS' for SQL."
+  },
+  {
+    "question": "Which SQL clause is used to compare pattern-matching conditions?",
+    "options": [
+      "IN",
+      "BETWEEN",
+      "EXISTS",
+      "LIKE"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'LIKE' for SQL."
+  },
+  {
+    "question": "Which SQL statement removes only rows that meet a condition?",
+    "options": [
+      "DROP",
+      "TRUNCATE",
+      "REMOVE",
+      "DELETE"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'DELETE' for SQL."
+  },
+  {
+    "question": "Which SQL keyword is used to combine query results and keep duplicates?",
+    "options": [
+      "INTERSECT",
+      "EXCEPT",
+      "UNION ALL",
+      "UNION"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'UNION ALL' for SQL."
+  },
+  {
+    "question": "Which SQL keyword defines a foreign key reference in a table?",
+    "options": [
+      "CHECK",
+      "UNIQUE",
+      "PRIMARY KEY",
+      "FOREIGN KEY"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'FOREIGN KEY' for SQL."
+  },
+  {
+    "question": "Which SQL clause is used to limit rows for pagination in MySQL?",
+    "options": [
+      "FETCH",
+      "LIMIT",
+      "OFFSET",
+      "TOP"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'LIMIT' for SQL."
+  },
+  {
+    "question": "Which SQL constraint links a column to another tables primary key?",
+    "options": [
+      "PRIMARY KEY",
+      "FOREIGN KEY",
+      "CHECK",
+      "UNIQUE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'FOREIGN KEY' for SQL."
+  },
+  {
+    "question": "Which SQL keyword sets a column to reject null values?",
+    "options": [
+      "UNIQUE",
+      "NULL",
+      "NOT NULL",
+      "DEFAULT"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'NOT NULL' for SQL."
+  },
+  {
+    "question": "Which SQL statement adds a primary key constraint to a table?",
+    "options": [
+      "CREATE TABLE ... PRIMARY KEY",
+      "ALTER TABLE ... ADD UNIQUE",
+      "ALTER TABLE ... ADD CONSTRAINT",
+      "ALTER TABLE ... ADD PRIMARY KEY"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'ALTER TABLE ... ADD PRIMARY KEY' for SQL."
+  },
+  {
+    "question": "Which SQL clause sorts results in ascending order?",
+    "options": [
+      "DESC",
+      "ORDER BY",
+      "ASC",
+      "SORT BY"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'ASC' for SQL."
+  },
+  {
+    "question": "Which SQL keyword prevents duplicate rows in a combined result?",
+    "options": [
+      "UNION",
+      "UNION ALL",
+      "INTERSECT",
+      "EXCEPT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'UNION' for SQL."
+  },
+  {
+    "question": "Which SQL command creates a stored function in MySQL?",
+    "options": [
+      "CREATE FUNCTION",
+      "CREATE TRIGGER",
+      "CREATE VIEW",
+      "CREATE PROCEDURE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'CREATE FUNCTION' for SQL."
+  },
+  {
+    "question": "Which SQL statement renames a table?",
+    "options": [
+      "RENAME TABLE",
+      "ALTER TABLE ... RENAME TO",
+      "CHANGE TABLE",
+      "MODIFY TABLE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'ALTER TABLE ... RENAME TO' for SQL."
+  },
+  {
+    "question": "Which SQL command reverts all changes in the current transaction?",
+    "options": [
+      "ROLLBACK",
+      "SAVEPOINT",
+      "COMMIT",
+      "END TRANSACTION"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'ROLLBACK' for SQL."
+  },
+  {
+    "question": "Which SQL function returns the current date and time?",
+    "options": [
+      "SYSDATE",
+      "CURRENT_DATE",
+      "GETDATE()",
+      "NOW()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'NOW()' for SQL."
+  },
+  {
+    "question": "Which SQL statement creates a new stored procedure?",
+    "options": [
+      "CREATE FUNCTION",
+      "CREATE PROCEDURE",
+      "CREATE TRIGGER",
+      "CREATE VIEW"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'CREATE PROCEDURE' for SQL."
+  },
+  {
+    "question": "Which SQL keyword defines a constraint that a value must be within a range?",
+    "options": [
+      "NOT NULL",
+      "CHECK",
+      "UNIQUE",
+      "DEFAULT"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'CHECK' for SQL."
+  },
+  {
+    "question": "Which SQL keyword allows a query to refer to the same table twice?",
+    "options": [
+      "NATURAL JOIN",
+      "SELF JOIN",
+      "CROSS JOIN",
+      "INNER JOIN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'SELF JOIN' for SQL."
+  },
+  {
+    "question": "Which SQL keyword creates a compound primary key?",
+    "options": [
+      "FOREIGN KEY",
+      "CHECK",
+      "UNIQUE",
+      "PRIMARY KEY"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'PRIMARY KEY' for SQL."
+  },
+  {
+    "question": "Which SQL clause sorts results in descending order?",
+    "options": [
+      "DESC",
+      "ASC",
+      "ORDER BY",
+      "SORT BY"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'DESC' for SQL."
+  },
+  {
+    "question": "Which SQL keyword preserves duplicate rows in a combined result?",
+    "options": [
+      "UNION ALL",
+      "UNION",
+      "EXCEPT",
+      "INTERSECT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'UNION ALL' for SQL."
+  },
+  {
+    "question": "Which SQL operator checks whether a value matches a pattern using wildcards?",
+    "options": [
+      "MATCH",
+      "IN",
+      "BETWEEN",
+      "LIKE"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'LIKE' for SQL."
+  },
+  {
+    "question": "Which SQL keyword defines a row-level security policy?",
+    "options": [
+      "RULE",
+      "CONSTRAINT",
+      "SECURITY",
+      "POLICY"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'POLICY' for SQL."
+  },
+  {
+    "question": "Which SQL keyword is used to create a read-only view?",
+    "options": [
+      "CREATE VIEW",
+      "CREATE TABLE",
+      "CREATE SCHEMA",
+      "CREATE INDEX"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'CREATE VIEW' for SQL."
+  },
+  {
+    "question": "Which SQL keyword enforces that values in a column are unique?",
+    "options": [
+      "PRIMARY KEY",
+      "NOT NULL",
+      "UNIQUE",
+      "CHECK"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'UNIQUE' for SQL."
+  }
+]

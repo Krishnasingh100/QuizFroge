@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which GitHub feature automates build and test pipelines in pull requests?",
+    "options": [
+      "Actions",
+      "Projects",
+      "Issues",
+      "Pages"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used to manage feedback and feature requests in security settings?",
+    "options": [
+      "Projects",
+      "Pages",
+      "Issues",
+      "Actions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Issues' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature helps publish a compiled application or library in package registry?",
+    "options": [
+      "Actions",
+      "Packages",
+      "Wiki",
+      "Releases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Packages' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature helps publish a compiled application or library in security settings?",
+    "options": [
+      "Releases",
+      "Actions",
+      "Wiki",
+      "Packages"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Packages' for GitHub."
+  },
+  {
+    "question": "Which GitHub page shows code scanning results and alerts in issue tracker?",
+    "options": [
+      "Security",
+      "Actions",
+      "Settings",
+      "Insights"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Security' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature lets you keep code and documentation together in issue tracker?",
+    "options": [
+      "Pages",
+      "Issues",
+      "Actions",
+      "Wiki"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub term refers to a copy of a repository you can modify independently in security settings?",
+    "options": [
+      "Clone",
+      "Fork",
+      "Branch",
+      "Mirror"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Fork' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature helps publish a compiled application or library in workflow?",
+    "options": [
+      "Actions",
+      "Packages",
+      "Wiki",
+      "Releases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Packages' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature keeps track of security alerts and vulnerabilities in collaboration tools?",
+    "options": [
+      "Security",
+      "Actions",
+      "Wiki",
+      "Issues"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Security' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature lets you keep code and documentation together in project board?",
+    "options": [
+      "Pages",
+      "Actions",
+      "Wiki",
+      "Issues"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub page lists published version history in issue tracker?",
+    "options": [
+      "Issues",
+      "Actions",
+      "Pull requests",
+      "Releases"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores custom workflow definitions in YAML in collaboration tools?",
+    "options": [
+      "Pages",
+      "Wiki",
+      "Actions",
+      "Releases"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature automates build and test pipelines in security settings?",
+    "options": [
+      "Issues",
+      "Pages",
+      "Projects",
+      "Actions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature automates build and test pipelines in package registry?",
+    "options": [
+      "Actions",
+      "Projects",
+      "Issues",
+      "Pages"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores custom workflow definitions in YAML in pull requests?",
+    "options": [
+      "Pages",
+      "Actions",
+      "Releases",
+      "Wiki"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature lets you keep code and documentation together in release notes?",
+    "options": [
+      "Wiki",
+      "Actions",
+      "Pages",
+      "Issues"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature keeps track of security alerts and vulnerabilities in release notes?",
+    "options": [
+      "Security",
+      "Wiki",
+      "Issues",
+      "Actions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Security' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores custom workflow definitions in YAML in issue tracker?",
+    "options": [
+      "Wiki",
+      "Pages",
+      "Actions",
+      "Releases"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores custom workflow definitions in YAML in project board?",
+    "options": [
+      "Wiki",
+      "Pages",
+      "Releases",
+      "Actions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature allows contributors to discuss changes before merging in release notes?",
+    "options": [
+      "Pull Request",
+      "Wiki",
+      "Issue",
+      "Pages"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Pull Request' for GitHub."
+  },
+  {
+    "question": "Which GitHub page lists published version history in release notes?",
+    "options": [
+      "Issues",
+      "Actions",
+      "Pull requests",
+      "Releases"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature allows contributors to discuss changes before merging in pull requests?",
+    "options": [
+      "Pull Request",
+      "Wiki",
+      "Pages",
+      "Issue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Pull Request' for GitHub."
+  },
+  {
+    "question": "Which GitHub page lists published version history in pull requests?",
+    "options": [
+      "Issues",
+      "Releases",
+      "Pull requests",
+      "Actions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used to manage feedback and feature requests in project board?",
+    "options": [
+      "Projects",
+      "Issues",
+      "Actions",
+      "Pages"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Issues' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature keeps track of security alerts and vulnerabilities in issue tracker?",
+    "options": [
+      "Actions",
+      "Security",
+      "Wiki",
+      "Issues"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Security' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature helps publish a compiled application or library in documentation?",
+    "options": [
+      "Wiki",
+      "Packages",
+      "Actions",
+      "Releases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Packages' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature lets you keep code and documentation together in workflow?",
+    "options": [
+      "Wiki",
+      "Issues",
+      "Pages",
+      "Actions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature lets you keep code and documentation together in security settings?",
+    "options": [
+      "Pages",
+      "Wiki",
+      "Issues",
+      "Actions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores custom workflow definitions in YAML in security settings?",
+    "options": [
+      "Actions",
+      "Releases",
+      "Wiki",
+      "Pages"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature automates build and test pipelines in issue tracker?",
+    "options": [
+      "Actions",
+      "Projects",
+      "Pages",
+      "Issues"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub page lists published version history in security settings?",
+    "options": [
+      "Actions",
+      "Issues",
+      "Releases",
+      "Pull requests"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used to manage feedback and feature requests in release notes?",
+    "options": [
+      "Actions",
+      "Issues",
+      "Pages",
+      "Projects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Issues' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used to manage feedback and feature requests in collaboration tools?",
+    "options": [
+      "Issues",
+      "Pages",
+      "Projects",
+      "Actions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Issues' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores custom workflow definitions in YAML in workflow?",
+    "options": [
+      "Releases",
+      "Actions",
+      "Pages",
+      "Wiki"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature keeps track of security alerts and vulnerabilities in workflow?",
+    "options": [
+      "Security",
+      "Actions",
+      "Issues",
+      "Wiki"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Security' for GitHub."
+  },
+  {
+    "question": "Which GitHub term refers to a copy of a repository you can modify independently in workflow?",
+    "options": [
+      "Fork",
+      "Branch",
+      "Mirror",
+      "Clone"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Fork' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature lets you keep code and documentation together in documentation?",
+    "options": [
+      "Actions",
+      "Wiki",
+      "Issues",
+      "Pages"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub page shows code scanning results and alerts in package registry?",
+    "options": [
+      "Security",
+      "Settings",
+      "Actions",
+      "Insights"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Security' for GitHub."
+  },
+  {
+    "question": "Which GitHub page shows code scanning results and alerts in workflow?",
+    "options": [
+      "Security",
+      "Settings",
+      "Actions",
+      "Insights"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Security' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature lets you keep code and documentation together in collaboration tools?",
+    "options": [
+      "Actions",
+      "Issues",
+      "Pages",
+      "Wiki"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores custom workflow definitions in YAML in package registry?",
+    "options": [
+      "Pages",
+      "Releases",
+      "Wiki",
+      "Actions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub term refers to a copy of a repository you can modify independently in issue tracker?",
+    "options": [
+      "Branch",
+      "Clone",
+      "Fork",
+      "Mirror"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Fork' for GitHub."
+  },
+  {
+    "question": "Which GitHub page lists published version history in collaboration tools?",
+    "options": [
+      "Issues",
+      "Pull requests",
+      "Releases",
+      "Actions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub term refers to a copy of a repository you can modify independently in collaboration tools?",
+    "options": [
+      "Mirror",
+      "Fork",
+      "Branch",
+      "Clone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Fork' for GitHub."
+  },
+  {
+    "question": "Which GitHub page lists published version history in package registry?",
+    "options": [
+      "Issues",
+      "Actions",
+      "Pull requests",
+      "Releases"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature lets you keep code and documentation together in package registry?",
+    "options": [
+      "Actions",
+      "Issues",
+      "Wiki",
+      "Pages"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub term refers to a copy of a repository you can modify independently in release notes?",
+    "options": [
+      "Clone",
+      "Mirror",
+      "Fork",
+      "Branch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Fork' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature keeps track of security alerts and vulnerabilities in documentation?",
+    "options": [
+      "Security",
+      "Wiki",
+      "Actions",
+      "Issues"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Security' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used to manage feedback and feature requests in package registry?",
+    "options": [
+      "Pages",
+      "Issues",
+      "Projects",
+      "Actions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Issues' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature automates build and test pipelines in project board?",
+    "options": [
+      "Actions",
+      "Projects",
+      "Issues",
+      "Pages"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  }
+]

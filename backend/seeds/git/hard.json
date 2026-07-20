@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which Git command restores deleted files from the index in feature branch?",
+    "options": [
+      "git restore --",
+      "git reset --",
+      "git add --",
+      "git checkout --"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git checkout --' for Git."
+  },
+  {
+    "question": "Which Git command creates a tag at the current commit in feature branch?",
+    "options": [
+      "git release",
+      "git label",
+      "git mark",
+      "git tag"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git tag' for Git."
+  },
+  {
+    "question": "Which Git command shows a graphical commit history in remote repository?",
+    "options": [
+      "git show --graph",
+      "git diff --graph",
+      "git log --graph",
+      "git status --graph"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git log --graph' for Git."
+  },
+  {
+    "question": "Which Git command compares two branches for differences in stash area?",
+    "options": [
+      "git log branch1..branch2",
+      "git diff branch1..branch2",
+      "git compare branch1..branch2",
+      "git status branch1..branch2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git diff branch1..branch2' for Git."
+  },
+  {
+    "question": "Which Git command rewrites commits on top of another base branch in feature branch?",
+    "options": [
+      "git checkout",
+      "git reset",
+      "git rebase",
+      "git merge"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git rebase' for Git."
+  },
+  {
+    "question": "Which Git command rewrites the commit message for the last commit in stash area?",
+    "options": [
+      "git reset --soft",
+      "git rebase -i",
+      "git amend",
+      "git commit --amend"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git commit --amend' for Git."
+  },
+  {
+    "question": "Which Git command shows a graphical commit history in branch history?",
+    "options": [
+      "git log --graph",
+      "git diff --graph",
+      "git show --graph",
+      "git status --graph"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git log --graph' for Git."
+  },
+  {
+    "question": "Which Git command creates a tag at the current commit in remote repository?",
+    "options": [
+      "git tag",
+      "git release",
+      "git label",
+      "git mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git tag' for Git."
+  },
+  {
+    "question": "Which Git command restores deleted files from the index in working tree?",
+    "options": [
+      "git add --",
+      "git restore --",
+      "git reset --",
+      "git checkout --"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git checkout --' for Git."
+  },
+  {
+    "question": "Which Git command restores deleted files from the index in staging area?",
+    "options": [
+      "git reset --",
+      "git checkout --",
+      "git add --",
+      "git restore --"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git checkout --' for Git."
+  },
+  {
+    "question": "Which Git command resets the working tree to the last commit and discards changes in merge conflicts?",
+    "options": [
+      "git revert",
+      "git clean",
+      "git reset --hard",
+      "git stash pop"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git reset --hard' for Git."
+  },
+  {
+    "question": "Which Git command removes untracked files from the working tree in feature branch?",
+    "options": [
+      "git reset --hard",
+      "git stash clear",
+      "git clean -f",
+      "git rm -f"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git clean -f' for Git."
+  },
+  {
+    "question": "Which Git command rewrites the commit message for the last commit in remote repository?",
+    "options": [
+      "git commit --amend",
+      "git reset --soft",
+      "git amend",
+      "git rebase -i"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git commit --amend' for Git."
+  },
+  {
+    "question": "Which Git command clones a repository and checks out a branch in staging area?",
+    "options": [
+      "git checkout -b",
+      "git clone --branch",
+      "git clone -c",
+      "git clone -b"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git clone -b' for Git."
+  },
+  {
+    "question": "Which Git command clones a repository and checks out a branch in main branch?",
+    "options": [
+      "git checkout -b",
+      "git clone -b",
+      "git clone --branch",
+      "git clone -c"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git clone -b' for Git."
+  },
+  {
+    "question": "Which Git command creates a tag at the current commit in staging area?",
+    "options": [
+      "git tag",
+      "git label",
+      "git mark",
+      "git release"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git tag' for Git."
+  },
+  {
+    "question": "Which Git command clones a repository and checks out a branch in merge conflicts?",
+    "options": [
+      "git clone --branch",
+      "git clone -c",
+      "git checkout -b",
+      "git clone -b"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git clone -b' for Git."
+  },
+  {
+    "question": "Which Git command rewrites commits on top of another base branch in commit history?",
+    "options": [
+      "git rebase",
+      "git merge",
+      "git reset",
+      "git checkout"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git rebase' for Git."
+  },
+  {
+    "question": "Which Git command resets the working tree to the last commit and discards changes in remote repository?",
+    "options": [
+      "git clean",
+      "git revert",
+      "git reset --hard",
+      "git stash pop"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git reset --hard' for Git."
+  },
+  {
+    "question": "Which Git command rewrites commits on top of another base branch in branch history?",
+    "options": [
+      "git reset",
+      "git merge",
+      "git checkout",
+      "git rebase"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git rebase' for Git."
+  },
+  {
+    "question": "Which Git command removes untracked files from the working tree in commit history?",
+    "options": [
+      "git rm -f",
+      "git reset --hard",
+      "git clean -f",
+      "git stash clear"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git clean -f' for Git."
+  },
+  {
+    "question": "Which Git command rewrites commits on top of another base branch in working tree?",
+    "options": [
+      "git rebase",
+      "git merge",
+      "git checkout",
+      "git reset"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git rebase' for Git."
+  },
+  {
+    "question": "Which Git command removes untracked files from the working tree in working tree?",
+    "options": [
+      "git reset --hard",
+      "git rm -f",
+      "git clean -f",
+      "git stash clear"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git clean -f' for Git."
+  },
+  {
+    "question": "Which Git command removes untracked files from the working tree in branch history?",
+    "options": [
+      "git rm -f",
+      "git stash clear",
+      "git reset --hard",
+      "git clean -f"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git clean -f' for Git."
+  },
+  {
+    "question": "Which Git command resets the working tree to the last commit and discards changes in local repository?",
+    "options": [
+      "git clean",
+      "git stash pop",
+      "git revert",
+      "git reset --hard"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git reset --hard' for Git."
+  },
+  {
+    "question": "Which Git command rewrites commits on top of another base branch in stash area?",
+    "options": [
+      "git merge",
+      "git reset",
+      "git rebase",
+      "git checkout"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git rebase' for Git."
+  },
+  {
+    "question": "Which Git command removes untracked files from the working tree in remote repository?",
+    "options": [
+      "git clean -f",
+      "git stash clear",
+      "git rm -f",
+      "git reset --hard"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git clean -f' for Git."
+  },
+  {
+    "question": "Which Git command shows a graphical commit history in staging area?",
+    "options": [
+      "git diff --graph",
+      "git status --graph",
+      "git log --graph",
+      "git show --graph"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git log --graph' for Git."
+  },
+  {
+    "question": "Which Git command compares two branches for differences in staging area?",
+    "options": [
+      "git compare branch1..branch2",
+      "git log branch1..branch2",
+      "git status branch1..branch2",
+      "git diff branch1..branch2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git diff branch1..branch2' for Git."
+  },
+  {
+    "question": "Which Git command lists all remote repositories in commit history?",
+    "options": [
+      "git ls-remote",
+      "git repo -v",
+      "git remote -v",
+      "git remotes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git remote -v' for Git."
+  },
+  {
+    "question": "Which Git command removes untracked files from the working tree in merge conflicts?",
+    "options": [
+      "git rm -f",
+      "git reset --hard",
+      "git clean -f",
+      "git stash clear"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git clean -f' for Git."
+  },
+  {
+    "question": "Which Git command rewrites the commit message for the last commit in merge conflicts?",
+    "options": [
+      "git rebase -i",
+      "git reset --soft",
+      "git commit --amend",
+      "git amend"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git commit --amend' for Git."
+  },
+  {
+    "question": "Which Git command clones a repository and checks out a branch in feature branch?",
+    "options": [
+      "git clone -c",
+      "git clone --branch",
+      "git checkout -b",
+      "git clone -b"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git clone -b' for Git."
+  },
+  {
+    "question": "Which Git command restores deleted files from the index in stash area?",
+    "options": [
+      "git restore --",
+      "git checkout --",
+      "git reset --",
+      "git add --"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git checkout --' for Git."
+  },
+  {
+    "question": "Which Git command clones a repository and checks out a branch in commit history?",
+    "options": [
+      "git clone --branch",
+      "git clone -b",
+      "git clone -c",
+      "git checkout -b"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git clone -b' for Git."
+  },
+  {
+    "question": "Which Git command removes untracked files from the working tree in local repository?",
+    "options": [
+      "git clean -f",
+      "git rm -f",
+      "git reset --hard",
+      "git stash clear"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git clean -f' for Git."
+  },
+  {
+    "question": "Which Git command resets the working tree to the last commit and discards changes in stash area?",
+    "options": [
+      "git revert",
+      "git stash pop",
+      "git clean",
+      "git reset --hard"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git reset --hard' for Git."
+  },
+  {
+    "question": "Which Git command resets the working tree to the last commit and discards changes in staging area?",
+    "options": [
+      "git revert",
+      "git reset --hard",
+      "git clean",
+      "git stash pop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git reset --hard' for Git."
+  },
+  {
+    "question": "Which Git command shows a graphical commit history in commit history?",
+    "options": [
+      "git show --graph",
+      "git status --graph",
+      "git diff --graph",
+      "git log --graph"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git log --graph' for Git."
+  },
+  {
+    "question": "Which Git command rewrites the commit message for the last commit in feature branch?",
+    "options": [
+      "git commit --amend",
+      "git reset --soft",
+      "git rebase -i",
+      "git amend"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git commit --amend' for Git."
+  },
+  {
+    "question": "Which Git command creates a tag at the current commit in stash area?",
+    "options": [
+      "git tag",
+      "git release",
+      "git label",
+      "git mark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git tag' for Git."
+  },
+  {
+    "question": "Which Git command shows a graphical commit history in merge conflicts?",
+    "options": [
+      "git log --graph",
+      "git diff --graph",
+      "git status --graph",
+      "git show --graph"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git log --graph' for Git."
+  },
+  {
+    "question": "Which Git command compares two branches for differences in main branch?",
+    "options": [
+      "git status branch1..branch2",
+      "git compare branch1..branch2",
+      "git log branch1..branch2",
+      "git diff branch1..branch2"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git diff branch1..branch2' for Git."
+  },
+  {
+    "question": "Which Git command clones a repository and checks out a branch in local repository?",
+    "options": [
+      "git checkout -b",
+      "git clone --branch",
+      "git clone -b",
+      "git clone -c"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git clone -b' for Git."
+  },
+  {
+    "question": "Which Git command restores deleted files from the index in main branch?",
+    "options": [
+      "git checkout --",
+      "git reset --",
+      "git restore --",
+      "git add --"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git checkout --' for Git."
+  },
+  {
+    "question": "Which Git command creates a tag at the current commit in main branch?",
+    "options": [
+      "git release",
+      "git tag",
+      "git label",
+      "git mark"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git tag' for Git."
+  },
+  {
+    "question": "Which Git command rewrites commits on top of another base branch in local repository?",
+    "options": [
+      "git checkout",
+      "git rebase",
+      "git merge",
+      "git reset"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git rebase' for Git."
+  },
+  {
+    "question": "Which Git command compares two branches for differences in branch history?",
+    "options": [
+      "git diff branch1..branch2",
+      "git compare branch1..branch2",
+      "git status branch1..branch2",
+      "git log branch1..branch2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git diff branch1..branch2' for Git."
+  },
+  {
+    "question": "Which Git command rewrites the commit message for the last commit in staging area?",
+    "options": [
+      "git commit --amend",
+      "git amend",
+      "git rebase -i",
+      "git reset --soft"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git commit --amend' for Git."
+  },
+  {
+    "question": "Which Git command creates a tag at the current commit in local repository?",
+    "options": [
+      "git label",
+      "git release",
+      "git tag",
+      "git mark"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git tag' for Git."
+  }
+]

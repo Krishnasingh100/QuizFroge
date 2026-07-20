@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which property makes an element flexible in CSS on header?",
+    "options": [
+      "float",
+      "position",
+      "flex",
+      "display"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'flex' for CSS."
+  },
+  {
+    "question": "Which property changes text alignment in CSS on content?",
+    "options": [
+      "align-items",
+      "text-align",
+      "display",
+      "justify-content"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'text-align' for CSS."
+  },
+  {
+    "question": "Which property makes an element flexible in CSS on container?",
+    "options": [
+      "float",
+      "flex",
+      "display",
+      "position"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'flex' for CSS."
+  },
+  {
+    "question": "Which rule applies a grid layout in CSS on card?",
+    "options": [
+      "position: grid",
+      "display: flex",
+      "display: grid",
+      "layout: grid"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'display: grid' for CSS."
+  },
+  {
+    "question": "Which property changes the width of an element in CSS on image?",
+    "options": [
+      "width",
+      "height",
+      "margin",
+      "padding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'width' for CSS."
+  },
+  {
+    "question": "Which selector matches the first child element in CSS on main?",
+    "options": [
+      "#first",
+      ".first",
+      ":first-child",
+      ":nth-child(1)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is ':first-child' for CSS."
+  },
+  {
+    "question": "Which selector matches the first child element in CSS on footer?",
+    "options": [
+      ":nth-child(1)",
+      ".first",
+      "#first",
+      ":first-child"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is ':first-child' for CSS."
+  },
+  {
+    "question": "Which property changes text alignment in CSS on image?",
+    "options": [
+      "align-items",
+      "justify-content",
+      "text-align",
+      "display"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'text-align' for CSS."
+  },
+  {
+    "question": "Which property controls the stacking order in CSS on header?",
+    "options": [
+      "opacity",
+      "order",
+      "z-index",
+      "visibility"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'z-index' for CSS."
+  },
+  {
+    "question": "Which rule applies a grid layout in CSS on button?",
+    "options": [
+      "position: grid",
+      "display: flex",
+      "display: grid",
+      "layout: grid"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'display: grid' for CSS."
+  },
+  {
+    "question": "Which property controls the stacking order in CSS on button?",
+    "options": [
+      "opacity",
+      "visibility",
+      "z-index",
+      "order"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'z-index' for CSS."
+  },
+  {
+    "question": "Which syntax is used for a CSS class selector in CSS on footer?",
+    "options": [
+      "*class",
+      "class",
+      ".class",
+      "#class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.class' for CSS."
+  },
+  {
+    "question": "Which property changes the width of an element in CSS on card?",
+    "options": [
+      "padding",
+      "margin",
+      "width",
+      "height"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'width' for CSS."
+  },
+  {
+    "question": "Which rule applies a grid layout in CSS on footer?",
+    "options": [
+      "display: flex",
+      "display: grid",
+      "layout: grid",
+      "position: grid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'display: grid' for CSS."
+  },
+  {
+    "question": "Which property sets the spacing between flex items in CSS on form?",
+    "options": [
+      "space",
+      "margin",
+      "gap",
+      "padding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'gap' for CSS."
+  },
+  {
+    "question": "Which property adds a shadow to an element in CSS on main?",
+    "options": [
+      "box-shadow",
+      "shadow",
+      "border-shadow",
+      "text-shadow"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'box-shadow' for CSS."
+  },
+  {
+    "question": "Which property changes the width of an element in CSS on footer?",
+    "options": [
+      "margin",
+      "height",
+      "width",
+      "padding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'width' for CSS."
+  },
+  {
+    "question": "Which property controls the stacking order in CSS on main?",
+    "options": [
+      "order",
+      "opacity",
+      "visibility",
+      "z-index"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'z-index' for CSS."
+  },
+  {
+    "question": "Which selector matches the first child element in CSS on button?",
+    "options": [
+      ":first-child",
+      ".first",
+      "#first",
+      ":nth-child(1)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is ':first-child' for CSS."
+  },
+  {
+    "question": "Which rule applies a grid layout in CSS on form?",
+    "options": [
+      "display: flex",
+      "position: grid",
+      "layout: grid",
+      "display: grid"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'display: grid' for CSS."
+  },
+  {
+    "question": "Which property adds a shadow to an element in CSS on header?",
+    "options": [
+      "border-shadow",
+      "text-shadow",
+      "box-shadow",
+      "shadow"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'box-shadow' for CSS."
+  },
+  {
+    "question": "Which property makes an element flexible in CSS on content?",
+    "options": [
+      "flex",
+      "display",
+      "position",
+      "float"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'flex' for CSS."
+  },
+  {
+    "question": "Which property changes text alignment in CSS on container?",
+    "options": [
+      "display",
+      "justify-content",
+      "align-items",
+      "text-align"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'text-align' for CSS."
+  },
+  {
+    "question": "Which property controls the stacking order in CSS on image?",
+    "options": [
+      "visibility",
+      "opacity",
+      "z-index",
+      "order"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'z-index' for CSS."
+  },
+  {
+    "question": "Which property changes the width of an element in CSS on main?",
+    "options": [
+      "padding",
+      "height",
+      "margin",
+      "width"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'width' for CSS."
+  },
+  {
+    "question": "Which property sets the spacing between flex items in CSS on header?",
+    "options": [
+      "padding",
+      "space",
+      "margin",
+      "gap"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'gap' for CSS."
+  },
+  {
+    "question": "Which property changes the width of an element in CSS on content?",
+    "options": [
+      "margin",
+      "padding",
+      "width",
+      "height"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'width' for CSS."
+  },
+  {
+    "question": "Which syntax is used for a CSS class selector in CSS on image?",
+    "options": [
+      ".class",
+      "*class",
+      "class",
+      "#class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.class' for CSS."
+  },
+  {
+    "question": "Which selector matches the first child element in CSS on image?",
+    "options": [
+      "#first",
+      ":first-child",
+      ":nth-child(1)",
+      ".first"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is ':first-child' for CSS."
+  },
+  {
+    "question": "Which property adds a shadow to an element in CSS on card?",
+    "options": [
+      "text-shadow",
+      "box-shadow",
+      "shadow",
+      "border-shadow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'box-shadow' for CSS."
+  },
+  {
+    "question": "Which syntax is used for a CSS class selector in CSS on nav?",
+    "options": [
+      ".class",
+      "#class",
+      "class",
+      "*class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.class' for CSS."
+  },
+  {
+    "question": "Which property adds a shadow to an element in CSS on nav?",
+    "options": [
+      "box-shadow",
+      "border-shadow",
+      "shadow",
+      "text-shadow"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'box-shadow' for CSS."
+  },
+  {
+    "question": "Which rule applies a grid layout in CSS on image?",
+    "options": [
+      "display: grid",
+      "display: flex",
+      "layout: grid",
+      "position: grid"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'display: grid' for CSS."
+  },
+  {
+    "question": "Which selector matches the first child element in CSS on container?",
+    "options": [
+      ".first",
+      "#first",
+      ":first-child",
+      ":nth-child(1)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is ':first-child' for CSS."
+  },
+  {
+    "question": "Which selector matches the first child element in CSS on form?",
+    "options": [
+      ":first-child",
+      "#first",
+      ".first",
+      ":nth-child(1)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is ':first-child' for CSS."
+  },
+  {
+    "question": "Which property makes an element flexible in CSS on main?",
+    "options": [
+      "flex",
+      "display",
+      "position",
+      "float"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'flex' for CSS."
+  },
+  {
+    "question": "Which property changes the width of an element in CSS on header?",
+    "options": [
+      "height",
+      "width",
+      "margin",
+      "padding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'width' for CSS."
+  },
+  {
+    "question": "Which property changes text alignment in CSS on nav?",
+    "options": [
+      "display",
+      "align-items",
+      "justify-content",
+      "text-align"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'text-align' for CSS."
+  },
+  {
+    "question": "Which property sets the spacing between flex items in CSS on card?",
+    "options": [
+      "margin",
+      "space",
+      "gap",
+      "padding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'gap' for CSS."
+  },
+  {
+    "question": "Which property makes an element flexible in CSS on footer?",
+    "options": [
+      "display",
+      "float",
+      "position",
+      "flex"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'flex' for CSS."
+  },
+  {
+    "question": "Which property adds a shadow to an element in CSS on image?",
+    "options": [
+      "text-shadow",
+      "box-shadow",
+      "shadow",
+      "border-shadow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'box-shadow' for CSS."
+  },
+  {
+    "question": "Which property controls the stacking order in CSS on container?",
+    "options": [
+      "order",
+      "z-index",
+      "opacity",
+      "visibility"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'z-index' for CSS."
+  },
+  {
+    "question": "Which property changes the width of an element in CSS on nav?",
+    "options": [
+      "margin",
+      "width",
+      "padding",
+      "height"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'width' for CSS."
+  },
+  {
+    "question": "Which syntax is used for a CSS class selector in CSS on button?",
+    "options": [
+      "class",
+      "*class",
+      "#class",
+      ".class"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '.class' for CSS."
+  },
+  {
+    "question": "Which value makes a CSS property transparent in CSS on card?",
+    "options": [
+      "inherit",
+      "rgba(0,0,0,0)",
+      "none",
+      "transparent"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'rgba(0,0,0,0)' for CSS."
+  },
+  {
+    "question": "Which property makes an element flexible in CSS on card?",
+    "options": [
+      "display",
+      "float",
+      "flex",
+      "position"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'flex' for CSS."
+  },
+  {
+    "question": "Which rule applies a grid layout in CSS on header?",
+    "options": [
+      "display: grid",
+      "display: flex",
+      "layout: grid",
+      "position: grid"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'display: grid' for CSS."
+  },
+  {
+    "question": "Which selector matches the first child element in CSS on content?",
+    "options": [
+      ":nth-child(1)",
+      "#first",
+      ":first-child",
+      ".first"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is ':first-child' for CSS."
+  },
+  {
+    "question": "Which property controls the stacking order in CSS on footer?",
+    "options": [
+      "order",
+      "visibility",
+      "z-index",
+      "opacity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'z-index' for CSS."
+  },
+  {
+    "question": "Which property changes text alignment in CSS on form?",
+    "options": [
+      "display",
+      "align-items",
+      "justify-content",
+      "text-align"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'text-align' for CSS."
+  }
+]

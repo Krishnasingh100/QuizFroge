@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which symbol begins a single-line comment in C++ source code?",
+    "options": [
+      "/* */",
+      "//",
+      "#",
+      "<!-- -->"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '//' for C++."
+  },
+  {
+    "question": "Which value is commonly used for true in C++ header files?",
+    "options": [
+      "false",
+      "False",
+      "True",
+      "true"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'true' for C++."
+  },
+  {
+    "question": "Which phrase describes the main function signature in C++ source code?",
+    "options": [
+      "def main():",
+      "function main() {}",
+      "int main()",
+      "main()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int main()' for C++."
+  },
+  {
+    "question": "Which option fills the blank in C++ conditional logic: const x = 5; x = 10; // __? ",
+    "options": [
+      "iteration",
+      "assignment",
+      "comparison",
+      "declaration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'assignment' for C++."
+  },
+  {
+    "question": "Which statement imports libraries or packages in C++ conditional logic?",
+    "options": [
+      "use lib;",
+      "include <lib>",
+      "#include <iostream>",
+      "require(\"lib\")"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '#include <iostream>' for C++."
+  },
+  {
+    "question": "Which value is commonly used for true in C++ conditional logic?",
+    "options": [
+      "false",
+      "True",
+      "true",
+      "False"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'true' for C++."
+  },
+  {
+    "question": "Which value is commonly used for true in C++ loop logic?",
+    "options": [
+      "false",
+      "true",
+      "False",
+      "True"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'true' for C++."
+  },
+  {
+    "question": "Which value represents false in C++ source code?",
+    "options": [
+      "true",
+      "False",
+      "True",
+      "false"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'false' for C++."
+  },
+  {
+    "question": "Which file extension is standard for C++ source code?",
+    "options": [
+      ".md",
+      ".cpp",
+      ".txt",
+      ".json"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '.cpp' for C++."
+  },
+  {
+    "question": "Which operator checks equality in C++ source code?",
+    "options": [
+      "!=",
+      "=",
+      "==",
+      "==="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in C++ header files?",
+    "options": [
+      "#",
+      "<!-- -->",
+      "//",
+      "/* */"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '//' for C++."
+  },
+  {
+    "question": "Which code line correctly declares a constant in C++ header files?",
+    "options": [
+      "const",
+      "static",
+      "var",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which value is commonly used for true in C++ source code?",
+    "options": [
+      "true",
+      "True",
+      "false",
+      "False"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'true' for C++."
+  },
+  {
+    "question": "Which option fills the blank in C++ loop logic: const x = 5; x = 10; // __? ",
+    "options": [
+      "assignment",
+      "iteration",
+      "declaration",
+      "comparison"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'assignment' for C++."
+  },
+  {
+    "question": "Which keyword declares a constant value in C++ library imports?",
+    "options": [
+      "static",
+      "const",
+      "let",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in C++ source code?",
+    "options": [
+      "25",
+      "2",
+      "0",
+      "10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '10' for C++."
+  },
+  {
+    "question": "Which phrase describes the main function signature in C++ conditional logic?",
+    "options": [
+      "main()",
+      "def main():",
+      "function main() {}",
+      "int main()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int main()' for C++."
+  },
+  {
+    "question": "What is the result of 8 - 3 in C++ conditional logic?",
+    "options": [
+      "5",
+      "2",
+      "3",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '5' for C++."
+  },
+  {
+    "question": "Which keyword begins a loop in C++ loop logic?",
+    "options": [
+      "for",
+      "repeat",
+      "loop",
+      "while"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for C++."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in C++ loop logic?",
+    "options": [
+      "//",
+      "<!-- -->",
+      "/* */",
+      "#"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '//' for C++."
+  },
+  {
+    "question": "Which code line uses string concatenation in C++ library imports?",
+    "options": [
+      "\"Hello\" + \"World\"",
+      "join(\"Hello\", \"World\")",
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" . \"World\""
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for C++."
+  },
+  {
+    "question": "Which file extension is standard for C++ loop logic?",
+    "options": [
+      ".cpp",
+      ".txt",
+      ".md",
+      ".json"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.cpp' for C++."
+  },
+  {
+    "question": "What is the result of 8 - 3 in C++ header files?",
+    "options": [
+      "5",
+      "8",
+      "3",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '5' for C++."
+  },
+  {
+    "question": "Which keyword declares a constant value in C++ loop logic?",
+    "options": [
+      "static",
+      "const",
+      "let",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which value represents false in C++ library imports?",
+    "options": [
+      "true",
+      "True",
+      "false",
+      "False"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'false' for C++."
+  },
+  {
+    "question": "Which keyword begins a loop in C++ source code?",
+    "options": [
+      "loop",
+      "for",
+      "repeat",
+      "while"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for C++."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in C++ conditional logic?",
+    "options": [
+      "echo \"Hello\";",
+      "print(\"Hello\")",
+      "console.log(\"Hello\")",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'print(\"Hello\")' for C++."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in C++ loop logic?",
+    "options": [
+      "10",
+      "0",
+      "2",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '10' for C++."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in C++ header files?",
+    "options": [
+      "echo \"Hello\";",
+      "console.log(\"Hello\")",
+      "print(\"Hello\")",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'print(\"Hello\")' for C++."
+  },
+  {
+    "question": "Which keyword begins a loop in C++ header files?",
+    "options": [
+      "for",
+      "loop",
+      "while",
+      "repeat"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for C++."
+  },
+  {
+    "question": "What is the result of 3 + 4 in C++ header files?",
+    "options": [
+      "34",
+      "0",
+      "Error",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '7' for C++."
+  },
+  {
+    "question": "Which statement imports libraries or packages in C++ loop logic?",
+    "options": [
+      "use lib;",
+      "#include <iostream>",
+      "include <lib>",
+      "require(\"lib\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '#include <iostream>' for C++."
+  },
+  {
+    "question": "Which value represents false in C++ loop logic?",
+    "options": [
+      "true",
+      "True",
+      "False",
+      "false"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'false' for C++."
+  },
+  {
+    "question": "Which code line uses string concatenation in C++ source code?",
+    "options": [
+      "join(\"Hello\", \"World\")",
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for C++."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in C++ header files?",
+    "options": [
+      "comments",
+      "classes",
+      "functions",
+      "variables"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'functions' for C++."
+  },
+  {
+    "question": "Which keyword declares a constant value in C++ function definitions?",
+    "options": [
+      "static",
+      "const",
+      "var",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which value is commonly used for true in C++ library imports?",
+    "options": [
+      "True",
+      "False",
+      "true",
+      "false"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'true' for C++."
+  },
+  {
+    "question": "Which option fills the blank in C++ source code: const x = 5; x = 10; // __? ",
+    "options": [
+      "assignment",
+      "iteration",
+      "declaration",
+      "comparison"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'assignment' for C++."
+  },
+  {
+    "question": "What is the result of 8 - 3 in C++ loop logic?",
+    "options": [
+      "3",
+      "2",
+      "5",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '5' for C++."
+  },
+  {
+    "question": "Which value represents false in C++ header files?",
+    "options": [
+      "True",
+      "False",
+      "false",
+      "true"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'false' for C++."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in C++ library imports?",
+    "options": [
+      "comments",
+      "variables",
+      "functions",
+      "classes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'functions' for C++."
+  },
+  {
+    "question": "What is the result of 3 + 4 in C++ loop logic?",
+    "options": [
+      "0",
+      "7",
+      "Error",
+      "34"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '7' for C++."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in C++ loop logic?",
+    "options": [
+      "stop",
+      "continue",
+      "break",
+      "return"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'break' for C++."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in C++ library imports?",
+    "options": [
+      "10",
+      "0",
+      "2",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '10' for C++."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in C++ function definitions?",
+    "options": [
+      "//",
+      "/* */",
+      "<!-- -->",
+      "#"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '//' for C++."
+  },
+  {
+    "question": "Which operator checks equality in C++ conditional logic?",
+    "options": [
+      "!=",
+      "===",
+      "==",
+      "="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which code line correctly declares a constant in C++ conditional logic?",
+    "options": [
+      "var",
+      "let",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which keyword declares a constant value in C++ conditional logic?",
+    "options": [
+      "let",
+      "var",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which code line correctly declares a constant in C++ loop logic?",
+    "options": [
+      "let",
+      "static",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which file extension is standard for C++ library imports?",
+    "options": [
+      ".txt",
+      ".md",
+      ".cpp",
+      ".json"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.cpp' for C++."
+  }
+]

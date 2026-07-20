@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which feature is commonly used for concurrency in C++ applications in memory management?",
+    "options": [
+      "inheritance",
+      "closures",
+      "generics",
+      "threads"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'threads' for C++."
+  },
+  {
+    "question": "Which keyword defines a class in C++ input/output?",
+    "options": [
+      "namespace",
+      "struct",
+      "package",
+      "module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'struct' for C++."
+  },
+  {
+    "question": "Which keyword defines a class in C++ data types?",
+    "options": [
+      "package",
+      "struct",
+      "module",
+      "namespace"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'struct' for C++."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C++ applications in library imports?",
+    "options": [
+      "generics",
+      "threads",
+      "inheritance",
+      "closures"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'threads' for C++."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C++ memory management?",
+    "options": [
+      "global variables",
+      "exceptions",
+      "None handling",
+      "inheritance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for C++."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C++ applications in source code?",
+    "options": [
+      "generics",
+      "inheritance",
+      "threads",
+      "closures"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'threads' for C++."
+  },
+  {
+    "question": "Which keyword defines a class in C++ conditional logic?",
+    "options": [
+      "module",
+      "package",
+      "namespace",
+      "struct"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'struct' for C++."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C++ memory management?",
+    "options": [
+      "polymorphism",
+      "encapsulation",
+      "abstraction",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for C++."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C++ memory management?",
+    "options": [
+      "linked list",
+      "stack",
+      "queue",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for C++."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in C++ library imports?",
+    "options": [
+      "inheritance",
+      "aggregation",
+      "composition",
+      "delegation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for C++."
+  },
+  {
+    "question": "Which statement best describes memory management in C++ memory management?",
+    "options": [
+      "manual allocation and free",
+      "syntax highlighting",
+      "implicit typing",
+      "runtime binding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'manual allocation and free' for C++."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C++ code in data types?",
+    "options": [
+      "var",
+      "let",
+      "mutable",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C++ error handling?",
+    "options": [
+      "array",
+      "linked list",
+      "queue",
+      "stack"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for C++."
+  },
+  {
+    "question": "Which statement best describes memory management in C++ function definitions?",
+    "options": [
+      "syntax highlighting",
+      "manual allocation and free",
+      "implicit typing",
+      "runtime binding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'manual allocation and free' for C++."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C++ applications in error handling?",
+    "options": [
+      "generics",
+      "closures",
+      "threads",
+      "inheritance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'threads' for C++."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in C++ loop logic?",
+    "options": [
+      "static",
+      "dynamic",
+      "volatile",
+      "transient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for C++."
+  },
+  {
+    "question": "Which statement checks for equality in C++ library imports?",
+    "options": [
+      "=",
+      "=>",
+      ":=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which statement best describes memory management in C++ data types?",
+    "options": [
+      "runtime binding",
+      "implicit typing",
+      "manual allocation and free",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'manual allocation and free' for C++."
+  },
+  {
+    "question": "Which statement checks for equality in C++ data types?",
+    "options": [
+      ":=",
+      "==",
+      "=>",
+      "="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in C++ error handling?",
+    "options": [
+      "transient",
+      "static",
+      "volatile",
+      "dynamic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for C++."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C++ applications in conditional logic?",
+    "options": [
+      "inheritance",
+      "generics",
+      "threads",
+      "closures"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'threads' for C++."
+  },
+  {
+    "question": "Which statement best describes memory management in C++ error handling?",
+    "options": [
+      "syntax highlighting",
+      "runtime binding",
+      "manual allocation and free",
+      "implicit typing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'manual allocation and free' for C++."
+  },
+  {
+    "question": "Which statement checks for equality in C++ memory management?",
+    "options": [
+      "==",
+      "=>",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C++ conditional logic?",
+    "options": [
+      "polymorphism",
+      "modularity",
+      "encapsulation",
+      "abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for C++."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C++ code in memory management?",
+    "options": [
+      "var",
+      "let",
+      "mutable",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C++ data types?",
+    "options": [
+      "polymorphism",
+      "abstraction",
+      "encapsulation",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for C++."
+  },
+  {
+    "question": "Which statement checks for equality in C++ header files?",
+    "options": [
+      "==",
+      "=>",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C++ applications in data types?",
+    "options": [
+      "closures",
+      "threads",
+      "inheritance",
+      "generics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'threads' for C++."
+  },
+  {
+    "question": "Which statement best describes memory management in C++ header files?",
+    "options": [
+      "implicit typing",
+      "runtime binding",
+      "syntax highlighting",
+      "manual allocation and free"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'manual allocation and free' for C++."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C++ header files?",
+    "options": [
+      "inheritance",
+      "None handling",
+      "exceptions",
+      "global variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'None handling' for C++."
+  },
+  {
+    "question": "Which keyword defines a class in C++ library imports?",
+    "options": [
+      "module",
+      "package",
+      "struct",
+      "namespace"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'struct' for C++."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C++ code in input/output?",
+    "options": [
+      "mutable",
+      "const",
+      "var",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C++ code in library imports?",
+    "options": [
+      "var",
+      "const",
+      "mutable",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which statement best describes memory management in C++ conditional logic?",
+    "options": [
+      "manual allocation and free",
+      "implicit typing",
+      "syntax highlighting",
+      "runtime binding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'manual allocation and free' for C++."
+  },
+  {
+    "question": "Which statement checks for equality in C++ error handling?",
+    "options": [
+      "==",
+      ":=",
+      "=>",
+      "="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C++ loop logic?",
+    "options": [
+      "array",
+      "queue",
+      "linked list",
+      "stack"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for C++."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in C++ data types?",
+    "options": [
+      "transient",
+      "static",
+      "volatile",
+      "dynamic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for C++."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C++ applications in header files?",
+    "options": [
+      "threads",
+      "generics",
+      "inheritance",
+      "closures"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'threads' for C++."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C++ loop logic?",
+    "options": [
+      "abstraction",
+      "modularity",
+      "polymorphism",
+      "encapsulation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for C++."
+  },
+  {
+    "question": "Which statement checks for equality in C++ input/output?",
+    "options": [
+      "=>",
+      ":=",
+      "=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which statement checks for equality in C++ source code?",
+    "options": [
+      "=",
+      "=>",
+      ":=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C++ header files?",
+    "options": [
+      "abstraction",
+      "modularity",
+      "polymorphism",
+      "encapsulation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for C++."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C++ input/output?",
+    "options": [
+      "stack",
+      "array",
+      "queue",
+      "linked list"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for C++."
+  },
+  {
+    "question": "Which keyword defines a class in C++ memory management?",
+    "options": [
+      "namespace",
+      "struct",
+      "module",
+      "package"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'struct' for C++."
+  },
+  {
+    "question": "Which keyword defines a class in C++ error handling?",
+    "options": [
+      "module",
+      "struct",
+      "package",
+      "namespace"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'struct' for C++."
+  },
+  {
+    "question": "Which statement checks for equality in C++ loop logic?",
+    "options": [
+      ":=",
+      "=",
+      "=>",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for C++."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C++ code in conditional logic?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for C++."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C++ source code?",
+    "options": [
+      "array",
+      "linked list",
+      "stack",
+      "queue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for C++."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in C++ input/output?",
+    "options": [
+      "transient",
+      "dynamic",
+      "volatile",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for C++."
+  },
+  {
+    "question": "Which keyword defines a class in C++ header files?",
+    "options": [
+      "struct",
+      "module",
+      "namespace",
+      "package"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'struct' for C++."
+  }
+]

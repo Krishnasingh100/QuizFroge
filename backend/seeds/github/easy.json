@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which GitHub feature manages workflows and automation in package registry?",
+    "options": [
+      "Actions",
+      "Issues",
+      "Releases",
+      "Wiki"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature tracks work items and bugs in security settings?",
+    "options": [
+      "Issue",
+      "Pull Request",
+      "Gist",
+      "Fork"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Issue' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used to request code changes in pull requests?",
+    "options": [
+      "Pull Request",
+      "Issue",
+      "Wiki",
+      "Release"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Pull Request' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature publishes a release package in project board?",
+    "options": [
+      "Wiki",
+      "Releases",
+      "Issues",
+      "Projects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores reusable code snippets in workflow?",
+    "options": [
+      "Action",
+      "Release",
+      "Issue",
+      "Gist"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Gist' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature documents a project in release notes?",
+    "options": [
+      "Wiki",
+      "Issues",
+      "Actions",
+      "Pages"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature publishes documentation or websites in project board?",
+    "options": [
+      "Projects",
+      "Issues",
+      "Releases",
+      "Pages"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Pages' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature manages workflows and automation in release notes?",
+    "options": [
+      "Releases",
+      "Wiki",
+      "Issues",
+      "Actions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores project planning boards in project board?",
+    "options": [
+      "Projects",
+      "Issues",
+      "Wiki",
+      "Actions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Projects' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature creates a personal copy of a repository in package registry?",
+    "options": [
+      "Mirror",
+      "Fork",
+      "Clone",
+      "Branch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Fork' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores reusable code snippets in release notes?",
+    "options": [
+      "Release",
+      "Action",
+      "Issue",
+      "Gist"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Gist' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used to request code changes in project board?",
+    "options": [
+      "Release",
+      "Pull Request",
+      "Wiki",
+      "Issue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Pull Request' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature documents a project in package registry?",
+    "options": [
+      "Pages",
+      "Actions",
+      "Issues",
+      "Wiki"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores project planning boards in security settings?",
+    "options": [
+      "Actions",
+      "Wiki",
+      "Issues",
+      "Projects"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Projects' for GitHub."
+  },
+  {
+    "question": "Which GitHub page shows the repository source code in collaboration tools?",
+    "options": [
+      "Actions",
+      "Issues",
+      "Wiki",
+      "Code"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Code' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores project planning boards in workflow?",
+    "options": [
+      "Wiki",
+      "Actions",
+      "Projects",
+      "Issues"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Projects' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature manages workflows and automation in collaboration tools?",
+    "options": [
+      "Issues",
+      "Releases",
+      "Wiki",
+      "Actions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature publishes a release package in documentation?",
+    "options": [
+      "Issues",
+      "Wiki",
+      "Projects",
+      "Releases"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature manages workflows and automation in security settings?",
+    "options": [
+      "Issues",
+      "Wiki",
+      "Actions",
+      "Releases"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature publishes a release package in repository?",
+    "options": [
+      "Projects",
+      "Issues",
+      "Wiki",
+      "Releases"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature tracks work items and bugs in documentation?",
+    "options": [
+      "Pull Request",
+      "Gist",
+      "Issue",
+      "Fork"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Issue' for GitHub."
+  },
+  {
+    "question": "Which GitHub page shows the repository source code in issue tracker?",
+    "options": [
+      "Issues",
+      "Actions",
+      "Wiki",
+      "Code"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Code' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature publishes documentation or websites in collaboration tools?",
+    "options": [
+      "Issues",
+      "Releases",
+      "Pages",
+      "Projects"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Pages' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature creates a personal copy of a repository in pull requests?",
+    "options": [
+      "Fork",
+      "Clone",
+      "Branch",
+      "Mirror"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Fork' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature documents a project in issue tracker?",
+    "options": [
+      "Pages",
+      "Actions",
+      "Issues",
+      "Wiki"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature publishes documentation or websites in workflow?",
+    "options": [
+      "Pages",
+      "Issues",
+      "Projects",
+      "Releases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Pages' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature tracks work items and bugs in issue tracker?",
+    "options": [
+      "Gist",
+      "Fork",
+      "Issue",
+      "Pull Request"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Issue' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature tracks work items and bugs in pull requests?",
+    "options": [
+      "Issue",
+      "Fork",
+      "Gist",
+      "Pull Request"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Issue' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores reusable code snippets in collaboration tools?",
+    "options": [
+      "Issue",
+      "Gist",
+      "Action",
+      "Release"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Gist' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature tracks work items and bugs in collaboration tools?",
+    "options": [
+      "Gist",
+      "Fork",
+      "Issue",
+      "Pull Request"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Issue' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature publishes a release package in issue tracker?",
+    "options": [
+      "Issues",
+      "Releases",
+      "Projects",
+      "Wiki"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature documents a project in repository?",
+    "options": [
+      "Issues",
+      "Actions",
+      "Wiki",
+      "Pages"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores project planning boards in documentation?",
+    "options": [
+      "Issues",
+      "Wiki",
+      "Actions",
+      "Projects"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Projects' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature publishes a release package in collaboration tools?",
+    "options": [
+      "Issues",
+      "Releases",
+      "Wiki",
+      "Projects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores project planning boards in repository?",
+    "options": [
+      "Actions",
+      "Wiki",
+      "Projects",
+      "Issues"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Projects' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores reusable code snippets in project board?",
+    "options": [
+      "Issue",
+      "Gist",
+      "Release",
+      "Action"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Gist' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores reusable code snippets in repository?",
+    "options": [
+      "Action",
+      "Release",
+      "Gist",
+      "Issue"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Gist' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores project planning boards in issue tracker?",
+    "options": [
+      "Issues",
+      "Projects",
+      "Wiki",
+      "Actions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Projects' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores reusable code snippets in pull requests?",
+    "options": [
+      "Gist",
+      "Issue",
+      "Action",
+      "Release"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Gist' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature creates a personal copy of a repository in repository?",
+    "options": [
+      "Clone",
+      "Fork",
+      "Branch",
+      "Mirror"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Fork' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature publishes documentation or websites in issue tracker?",
+    "options": [
+      "Releases",
+      "Projects",
+      "Pages",
+      "Issues"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Pages' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature manages workflows and automation in project board?",
+    "options": [
+      "Actions",
+      "Wiki",
+      "Releases",
+      "Issues"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature manages workflows and automation in pull requests?",
+    "options": [
+      "Actions",
+      "Issues",
+      "Releases",
+      "Wiki"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub page shows the repository source code in project board?",
+    "options": [
+      "Code",
+      "Actions",
+      "Wiki",
+      "Issues"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Code' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature creates a personal copy of a repository in workflow?",
+    "options": [
+      "Clone",
+      "Mirror",
+      "Branch",
+      "Fork"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Fork' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature documents a project in workflow?",
+    "options": [
+      "Pages",
+      "Issues",
+      "Wiki",
+      "Actions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub page shows the repository source code in package registry?",
+    "options": [
+      "Actions",
+      "Issues",
+      "Code",
+      "Wiki"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Code' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature publishes a release package in pull requests?",
+    "options": [
+      "Projects",
+      "Releases",
+      "Wiki",
+      "Issues"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Releases' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature creates a personal copy of a repository in collaboration tools?",
+    "options": [
+      "Clone",
+      "Mirror",
+      "Branch",
+      "Fork"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Fork' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature manages workflows and automation in repository?",
+    "options": [
+      "Releases",
+      "Actions",
+      "Issues",
+      "Wiki"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Actions' for GitHub."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which tag defines table header cells in HTML on navigation?",
+    "options": [
+      "<thead>",
+      "<tr>",
+      "<td>",
+      "<th>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<th>' for HTML."
+  },
+  {
+    "question": "Which attribute specifies the URL of an image in HTML on list?",
+    "options": [
+      "alt",
+      "src",
+      "href",
+      "title"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'src' for HTML."
+  },
+  {
+    "question": "Which tag defines table header cells in HTML on table row?",
+    "options": [
+      "<tr>",
+      "<thead>",
+      "<th>",
+      "<td>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<th>' for HTML."
+  },
+  {
+    "question": "Which element is used for inline text in HTML on paragraph?",
+    "options": [
+      "<div>",
+      "<p>",
+      "<section>",
+      "<span>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<span>' for HTML."
+  },
+  {
+    "question": "Which attribute names the language of the document in HTML on image?",
+    "options": [
+      "type",
+      "charset",
+      "lang",
+      "rel"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'lang' for HTML."
+  },
+  {
+    "question": "Which attribute names the language of the document in HTML on form?",
+    "options": [
+      "lang",
+      "rel",
+      "charset",
+      "type"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'lang' for HTML."
+  },
+  {
+    "question": "Which element is used for inline text in HTML on link?",
+    "options": [
+      "<div>",
+      "<span>",
+      "<section>",
+      "<p>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<span>' for HTML."
+  },
+  {
+    "question": "Which tag embeds a video in HTML on table row?",
+    "options": [
+      "<clip>",
+      "<video>",
+      "<iframe>",
+      "<media>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<video>' for HTML."
+  },
+  {
+    "question": "Which attribute sets alternative text for an image in HTML on form?",
+    "options": [
+      "href",
+      "title",
+      "alt",
+      "src"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'alt' for HTML."
+  },
+  {
+    "question": "Which attribute sets alternative text for an image in HTML on link?",
+    "options": [
+      "href",
+      "alt",
+      "src",
+      "title"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'alt' for HTML."
+  },
+  {
+    "question": "Which tag groups form controls in HTML on form?",
+    "options": [
+      "<div>",
+      "<section>",
+      "<form>",
+      "<fieldset>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<fieldset>' for HTML."
+  },
+  {
+    "question": "Which attribute sets alternative text for an image in HTML on image?",
+    "options": [
+      "src",
+      "alt",
+      "title",
+      "href"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'alt' for HTML."
+  },
+  {
+    "question": "Which element is used for inline text in HTML on form?",
+    "options": [
+      "<span>",
+      "<section>",
+      "<div>",
+      "<p>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<span>' for HTML."
+  },
+  {
+    "question": "Which attribute specifies the URL of an image in HTML on web page?",
+    "options": [
+      "href",
+      "alt",
+      "title",
+      "src"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'src' for HTML."
+  },
+  {
+    "question": "Which tag groups form controls in HTML on paragraph?",
+    "options": [
+      "<form>",
+      "<section>",
+      "<fieldset>",
+      "<div>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<fieldset>' for HTML."
+  },
+  {
+    "question": "Which attribute names the language of the document in HTML on web page?",
+    "options": [
+      "type",
+      "charset",
+      "rel",
+      "lang"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'lang' for HTML."
+  },
+  {
+    "question": "Which tag groups form controls in HTML on link?",
+    "options": [
+      "<div>",
+      "<form>",
+      "<fieldset>",
+      "<section>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<fieldset>' for HTML."
+  },
+  {
+    "question": "Which tag defines an ordered list in HTML on navigation?",
+    "options": [
+      "<li>",
+      "<ol>",
+      "<dl>",
+      "<ul>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<ol>' for HTML."
+  },
+  {
+    "question": "Which element defines a section in HTML on list?",
+    "options": [
+      "<div>",
+      "<aside>",
+      "<article>",
+      "<section>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<section>' for HTML."
+  },
+  {
+    "question": "Which tag defines table header cells in HTML on document head?",
+    "options": [
+      "<thead>",
+      "<tr>",
+      "<th>",
+      "<td>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<th>' for HTML."
+  },
+  {
+    "question": "Which element defines a section in HTML on form?",
+    "options": [
+      "<article>",
+      "<section>",
+      "<aside>",
+      "<div>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<section>' for HTML."
+  },
+  {
+    "question": "Which tag defines table header cells in HTML on link?",
+    "options": [
+      "<td>",
+      "<thead>",
+      "<th>",
+      "<tr>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<th>' for HTML."
+  },
+  {
+    "question": "Which tag defines an ordered list in HTML on table row?",
+    "options": [
+      "<ul>",
+      "<li>",
+      "<ol>",
+      "<dl>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<ol>' for HTML."
+  },
+  {
+    "question": "Which tag defines table header cells in HTML on form?",
+    "options": [
+      "<tr>",
+      "<thead>",
+      "<td>",
+      "<th>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<th>' for HTML."
+  },
+  {
+    "question": "Which tag groups form controls in HTML on list?",
+    "options": [
+      "<div>",
+      "<form>",
+      "<section>",
+      "<fieldset>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<fieldset>' for HTML."
+  },
+  {
+    "question": "Which element is used for inline text in HTML on list?",
+    "options": [
+      "<div>",
+      "<section>",
+      "<span>",
+      "<p>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<span>' for HTML."
+  },
+  {
+    "question": "Which attribute names the language of the document in HTML on paragraph?",
+    "options": [
+      "type",
+      "charset",
+      "rel",
+      "lang"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'lang' for HTML."
+  },
+  {
+    "question": "Which tag defines the biggest heading in HTML on image?",
+    "options": [
+      "<title>",
+      "<h2>",
+      "<header>",
+      "<h1>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<h1>' for HTML."
+  },
+  {
+    "question": "Which tag defines the biggest heading in HTML on paragraph?",
+    "options": [
+      "<header>",
+      "<h1>",
+      "<title>",
+      "<h2>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<h1>' for HTML."
+  },
+  {
+    "question": "Which attribute specifies the URL of an image in HTML on table row?",
+    "options": [
+      "src",
+      "title",
+      "alt",
+      "href"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'src' for HTML."
+  },
+  {
+    "question": "Which attribute sets alternative text for an image in HTML on navigation?",
+    "options": [
+      "title",
+      "href",
+      "src",
+      "alt"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'alt' for HTML."
+  },
+  {
+    "question": "Which tag groups form controls in HTML on navigation?",
+    "options": [
+      "<section>",
+      "<div>",
+      "<form>",
+      "<fieldset>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<fieldset>' for HTML."
+  },
+  {
+    "question": "Which tag embeds a video in HTML on navigation?",
+    "options": [
+      "<iframe>",
+      "<media>",
+      "<clip>",
+      "<video>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<video>' for HTML."
+  },
+  {
+    "question": "Which attribute names the language of the document in HTML on link?",
+    "options": [
+      "charset",
+      "rel",
+      "type",
+      "lang"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'lang' for HTML."
+  },
+  {
+    "question": "Which attribute specifies the URL of an image in HTML on link?",
+    "options": [
+      "title",
+      "alt",
+      "href",
+      "src"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'src' for HTML."
+  },
+  {
+    "question": "Which element defines a section in HTML on table row?",
+    "options": [
+      "<div>",
+      "<article>",
+      "<section>",
+      "<aside>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<section>' for HTML."
+  },
+  {
+    "question": "Which tag embeds a video in HTML on document head?",
+    "options": [
+      "<clip>",
+      "<media>",
+      "<video>",
+      "<iframe>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<video>' for HTML."
+  },
+  {
+    "question": "Which element defines a section in HTML on document head?",
+    "options": [
+      "<div>",
+      "<aside>",
+      "<article>",
+      "<section>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<section>' for HTML."
+  },
+  {
+    "question": "Which tag embeds a video in HTML on paragraph?",
+    "options": [
+      "<video>",
+      "<clip>",
+      "<media>",
+      "<iframe>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<video>' for HTML."
+  },
+  {
+    "question": "Which tag defines an ordered list in HTML on paragraph?",
+    "options": [
+      "<dl>",
+      "<ul>",
+      "<ol>",
+      "<li>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<ol>' for HTML."
+  },
+  {
+    "question": "Which tag embeds a video in HTML on web page?",
+    "options": [
+      "<iframe>",
+      "<video>",
+      "<media>",
+      "<clip>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<video>' for HTML."
+  },
+  {
+    "question": "Which attribute specifies the URL of an image in HTML on form?",
+    "options": [
+      "title",
+      "src",
+      "alt",
+      "href"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'src' for HTML."
+  },
+  {
+    "question": "Which tag defines table header cells in HTML on paragraph?",
+    "options": [
+      "<th>",
+      "<td>",
+      "<tr>",
+      "<thead>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<th>' for HTML."
+  },
+  {
+    "question": "Which attribute specifies the URL of an image in HTML on document head?",
+    "options": [
+      "alt",
+      "src",
+      "title",
+      "href"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'src' for HTML."
+  },
+  {
+    "question": "Which tag defines the biggest heading in HTML on list?",
+    "options": [
+      "<header>",
+      "<h1>",
+      "<h2>",
+      "<title>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<h1>' for HTML."
+  },
+  {
+    "question": "Which tag embeds a video in HTML on link?",
+    "options": [
+      "<clip>",
+      "<media>",
+      "<iframe>",
+      "<video>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<video>' for HTML."
+  },
+  {
+    "question": "Which element defines a section in HTML on navigation?",
+    "options": [
+      "<article>",
+      "<aside>",
+      "<div>",
+      "<section>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<section>' for HTML."
+  },
+  {
+    "question": "Which tag defines an ordered list in HTML on form?",
+    "options": [
+      "<ul>",
+      "<dl>",
+      "<ol>",
+      "<li>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<ol>' for HTML."
+  },
+  {
+    "question": "Which tag defines the biggest heading in HTML on content section?",
+    "options": [
+      "<h1>",
+      "<title>",
+      "<h2>",
+      "<header>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<h1>' for HTML."
+  },
+  {
+    "question": "Which attribute specifies the URL of an image in HTML on paragraph?",
+    "options": [
+      "alt",
+      "title",
+      "src",
+      "href"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'src' for HTML."
+  }
+]

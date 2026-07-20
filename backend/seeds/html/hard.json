@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which attribute changes the display text of a link in HTML on link?",
+    "options": [
+      "rel",
+      "alt",
+      "title",
+      "href"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'title' for HTML."
+  },
+  {
+    "question": "Which HTML5 element represents a standalone piece of content on content section?",
+    "options": [
+      "<article>",
+      "<section>",
+      "<div>",
+      "<aside>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<article>' for HTML."
+  },
+  {
+    "question": "Which tag defines navigation links in HTML on table row?",
+    "options": [
+      "<menu>",
+      "<header>",
+      "<nav>",
+      "<section>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<nav>' for HTML."
+  },
+  {
+    "question": "Which tag is used to define a caption for a table in HTML on form?",
+    "options": [
+      "<label>",
+      "<title>",
+      "<summary>",
+      "<caption>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<caption>' for HTML."
+  },
+  {
+    "question": "Which tag defines a list of definitions in HTML on list?",
+    "options": [
+      "<ul>",
+      "<dt>",
+      "<ol>",
+      "<dl>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<dl>' for HTML."
+  },
+  {
+    "question": "Which HTML5 element represents a standalone piece of content on web page?",
+    "options": [
+      "<aside>",
+      "<section>",
+      "<article>",
+      "<div>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<article>' for HTML."
+  },
+  {
+    "question": "Which tag defines a clickable button in HTML on navigation?",
+    "options": [
+      "<input>",
+      "<button>",
+      "<a>",
+      "<div>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<button>' for HTML."
+  },
+  {
+    "question": "Which attribute is used to specify a stylesheet URL in HTML on form?",
+    "options": [
+      "src",
+      "href",
+      "action",
+      "type"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which element defines the visible title of a document on table row?",
+    "options": [
+      "<h1>",
+      "<meta>",
+      "<title>",
+      "<header>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<title>' for HTML."
+  },
+  {
+    "question": "Which element defines the visible title of a document on form?",
+    "options": [
+      "<header>",
+      "<h1>",
+      "<title>",
+      "<meta>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<title>' for HTML."
+  },
+  {
+    "question": "Which HTML5 element represents a standalone piece of content on list?",
+    "options": [
+      "<div>",
+      "<article>",
+      "<aside>",
+      "<section>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<article>' for HTML."
+  },
+  {
+    "question": "Which element defines the visible title of a document on document head?",
+    "options": [
+      "<title>",
+      "<h1>",
+      "<meta>",
+      "<header>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<title>' for HTML."
+  },
+  {
+    "question": "Which tag is used to define a caption for a table in HTML on list?",
+    "options": [
+      "<summary>",
+      "<title>",
+      "<label>",
+      "<caption>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<caption>' for HTML."
+  },
+  {
+    "question": "Which tag defines a self-closing line break in HTML on navigation?",
+    "options": [
+      "<lb>",
+      "<hr>",
+      "<br>",
+      "<break>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<br>' for HTML."
+  },
+  {
+    "question": "Which tag defines a row of table header cells in HTML on image?",
+    "options": [
+      "<tfoot>",
+      "<thead>",
+      "<tr>",
+      "<tbody>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<thead>' for HTML."
+  },
+  {
+    "question": "Which element defines the visible title of a document on content section?",
+    "options": [
+      "<meta>",
+      "<h1>",
+      "<title>",
+      "<header>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<title>' for HTML."
+  },
+  {
+    "question": "Which tag defines a self-closing line break in HTML on web page?",
+    "options": [
+      "<break>",
+      "<lb>",
+      "<hr>",
+      "<br>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<br>' for HTML."
+  },
+  {
+    "question": "Which attribute is used to specify a stylesheet URL in HTML on table row?",
+    "options": [
+      "type",
+      "src",
+      "href",
+      "action"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which tag defines a list of definitions in HTML on paragraph?",
+    "options": [
+      "<dt>",
+      "<dl>",
+      "<ol>",
+      "<ul>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<dl>' for HTML."
+  },
+  {
+    "question": "Which HTML5 element represents a standalone piece of content on form?",
+    "options": [
+      "<aside>",
+      "<div>",
+      "<section>",
+      "<article>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<article>' for HTML."
+  },
+  {
+    "question": "Which attribute is used to specify a stylesheet URL in HTML on image?",
+    "options": [
+      "type",
+      "src",
+      "href",
+      "action"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which attribute changes the display text of a link in HTML on form?",
+    "options": [
+      "rel",
+      "href",
+      "title",
+      "alt"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'title' for HTML."
+  },
+  {
+    "question": "Which tag defines a clickable button in HTML on list?",
+    "options": [
+      "<input>",
+      "<a>",
+      "<div>",
+      "<button>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<button>' for HTML."
+  },
+  {
+    "question": "Which HTML5 element represents a standalone piece of content on link?",
+    "options": [
+      "<section>",
+      "<aside>",
+      "<div>",
+      "<article>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<article>' for HTML."
+  },
+  {
+    "question": "Which tag defines a list of definitions in HTML on web page?",
+    "options": [
+      "<ol>",
+      "<dl>",
+      "<dt>",
+      "<ul>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<dl>' for HTML."
+  },
+  {
+    "question": "Which attribute is used to specify a stylesheet URL in HTML on web page?",
+    "options": [
+      "href",
+      "action",
+      "src",
+      "type"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which tag defines navigation links in HTML on document head?",
+    "options": [
+      "<menu>",
+      "<nav>",
+      "<header>",
+      "<section>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<nav>' for HTML."
+  },
+  {
+    "question": "Which tag is used to define a caption for a table in HTML on navigation?",
+    "options": [
+      "<caption>",
+      "<title>",
+      "<label>",
+      "<summary>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<caption>' for HTML."
+  },
+  {
+    "question": "Which attribute changes the display text of a link in HTML on paragraph?",
+    "options": [
+      "rel",
+      "title",
+      "alt",
+      "href"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'title' for HTML."
+  },
+  {
+    "question": "Which element defines the visible title of a document on list?",
+    "options": [
+      "<header>",
+      "<meta>",
+      "<title>",
+      "<h1>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<title>' for HTML."
+  },
+  {
+    "question": "Which tag defines a row of table header cells in HTML on table row?",
+    "options": [
+      "<tr>",
+      "<tbody>",
+      "<thead>",
+      "<tfoot>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<thead>' for HTML."
+  },
+  {
+    "question": "Which tag defines a row of table header cells in HTML on content section?",
+    "options": [
+      "<tbody>",
+      "<tr>",
+      "<tfoot>",
+      "<thead>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<thead>' for HTML."
+  },
+  {
+    "question": "Which element defines the visible title of a document on web page?",
+    "options": [
+      "<h1>",
+      "<header>",
+      "<meta>",
+      "<title>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<title>' for HTML."
+  },
+  {
+    "question": "Which tag defines a clickable button in HTML on form?",
+    "options": [
+      "<button>",
+      "<input>",
+      "<div>",
+      "<a>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<button>' for HTML."
+  },
+  {
+    "question": "Which tag is used to define a caption for a table in HTML on image?",
+    "options": [
+      "<caption>",
+      "<title>",
+      "<summary>",
+      "<label>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<caption>' for HTML."
+  },
+  {
+    "question": "Which HTML5 element represents a standalone piece of content on navigation?",
+    "options": [
+      "<div>",
+      "<section>",
+      "<aside>",
+      "<article>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<article>' for HTML."
+  },
+  {
+    "question": "Which tag defines navigation links in HTML on link?",
+    "options": [
+      "<section>",
+      "<menu>",
+      "<header>",
+      "<nav>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<nav>' for HTML."
+  },
+  {
+    "question": "Which tag defines a clickable button in HTML on image?",
+    "options": [
+      "<div>",
+      "<button>",
+      "<input>",
+      "<a>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<button>' for HTML."
+  },
+  {
+    "question": "Which tag defines a self-closing line break in HTML on form?",
+    "options": [
+      "<br>",
+      "<hr>",
+      "<break>",
+      "<lb>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<br>' for HTML."
+  },
+  {
+    "question": "Which tag is used to define a caption for a table in HTML on link?",
+    "options": [
+      "<title>",
+      "<label>",
+      "<summary>",
+      "<caption>"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '<caption>' for HTML."
+  },
+  {
+    "question": "Which attribute is used to specify a stylesheet URL in HTML on link?",
+    "options": [
+      "action",
+      "src",
+      "type",
+      "href"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which attribute is used to specify a stylesheet URL in HTML on paragraph?",
+    "options": [
+      "href",
+      "type",
+      "src",
+      "action"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which element defines the visible title of a document on image?",
+    "options": [
+      "<title>",
+      "<meta>",
+      "<h1>",
+      "<header>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<title>' for HTML."
+  },
+  {
+    "question": "Which tag defines a row of table header cells in HTML on navigation?",
+    "options": [
+      "<thead>",
+      "<tfoot>",
+      "<tbody>",
+      "<tr>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<thead>' for HTML."
+  },
+  {
+    "question": "Which tag defines a list of definitions in HTML on document head?",
+    "options": [
+      "<dt>",
+      "<ul>",
+      "<dl>",
+      "<ol>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<dl>' for HTML."
+  },
+  {
+    "question": "Which tag defines navigation links in HTML on web page?",
+    "options": [
+      "<header>",
+      "<section>",
+      "<nav>",
+      "<menu>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<nav>' for HTML."
+  },
+  {
+    "question": "Which tag defines a self-closing line break in HTML on link?",
+    "options": [
+      "<break>",
+      "<lb>",
+      "<br>",
+      "<hr>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '<br>' for HTML."
+  },
+  {
+    "question": "Which attribute is used to specify a stylesheet URL in HTML on content section?",
+    "options": [
+      "src",
+      "type",
+      "href",
+      "action"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'href' for HTML."
+  },
+  {
+    "question": "Which tag defines a list of definitions in HTML on navigation?",
+    "options": [
+      "<dl>",
+      "<ol>",
+      "<dt>",
+      "<ul>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '<dl>' for HTML."
+  },
+  {
+    "question": "Which tag defines navigation links in HTML on list?",
+    "options": [
+      "<header>",
+      "<nav>",
+      "<section>",
+      "<menu>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '<nav>' for HTML."
+  }
+]

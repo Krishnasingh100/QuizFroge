@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword defines a class in Java loop logic?",
+    "options": [
+      "namespace",
+      "module",
+      "class",
+      "package"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'class' for Java."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Java memory management?",
+    "options": [
+      "encapsulation",
+      "abstraction",
+      "modularity",
+      "polymorphism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Java."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Java data types?",
+    "options": [
+      "abstraction",
+      "encapsulation",
+      "modularity",
+      "polymorphism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Java."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Java loop logic?",
+    "options": [
+      "exceptions",
+      "inheritance",
+      "optional types",
+      "global variables"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'optional types' for Java."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Java data types?",
+    "options": [
+      "optional types",
+      "global variables",
+      "inheritance",
+      "exceptions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'optional types' for Java."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Java library imports?",
+    "options": [
+      "modularity",
+      "encapsulation",
+      "abstraction",
+      "polymorphism"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for Java."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Java source code?",
+    "options": [
+      "static",
+      "volatile",
+      "dynamic",
+      "transient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for Java."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Java library imports?",
+    "options": [
+      "stack",
+      "linked list",
+      "queue",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Java."
+  },
+  {
+    "question": "Which statement checks for equality in Java input/output?",
+    "options": [
+      "==",
+      "=",
+      ":=",
+      "=>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Java."
+  },
+  {
+    "question": "Which statement best describes memory management in Java loop logic?",
+    "options": [
+      "syntax highlighting",
+      "implicit typing",
+      "automatic garbage collection",
+      "runtime binding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Java."
+  },
+  {
+    "question": "Which keyword defines a class in Java source code?",
+    "options": [
+      "class",
+      "module",
+      "package",
+      "namespace"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'class' for Java."
+  },
+  {
+    "question": "Which statement best describes memory management in Java function definitions?",
+    "options": [
+      "syntax highlighting",
+      "automatic garbage collection",
+      "implicit typing",
+      "runtime binding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for Java."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Java source code?",
+    "options": [
+      "modularity",
+      "abstraction",
+      "polymorphism",
+      "encapsulation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for Java."
+  },
+  {
+    "question": "Which statement best describes memory management in Java input/output?",
+    "options": [
+      "syntax highlighting",
+      "implicit typing",
+      "runtime binding",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Java."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Java code in loop logic?",
+    "options": [
+      "var",
+      "mutable",
+      "let",
+      "final"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'final' for Java."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Java code in conditional logic?",
+    "options": [
+      "let",
+      "final",
+      "mutable",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'final' for Java."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Java input/output?",
+    "options": [
+      "polymorphism",
+      "modularity",
+      "abstraction",
+      "encapsulation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Java."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Java header files?",
+    "options": [
+      "polymorphism",
+      "modularity",
+      "abstraction",
+      "encapsulation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Java."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Java applications in loop logic?",
+    "options": [
+      "threads",
+      "generics",
+      "inheritance",
+      "closures"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'threads' for Java."
+  },
+  {
+    "question": "Which keyword defines a class in Java error handling?",
+    "options": [
+      "module",
+      "namespace",
+      "package",
+      "class"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'class' for Java."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Java applications in error handling?",
+    "options": [
+      "generics",
+      "closures",
+      "threads",
+      "inheritance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'threads' for Java."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Java applications in function definitions?",
+    "options": [
+      "generics",
+      "closures",
+      "inheritance",
+      "threads"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'threads' for Java."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Java data types?",
+    "options": [
+      "static",
+      "dynamic",
+      "volatile",
+      "transient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for Java."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Java input/output?",
+    "options": [
+      "transient",
+      "volatile",
+      "dynamic",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for Java."
+  },
+  {
+    "question": "Which keyword defines a class in Java header files?",
+    "options": [
+      "namespace",
+      "package",
+      "class",
+      "module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'class' for Java."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Java code in memory management?",
+    "options": [
+      "mutable",
+      "var",
+      "let",
+      "final"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'final' for Java."
+  },
+  {
+    "question": "Which statement checks for equality in Java source code?",
+    "options": [
+      "==",
+      ":=",
+      "=",
+      "=>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Java."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Java code in input/output?",
+    "options": [
+      "let",
+      "mutable",
+      "var",
+      "final"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'final' for Java."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Java code in data types?",
+    "options": [
+      "let",
+      "var",
+      "final",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'final' for Java."
+  },
+  {
+    "question": "Which keyword defines a class in Java memory management?",
+    "options": [
+      "namespace",
+      "module",
+      "package",
+      "class"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'class' for Java."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Java function definitions?",
+    "options": [
+      "polymorphism",
+      "modularity",
+      "encapsulation",
+      "abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Java."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Java data types?",
+    "options": [
+      "stack",
+      "linked list",
+      "queue",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Java."
+  },
+  {
+    "question": "Which statement best describes memory management in Java memory management?",
+    "options": [
+      "automatic garbage collection",
+      "runtime binding",
+      "syntax highlighting",
+      "implicit typing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'automatic garbage collection' for Java."
+  },
+  {
+    "question": "Which statement checks for equality in Java error handling?",
+    "options": [
+      ":=",
+      "=",
+      "=>",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Java."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Java error handling?",
+    "options": [
+      "modularity",
+      "abstraction",
+      "encapsulation",
+      "polymorphism"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for Java."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Java function definitions?",
+    "options": [
+      "array",
+      "queue",
+      "linked list",
+      "stack"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Java."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Java input/output?",
+    "options": [
+      "global variables",
+      "optional types",
+      "inheritance",
+      "exceptions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'optional types' for Java."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Java loop logic?",
+    "options": [
+      "stack",
+      "queue",
+      "array",
+      "linked list"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Java."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Java code in library imports?",
+    "options": [
+      "final",
+      "var",
+      "mutable",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'final' for Java."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Java conditional logic?",
+    "options": [
+      "inheritance",
+      "composition",
+      "delegation",
+      "aggregation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for Java."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Java library imports?",
+    "options": [
+      "volatile",
+      "dynamic",
+      "transient",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for Java."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Java code in error handling?",
+    "options": [
+      "mutable",
+      "let",
+      "var",
+      "final"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'final' for Java."
+  },
+  {
+    "question": "Which statement best describes memory management in Java header files?",
+    "options": [
+      "syntax highlighting",
+      "implicit typing",
+      "runtime binding",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Java."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Java loop logic?",
+    "options": [
+      "volatile",
+      "dynamic",
+      "static",
+      "transient"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for Java."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Java input/output?",
+    "options": [
+      "stack",
+      "array",
+      "queue",
+      "linked list"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Java."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Java library imports?",
+    "options": [
+      "exceptions",
+      "inheritance",
+      "global variables",
+      "optional types"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'optional types' for Java."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Java code in header files?",
+    "options": [
+      "let",
+      "var",
+      "mutable",
+      "final"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'final' for Java."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Java conditional logic?",
+    "options": [
+      "polymorphism",
+      "modularity",
+      "encapsulation",
+      "abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Java."
+  },
+  {
+    "question": "Which statement checks for equality in Java header files?",
+    "options": [
+      ":=",
+      "=>",
+      "==",
+      "="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Java."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Java code in source code?",
+    "options": [
+      "var",
+      "let",
+      "final",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'final' for Java."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword in C# indicates a return value from a function in data types?",
+    "options": [
+      "break",
+      "yield",
+      "return",
+      "exit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for C#."
+  },
+  {
+    "question": "Which keyword in C# indicates a return value from a function in source code?",
+    "options": [
+      "break",
+      "yield",
+      "return",
+      "exit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for C#."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C# header files?",
+    "options": [
+      "2",
+      "16",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for C#."
+  },
+  {
+    "question": "Which keyword declares a function in C# loop logic?",
+    "options": [
+      "int",
+      "const",
+      "class",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for C#."
+  },
+  {
+    "question": "Which line represents a correct function definition in C# loop logic?",
+    "options": [
+      "static void Main(string[] args) {}",
+      "main() {}",
+      "function main",
+      "def main"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static void Main(string[] args) {}' for C#."
+  },
+  {
+    "question": "Which term often describes a collection of values in C# loop logic?",
+    "options": [
+      "object",
+      "array",
+      "class",
+      "function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for C#."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C# loop logic?",
+    "options": [
+      "if",
+      "switch",
+      "when",
+      "case"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'if' for C#."
+  },
+  {
+    "question": "Which line represents a valid import or include in C# source code?",
+    "options": [
+      "include <sys>",
+      "import module",
+      "require(\"module\")",
+      "using System;"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'using System;' for C#."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C# data types?",
+    "options": [
+      "16",
+      "2",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for C#."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C# conditional logic?",
+    "options": [
+      "16",
+      "2",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for C#."
+  },
+  {
+    "question": "Which term often describes a collection of values in C# conditional logic?",
+    "options": [
+      "array",
+      "class",
+      "object",
+      "function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for C#."
+  },
+  {
+    "question": "Which operator in C# is used for string concatenation in data types?",
+    "options": [
+      "&",
+      "||",
+      "##",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for C#."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in C# source code?",
+    "options": [
+      "optimization",
+      "iteration",
+      "compilation",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for C#."
+  },
+  {
+    "question": "Which operator is used to compare two values in C# source code?",
+    "options": [
+      "!=",
+      "==",
+      "<>",
+      "==="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for C#."
+  },
+  {
+    "question": "Which keyword in C# creates a new variable in function definitions?",
+    "options": [
+      "const",
+      "class",
+      "let",
+      "static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'let' for C#."
+  },
+  {
+    "question": "Which line represents a correct function definition in C# source code?",
+    "options": [
+      "def main",
+      "main() {}",
+      "static void Main(string[] args) {}",
+      "function main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static void Main(string[] args) {}' for C#."
+  },
+  {
+    "question": "Which keyword in C# indicates a return value from a function in function definitions?",
+    "options": [
+      "yield",
+      "break",
+      "exit",
+      "return"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'return' for C#."
+  },
+  {
+    "question": "Which operator is used to compare two values in C# function definitions?",
+    "options": [
+      "!=",
+      "<>",
+      "===",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for C#."
+  },
+  {
+    "question": "Which operator is used to compare two values in C# data types?",
+    "options": [
+      "==",
+      "===",
+      "<>",
+      "!="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for C#."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in C# header files?",
+    "options": [
+      "temporary",
+      "immutable",
+      "mutable",
+      "dynamic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for C#."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in C# function definitions?",
+    "options": [
+      "for",
+      "case",
+      "switch",
+      "if"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for C#."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in C# loop logic?",
+    "options": [
+      "dynamic",
+      "temporary",
+      "mutable",
+      "immutable"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'immutable' for C#."
+  },
+  {
+    "question": "Which keyword declares a function in C# source code?",
+    "options": [
+      "var",
+      "const",
+      "class",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for C#."
+  },
+  {
+    "question": "Which keyword defines a function or method name in C# function definitions?",
+    "options": [
+      "int",
+      "struct",
+      "class",
+      "module"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for C#."
+  },
+  {
+    "question": "Which term often describes a collection of values in C# data types?",
+    "options": [
+      "class",
+      "array",
+      "function",
+      "object"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for C#."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in C# conditional logic?",
+    "options": [
+      "switch",
+      "case",
+      "if",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for C#."
+  },
+  {
+    "question": "Which keyword in C# indicates a return value from a function in library imports?",
+    "options": [
+      "yield",
+      "break",
+      "return",
+      "exit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for C#."
+  },
+  {
+    "question": "Which term often describes a collection of values in C# library imports?",
+    "options": [
+      "function",
+      "array",
+      "object",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for C#."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C# loop logic?",
+    "options": [
+      "2",
+      "6",
+      "8",
+      "16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for C#."
+  },
+  {
+    "question": "Which keyword defines a function or method name in C# header files?",
+    "options": [
+      "struct",
+      "class",
+      "module",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for C#."
+  },
+  {
+    "question": "Which keyword declares a function in C# library imports?",
+    "options": [
+      "int",
+      "const",
+      "var",
+      "class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for C#."
+  },
+  {
+    "question": "Which term often describes a collection of values in C# source code?",
+    "options": [
+      "object",
+      "class",
+      "function",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for C#."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C# conditional logic?",
+    "options": [
+      "switch",
+      "case",
+      "if",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for C#."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C# memory management?",
+    "options": [
+      "switch",
+      "if",
+      "case",
+      "when"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for C#."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C# library imports?",
+    "options": [
+      "6",
+      "2",
+      "8",
+      "16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for C#."
+  },
+  {
+    "question": "Which line represents a correct function definition in C# data types?",
+    "options": [
+      "static void Main(string[] args) {}",
+      "def main",
+      "main() {}",
+      "function main"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static void Main(string[] args) {}' for C#."
+  },
+  {
+    "question": "Which keyword in C# creates a new variable in data types?",
+    "options": [
+      "let",
+      "const",
+      "static",
+      "class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'let' for C#."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in C# source code?",
+    "options": [
+      "for",
+      "if",
+      "switch",
+      "case"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for C#."
+  },
+  {
+    "question": "Which keyword in C# indicates a return value from a function in header files?",
+    "options": [
+      "break",
+      "exit",
+      "yield",
+      "return"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'return' for C#."
+  },
+  {
+    "question": "Which keyword defines a function or method name in C# library imports?",
+    "options": [
+      "class",
+      "module",
+      "struct",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for C#."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C# library imports?",
+    "options": [
+      "if",
+      "switch",
+      "case",
+      "when"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'if' for C#."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C# function definitions?",
+    "options": [
+      "8",
+      "2",
+      "6",
+      "16"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '8' for C#."
+  },
+  {
+    "question": "Which line represents a valid import or include in C# conditional logic?",
+    "options": [
+      "using System;",
+      "import module",
+      "require(\"module\")",
+      "include <sys>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'using System;' for C#."
+  },
+  {
+    "question": "Which line represents a correct function definition in C# library imports?",
+    "options": [
+      "def main",
+      "function main",
+      "static void Main(string[] args) {}",
+      "main() {}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static void Main(string[] args) {}' for C#."
+  },
+  {
+    "question": "Which operator in C# is used for string concatenation in library imports?",
+    "options": [
+      "+",
+      "##",
+      "&",
+      "||"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for C#."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in C# loop logic?",
+    "options": [
+      "if",
+      "case",
+      "switch",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for C#."
+  },
+  {
+    "question": "Which operator is used to compare two values in C# header files?",
+    "options": [
+      "===",
+      "<>",
+      "==",
+      "!="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for C#."
+  },
+  {
+    "question": "Which keyword defines a function or method name in C# source code?",
+    "options": [
+      "module",
+      "struct",
+      "class",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for C#."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in C# data types?",
+    "options": [
+      "temporary",
+      "mutable",
+      "immutable",
+      "dynamic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'immutable' for C#."
+  },
+  {
+    "question": "Which term often describes a collection of values in C# function definitions?",
+    "options": [
+      "class",
+      "array",
+      "function",
+      "object"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for C#."
+  }
+]

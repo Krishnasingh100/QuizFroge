@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword defines a function or method name in Python source code?",
+    "options": [
+      "class",
+      "struct",
+      "module",
+      "def"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'def' for Python."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Python source code?",
+    "options": [
+      "compilation",
+      "optimization",
+      "recursion",
+      "iteration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for Python."
+  },
+  {
+    "question": "Which line represents a valid import or include in Python function definitions?",
+    "options": [
+      "require(\"module\")",
+      "import module",
+      "import math",
+      "include <sys>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'import math' for Python."
+  },
+  {
+    "question": "Which keyword declares a function in Python conditional logic?",
+    "options": [
+      "def",
+      "var",
+      "class",
+      "const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'def' for Python."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Python header files?",
+    "options": [
+      "if",
+      "case",
+      "for",
+      "switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for Python."
+  },
+  {
+    "question": "Which term often describes a collection of values in Python loop logic?",
+    "options": [
+      "array",
+      "class",
+      "object",
+      "function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Python."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Python function definitions?",
+    "options": [
+      "optimization",
+      "compilation",
+      "iteration",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for Python."
+  },
+  {
+    "question": "Which keyword in Python indicates a return value from a function in data types?",
+    "options": [
+      "break",
+      "yield",
+      "return",
+      "exit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for Python."
+  },
+  {
+    "question": "Which keyword in Python indicates a return value from a function in header files?",
+    "options": [
+      "break",
+      "exit",
+      "return",
+      "yield"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for Python."
+  },
+  {
+    "question": "Which operator is used to compare two values in Python header files?",
+    "options": [
+      "<>",
+      "!=",
+      "===",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Python data types?",
+    "options": [
+      "recursion",
+      "compilation",
+      "optimization",
+      "iteration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for Python."
+  },
+  {
+    "question": "Which keyword declares a function in Python header files?",
+    "options": [
+      "def",
+      "const",
+      "class",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'def' for Python."
+  },
+  {
+    "question": "Which keyword in Python creates a new variable in library imports?",
+    "options": [
+      "def",
+      "const",
+      "class",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'def' for Python."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Python conditional logic?",
+    "options": [
+      "case",
+      "when",
+      "if",
+      "switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for Python."
+  },
+  {
+    "question": "Which keyword in Python indicates a return value from a function in conditional logic?",
+    "options": [
+      "break",
+      "yield",
+      "return",
+      "exit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for Python."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Python data types?",
+    "options": [
+      "2",
+      "8",
+      "6",
+      "16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '8' for Python."
+  },
+  {
+    "question": "Which operator in Python is used for string concatenation in library imports?",
+    "options": [
+      "+",
+      "##",
+      "&",
+      "||"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for Python."
+  },
+  {
+    "question": "Which operator in Python is used for string concatenation in data types?",
+    "options": [
+      "||",
+      "&",
+      "+",
+      "##"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for Python."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Python library imports?",
+    "options": [
+      "iteration",
+      "compilation",
+      "recursion",
+      "optimization"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for Python."
+  },
+  {
+    "question": "Which term often describes a collection of values in Python function definitions?",
+    "options": [
+      "object",
+      "class",
+      "array",
+      "function"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Python."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Python source code?",
+    "options": [
+      "if",
+      "switch",
+      "when",
+      "case"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'if' for Python."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Python library imports?",
+    "options": [
+      "def",
+      "module",
+      "class",
+      "struct"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'def' for Python."
+  },
+  {
+    "question": "Which operator is used to compare two values in Python conditional logic?",
+    "options": [
+      "==",
+      "<>",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Python library imports?",
+    "options": [
+      "case",
+      "when",
+      "if",
+      "switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for Python."
+  },
+  {
+    "question": "Which keyword declares a function in Python library imports?",
+    "options": [
+      "const",
+      "def",
+      "class",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'def' for Python."
+  },
+  {
+    "question": "Which operator in Python is used for string concatenation in header files?",
+    "options": [
+      "||",
+      "##",
+      "&",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for Python."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Python function definitions?",
+    "options": [
+      "2",
+      "16",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for Python."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Python function definitions?",
+    "options": [
+      "struct",
+      "class",
+      "module",
+      "def"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'def' for Python."
+  },
+  {
+    "question": "Which line represents a valid import or include in Python library imports?",
+    "options": [
+      "include <sys>",
+      "import module",
+      "import math",
+      "require(\"module\")"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'import math' for Python."
+  },
+  {
+    "question": "Which line represents a correct function definition in Python header files?",
+    "options": [
+      "main() {}",
+      "function main",
+      "def main",
+      "def main():"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'def main():' for Python."
+  },
+  {
+    "question": "Which keyword in Python creates a new variable in loop logic?",
+    "options": [
+      "static",
+      "class",
+      "const",
+      "def"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'def' for Python."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Python function definitions?",
+    "options": [
+      "mutable",
+      "temporary",
+      "immutable",
+      "dynamic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'immutable' for Python."
+  },
+  {
+    "question": "Which operator is used to compare two values in Python source code?",
+    "options": [
+      "!=",
+      "<>",
+      "===",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Python source code?",
+    "options": [
+      "immutable",
+      "dynamic",
+      "temporary",
+      "mutable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for Python."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Python conditional logic?",
+    "options": [
+      "mutable",
+      "immutable",
+      "dynamic",
+      "temporary"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for Python."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Python loop logic?",
+    "options": [
+      "when",
+      "if",
+      "case",
+      "switch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for Python."
+  },
+  {
+    "question": "Which line represents a correct function definition in Python data types?",
+    "options": [
+      "main() {}",
+      "def main():",
+      "function main",
+      "def main"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'def main():' for Python."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Python function definitions?",
+    "options": [
+      "when",
+      "switch",
+      "if",
+      "case"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for Python."
+  },
+  {
+    "question": "Which operator is used to compare two values in Python loop logic?",
+    "options": [
+      "==",
+      "<>",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Python data types?",
+    "options": [
+      "switch",
+      "case",
+      "if",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for Python."
+  },
+  {
+    "question": "Which line represents a correct function definition in Python function definitions?",
+    "options": [
+      "function main",
+      "main() {}",
+      "def main",
+      "def main():"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'def main():' for Python."
+  },
+  {
+    "question": "Which term often describes a collection of values in Python library imports?",
+    "options": [
+      "function",
+      "class",
+      "object",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Python."
+  },
+  {
+    "question": "Which keyword in Python indicates a return value from a function in source code?",
+    "options": [
+      "yield",
+      "return",
+      "break",
+      "exit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for Python."
+  },
+  {
+    "question": "Which keyword declares a function in Python source code?",
+    "options": [
+      "const",
+      "class",
+      "var",
+      "def"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'def' for Python."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Python loop logic?",
+    "options": [
+      "for",
+      "switch",
+      "case",
+      "if"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for Python."
+  },
+  {
+    "question": "Which keyword declares a function in Python function definitions?",
+    "options": [
+      "class",
+      "var",
+      "def",
+      "const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'def' for Python."
+  },
+  {
+    "question": "Which term often describes a collection of values in Python source code?",
+    "options": [
+      "object",
+      "function",
+      "class",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Python."
+  },
+  {
+    "question": "Which line represents a valid import or include in Python source code?",
+    "options": [
+      "import math",
+      "include <sys>",
+      "import module",
+      "require(\"module\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'import math' for Python."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Python header files?",
+    "options": [
+      "2",
+      "16",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for Python."
+  },
+  {
+    "question": "Which keyword in Python indicates a return value from a function in library imports?",
+    "options": [
+      "exit",
+      "return",
+      "break",
+      "yield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for Python."
+  }
+]

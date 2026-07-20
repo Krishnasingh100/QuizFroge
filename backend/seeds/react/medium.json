@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which hook manages form fields and values in React on components?",
+    "options": [
+      "useRef",
+      "useEffect",
+      "useState",
+      "useCallback"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which feature allows React to manage UI updates efficiently on event handling?",
+    "options": [
+      "real DOM",
+      "server DOM",
+      "shadow DOM",
+      "virtual DOM"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'virtual DOM' for React."
+  },
+  {
+    "question": "Which hook runs cleanup code when components unmount in React on hooks?",
+    "options": [
+      "useMemo",
+      "useState",
+      "useCallback",
+      "useEffect"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which hook manages form fields and values in React on rendering?",
+    "options": [
+      "useRef",
+      "useState",
+      "useEffect",
+      "useCallback"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which feature allows React to manage UI updates efficiently on state?",
+    "options": [
+      "virtual DOM",
+      "server DOM",
+      "shadow DOM",
+      "real DOM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'virtual DOM' for React."
+  },
+  {
+    "question": "Which React API prevents a component from rerendering when props do not change on effects?",
+    "options": [
+      "React.memo",
+      "useCallback",
+      "useMemo",
+      "PureComponent"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'React.memo' for React."
+  },
+  {
+    "question": "Which React concept tracks component data over time in React on state?",
+    "options": [
+      "props",
+      "render",
+      "state",
+      "context"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'state' for React."
+  },
+  {
+    "question": "Which keyword creates a function component in React on memoization?",
+    "options": [
+      "function",
+      "class",
+      "const",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for React."
+  },
+  {
+    "question": "Which feature allows React to manage UI updates efficiently on props?",
+    "options": [
+      "virtual DOM",
+      "server DOM",
+      "shadow DOM",
+      "real DOM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'virtual DOM' for React."
+  },
+  {
+    "question": "Which hook runs when dependencies change in React on hooks?",
+    "options": [
+      "useEffect",
+      "useCallback",
+      "useState",
+      "useMemo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which hook runs when dependencies change in React on lists?",
+    "options": [
+      "useEffect",
+      "useMemo",
+      "useState",
+      "useCallback"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which hook manages form fields and values in React on state?",
+    "options": [
+      "useState",
+      "useCallback",
+      "useEffect",
+      "useRef"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which keyword creates a function component in React on event handling?",
+    "options": [
+      "const",
+      "function",
+      "let",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for React."
+  },
+  {
+    "question": "Which hook runs cleanup code when components unmount in React on memoization?",
+    "options": [
+      "useEffect",
+      "useMemo",
+      "useCallback",
+      "useState"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which hook runs when dependencies change in React on props?",
+    "options": [
+      "useState",
+      "useMemo",
+      "useEffect",
+      "useCallback"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which prop in React passes values from parent to child on effects?",
+    "options": [
+      "props",
+      "hooks",
+      "state",
+      "context"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which keyword creates a function component in React on state?",
+    "options": [
+      "function",
+      "const",
+      "class",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for React."
+  },
+  {
+    "question": "Which React feature splits the UI into reusable pieces in React on event handling?",
+    "options": [
+      "components",
+      "state",
+      "hooks",
+      "props"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'components' for React."
+  },
+  {
+    "question": "Which React API prevents a component from rerendering when props do not change on components?",
+    "options": [
+      "useMemo",
+      "React.memo",
+      "useCallback",
+      "PureComponent"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'React.memo' for React."
+  },
+  {
+    "question": "Which feature allows React to manage UI updates efficiently on effects?",
+    "options": [
+      "shadow DOM",
+      "server DOM",
+      "real DOM",
+      "virtual DOM"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'virtual DOM' for React."
+  },
+  {
+    "question": "Which React feature splits the UI into reusable pieces in React on context?",
+    "options": [
+      "props",
+      "hooks",
+      "state",
+      "components"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'components' for React."
+  },
+  {
+    "question": "Which React API prevents a component from rerendering when props do not change on lists?",
+    "options": [
+      "PureComponent",
+      "useMemo",
+      "useCallback",
+      "React.memo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'React.memo' for React."
+  },
+  {
+    "question": "Which hook runs when dependencies change in React on rendering?",
+    "options": [
+      "useMemo",
+      "useCallback",
+      "useState",
+      "useEffect"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which React feature splits the UI into reusable pieces in React on lists?",
+    "options": [
+      "props",
+      "hooks",
+      "components",
+      "state"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'components' for React."
+  },
+  {
+    "question": "Which React API prevents a component from rerendering when props do not change on props?",
+    "options": [
+      "React.memo",
+      "PureComponent",
+      "useCallback",
+      "useMemo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'React.memo' for React."
+  },
+  {
+    "question": "Which hook runs cleanup code when components unmount in React on effects?",
+    "options": [
+      "useMemo",
+      "useEffect",
+      "useCallback",
+      "useState"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which React feature splits the UI into reusable pieces in React on effects?",
+    "options": [
+      "props",
+      "state",
+      "hooks",
+      "components"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'components' for React."
+  },
+  {
+    "question": "Which React concept tracks component data over time in React on hooks?",
+    "options": [
+      "state",
+      "props",
+      "render",
+      "context"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'state' for React."
+  },
+  {
+    "question": "Which React feature splits the UI into reusable pieces in React on state?",
+    "options": [
+      "hooks",
+      "components",
+      "state",
+      "props"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'components' for React."
+  },
+  {
+    "question": "Which hook manages form fields and values in React on lists?",
+    "options": [
+      "useCallback",
+      "useState",
+      "useEffect",
+      "useRef"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which keyword creates a function component in React on rendering?",
+    "options": [
+      "function",
+      "class",
+      "let",
+      "const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for React."
+  },
+  {
+    "question": "Which React feature splits the UI into reusable pieces in React on components?",
+    "options": [
+      "components",
+      "state",
+      "hooks",
+      "props"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'components' for React."
+  },
+  {
+    "question": "Which prop in React passes values from parent to child on context?",
+    "options": [
+      "props",
+      "hooks",
+      "state",
+      "context"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which hook keeps a mutable value without rerendering in React on memoization?",
+    "options": [
+      "useMemo",
+      "useState",
+      "useRef",
+      "useReducer"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useRef' for React."
+  },
+  {
+    "question": "Which React concept tracks component data over time in React on event handling?",
+    "options": [
+      "props",
+      "render",
+      "state",
+      "context"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'state' for React."
+  },
+  {
+    "question": "Which hook runs when dependencies change in React on effects?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useCallback",
+      "useMemo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which feature allows React to manage UI updates efficiently on context?",
+    "options": [
+      "virtual DOM",
+      "shadow DOM",
+      "server DOM",
+      "real DOM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'virtual DOM' for React."
+  },
+  {
+    "question": "Which prop in React passes values from parent to child on event handling?",
+    "options": [
+      "props",
+      "context",
+      "hooks",
+      "state"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which hook manages form fields and values in React on hooks?",
+    "options": [
+      "useRef",
+      "useEffect",
+      "useState",
+      "useCallback"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which hook keeps a mutable value without rerendering in React on event handling?",
+    "options": [
+      "useReducer",
+      "useRef",
+      "useMemo",
+      "useState"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useRef' for React."
+  },
+  {
+    "question": "Which hook runs when dependencies change in React on memoization?",
+    "options": [
+      "useCallback",
+      "useState",
+      "useMemo",
+      "useEffect"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which hook manages form fields and values in React on event handling?",
+    "options": [
+      "useCallback",
+      "useRef",
+      "useState",
+      "useEffect"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which keyword creates a function component in React on components?",
+    "options": [
+      "let",
+      "const",
+      "function",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for React."
+  },
+  {
+    "question": "Which hook keeps a mutable value without rerendering in React on context?",
+    "options": [
+      "useMemo",
+      "useRef",
+      "useReducer",
+      "useState"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useRef' for React."
+  },
+  {
+    "question": "Which React concept tracks component data over time in React on context?",
+    "options": [
+      "render",
+      "props",
+      "state",
+      "context"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'state' for React."
+  },
+  {
+    "question": "Which prop in React passes values from parent to child on rendering?",
+    "options": [
+      "context",
+      "state",
+      "props",
+      "hooks"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'props' for React."
+  },
+  {
+    "question": "Which hook runs when dependencies change in React on state?",
+    "options": [
+      "useEffect",
+      "useMemo",
+      "useState",
+      "useCallback"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which React concept tracks component data over time in React on lists?",
+    "options": [
+      "context",
+      "props",
+      "state",
+      "render"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'state' for React."
+  },
+  {
+    "question": "Which hook runs cleanup code when components unmount in React on context?",
+    "options": [
+      "useMemo",
+      "useState",
+      "useCallback",
+      "useEffect"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which React feature splits the UI into reusable pieces in React on props?",
+    "options": [
+      "props",
+      "components",
+      "hooks",
+      "state"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'components' for React."
+  }
+]

@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which concept describes reusable code blocks in C# conditional logic?",
+    "options": [
+      "classes",
+      "functions",
+      "variables",
+      "comments"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'functions' for C#."
+  },
+  {
+    "question": "Which code line uses string concatenation in C# source code?",
+    "options": [
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "join(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for C#."
+  },
+  {
+    "question": "Which statement imports libraries or packages in C# loop logic?",
+    "options": [
+      "include <lib>",
+      "use lib;",
+      "using System;",
+      "require(\"lib\")"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'using System;' for C#."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in C# conditional logic?",
+    "options": [
+      "stop",
+      "continue",
+      "return",
+      "break"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'break' for C#."
+  },
+  {
+    "question": "Which keyword begins a loop in C# conditional logic?",
+    "options": [
+      "for",
+      "while",
+      "loop",
+      "repeat"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for C#."
+  },
+  {
+    "question": "Which phrase describes the main function signature in C# header files?",
+    "options": [
+      "function main() {}",
+      "def main():",
+      "static void Main(string[] args) {}",
+      "main()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static void Main(string[] args) {}' for C#."
+  },
+  {
+    "question": "What is the result of 3 + 4 in C# source code?",
+    "options": [
+      "34",
+      "Error",
+      "7",
+      "0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '7' for C#."
+  },
+  {
+    "question": "Which option fills the blank in C# source code: const x = 5; x = 10; // __? ",
+    "options": [
+      "assignment",
+      "declaration",
+      "iteration",
+      "comparison"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'assignment' for C#."
+  },
+  {
+    "question": "Which keyword declares a constant value in C# library imports?",
+    "options": [
+      "let",
+      "static",
+      "var",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for C#."
+  },
+  {
+    "question": "What is the result of 8 - 3 in C# header files?",
+    "options": [
+      "3",
+      "5",
+      "8",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '5' for C#."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in C# library imports?",
+    "options": [
+      "<!-- -->",
+      "/* */",
+      "//",
+      "#"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '//' for C#."
+  },
+  {
+    "question": "Which value is commonly used for true in C# library imports?",
+    "options": [
+      "True",
+      "true",
+      "False",
+      "false"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'true' for C#."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in C# loop logic?",
+    "options": [
+      "25",
+      "2",
+      "0",
+      "10"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '10' for C#."
+  },
+  {
+    "question": "Which option fills the blank in C# header files: const x = 5; x = 10; // __? ",
+    "options": [
+      "assignment",
+      "iteration",
+      "declaration",
+      "comparison"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'assignment' for C#."
+  },
+  {
+    "question": "Which sign is used to assign values in C# source code?",
+    "options": [
+      "=>",
+      ":=",
+      "==",
+      "="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '=' for C#."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in C# conditional logic?",
+    "options": [
+      "10",
+      "25",
+      "2",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '10' for C#."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in C# source code?",
+    "options": [
+      "variables",
+      "functions",
+      "classes",
+      "comments"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'functions' for C#."
+  },
+  {
+    "question": "Which statement imports libraries or packages in C# library imports?",
+    "options": [
+      "include <lib>",
+      "require(\"lib\")",
+      "using System;",
+      "use lib;"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'using System;' for C#."
+  },
+  {
+    "question": "What is the result of 8 - 3 in C# source code?",
+    "options": [
+      "5",
+      "2",
+      "8",
+      "3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '5' for C#."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in C# loop logic?",
+    "options": [
+      "return",
+      "break",
+      "stop",
+      "continue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'break' for C#."
+  },
+  {
+    "question": "Which phrase describes the main function signature in C# conditional logic?",
+    "options": [
+      "static void Main(string[] args) {}",
+      "main()",
+      "function main() {}",
+      "def main():"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static void Main(string[] args) {}' for C#."
+  },
+  {
+    "question": "Which sign is used to assign values in C# header files?",
+    "options": [
+      "=>",
+      ":=",
+      "=",
+      "=="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '=' for C#."
+  },
+  {
+    "question": "Which value is commonly used for true in C# conditional logic?",
+    "options": [
+      "true",
+      "False",
+      "false",
+      "True"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'true' for C#."
+  },
+  {
+    "question": "Which keyword declares a constant value in C# conditional logic?",
+    "options": [
+      "let",
+      "const",
+      "var",
+      "static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C#."
+  },
+  {
+    "question": "Which file extension is standard for C# source code?",
+    "options": [
+      ".json",
+      ".txt",
+      ".md",
+      ".cs"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '.cs' for C#."
+  },
+  {
+    "question": "Which value is commonly used for true in C# source code?",
+    "options": [
+      "True",
+      "False",
+      "true",
+      "false"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'true' for C#."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in C# header files?",
+    "options": [
+      "comments",
+      "variables",
+      "classes",
+      "functions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'functions' for C#."
+  },
+  {
+    "question": "Which value is commonly used for true in C# loop logic?",
+    "options": [
+      "False",
+      "True",
+      "false",
+      "true"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'true' for C#."
+  },
+  {
+    "question": "Which code line uses string concatenation in C# loop logic?",
+    "options": [
+      "concat(\"Hello\", \"World\")",
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for C#."
+  },
+  {
+    "question": "Which value represents false in C# conditional logic?",
+    "options": [
+      "True",
+      "true",
+      "False",
+      "false"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'false' for C#."
+  },
+  {
+    "question": "Which keyword declares a constant value in C# source code?",
+    "options": [
+      "var",
+      "let",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for C#."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in C# header files?",
+    "options": [
+      "#",
+      "//",
+      "/* */",
+      "<!-- -->"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '//' for C#."
+  },
+  {
+    "question": "Which file extension is standard for C# library imports?",
+    "options": [
+      ".json",
+      ".txt",
+      ".cs",
+      ".md"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.cs' for C#."
+  },
+  {
+    "question": "Which phrase describes the main function signature in C# loop logic?",
+    "options": [
+      "static void Main(string[] args) {}",
+      "main()",
+      "def main():",
+      "function main() {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static void Main(string[] args) {}' for C#."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in C# loop logic?",
+    "options": [
+      "#",
+      "//",
+      "/* */",
+      "<!-- -->"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '//' for C#."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in C# library imports?",
+    "options": [
+      "stop",
+      "break",
+      "continue",
+      "return"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'break' for C#."
+  },
+  {
+    "question": "Which file extension is standard for C# function definitions?",
+    "options": [
+      ".cs",
+      ".txt",
+      ".json",
+      ".md"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.cs' for C#."
+  },
+  {
+    "question": "Which code line correctly declares a constant in C# library imports?",
+    "options": [
+      "static",
+      "var",
+      "let",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for C#."
+  },
+  {
+    "question": "Which sign is used to assign values in C# loop logic?",
+    "options": [
+      "==",
+      "=>",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '=' for C#."
+  },
+  {
+    "question": "Which operator checks equality in C# conditional logic?",
+    "options": [
+      "===",
+      "!=",
+      "=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for C#."
+  },
+  {
+    "question": "Which keyword declares a constant value in C# loop logic?",
+    "options": [
+      "let",
+      "static",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for C#."
+  },
+  {
+    "question": "Which code line correctly declares a constant in C# conditional logic?",
+    "options": [
+      "var",
+      "let",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for C#."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in C# function definitions?",
+    "options": [
+      "//",
+      "/* */",
+      "<!-- -->",
+      "#"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '//' for C#."
+  },
+  {
+    "question": "Which code line uses string concatenation in C# library imports?",
+    "options": [
+      "\"Hello\" . \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\""
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for C#."
+  },
+  {
+    "question": "Which keyword declares a constant value in C# function definitions?",
+    "options": [
+      "let",
+      "static",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for C#."
+  },
+  {
+    "question": "Which value represents false in C# source code?",
+    "options": [
+      "True",
+      "False",
+      "true",
+      "false"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'false' for C#."
+  },
+  {
+    "question": "What is the result of 8 - 3 in C# loop logic?",
+    "options": [
+      "5",
+      "3",
+      "8",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '5' for C#."
+  },
+  {
+    "question": "Which value represents false in C# header files?",
+    "options": [
+      "false",
+      "False",
+      "true",
+      "True"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'false' for C#."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in C# source code?",
+    "options": [
+      "break",
+      "return",
+      "continue",
+      "stop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'break' for C#."
+  },
+  {
+    "question": "Which keyword begins a loop in C# source code?",
+    "options": [
+      "for",
+      "while",
+      "repeat",
+      "loop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for C#."
+  }
+]

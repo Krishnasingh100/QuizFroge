@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword starts a conditional expression in Rust header files?",
+    "options": [
+      "when",
+      "if",
+      "case",
+      "switch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for Rust."
+  },
+  {
+    "question": "Which line represents a valid import or include in Rust loop logic?",
+    "options": [
+      "use std::io;",
+      "require(\"module\")",
+      "include <sys>",
+      "import module"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'use std::io;' for Rust."
+  },
+  {
+    "question": "Which keyword declares a function in Rust data types?",
+    "options": [
+      "class",
+      "var",
+      "const",
+      "fn"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'fn' for Rust."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Rust conditional logic?",
+    "options": [
+      "immutable",
+      "mutable",
+      "dynamic",
+      "temporary"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for Rust."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Rust function definitions?",
+    "options": [
+      "struct",
+      "module",
+      "class",
+      "pub fn"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'pub fn' for Rust."
+  },
+  {
+    "question": "Which keyword in Rust creates a new variable in library imports?",
+    "options": [
+      "static",
+      "class",
+      "const",
+      "let"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'let' for Rust."
+  },
+  {
+    "question": "Which line represents a correct function definition in Rust conditional logic?",
+    "options": [
+      "fn main()",
+      "def main",
+      "function main",
+      "main() {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'fn main()' for Rust."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Rust loop logic?",
+    "options": [
+      "optimization",
+      "iteration",
+      "compilation",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for Rust."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Rust loop logic?",
+    "options": [
+      "6",
+      "16",
+      "8",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for Rust."
+  },
+  {
+    "question": "Which term often describes a collection of values in Rust header files?",
+    "options": [
+      "object",
+      "array",
+      "class",
+      "function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Rust."
+  },
+  {
+    "question": "Which keyword in Rust indicates a return value from a function in source code?",
+    "options": [
+      "break",
+      "return",
+      "exit",
+      "yield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for Rust."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Rust header files?",
+    "options": [
+      "temporary",
+      "mutable",
+      "immutable",
+      "dynamic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'immutable' for Rust."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Rust function definitions?",
+    "options": [
+      "16",
+      "2",
+      "6",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for Rust."
+  },
+  {
+    "question": "Which line represents a valid import or include in Rust data types?",
+    "options": [
+      "include <sys>",
+      "require(\"module\")",
+      "use std::io;",
+      "import module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'use std::io;' for Rust."
+  },
+  {
+    "question": "Which term often describes a collection of values in Rust function definitions?",
+    "options": [
+      "object",
+      "function",
+      "class",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Rust."
+  },
+  {
+    "question": "Which keyword declares a function in Rust loop logic?",
+    "options": [
+      "var",
+      "const",
+      "class",
+      "fn"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'fn' for Rust."
+  },
+  {
+    "question": "Which keyword in Rust creates a new variable in function definitions?",
+    "options": [
+      "let",
+      "class",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'let' for Rust."
+  },
+  {
+    "question": "Which keyword in Rust indicates a return value from a function in data types?",
+    "options": [
+      "yield",
+      "break",
+      "exit",
+      "return"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'return' for Rust."
+  },
+  {
+    "question": "Which operator in Rust is used for string concatenation in conditional logic?",
+    "options": [
+      "+",
+      "##",
+      "||",
+      "&"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for Rust."
+  },
+  {
+    "question": "Which keyword in Rust indicates a return value from a function in loop logic?",
+    "options": [
+      "return",
+      "break",
+      "exit",
+      "yield"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'return' for Rust."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Rust memory management?",
+    "options": [
+      "case",
+      "when",
+      "if",
+      "switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for Rust."
+  },
+  {
+    "question": "Which keyword declares a function in Rust memory management?",
+    "options": [
+      "var",
+      "fn",
+      "class",
+      "const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'fn' for Rust."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Rust library imports?",
+    "options": [
+      "compilation",
+      "recursion",
+      "optimization",
+      "iteration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'recursion' for Rust."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Rust conditional logic?",
+    "options": [
+      "pub fn",
+      "class",
+      "module",
+      "struct"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'pub fn' for Rust."
+  },
+  {
+    "question": "Which operator in Rust is used for string concatenation in function definitions?",
+    "options": [
+      "&",
+      "||",
+      "##",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for Rust."
+  },
+  {
+    "question": "Which line represents a correct function definition in Rust header files?",
+    "options": [
+      "main() {}",
+      "fn main()",
+      "def main",
+      "function main"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'fn main()' for Rust."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Rust data types?",
+    "options": [
+      "struct",
+      "pub fn",
+      "module",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'pub fn' for Rust."
+  },
+  {
+    "question": "Which keyword declares a function in Rust library imports?",
+    "options": [
+      "var",
+      "const",
+      "class",
+      "fn"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'fn' for Rust."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Rust library imports?",
+    "options": [
+      "if",
+      "switch",
+      "for",
+      "case"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for Rust."
+  },
+  {
+    "question": "Which term often describes a collection of values in Rust loop logic?",
+    "options": [
+      "function",
+      "class",
+      "object",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Rust."
+  },
+  {
+    "question": "Which operator is used to compare two values in Rust library imports?",
+    "options": [
+      "==",
+      "===",
+      "<>",
+      "!="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Rust."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Rust source code?",
+    "options": [
+      "immutable",
+      "temporary",
+      "dynamic",
+      "mutable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for Rust."
+  },
+  {
+    "question": "Which keyword in Rust creates a new variable in header files?",
+    "options": [
+      "let",
+      "class",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'let' for Rust."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Rust data types?",
+    "options": [
+      "iteration",
+      "optimization",
+      "recursion",
+      "compilation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for Rust."
+  },
+  {
+    "question": "Which keyword in Rust indicates a return value from a function in conditional logic?",
+    "options": [
+      "yield",
+      "return",
+      "exit",
+      "break"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for Rust."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Rust conditional logic?",
+    "options": [
+      "case",
+      "if",
+      "switch",
+      "when"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for Rust."
+  },
+  {
+    "question": "Which term often describes a collection of values in Rust library imports?",
+    "options": [
+      "object",
+      "array",
+      "function",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Rust."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Rust library imports?",
+    "options": [
+      "2",
+      "8",
+      "16",
+      "6"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '8' for Rust."
+  },
+  {
+    "question": "Which line represents a correct function definition in Rust function definitions?",
+    "options": [
+      "fn main()",
+      "function main",
+      "def main",
+      "main() {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'fn main()' for Rust."
+  },
+  {
+    "question": "Which term often describes a collection of values in Rust conditional logic?",
+    "options": [
+      "function",
+      "class",
+      "array",
+      "object"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Rust."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Rust function definitions?",
+    "options": [
+      "if",
+      "case",
+      "for",
+      "switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for Rust."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Rust library imports?",
+    "options": [
+      "struct",
+      "module",
+      "pub fn",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'pub fn' for Rust."
+  },
+  {
+    "question": "Which operator is used to compare two values in Rust function definitions?",
+    "options": [
+      "==",
+      "!=",
+      "===",
+      "<>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Rust."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Rust data types?",
+    "options": [
+      "mutable",
+      "immutable",
+      "temporary",
+      "dynamic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for Rust."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Rust loop logic?",
+    "options": [
+      "immutable",
+      "dynamic",
+      "temporary",
+      "mutable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for Rust."
+  },
+  {
+    "question": "Which operator is used to compare two values in Rust source code?",
+    "options": [
+      "==",
+      "===",
+      "!=",
+      "<>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Rust."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Rust conditional logic?",
+    "options": [
+      "2",
+      "6",
+      "16",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for Rust."
+  },
+  {
+    "question": "Which operator in Rust is used for string concatenation in header files?",
+    "options": [
+      "+",
+      "##",
+      "&",
+      "||"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for Rust."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Rust header files?",
+    "options": [
+      "case",
+      "switch",
+      "if",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for Rust."
+  },
+  {
+    "question": "Which line represents a correct function definition in Rust loop logic?",
+    "options": [
+      "def main",
+      "main() {}",
+      "function main",
+      "fn main()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'fn main()' for Rust."
+  }
+]

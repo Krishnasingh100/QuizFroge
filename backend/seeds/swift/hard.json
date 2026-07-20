@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which data structure is fastest for random access by index in Swift input/output?",
+    "options": [
+      "linked list",
+      "stack",
+      "array",
+      "queue"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Swift memory management?",
+    "options": [
+      "encapsulation",
+      "abstraction",
+      "modularity",
+      "polymorphism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Swift."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Swift conditional logic?",
+    "options": [
+      "abstraction",
+      "encapsulation",
+      "polymorphism",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for Swift."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Swift loop logic?",
+    "options": [
+      "global variables",
+      "inheritance",
+      "optional types",
+      "exceptions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'optional types' for Swift."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Swift function definitions?",
+    "options": [
+      "static",
+      "dynamic",
+      "transient",
+      "volatile"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for Swift."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Swift loop logic?",
+    "options": [
+      "array",
+      "queue",
+      "stack",
+      "linked list"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Swift applications in data types?",
+    "options": [
+      "closures",
+      "inheritance",
+      "generics",
+      "async tasks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'async tasks' for Swift."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Swift applications in loop logic?",
+    "options": [
+      "async tasks",
+      "inheritance",
+      "closures",
+      "generics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for Swift."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Swift input/output?",
+    "options": [
+      "exceptions",
+      "global variables",
+      "inheritance",
+      "optional types"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'optional types' for Swift."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Swift header files?",
+    "options": [
+      "linked list",
+      "queue",
+      "stack",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Swift memory management?",
+    "options": [
+      "exceptions",
+      "global variables",
+      "inheritance",
+      "optional types"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'optional types' for Swift."
+  },
+  {
+    "question": "Which keyword defines a class in Swift error handling?",
+    "options": [
+      "namespace",
+      "function",
+      "package",
+      "module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for Swift."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Swift header files?",
+    "options": [
+      "modularity",
+      "abstraction",
+      "encapsulation",
+      "polymorphism"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for Swift."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Swift memory management?",
+    "options": [
+      "queue",
+      "stack",
+      "array",
+      "linked list"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Swift source code?",
+    "options": [
+      "delegation",
+      "aggregation",
+      "composition",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Swift."
+  },
+  {
+    "question": "Which statement best describes memory management in Swift memory management?",
+    "options": [
+      "runtime binding",
+      "automatic garbage collection",
+      "implicit typing",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Swift applications in source code?",
+    "options": [
+      "closures",
+      "async tasks",
+      "inheritance",
+      "generics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async tasks' for Swift."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Swift header files?",
+    "options": [
+      "global variables",
+      "inheritance",
+      "exceptions",
+      "optional types"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'optional types' for Swift."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Swift function definitions?",
+    "options": [
+      "abstraction",
+      "polymorphism",
+      "encapsulation",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for Swift."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Swift source code?",
+    "options": [
+      "abstraction",
+      "encapsulation",
+      "modularity",
+      "polymorphism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Swift."
+  },
+  {
+    "question": "Which statement checks for equality in Swift library imports?",
+    "options": [
+      "==",
+      "=>",
+      "=",
+      ":="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Swift source code?",
+    "options": [
+      "exceptions",
+      "inheritance",
+      "global variables",
+      "optional types"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'optional types' for Swift."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Swift applications in library imports?",
+    "options": [
+      "closures",
+      "async tasks",
+      "generics",
+      "inheritance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async tasks' for Swift."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Swift data types?",
+    "options": [
+      "transient",
+      "static",
+      "dynamic",
+      "volatile"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for Swift."
+  },
+  {
+    "question": "Which statement checks for equality in Swift header files?",
+    "options": [
+      "==",
+      "=",
+      ":=",
+      "=>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Swift source code?",
+    "options": [
+      "linked list",
+      "queue",
+      "array",
+      "stack"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which statement checks for equality in Swift input/output?",
+    "options": [
+      "=>",
+      ":=",
+      "=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Swift input/output?",
+    "options": [
+      "abstraction",
+      "polymorphism",
+      "encapsulation",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for Swift."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Swift data types?",
+    "options": [
+      "array",
+      "queue",
+      "linked list",
+      "stack"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which keyword defines a class in Swift source code?",
+    "options": [
+      "module",
+      "namespace",
+      "package",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for Swift."
+  },
+  {
+    "question": "Which statement checks for equality in Swift data types?",
+    "options": [
+      "==",
+      "=>",
+      "=",
+      ":="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which statement checks for equality in Swift conditional logic?",
+    "options": [
+      ":=",
+      "=>",
+      "==",
+      "="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which statement best describes memory management in Swift library imports?",
+    "options": [
+      "implicit typing",
+      "runtime binding",
+      "automatic garbage collection",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Swift code in memory management?",
+    "options": [
+      "var",
+      "let",
+      "let",
+      "mutable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'let' for Swift."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Swift applications in function definitions?",
+    "options": [
+      "closures",
+      "generics",
+      "inheritance",
+      "async tasks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'async tasks' for Swift."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Swift code in error handling?",
+    "options": [
+      "var",
+      "let",
+      "mutable",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'let' for Swift."
+  },
+  {
+    "question": "Which statement best describes memory management in Swift source code?",
+    "options": [
+      "implicit typing",
+      "runtime binding",
+      "automatic garbage collection",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
+  },
+  {
+    "question": "Which statement best describes memory management in Swift input/output?",
+    "options": [
+      "implicit typing",
+      "runtime binding",
+      "automatic garbage collection",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
+  },
+  {
+    "question": "Which statement best describes memory management in Swift conditional logic?",
+    "options": [
+      "runtime binding",
+      "implicit typing",
+      "automatic garbage collection",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Swift error handling?",
+    "options": [
+      "exceptions",
+      "optional types",
+      "inheritance",
+      "global variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'optional types' for Swift."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Swift conditional logic?",
+    "options": [
+      "delegation",
+      "inheritance",
+      "composition",
+      "aggregation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for Swift."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Swift input/output?",
+    "options": [
+      "transient",
+      "dynamic",
+      "static",
+      "volatile"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for Swift."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Swift code in library imports?",
+    "options": [
+      "let",
+      "let",
+      "mutable",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'let' for Swift."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Swift error handling?",
+    "options": [
+      "linked list",
+      "queue",
+      "stack",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which keyword defines a class in Swift loop logic?",
+    "options": [
+      "package",
+      "function",
+      "namespace",
+      "module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for Swift."
+  },
+  {
+    "question": "Which statement best describes memory management in Swift error handling?",
+    "options": [
+      "syntax highlighting",
+      "automatic garbage collection",
+      "implicit typing",
+      "runtime binding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Swift loop logic?",
+    "options": [
+      "transient",
+      "volatile",
+      "dynamic",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for Swift."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Swift conditional logic?",
+    "options": [
+      "queue",
+      "linked list",
+      "stack",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which statement best describes memory management in Swift loop logic?",
+    "options": [
+      "syntax highlighting",
+      "runtime binding",
+      "implicit typing",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Swift code in loop logic?",
+    "options": [
+      "mutable",
+      "var",
+      "let",
+      "let"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'let' for Swift."
+  }
+]

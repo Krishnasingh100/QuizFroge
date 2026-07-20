@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which operator in Swift is used for string concatenation in source code?",
+    "options": [
+      "##",
+      "||",
+      "+",
+      "&"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for Swift."
+  },
+  {
+    "question": "Which operator is used to compare two values in Swift loop logic?",
+    "options": [
+      "<>",
+      "==",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which line represents a correct function definition in Swift library imports?",
+    "options": [
+      "def main",
+      "func example() {}",
+      "function main",
+      "main() {}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'func example() {}' for Swift."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Swift header files?",
+    "options": [
+      "if",
+      "case",
+      "switch",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for Swift."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Swift conditional logic?",
+    "options": [
+      "int",
+      "module",
+      "class",
+      "struct"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for Swift."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Swift data types?",
+    "options": [
+      "recursion",
+      "compilation",
+      "iteration",
+      "optimization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for Swift."
+  },
+  {
+    "question": "Which term often describes a collection of values in Swift function definitions?",
+    "options": [
+      "function",
+      "array",
+      "object",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which operator in Swift is used for string concatenation in data types?",
+    "options": [
+      "##",
+      "||",
+      "+",
+      "&"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for Swift."
+  },
+  {
+    "question": "Which operator is used to compare two values in Swift source code?",
+    "options": [
+      "<>",
+      "==",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which line represents a valid import or include in Swift loop logic?",
+    "options": [
+      "include <sys>",
+      "import Foundation",
+      "require(\"module\")",
+      "import module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'import Foundation' for Swift."
+  },
+  {
+    "question": "Which keyword in Swift indicates a return value from a function in header files?",
+    "options": [
+      "yield",
+      "break",
+      "return",
+      "exit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for Swift."
+  },
+  {
+    "question": "Which term often describes a collection of values in Swift conditional logic?",
+    "options": [
+      "class",
+      "object",
+      "array",
+      "function"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which operator in Swift is used for string concatenation in library imports?",
+    "options": [
+      "##",
+      "||",
+      "&",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for Swift."
+  },
+  {
+    "question": "Which line represents a valid import or include in Swift data types?",
+    "options": [
+      "require(\"module\")",
+      "import module",
+      "import Foundation",
+      "include <sys>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'import Foundation' for Swift."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Swift library imports?",
+    "options": [
+      "temporary",
+      "dynamic",
+      "immutable",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'immutable' for Swift."
+  },
+  {
+    "question": "Which keyword in Swift creates a new variable in conditional logic?",
+    "options": [
+      "static",
+      "const",
+      "let",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'let' for Swift."
+  },
+  {
+    "question": "Which operator is used to compare two values in Swift header files?",
+    "options": [
+      "==",
+      "<>",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which keyword in Swift creates a new variable in data types?",
+    "options": [
+      "let",
+      "const",
+      "class",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'let' for Swift."
+  },
+  {
+    "question": "Which line represents a valid import or include in Swift source code?",
+    "options": [
+      "import Foundation",
+      "require(\"module\")",
+      "include <sys>",
+      "import module"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'import Foundation' for Swift."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Swift header files?",
+    "options": [
+      "module",
+      "int",
+      "class",
+      "struct"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for Swift."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Swift loop logic?",
+    "options": [
+      "struct",
+      "module",
+      "class",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for Swift."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Swift header files?",
+    "options": [
+      "8",
+      "2",
+      "6",
+      "16"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '8' for Swift."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Swift function definitions?",
+    "options": [
+      "temporary",
+      "immutable",
+      "mutable",
+      "dynamic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for Swift."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Swift library imports?",
+    "options": [
+      "optimization",
+      "iteration",
+      "compilation",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for Swift."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Swift function definitions?",
+    "options": [
+      "class",
+      "int",
+      "struct",
+      "module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for Swift."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Swift source code?",
+    "options": [
+      "for",
+      "if",
+      "case",
+      "switch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for Swift."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Swift conditional logic?",
+    "options": [
+      "for",
+      "case",
+      "if",
+      "switch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for Swift."
+  },
+  {
+    "question": "Which keyword in Swift indicates a return value from a function in library imports?",
+    "options": [
+      "yield",
+      "exit",
+      "return",
+      "break"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for Swift."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Swift header files?",
+    "options": [
+      "case",
+      "if",
+      "switch",
+      "when"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for Swift."
+  },
+  {
+    "question": "Which keyword declares a function in Swift library imports?",
+    "options": [
+      "int",
+      "var",
+      "class",
+      "const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for Swift."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Swift memory management?",
+    "options": [
+      "case",
+      "if",
+      "switch",
+      "when"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for Swift."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Swift header files?",
+    "options": [
+      "temporary",
+      "immutable",
+      "dynamic",
+      "mutable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for Swift."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Swift source code?",
+    "options": [
+      "when",
+      "switch",
+      "if",
+      "case"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for Swift."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Swift data types?",
+    "options": [
+      "for",
+      "if",
+      "case",
+      "switch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for Swift."
+  },
+  {
+    "question": "Which operator is used to compare two values in Swift library imports?",
+    "options": [
+      "==",
+      "<>",
+      "!=",
+      "==="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Swift."
+  },
+  {
+    "question": "Which line represents a valid import or include in Swift library imports?",
+    "options": [
+      "require(\"module\")",
+      "include <sys>",
+      "import module",
+      "import Foundation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'import Foundation' for Swift."
+  },
+  {
+    "question": "Which keyword declares a function in Swift conditional logic?",
+    "options": [
+      "int",
+      "class",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for Swift."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Swift function definitions?",
+    "options": [
+      "recursion",
+      "optimization",
+      "compilation",
+      "iteration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for Swift."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Swift source code?",
+    "options": [
+      "temporary",
+      "dynamic",
+      "mutable",
+      "immutable"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'immutable' for Swift."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Swift conditional logic?",
+    "options": [
+      "immutable",
+      "dynamic",
+      "mutable",
+      "temporary"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for Swift."
+  },
+  {
+    "question": "Which term often describes a collection of values in Swift loop logic?",
+    "options": [
+      "object",
+      "class",
+      "array",
+      "function"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Swift function definitions?",
+    "options": [
+      "if",
+      "switch",
+      "case",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for Swift."
+  },
+  {
+    "question": "Which term often describes a collection of values in Swift library imports?",
+    "options": [
+      "function",
+      "object",
+      "class",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Swift."
+  },
+  {
+    "question": "Which keyword declares a function in Swift function definitions?",
+    "options": [
+      "const",
+      "int",
+      "var",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for Swift."
+  },
+  {
+    "question": "Which keyword in Swift indicates a return value from a function in conditional logic?",
+    "options": [
+      "yield",
+      "exit",
+      "break",
+      "return"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'return' for Swift."
+  },
+  {
+    "question": "Which line represents a correct function definition in Swift loop logic?",
+    "options": [
+      "function main",
+      "main() {}",
+      "func example() {}",
+      "def main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'func example() {}' for Swift."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Swift library imports?",
+    "options": [
+      "2",
+      "6",
+      "16",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for Swift."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Swift loop logic?",
+    "options": [
+      "case",
+      "switch",
+      "for",
+      "if"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for Swift."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Swift conditional logic?",
+    "options": [
+      "recursion",
+      "iteration",
+      "optimization",
+      "compilation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for Swift."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Swift data types?",
+    "options": [
+      "case",
+      "switch",
+      "when",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'if' for Swift."
+  }
+]

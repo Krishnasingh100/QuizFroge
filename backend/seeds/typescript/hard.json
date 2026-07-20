@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which data structure is fastest for random access by index in TypeScript source code?",
+    "options": [
+      "stack",
+      "linked list",
+      "queue",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for TypeScript."
+  },
+  {
+    "question": "Which statement checks for equality in TypeScript memory management?",
+    "options": [
+      "===",
+      ":=",
+      "=",
+      "=>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in TypeScript memory management?",
+    "options": [
+      "queue",
+      "array",
+      "linked list",
+      "stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for TypeScript."
+  },
+  {
+    "question": "Which statement best describes memory management in TypeScript library imports?",
+    "options": [
+      "implicit typing",
+      "syntax highlighting",
+      "runtime binding",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for TypeScript."
+  },
+  {
+    "question": "Which statement best describes memory management in TypeScript function definitions?",
+    "options": [
+      "syntax highlighting",
+      "implicit typing",
+      "automatic garbage collection",
+      "runtime binding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for TypeScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in TypeScript library imports?",
+    "options": [
+      "abstraction",
+      "modularity",
+      "encapsulation",
+      "polymorphism"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for TypeScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in TypeScript data types?",
+    "options": [
+      "modularity",
+      "abstraction",
+      "encapsulation",
+      "polymorphism"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for TypeScript."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in TypeScript applications in memory management?",
+    "options": [
+      "async tasks",
+      "closures",
+      "generics",
+      "inheritance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for TypeScript."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in TypeScript applications in loop logic?",
+    "options": [
+      "closures",
+      "inheritance",
+      "async tasks",
+      "generics"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'async tasks' for TypeScript."
+  },
+  {
+    "question": "Which statement best describes memory management in TypeScript conditional logic?",
+    "options": [
+      "automatic garbage collection",
+      "runtime binding",
+      "syntax highlighting",
+      "implicit typing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'automatic garbage collection' for TypeScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in TypeScript header files?",
+    "options": [
+      "abstraction",
+      "modularity",
+      "encapsulation",
+      "polymorphism"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for TypeScript."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in TypeScript source code?",
+    "options": [
+      "None handling",
+      "global variables",
+      "inheritance",
+      "exceptions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None handling' for TypeScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in TypeScript input/output?",
+    "options": [
+      "dynamic",
+      "volatile",
+      "transient",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for TypeScript."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in TypeScript code in error handling?",
+    "options": [
+      "mutable",
+      "let",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for TypeScript."
+  },
+  {
+    "question": "Which statement checks for equality in TypeScript data types?",
+    "options": [
+      ":=",
+      "=",
+      "===",
+      "=>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in TypeScript error handling?",
+    "options": [
+      "static",
+      "volatile",
+      "transient",
+      "dynamic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for TypeScript."
+  },
+  {
+    "question": "Which statement checks for equality in TypeScript loop logic?",
+    "options": [
+      ":=",
+      "===",
+      "=",
+      "=>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in TypeScript source code?",
+    "options": [
+      "dynamic",
+      "static",
+      "transient",
+      "volatile"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for TypeScript."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in TypeScript library imports?",
+    "options": [
+      "inheritance",
+      "exceptions",
+      "global variables",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for TypeScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in TypeScript error handling?",
+    "options": [
+      "aggregation",
+      "inheritance",
+      "delegation",
+      "composition"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for TypeScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in TypeScript data types?",
+    "options": [
+      "volatile",
+      "dynamic",
+      "static",
+      "transient"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for TypeScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in TypeScript error handling?",
+    "options": [
+      "abstraction",
+      "encapsulation",
+      "polymorphism",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for TypeScript."
+  },
+  {
+    "question": "Which keyword defines a class in TypeScript input/output?",
+    "options": [
+      "module",
+      "package",
+      "namespace",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for TypeScript."
+  },
+  {
+    "question": "Which statement best describes memory management in TypeScript error handling?",
+    "options": [
+      "implicit typing",
+      "runtime binding",
+      "syntax highlighting",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for TypeScript."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in TypeScript code in function definitions?",
+    "options": [
+      "let",
+      "var",
+      "mutable",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for TypeScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in TypeScript input/output?",
+    "options": [
+      "abstraction",
+      "encapsulation",
+      "polymorphism",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for TypeScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in TypeScript conditional logic?",
+    "options": [
+      "polymorphism",
+      "encapsulation",
+      "modularity",
+      "abstraction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for TypeScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in TypeScript library imports?",
+    "options": [
+      "inheritance",
+      "delegation",
+      "aggregation",
+      "composition"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for TypeScript."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in TypeScript applications in library imports?",
+    "options": [
+      "closures",
+      "async tasks",
+      "inheritance",
+      "generics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async tasks' for TypeScript."
+  },
+  {
+    "question": "Which statement checks for equality in TypeScript error handling?",
+    "options": [
+      "===",
+      "=>",
+      "=",
+      ":="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '===' for TypeScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in TypeScript loop logic?",
+    "options": [
+      "dynamic",
+      "static",
+      "transient",
+      "volatile"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for TypeScript."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in TypeScript loop logic?",
+    "options": [
+      "queue",
+      "array",
+      "linked list",
+      "stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for TypeScript."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in TypeScript data types?",
+    "options": [
+      "global variables",
+      "inheritance",
+      "None handling",
+      "exceptions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for TypeScript."
+  },
+  {
+    "question": "Which statement best describes memory management in TypeScript loop logic?",
+    "options": [
+      "syntax highlighting",
+      "runtime binding",
+      "implicit typing",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for TypeScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in TypeScript conditional logic?",
+    "options": [
+      "static",
+      "volatile",
+      "transient",
+      "dynamic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for TypeScript."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in TypeScript function definitions?",
+    "options": [
+      "global variables",
+      "exceptions",
+      "None handling",
+      "inheritance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for TypeScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in TypeScript memory management?",
+    "options": [
+      "transient",
+      "dynamic",
+      "volatile",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for TypeScript."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in TypeScript code in library imports?",
+    "options": [
+      "const",
+      "var",
+      "let",
+      "mutable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for TypeScript."
+  },
+  {
+    "question": "Which keyword defines a class in TypeScript loop logic?",
+    "options": [
+      "package",
+      "module",
+      "namespace",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for TypeScript."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in TypeScript code in memory management?",
+    "options": [
+      "let",
+      "const",
+      "var",
+      "mutable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for TypeScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in TypeScript loop logic?",
+    "options": [
+      "composition",
+      "aggregation",
+      "inheritance",
+      "delegation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'inheritance' for TypeScript."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in TypeScript library imports?",
+    "options": [
+      "volatile",
+      "transient",
+      "static",
+      "dynamic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for TypeScript."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in TypeScript applications in error handling?",
+    "options": [
+      "generics",
+      "async tasks",
+      "closures",
+      "inheritance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async tasks' for TypeScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in TypeScript loop logic?",
+    "options": [
+      "polymorphism",
+      "abstraction",
+      "encapsulation",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for TypeScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in TypeScript conditional logic?",
+    "options": [
+      "aggregation",
+      "inheritance",
+      "composition",
+      "delegation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for TypeScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in TypeScript source code?",
+    "options": [
+      "polymorphism",
+      "encapsulation",
+      "modularity",
+      "abstraction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for TypeScript."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in TypeScript function definitions?",
+    "options": [
+      "inheritance",
+      "composition",
+      "aggregation",
+      "delegation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for TypeScript."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in TypeScript applications in header files?",
+    "options": [
+      "inheritance",
+      "closures",
+      "generics",
+      "async tasks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'async tasks' for TypeScript."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in TypeScript memory management?",
+    "options": [
+      "encapsulation",
+      "abstraction",
+      "polymorphism",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for TypeScript."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in TypeScript error handling?",
+    "options": [
+      "inheritance",
+      "global variables",
+      "exceptions",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for TypeScript."
+  }
+]

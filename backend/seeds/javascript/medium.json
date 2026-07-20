@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which operator is used to compare two values in JavaScript source code?",
+    "options": [
+      "!=",
+      "<>",
+      "==",
+      "==="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '===' for JavaScript."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in JavaScript header files?",
+    "options": [
+      "6",
+      "2",
+      "16",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for JavaScript."
+  },
+  {
+    "question": "Which keyword in JavaScript creates a new variable in library imports?",
+    "options": [
+      "class",
+      "static",
+      "var",
+      "const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'var' for JavaScript."
+  },
+  {
+    "question": "Which keyword declares a function in JavaScript conditional logic?",
+    "options": [
+      "class",
+      "function",
+      "var",
+      "const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for JavaScript."
+  },
+  {
+    "question": "Which term often describes a collection of values in JavaScript header files?",
+    "options": [
+      "array",
+      "function",
+      "object",
+      "class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for JavaScript."
+  },
+  {
+    "question": "Which line represents a valid import or include in JavaScript source code?",
+    "options": [
+      "require(\"module\")",
+      "include <sys>",
+      "import React from \"react\";",
+      "import module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'import React from \"react\";' for JavaScript."
+  },
+  {
+    "question": "Which operator in JavaScript is used for string concatenation in header files?",
+    "options": [
+      "||",
+      "+",
+      "&",
+      "##"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '+' for JavaScript."
+  },
+  {
+    "question": "Which keyword in JavaScript creates a new variable in loop logic?",
+    "options": [
+      "class",
+      "const",
+      "var",
+      "static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'var' for JavaScript."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in JavaScript conditional logic?",
+    "options": [
+      "recursion",
+      "optimization",
+      "compilation",
+      "iteration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for JavaScript."
+  },
+  {
+    "question": "Which line represents a valid import or include in JavaScript data types?",
+    "options": [
+      "include <sys>",
+      "require(\"module\")",
+      "import module",
+      "import React from \"react\";"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'import React from \"react\";' for JavaScript."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in JavaScript library imports?",
+    "options": [
+      "case",
+      "switch",
+      "if",
+      "when"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for JavaScript."
+  },
+  {
+    "question": "Which operator is used to compare two values in JavaScript loop logic?",
+    "options": [
+      "==",
+      "!=",
+      "===",
+      "<>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '===' for JavaScript."
+  },
+  {
+    "question": "Which line represents a valid import or include in JavaScript loop logic?",
+    "options": [
+      "include <sys>",
+      "import module",
+      "import React from \"react\";",
+      "require(\"module\")"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'import React from \"react\";' for JavaScript."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in JavaScript loop logic?",
+    "options": [
+      "iteration",
+      "optimization",
+      "recursion",
+      "compilation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for JavaScript."
+  },
+  {
+    "question": "Which keyword declares a function in JavaScript memory management?",
+    "options": [
+      "var",
+      "class",
+      "function",
+      "const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for JavaScript."
+  },
+  {
+    "question": "Which keyword defines a function or method name in JavaScript source code?",
+    "options": [
+      "struct",
+      "class",
+      "function",
+      "module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for JavaScript."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in JavaScript function definitions?",
+    "options": [
+      "recursion",
+      "iteration",
+      "compilation",
+      "optimization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for JavaScript."
+  },
+  {
+    "question": "Which term often describes a collection of values in JavaScript data types?",
+    "options": [
+      "class",
+      "function",
+      "object",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for JavaScript."
+  },
+  {
+    "question": "Which operator in JavaScript is used for string concatenation in data types?",
+    "options": [
+      "+",
+      "||",
+      "&",
+      "##"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for JavaScript."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in JavaScript loop logic?",
+    "options": [
+      "if",
+      "for",
+      "switch",
+      "case"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for JavaScript."
+  },
+  {
+    "question": "Which keyword in JavaScript indicates a return value from a function in header files?",
+    "options": [
+      "exit",
+      "return",
+      "break",
+      "yield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for JavaScript."
+  },
+  {
+    "question": "Which line represents a valid import or include in JavaScript library imports?",
+    "options": [
+      "import module",
+      "require(\"module\")",
+      "include <sys>",
+      "import React from \"react\";"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'import React from \"react\";' for JavaScript."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in JavaScript function definitions?",
+    "options": [
+      "for",
+      "if",
+      "case",
+      "switch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for JavaScript."
+  },
+  {
+    "question": "Which keyword defines a function or method name in JavaScript loop logic?",
+    "options": [
+      "function",
+      "module",
+      "struct",
+      "class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for JavaScript."
+  },
+  {
+    "question": "Which keyword in JavaScript indicates a return value from a function in function definitions?",
+    "options": [
+      "return",
+      "break",
+      "yield",
+      "exit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'return' for JavaScript."
+  },
+  {
+    "question": "Which operator in JavaScript is used for string concatenation in library imports?",
+    "options": [
+      "||",
+      "##",
+      "+",
+      "&"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for JavaScript."
+  },
+  {
+    "question": "Which keyword in JavaScript creates a new variable in data types?",
+    "options": [
+      "static",
+      "class",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'var' for JavaScript."
+  },
+  {
+    "question": "Which operator is used to compare two values in JavaScript conditional logic?",
+    "options": [
+      "===",
+      "!=",
+      "<>",
+      "=="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '===' for JavaScript."
+  },
+  {
+    "question": "Which keyword in JavaScript creates a new variable in header files?",
+    "options": [
+      "static",
+      "class",
+      "var",
+      "const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'var' for JavaScript."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in JavaScript conditional logic?",
+    "options": [
+      "mutable",
+      "dynamic",
+      "immutable",
+      "temporary"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'immutable' for JavaScript."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in JavaScript memory management?",
+    "options": [
+      "switch",
+      "when",
+      "if",
+      "case"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for JavaScript."
+  },
+  {
+    "question": "Which operator in JavaScript is used for string concatenation in loop logic?",
+    "options": [
+      "&",
+      "##",
+      "+",
+      "||"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for JavaScript."
+  },
+  {
+    "question": "Which line represents a correct function definition in JavaScript loop logic?",
+    "options": [
+      "main() {}",
+      "function main",
+      "function example() {}",
+      "def main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function example() {}' for JavaScript."
+  },
+  {
+    "question": "Which line represents a correct function definition in JavaScript conditional logic?",
+    "options": [
+      "function example() {}",
+      "def main",
+      "function main",
+      "main() {}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function example() {}' for JavaScript."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in JavaScript data types?",
+    "options": [
+      "compilation",
+      "optimization",
+      "recursion",
+      "iteration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for JavaScript."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in JavaScript source code?",
+    "options": [
+      "8",
+      "2",
+      "16",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '8' for JavaScript."
+  },
+  {
+    "question": "Which keyword in JavaScript indicates a return value from a function in loop logic?",
+    "options": [
+      "exit",
+      "break",
+      "return",
+      "yield"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'return' for JavaScript."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in JavaScript library imports?",
+    "options": [
+      "recursion",
+      "optimization",
+      "iteration",
+      "compilation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for JavaScript."
+  },
+  {
+    "question": "Which term often describes a collection of values in JavaScript function definitions?",
+    "options": [
+      "function",
+      "object",
+      "class",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for JavaScript."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in JavaScript source code?",
+    "options": [
+      "case",
+      "when",
+      "switch",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'if' for JavaScript."
+  },
+  {
+    "question": "Which line represents a correct function definition in JavaScript library imports?",
+    "options": [
+      "function main",
+      "function example() {}",
+      "main() {}",
+      "def main"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function example() {}' for JavaScript."
+  },
+  {
+    "question": "Which keyword in JavaScript indicates a return value from a function in source code?",
+    "options": [
+      "return",
+      "yield",
+      "break",
+      "exit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'return' for JavaScript."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in JavaScript header files?",
+    "options": [
+      "iteration",
+      "optimization",
+      "recursion",
+      "compilation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for JavaScript."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in JavaScript conditional logic?",
+    "options": [
+      "if",
+      "when",
+      "switch",
+      "case"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'if' for JavaScript."
+  },
+  {
+    "question": "Which term often describes a collection of values in JavaScript loop logic?",
+    "options": [
+      "function",
+      "array",
+      "class",
+      "object"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for JavaScript."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in JavaScript data types?",
+    "options": [
+      "mutable",
+      "dynamic",
+      "temporary",
+      "immutable"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'immutable' for JavaScript."
+  },
+  {
+    "question": "Which operator in JavaScript is used for string concatenation in conditional logic?",
+    "options": [
+      "&",
+      "+",
+      "||",
+      "##"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '+' for JavaScript."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in JavaScript loop logic?",
+    "options": [
+      "when",
+      "case",
+      "switch",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'if' for JavaScript."
+  },
+  {
+    "question": "Which operator in JavaScript is used for string concatenation in function definitions?",
+    "options": [
+      "+",
+      "##",
+      "||",
+      "&"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for JavaScript."
+  },
+  {
+    "question": "Which operator is used to compare two values in JavaScript header files?",
+    "options": [
+      "<>",
+      "==",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '===' for JavaScript."
+  }
+]

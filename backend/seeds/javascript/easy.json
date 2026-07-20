@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which operator checks equality in JavaScript source code?",
+    "options": [
+      "=",
+      "==",
+      "!=",
+      "==="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '===' for JavaScript."
+  },
+  {
+    "question": "Which file extension is standard for JavaScript header files?",
+    "options": [
+      ".js",
+      ".md",
+      ".json",
+      ".txt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.js' for JavaScript."
+  },
+  {
+    "question": "Which operator checks equality in JavaScript function definitions?",
+    "options": [
+      "=",
+      "==",
+      "!=",
+      "==="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '===' for JavaScript."
+  },
+  {
+    "question": "Which sign is used to assign values in JavaScript conditional logic?",
+    "options": [
+      "==",
+      "=>",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '=' for JavaScript."
+  },
+  {
+    "question": "Which option fills the blank in JavaScript conditional logic: const x = 5; x = 10; // __? ",
+    "options": [
+      "comparison",
+      "assignment",
+      "declaration",
+      "iteration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'assignment' for JavaScript."
+  },
+  {
+    "question": "What is the result of 3 + 4 in JavaScript library imports?",
+    "options": [
+      "Error",
+      "34",
+      "0",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '7' for JavaScript."
+  },
+  {
+    "question": "Which keyword begins a loop in JavaScript header files?",
+    "options": [
+      "loop",
+      "while",
+      "for",
+      "repeat"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for JavaScript."
+  },
+  {
+    "question": "What is the result of 8 - 3 in JavaScript header files?",
+    "options": [
+      "8",
+      "5",
+      "3",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '5' for JavaScript."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in JavaScript source code?",
+    "options": [
+      "puts \"Hello\"",
+      "console.log(\"Hello\")",
+      "echo \"Hello\";",
+      "console.log(\"Hello\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'console.log(\"Hello\")' for JavaScript."
+  },
+  {
+    "question": "Which file extension is standard for JavaScript loop logic?",
+    "options": [
+      ".md",
+      ".json",
+      ".txt",
+      ".js"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '.js' for JavaScript."
+  },
+  {
+    "question": "What is the result of 8 - 3 in JavaScript library imports?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '5' for JavaScript."
+  },
+  {
+    "question": "Which keyword declares a constant value in JavaScript function definitions?",
+    "options": [
+      "let",
+      "const",
+      "var",
+      "static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which value represents false in JavaScript library imports?",
+    "options": [
+      "true",
+      "False",
+      "True",
+      "false"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'false' for JavaScript."
+  },
+  {
+    "question": "Which code line correctly declares a constant in JavaScript loop logic?",
+    "options": [
+      "var",
+      "static",
+      "let",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in JavaScript conditional logic?",
+    "options": [
+      "<!-- -->",
+      "/* */",
+      "//",
+      "#"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '//' for JavaScript."
+  },
+  {
+    "question": "Which value represents false in JavaScript loop logic?",
+    "options": [
+      "False",
+      "false",
+      "true",
+      "True"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'false' for JavaScript."
+  },
+  {
+    "question": "Which code line correctly declares a constant in JavaScript source code?",
+    "options": [
+      "const",
+      "let",
+      "var",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which code line uses string concatenation in JavaScript library imports?",
+    "options": [
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" . \"World\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for JavaScript."
+  },
+  {
+    "question": "Which phrase describes the main function signature in JavaScript loop logic?",
+    "options": [
+      "main()",
+      "function example() {}",
+      "def main():",
+      "function main() {}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function example() {}' for JavaScript."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in JavaScript loop logic?",
+    "options": [
+      "stop",
+      "return",
+      "break",
+      "continue"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'break' for JavaScript."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in JavaScript library imports?",
+    "options": [
+      "2",
+      "0",
+      "10",
+      "25"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '10' for JavaScript."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in JavaScript conditional logic?",
+    "options": [
+      "puts \"Hello\"",
+      "console.log(\"Hello\")",
+      "echo \"Hello\";",
+      "console.log(\"Hello\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'console.log(\"Hello\")' for JavaScript."
+  },
+  {
+    "question": "Which value represents false in JavaScript conditional logic?",
+    "options": [
+      "false",
+      "True",
+      "False",
+      "true"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'false' for JavaScript."
+  },
+  {
+    "question": "Which keyword declares a constant value in JavaScript conditional logic?",
+    "options": [
+      "const",
+      "var",
+      "static",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which keyword declares a constant value in JavaScript source code?",
+    "options": [
+      "const",
+      "var",
+      "static",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in JavaScript header files?",
+    "options": [
+      "10",
+      "0",
+      "25",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '10' for JavaScript."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in JavaScript loop logic?",
+    "options": [
+      "25",
+      "2",
+      "10",
+      "0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '10' for JavaScript."
+  },
+  {
+    "question": "Which sign is used to assign values in JavaScript header files?",
+    "options": [
+      "=>",
+      ":=",
+      "=",
+      "=="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '=' for JavaScript."
+  },
+  {
+    "question": "Which operator checks equality in JavaScript header files?",
+    "options": [
+      "=",
+      "===",
+      "!=",
+      "=="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '===' for JavaScript."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in JavaScript library imports?",
+    "options": [
+      "/* */",
+      "//",
+      "#",
+      "<!-- -->"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '//' for JavaScript."
+  },
+  {
+    "question": "Which file extension is standard for JavaScript function definitions?",
+    "options": [
+      ".json",
+      ".js",
+      ".md",
+      ".txt"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '.js' for JavaScript."
+  },
+  {
+    "question": "Which keyword begins a loop in JavaScript library imports?",
+    "options": [
+      "while",
+      "for",
+      "repeat",
+      "loop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for JavaScript."
+  },
+  {
+    "question": "Which value is commonly used for true in JavaScript header files?",
+    "options": [
+      "False",
+      "false",
+      "true",
+      "True"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'true' for JavaScript."
+  },
+  {
+    "question": "Which phrase describes the main function signature in JavaScript library imports?",
+    "options": [
+      "def main():",
+      "function example() {}",
+      "function main() {}",
+      "main()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function example() {}' for JavaScript."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in JavaScript source code?",
+    "options": [
+      "continue",
+      "break",
+      "stop",
+      "return"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'break' for JavaScript."
+  },
+  {
+    "question": "What is the result of 8 - 3 in JavaScript source code?",
+    "options": [
+      "5",
+      "8",
+      "3",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '5' for JavaScript."
+  },
+  {
+    "question": "Which option fills the blank in JavaScript loop logic: const x = 5; x = 10; // __? ",
+    "options": [
+      "comparison",
+      "iteration",
+      "declaration",
+      "assignment"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'assignment' for JavaScript."
+  },
+  {
+    "question": "Which code line uses string concatenation in JavaScript loop logic?",
+    "options": [
+      "\"Hello\" . \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\"",
+      "join(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for JavaScript."
+  },
+  {
+    "question": "Which option fills the blank in JavaScript library imports: const x = 5; x = 10; // __? ",
+    "options": [
+      "iteration",
+      "declaration",
+      "assignment",
+      "comparison"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'assignment' for JavaScript."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in JavaScript library imports?",
+    "options": [
+      "continue",
+      "stop",
+      "break",
+      "return"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'break' for JavaScript."
+  },
+  {
+    "question": "Which statement imports libraries or packages in JavaScript conditional logic?",
+    "options": [
+      "import React from \"react\";",
+      "use lib;",
+      "require(\"lib\")",
+      "include <lib>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'import React from \"react\";' for JavaScript."
+  },
+  {
+    "question": "Which code line correctly declares a constant in JavaScript header files?",
+    "options": [
+      "let",
+      "var",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for JavaScript."
+  },
+  {
+    "question": "What is the result of 3 + 4 in JavaScript header files?",
+    "options": [
+      "Error",
+      "0",
+      "34",
+      "7"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '7' for JavaScript."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in JavaScript header files?",
+    "options": [
+      "variables",
+      "functions",
+      "comments",
+      "classes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'functions' for JavaScript."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in JavaScript conditional logic?",
+    "options": [
+      "variables",
+      "comments",
+      "classes",
+      "functions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'functions' for JavaScript."
+  },
+  {
+    "question": "Which sign is used to assign values in JavaScript library imports?",
+    "options": [
+      "=>",
+      "=",
+      "==",
+      ":="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '=' for JavaScript."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in JavaScript loop logic?",
+    "options": [
+      "puts \"Hello\"",
+      "console.log(\"Hello\")",
+      "echo \"Hello\";",
+      "console.log(\"Hello\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'console.log(\"Hello\")' for JavaScript."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in JavaScript function definitions?",
+    "options": [
+      "#",
+      "/* */",
+      "<!-- -->",
+      "//"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '//' for JavaScript."
+  },
+  {
+    "question": "Which statement imports libraries or packages in JavaScript loop logic?",
+    "options": [
+      "import React from \"react\";",
+      "require(\"lib\")",
+      "include <lib>",
+      "use lib;"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'import React from \"react\";' for JavaScript."
+  },
+  {
+    "question": "Which phrase describes the main function signature in JavaScript conditional logic?",
+    "options": [
+      "def main():",
+      "main()",
+      "function main() {}",
+      "function example() {}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function example() {}' for JavaScript."
+  }
+]

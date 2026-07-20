@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword starts a conditional expression in Java source code?",
+    "options": [
+      "when",
+      "if",
+      "switch",
+      "case"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for Java."
+  },
+  {
+    "question": "Which line represents a correct function definition in Java header files?",
+    "options": [
+      "def main",
+      "function main",
+      "main() {}",
+      "public static void main(String[] args)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'public static void main(String[] args)' for Java."
+  },
+  {
+    "question": "Which line represents a valid import or include in Java data types?",
+    "options": [
+      "require(\"module\")",
+      "include <sys>",
+      "import module",
+      "import java.util.*;"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'import java.util.*;' for Java."
+  },
+  {
+    "question": "Which keyword in Java indicates a return value from a function in loop logic?",
+    "options": [
+      "break",
+      "return",
+      "exit",
+      "yield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for Java."
+  },
+  {
+    "question": "Which operator is used to compare two values in Java loop logic?",
+    "options": [
+      "!=",
+      "<>",
+      "==",
+      "==="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Java."
+  },
+  {
+    "question": "Which keyword declares a function in Java memory management?",
+    "options": [
+      "public static void",
+      "var",
+      "const",
+      "class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'public static void' for Java."
+  },
+  {
+    "question": "Which keyword in Java indicates a return value from a function in function definitions?",
+    "options": [
+      "exit",
+      "break",
+      "yield",
+      "return"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'return' for Java."
+  },
+  {
+    "question": "Which term often describes a collection of values in Java data types?",
+    "options": [
+      "class",
+      "function",
+      "array",
+      "object"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Java."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Java function definitions?",
+    "options": [
+      "for",
+      "switch",
+      "case",
+      "if"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for Java."
+  },
+  {
+    "question": "Which line represents a valid import or include in Java loop logic?",
+    "options": [
+      "require(\"module\")",
+      "import java.util.*;",
+      "import module",
+      "include <sys>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'import java.util.*;' for Java."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Java header files?",
+    "options": [
+      "dynamic",
+      "immutable",
+      "mutable",
+      "temporary"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for Java."
+  },
+  {
+    "question": "Which operator in Java is used for string concatenation in conditional logic?",
+    "options": [
+      "||",
+      "+",
+      "##",
+      "&"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '+' for Java."
+  },
+  {
+    "question": "Which operator in Java is used for string concatenation in source code?",
+    "options": [
+      "+",
+      "&",
+      "||",
+      "##"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for Java."
+  },
+  {
+    "question": "Which keyword in Java creates a new variable in function definitions?",
+    "options": [
+      "class",
+      "const",
+      "int",
+      "static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int' for Java."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Java function definitions?",
+    "options": [
+      "temporary",
+      "immutable",
+      "dynamic",
+      "mutable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for Java."
+  },
+  {
+    "question": "Which line represents a valid import or include in Java library imports?",
+    "options": [
+      "import module",
+      "import java.util.*;",
+      "include <sys>",
+      "require(\"module\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'import java.util.*;' for Java."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Java library imports?",
+    "options": [
+      "class",
+      "module",
+      "struct",
+      "void"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'void' for Java."
+  },
+  {
+    "question": "Which operator in Java is used for string concatenation in loop logic?",
+    "options": [
+      "##",
+      "&",
+      "+",
+      "||"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '+' for Java."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Java data types?",
+    "options": [
+      "16",
+      "2",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for Java."
+  },
+  {
+    "question": "Which operator in Java is used for string concatenation in function definitions?",
+    "options": [
+      "##",
+      "&",
+      "||",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for Java."
+  },
+  {
+    "question": "Which line represents a valid import or include in Java function definitions?",
+    "options": [
+      "require(\"module\")",
+      "import module",
+      "include <sys>",
+      "import java.util.*;"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'import java.util.*;' for Java."
+  },
+  {
+    "question": "Which keyword declares a function in Java function definitions?",
+    "options": [
+      "var",
+      "public static void",
+      "class",
+      "const"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'public static void' for Java."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Java function definitions?",
+    "options": [
+      "struct",
+      "class",
+      "void",
+      "module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'void' for Java."
+  },
+  {
+    "question": "Which line represents a valid import or include in Java conditional logic?",
+    "options": [
+      "import module",
+      "import java.util.*;",
+      "require(\"module\")",
+      "include <sys>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'import java.util.*;' for Java."
+  },
+  {
+    "question": "Which line represents a correct function definition in Java source code?",
+    "options": [
+      "def main",
+      "function main",
+      "main() {}",
+      "public static void main(String[] args)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'public static void main(String[] args)' for Java."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Java data types?",
+    "options": [
+      "compilation",
+      "optimization",
+      "iteration",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for Java."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Java conditional logic?",
+    "options": [
+      "immutable",
+      "dynamic",
+      "mutable",
+      "temporary"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for Java."
+  },
+  {
+    "question": "Which keyword in Java creates a new variable in library imports?",
+    "options": [
+      "const",
+      "int",
+      "static",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for Java."
+  },
+  {
+    "question": "Which line represents a correct function definition in Java conditional logic?",
+    "options": [
+      "function main",
+      "main() {}",
+      "public static void main(String[] args)",
+      "def main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'public static void main(String[] args)' for Java."
+  },
+  {
+    "question": "Which operator is used to compare two values in Java source code?",
+    "options": [
+      "==",
+      "<>",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Java."
+  },
+  {
+    "question": "Which term often describes a collection of values in Java library imports?",
+    "options": [
+      "class",
+      "array",
+      "function",
+      "object"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Java."
+  },
+  {
+    "question": "Which term often describes a collection of values in Java loop logic?",
+    "options": [
+      "function",
+      "object",
+      "class",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Java."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Java conditional logic?",
+    "options": [
+      "if",
+      "switch",
+      "for",
+      "case"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for Java."
+  },
+  {
+    "question": "Which keyword in Java creates a new variable in source code?",
+    "options": [
+      "const",
+      "class",
+      "static",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for Java."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Java loop logic?",
+    "options": [
+      "recursion",
+      "optimization",
+      "iteration",
+      "compilation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for Java."
+  },
+  {
+    "question": "Which operator is used to compare two values in Java library imports?",
+    "options": [
+      "!=",
+      "===",
+      "==",
+      "<>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Java."
+  },
+  {
+    "question": "Which term often describes a collection of values in Java function definitions?",
+    "options": [
+      "array",
+      "class",
+      "object",
+      "function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Java."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Java header files?",
+    "options": [
+      "8",
+      "16",
+      "6",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '8' for Java."
+  },
+  {
+    "question": "Which line represents a correct function definition in Java library imports?",
+    "options": [
+      "main() {}",
+      "public static void main(String[] args)",
+      "def main",
+      "function main"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'public static void main(String[] args)' for Java."
+  },
+  {
+    "question": "Which term often describes a collection of values in Java header files?",
+    "options": [
+      "object",
+      "class",
+      "function",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Java."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Java library imports?",
+    "options": [
+      "optimization",
+      "compilation",
+      "recursion",
+      "iteration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for Java."
+  },
+  {
+    "question": "Which operator is used to compare two values in Java conditional logic?",
+    "options": [
+      "==",
+      "===",
+      "!=",
+      "<>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Java."
+  },
+  {
+    "question": "Which operator in Java is used for string concatenation in data types?",
+    "options": [
+      "||",
+      "+",
+      "&",
+      "##"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '+' for Java."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Java source code?",
+    "options": [
+      "struct",
+      "class",
+      "void",
+      "module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'void' for Java."
+  },
+  {
+    "question": "Which operator is used to compare two values in Java header files?",
+    "options": [
+      "<>",
+      "!=",
+      "===",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Java."
+  },
+  {
+    "question": "Which keyword in Java indicates a return value from a function in header files?",
+    "options": [
+      "break",
+      "yield",
+      "exit",
+      "return"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'return' for Java."
+  },
+  {
+    "question": "Which keyword declares a function in Java conditional logic?",
+    "options": [
+      "public static void",
+      "class",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'public static void' for Java."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Java library imports?",
+    "options": [
+      "case",
+      "switch",
+      "if",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for Java."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Java header files?",
+    "options": [
+      "case",
+      "for",
+      "if",
+      "switch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for Java."
+  },
+  {
+    "question": "Which term often describes a collection of values in Java source code?",
+    "options": [
+      "class",
+      "object",
+      "function",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Java."
+  }
+]

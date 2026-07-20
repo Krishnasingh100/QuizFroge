@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword declares a function in C conditional logic?",
+    "options": [
+      "const",
+      "var",
+      "class",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for C."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in C library imports?",
+    "options": [
+      "optimization",
+      "iteration",
+      "compilation",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for C."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in C conditional logic?",
+    "options": [
+      "case",
+      "if",
+      "for",
+      "switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for C."
+  },
+  {
+    "question": "Which line represents a valid import or include in C source code?",
+    "options": [
+      "require(\"module\")",
+      "import module",
+      "#include <stdio.h>",
+      "include <sys>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '#include <stdio.h>' for C."
+  },
+  {
+    "question": "Which term often describes a collection of values in C function definitions?",
+    "options": [
+      "function",
+      "object",
+      "array",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which line represents a valid import or include in C function definitions?",
+    "options": [
+      "import module",
+      "#include <stdio.h>",
+      "include <sys>",
+      "require(\"module\")"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '#include <stdio.h>' for C."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in C source code?",
+    "options": [
+      "recursion",
+      "iteration",
+      "compilation",
+      "optimization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for C."
+  },
+  {
+    "question": "Which term often describes a collection of values in C conditional logic?",
+    "options": [
+      "function",
+      "object",
+      "array",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C loop logic?",
+    "options": [
+      "when",
+      "case",
+      "if",
+      "switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for C."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C source code?",
+    "options": [
+      "16",
+      "6",
+      "2",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for C."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C data types?",
+    "options": [
+      "6",
+      "2",
+      "8",
+      "16"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '8' for C."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in C function definitions?",
+    "options": [
+      "mutable",
+      "immutable",
+      "temporary",
+      "dynamic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for C."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C data types?",
+    "options": [
+      "if",
+      "case",
+      "switch",
+      "when"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'if' for C."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in C function definitions?",
+    "options": [
+      "recursion",
+      "compilation",
+      "iteration",
+      "optimization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'recursion' for C."
+  },
+  {
+    "question": "Which operator in C is used for string concatenation in header files?",
+    "options": [
+      "&",
+      "||",
+      "##",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for C."
+  },
+  {
+    "question": "Which keyword in C creates a new variable in source code?",
+    "options": [
+      "class",
+      "static",
+      "int",
+      "const"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int' for C."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in C header files?",
+    "options": [
+      "immutable",
+      "dynamic",
+      "temporary",
+      "mutable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for C."
+  },
+  {
+    "question": "Which keyword in C indicates a return value from a function in source code?",
+    "options": [
+      "break",
+      "yield",
+      "exit",
+      "return"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'return' for C."
+  },
+  {
+    "question": "Which line represents a correct function definition in C function definitions?",
+    "options": [
+      "main() {}",
+      "function main",
+      "int main()",
+      "def main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int main()' for C."
+  },
+  {
+    "question": "Which keyword in C indicates a return value from a function in function definitions?",
+    "options": [
+      "break",
+      "return",
+      "exit",
+      "yield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for C."
+  },
+  {
+    "question": "Which keyword defines a function or method name in C source code?",
+    "options": [
+      "class",
+      "struct",
+      "module",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for C."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C source code?",
+    "options": [
+      "if",
+      "case",
+      "when",
+      "switch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'if' for C."
+  },
+  {
+    "question": "Which term often describes a collection of values in C loop logic?",
+    "options": [
+      "class",
+      "object",
+      "function",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which term often describes a collection of values in C header files?",
+    "options": [
+      "array",
+      "object",
+      "class",
+      "function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which keyword in C creates a new variable in function definitions?",
+    "options": [
+      "int",
+      "class",
+      "static",
+      "const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for C."
+  },
+  {
+    "question": "Which keyword defines a function or method name in C loop logic?",
+    "options": [
+      "struct",
+      "class",
+      "int",
+      "module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int' for C."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C function definitions?",
+    "options": [
+      "switch",
+      "if",
+      "case",
+      "when"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for C."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C conditional logic?",
+    "options": [
+      "6",
+      "8",
+      "16",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '8' for C."
+  },
+  {
+    "question": "Which operator in C is used for string concatenation in loop logic?",
+    "options": [
+      "&",
+      "##",
+      "||",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for C."
+  },
+  {
+    "question": "Which line represents a correct function definition in C header files?",
+    "options": [
+      "main() {}",
+      "function main",
+      "int main()",
+      "def main"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int main()' for C."
+  },
+  {
+    "question": "Which line represents a valid import or include in C library imports?",
+    "options": [
+      "#include <stdio.h>",
+      "require(\"module\")",
+      "include <sys>",
+      "import module"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '#include <stdio.h>' for C."
+  },
+  {
+    "question": "Which line represents a correct function definition in C data types?",
+    "options": [
+      "function main",
+      "int main()",
+      "def main",
+      "main() {}"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int main()' for C."
+  },
+  {
+    "question": "Which operator is used to compare two values in C header files?",
+    "options": [
+      "===",
+      "!=",
+      "==",
+      "<>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for C."
+  },
+  {
+    "question": "Which keyword in C creates a new variable in loop logic?",
+    "options": [
+      "class",
+      "int",
+      "const",
+      "static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for C."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in C memory management?",
+    "options": [
+      "when",
+      "switch",
+      "case",
+      "if"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'if' for C."
+  },
+  {
+    "question": "Which keyword in C creates a new variable in header files?",
+    "options": [
+      "int",
+      "const",
+      "static",
+      "class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for C."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in C data types?",
+    "options": [
+      "dynamic",
+      "immutable",
+      "mutable",
+      "temporary"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for C."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C library imports?",
+    "options": [
+      "6",
+      "16",
+      "2",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for C."
+  },
+  {
+    "question": "Which operator is used to compare two values in C library imports?",
+    "options": [
+      "!=",
+      "===",
+      "<>",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for C."
+  },
+  {
+    "question": "Which keyword in C indicates a return value from a function in data types?",
+    "options": [
+      "return",
+      "break",
+      "yield",
+      "exit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'return' for C."
+  },
+  {
+    "question": "Which operator in C is used for string concatenation in conditional logic?",
+    "options": [
+      "+",
+      "||",
+      "&",
+      "##"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for C."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in C loop logic?",
+    "options": [
+      "compilation",
+      "iteration",
+      "optimization",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for C."
+  },
+  {
+    "question": "Which term often describes a collection of values in C source code?",
+    "options": [
+      "object",
+      "array",
+      "function",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which operator in C is used for string concatenation in data types?",
+    "options": [
+      "+",
+      "||",
+      "&",
+      "##"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for C."
+  },
+  {
+    "question": "Which operator is used to compare two values in C function definitions?",
+    "options": [
+      "<>",
+      "==",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for C."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in C loop logic?",
+    "options": [
+      "2",
+      "6",
+      "16",
+      "8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '8' for C."
+  },
+  {
+    "question": "Which term often describes a collection of values in C data types?",
+    "options": [
+      "array",
+      "function",
+      "class",
+      "object"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in C data types?",
+    "options": [
+      "case",
+      "switch",
+      "if",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for C."
+  },
+  {
+    "question": "Which keyword in C indicates a return value from a function in conditional logic?",
+    "options": [
+      "yield",
+      "return",
+      "break",
+      "exit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for C."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in C source code?",
+    "options": [
+      "for",
+      "case",
+      "switch",
+      "if"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for C."
+  }
+]

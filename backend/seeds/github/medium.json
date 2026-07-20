@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which GitHub feature stores binary builds and packages in pull requests?",
+    "options": [
+      "Actions",
+      "Packages",
+      "Releases",
+      "Pages"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Packages' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature provides temporary pull request environments in collaboration tools?",
+    "options": [
+      "Gists",
+      "Environments",
+      "Pages",
+      "Actions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Environments' for GitHub."
+  },
+  {
+    "question": "Which GitHub page displays open pull requests in release notes?",
+    "options": [
+      "Pull requests",
+      "Issues",
+      "Wiki",
+      "Actions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub section handles code review comments in collaboration tools?",
+    "options": [
+      "Projects",
+      "Discussions",
+      "Pull requests",
+      "Issues"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores binary builds and packages in security settings?",
+    "options": [
+      "Packages",
+      "Releases",
+      "Actions",
+      "Pages"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Packages' for GitHub."
+  },
+  {
+    "question": "Which GitHub page contains repository settings and permissions in release notes?",
+    "options": [
+      "Settings",
+      "Insights",
+      "Actions",
+      "Code"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Settings' for GitHub."
+  },
+  {
+    "question": "Which GitHub page contains repository settings and permissions in collaboration tools?",
+    "options": [
+      "Code",
+      "Settings",
+      "Actions",
+      "Insights"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Settings' for GitHub."
+  },
+  {
+    "question": "Which GitHub page displays open pull requests in repository?",
+    "options": [
+      "Pull requests",
+      "Actions",
+      "Wiki",
+      "Issues"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub page displays open pull requests in workflow?",
+    "options": [
+      "Pull requests",
+      "Wiki",
+      "Issues",
+      "Actions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub section handles code review comments in project board?",
+    "options": [
+      "Discussions",
+      "Projects",
+      "Issues",
+      "Pull requests"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature runs CI/CD workflows in pull requests?",
+    "options": [
+      "GitHub Packages",
+      "GitHub Pages",
+      "GitHub Actions",
+      "GitHub Issues"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'GitHub Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub tool helps visualize repository activity in project board?",
+    "options": [
+      "Issues",
+      "Projects",
+      "Wiki",
+      "Insights"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Insights' for GitHub."
+  },
+  {
+    "question": "Which GitHub section handles code review comments in repository?",
+    "options": [
+      "Projects",
+      "Discussions",
+      "Issues",
+      "Pull requests"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature runs CI/CD workflows in release notes?",
+    "options": [
+      "GitHub Packages",
+      "GitHub Issues",
+      "GitHub Pages",
+      "GitHub Actions"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'GitHub Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub page displays open pull requests in documentation?",
+    "options": [
+      "Pull requests",
+      "Issues",
+      "Wiki",
+      "Actions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used for collaborative documentation in project board?",
+    "options": [
+      "Actions",
+      "Issues",
+      "Pages",
+      "Wiki"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature provides temporary pull request environments in release notes?",
+    "options": [
+      "Gists",
+      "Pages",
+      "Actions",
+      "Environments"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Environments' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores binary builds and packages in package registry?",
+    "options": [
+      "Pages",
+      "Releases",
+      "Actions",
+      "Packages"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Packages' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used for collaborative documentation in documentation?",
+    "options": [
+      "Wiki",
+      "Pages",
+      "Issues",
+      "Actions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used for collaborative documentation in pull requests?",
+    "options": [
+      "Pages",
+      "Issues",
+      "Wiki",
+      "Actions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub page displays open pull requests in pull requests?",
+    "options": [
+      "Wiki",
+      "Pull requests",
+      "Actions",
+      "Issues"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature provides temporary pull request environments in repository?",
+    "options": [
+      "Pages",
+      "Gists",
+      "Actions",
+      "Environments"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Environments' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used for collaborative documentation in workflow?",
+    "options": [
+      "Wiki",
+      "Actions",
+      "Pages",
+      "Issues"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature provides temporary pull request environments in workflow?",
+    "options": [
+      "Actions",
+      "Gists",
+      "Pages",
+      "Environments"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Environments' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature lets you propose, review, and merge changes in documentation?",
+    "options": [
+      "Wiki",
+      "Fork",
+      "Pull Request",
+      "Issue"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Pull Request' for GitHub."
+  },
+  {
+    "question": "Which GitHub page contains repository settings and permissions in workflow?",
+    "options": [
+      "Settings",
+      "Actions",
+      "Insights",
+      "Code"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Settings' for GitHub."
+  },
+  {
+    "question": "Which GitHub section handles code review comments in security settings?",
+    "options": [
+      "Projects",
+      "Discussions",
+      "Issues",
+      "Pull requests"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub page contains repository settings and permissions in issue tracker?",
+    "options": [
+      "Code",
+      "Actions",
+      "Settings",
+      "Insights"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Settings' for GitHub."
+  },
+  {
+    "question": "Which GitHub page contains repository settings and permissions in security settings?",
+    "options": [
+      "Actions",
+      "Code",
+      "Settings",
+      "Insights"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Settings' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature tracks repository contributions and commits in issue tracker?",
+    "options": [
+      "Pull Requests",
+      "Contributors",
+      "Issues",
+      "Actions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Contributors' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature provides temporary pull request environments in issue tracker?",
+    "options": [
+      "Environments",
+      "Pages",
+      "Gists",
+      "Actions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Environments' for GitHub."
+  },
+  {
+    "question": "Which GitHub page contains repository settings and permissions in pull requests?",
+    "options": [
+      "Actions",
+      "Settings",
+      "Code",
+      "Insights"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Settings' for GitHub."
+  },
+  {
+    "question": "Which GitHub section handles code review comments in workflow?",
+    "options": [
+      "Projects",
+      "Issues",
+      "Discussions",
+      "Pull requests"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub page displays open pull requests in issue tracker?",
+    "options": [
+      "Actions",
+      "Pull requests",
+      "Issues",
+      "Wiki"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature provides temporary pull request environments in package registry?",
+    "options": [
+      "Environments",
+      "Actions",
+      "Pages",
+      "Gists"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Environments' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature tracks repository contributions and commits in repository?",
+    "options": [
+      "Pull Requests",
+      "Actions",
+      "Contributors",
+      "Issues"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Contributors' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature lets you propose, review, and merge changes in security settings?",
+    "options": [
+      "Pull Request",
+      "Issue",
+      "Wiki",
+      "Fork"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Pull Request' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature is used for collaborative documentation in collaboration tools?",
+    "options": [
+      "Actions",
+      "Issues",
+      "Pages",
+      "Wiki"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Wiki' for GitHub."
+  },
+  {
+    "question": "Which GitHub page contains repository settings and permissions in documentation?",
+    "options": [
+      "Actions",
+      "Settings",
+      "Code",
+      "Insights"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Settings' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature runs CI/CD workflows in issue tracker?",
+    "options": [
+      "GitHub Actions",
+      "GitHub Issues",
+      "GitHub Pages",
+      "GitHub Packages"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'GitHub Actions' for GitHub."
+  },
+  {
+    "question": "Which GitHub tool helps visualize repository activity in release notes?",
+    "options": [
+      "Issues",
+      "Insights",
+      "Projects",
+      "Wiki"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Insights' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature provides temporary pull request environments in security settings?",
+    "options": [
+      "Gists",
+      "Environments",
+      "Pages",
+      "Actions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Environments' for GitHub."
+  },
+  {
+    "question": "Which GitHub section handles code review comments in release notes?",
+    "options": [
+      "Projects",
+      "Pull requests",
+      "Discussions",
+      "Issues"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores binary builds and packages in project board?",
+    "options": [
+      "Pages",
+      "Actions",
+      "Releases",
+      "Packages"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Packages' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature provides temporary pull request environments in documentation?",
+    "options": [
+      "Actions",
+      "Pages",
+      "Environments",
+      "Gists"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Environments' for GitHub."
+  },
+  {
+    "question": "Which GitHub tool helps visualize repository activity in documentation?",
+    "options": [
+      "Wiki",
+      "Issues",
+      "Projects",
+      "Insights"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'Insights' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature stores binary builds and packages in issue tracker?",
+    "options": [
+      "Packages",
+      "Releases",
+      "Actions",
+      "Pages"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'Packages' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature tracks repository contributions and commits in pull requests?",
+    "options": [
+      "Pull Requests",
+      "Contributors",
+      "Issues",
+      "Actions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Contributors' for GitHub."
+  },
+  {
+    "question": "Which GitHub feature tracks repository contributions and commits in release notes?",
+    "options": [
+      "Issues",
+      "Actions",
+      "Contributors",
+      "Pull Requests"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Contributors' for GitHub."
+  },
+  {
+    "question": "Which GitHub page displays open pull requests in security settings?",
+    "options": [
+      "Wiki",
+      "Pull requests",
+      "Actions",
+      "Issues"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'Pull requests' for GitHub."
+  }
+]

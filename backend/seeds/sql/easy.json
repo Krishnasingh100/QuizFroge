@@ -1,0 +1,464 @@
+[
+  {
+    "question": "Which SQL keyword adds a new column to an existing table?",
+    "options": [
+      "INSERT COLUMN",
+      "ADD COLUMN",
+      "ALTER ROW",
+      "CREATE COLUMN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'ADD COLUMN' for SQL."
+  },
+  {
+    "question": "Which SQL keyword is used to remove duplicate rows from a result?",
+    "options": [
+      "UNION",
+      "GROUP BY",
+      "UNIQUE",
+      "DISTINCT"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'DISTINCT' for SQL."
+  },
+  {
+    "question": "Which SQL clause filters rows using a condition?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "WHERE",
+      "HAVING"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'WHERE' for SQL."
+  },
+  {
+    "question": "Which SQL command undoes changes made since the last COMMIT?",
+    "options": [
+      "ROLLBACK",
+      "REVERT",
+      "SAVEPOINT",
+      "COMMIT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'ROLLBACK' for SQL."
+  },
+  {
+    "question": "Which SQL keyword changes the data type of a column?",
+    "options": [
+      "UPDATE TABLE",
+      "MODIFY TABLE",
+      "CHANGE TABLE",
+      "ALTER TABLE"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'ALTER TABLE' for SQL."
+  },
+  {
+    "question": "Which SQL clause renames a column in query results?",
+    "options": [
+      "LABEL",
+      "RENAME",
+      "ALIAS",
+      "AS"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'AS' for SQL."
+  },
+  {
+    "question": "Which SQL operator combines conditions where either may be true?",
+    "options": [
+      "XOR",
+      "OR",
+      "NOT",
+      "AND"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'OR' for SQL."
+  },
+  {
+    "question": "Which SQL keyword creates an index on a column?",
+    "options": [
+      "ALTER INDEX",
+      "INDEX COLUMN",
+      "CREATE INDEX",
+      "ADD INDEX"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'CREATE INDEX' for SQL."
+  },
+  {
+    "question": "Which SQL value indicates a missing or unknown value?",
+    "options": [
+      "0",
+      "NULL",
+      "NONE",
+      "EMPTY"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'NULL' for SQL."
+  },
+  {
+    "question": "Which SQL clause limits the number of returned rows?",
+    "options": [
+      "OFFSET",
+      "FETCH",
+      "TOP",
+      "LIMIT"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'LIMIT' for SQL."
+  },
+  {
+    "question": "Which SQL clause specifies a login condition for a query?",
+    "options": [
+      "WHERE",
+      "HAVING",
+      "GROUP BY",
+      "ORDER BY"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'WHERE' for SQL."
+  },
+  {
+    "question": "Which SQL keyword removes all rows from a table but keeps the structure?",
+    "options": [
+      "DELETE FROM",
+      "TRUNCATE TABLE",
+      "DROP TABLE",
+      "REMOVE TABLE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'TRUNCATE TABLE' for SQL."
+  },
+  {
+    "question": "Which SQL command saves changes made in a transaction?",
+    "options": [
+      "COMMIT",
+      "END",
+      "ROLLBACK",
+      "SAVE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'COMMIT' for SQL."
+  },
+  {
+    "question": "Which SQL clause groups rows that share common values?",
+    "options": [
+      "ORDER BY",
+      "UNION",
+      "GROUP BY",
+      "WHERE"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'GROUP BY' for SQL."
+  },
+  {
+    "question": "Which SQL keyword adds a column constraint to prevent null values?",
+    "options": [
+      "NOT NULL",
+      "CHECK",
+      "UNIQUE",
+      "DEFAULT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'NOT NULL' for SQL."
+  },
+  {
+    "question": "Which SQL clause orders rows in a query result?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "WHERE",
+      "LIMIT"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'ORDER BY' for SQL."
+  },
+  {
+    "question": "Which SQL operator checks for equality between values?",
+    "options": [
+      "<>",
+      "=",
+      "!=",
+      "LIKE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '=' for SQL."
+  },
+  {
+    "question": "Which SQL keyword changes the name of a column?",
+    "options": [
+      "ALTER TABLE ... RENAME COLUMN",
+      "UPDATE COLUMN",
+      "ALTER TABLE ... ADD COLUMN",
+      "RENAME COLUMN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'ALTER TABLE ... RENAME COLUMN' for SQL."
+  },
+  {
+    "question": "Which SQL clause limits the number of rows returned for pagination?",
+    "options": [
+      "FETCH",
+      "TOP",
+      "LIMIT",
+      "OFFSET"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'LIMIT' for SQL."
+  },
+  {
+    "question": "Which SQL keyword retrieves only matching rows from two tables?",
+    "options": [
+      "RIGHT JOIN",
+      "INNER JOIN",
+      "FULL JOIN",
+      "LEFT JOIN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'INNER JOIN' for SQL."
+  },
+  {
+    "question": "Which SQL statement inserts new rows into a table?",
+    "options": [
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "DELETE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'INSERT INTO' for SQL."
+  },
+  {
+    "question": "What does the SQL SELECT statement do?",
+    "options": [
+      "Insert data into a table",
+      "Create a new table",
+      "Retrieve data from a table",
+      "Delete rows from a table"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'Retrieve data from a table' for SQL."
+  },
+  {
+    "question": "Which SQL operator tests for values within a given list?",
+    "options": [
+      "IN",
+      "LIKE",
+      "EXISTS",
+      "BETWEEN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'IN' for SQL."
+  },
+  {
+    "question": "Which SQL keyword sets the output order to descending?",
+    "options": [
+      "DESC",
+      "ORDER",
+      "REVERSE",
+      "ASC"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'DESC' for SQL."
+  },
+  {
+    "question": "Which SQL keyword updates existing rows in a table?",
+    "options": [
+      "UPDATE",
+      "SET",
+      "ALTER",
+      "MODIFY"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'UPDATE' for SQL."
+  },
+  {
+    "question": "Which SQL type stores variable-length text in {name}?",
+    "options": [
+      "INT",
+      "VARCHAR",
+      "TEXT",
+      "CHAR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'VARCHAR' for SQL."
+  },
+  {
+    "question": "Which SQL keyword returns only unique values from a column?",
+    "options": [
+      "SAME",
+      "DISTINCT",
+      "UNIQUE",
+      "ALL"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'DISTINCT' for SQL."
+  },
+  {
+    "question": "Which SQL clause sets the order for grouped rows after aggregation?",
+    "options": [
+      "WHERE",
+      "ORDER BY",
+      "HAVING",
+      "GROUP BY"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'HAVING' for SQL."
+  },
+  {
+    "question": "Which SQL function counts the number of rows?",
+    "options": [
+      "SUM()",
+      "MAX()",
+      "COUNT()",
+      "AVG()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'COUNT()' for SQL."
+  },
+  {
+    "question": "Which SQL clause specifies the source table for a SELECT query?",
+    "options": [
+      "JOIN",
+      "FROM",
+      "WHERE",
+      "SELECT"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'FROM' for SQL."
+  },
+  {
+    "question": "Which SQL keyword starts a transaction block?",
+    "options": [
+      "START",
+      "INIT",
+      "OPEN",
+      "BEGIN"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'BEGIN' for SQL."
+  },
+  {
+    "question": "Which SQL statement creates a new table?",
+    "options": [
+      "INSERT TABLE",
+      "MAKE TABLE",
+      "ADD TABLE",
+      "CREATE TABLE"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'CREATE TABLE' for SQL."
+  },
+  {
+    "question": "Which SQL keyword is used to combine rows from two tables even when they do not match?",
+    "options": [
+      "FULL OUTER JOIN",
+      "RIGHT JOIN",
+      "LEFT JOIN",
+      "INNER JOIN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'FULL OUTER JOIN' for SQL."
+  },
+  {
+    "question": "Which SQL type stores whole numbers without decimals?",
+    "options": [
+      "VARCHAR",
+      "INTEGER",
+      "FLOAT",
+      "TEXT"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'INTEGER' for SQL."
+  },
+  {
+    "question": "Which SQL keyword creates a view?",
+    "options": [
+      "CREATE VIEW",
+      "CREATE DATABASE",
+      "CREATE INDEX",
+      "CREATE TABLE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'CREATE VIEW' for SQL."
+  },
+  {
+    "question": "Which SQL keyword is used to match a pattern in text data?",
+    "options": [
+      "MATCH",
+      "IN",
+      "LIKE",
+      "BETWEEN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'LIKE' for SQL."
+  },
+  {
+    "question": "Which SQL keyword removes a table completely?",
+    "options": [
+      "DELETE TABLE",
+      "TRUNCATE TABLE",
+      "REMOVE TABLE",
+      "DROP TABLE"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'DROP TABLE' for SQL."
+  },
+  {
+    "question": "Which SQL operator combines conditions requiring both to be true?",
+    "options": [
+      "XOR",
+      "AND",
+      "OR",
+      "NOT"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'AND' for SQL."
+  },
+  {
+    "question": "Which SQL expression returns the larger of two values?",
+    "options": [
+      "HIGHEST()",
+      "LARGEST()",
+      "MAX()",
+      "GREATEST()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'GREATEST()' for SQL."
+  },
+  {
+    "question": "Which SQL clause specifies how rows are grouped together?",
+    "options": [
+      "GROUP BY",
+      "WHERE",
+      "ORDER BY",
+      "HAVING"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'GROUP BY' for SQL."
+  },
+  {
+    "question": "Which SQL keyword deletes rows from a table?",
+    "options": [
+      "TRUNCATE",
+      "DROP",
+      "REMOVE",
+      "DELETE"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'DELETE' for SQL."
+  },
+  {
+    "question": "Which SQL statement changes existing table data?",
+    "options": [
+      "UPDATE",
+      "INSERT",
+      "ALTER TABLE",
+      "DELETE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'UPDATE' for SQL."
+  }
+]

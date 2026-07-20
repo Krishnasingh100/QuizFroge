@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which statement best describes memory management in Node.js error handling?",
+    "options": [
+      "runtime binding",
+      "implicit typing",
+      "syntax highlighting",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Node.js."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Node.js applications in data types?",
+    "options": [
+      "generics",
+      "closures",
+      "inheritance",
+      "async/await"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'async/await' for Node.js."
+  },
+  {
+    "question": "Which statement best describes memory management in Node.js function definitions?",
+    "options": [
+      "runtime binding",
+      "implicit typing",
+      "automatic garbage collection",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Node.js."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Node.js data types?",
+    "options": [
+      "aggregation",
+      "delegation",
+      "composition",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Node.js."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Node.js source code?",
+    "options": [
+      "transient",
+      "volatile",
+      "static",
+      "dynamic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for Node.js."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Node.js code in memory management?",
+    "options": [
+      "let",
+      "var",
+      "mutable",
+      "const"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'const' for Node.js."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Node.js library imports?",
+    "options": [
+      "linked list",
+      "array",
+      "queue",
+      "stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Node.js."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Node.js source code?",
+    "options": [
+      "abstraction",
+      "polymorphism",
+      "modularity",
+      "encapsulation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Node.js."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Node.js input/output?",
+    "options": [
+      "exceptions",
+      "global variables",
+      "inheritance",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for Node.js."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Node.js data types?",
+    "options": [
+      "linked list",
+      "array",
+      "queue",
+      "stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Node.js."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Node.js conditional logic?",
+    "options": [
+      "global variables",
+      "inheritance",
+      "exceptions",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for Node.js."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Node.js error handling?",
+    "options": [
+      "dynamic",
+      "volatile",
+      "static",
+      "transient"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for Node.js."
+  },
+  {
+    "question": "Which statement best describes memory management in Node.js loop logic?",
+    "options": [
+      "automatic garbage collection",
+      "runtime binding",
+      "implicit typing",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'automatic garbage collection' for Node.js."
+  },
+  {
+    "question": "Which statement checks for equality in Node.js header files?",
+    "options": [
+      "=",
+      "===",
+      ":=",
+      "=>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '===' for Node.js."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Node.js error handling?",
+    "options": [
+      "exceptions",
+      "inheritance",
+      "global variables",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for Node.js."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Node.js loop logic?",
+    "options": [
+      "encapsulation",
+      "polymorphism",
+      "abstraction",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for Node.js."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Node.js input/output?",
+    "options": [
+      "polymorphism",
+      "encapsulation",
+      "abstraction",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for Node.js."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Node.js conditional logic?",
+    "options": [
+      "abstraction",
+      "modularity",
+      "polymorphism",
+      "encapsulation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Node.js."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Node.js memory management?",
+    "options": [
+      "array",
+      "linked list",
+      "stack",
+      "queue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Node.js."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Node.js header files?",
+    "options": [
+      "queue",
+      "linked list",
+      "stack",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Node.js."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Node.js loop logic?",
+    "options": [
+      "global variables",
+      "inheritance",
+      "None handling",
+      "exceptions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for Node.js."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Node.js applications in memory management?",
+    "options": [
+      "async/await",
+      "inheritance",
+      "closures",
+      "generics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async/await' for Node.js."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Node.js code in source code?",
+    "options": [
+      "mutable",
+      "const",
+      "let",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for Node.js."
+  },
+  {
+    "question": "Which statement best describes memory management in Node.js memory management?",
+    "options": [
+      "syntax highlighting",
+      "automatic garbage collection",
+      "runtime binding",
+      "implicit typing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for Node.js."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Node.js library imports?",
+    "options": [
+      "inheritance",
+      "None handling",
+      "global variables",
+      "exceptions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'None handling' for Node.js."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Node.js header files?",
+    "options": [
+      "aggregation",
+      "composition",
+      "delegation",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Node.js."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Node.js function definitions?",
+    "options": [
+      "transient",
+      "volatile",
+      "static",
+      "dynamic"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for Node.js."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Node.js function definitions?",
+    "options": [
+      "aggregation",
+      "inheritance",
+      "composition",
+      "delegation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for Node.js."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Node.js code in error handling?",
+    "options": [
+      "const",
+      "let",
+      "mutable",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for Node.js."
+  },
+  {
+    "question": "Which statement checks for equality in Node.js function definitions?",
+    "options": [
+      "=",
+      "=>",
+      "===",
+      ":="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '===' for Node.js."
+  },
+  {
+    "question": "Which keyword defines a class in Node.js data types?",
+    "options": [
+      "namespace",
+      "package",
+      "module",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for Node.js."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Node.js code in loop logic?",
+    "options": [
+      "let",
+      "const",
+      "mutable",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for Node.js."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Node.js loop logic?",
+    "options": [
+      "transient",
+      "dynamic",
+      "static",
+      "volatile"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for Node.js."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Node.js conditional logic?",
+    "options": [
+      "static",
+      "dynamic",
+      "volatile",
+      "transient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for Node.js."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Node.js error handling?",
+    "options": [
+      "linked list",
+      "array",
+      "queue",
+      "stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for Node.js."
+  },
+  {
+    "question": "Which statement best describes memory management in Node.js header files?",
+    "options": [
+      "automatic garbage collection",
+      "implicit typing",
+      "runtime binding",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'automatic garbage collection' for Node.js."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Node.js code in data types?",
+    "options": [
+      "const",
+      "mutable",
+      "var",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for Node.js."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Node.js input/output?",
+    "options": [
+      "stack",
+      "queue",
+      "array",
+      "linked list"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Node.js."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Node.js memory management?",
+    "options": [
+      "transient",
+      "static",
+      "volatile",
+      "dynamic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for Node.js."
+  },
+  {
+    "question": "Which keyword defines a class in Node.js loop logic?",
+    "options": [
+      "namespace",
+      "module",
+      "package",
+      "function"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'function' for Node.js."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Node.js applications in input/output?",
+    "options": [
+      "generics",
+      "async/await",
+      "inheritance",
+      "closures"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async/await' for Node.js."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Node.js loop logic?",
+    "options": [
+      "composition",
+      "aggregation",
+      "delegation",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Node.js."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Node.js applications in source code?",
+    "options": [
+      "async/await",
+      "closures",
+      "inheritance",
+      "generics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async/await' for Node.js."
+  },
+  {
+    "question": "Which keyword defines a class in Node.js function definitions?",
+    "options": [
+      "module",
+      "package",
+      "function",
+      "namespace"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for Node.js."
+  },
+  {
+    "question": "Which statement checks for equality in Node.js loop logic?",
+    "options": [
+      "=>",
+      "===",
+      ":=",
+      "="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '===' for Node.js."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Node.js error handling?",
+    "options": [
+      "polymorphism",
+      "encapsulation",
+      "modularity",
+      "abstraction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Node.js."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Node.js library imports?",
+    "options": [
+      "composition",
+      "inheritance",
+      "delegation",
+      "aggregation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for Node.js."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Node.js applications in library imports?",
+    "options": [
+      "closures",
+      "async/await",
+      "inheritance",
+      "generics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async/await' for Node.js."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Node.js function definitions?",
+    "options": [
+      "encapsulation",
+      "modularity",
+      "polymorphism",
+      "abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Node.js."
+  },
+  {
+    "question": "Which statement best describes memory management in Node.js conditional logic?",
+    "options": [
+      "automatic garbage collection",
+      "runtime binding",
+      "syntax highlighting",
+      "implicit typing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'automatic garbage collection' for Node.js."
+  }
+]

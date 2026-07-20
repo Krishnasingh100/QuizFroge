@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which React hook is useful for expensive calculations that should not rerun every render on effects?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useContext",
+      "useMemo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which hook is often used to handle user input and form state in React on effects?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useRef",
+      "useMemo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which hook lets you manage local component state in React on lists?",
+    "options": [
+      "useReducer",
+      "useEffect",
+      "useContext",
+      "useState"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which concept should be pure for predictable rendering in React on rendering?",
+    "options": [
+      "componentDidMount",
+      "setState",
+      "useEffect",
+      "render"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'render' for React."
+  },
+  {
+    "question": "Which hook returns a memoized callback in React on memoization?",
+    "options": [
+      "useState",
+      "useCallback",
+      "useEffect",
+      "useMemo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useCallback' for React."
+  },
+  {
+    "question": "Which hook runs after render and can clean up in React on memoization?",
+    "options": [
+      "useCallback",
+      "useEffect",
+      "useRef",
+      "useMemo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which prop identifies unique items in a list in React on event handling?",
+    "options": [
+      "key",
+      "name",
+      "className",
+      "id"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'key' for React."
+  },
+  {
+    "question": "Which prop identifies unique items in a list in React on hooks?",
+    "options": [
+      "key",
+      "id",
+      "name",
+      "className"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'key' for React."
+  },
+  {
+    "question": "Which hook returns a memoized value in React on components?",
+    "options": [
+      "useState",
+      "useMemo",
+      "useCallback",
+      "useEffect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which hook is often used to handle user input and form state in React on state?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useMemo",
+      "useRef"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which hook returns a memoized value in React on rendering?",
+    "options": [
+      "useMemo",
+      "useEffect",
+      "useCallback",
+      "useState"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which hook lets you manage local component state in React on components?",
+    "options": [
+      "useState",
+      "useReducer",
+      "useEffect",
+      "useContext"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which concept should be pure for predictable rendering in React on state?",
+    "options": [
+      "useEffect",
+      "render",
+      "componentDidMount",
+      "setState"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'render' for React."
+  },
+  {
+    "question": "Which React feature lets you share values without passing props down manually on components?",
+    "options": [
+      "context",
+      "hooks",
+      "state",
+      "refs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'context' for React."
+  },
+  {
+    "question": "Which hook returns a memoized callback in React on event handling?",
+    "options": [
+      "useMemo",
+      "useCallback",
+      "useEffect",
+      "useState"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useCallback' for React."
+  },
+  {
+    "question": "Which React feature lets you render elements conditionally on hooks?",
+    "options": [
+      "conditional rendering",
+      "hooks",
+      "state",
+      "props"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'conditional rendering' for React."
+  },
+  {
+    "question": "Which concept should be pure for predictable rendering in React on components?",
+    "options": [
+      "useEffect",
+      "componentDidMount",
+      "setState",
+      "render"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'render' for React."
+  },
+  {
+    "question": "Which React feature lets you render elements conditionally on lists?",
+    "options": [
+      "conditional rendering",
+      "hooks",
+      "state",
+      "props"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'conditional rendering' for React."
+  },
+  {
+    "question": "Which React feature lets you render elements conditionally on effects?",
+    "options": [
+      "conditional rendering",
+      "state",
+      "props",
+      "hooks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'conditional rendering' for React."
+  },
+  {
+    "question": "Which hook lets you manage local component state in React on context?",
+    "options": [
+      "useContext",
+      "useEffect",
+      "useReducer",
+      "useState"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which React feature lets you share values without passing props down manually on props?",
+    "options": [
+      "refs",
+      "context",
+      "state",
+      "hooks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'context' for React."
+  },
+  {
+    "question": "Which hook is often used to handle user input and form state in React on props?",
+    "options": [
+      "useRef",
+      "useState",
+      "useMemo",
+      "useEffect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which hook returns a memoized callback in React on state?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useCallback",
+      "useMemo"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useCallback' for React."
+  },
+  {
+    "question": "Which concept should be pure for predictable rendering in React on lists?",
+    "options": [
+      "componentDidMount",
+      "useEffect",
+      "setState",
+      "render"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'render' for React."
+  },
+  {
+    "question": "Which hook runs after render and can clean up in React on props?",
+    "options": [
+      "useCallback",
+      "useRef",
+      "useEffect",
+      "useMemo"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which prop identifies unique items in a list in React on props?",
+    "options": [
+      "name",
+      "id",
+      "className",
+      "key"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'key' for React."
+  },
+  {
+    "question": "Which concept should be pure for predictable rendering in React on event handling?",
+    "options": [
+      "setState",
+      "useEffect",
+      "componentDidMount",
+      "render"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'render' for React."
+  },
+  {
+    "question": "Which hook lets you manage local component state in React on rendering?",
+    "options": [
+      "useEffect",
+      "useReducer",
+      "useContext",
+      "useState"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which hook runs after render and can clean up in React on event handling?",
+    "options": [
+      "useRef",
+      "useMemo",
+      "useCallback",
+      "useEffect"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which hook lets you manage local component state in React on effects?",
+    "options": [
+      "useReducer",
+      "useEffect",
+      "useContext",
+      "useState"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which hook is often used to handle user input and form state in React on rendering?",
+    "options": [
+      "useRef",
+      "useEffect",
+      "useMemo",
+      "useState"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which React feature lets you share values without passing props down manually on event handling?",
+    "options": [
+      "hooks",
+      "context",
+      "state",
+      "refs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'context' for React."
+  },
+  {
+    "question": "Which concept should be pure for predictable rendering in React on effects?",
+    "options": [
+      "setState",
+      "render",
+      "useEffect",
+      "componentDidMount"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'render' for React."
+  },
+  {
+    "question": "Which prop identifies unique items in a list in React on lists?",
+    "options": [
+      "id",
+      "className",
+      "key",
+      "name"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'key' for React."
+  },
+  {
+    "question": "Which hook runs after render and can clean up in React on components?",
+    "options": [
+      "useEffect",
+      "useRef",
+      "useMemo",
+      "useCallback"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "Which prop identifies unique items in a list in React on state?",
+    "options": [
+      "name",
+      "key",
+      "className",
+      "id"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'key' for React."
+  },
+  {
+    "question": "Which React hook is useful for expensive calculations that should not rerun every render on rendering?",
+    "options": [
+      "useState",
+      "useContext",
+      "useEffect",
+      "useMemo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which prop identifies unique items in a list in React on memoization?",
+    "options": [
+      "name",
+      "key",
+      "className",
+      "id"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'key' for React."
+  },
+  {
+    "question": "Which prop identifies unique items in a list in React on rendering?",
+    "options": [
+      "id",
+      "key",
+      "name",
+      "className"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'key' for React."
+  },
+  {
+    "question": "Which hook is often used to handle user input and form state in React on event handling?",
+    "options": [
+      "useRef",
+      "useEffect",
+      "useState",
+      "useMemo"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useState' for React."
+  },
+  {
+    "question": "Which React feature lets you render elements conditionally on memoization?",
+    "options": [
+      "props",
+      "state",
+      "hooks",
+      "conditional rendering"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'conditional rendering' for React."
+  },
+  {
+    "question": "Which React hook is useful for expensive calculations that should not rerun every render on hooks?",
+    "options": [
+      "useEffect",
+      "useMemo",
+      "useContext",
+      "useState"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which React feature lets you render elements conditionally on state?",
+    "options": [
+      "conditional rendering",
+      "state",
+      "hooks",
+      "props"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'conditional rendering' for React."
+  },
+  {
+    "question": "Which React feature lets you share values without passing props down manually on hooks?",
+    "options": [
+      "refs",
+      "context",
+      "hooks",
+      "state"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'context' for React."
+  },
+  {
+    "question": "Which React feature lets you share values without passing props down manually on context?",
+    "options": [
+      "hooks",
+      "context",
+      "state",
+      "refs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'context' for React."
+  },
+  {
+    "question": "Which React feature lets you render elements conditionally on context?",
+    "options": [
+      "conditional rendering",
+      "props",
+      "state",
+      "hooks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'conditional rendering' for React."
+  },
+  {
+    "question": "Which concept should be pure for predictable rendering in React on props?",
+    "options": [
+      "render",
+      "useEffect",
+      "componentDidMount",
+      "setState"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'render' for React."
+  },
+  {
+    "question": "Which concept should be pure for predictable rendering in React on memoization?",
+    "options": [
+      "render",
+      "useEffect",
+      "componentDidMount",
+      "setState"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'render' for React."
+  },
+  {
+    "question": "Which hook returns a memoized value in React on effects?",
+    "options": [
+      "useMemo",
+      "useState",
+      "useEffect",
+      "useCallback"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'useMemo' for React."
+  },
+  {
+    "question": "Which hook runs after render and can clean up in React on hooks?",
+    "options": [
+      "useMemo",
+      "useRef",
+      "useEffect",
+      "useCallback"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'useEffect' for React."
+  }
+]

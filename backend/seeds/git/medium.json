@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which Git command creates a local branch and switches to it in main branch?",
+    "options": [
+      "git branch -b",
+      "git checkout -b",
+      "git switch -c",
+      "git create -b"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git checkout -b' for Git."
+  },
+  {
+    "question": "Which Git command fetches changes from the remote without merging in feature branch?",
+    "options": [
+      "git push",
+      "git merge",
+      "git pull",
+      "git fetch"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git fetch' for Git."
+  },
+  {
+    "question": "Which Git command creates a new commit with a message in branch history?",
+    "options": [
+      "git save -m",
+      "git add -m",
+      "git push -m",
+      "git commit -m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git commit -m' for Git."
+  },
+  {
+    "question": "Which Git command creates a local branch and switches to it in remote repository?",
+    "options": [
+      "git create -b",
+      "git checkout -b",
+      "git branch -b",
+      "git switch -c"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git checkout -b' for Git."
+  },
+  {
+    "question": "Which Git command removes a tracked file from the index in staging area?",
+    "options": [
+      "git remove",
+      "git reset",
+      "git delete",
+      "git rm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git rm' for Git."
+  },
+  {
+    "question": "Which Git command creates a local branch and switches to it in feature branch?",
+    "options": [
+      "git switch -c",
+      "git branch -b",
+      "git create -b",
+      "git checkout -b"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git checkout -b' for Git."
+  },
+  {
+    "question": "Which Git command merges another branch into the current branch in staging area?",
+    "options": [
+      "git merge",
+      "git pull",
+      "git rebase",
+      "git push"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git merge' for Git."
+  },
+  {
+    "question": "Which Git command removes a tracked file from the index in local repository?",
+    "options": [
+      "git delete",
+      "git rm",
+      "git remove",
+      "git reset"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git rm' for Git."
+  },
+  {
+    "question": "Which Git command fetches changes from the remote without merging in staging area?",
+    "options": [
+      "git push",
+      "git pull",
+      "git fetch",
+      "git merge"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git fetch' for Git."
+  },
+  {
+    "question": "Which Git command fetches changes from the remote without merging in commit history?",
+    "options": [
+      "git push",
+      "git pull",
+      "git merge",
+      "git fetch"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git fetch' for Git."
+  },
+  {
+    "question": "Which Git command lists existing branches in stash area?",
+    "options": [
+      "git branch -a",
+      "git branch",
+      "git list",
+      "git show-branch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command applies stashed changes back to the working tree in main branch?",
+    "options": [
+      "git stash pop",
+      "git apply",
+      "git stash apply",
+      "git pop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git stash pop' for Git."
+  },
+  {
+    "question": "Which Git command fetches changes from the remote without merging in remote repository?",
+    "options": [
+      "git fetch",
+      "git push",
+      "git merge",
+      "git pull"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git fetch' for Git."
+  },
+  {
+    "question": "Which Git command lists existing branches in branch history?",
+    "options": [
+      "git list",
+      "git branch",
+      "git branch -a",
+      "git show-branch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command merges another branch into the current branch in main branch?",
+    "options": [
+      "git rebase",
+      "git pull",
+      "git push",
+      "git merge"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git merge' for Git."
+  },
+  {
+    "question": "Which Git command lists existing branches in commit history?",
+    "options": [
+      "git branch",
+      "git branch -a",
+      "git list",
+      "git show-branch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command applies stashed changes back to the working tree in local repository?",
+    "options": [
+      "git pop",
+      "git stash apply",
+      "git stash pop",
+      "git apply"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git stash pop' for Git."
+  },
+  {
+    "question": "Which Git command creates a new commit with a message in working tree?",
+    "options": [
+      "git commit -m",
+      "git save -m",
+      "git push -m",
+      "git add -m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git commit -m' for Git."
+  },
+  {
+    "question": "Which Git command shows commit history in local repository?",
+    "options": [
+      "git show",
+      "git diff",
+      "git log",
+      "git status"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git log' for Git."
+  },
+  {
+    "question": "Which Git command removes a tracked file from the index in branch history?",
+    "options": [
+      "git delete",
+      "git reset",
+      "git rm",
+      "git remove"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git rm' for Git."
+  },
+  {
+    "question": "Which Git command discards unstaged changes in the working tree in working tree?",
+    "options": [
+      "git checkout --",
+      "git clean",
+      "git stash",
+      "git reset --hard"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git checkout --' for Git."
+  },
+  {
+    "question": "Which Git command applies stashed changes back to the working tree in stash area?",
+    "options": [
+      "git stash pop",
+      "git pop",
+      "git apply",
+      "git stash apply"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git stash pop' for Git."
+  },
+  {
+    "question": "Which Git command discards unstaged changes in the working tree in branch history?",
+    "options": [
+      "git reset --hard",
+      "git checkout --",
+      "git stash",
+      "git clean"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git checkout --' for Git."
+  },
+  {
+    "question": "Which Git command fetches changes from the remote without merging in merge conflicts?",
+    "options": [
+      "git pull",
+      "git merge",
+      "git fetch",
+      "git push"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git fetch' for Git."
+  },
+  {
+    "question": "Which Git command applies stashed changes back to the working tree in feature branch?",
+    "options": [
+      "git stash apply",
+      "git stash pop",
+      "git pop",
+      "git apply"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'git stash pop' for Git."
+  },
+  {
+    "question": "Which Git command creates a local branch and switches to it in commit history?",
+    "options": [
+      "git create -b",
+      "git branch -b",
+      "git switch -c",
+      "git checkout -b"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git checkout -b' for Git."
+  },
+  {
+    "question": "Which Git command removes a tracked file from the index in feature branch?",
+    "options": [
+      "git remove",
+      "git reset",
+      "git delete",
+      "git rm"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git rm' for Git."
+  },
+  {
+    "question": "Which Git command stores local changes temporarily in working tree?",
+    "options": [
+      "git push",
+      "git commit",
+      "git stash",
+      "git branch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git stash' for Git."
+  },
+  {
+    "question": "Which Git command removes a tracked file from the index in stash area?",
+    "options": [
+      "git rm",
+      "git delete",
+      "git remove",
+      "git reset"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git rm' for Git."
+  },
+  {
+    "question": "Which Git command creates a new commit with a message in merge conflicts?",
+    "options": [
+      "git push -m",
+      "git add -m",
+      "git save -m",
+      "git commit -m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git commit -m' for Git."
+  },
+  {
+    "question": "Which Git command discards unstaged changes in the working tree in remote repository?",
+    "options": [
+      "git clean",
+      "git stash",
+      "git checkout --",
+      "git reset --hard"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git checkout --' for Git."
+  },
+  {
+    "question": "Which Git command creates a new commit with a message in staging area?",
+    "options": [
+      "git commit -m",
+      "git save -m",
+      "git push -m",
+      "git add -m"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git commit -m' for Git."
+  },
+  {
+    "question": "Which Git command merges another branch into the current branch in feature branch?",
+    "options": [
+      "git merge",
+      "git rebase",
+      "git push",
+      "git pull"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git merge' for Git."
+  },
+  {
+    "question": "Which Git command merges another branch into the current branch in branch history?",
+    "options": [
+      "git push",
+      "git rebase",
+      "git merge",
+      "git pull"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git merge' for Git."
+  },
+  {
+    "question": "Which Git command fetches changes from the remote without merging in stash area?",
+    "options": [
+      "git merge",
+      "git push",
+      "git pull",
+      "git fetch"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git fetch' for Git."
+  },
+  {
+    "question": "Which Git command removes a tracked file from the index in commit history?",
+    "options": [
+      "git remove",
+      "git reset",
+      "git rm",
+      "git delete"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git rm' for Git."
+  },
+  {
+    "question": "Which Git command creates a local branch and switches to it in stash area?",
+    "options": [
+      "git switch -c",
+      "git branch -b",
+      "git checkout -b",
+      "git create -b"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git checkout -b' for Git."
+  },
+  {
+    "question": "Which Git command lists existing branches in feature branch?",
+    "options": [
+      "git list",
+      "git show-branch",
+      "git branch",
+      "git branch -a"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command creates a new commit with a message in stash area?",
+    "options": [
+      "git save -m",
+      "git push -m",
+      "git commit -m",
+      "git add -m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git commit -m' for Git."
+  },
+  {
+    "question": "Which Git command discards unstaged changes in the working tree in stash area?",
+    "options": [
+      "git stash",
+      "git reset --hard",
+      "git clean",
+      "git checkout --"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git checkout --' for Git."
+  },
+  {
+    "question": "Which Git command creates a local branch and switches to it in staging area?",
+    "options": [
+      "git branch -b",
+      "git switch -c",
+      "git create -b",
+      "git checkout -b"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git checkout -b' for Git."
+  },
+  {
+    "question": "Which Git command applies stashed changes back to the working tree in working tree?",
+    "options": [
+      "git stash pop",
+      "git stash apply",
+      "git apply",
+      "git pop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git stash pop' for Git."
+  },
+  {
+    "question": "Which Git command discards unstaged changes in the working tree in merge conflicts?",
+    "options": [
+      "git checkout --",
+      "git reset --hard",
+      "git stash",
+      "git clean"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git checkout --' for Git."
+  },
+  {
+    "question": "Which Git command lists existing branches in staging area?",
+    "options": [
+      "git show-branch",
+      "git branch -a",
+      "git list",
+      "git branch"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command lists existing branches in local repository?",
+    "options": [
+      "git branch",
+      "git branch -a",
+      "git show-branch",
+      "git list"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'git branch' for Git."
+  },
+  {
+    "question": "Which Git command creates a new commit with a message in local repository?",
+    "options": [
+      "git push -m",
+      "git save -m",
+      "git commit -m",
+      "git add -m"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git commit -m' for Git."
+  },
+  {
+    "question": "Which Git command fetches changes from the remote without merging in working tree?",
+    "options": [
+      "git pull",
+      "git push",
+      "git merge",
+      "git fetch"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git fetch' for Git."
+  },
+  {
+    "question": "Which Git command merges another branch into the current branch in commit history?",
+    "options": [
+      "git push",
+      "git rebase",
+      "git merge",
+      "git pull"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git merge' for Git."
+  },
+  {
+    "question": "Which Git command discards unstaged changes in the working tree in feature branch?",
+    "options": [
+      "git stash",
+      "git clean",
+      "git reset --hard",
+      "git checkout --"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'git checkout --' for Git."
+  },
+  {
+    "question": "Which Git command shows commit history in remote repository?",
+    "options": [
+      "git show",
+      "git status",
+      "git log",
+      "git diff"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'git log' for Git."
+  }
+]

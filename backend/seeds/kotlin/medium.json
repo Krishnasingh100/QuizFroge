@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which line represents a correct function definition in Kotlin header files?",
+    "options": [
+      "def main",
+      "function main",
+      "main() {}",
+      "fun main() {}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'fun main() {}' for Kotlin."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Kotlin data types?",
+    "options": [
+      "immutable",
+      "dynamic",
+      "temporary",
+      "mutable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'immutable' for Kotlin."
+  },
+  {
+    "question": "Which operator is used to compare two values in Kotlin conditional logic?",
+    "options": [
+      "!=",
+      "==",
+      "<>",
+      "==="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Kotlin."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Kotlin function definitions?",
+    "options": [
+      "when",
+      "if",
+      "case",
+      "switch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for Kotlin."
+  },
+  {
+    "question": "Which line represents a valid import or include in Kotlin library imports?",
+    "options": [
+      "require(\"module\")",
+      "import kotlin.random.Random",
+      "include <sys>",
+      "import module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'import kotlin.random.Random' for Kotlin."
+  },
+  {
+    "question": "Which keyword declares a function in Kotlin library imports?",
+    "options": [
+      "const",
+      "class",
+      "var",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for Kotlin."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Kotlin conditional logic?",
+    "options": [
+      "int",
+      "struct",
+      "class",
+      "module"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for Kotlin."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Kotlin library imports?",
+    "options": [
+      "8",
+      "2",
+      "16",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '8' for Kotlin."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Kotlin header files?",
+    "options": [
+      "for",
+      "if",
+      "switch",
+      "case"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'for' for Kotlin."
+  },
+  {
+    "question": "Which operator is used to compare two values in Kotlin header files?",
+    "options": [
+      "<>",
+      "!=",
+      "===",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Kotlin."
+  },
+  {
+    "question": "Which operator in Kotlin is used for string concatenation in loop logic?",
+    "options": [
+      "##",
+      "&",
+      "||",
+      "+"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '+' for Kotlin."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Kotlin function definitions?",
+    "options": [
+      "if",
+      "for",
+      "switch",
+      "case"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for Kotlin."
+  },
+  {
+    "question": "Which keyword in Kotlin indicates a return value from a function in function definitions?",
+    "options": [
+      "break",
+      "return",
+      "yield",
+      "exit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for Kotlin."
+  },
+  {
+    "question": "Which keyword in Kotlin creates a new variable in loop logic?",
+    "options": [
+      "let",
+      "class",
+      "const",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'let' for Kotlin."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Kotlin library imports?",
+    "options": [
+      "struct",
+      "module",
+      "int",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'int' for Kotlin."
+  },
+  {
+    "question": "Which operator is used to compare two values in Kotlin source code?",
+    "options": [
+      "!=",
+      "<>",
+      "==",
+      "==="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Kotlin."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Kotlin header files?",
+    "options": [
+      "iteration",
+      "recursion",
+      "optimization",
+      "compilation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'recursion' for Kotlin."
+  },
+  {
+    "question": "Which keyword declares a function in Kotlin header files?",
+    "options": [
+      "const",
+      "class",
+      "var",
+      "int"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'int' for Kotlin."
+  },
+  {
+    "question": "Which keyword declares a function in Kotlin function definitions?",
+    "options": [
+      "int",
+      "class",
+      "var",
+      "const"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for Kotlin."
+  },
+  {
+    "question": "Which keyword in Kotlin indicates a return value from a function in source code?",
+    "options": [
+      "yield",
+      "exit",
+      "break",
+      "return"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'return' for Kotlin."
+  },
+  {
+    "question": "Which operator is used to compare two values in Kotlin library imports?",
+    "options": [
+      "<>",
+      "!=",
+      "==",
+      "==="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '==' for Kotlin."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Kotlin library imports?",
+    "options": [
+      "optimization",
+      "iteration",
+      "recursion",
+      "compilation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for Kotlin."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Kotlin memory management?",
+    "options": [
+      "switch",
+      "if",
+      "when",
+      "case"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'if' for Kotlin."
+  },
+  {
+    "question": "Which term often describes a collection of values in Kotlin source code?",
+    "options": [
+      "array",
+      "object",
+      "class",
+      "function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Kotlin."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Kotlin loop logic?",
+    "options": [
+      "iteration",
+      "compilation",
+      "optimization",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for Kotlin."
+  },
+  {
+    "question": "Which operator is used to compare two values in Kotlin function definitions?",
+    "options": [
+      "===",
+      "<>",
+      "!=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Kotlin."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Kotlin loop logic?",
+    "options": [
+      "if",
+      "for",
+      "case",
+      "switch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for Kotlin."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Kotlin library imports?",
+    "options": [
+      "case",
+      "for",
+      "switch",
+      "if"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for Kotlin."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Kotlin source code?",
+    "options": [
+      "module",
+      "int",
+      "class",
+      "struct"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'int' for Kotlin."
+  },
+  {
+    "question": "Which term describes a variable whose value cannot change after assignment in Kotlin conditional logic?",
+    "options": [
+      "temporary",
+      "immutable",
+      "mutable",
+      "dynamic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'immutable' for Kotlin."
+  },
+  {
+    "question": "Which line represents a correct function definition in Kotlin conditional logic?",
+    "options": [
+      "def main",
+      "function main",
+      "fun main() {}",
+      "main() {}"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'fun main() {}' for Kotlin."
+  },
+  {
+    "question": "Which value is the result of 4 * 2 in Kotlin function definitions?",
+    "options": [
+      "6",
+      "8",
+      "16",
+      "2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '8' for Kotlin."
+  },
+  {
+    "question": "Which line represents a correct function definition in Kotlin function definitions?",
+    "options": [
+      "def main",
+      "main() {}",
+      "function main",
+      "fun main() {}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'fun main() {}' for Kotlin."
+  },
+  {
+    "question": "Which structure is often used for repeated execution in Kotlin source code?",
+    "options": [
+      "switch",
+      "case",
+      "if",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for Kotlin."
+  },
+  {
+    "question": "Which term often describes a collection of values in Kotlin loop logic?",
+    "options": [
+      "function",
+      "class",
+      "array",
+      "object"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Kotlin."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Kotlin function definitions?",
+    "options": [
+      "optimization",
+      "compilation",
+      "recursion",
+      "iteration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for Kotlin."
+  },
+  {
+    "question": "Which line represents a correct function definition in Kotlin source code?",
+    "options": [
+      "def main",
+      "main() {}",
+      "function main",
+      "fun main() {}"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'fun main() {}' for Kotlin."
+  },
+  {
+    "question": "Which line represents a valid import or include in Kotlin header files?",
+    "options": [
+      "import module",
+      "require(\"module\")",
+      "import kotlin.random.Random",
+      "include <sys>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'import kotlin.random.Random' for Kotlin."
+  },
+  {
+    "question": "Which keyword in Kotlin indicates a return value from a function in conditional logic?",
+    "options": [
+      "break",
+      "return",
+      "exit",
+      "yield"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'return' for Kotlin."
+  },
+  {
+    "question": "Which keyword defines a function or method name in Kotlin data types?",
+    "options": [
+      "int",
+      "struct",
+      "class",
+      "module"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'int' for Kotlin."
+  },
+  {
+    "question": "Which keyword starts a conditional expression in Kotlin conditional logic?",
+    "options": [
+      "switch",
+      "when",
+      "if",
+      "case"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'if' for Kotlin."
+  },
+  {
+    "question": "Which keyword in Kotlin indicates a return value from a function in header files?",
+    "options": [
+      "return",
+      "exit",
+      "break",
+      "yield"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'return' for Kotlin."
+  },
+  {
+    "question": "Which line represents a valid import or include in Kotlin loop logic?",
+    "options": [
+      "require(\"module\")",
+      "import kotlin.random.Random",
+      "include <sys>",
+      "import module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'import kotlin.random.Random' for Kotlin."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Kotlin source code?",
+    "options": [
+      "optimization",
+      "compilation",
+      "iteration",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for Kotlin."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Kotlin conditional logic?",
+    "options": [
+      "iteration",
+      "compilation",
+      "optimization",
+      "recursion"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'recursion' for Kotlin."
+  },
+  {
+    "question": "Which operator in Kotlin is used for string concatenation in function definitions?",
+    "options": [
+      "+",
+      "||",
+      "##",
+      "&"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '+' for Kotlin."
+  },
+  {
+    "question": "Which line represents a correct function definition in Kotlin data types?",
+    "options": [
+      "def main",
+      "fun main() {}",
+      "main() {}",
+      "function main"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'fun main() {}' for Kotlin."
+  },
+  {
+    "question": "Which concept means solving a problem by calling the same function inside itself in Kotlin data types?",
+    "options": [
+      "optimization",
+      "compilation",
+      "recursion",
+      "iteration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'recursion' for Kotlin."
+  },
+  {
+    "question": "Which keyword in Kotlin indicates a return value from a function in library imports?",
+    "options": [
+      "exit",
+      "break",
+      "yield",
+      "return"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'return' for Kotlin."
+  },
+  {
+    "question": "Which term often describes a collection of values in Kotlin header files?",
+    "options": [
+      "function",
+      "object",
+      "array",
+      "class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for Kotlin."
+  }
+]

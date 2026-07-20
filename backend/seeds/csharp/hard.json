@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword indicates an immutable value in C# code in library imports?",
+    "options": [
+      "var",
+      "mutable",
+      "const",
+      "let"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for C#."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C# applications in function definitions?",
+    "options": [
+      "closures",
+      "inheritance",
+      "async tasks",
+      "generics"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'async tasks' for C#."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in C# function definitions?",
+    "options": [
+      "inheritance",
+      "delegation",
+      "aggregation",
+      "composition"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for C#."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in C# library imports?",
+    "options": [
+      "volatile",
+      "static",
+      "dynamic",
+      "transient"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for C#."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in C# source code?",
+    "options": [
+      "aggregation",
+      "delegation",
+      "composition",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for C#."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C# header files?",
+    "options": [
+      "polymorphism",
+      "encapsulation",
+      "abstraction",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for C#."
+  },
+  {
+    "question": "Which keyword defines a class in C# conditional logic?",
+    "options": [
+      "namespace",
+      "function",
+      "module",
+      "package"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for C#."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C# data types?",
+    "options": [
+      "encapsulation",
+      "polymorphism",
+      "modularity",
+      "abstraction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for C#."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in C# error handling?",
+    "options": [
+      "inheritance",
+      "delegation",
+      "aggregation",
+      "composition"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for C#."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in C# header files?",
+    "options": [
+      "transient",
+      "volatile",
+      "dynamic",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for C#."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C# data types?",
+    "options": [
+      "None handling",
+      "global variables",
+      "exceptions",
+      "inheritance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None handling' for C#."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C# memory management?",
+    "options": [
+      "stack",
+      "array",
+      "linked list",
+      "queue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for C#."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C# applications in source code?",
+    "options": [
+      "async tasks",
+      "inheritance",
+      "closures",
+      "generics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for C#."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C# library imports?",
+    "options": [
+      "queue",
+      "stack",
+      "linked list",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for C#."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C# source code?",
+    "options": [
+      "polymorphism",
+      "abstraction",
+      "modularity",
+      "encapsulation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for C#."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in C# input/output?",
+    "options": [
+      "dynamic",
+      "static",
+      "volatile",
+      "transient"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for C#."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C# applications in input/output?",
+    "options": [
+      "async tasks",
+      "generics",
+      "inheritance",
+      "closures"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async tasks' for C#."
+  },
+  {
+    "question": "Which keyword defines a class in C# source code?",
+    "options": [
+      "namespace",
+      "function",
+      "package",
+      "module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for C#."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in C# memory management?",
+    "options": [
+      "delegation",
+      "composition",
+      "inheritance",
+      "aggregation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'inheritance' for C#."
+  },
+  {
+    "question": "Which statement best describes memory management in C# loop logic?",
+    "options": [
+      "implicit typing",
+      "syntax highlighting",
+      "automatic garbage collection",
+      "runtime binding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for C#."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C# code in loop logic?",
+    "options": [
+      "mutable",
+      "let",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for C#."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C# loop logic?",
+    "options": [
+      "stack",
+      "queue",
+      "array",
+      "linked list"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for C#."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C# memory management?",
+    "options": [
+      "exceptions",
+      "None handling",
+      "global variables",
+      "inheritance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'None handling' for C#."
+  },
+  {
+    "question": "Which keyword defines a class in C# data types?",
+    "options": [
+      "function",
+      "namespace",
+      "module",
+      "package"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for C#."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C# input/output?",
+    "options": [
+      "array",
+      "queue",
+      "linked list",
+      "stack"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for C#."
+  },
+  {
+    "question": "Which keyword defines a class in C# error handling?",
+    "options": [
+      "package",
+      "function",
+      "module",
+      "namespace"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for C#."
+  },
+  {
+    "question": "Which statement best describes memory management in C# function definitions?",
+    "options": [
+      "syntax highlighting",
+      "implicit typing",
+      "automatic garbage collection",
+      "runtime binding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for C#."
+  },
+  {
+    "question": "Which keyword defines a class in C# memory management?",
+    "options": [
+      "package",
+      "namespace",
+      "function",
+      "module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'function' for C#."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C# memory management?",
+    "options": [
+      "abstraction",
+      "modularity",
+      "encapsulation",
+      "polymorphism"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for C#."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C# error handling?",
+    "options": [
+      "None handling",
+      "global variables",
+      "inheritance",
+      "exceptions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None handling' for C#."
+  },
+  {
+    "question": "Which statement best describes memory management in C# source code?",
+    "options": [
+      "runtime binding",
+      "automatic garbage collection",
+      "syntax highlighting",
+      "implicit typing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for C#."
+  },
+  {
+    "question": "Which statement checks for equality in C# library imports?",
+    "options": [
+      "=",
+      "==",
+      "=>",
+      ":="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for C#."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C# function definitions?",
+    "options": [
+      "linked list",
+      "stack",
+      "queue",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for C#."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in C# data types?",
+    "options": [
+      "composition",
+      "inheritance",
+      "delegation",
+      "aggregation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for C#."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C# applications in loop logic?",
+    "options": [
+      "inheritance",
+      "closures",
+      "generics",
+      "async tasks"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'async tasks' for C#."
+  },
+  {
+    "question": "Which statement best describes memory management in C# memory management?",
+    "options": [
+      "implicit typing",
+      "automatic garbage collection",
+      "syntax highlighting",
+      "runtime binding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for C#."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C# loop logic?",
+    "options": [
+      "None handling",
+      "global variables",
+      "inheritance",
+      "exceptions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None handling' for C#."
+  },
+  {
+    "question": "Which keyword defines a class in C# library imports?",
+    "options": [
+      "function",
+      "namespace",
+      "module",
+      "package"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for C#."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C# code in error handling?",
+    "options": [
+      "const",
+      "var",
+      "mutable",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for C#."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in C# function definitions?",
+    "options": [
+      "volatile",
+      "transient",
+      "dynamic",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for C#."
+  },
+  {
+    "question": "Which keyword defines a class in C# header files?",
+    "options": [
+      "module",
+      "function",
+      "namespace",
+      "package"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'function' for C#."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C# header files?",
+    "options": [
+      "stack",
+      "array",
+      "queue",
+      "linked list"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'array' for C#."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in C# header files?",
+    "options": [
+      "aggregation",
+      "composition",
+      "delegation",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for C#."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C# code in conditional logic?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for C#."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C# header files?",
+    "options": [
+      "inheritance",
+      "exceptions",
+      "None handling",
+      "global variables"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for C#."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in C# loop logic?",
+    "options": [
+      "static",
+      "transient",
+      "volatile",
+      "dynamic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for C#."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C# conditional logic?",
+    "options": [
+      "abstraction",
+      "encapsulation",
+      "modularity",
+      "polymorphism"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for C#."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C# conditional logic?",
+    "options": [
+      "exceptions",
+      "inheritance",
+      "None handling",
+      "global variables"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for C#."
+  },
+  {
+    "question": "Which keyword defines a class in C# loop logic?",
+    "options": [
+      "function",
+      "module",
+      "package",
+      "namespace"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'function' for C#."
+  },
+  {
+    "question": "Which statement best describes memory management in C# error handling?",
+    "options": [
+      "runtime binding",
+      "implicit typing",
+      "syntax highlighting",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for C#."
+  }
+]

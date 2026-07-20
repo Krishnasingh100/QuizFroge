@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which syntax selects elements with a class name in CSS on header?",
+    "options": [
+      "*class",
+      ".class",
+      "#class",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '.class' for CSS."
+  },
+  {
+    "question": "Which property adds space inside an element in CSS on button?",
+    "options": [
+      "margin",
+      "padding",
+      "opacity",
+      "border"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'padding' for CSS."
+  },
+  {
+    "question": "Which property adds space inside an element in CSS on nav?",
+    "options": [
+      "margin",
+      "opacity",
+      "padding",
+      "border"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'padding' for CSS."
+  },
+  {
+    "question": "Which file extension is used for CSS stylesheets in content?",
+    "options": [
+      ".scss",
+      ".html",
+      ".css",
+      ".js"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.css' for CSS."
+  },
+  {
+    "question": "Which property changes the font size in CSS on header?",
+    "options": [
+      "line-height",
+      "font-size",
+      "color",
+      "width"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'font-size' for CSS."
+  },
+  {
+    "question": "Which file extension is used for CSS stylesheets in card?",
+    "options": [
+      ".js",
+      ".html",
+      ".css",
+      ".scss"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '.css' for CSS."
+  },
+  {
+    "question": "Which file extension is used for CSS stylesheets in form?",
+    "options": [
+      ".scss",
+      ".html",
+      ".js",
+      ".css"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '.css' for CSS."
+  },
+  {
+    "question": "Which property changes text color in CSS on card?",
+    "options": [
+      "margin",
+      "padding",
+      "color",
+      "font-size"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'color' for CSS."
+  },
+  {
+    "question": "Which syntax is a valid comment in CSS on main?",
+    "options": [
+      "<!-- -->",
+      "/* */",
+      "//",
+      "#"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '/* */' for CSS."
+  },
+  {
+    "question": "Which property changes text color in CSS on header?",
+    "options": [
+      "color",
+      "padding",
+      "font-size",
+      "margin"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'color' for CSS."
+  },
+  {
+    "question": "Which syntax is a valid comment in CSS on card?",
+    "options": [
+      "/* */",
+      "//",
+      "<!-- -->",
+      "#"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '/* */' for CSS."
+  },
+  {
+    "question": "Which file extension is used for CSS stylesheets in main?",
+    "options": [
+      ".css",
+      ".html",
+      ".js",
+      ".scss"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.css' for CSS."
+  },
+  {
+    "question": "Which property changes the background color in CSS on card?",
+    "options": [
+      "color",
+      "display",
+      "background-color",
+      "border"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'background-color' for CSS."
+  },
+  {
+    "question": "Which property hides an element in CSS on header?",
+    "options": [
+      "display: none",
+      "opacity: 0",
+      "position: absolute",
+      "visibility: hidden"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'display: none' for CSS."
+  },
+  {
+    "question": "Which value sets the display type to block in CSS on footer?",
+    "options": [
+      "position: absolute",
+      "float: left",
+      "visibility: hidden",
+      "display: block"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'display: block' for CSS."
+  },
+  {
+    "question": "Which property changes the font size in CSS on form?",
+    "options": [
+      "font-size",
+      "color",
+      "width",
+      "line-height"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'font-size' for CSS."
+  },
+  {
+    "question": "Which property hides an element in CSS on footer?",
+    "options": [
+      "position: absolute",
+      "display: none",
+      "visibility: hidden",
+      "opacity: 0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'display: none' for CSS."
+  },
+  {
+    "question": "Which property adds space inside an element in CSS on image?",
+    "options": [
+      "border",
+      "opacity",
+      "margin",
+      "padding"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'padding' for CSS."
+  },
+  {
+    "question": "Which selector targets an element by id in CSS on main?",
+    "options": [
+      "*id",
+      ".id",
+      "#id",
+      "id"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '#id' for CSS."
+  },
+  {
+    "question": "Which property adds space inside an element in CSS on card?",
+    "options": [
+      "opacity",
+      "border",
+      "padding",
+      "margin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'padding' for CSS."
+  },
+  {
+    "question": "Which property hides an element in CSS on container?",
+    "options": [
+      "position: absolute",
+      "visibility: hidden",
+      "opacity: 0",
+      "display: none"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'display: none' for CSS."
+  },
+  {
+    "question": "Which property changes text color in CSS on content?",
+    "options": [
+      "padding",
+      "font-size",
+      "color",
+      "margin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'color' for CSS."
+  },
+  {
+    "question": "Which file extension is used for CSS stylesheets in footer?",
+    "options": [
+      ".scss",
+      ".css",
+      ".js",
+      ".html"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '.css' for CSS."
+  },
+  {
+    "question": "Which property changes text color in CSS on image?",
+    "options": [
+      "font-size",
+      "margin",
+      "color",
+      "padding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'color' for CSS."
+  },
+  {
+    "question": "Which property adds space inside an element in CSS on footer?",
+    "options": [
+      "opacity",
+      "border",
+      "margin",
+      "padding"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'padding' for CSS."
+  },
+  {
+    "question": "Which syntax is a valid comment in CSS on image?",
+    "options": [
+      "<!-- -->",
+      "#",
+      "//",
+      "/* */"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '/* */' for CSS."
+  },
+  {
+    "question": "Which property changes the background color in CSS on container?",
+    "options": [
+      "background-color",
+      "color",
+      "display",
+      "border"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'background-color' for CSS."
+  },
+  {
+    "question": "Which property changes text color in CSS on footer?",
+    "options": [
+      "margin",
+      "color",
+      "padding",
+      "font-size"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'color' for CSS."
+  },
+  {
+    "question": "Which value sets the display type to block in CSS on header?",
+    "options": [
+      "display: block",
+      "position: absolute",
+      "visibility: hidden",
+      "float: left"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'display: block' for CSS."
+  },
+  {
+    "question": "Which property changes the background color in CSS on button?",
+    "options": [
+      "color",
+      "border",
+      "display",
+      "background-color"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'background-color' for CSS."
+  },
+  {
+    "question": "Which property hides an element in CSS on form?",
+    "options": [
+      "opacity: 0",
+      "visibility: hidden",
+      "display: none",
+      "position: absolute"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'display: none' for CSS."
+  },
+  {
+    "question": "Which value sets the display type to block in CSS on main?",
+    "options": [
+      "float: left",
+      "position: absolute",
+      "visibility: hidden",
+      "display: block"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'display: block' for CSS."
+  },
+  {
+    "question": "Which selector targets an element by id in CSS on card?",
+    "options": [
+      "id",
+      "*id",
+      ".id",
+      "#id"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '#id' for CSS."
+  },
+  {
+    "question": "Which property hides an element in CSS on image?",
+    "options": [
+      "visibility: hidden",
+      "opacity: 0",
+      "position: absolute",
+      "display: none"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'display: none' for CSS."
+  },
+  {
+    "question": "Which selector targets an element by id in CSS on footer?",
+    "options": [
+      "*id",
+      "id",
+      "#id",
+      ".id"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '#id' for CSS."
+  },
+  {
+    "question": "Which syntax is a valid comment in CSS on form?",
+    "options": [
+      "/* */",
+      "//",
+      "#",
+      "<!-- -->"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '/* */' for CSS."
+  },
+  {
+    "question": "Which property changes text color in CSS on nav?",
+    "options": [
+      "margin",
+      "padding",
+      "color",
+      "font-size"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'color' for CSS."
+  },
+  {
+    "question": "Which file extension is used for CSS stylesheets in button?",
+    "options": [
+      ".css",
+      ".js",
+      ".scss",
+      ".html"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.css' for CSS."
+  },
+  {
+    "question": "Which selector targets an element by id in CSS on container?",
+    "options": [
+      "id",
+      ".id",
+      "*id",
+      "#id"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '#id' for CSS."
+  },
+  {
+    "question": "Which property changes the font size in CSS on nav?",
+    "options": [
+      "width",
+      "color",
+      "line-height",
+      "font-size"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'font-size' for CSS."
+  },
+  {
+    "question": "Which selector targets an element by id in CSS on button?",
+    "options": [
+      "#id",
+      "id",
+      ".id",
+      "*id"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '#id' for CSS."
+  },
+  {
+    "question": "Which syntax is a valid comment in CSS on container?",
+    "options": [
+      "<!-- -->",
+      "//",
+      "/* */",
+      "#"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '/* */' for CSS."
+  },
+  {
+    "question": "Which syntax selects elements with a class name in CSS on content?",
+    "options": [
+      ".class",
+      "*class",
+      "class",
+      "#class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.class' for CSS."
+  },
+  {
+    "question": "Which property changes the background color in CSS on main?",
+    "options": [
+      "color",
+      "display",
+      "border",
+      "background-color"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'background-color' for CSS."
+  },
+  {
+    "question": "Which value sets the display type to block in CSS on image?",
+    "options": [
+      "float: left",
+      "visibility: hidden",
+      "position: absolute",
+      "display: block"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'display: block' for CSS."
+  },
+  {
+    "question": "Which file extension is used for CSS stylesheets in nav?",
+    "options": [
+      ".css",
+      ".html",
+      ".scss",
+      ".js"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.css' for CSS."
+  },
+  {
+    "question": "Which value sets the display type to block in CSS on form?",
+    "options": [
+      "position: absolute",
+      "float: left",
+      "display: block",
+      "visibility: hidden"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'display: block' for CSS."
+  },
+  {
+    "question": "Which property changes the background color in CSS on content?",
+    "options": [
+      "background-color",
+      "display",
+      "color",
+      "border"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'background-color' for CSS."
+  },
+  {
+    "question": "Which property changes the font size in CSS on content?",
+    "options": [
+      "color",
+      "width",
+      "line-height",
+      "font-size"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'font-size' for CSS."
+  },
+  {
+    "question": "Which syntax is a valid comment in CSS on button?",
+    "options": [
+      "<!-- -->",
+      "//",
+      "/* */",
+      "#"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '/* */' for CSS."
+  }
+]

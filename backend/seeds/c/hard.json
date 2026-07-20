@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which keyword defines a class in C loop logic?",
+    "options": [
+      "module",
+      "namespace",
+      "struct",
+      "package"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'struct' for C."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in C header files?",
+    "options": [
+      "aggregation",
+      "inheritance",
+      "composition",
+      "delegation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for C."
+  },
+  {
+    "question": "Which statement checks for equality in C error handling?",
+    "options": [
+      "==",
+      ":=",
+      "=>",
+      "="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for C."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C data types?",
+    "options": [
+      "queue",
+      "stack",
+      "array",
+      "linked list"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which keyword defines a class in C library imports?",
+    "options": [
+      "package",
+      "module",
+      "struct",
+      "namespace"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'struct' for C."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C header files?",
+    "options": [
+      "inheritance",
+      "exceptions",
+      "global variables",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for C."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in C function definitions?",
+    "options": [
+      "transient",
+      "volatile",
+      "dynamic",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for C."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C data types?",
+    "options": [
+      "encapsulation",
+      "abstraction",
+      "polymorphism",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for C."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C error handling?",
+    "options": [
+      "polymorphism",
+      "abstraction",
+      "encapsulation",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for C."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C loop logic?",
+    "options": [
+      "inheritance",
+      "exceptions",
+      "global variables",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for C."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C conditional logic?",
+    "options": [
+      "linked list",
+      "queue",
+      "stack",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C code in data types?",
+    "options": [
+      "const",
+      "mutable",
+      "let",
+      "var"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which keyword defines a class in C input/output?",
+    "options": [
+      "struct",
+      "package",
+      "module",
+      "namespace"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'struct' for C."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C applications in error handling?",
+    "options": [
+      "threads",
+      "closures",
+      "generics",
+      "inheritance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'threads' for C."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in C input/output?",
+    "options": [
+      "aggregation",
+      "inheritance",
+      "composition",
+      "delegation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for C."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C source code?",
+    "options": [
+      "encapsulation",
+      "abstraction",
+      "polymorphism",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for C."
+  },
+  {
+    "question": "Which statement best describes memory management in C header files?",
+    "options": [
+      "syntax highlighting",
+      "implicit typing",
+      "manual allocation and free",
+      "runtime binding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'manual allocation and free' for C."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C data types?",
+    "options": [
+      "None handling",
+      "global variables",
+      "exceptions",
+      "inheritance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None handling' for C."
+  },
+  {
+    "question": "Which statement best describes memory management in C source code?",
+    "options": [
+      "runtime binding",
+      "syntax highlighting",
+      "manual allocation and free",
+      "implicit typing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'manual allocation and free' for C."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C header files?",
+    "options": [
+      "array",
+      "linked list",
+      "queue",
+      "stack"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C code in loop logic?",
+    "options": [
+      "var",
+      "const",
+      "mutable",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which statement best describes memory management in C library imports?",
+    "options": [
+      "runtime binding",
+      "implicit typing",
+      "manual allocation and free",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'manual allocation and free' for C."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C library imports?",
+    "options": [
+      "polymorphism",
+      "abstraction",
+      "encapsulation",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for C."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C applications in library imports?",
+    "options": [
+      "closures",
+      "inheritance",
+      "threads",
+      "generics"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'threads' for C."
+  },
+  {
+    "question": "Which statement best describes memory management in C conditional logic?",
+    "options": [
+      "syntax highlighting",
+      "manual allocation and free",
+      "runtime binding",
+      "implicit typing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'manual allocation and free' for C."
+  },
+  {
+    "question": "Which keyword defines a class in C data types?",
+    "options": [
+      "module",
+      "struct",
+      "namespace",
+      "package"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'struct' for C."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C memory management?",
+    "options": [
+      "array",
+      "queue",
+      "stack",
+      "linked list"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C input/output?",
+    "options": [
+      "abstraction",
+      "polymorphism",
+      "encapsulation",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for C."
+  },
+  {
+    "question": "Which statement best describes memory management in C input/output?",
+    "options": [
+      "implicit typing",
+      "runtime binding",
+      "manual allocation and free",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'manual allocation and free' for C."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in C data types?",
+    "options": [
+      "dynamic",
+      "static",
+      "transient",
+      "volatile"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for C."
+  },
+  {
+    "question": "Which keyword defines a class in C error handling?",
+    "options": [
+      "module",
+      "struct",
+      "namespace",
+      "package"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'struct' for C."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C code in library imports?",
+    "options": [
+      "const",
+      "let",
+      "var",
+      "mutable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which statement checks for equality in C function definitions?",
+    "options": [
+      "==",
+      ":=",
+      "=>",
+      "="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for C."
+  },
+  {
+    "question": "Which keyword defines a class in C conditional logic?",
+    "options": [
+      "namespace",
+      "struct",
+      "module",
+      "package"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'struct' for C."
+  },
+  {
+    "question": "Which statement checks for equality in C conditional logic?",
+    "options": [
+      ":=",
+      "=>",
+      "=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for C."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C code in error handling?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "mutable"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C applications in function definitions?",
+    "options": [
+      "threads",
+      "closures",
+      "inheritance",
+      "generics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'threads' for C."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C memory management?",
+    "options": [
+      "global variables",
+      "exceptions",
+      "None handling",
+      "inheritance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for C."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C code in input/output?",
+    "options": [
+      "var",
+      "mutable",
+      "const",
+      "let"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C function definitions?",
+    "options": [
+      "modularity",
+      "encapsulation",
+      "abstraction",
+      "polymorphism"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'modularity' for C."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C code in source code?",
+    "options": [
+      "const",
+      "mutable",
+      "var",
+      "let"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which statement best describes memory management in C memory management?",
+    "options": [
+      "manual allocation and free",
+      "syntax highlighting",
+      "runtime binding",
+      "implicit typing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'manual allocation and free' for C."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C error handling?",
+    "options": [
+      "None handling",
+      "inheritance",
+      "global variables",
+      "exceptions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None handling' for C."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C loop logic?",
+    "options": [
+      "stack",
+      "queue",
+      "linked list",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in C applications in loop logic?",
+    "options": [
+      "inheritance",
+      "closures",
+      "generics",
+      "threads"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'threads' for C."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in C source code?",
+    "options": [
+      "global variables",
+      "inheritance",
+      "None handling",
+      "exceptions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for C."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in C memory management?",
+    "options": [
+      "abstraction",
+      "polymorphism",
+      "encapsulation",
+      "modularity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'modularity' for C."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in C code in memory management?",
+    "options": [
+      "var",
+      "const",
+      "mutable",
+      "let"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'const' for C."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in C source code?",
+    "options": [
+      "stack",
+      "queue",
+      "linked list",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for C."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in C error handling?",
+    "options": [
+      "delegation",
+      "inheritance",
+      "aggregation",
+      "composition"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for C."
+  }
+]

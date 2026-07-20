@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which phrase describes the main function signature in Go library imports?",
+    "options": [
+      "func main()",
+      "function main() {}",
+      "main()",
+      "def main():"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'func main()' for Go."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Go loop logic?",
+    "options": [
+      "use lib;",
+      "include <lib>",
+      "require(\"lib\")",
+      "import \"fmt\""
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'import \"fmt\"' for Go."
+  },
+  {
+    "question": "Which code line uses string concatenation in Go header files?",
+    "options": [
+      "\"Hello\" . \"World\"",
+      "concat(\"Hello\", \"World\")",
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\""
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Go."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Go loop logic?",
+    "options": [
+      "main()",
+      "func main()",
+      "function main() {}",
+      "def main():"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'func main()' for Go."
+  },
+  {
+    "question": "Which phrase describes the main function signature in Go header files?",
+    "options": [
+      "main()",
+      "def main():",
+      "function main() {}",
+      "func main()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'func main()' for Go."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Go library imports?",
+    "options": [
+      "25",
+      "10",
+      "2",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '10' for Go."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Go header files?",
+    "options": [
+      "break",
+      "return",
+      "stop",
+      "continue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'break' for Go."
+  },
+  {
+    "question": "Which keyword declares a constant value in Go loop logic?",
+    "options": [
+      "const",
+      "var",
+      "let",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for Go."
+  },
+  {
+    "question": "Which operator checks equality in Go header files?",
+    "options": [
+      "!=",
+      "==",
+      "=",
+      "==="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Go."
+  },
+  {
+    "question": "Which option fills the blank in Go header files: const x = 5; x = 10; // __? ",
+    "options": [
+      "declaration",
+      "assignment",
+      "comparison",
+      "iteration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'assignment' for Go."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Go source code?",
+    "options": [
+      "static",
+      "let",
+      "const",
+      "var"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'const' for Go."
+  },
+  {
+    "question": "Which file extension is standard for Go header files?",
+    "options": [
+      ".go",
+      ".md",
+      ".json",
+      ".txt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.go' for Go."
+  },
+  {
+    "question": "Which file extension is standard for Go loop logic?",
+    "options": [
+      ".go",
+      ".txt",
+      ".json",
+      ".md"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.go' for Go."
+  },
+  {
+    "question": "Which sign is used to assign values in Go loop logic?",
+    "options": [
+      "=",
+      "=>",
+      "==",
+      ":="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '=' for Go."
+  },
+  {
+    "question": "Which operator checks equality in Go library imports?",
+    "options": [
+      "=",
+      "==",
+      "!=",
+      "==="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Go."
+  },
+  {
+    "question": "Which operator checks equality in Go conditional logic?",
+    "options": [
+      "!=",
+      "==",
+      "===",
+      "="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Go."
+  },
+  {
+    "question": "Which code line uses string concatenation in Go source code?",
+    "options": [
+      "concat(\"Hello\", \"World\")",
+      "join(\"Hello\", \"World\")",
+      "\"Hello\" . \"World\"",
+      "\"Hello\" + \"World\""
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Go."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in Go loop logic?",
+    "options": [
+      "comments",
+      "classes",
+      "functions",
+      "variables"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'functions' for Go."
+  },
+  {
+    "question": "Which value is produced by 2 * 5 in Go source code?",
+    "options": [
+      "10",
+      "0",
+      "2",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '10' for Go."
+  },
+  {
+    "question": "Which operator checks equality in Go loop logic?",
+    "options": [
+      "==",
+      "=",
+      "!=",
+      "==="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Go."
+  },
+  {
+    "question": "Which value is commonly used for true in Go library imports?",
+    "options": [
+      "False",
+      "true",
+      "false",
+      "True"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'true' for Go."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Go conditional logic?",
+    "options": [
+      "continue",
+      "stop",
+      "break",
+      "return"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'break' for Go."
+  },
+  {
+    "question": "Which value represents false in Go source code?",
+    "options": [
+      "True",
+      "False",
+      "true",
+      "false"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'false' for Go."
+  },
+  {
+    "question": "Which operator checks equality in Go function definitions?",
+    "options": [
+      "==",
+      "=",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Go."
+  },
+  {
+    "question": "Which concept describes reusable code blocks in Go header files?",
+    "options": [
+      "classes",
+      "comments",
+      "functions",
+      "variables"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'functions' for Go."
+  },
+  {
+    "question": "Which file extension is standard for Go function definitions?",
+    "options": [
+      ".json",
+      ".txt",
+      ".md",
+      ".go"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '.go' for Go."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Go source code?",
+    "options": [
+      "stop",
+      "continue",
+      "break",
+      "return"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'break' for Go."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Go library imports?",
+    "options": [
+      "console.log(\"Hello\")",
+      "print(\"Hello\")",
+      "echo \"Hello\";",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'print(\"Hello\")' for Go."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Go source code?",
+    "options": [
+      "require(\"lib\")",
+      "include <lib>",
+      "import \"fmt\"",
+      "use lib;"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'import \"fmt\"' for Go."
+  },
+  {
+    "question": "Which value represents false in Go conditional logic?",
+    "options": [
+      "false",
+      "True",
+      "False",
+      "true"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'false' for Go."
+  },
+  {
+    "question": "Which symbol begins a single-line comment in Go loop logic?",
+    "options": [
+      "//",
+      "/* */",
+      "<!-- -->",
+      "#"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '//' for Go."
+  },
+  {
+    "question": "Which keyword begins a loop in Go header files?",
+    "options": [
+      "while",
+      "repeat",
+      "loop",
+      "for"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'for' for Go."
+  },
+  {
+    "question": "Which file extension is standard for Go source code?",
+    "options": [
+      ".go",
+      ".json",
+      ".md",
+      ".txt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '.go' for Go."
+  },
+  {
+    "question": "Which sign is used to assign values in Go source code?",
+    "options": [
+      "==",
+      ":=",
+      "=>",
+      "="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '=' for Go."
+  },
+  {
+    "question": "Which statement imports libraries or packages in Go header files?",
+    "options": [
+      "use lib;",
+      "require(\"lib\")",
+      "include <lib>",
+      "import \"fmt\""
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'import \"fmt\"' for Go."
+  },
+  {
+    "question": "Which code line uses string concatenation in Go loop logic?",
+    "options": [
+      "\"Hello\" . \"World\"",
+      "join(\"Hello\", \"World\")",
+      "concat(\"Hello\", \"World\")",
+      "\"Hello\" + \"World\""
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Go."
+  },
+  {
+    "question": "Which value is commonly used for true in Go source code?",
+    "options": [
+      "True",
+      "False",
+      "true",
+      "false"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'true' for Go."
+  },
+  {
+    "question": "Which keyword is used to exit a loop early in Go loop logic?",
+    "options": [
+      "return",
+      "stop",
+      "continue",
+      "break"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'break' for Go."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Go header files?",
+    "options": [
+      "console.log(\"Hello\")",
+      "echo \"Hello\";",
+      "print(\"Hello\")",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'print(\"Hello\")' for Go."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Go loop logic?",
+    "options": [
+      "console.log(\"Hello\")",
+      "echo \"Hello\";",
+      "print(\"Hello\")",
+      "puts \"Hello\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'print(\"Hello\")' for Go."
+  },
+  {
+    "question": "What is the result of 8 - 3 in Go header files?",
+    "options": [
+      "8",
+      "2",
+      "5",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is '5' for Go."
+  },
+  {
+    "question": "Which code line correctly declares a constant in Go loop logic?",
+    "options": [
+      "const",
+      "let",
+      "var",
+      "static"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'const' for Go."
+  },
+  {
+    "question": "What is the result of 8 - 3 in Go library imports?",
+    "options": [
+      "8",
+      "3",
+      "2",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '5' for Go."
+  },
+  {
+    "question": "Which value is commonly used for true in Go header files?",
+    "options": [
+      "True",
+      "false",
+      "true",
+      "False"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'true' for Go."
+  },
+  {
+    "question": "Which keyword begins a loop in Go loop logic?",
+    "options": [
+      "while",
+      "repeat",
+      "for",
+      "loop"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'for' for Go."
+  },
+  {
+    "question": "What is the result of 8 - 3 in Go loop logic?",
+    "options": [
+      "3",
+      "2",
+      "8",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '5' for Go."
+  },
+  {
+    "question": "What is the result of 8 - 3 in Go source code?",
+    "options": [
+      "2",
+      "5",
+      "8",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '5' for Go."
+  },
+  {
+    "question": "Which keyword begins a loop in Go library imports?",
+    "options": [
+      "repeat",
+      "for",
+      "while",
+      "loop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'for' for Go."
+  },
+  {
+    "question": "Which code line prints \"Hello\" in Go source code?",
+    "options": [
+      "console.log(\"Hello\")",
+      "puts \"Hello\"",
+      "echo \"Hello\";",
+      "print(\"Hello\")"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'print(\"Hello\")' for Go."
+  },
+  {
+    "question": "Which code line uses string concatenation in Go conditional logic?",
+    "options": [
+      "\"Hello\" + \"World\"",
+      "\"Hello\" . \"World\"",
+      "join(\"Hello\", \"World\")",
+      "concat(\"Hello\", \"World\")"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Go."
+  }
+]

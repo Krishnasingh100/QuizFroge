@@ -1,0 +1,552 @@
+[
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Python input/output?",
+    "options": [
+      "inheritance",
+      "aggregation",
+      "delegation",
+      "composition"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'inheritance' for Python."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Python error handling?",
+    "options": [
+      "exceptions",
+      "inheritance",
+      "None handling",
+      "global variables"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for Python."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Python applications in loop logic?",
+    "options": [
+      "generics",
+      "async/await",
+      "closures",
+      "inheritance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async/await' for Python."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Python code in data types?",
+    "options": [
+      "None",
+      "var",
+      "let",
+      "mutable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'None' for Python."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Python applications in source code?",
+    "options": [
+      "inheritance",
+      "async/await",
+      "closures",
+      "generics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async/await' for Python."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Python input/output?",
+    "options": [
+      "exceptions",
+      "None handling",
+      "inheritance",
+      "global variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'None handling' for Python."
+  },
+  {
+    "question": "Which keyword defines a class in Python function definitions?",
+    "options": [
+      "module",
+      "package",
+      "namespace",
+      "class"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'class' for Python."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Python memory management?",
+    "options": [
+      "array",
+      "queue",
+      "stack",
+      "linked list"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Python."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Python code in memory management?",
+    "options": [
+      "mutable",
+      "None",
+      "let",
+      "var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'None' for Python."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Python applications in function definitions?",
+    "options": [
+      "async/await",
+      "inheritance",
+      "generics",
+      "closures"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'async/await' for Python."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Python data types?",
+    "options": [
+      "static",
+      "dynamic",
+      "volatile",
+      "transient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for Python."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Python error handling?",
+    "options": [
+      "polymorphism",
+      "modularity",
+      "abstraction",
+      "encapsulation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Python."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Python library imports?",
+    "options": [
+      "static",
+      "volatile",
+      "dynamic",
+      "transient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for Python."
+  },
+  {
+    "question": "Which statement best describes memory management in Python data types?",
+    "options": [
+      "implicit typing",
+      "automatic garbage collection",
+      "syntax highlighting",
+      "runtime binding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for Python."
+  },
+  {
+    "question": "Which keyword defines a class in Python conditional logic?",
+    "options": [
+      "module",
+      "namespace",
+      "package",
+      "class"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'class' for Python."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Python input/output?",
+    "options": [
+      "volatile",
+      "transient",
+      "dynamic",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'static' for Python."
+  },
+  {
+    "question": "Which statement checks for equality in Python header files?",
+    "options": [
+      "=>",
+      ":=",
+      "=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Python source code?",
+    "options": [
+      "polymorphism",
+      "modularity",
+      "encapsulation",
+      "abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'modularity' for Python."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Python data types?",
+    "options": [
+      "aggregation",
+      "inheritance",
+      "composition",
+      "delegation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for Python."
+  },
+  {
+    "question": "Which statement best describes memory management in Python memory management?",
+    "options": [
+      "runtime binding",
+      "implicit typing",
+      "syntax highlighting",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Python."
+  },
+  {
+    "question": "Which statement best describes memory management in Python function definitions?",
+    "options": [
+      "syntax highlighting",
+      "automatic garbage collection",
+      "runtime binding",
+      "implicit typing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for Python."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Python input/output?",
+    "options": [
+      "array",
+      "linked list",
+      "stack",
+      "queue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'array' for Python."
+  },
+  {
+    "question": "Which statement checks for equality in Python input/output?",
+    "options": [
+      "=",
+      "==",
+      ":=",
+      "=>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Python conditional logic?",
+    "options": [
+      "dynamic",
+      "volatile",
+      "static",
+      "transient"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'static' for Python."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Python library imports?",
+    "options": [
+      "delegation",
+      "aggregation",
+      "composition",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Python."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Python conditional logic?",
+    "options": [
+      "queue",
+      "stack",
+      "linked list",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Python."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Python code in library imports?",
+    "options": [
+      "mutable",
+      "let",
+      "var",
+      "None"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None' for Python."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Python header files?",
+    "options": [
+      "delegation",
+      "composition",
+      "inheritance",
+      "aggregation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'inheritance' for Python."
+  },
+  {
+    "question": "Which statement best describes memory management in Python library imports?",
+    "options": [
+      "syntax highlighting",
+      "implicit typing",
+      "automatic garbage collection",
+      "runtime binding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'automatic garbage collection' for Python."
+  },
+  {
+    "question": "Which keyword defines a class in Python memory management?",
+    "options": [
+      "package",
+      "class",
+      "namespace",
+      "module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'class' for Python."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Python code in loop logic?",
+    "options": [
+      "let",
+      "mutable",
+      "var",
+      "None"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None' for Python."
+  },
+  {
+    "question": "Which keyword indicates an immutable value in Python code in error handling?",
+    "options": [
+      "var",
+      "mutable",
+      "None",
+      "let"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None' for Python."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Python function definitions?",
+    "options": [
+      "dynamic",
+      "static",
+      "volatile",
+      "transient"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for Python."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Python memory management?",
+    "options": [
+      "volatile",
+      "static",
+      "transient",
+      "dynamic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'static' for Python."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Python data types?",
+    "options": [
+      "inheritance",
+      "exceptions",
+      "None handling",
+      "global variables"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'None handling' for Python."
+  },
+  {
+    "question": "Which mechanism helps avoid null reference errors in Python header files?",
+    "options": [
+      "global variables",
+      "exceptions",
+      "inheritance",
+      "None handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'None handling' for Python."
+  },
+  {
+    "question": "Which statement checks for equality in Python conditional logic?",
+    "options": [
+      "=>",
+      "=",
+      ":=",
+      "=="
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Python loop logic?",
+    "options": [
+      "static",
+      "volatile",
+      "dynamic",
+      "transient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for Python."
+  },
+  {
+    "question": "Which feature is commonly used for concurrency in Python applications in data types?",
+    "options": [
+      "closures",
+      "async/await",
+      "inheritance",
+      "generics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'async/await' for Python."
+  },
+  {
+    "question": "Which statement checks for equality in Python memory management?",
+    "options": [
+      "==",
+      "=>",
+      "=",
+      ":="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which statement checks for equality in Python function definitions?",
+    "options": [
+      ":=",
+      "==",
+      "=>",
+      "="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is '==' for Python."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Python function definitions?",
+    "options": [
+      "delegation",
+      "inheritance",
+      "aggregation",
+      "composition"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'inheritance' for Python."
+  },
+  {
+    "question": "Which statement best describes memory management in Python loop logic?",
+    "options": [
+      "syntax highlighting",
+      "automatic garbage collection",
+      "implicit typing",
+      "runtime binding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is 'automatic garbage collection' for Python."
+  },
+  {
+    "question": "Which statement best describes memory management in Python input/output?",
+    "options": [
+      "syntax highlighting",
+      "runtime binding",
+      "implicit typing",
+      "automatic garbage collection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'automatic garbage collection' for Python."
+  },
+  {
+    "question": "Which statement best describes memory management in Python source code?",
+    "options": [
+      "automatic garbage collection",
+      "runtime binding",
+      "syntax highlighting",
+      "implicit typing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'automatic garbage collection' for Python."
+  },
+  {
+    "question": "Which term describes code reuse through a function call in Python loop logic?",
+    "options": [
+      "polymorphism",
+      "encapsulation",
+      "modularity",
+      "abstraction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is 'modularity' for Python."
+  },
+  {
+    "question": "Which data structure is fastest for random access by index in Python data types?",
+    "options": [
+      "queue",
+      "linked list",
+      "stack",
+      "array"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'array' for Python."
+  },
+  {
+    "question": "Which concept ensures a variable keeps its state across function calls in Python source code?",
+    "options": [
+      "static",
+      "dynamic",
+      "volatile",
+      "transient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'static' for Python."
+  },
+  {
+    "question": "Which relationship lets one type inherit behavior from another in Python source code?",
+    "options": [
+      "delegation",
+      "aggregation",
+      "composition",
+      "inheritance"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is 'inheritance' for Python."
+  },
+  {
+    "question": "Which statement best describes memory management in Python error handling?",
+    "options": [
+      "automatic garbage collection",
+      "implicit typing",
+      "runtime binding",
+      "syntax highlighting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is 'automatic garbage collection' for Python."
+  }
+]
