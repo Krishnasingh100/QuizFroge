@@ -1,10 +1,16 @@
-const fs = require('fs');
-const path = require('path');
-const mongoose = require('mongoose');
-const dotenv = require('dotenv');
-const Question = require('../models/Question');
+import fs from 'fs';
+import path from 'path';
+import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+import { fileURLToPath } from 'url';
+
+import Question from '../models/Question.js';
 
 dotenv.config();
+
+// Recreate __dirname for ES Modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const SEEDS_DIR = path.join(__dirname, '../seeds');
 const DIFFICULTIES = ['easy', 'medium', 'hard'];
@@ -52,7 +58,10 @@ const seedQuestions = async () => {
 
         await Question.insertMany(docs);
         totalInserted += docs.length;
-        console.log(`Inserted ${docs.length} questions -> ${language} / ${difficulty}`);
+
+        console.log(
+          `Inserted ${docs.length} questions -> ${language} / ${difficulty}`
+        );
       }
     }
 

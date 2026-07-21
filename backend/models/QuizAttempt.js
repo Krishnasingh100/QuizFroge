@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const quizAttemptSchema = new mongoose.Schema(
   {
@@ -33,9 +33,13 @@ const quizAttemptSchema = new mongoose.Schema(
       default: 0,
     },
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+  }
 );
 
 quizAttemptSchema.index({ language: 1, percentage: -1 });
 
-module.exports = mongoose.model('QuizAttempt', quizAttemptSchema);
+const QuizAttempt = mongoose.model('QuizAttempt', quizAttemptSchema);
+
+export default QuizAttempt;

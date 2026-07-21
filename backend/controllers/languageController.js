@@ -24,22 +24,22 @@ const LANGUAGES = [
   { slug: 'redis', name: 'Redis', description: 'In-memory data store, caching, and pub/sub' },
   { slug: 'bash', name: 'Bash', description: 'Shell scripting, automation, and CLI tools' },
   { slug: 'tailwind', name: 'Tailwind CSS', description: 'Utility-first CSS framework and design' },
-]
-const getLanguages = async (req, res) => {
+];
+
+export const getLanguages = async (req, res) => {
   res.json({ languages: LANGUAGES });
 };
 
-const getLanguageBySlug = async (req, res) => {
-  const language = LANGUAGES.find((item) => item.slug === req.params.slug);
+export const getLanguageBySlug = async (req, res) => {
+  const language = LANGUAGES.find(
+    (item) => item.slug === req.params.slug
+  );
 
   if (!language) {
-    return res.status(404).json({ message: 'Language not found' });
+    return res.status(404).json({
+      message: 'Language not found',
+    });
   }
 
   res.json({ language });
-};
-
-module.exports = {
-  getLanguages,
-  getLanguageBySlug,
 };

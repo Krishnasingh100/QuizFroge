@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const questionSchema = new mongoose.Schema(
   {
@@ -36,9 +36,13 @@ const questionSchema = new mongoose.Schema(
       default: '',
     },
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+  }
 );
 
 questionSchema.index({ language: 1, difficulty: 1 });
 
-module.exports = mongoose.model('Question', questionSchema);
+const Question = mongoose.model('Question', questionSchema);
+
+export default Question;

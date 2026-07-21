@@ -1,10 +1,13 @@
-require('dotenv').config();
-const express = require('express');
-const cors = require('cors');
-const connectDB = require('./config/db');
-const languageRoutes = require('./routes/languageRoutes');
-const quizRoutes = require('./routes/quizRoutes');
-const errorHandler = require('./middleware/errorHandler');
+import dotenv from 'dotenv';
+import express from 'express';
+import cors from 'cors';
+
+import connectDB from './config/db.js';
+import languageRoutes from './routes/languageRoutes.js';
+import quizRoutes from './routes/quizRoutes.js';
+import errorHandler from './middleware/errorHandler.js';
+
+dotenv.config();
 
 connectDB();
 
@@ -14,7 +17,10 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'QuizForge API is running' });
+  res.json({
+    status: 'ok',
+    message: 'QuizForge API is running',
+  });
 });
 
 app.use('/api/languages', languageRoutes);

@@ -1,34 +1,45 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
-const userSchema = new mongoose.Schema(
+const quizAttemptSchema = new mongoose.Schema(
   {
-    name: {
-      type: String,
-      required: true,
-      trim: true,
+    userId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      default: null,
     },
-    email: {
-      type: String,
-      required: true,
-      unique: true,
-      lowercase: true,
-      trim: true,
-    },
-    password: {
+    language: {
       type: String,
       required: true,
     },
-    totalQuizzes: {
+    difficulty: {
+      type: String,
+      required: true,
+      enum: ['easy', 'medium', 'hard'],
+    },
+    score: {
+      type: Number,
+      required: true,
+    },
+    totalQuestions: {
+      type: Number,
+      required: true,
+    },
+    percentage: {
+      type: Number,
+      required: true,
+    },
+    timeTaken: {
       type: Number,
       default: 0,
     },
-    bestScores: {
-      type: Map,
-      of: Number,
-      default: {},
-    },
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+  }
 );
 
-module.exports = mongoose.model('User', userSchema);
+quizAttemptSchema.index({ language: 1, percentage: -1 });
+
+const QuizAttempt = mongoose.model('QuizAttempt', quizAttemptSchema);
+
+export default QuizAttempt;
