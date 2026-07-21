@@ -1,552 +1,130 @@
 [
   {
-    "question": "Which keyword defines a class in Java loop logic?",
-    "options": [
-      "namespace",
-      "module",
-      "class",
-      "package"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'class' for Java."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Java memory management?",
-    "options": [
-      "encapsulation",
-      "abstraction",
-      "modularity",
-      "polymorphism"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'modularity' for Java."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Java data types?",
-    "options": [
-      "abstraction",
-      "encapsulation",
-      "modularity",
-      "polymorphism"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'modularity' for Java."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Java loop logic?",
-    "options": [
-      "exceptions",
-      "inheritance",
-      "optional types",
-      "global variables"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'optional types' for Java."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Java data types?",
-    "options": [
-      "optional types",
-      "global variables",
-      "inheritance",
-      "exceptions"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'optional types' for Java."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Java library imports?",
-    "options": [
-      "modularity",
-      "encapsulation",
-      "abstraction",
-      "polymorphism"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'modularity' for Java."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Java source code?",
-    "options": [
-      "static",
-      "volatile",
-      "dynamic",
-      "transient"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'static' for Java."
-  },
-  {
-    "question": "Which data structure is fastest for random access by index in Java library imports?",
-    "options": [
-      "stack",
-      "linked list",
-      "queue",
-      "array"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'array' for Java."
-  },
-  {
-    "question": "Which statement checks for equality in Java input/output?",
-    "options": [
-      "==",
-      "=",
-      ":=",
-      "=>"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '==' for Java."
-  },
-  {
-    "question": "Which statement best describes memory management in Java loop logic?",
-    "options": [
-      "syntax highlighting",
-      "implicit typing",
-      "automatic garbage collection",
-      "runtime binding"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'automatic garbage collection' for Java."
-  },
-  {
-    "question": "Which keyword defines a class in Java source code?",
-    "options": [
-      "class",
-      "module",
-      "package",
-      "namespace"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'class' for Java."
-  },
-  {
-    "question": "Which statement best describes memory management in Java function definitions?",
-    "options": [
-      "syntax highlighting",
-      "automatic garbage collection",
-      "implicit typing",
-      "runtime binding"
-    ],
+    "question": "What is the contract between equals() and hashCode()?",
+    "options": ["Unequal objects must have different hash codes", "If two objects are equal, they must have the same hash code", "If two objects have the same hash code, they must be equal", "There is no formal contract between them"],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'automatic garbage collection' for Java."
+    "explanation": "If `a.equals(b)` is true, `a.hashCode() == b.hashCode()` must also be true. The reverse is not required."
   },
   {
-    "question": "Which term describes code reuse through a function call in Java source code?",
-    "options": [
-      "modularity",
-      "abstraction",
-      "polymorphism",
-      "encapsulation"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'modularity' for Java."
-  },
-  {
-    "question": "Which statement best describes memory management in Java input/output?",
-    "options": [
-      "syntax highlighting",
-      "implicit typing",
-      "runtime binding",
-      "automatic garbage collection"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'automatic garbage collection' for Java."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Java code in loop logic?",
-    "options": [
-      "var",
-      "mutable",
-      "let",
-      "final"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'final' for Java."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Java code in conditional logic?",
-    "options": [
-      "let",
-      "final",
-      "mutable",
-      "var"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'final' for Java."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Java input/output?",
-    "options": [
-      "polymorphism",
-      "modularity",
-      "abstraction",
-      "encapsulation"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'modularity' for Java."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Java header files?",
-    "options": [
-      "polymorphism",
-      "modularity",
-      "abstraction",
-      "encapsulation"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'modularity' for Java."
-  },
-  {
-    "question": "Which feature is commonly used for concurrency in Java applications in loop logic?",
-    "options": [
-      "threads",
-      "generics",
-      "inheritance",
-      "closures"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'threads' for Java."
-  },
-  {
-    "question": "Which keyword defines a class in Java error handling?",
-    "options": [
-      "module",
-      "namespace",
-      "package",
-      "class"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'class' for Java."
-  },
-  {
-    "question": "Which feature is commonly used for concurrency in Java applications in error handling?",
-    "options": [
-      "generics",
-      "closures",
-      "threads",
-      "inheritance"
-    ],
+    "question": "In Java memory management, where are static variables stored?",
+    "options": ["Heap memory", "Stack memory", "Method Area (Metaspace)", "PC Register"],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'threads' for Java."
+    "explanation": "Static variables and class metadata are stored in the Method Area, which is implemented as Metaspace in Java 8+."
   },
   {
-    "question": "Which feature is commonly used for concurrency in Java applications in function definitions?",
-    "options": [
-      "generics",
-      "closures",
-      "inheritance",
-      "threads"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'threads' for Java."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Java data types?",
-    "options": [
-      "static",
-      "dynamic",
-      "volatile",
-      "transient"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'static' for Java."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Java input/output?",
-    "options": [
-      "transient",
-      "volatile",
-      "dynamic",
-      "static"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'static' for Java."
-  },
-  {
-    "question": "Which keyword defines a class in Java header files?",
-    "options": [
-      "namespace",
-      "package",
-      "class",
-      "module"
-    ],
+    "question": "What happens if a thread calls wait() without holding the object's monitor lock?",
+    "options": ["The thread sleeps indefinitely", "Compile-time error", "IllegalMonitorStateException is thrown", "The lock is automatically acquired"],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'class' for Java."
+    "explanation": "Calling `wait()`, `notify()`, or `notifyAll()` without synchronizing on the object throws an `IllegalMonitorStateException` at runtime."
   },
   {
-    "question": "Which keyword indicates an immutable value in Java code in memory management?",
-    "options": [
-      "mutable",
-      "var",
-      "let",
-      "final"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'final' for Java."
-  },
-  {
-    "question": "Which statement checks for equality in Java source code?",
-    "options": [
-      "==",
-      ":=",
-      "=",
-      "=>"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '==' for Java."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Java code in input/output?",
-    "options": [
-      "let",
-      "mutable",
-      "var",
-      "final"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'final' for Java."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Java code in data types?",
-    "options": [
-      "let",
-      "var",
-      "final",
-      "mutable"
-    ],
+    "question": "Which garbage collector is the default in Java 11 and later?",
+    "options": ["Serial GC", "Parallel GC", "G1 GC", "ZGC"],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'final' for Java."
+    "explanation": "The Garbage-First (G1) collector has been the default GC since Java 9."
   },
   {
-    "question": "Which keyword defines a class in Java memory management?",
-    "options": [
-      "namespace",
-      "module",
-      "package",
-      "class"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'class' for Java."
+    "question": "What is Type Erasure in Java Generics?",
+    "options": ["A process where the compiler removes generic type information at runtime", "A security feature that deletes unused types", "A runtime error when casting generic collections", "A method to clear a collection's memory"],
+    "correctAnswer": 0,
+    "explanation": "Java uses Type Erasure to ensure backward compatibility. Generic type parameters are replaced with their bounds or `Object` at compile-time."
   },
   {
-    "question": "Which term describes code reuse through a function call in Java function definitions?",
-    "options": [
-      "polymorphism",
-      "modularity",
-      "encapsulation",
-      "abstraction"
-    ],
+    "question": "How does the 'volatile' keyword work under the hood?",
+    "options": ["It locks the object in memory", "It forces threads to read from and write to main memory directly", "It prevents garbage collection of the variable", "It caches the variable in the CPU register"],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'modularity' for Java."
+    "explanation": "`volatile` establishes a happens-before relationship, bypassing the thread's local CPU cache to ensure visibility across all threads."
   },
   {
-    "question": "Which data structure is fastest for random access by index in Java data types?",
-    "options": [
-      "stack",
-      "linked list",
-      "queue",
-      "array"
-    ],
+    "question": "What is a memory leak in Java?",
+    "options": ["When the JVM runs out of Stack memory", "When C++ code accessed via JNI crashes", "When an object is unreachable but not garbage collected", "When objects are no longer used but still referenced by active objects"],
     "correctAnswer": 3,
-    "explanation": "The correct answer is 'array' for Java."
+    "explanation": "Because the Garbage Collector only cleans up unreferenced objects, holding unnecessary references (e.g., in static collections) prevents memory from being freed."
   },
   {
-    "question": "Which statement best describes memory management in Java memory management?",
-    "options": [
-      "automatic garbage collection",
-      "runtime binding",
-      "syntax highlighting",
-      "implicit typing"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'automatic garbage collection' for Java."
+    "question": "Which of the following creates a thread-safe singleton in a multi-threaded environment without synchronization overhead?",
+    "options": ["Lazy initialization", "Double-checked locking", "Initialization-on-demand holder idiom", "ThreadLocal singleton"],
+    "correctAnswer": 2,
+    "explanation": "The Initialization-on-demand holder idiom uses a static inner class. The classloader handles the synchronization mechanism implicitly when the inner class is loaded."
   },
   {
-    "question": "Which statement checks for equality in Java error handling?",
-    "options": [
-      ":=",
-      "=",
-      "=>",
-      "=="
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '==' for Java."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Java error handling?",
-    "options": [
-      "modularity",
-      "abstraction",
-      "encapsulation",
-      "polymorphism"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'modularity' for Java."
-  },
-  {
-    "question": "Which data structure is fastest for random access by index in Java function definitions?",
-    "options": [
-      "array",
-      "queue",
-      "linked list",
-      "stack"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'array' for Java."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Java input/output?",
-    "options": [
-      "global variables",
-      "optional types",
-      "inheritance",
-      "exceptions"
-    ],
+    "question": "What is the purpose of the CountDownLatch in java.util.concurrent?",
+    "options": ["To cycle through a set of threads repeatedly", "To wait until a set of operations in other threads completes", "To manage thread pool sizes dynamically", "To lock a variable during read operations"],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'optional types' for Java."
+    "explanation": "A `CountDownLatch` initializes with a count and makes one or more threads wait until the count reaches zero via `countDown()` calls."
   },
   {
-    "question": "Which data structure is fastest for random access by index in Java loop logic?",
-    "options": [
-      "stack",
-      "queue",
-      "array",
-      "linked list"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'array' for Java."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Java code in library imports?",
-    "options": [
-      "final",
-      "var",
-      "mutable",
-      "let"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'final' for Java."
-  },
-  {
-    "question": "Which relationship lets one type inherit behavior from another in Java conditional logic?",
-    "options": [
-      "inheritance",
-      "composition",
-      "delegation",
-      "aggregation"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'inheritance' for Java."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Java library imports?",
-    "options": [
-      "volatile",
-      "dynamic",
-      "transient",
-      "static"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'static' for Java."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Java code in error handling?",
-    "options": [
-      "mutable",
-      "let",
-      "var",
-      "final"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'final' for Java."
-  },
-  {
-    "question": "Which statement best describes memory management in Java header files?",
-    "options": [
-      "syntax highlighting",
-      "implicit typing",
-      "runtime binding",
-      "automatic garbage collection"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'automatic garbage collection' for Java."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Java loop logic?",
-    "options": [
-      "volatile",
-      "dynamic",
-      "static",
-      "transient"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'static' for Java."
-  },
-  {
-    "question": "Which data structure is fastest for random access by index in Java input/output?",
-    "options": [
-      "stack",
-      "array",
-      "queue",
-      "linked list"
-    ],
+    "question": "Can you catch an Error in Java?",
+    "options": ["No, it bypasses the catch block", "Yes, but it is highly discouraged as Errors indicate unrecoverable JVM problems", "Yes, but only VirtualMachineError", "No, Errors are not subclasses of Throwable"],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'array' for Java."
+    "explanation": "While structurally possible because `Error` extends `Throwable`, it is bad practice. Errors (like `OutOfMemoryError`) mean the JVM is in a severely degraded state."
   },
   {
-    "question": "Which mechanism helps avoid null reference errors in Java library imports?",
-    "options": [
-      "exceptions",
-      "inheritance",
-      "global variables",
-      "optional types"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'optional types' for Java."
+    "question": "What is the difference between a daemon thread and a user thread?",
+    "options": ["Daemon threads run in the background and do not prevent the JVM from exiting", "User threads are lower priority than daemon threads", "Daemon threads cannot be interrupted", "User threads are automatically garbage collected"],
+    "correctAnswer": 0,
+    "explanation": "Daemon threads are background service threads. The JVM exits when only daemon threads remain, while user threads keep the JVM alive." 
   },
+  
   {
-    "question": "Which keyword indicates an immutable value in Java code in header files?",
-    "options": [
-      "let",
-      "var",
-      "mutable",
-      "final"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'final' for Java."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Java conditional logic?",
-    "options": [
-      "polymorphism",
-      "modularity",
-      "encapsulation",
-      "abstraction"
-    ],
+    "question": "Which Reference type allows its referent to be collected only when the JVM desperately needs memory to avoid OutOfMemoryError?",
+    "options": ["WeakReference", "SoftReference", "PhantomReference", "Strong Reference"],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'modularity' for Java."
+    "explanation": "`SoftReference` objects are cleared at the discretion of the garbage collector in response to memory demand (usually before an OOM occurs), making them ideal for memory caches."
   },
   {
-    "question": "Which statement checks for equality in Java header files?",
-    "options": [
-      ":=",
-      "=>",
-      "==",
-      "="
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '==' for Java."
+    "question": "What is the difference between ReentrantLock and the synchronized keyword?",
+    "options": ["synchronized allows interruptible lock acquisition; ReentrantLock does not", "ReentrantLock supports fairness policies and tryLock() timeouts", "ReentrantLock cannot be used across multiple methods", "synchronized is slower in all scenarios in modern JVMs"],
+    "correctAnswer": 1,
+    "explanation": "`ReentrantLock` offers advanced features such as timed lock waits (`tryLock`), interruptible locks, and explicit fairness settings that `synchronized` lacks."
   },
   {
-    "question": "Which keyword indicates an immutable value in Java code in source code?",
-    "options": [
-      "var",
-      "let",
-      "final",
-      "mutable"
-    ],
+    "question": "Why is the `volatile` keyword critical when implementing double-checked locking for Singletons?",
+    "options": ["It guarantees synchronized access to the instance method", "It prevents instruction reordering during object initialization", "It enforces memory serialization to disk", "It makes constructor execution thread-safe"],
+    "correctAnswer": 1,
+    "explanation": "Without `volatile`, the JVM/CPU might reorder object allocation and field initialization, allowing another thread to observe a non-null reference to a partially initialized object."
+  },
+  {
+    "question": "In CompletableFuture, how does join() differ from get()?",
+    "options": ["join() throws checked exceptions, get() throws unchecked exceptions", "join() throws unchecked exceptions (CompletionException), while get() throws checked exceptions", "join() is asynchronous, get() is synchronous", "There is no difference"],
+    "correctAnswer": 1,
+    "explanation": "`get()` throws checked exceptions (`InterruptedException`, `ExecutionException`), whereas `join()` throws unchecked exceptions (`CompletionException`), making it easier to use inside lambda expressions."
+  },
+  {
+    "question": "How does Java's parent-delegation ClassLoader model work?",
+    "options": ["ClassLoaders load classes locally first before asking parents", "A ClassLoader delegates class loading to its parent before attempting to load it itself", "ClassLoaders load classes concurrently from all available jars", "ClassLoaders delegate exclusively to the Bootstrap ClassLoader"],
+    "correctAnswer": 1,
+    "explanation": "When asked to load a class, a ClassLoader delegates to its parent first. Only if the parent fails to find the class does the child attempt to load it."
+  },
+  {
+    "question": "What design strategy does the ForkJoinPool framework use to maximize thread usage?",
+    "options": ["Round-robin scheduling", "Work-stealing algorithm", "LIFO stack scheduling", "Priority Queue preemptive scheduling"],
+    "correctAnswer": 1,
+    "explanation": "Idle threads in a `ForkJoinPool` actively 'steal' pending tasks from the double-ended queues (deque) of busy worker threads."
+  },
+  {
+    "question": "What is true about Java Records introduced in Java 14/16?",
+    "options": ["They are mutable data carriers", "They automatically generate final fields, constructor, equals(), hashCode(), and toString()", "They can extend other classes", "They cannot implement interfaces"],
+    "correctAnswer": 1,
+    "explanation": "Records are immutable data classes where the compiler automatically generates accessor methods, `equals()`, `hashCode()`, `toString()`, and a canonical constructor."
+  },
+  {
+    "question": "What does a Happens-Before relationship guarantee in the Java Memory Model?",
+    "options": ["That one operation executes strictly before another in physical clock time", "That memory writes by one thread are visible to reads by another thread", "That the garbage collector runs before heap exhaustion", "That lock-free code will never deadlock"],
+    "correctAnswer": 1,
+    "explanation": "A Happens-Before relationship ensures memory visibility—meaning changes made by thread A are guaranteed to be seen by thread B at specific sync points."
+  },
+  {
+    "question": "Where is memory allocated when calling ByteBuffer.allocateDirect()?",
+    "options": ["JVM Heap Memory", "Thread Stack Memory", "Off-Heap Native Memory", "Metaspace"],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'final' for Java."
+    "explanation": "Direct ByteBuffers allocate native memory outside the normal JVM heap, avoiding copy overhead during native I/O operations."
+  },
+  {
+    "question": "What replaced PermGen (Permanent Generation) starting in Java 8?",
+    "options": ["Native Heap", "Metaspace", "G1 Space", "Code Cache"],
+    "correctAnswer": 1,
+    "explanation": "Java 8 replaced PermGen with Metaspace, which expands dynamically using native host memory rather than fixed JVM heap memory."
   }
+
 ]

@@ -1,552 +1,128 @@
 [
+    
   {
-    "question": "Which file extension is standard for Java conditional logic?",
-    "options": [
-      ".java",
-      ".txt",
-      ".md",
-      ".json"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '.java' for Java."
+    "question": "Which of these is a valid declaration of a boolean in Java?",
+    "options": ["boolean b = 1;", "boolean b = 'true';", "boolean b = true;", "bool b = true;"],
+    "correctAnswer": 2,
+    "explanation": "In Java, the boolean data type can only take the values `true` or `false`. `1` and `'true'` are invalid, and the keyword is `boolean`, not `bool`."
   },
   {
-    "question": "Which phrase describes the main function signature in Java header files?",
-    "options": [
-      "main()",
-      "function main() {}",
-      "def main():",
-      "public static void main(String[] args)"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'public static void main(String[] args)' for Java."
-  },
-  {
-    "question": "Which statement imports libraries or packages in Java conditional logic?",
-    "options": [
-      "import java.util.*;",
-      "require(\"lib\")",
-      "include <lib>",
-      "use lib;"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'import java.util.*;' for Java."
-  },
-  {
-    "question": "Which keyword declares a constant value in Java library imports?",
-    "options": [
-      "var",
-      "final",
-      "let",
-      "static"
-    ],
+    "question": "What is the size of an int primitive data type in Java?",
+    "options": ["16-bit", "32-bit", "64-bit", "8-bit"],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'final' for Java."
+    "explanation": "An `int` in Java is a 32-bit signed two's complement integer."
   },
   {
-    "question": "Which sign is used to assign values in Java source code?",
-    "options": [
-      ":=",
-      "=>",
-      "==",
-      "="
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '=' for Java."
-  },
-  {
-    "question": "Which code line prints \"Hello\" in Java source code?",
-    "options": [
-      "print(\"Hello\")",
-      "console.log(\"Hello\")",
-      "echo \"Hello\";",
-      "puts \"Hello\""
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'print(\"Hello\")' for Java."
-  },
-  {
-    "question": "Which keyword begins a loop in Java library imports?",
-    "options": [
-      "for",
-      "while",
-      "loop",
-      "repeat"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'for' for Java."
-  },
-  {
-    "question": "Which keyword is used to exit a loop early in Java source code?",
-    "options": [
-      "stop",
-      "return",
-      "break",
-      "continue"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'break' for Java."
-  },
-  {
-    "question": "Which concept describes reusable code blocks in Java conditional logic?",
-    "options": [
-      "classes",
-      "comments",
-      "functions",
-      "variables"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'functions' for Java."
-  },
-  {
-    "question": "Which statement imports libraries or packages in Java header files?",
-    "options": [
-      "include <lib>",
-      "require(\"lib\")",
-      "use lib;",
-      "import java.util.*;"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'import java.util.*;' for Java."
-  },
-  {
-    "question": "Which phrase describes the main function signature in Java conditional logic?",
-    "options": [
-      "public static void main(String[] args)",
-      "function main() {}",
-      "main()",
-      "def main():"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'public static void main(String[] args)' for Java."
-  },
-  {
-    "question": "Which symbol begins a single-line comment in Java header files?",
-    "options": [
-      "//",
-      "<!-- -->",
-      "#",
-      "/* */"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '//' for Java."
-  },
-  {
-    "question": "Which concept describes reusable code blocks in Java library imports?",
-    "options": [
-      "comments",
-      "variables",
-      "classes",
-      "functions"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'functions' for Java."
-  },
-  {
-    "question": "Which value is produced by 2 * 5 in Java conditional logic?",
-    "options": [
-      "2",
-      "10",
-      "0",
-      "25"
-    ],
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["implements", "extends", "inherits", "super"],
     "correctAnswer": 1,
-    "explanation": "The correct answer is '10' for Java."
+    "explanation": "The `extends` keyword is used for class inheritance, whereas `implements` is used for interfaces."
   },
   {
-    "question": "Which keyword declares a constant value in Java source code?",
-    "options": [
-      "static",
-      "let",
-      "var",
-      "final"
-    ],
+    "question": "Which of the following is not a Java keyword?",
+    "options": ["static", "Boolean", "void", "private"],
+    "correctAnswer": 1,
+    "explanation": "`Boolean` (capitalized) is a wrapper class in java.lang, not a reserved keyword. `boolean` (lowercase) is the keyword."
+  },
+  {
+    "question": "What is the entry point of a Java program?",
+    "options": ["public void main(String[] args)", "public static void main(String args)", "public static void main(String[] args)", "static void main(String args[])"],
+    "correctAnswer": 2,
+    "explanation": "The JVM looks for the exact method signature `public static void main(String[] args)` to start execution."
+  },
+  {
+    "question": "Which operator is used to compare two values for equality in Java?",
+    "options": ["=", "==", "equals()", "==="],
+    "correctAnswer": 1,
+    "explanation": "The `==` operator compares primitives for equality and objects for reference equality. `=` is for assignment."
+  },
+  {
+    "question": "What is the default value of an uninitialized instance variable of type object reference?",
+    "options": ["0", "false", "null", "undefined"],
+    "correctAnswer": 2,
+    "explanation": "All uninitialized object references in Java default to `null`."
+  },
+  {
+    "question": "How do you create a single-line comment in Java?",
+    "options": ["// comment", "/* comment */", "# comment", "<!-- comment -->"],
+    "correctAnswer": 0,
+    "explanation": "`//` is used for single-line comments in Java."
+  },
+  {
+    "question": "Which package is automatically imported into every Java program?",
+    "options": ["java.util", "java.io", "java.lang", "java.net"],
+    "correctAnswer": 2,
+    "explanation": "The `java.lang` package is automatically imported by the compiler for all Java programs."
+  },
+  {
+    "question": "What happens if you try to modify a final variable?",
+    "options": ["It modifies successfully", "Runtime Exception", "Compile-time error", "It is ignored"],
+    "correctAnswer": 2,
+    "explanation": "A `final` variable cannot be reassigned once initialized. Attempting to do so causes a compile-time error."
+  },
+
+  {
+    "question": "Which of the following is true about Java Strings?",
+    "options": ["Strings are mutable", "Strings are primitive types", "Strings are immutable", "Strings use 8-bit ASCII by default"],
+    "correctAnswer": 2,
+    "explanation": "In Java, String objects are immutable. Once created, their values cannot be changed in memory."
+  },
+  {
+    "question": "How do you check the number of elements in an array named `data`?",
+    "options": ["data.length()", "data.length", "data.size()", "data.count"],
+    "correctAnswer": 1,
+    "explanation": "Arrays in Java have a `length` property, whereas Collections use the `size()` method, and Strings use `length()`."
+  },
+  {
+    "question": "What is the result of 5 / 2 in Java integer division?",
+    "options": ["2.5", "2", "3", "2.0"],
+    "correctAnswer": 1,
+    "explanation": "Dividing two integers results in integer division, which truncates any fractional part, returning 2."
+  },
+  {
+    "question": "Which loop is guaranteed to execute at least once?",
+    "options": ["for loop", "while loop", "do-while loop", "for-each loop"],
+    "correctAnswer": 2,
+    "explanation": "A `do-while` loop checks its condition at the end of the iteration, guaranteeing execution at least once."
+  },
+  {
+    "question": "Which access modifier makes a class member visible only within its own class?",
+    "options": ["public", "protected", "default (package-private)", "private"],
     "correctAnswer": 3,
-    "explanation": "The correct answer is 'final' for Java."
+    "explanation": "The `private` modifier restricts visibility exclusively to the class in which the member is declared."
   },
   {
-    "question": "Which symbol begins a single-line comment in Java source code?",
-    "options": [
-      "<!-- -->",
-      "/* */",
-      "//",
-      "#"
-    ],
+    "question": "Which keyword is used to stop the execution of a loop immediately?",
+    "options": ["stop", "continue", "break", "return"],
     "correctAnswer": 2,
-    "explanation": "The correct answer is '//' for Java."
+    "explanation": "The `break` statement immediately terminates the innermost enclosing loop."
   },
   {
-    "question": "Which value is commonly used for true in Java library imports?",
-    "options": [
-      "true",
-      "false",
-      "False",
-      "True"
-    ],
+    "question": "How do you parse a String \"123\" into an integer in Java?",
+    "options": ["Integer.parseInt(\"123\")", "String.toInt(\"123\")", "(int)\"123\"", "Convert.toInt(\"123\")"],
     "correctAnswer": 0,
-    "explanation": "The correct answer is 'true' for Java."
+    "explanation": "`Integer.parseInt(String s)` parses a string argument as a signed decimal integer."
   },
   {
-    "question": "What is the result of 8 - 3 in Java header files?",
-    "options": [
-      "3",
-      "8",
-      "2",
-      "5"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '5' for Java."
-  },
-  {
-    "question": "Which value represents false in Java loop logic?",
-    "options": [
-      "True",
-      "false",
-      "False",
-      "true"
-    ],
+    "question": "What exception is thrown when accessing an array with an invalid index?",
+    "options": ["IndexOutOfBoundsException", "ArrayIndexOutOfBoundsException", "NullPointerException", "ArrayOverflowException"],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'false' for Java."
+    "explanation": "Accessing a negative index or an index greater than or equal to `array.length` throws `ArrayIndexOutOfBoundsException`."
   },
   {
-    "question": "Which option fills the blank in Java library imports: final x = 5; x = 10; // __? ",
-    "options": [
-      "assignment",
-      "iteration",
-      "declaration",
-      "comparison"
-    ],
+    "question": "Which method returns the square root of a number in Java?",
+    "options": ["Math.sqrt()", "Math.pow()", "Math.root()", "Number.sqrt()"],
     "correctAnswer": 0,
-    "explanation": "The correct answer is 'assignment' for Java."
+    "explanation": "`Math.sqrt(double a)` returns the correctly rounded positive square root of a `double` value."
   },
   {
-    "question": "Which option fills the blank in Java header files: final x = 5; x = 10; // __? ",
-    "options": [
-      "iteration",
-      "declaration",
-      "assignment",
-      "comparison"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'assignment' for Java."
-  },
-  {
-    "question": "What is the result of 8 - 3 in Java loop logic?",
-    "options": [
-      "2",
-      "8",
-      "3",
-      "5"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '5' for Java."
-  },
-  {
-    "question": "Which value is produced by 2 * 5 in Java source code?",
-    "options": [
-      "10",
-      "25",
-      "0",
-      "2"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '10' for Java."
-  },
-  {
-    "question": "Which option fills the blank in Java conditional logic: final x = 5; x = 10; // __? ",
-    "options": [
-      "assignment",
-      "comparison",
-      "iteration",
-      "declaration"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'assignment' for Java."
-  },
-  {
-    "question": "Which symbol begins a single-line comment in Java conditional logic?",
-    "options": [
-      "#",
-      "/* */",
-      "//",
-      "<!-- -->"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '//' for Java."
-  },
-  {
-    "question": "What is the result of 3 + 4 in Java library imports?",
-    "options": [
-      "34",
-      "Error",
-      "7",
-      "0"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '7' for Java."
-  },
-  {
-    "question": "Which code line prints \"Hello\" in Java header files?",
-    "options": [
-      "print(\"Hello\")",
-      "echo \"Hello\";",
-      "puts \"Hello\"",
-      "console.log(\"Hello\")"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'print(\"Hello\")' for Java."
-  },
-  {
-    "question": "Which keyword is used to exit a loop early in Java conditional logic?",
-    "options": [
-      "stop",
-      "break",
-      "return",
-      "continue"
-    ],
+    "question": "What happens when you concatenate a String and an int in Java (e.g., \"Value: \" + 5)?",
+    "options": ["Compile-time error", "The int is converted to a String and concatenated", "The String is converted to an int", "Runtime exception"],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'break' for Java."
+    "explanation": "The `+` operator automatically converts non-string operands to strings when one operand is a String."
   },
   {
-    "question": "What is the result of 8 - 3 in Java conditional logic?",
-    "options": [
-      "2",
-      "8",
-      "3",
-      "5"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '5' for Java."
-  },
-  {
-    "question": "Which concept describes reusable code blocks in Java loop logic?",
-    "options": [
-      "classes",
-      "variables",
-      "functions",
-      "comments"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'functions' for Java."
-  },
-  {
-    "question": "Which value is commonly used for true in Java source code?",
-    "options": [
-      "true",
-      "True",
-      "False",
-      "false"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'true' for Java."
-  },
-  {
-    "question": "Which operator checks equality in Java function definitions?",
-    "options": [
-      "!=",
-      "==",
-      "===",
-      "="
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '==' for Java."
-  },
-  {
-    "question": "Which file extension is standard for Java loop logic?",
-    "options": [
-      ".json",
-      ".txt",
-      ".md",
-      ".java"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '.java' for Java."
-  },
-  {
-    "question": "Which code line uses string concatenation in Java library imports?",
-    "options": [
-      "join(\"Hello\", \"World\")",
-      "\"Hello\" + \"World\"",
-      "\"Hello\" . \"World\"",
-      "concat(\"Hello\", \"World\")"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Java."
-  },
-  {
-    "question": "Which concept describes reusable code blocks in Java header files?",
-    "options": [
-      "variables",
-      "functions",
-      "comments",
-      "classes"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'functions' for Java."
-  },
-  {
-    "question": "Which file extension is standard for Java header files?",
-    "options": [
-      ".json",
-      ".md",
-      ".txt",
-      ".java"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '.java' for Java."
-  },
-  {
-    "question": "Which operator checks equality in Java header files?",
-    "options": [
-      "=",
-      "===",
-      "!=",
-      "=="
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '==' for Java."
-  },
-  {
-    "question": "Which code line uses string concatenation in Java loop logic?",
-    "options": [
-      "join(\"Hello\", \"World\")",
-      "\"Hello\" . \"World\"",
-      "\"Hello\" + \"World\"",
-      "concat(\"Hello\", \"World\")"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Java."
-  },
-  {
-    "question": "What is the result of 3 + 4 in Java header files?",
-    "options": [
-      "Error",
-      "34",
-      "7",
-      "0"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '7' for Java."
-  },
-  {
-    "question": "Which code line uses string concatenation in Java conditional logic?",
-    "options": [
-      "concat(\"Hello\", \"World\")",
-      "join(\"Hello\", \"World\")",
-      "\"Hello\" + \"World\"",
-      "\"Hello\" . \"World\""
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Java."
-  },
-  {
-    "question": "What is the result of 8 - 3 in Java source code?",
-    "options": [
-      "5",
-      "2",
-      "3",
-      "8"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '5' for Java."
-  },
-  {
-    "question": "Which statement imports libraries or packages in Java loop logic?",
-    "options": [
-      "import java.util.*;",
-      "include <lib>",
-      "use lib;",
-      "require(\"lib\")"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'import java.util.*;' for Java."
-  },
-  {
-    "question": "Which file extension is standard for Java function definitions?",
-    "options": [
-      ".java",
-      ".txt",
-      ".json",
-      ".md"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '.java' for Java."
-  },
-  {
-    "question": "Which value is produced by 2 * 5 in Java library imports?",
-    "options": [
-      "2",
-      "0",
-      "10",
-      "25"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '10' for Java."
-  },
-  {
-    "question": "Which code line correctly declares a constant in Java conditional logic?",
-    "options": [
-      "var",
-      "final",
-      "static",
-      "let"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'final' for Java."
-  },
-  {
-    "question": "Which value represents false in Java header files?",
-    "options": [
-      "True",
-      "false",
-      "true",
-      "False"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'false' for Java."
-  },
-  {
-    "question": "Which statement imports libraries or packages in Java source code?",
-    "options": [
-      "include <lib>",
-      "require(\"lib\")",
-      "import java.util.*;",
-      "use lib;"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'import java.util.*;' for Java."
-  },
-  {
-    "question": "Which value is produced by 2 * 5 in Java header files?",
-    "options": [
-      "0",
-      "25",
-      "2",
-      "10"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '10' for Java."
-  },
-  {
-    "question": "Which operator checks equality in Java conditional logic?",
-    "options": [
-      "!=",
-      "==",
-      "===",
-      "="
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '==' for Java."
-  },
-  {
-    "question": "Which phrase describes the main function signature in Java source code?",
-    "options": [
-      "main()",
-      "public static void main(String[] args)",
-      "function main() {}",
-      "def main():"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'public static void main(String[] args)' for Java."
+
   }
+
 ]

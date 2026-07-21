@@ -24,8 +24,7 @@ const LANGUAGES = [
   { slug: 'redis', name: 'Redis', description: 'In-memory data store, caching, and pub/sub' },
   { slug: 'bash', name: 'Bash', description: 'Shell scripting, automation, and CLI tools' },
   { slug: 'tailwind', name: 'Tailwind CSS', description: 'Utility-first CSS framework and design' },
-];
-
+]
 const getLanguages = async (req, res) => {
   res.json({ languages: LANGUAGES });
 };
