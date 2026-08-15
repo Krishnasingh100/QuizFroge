@@ -10,7 +10,6 @@ const LanguagePage = () => {
   const { slug } = useParams();
   const navigate = useNavigate();
   const { startQuizSession } = useQuiz();
-
   const [language, setLanguage] = useState(null);
   const [loading, setLoading] = useState(true);
   const [starting, setStarting] = useState(false);
@@ -27,14 +26,12 @@ const LanguagePage = () => {
         setLoading(false);
       }
     };
-
     fetchLanguage();
   }, [slug]);
 
   const handleSelectDifficulty = async (difficulty) => {
     setStarting(true);
     setError('');
-
     try {
       const { data } = await startQuiz(slug, difficulty);
       startQuizSession(slug, difficulty, data.questions);
@@ -66,7 +63,6 @@ const LanguagePage = () => {
         <span className="language-page-icon">
           <LanguageIcon slug={language.slug} name={language.name} />
         </span>
-        <h1>{language.name}</h1>
         <p>{language.description}</p>
       </header>
 
