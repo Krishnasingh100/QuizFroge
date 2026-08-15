@@ -1,10 +1,5 @@
 import React from 'react';
 
-/**
- * LanguageIcon
- * Badge-style icons closely modeled on each language/tool's official mark.
- * Falls back to a generic badge with the first letter if the slug is unknown.
- */
 const LanguageIcon = ({ slug = '', name, className = '' }) => {
   const key = slug.toLowerCase();
   const commonProps = {
@@ -15,7 +10,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
   };
 
   const icons = {
-    // C — official ISO C blue circle with white "C"
+    // C 
     c: (
       <svg {...commonProps}>
         <circle cx="32" cy="32" r="28" fill="#A8B9CC" />
@@ -43,7 +38,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // Python — the real interlocking two-snake mark, blue + yellow
+    // Python 
     python: (
       <svg {...commonProps}>
         <path
@@ -57,7 +52,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // JavaScript — real mark: solid yellow square, black "JS" bottom-right
+    // JavaScript 
     javascript: (
       <svg {...commonProps}>
         <rect x="2" y="2" width="60" height="60" fill="#F7DF1E" />
@@ -65,7 +60,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // TypeScript — real mark: solid blue square, white "TS"
+    // TypeScript 
     typescript: (
       <svg {...commonProps}>
         <rect x="2" y="2" width="60" height="60" fill="#3178C6" />
@@ -73,7 +68,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // Java — coffee cup with steam, brand red on white
+    // Java 
     java: (
       <svg {...commonProps}>
         <rect x="4" y="4" width="56" height="56" rx="12" fill="#fff" stroke="#e5e7eb" strokeWidth="1" />
@@ -86,7 +81,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // HTML5 — official shield mark
+    // HTML5 
     html: (
       <svg {...commonProps}>
         <path d="M9 6h46l-4.2 47.5L32 59 12.2 53.5 9 6Z" fill="#E44D26" />
@@ -96,7 +91,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // CSS3 — official shield mark
+    // CSS3 
     css: (
       <svg {...commonProps}>
         <path d="M9 6h46l-4.2 47.5L32 59 12.2 53.5 9 6Z" fill="#1B73BA" />
@@ -106,7 +101,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // Node.js — hexagon outline, brand green
+    // Node.js 
     nodejs: (
       <svg {...commonProps}>
         <path d="M32 4 8 17.5v29L32 60l24-13.5v-29L32 4Z" fill="#333333" />
@@ -121,7 +116,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // React — dark bg, cyan atom orbits (matches official proportions)
+    // React — 
     react: (
       <svg {...commonProps}>
         <rect x="2" y="2" width="60" height="60" rx="10" fill="#20232A" />
@@ -134,7 +129,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // Go — brand cyan wordmark on white
+    // Go 
     go: (
       <svg {...commonProps}>
         <rect x="2" y="2" width="60" height="60" rx="10" fill="#fff" stroke="#e5e7eb" strokeWidth="1" />
@@ -142,7 +137,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // Rust — official black gear-cog with negative-space "R"
+    // Rust 
     rust: (
       <svg {...commonProps}>
         <rect x="2" y="2" width="60" height="60" rx="10" fill="#fff" stroke="#e5e7eb" strokeWidth="1" />
@@ -153,7 +148,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // Git — official orange diamond with branching fork
+    // Git 
     git: (
       <svg {...commonProps}>
         <path d="M60.9 29.5 34.5 3.1a4 4 0 0 0-5.6 0l-5.7 5.7 7.2 7.2a4.7 4.7 0 0 1 6 6l6.9 6.9a4.7 4.7 0 1 1-2.8 2.7L33.4 24v17.9a4.7 4.7 0 1 1-3.9-.1V23.7a4.7 4.7 0 0 1-2.6-6.2l-7.1-7.1L3.1 26.9a4 4 0 0 0 0 5.6l26.4 26.4a4 4 0 0 0 5.6 0L60.9 35.1a4 4 0 0 0 0-5.6Z" fill="#F05033" />
@@ -171,7 +166,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // SQL / database — cylinder, MySQL-style navy/orange
+    // SQL 
     sql: (
       <svg {...commonProps}>
         <rect x="2" y="2" width="60" height="60" rx="10" fill="#fff" stroke="#e5e7eb" strokeWidth="1" />
@@ -184,7 +179,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // PHP — brand purple ellipse wordmark
+    // PHP 
     php: (
       <svg {...commonProps}>
         <ellipse cx="32" cy="32" rx="29" ry="18" fill="#787CB5" />
@@ -192,7 +187,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // Ruby — red gem facets
+    // Ruby 
     ruby: (
       <svg {...commonProps}>
         <path d="M46 12 18 17l-9 17 25 22 28-22-4-16-12-6Z" fill="#9B111E" />
@@ -202,7 +197,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // Swift — orange gradient bird-swoosh
+    // Swift 
     swift: (
       <svg {...commonProps}>
         <defs>
@@ -219,7 +214,7 @@ const LanguageIcon = ({ slug = '', name, className = '' }) => {
       </svg>
     ),
 
-    // Kotlin — purple-to-orange gradient triangle mark
+    // Kotlin 
     kotlin: (
       <svg {...commonProps}>
         <defs>
