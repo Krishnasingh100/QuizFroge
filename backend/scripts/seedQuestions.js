@@ -8,7 +8,7 @@ import Question from '../models/Question.js';
 
 dotenv.config();
 
-// Recreate __dirname for ES Modules
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -47,20 +47,37 @@ const seedQuestions = async () => {
           continue;
         }
 
-        const docs = questions.map((q) => ({
-          language,
-          difficulty,
-          question: q.question,
-          options: q.options,
-          correctAnswer: q.correctAnswer,
-          explanation: q.explanation || '',
-        }));
+        // Validate and normalize questions to avoid aborting the entire seed
+        const validDocs = [];
+        let skipped = 0;
 
-        await Question.insertMany(docs);
-        totalInserted += docs.length;
+        for (const q of questions) {
+          const hasQuestion = typeof q.question === 'string' && q.question.trim().length > 0;
+          const hasOptions = Array.isArray(q.options) && q.options.length === 4 && q.options.every((o) => typeof o === 'string');
+          const hasCorrect = Number.isInteger(q.correctAnswer) && q.correctAnswer >= 0 && q.correctAnswer <= 3;
+
+          if (hasQuestion && hasOptions && hasCorrect) {
+            validDocs.push({
+              language,
+              difficulty,
+              question: q.question.trim(),
+              options: q.options.map((o) => o.trim()),
+              correctAnswer: q.correctAnswer,
+              explanation: q.explanation || '',
+            });
+          } else {
+            skipped += 1;
+          }
+        }
+
+        if (validDocs.length > 0) {
+          await Question.insertMany(validDocs, { ordered: false });
+          totalInserted += validDocs.length;
+        }
 
         console.log(
-          `Inserted ${docs.length} questions -> ${language} / ${difficulty}`
+          `Inserted ${validDocs.length} questions -> ${language} / ${difficulty}` +
+            (skipped > 0 ? ` (skipped ${skipped} invalid)` : '')
         );
       }
     }
