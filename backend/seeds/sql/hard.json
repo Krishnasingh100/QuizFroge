@@ -383,5 +383,170 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is 'UNIQUE' for SQL."
+  },
+  {
+    "question": "What is a database index?",
+    "options": [
+      "A sorted copy of the whole table",
+      "A data structure that accelerates lookups on chosen columns",
+      "A foreign key alias",
+      "A query log"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Indexes (often B-trees) trade extra storage/write cost for fast reads."
+  },
+  {
+    "question": "What is special about a clustered index?",
+    "options": [
+      "It spans multiple tables",
+      "It dictates the physical storage order of rows, one per table",
+      "It stores NULLs separately",
+      "It only exists in NoSQL"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Table rows themselves are ordered by the clustered index key."
+  },
+  {
+    "question": "What do the ACID properties stand for?",
+    "options": [
+      "Access, Consistency, Indexing, Durability",
+      "Atomicity, Consistency, Isolation, Durability",
+      "Accuracy, Concurrency, Integrity, Distribution",
+      "Atomicity, Cache, Integrity, Density"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ACID defines reliable transaction guarantees in relational systems."
+  },
+  {
+    "question": "What is a correlated subquery?",
+    "options": [
+      "A subquery executed once for the whole statement",
+      "A subquery that references columns of the outer query, evaluated per row",
+      "Two identical subqueries",
+      "A subquery without a SELECT"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Correlated subqueries depend on outer-row values and rerun for each candidate row."
+  },
+  {
+    "question": "What is a window function?",
+    "options": [
+      "A function joining windows of time-series data",
+      "A function computing values across a set of rows without collapsing them",
+      "An aggregate that removes duplicates",
+      "A GUI feature"
+    ],
+    "correctAnswer": 1,
+    "explanation": "OVER(PARTITION BY ... ORDER BY ...) computes rankings/running totals per row."
+  },
+  {
+    "question": "What is a key difference between DELETE and TRUNCATE?",
+    "options": [
+      "DELETE ignores constraints",
+      "DELETE logs each removed row and supports WHERE; TRUNCATE deallocates all pages",
+      "TRUNCATE fires triggers",
+      "DELETE is always faster"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TRUNCATE is minimally logged and cannot remove a subset of rows."
+  },
+  {
+    "question": "What is a transaction?",
+    "options": [
+      "A nightly backup job",
+      "A unit of work that must execute completely or not at all",
+      "A read-only snapshot",
+      "A stored procedure"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Transactions commit atomically or roll back entirely on failure."
+  },
+  {
+    "question": "What does the SERIALIZABLE isolation level guarantee?",
+    "options": [
+      "Transactions run concurrently without locks",
+      "Concurrent transactions behave as if executed sequentially",
+      "Reads never block writes",
+      "Deadlocks cannot occur"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Serializable is the strictest level, preventing dirty/non-repeatable/phantom reads."
+  },
+  {
+    "question": "What is a stored procedure?",
+    "options": [
+      "A saved query plan",
+      "A named, precompiled block of SQL stored in the database",
+      "A client-side cache",
+      "An index variant"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Procedures encapsulate reusable server-side logic callable by clients."
+  },
+  {
+    "question": "What is a trigger?",
+    "options": [
+      "A manual command",
+      "Database code that fires automatically on events like INSERT/UPDATE/DELETE",
+      "A hardware interrupt",
+      "A replication rule"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Triggers enforce side effects or audit rules when data changes."
+  },
+  {
+    "question": "What is a view?",
+    "options": [
+      "A physical copy of a table",
+      "A virtual table defined by a stored SELECT query",
+      "An index over joins",
+      "A user permission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Views simplify complex queries and can restrict visible columns/rows."
+  },
+  {
+    "question": "What is denormalization?",
+    "options": [
+      "Removing primary keys",
+      "Deliberately adding redundancy to reduce joins and speed up reads",
+      "Deleting unused tables",
+      "Splitting tables further"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Denormalization trades write cost/integrity risk for read performance."
+  },
+  {
+    "question": "What is the N+1 query problem?",
+    "options": [
+      "Running N parallel queries safely",
+      "Fetching a list, then issuing one additional query per item instead of batching",
+      "Needing N+1 indexes",
+      "Exceeding connection limits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ORM lazy-loading often triggers this pattern; eager loading or batch joins fix it."
+  },
+  {
+    "question": "What is a CTE (Common Table Expression)?",
+    "options": [
+      "A permanent temp table",
+      "A named, optionally recursive temporary result introduced with WITH",
+      "A cross-table expression index",
+      "A collation setting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CTEs improve readability and enable recursion within a statement scope."
+  },
+  {
+    "question": "What is optimistic locking?",
+    "options": [
+      "Taking exclusive locks before every read",
+      "Assuming conflicts are rare and validating a version stamp at update time",
+      "Disabling transactions",
+      "Locking the entire table"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Updates fail when the version changed, avoiding long-held locks."
   }
 ]

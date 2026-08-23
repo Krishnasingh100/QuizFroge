@@ -51,7 +51,7 @@ const QuizPage = () => {
       });
       setResult(data);
       navigate('/result');
-    } catch (err) {
+    } catch {
       setError('Failed to submit quiz. Please try again.');
     } finally {
       setSubmitting(false);

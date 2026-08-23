@@ -121,17 +121,6 @@
     "explanation": "The correct answer is '<fieldset>' for HTML."
   },
   {
-    "question": "Which attribute sets alternative text for an image in HTML on image?",
-    "options": [
-      "src",
-      "alt",
-      "title",
-      "href"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'alt' for HTML."
-  },
-  {
     "question": "Which element is used for inline text in HTML on form?",
     "options": [
       "<span>",
@@ -154,17 +143,6 @@
     "explanation": "The correct answer is 'src' for HTML."
   },
   {
-    "question": "Which tag groups form controls in HTML on paragraph?",
-    "options": [
-      "<form>",
-      "<section>",
-      "<fieldset>",
-      "<div>"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '<fieldset>' for HTML."
-  },
-  {
     "question": "Which attribute names the language of the document in HTML on web page?",
     "options": [
       "type",
@@ -174,17 +152,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'lang' for HTML."
-  },
-  {
-    "question": "Which tag groups form controls in HTML on link?",
-    "options": [
-      "<div>",
-      "<form>",
-      "<fieldset>",
-      "<section>"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '<fieldset>' for HTML."
   },
   {
     "question": "Which tag defines an ordered list in HTML on navigation?",
@@ -264,17 +231,6 @@
     "explanation": "The correct answer is '<th>' for HTML."
   },
   {
-    "question": "Which tag groups form controls in HTML on list?",
-    "options": [
-      "<div>",
-      "<form>",
-      "<section>",
-      "<fieldset>"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '<fieldset>' for HTML."
-  },
-  {
     "question": "Which element is used for inline text in HTML on list?",
     "options": [
       "<div>",
@@ -339,17 +295,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'alt' for HTML."
-  },
-  {
-    "question": "Which tag groups form controls in HTML on navigation?",
-    "options": [
-      "<section>",
-      "<div>",
-      "<form>",
-      "<fieldset>"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '<fieldset>' for HTML."
   },
   {
     "question": "Which tag embeds a video in HTML on navigation?",
@@ -548,5 +493,60 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is 'src' for HTML."
+  },
+  {
+    "question": "Which boolean attribute forces a form field to be filled before submission?",
+    "options": [
+      "mandatory",
+      "validate",
+      "required",
+      "needed"
+    ],
+    "correctAnswer": 2,
+    "explanation": "required blocks submission of empty inputs with browser validation UI."
+  },
+  {
+    "question": "Which element represents self-contained, independently distributable content such as a blog post?",
+    "options": [
+      "<section>",
+      "<article>",
+      "<aside>",
+      "<div>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "<article> marks complete standalone compositions."
+  },
+  {
+    "question": "Which input type renders a native date picker in modern browsers?",
+    "options": [
+      "type=\"calendar\"",
+      "type=\"date\"",
+      "type=\"day\"",
+      "type=\"datetime-text\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "type=\"date\" activates the browser date selection widget."
+  },
+  {
+    "question": "Which element embeds another HTML document inside the current page?",
+    "options": [
+      "<embed-doc>",
+      "<iframe>",
+      "<frame-src>",
+      "<object-html>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "<iframe> nests a browsing context with its own document."
+  },
+  {
+    "question": "Which target attribute value opens a link in a new tab?",
+    "options": [
+      "_new",
+      "_blank",
+      "_tab",
+      "_external"
+    ],
+    "correctAnswer": 1,
+    "explanation": "target=\"_blank\" opens the linked document in a new browsing context."
   }
 ]

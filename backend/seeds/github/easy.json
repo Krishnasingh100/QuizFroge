@@ -484,17 +484,6 @@
     "explanation": "The correct answer is 'Code' for GitHub."
   },
   {
-    "question": "Which GitHub feature creates a personal copy of a repository in workflow?",
-    "options": [
-      "Clone",
-      "Mirror",
-      "Branch",
-      "Fork"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'Fork' for GitHub."
-  },
-  {
     "question": "Which GitHub feature documents a project in workflow?",
     "options": [
       "Pages",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "On GitHub, what is a pull request?",
+    "options": [
+      "A request to download a repository",
+      "A proposal to merge changes from one branch into another with review",
+      "A git clone command",
+      "An issue template"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PRs host diffs, reviews, and CI checks before merging code."
   }
 ]

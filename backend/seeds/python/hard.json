@@ -407,17 +407,6 @@
     "explanation": "The correct answer is '==' for Python."
   },
   {
-    "question": "Which concept ensures a variable keeps its state across function calls in Python loop logic?",
-    "options": [
-      "static",
-      "volatile",
-      "dynamic",
-      "transient"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'static' for Python."
-  },
-  {
     "question": "Which feature is commonly used for concurrency in Python applications in data types?",
     "options": [
       "closures",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is 'automatic garbage collection' for Python."
+  },
+  {
+    "question": "What is the Global Interpreter Lock (GIL)?",
+    "options": [
+      "A lock guarding import statements",
+      "A mutex allowing only one thread to execute Python bytecode at a time",
+      "A memory allocator",
+      "A decorator registry"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The GIL serializes bytecode execution, limiting CPU-bound threading parallelism."
   }
 ]

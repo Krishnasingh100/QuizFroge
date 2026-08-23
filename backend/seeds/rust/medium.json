@@ -484,17 +484,6 @@
     "explanation": "The correct answer is 'immutable' for Rust."
   },
   {
-    "question": "Which term describes a variable whose value cannot change after assignment in Rust loop logic?",
-    "options": [
-      "immutable",
-      "dynamic",
-      "temporary",
-      "mutable"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'immutable' for Rust."
-  },
-  {
     "question": "Which operator is used to compare two values in Rust source code?",
     "options": [
       "==",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'fn main()' for Rust."
+  },
+  {
+    "question": "What does Rust's borrow checker enforce?",
+    "options": [
+      "Garbage collection timing",
+      "That references never outlive their data and mutation rules are respected",
+      "Stack allocation only",
+      "Unsafe code audits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ownership/borrowing rules eliminate data races and dangling pointers at compile time."
   }
 ]

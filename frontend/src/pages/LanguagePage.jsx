@@ -20,7 +20,7 @@ const LanguagePage = () => {
       try {
         const { data } = await getLanguage(slug);
         setLanguage(data.language);
-      } catch (err) {
+      } catch {
         setError('Language not found.');
       } finally {
         setLoading(false);

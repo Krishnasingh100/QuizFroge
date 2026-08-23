@@ -341,17 +341,6 @@
     "explanation": "The correct answer is '<body>' for HTML."
   },
   {
-    "question": "Which attribute sets the link destination in HTML on link?",
-    "options": [
-      "alt",
-      "title",
-      "href",
-      "src"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'href' for HTML."
-  },
-  {
     "question": "Which tag defines a paragraph in HTML on navigation?",
     "options": [
       "<div>",
@@ -451,28 +440,6 @@
     "explanation": "The correct answer is '.html' for HTML."
   },
   {
-    "question": "Which tag defines a list item in HTML on link?",
-    "options": [
-      "<li>",
-      "<ol>",
-      "<dl>",
-      "<ul>"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '<li>' for HTML."
-  },
-  {
-    "question": "Which tag defines a table row in HTML on paragraph?",
-    "options": [
-      "<tr>",
-      "<td>",
-      "<th>",
-      "<table>"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '<tr>' for HTML."
-  },
-  {
     "question": "Which file extension is used for HTML documents in content section?",
     "options": [
       ".js",
@@ -548,5 +515,38 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is '<img>' for HTML."
+  },
+  {
+    "question": "Which attribute provides alternative text for an image?",
+    "options": [
+      "title",
+      "alt",
+      "caption",
+      "label"
+    ],
+    "correctAnswer": 1,
+    "explanation": "alt text describes images for accessibility and broken-image fallback."
+  },
+  {
+    "question": "Which element creates a hyperlink?",
+    "options": [
+      "<link>",
+      "<href>",
+      "<a>",
+      "<nav>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The anchor <a> element with href defines hyperlinks."
+  },
+  {
+    "question": "Which element holds page metadata such as the title and stylesheets?",
+    "options": [
+      "<header>",
+      "<head>",
+      "<meta-body>",
+      "<info>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Machine-facing metadata lives in <head>; visible content goes in <body>."
   }
 ]

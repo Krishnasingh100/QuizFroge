@@ -341,17 +341,6 @@
     "explanation": "The correct answer is 'UNION ALL' for SQL."
   },
   {
-    "question": "Which SQL join returns all rows from the left table and matching rows from the right?",
-    "options": [
-      "INNER JOIN",
-      "FULL OUTER JOIN",
-      "LEFT JOIN",
-      "RIGHT JOIN"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'LEFT JOIN' for SQL."
-  },
-  {
     "question": "Which SQL clause groups rows before applying aggregate functions?",
     "options": [
       "HAVING",
@@ -405,5 +394,159 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is 'CREATE INDEX' for SQL."
+  },
+  {
+    "question": "Which JOIN returns only rows with matches in both tables?",
+    "options": [
+      "LEFT JOIN",
+      "INNER JOIN",
+      "FULL OUTER JOIN",
+      "CROSS JOIN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "INNER JOIN keeps rows satisfying the join predicate on both sides."
+  },
+  {
+    "question": "Which JOIN keeps every row from the first table plus matches from the second?",
+    "options": [
+      "INNER JOIN",
+      "RIGHT JOIN",
+      "LEFT JOIN",
+      "SELF JOIN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "LEFT JOIN preserves all left-side rows, filling unmatched right columns with NULL."
+  },
+  {
+    "question": "Which clause filters aggregated groups?",
+    "options": [
+      "WHERE",
+      "HAVING",
+      "FILTER ON",
+      "WITH"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HAVING evaluates conditions on grouped/aggregated results."
+  },
+  {
+    "question": "What is a primary key?",
+    "options": [
+      "Any indexed column",
+      "A column (or set) uniquely identifying each row",
+      "The first column of a table",
+      "A column referencing another table"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Primary keys enforce uniqueness and cannot contain NULL."
+  },
+  {
+    "question": "What is a foreign key?",
+    "options": [
+      "A key stored in another schema",
+      "A column referencing the primary key of another table",
+      "An encrypted identifier",
+      "A temporary session key"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Foreign keys maintain referential integrity between tables."
+  },
+  {
+    "question": "Which aggregate function returns the largest value in a column?",
+    "options": [
+      "TOP()",
+      "UPPER()",
+      "MAX()",
+      "CEILING()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "MAX() scans grouped values and returns the greatest one."
+  },
+  {
+    "question": "What does GROUP BY accomplish?",
+    "options": [
+      "Sorts results alphabetically",
+      "Groups rows sharing column values for aggregation",
+      "Joins two tables",
+      "Removes indexes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aggregate functions then compute per-group summaries."
+  },
+  {
+    "question": "Which operator tests membership against a list of values?",
+    "options": [
+      "BETWEEN",
+      "IN",
+      "MATCHES",
+      "CONTAINS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IN (a, b, c) is true when the value equals any listed item."
+  },
+  {
+    "question": "Which operator performs pattern matching on strings?",
+    "options": [
+      "LIKE",
+      "REGEX ONLY",
+      "SIMILAR TO ONLY",
+      "MATCH"
+    ],
+    "correctAnswer": 0,
+    "explanation": "LIKE uses wildcards % (any sequence) and _ (single character)."
+  },
+  {
+    "question": "What does the UNION operator do?",
+    "options": [
+      "Joins tables horizontally",
+      "Combines result sets removing duplicate rows",
+      "Multiplies row counts",
+      "Adds a new column"
+    ],
+    "correctAnswer": 1,
+    "explanation": "UNION merges compatible SELECT outputs; UNION ALL keeps duplicates."
+  },
+  {
+    "question": "What is database normalization?",
+    "options": [
+      "Compressing storage",
+      "Structuring tables to reduce redundancy and dependency anomalies",
+      "Speeding up queries with indexes",
+      "Backing up regularly"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Normal forms organize data into well-separated related tables."
+  },
+  {
+    "question": "Which constraint validates that column values satisfy a condition?",
+    "options": [
+      "DEFAULT",
+      "CHECK",
+      "VALIDATE",
+      "ASSERT"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CHECK rejects rows violating its Boolean expression."
+  },
+  {
+    "question": "What does TRUNCATE TABLE do?",
+    "options": [
+      "Deletes rows matching a condition",
+      "Removes all rows quickly while keeping the table structure",
+      "Deletes the table definition",
+      "Archives old rows"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TRUNCATE deallocates data pages instead of deleting row-by-row."
+  },
+  {
+    "question": "What is a subquery?",
+    "options": [
+      "A backup copy of a query",
+      "A query nested inside another query",
+      "A query executed by the OS",
+      "A scheduled job"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Subqueries appear inside WHERE/FROM/SELECT clauses of an enclosing query."
   }
 ]

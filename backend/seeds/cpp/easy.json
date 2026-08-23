@@ -330,17 +330,6 @@
     "explanation": "The correct answer is 'for' for C++."
   },
   {
-    "question": "What is the result of 3 + 4 in C++ header files?",
-    "options": [
-      "34",
-      "0",
-      "Error",
-      "7"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '7' for C++."
-  },
-  {
     "question": "Which statement imports libraries or packages in C++ loop logic?",
     "options": [
       "use lib;",
@@ -451,17 +440,6 @@
     "explanation": "The correct answer is 'functions' for C++."
   },
   {
-    "question": "What is the result of 3 + 4 in C++ loop logic?",
-    "options": [
-      "0",
-      "7",
-      "Error",
-      "34"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '7' for C++."
-  },
-  {
     "question": "Which keyword is used to exit a loop early in C++ loop logic?",
     "options": [
       "stop",
@@ -548,5 +526,27 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is '.cpp' for C++."
+  },
+  {
+    "question": "Which header provides std::cout for console output in C++?",
+    "options": [
+      "#include <cstdio>",
+      "#include <iostream>",
+      "#include <console>",
+      "#include <output>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "<iostream> declares std::cout, std::cin, and stream facilities."
+  },
+  {
+    "question": "What does std::endl do beyond inserting a newline?",
+    "options": [
+      "Flushes the output buffer",
+      "Ends the program",
+      "Closes cout",
+      "Prints a tab"
+    ],
+    "correctAnswer": 0,
+    "explanation": "endl writes \n and flushes the stream buffer."
   }
 ]

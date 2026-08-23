@@ -1,128 +1,552 @@
 [
-    
   {
     "question": "Which of these is a valid declaration of a boolean in Java?",
-    "options": ["boolean b = 1;", "boolean b = 'true';", "boolean b = true;", "bool b = true;"],
+    "options": [
+      "boolean b = 1;",
+      "boolean b = 'true';",
+      "boolean b = true;",
+      "bool b = true;"
+    ],
     "correctAnswer": 2,
     "explanation": "In Java, the boolean data type can only take the values `true` or `false`. `1` and `'true'` are invalid, and the keyword is `boolean`, not `bool`."
   },
   {
     "question": "What is the size of an int primitive data type in Java?",
-    "options": ["16-bit", "32-bit", "64-bit", "8-bit"],
+    "options": [
+      "16-bit",
+      "32-bit",
+      "64-bit",
+      "8-bit"
+    ],
     "correctAnswer": 1,
     "explanation": "An `int` in Java is a 32-bit signed two's complement integer."
   },
   {
     "question": "Which keyword is used to inherit a class in Java?",
-    "options": ["implements", "extends", "inherits", "super"],
+    "options": [
+      "implements",
+      "extends",
+      "inherits",
+      "super"
+    ],
     "correctAnswer": 1,
     "explanation": "The `extends` keyword is used for class inheritance, whereas `implements` is used for interfaces."
   },
   {
     "question": "Which of the following is not a Java keyword?",
-    "options": ["static", "Boolean", "void", "private"],
+    "options": [
+      "static",
+      "Boolean",
+      "void",
+      "private"
+    ],
     "correctAnswer": 1,
     "explanation": "`Boolean` (capitalized) is a wrapper class in java.lang, not a reserved keyword. `boolean` (lowercase) is the keyword."
   },
   {
     "question": "What is the entry point of a Java program?",
-    "options": ["public void main(String[] args)", "public static void main(String args)", "public static void main(String[] args)", "static void main(String args[])"],
+    "options": [
+      "public void main(String[] args)",
+      "public static void main(String args)",
+      "public static void main(String[] args)",
+      "static void main(String args[])"
+    ],
     "correctAnswer": 2,
     "explanation": "The JVM looks for the exact method signature `public static void main(String[] args)` to start execution."
   },
   {
     "question": "Which operator is used to compare two values for equality in Java?",
-    "options": ["=", "==", "equals()", "==="],
+    "options": [
+      "=",
+      "==",
+      "equals()",
+      "==="
+    ],
     "correctAnswer": 1,
     "explanation": "The `==` operator compares primitives for equality and objects for reference equality. `=` is for assignment."
   },
   {
     "question": "What is the default value of an uninitialized instance variable of type object reference?",
-    "options": ["0", "false", "null", "undefined"],
+    "options": [
+      "0",
+      "false",
+      "null",
+      "undefined"
+    ],
     "correctAnswer": 2,
     "explanation": "All uninitialized object references in Java default to `null`."
   },
   {
     "question": "How do you create a single-line comment in Java?",
-    "options": ["// comment", "/* comment */", "# comment", "<!-- comment -->"],
+    "options": [
+      "// comment",
+      "/* comment */",
+      "# comment",
+      "<!-- comment -->"
+    ],
     "correctAnswer": 0,
     "explanation": "`//` is used for single-line comments in Java."
   },
   {
     "question": "Which package is automatically imported into every Java program?",
-    "options": ["java.util", "java.io", "java.lang", "java.net"],
+    "options": [
+      "java.util",
+      "java.io",
+      "java.lang",
+      "java.net"
+    ],
     "correctAnswer": 2,
     "explanation": "The `java.lang` package is automatically imported by the compiler for all Java programs."
   },
   {
     "question": "What happens if you try to modify a final variable?",
-    "options": ["It modifies successfully", "Runtime Exception", "Compile-time error", "It is ignored"],
+    "options": [
+      "It modifies successfully",
+      "Runtime Exception",
+      "Compile-time error",
+      "It is ignored"
+    ],
     "correctAnswer": 2,
     "explanation": "A `final` variable cannot be reassigned once initialized. Attempting to do so causes a compile-time error."
   },
-
   {
     "question": "Which of the following is true about Java Strings?",
-    "options": ["Strings are mutable", "Strings are primitive types", "Strings are immutable", "Strings use 8-bit ASCII by default"],
+    "options": [
+      "Strings are mutable",
+      "Strings are primitive types",
+      "Strings are immutable",
+      "Strings use 8-bit ASCII by default"
+    ],
     "correctAnswer": 2,
     "explanation": "In Java, String objects are immutable. Once created, their values cannot be changed in memory."
   },
   {
     "question": "How do you check the number of elements in an array named `data`?",
-    "options": ["data.length()", "data.length", "data.size()", "data.count"],
+    "options": [
+      "data.length()",
+      "data.length",
+      "data.size()",
+      "data.count"
+    ],
     "correctAnswer": 1,
     "explanation": "Arrays in Java have a `length` property, whereas Collections use the `size()` method, and Strings use `length()`."
   },
   {
     "question": "What is the result of 5 / 2 in Java integer division?",
-    "options": ["2.5", "2", "3", "2.0"],
+    "options": [
+      "2.5",
+      "2",
+      "3",
+      "2.0"
+    ],
     "correctAnswer": 1,
     "explanation": "Dividing two integers results in integer division, which truncates any fractional part, returning 2."
   },
   {
     "question": "Which loop is guaranteed to execute at least once?",
-    "options": ["for loop", "while loop", "do-while loop", "for-each loop"],
+    "options": [
+      "for loop",
+      "while loop",
+      "do-while loop",
+      "for-each loop"
+    ],
     "correctAnswer": 2,
     "explanation": "A `do-while` loop checks its condition at the end of the iteration, guaranteeing execution at least once."
   },
   {
     "question": "Which access modifier makes a class member visible only within its own class?",
-    "options": ["public", "protected", "default (package-private)", "private"],
+    "options": [
+      "public",
+      "protected",
+      "default (package-private)",
+      "private"
+    ],
     "correctAnswer": 3,
     "explanation": "The `private` modifier restricts visibility exclusively to the class in which the member is declared."
   },
   {
     "question": "Which keyword is used to stop the execution of a loop immediately?",
-    "options": ["stop", "continue", "break", "return"],
+    "options": [
+      "stop",
+      "continue",
+      "break",
+      "return"
+    ],
     "correctAnswer": 2,
     "explanation": "The `break` statement immediately terminates the innermost enclosing loop."
   },
   {
     "question": "How do you parse a String \"123\" into an integer in Java?",
-    "options": ["Integer.parseInt(\"123\")", "String.toInt(\"123\")", "(int)\"123\"", "Convert.toInt(\"123\")"],
+    "options": [
+      "Integer.parseInt(\"123\")",
+      "String.toInt(\"123\")",
+      "(int)\"123\"",
+      "Convert.toInt(\"123\")"
+    ],
     "correctAnswer": 0,
     "explanation": "`Integer.parseInt(String s)` parses a string argument as a signed decimal integer."
   },
   {
     "question": "What exception is thrown when accessing an array with an invalid index?",
-    "options": ["IndexOutOfBoundsException", "ArrayIndexOutOfBoundsException", "NullPointerException", "ArrayOverflowException"],
+    "options": [
+      "IndexOutOfBoundsException",
+      "ArrayIndexOutOfBoundsException",
+      "NullPointerException",
+      "ArrayOverflowException"
+    ],
     "correctAnswer": 1,
     "explanation": "Accessing a negative index or an index greater than or equal to `array.length` throws `ArrayIndexOutOfBoundsException`."
   },
   {
     "question": "Which method returns the square root of a number in Java?",
-    "options": ["Math.sqrt()", "Math.pow()", "Math.root()", "Number.sqrt()"],
+    "options": [
+      "Math.sqrt()",
+      "Math.pow()",
+      "Math.root()",
+      "Number.sqrt()"
+    ],
     "correctAnswer": 0,
     "explanation": "`Math.sqrt(double a)` returns the correctly rounded positive square root of a `double` value."
   },
   {
     "question": "What happens when you concatenate a String and an int in Java (e.g., \"Value: \" + 5)?",
-    "options": ["Compile-time error", "The int is converted to a String and concatenated", "The String is converted to an int", "Runtime exception"],
+    "options": [
+      "Compile-time error",
+      "The int is converted to a String and concatenated",
+      "The String is converted to an int",
+      "Runtime exception"
+    ],
     "correctAnswer": 1,
     "explanation": "The `+` operator automatically converts non-string operands to strings when one operand is a String."
   },
   {
-
+    "question": "Who originally developed the Java programming language?",
+    "options": [
+      "James Gosling",
+      "Dennis Ritchie",
+      "Bjarne Stroustrup",
+      "Guido van Rossum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Java was created by James Gosling and his team at Sun Microsystems in 1995."
+  },
+  {
+    "question": "What is the file extension of compiled Java bytecode?",
+    "options": [
+      ".java",
+      ".class",
+      ".jar",
+      ".exe"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The javac compiler produces .class files containing JVM bytecode."
+  },
+  {
+    "question": "What is the entry point of every Java application?",
+    "options": [
+      "public static void main(String[] args)",
+      "public void start()",
+      "static main()",
+      "void run()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The JVM looks for public static void main(String[] args) to start execution."
+  },
+  {
+    "question": "Which keyword is used to create an object in Java?",
+    "options": [
+      "new",
+      "create",
+      "alloc",
+      "make"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The new keyword allocates memory on the heap and invokes the constructor."
+  },
+  {
+    "question": "What is the size of an int in Java?",
+    "options": [
+      "16 bits",
+      "32 bits",
+      "64 bits",
+      "It depends on the OS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Java int is always a signed 32-bit integer regardless of platform."
+  },
+  {
+    "question": "Which data type holds only true or false values?",
+    "options": [
+      "int",
+      "char",
+      "boolean",
+      "byte"
+    ],
+    "correctAnswer": 2,
+    "explanation": "boolean represents logical values true and false."
+  },
+  {
+    "question": "Which character ends a statement in Java?",
+    "options": [
+      "Colon :",
+      "Semicolon ;",
+      "Period .",
+      "Comma ,"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statements must be terminated with a semicolon."
+  },
+  {
+    "question": "What does JVM stand for?",
+    "options": [
+      "Java Verified Module",
+      "Java Virtual Machine",
+      "Java Variable Memory",
+      "Just-in-time Virtual Manager"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The JVM executes compiled bytecode and provides platform independence."
+  },
+  {
+    "question": "What does JDK stand for?",
+    "options": [
+      "Java Data Kit",
+      "Java Development Kit",
+      "Java Deploy Kit",
+      "Joint Development Key"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The JDK bundles the compiler, tools, and JRE needed to develop Java programs."
+  },
+  {
+    "question": "What does JRE stand for?",
+    "options": [
+      "Java Runtime Environment",
+      "Java Resource Engine",
+      "Java Render Engine",
+      "JVM Runtime Extension"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The JRE provides the libraries and JVM required to run Java applications."
+  },
+  {
+    "question": "Which statement prints text to the console?",
+    "options": [
+      "print(\"Hello\")",
+      "System.out.println(\"Hello\")",
+      "console.log(\"Hello\")",
+      "echo \"Hello\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "System.out.println writes a line of text to standard output."
+  },
+  {
+    "question": "Which keyword is used to declare a constant whose value cannot change?",
+    "options": [
+      "const",
+      "final",
+      "static",
+      "immutable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "final makes a variable assignable only once."
+  },
+  {
+    "question": "Which of these is NOT a primitive data type in Java?",
+    "options": [
+      "int",
+      "double",
+      "String",
+      "char"
+    ],
+    "correctAnswer": 2,
+    "explanation": "String is a class in java.lang, not a primitive type."
+  },
+  {
+    "question": "How do you create an array capable of holding 10 integers?",
+    "options": [
+      "int[] arr = new int[10];",
+      "int arr[10];",
+      "array int[10] arr;",
+      "int[] arr = int(10);"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Java arrays are created with the new keyword followed by the size."
+  },
+  {
+    "question": "What is the default value of an uninitialized int field in a class?",
+    "options": [
+      "-1",
+      "null",
+      "0",
+      "undefined"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Instance fields of type int default to 0."
+  },
+  {
+    "question": "What is the default value of an uninitialized boolean field in a class?",
+    "options": [
+      "true",
+      "false",
+      "null",
+      "0"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Instance fields of type boolean default to false."
+  },
+  {
+    "question": "Which operator concatenates Strings in Java?",
+    "options": [
+      "+",
+      "&",
+      ".",
+      "~"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The + operator concatenates strings, e.g. \"Hello\" + \" World\"."
+  },
+  {
+    "question": "Which loop is guaranteed to execute its body at least once?",
+    "options": [
+      "for",
+      "while",
+      "do-while",
+      "enhanced for"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In a do-while loop the condition is evaluated after the body runs."
+  },
+  {
+    "question": "Which keyword immediately exits the current loop?",
+    "options": [
+      "stop",
+      "break",
+      "exit",
+      "return-loop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "break terminates the nearest enclosing loop or switch."
+  },
+  {
+    "question": "Which keyword skips the rest of the current iteration and continues the loop?",
+    "options": [
+      "skip",
+      "pass",
+      "continue",
+      "next"
+    ],
+    "correctAnswer": 2,
+    "explanation": "continue jumps to the next iteration of the loop."
+  },
+  {
+    "question": "Lines beginning with // are called what?",
+    "options": [
+      "Block comments",
+      "Documentation comments",
+      "Single-line comments",
+      "Annotations"
+    ],
+    "correctAnswer": 2,
+    "explanation": "// starts a comment that extends to the end of the line."
+  },
+  {
+    "question": "Is Java statically typed or dynamically typed?",
+    "options": [
+      "Dynamically typed",
+      "Statically typed",
+      "Untyped",
+      "Gradually typed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Variable types are checked at compile time, making Java statically typed."
+  },
+  {
+    "question": "Which keyword refers to the current instance of a class?",
+    "options": [
+      "self",
+      "this",
+      "current",
+      "me"
+    ],
+    "correctAnswer": 1,
+    "explanation": "this refers to the object whose method or constructor is being invoked."
+  },
+  {
+    "question": "Which collection guarantees unique elements?",
+    "options": [
+      "List",
+      "Set",
+      "Map",
+      "Queue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Implementations of Set such as HashSet reject duplicate elements."
+  },
+  {
+    "question": "What does char store in Java?",
+    "options": [
+      "A whole word",
+      "A single 16-bit Unicode character",
+      "A boolean flag",
+      "An integer up to 255"
+    ],
+    "correctAnswer": 1,
+    "explanation": "char holds one UTF-16 code unit representing a character."
+  },
+  {
+    "question": "Which tool compiles Java source code into bytecode?",
+    "options": [
+      "java",
+      "javac",
+      "jdb",
+      "javadoc"
+    ],
+    "correctAnswer": 1,
+    "explanation": "javac compiles .java sources into .class bytecode files."
+  },
+  {
+    "question": "What is a variable in Java?",
+    "options": [
+      "A reserved keyword",
+      "A named memory location that stores a value",
+      "A type of loop",
+      "A compile error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A variable is a named container in memory holding a value of a given type."
+  },
+  {
+    "question": "What is the result of 7 % 3 in Java?",
+    "options": [
+      "2",
+      "2.33",
+      "1",
+      "0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "% returns the remainder of division, so 7 % 3 is 1."
+  },
+  {
+    "question": "Which access modifier makes members visible only within their own class?",
+    "options": [
+      "public",
+      "protected",
+      "private",
+      "default"
+    ],
+    "correctAnswer": 2,
+    "explanation": "private restricts access to the declaring class itself."
+  },
+  {
+    "question": "Which data type should you use to store a person's full name?",
+    "options": [
+      "int",
+      "boolean",
+      "String",
+      "char"
+    ],
+    "correctAnswer": 2,
+    "explanation": "String holds sequences of characters such as names."
   }
-
 ]

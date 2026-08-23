@@ -407,17 +407,6 @@
     "explanation": "The correct answer is 'true' for Go."
   },
   {
-    "question": "Which keyword is used to exit a loop early in Go loop logic?",
-    "options": [
-      "return",
-      "stop",
-      "continue",
-      "break"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'break' for Go."
-  },
-  {
     "question": "Which code line prints \"Hello\" in Go header files?",
     "options": [
       "console.log(\"Hello\")",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is '\"Hello\" + \"World\"' for Go."
+  },
+  {
+    "question": "Which keyword starts a concurrent function execution in Go?",
+    "options": [
+      "async",
+      "parallel",
+      "go",
+      "thread"
+    ],
+    "correctAnswer": 2,
+    "explanation": "goroutines launch with the go keyword before a function call."
   }
 ]

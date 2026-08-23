@@ -176,17 +176,6 @@
     "explanation": "The correct answer is '.ts' for TypeScript."
   },
   {
-    "question": "What is the result of 8 - 3 in TypeScript header files?",
-    "options": [
-      "5",
-      "2",
-      "8",
-      "3"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '5' for TypeScript."
-  },
-  {
     "question": "Which phrase describes the main function signature in TypeScript loop logic?",
     "options": [
       "main()",
@@ -418,17 +407,6 @@
     "explanation": "The correct answer is 'true' for TypeScript."
   },
   {
-    "question": "What is the result of 3 + 4 in TypeScript conditional logic?",
-    "options": [
-      "0",
-      "34",
-      "Error",
-      "7"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '7' for TypeScript."
-  },
-  {
     "question": "Which operator checks equality in TypeScript library imports?",
     "options": [
       "=",
@@ -528,17 +506,6 @@
     "explanation": "The correct answer is 'const' for TypeScript."
   },
   {
-    "question": "What is the result of 3 + 4 in TypeScript source code?",
-    "options": [
-      "34",
-      "Error",
-      "0",
-      "7"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '7' for TypeScript."
-  },
-  {
     "question": "Which value is commonly used for true in TypeScript conditional logic?",
     "options": [
       "True",
@@ -548,5 +515,38 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is 'true' for TypeScript."
+  },
+  {
+    "question": "What is TypeScript primarily?",
+    "options": [
+      "A runtime engine replacing Node.js",
+      "A strongly typed superset of JavaScript that compiles to plain JavaScript",
+      "A CSS framework",
+      "A testing library"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TypeScript adds static typing and transpiles to JavaScript."
+  },
+  {
+    "question": "Which type describes a value that can be either string or number?",
+    "options": [
+      "either<string, number>",
+      "string | number",
+      "string & number",
+      "union(string, number)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Union types allow a value of several possible types."
+  },
+  {
+    "question": "What does the any type do?",
+    "options": [
+      "Turns off type checking for that value",
+      "Creates an enum",
+      "Marks a constant",
+      "Enables strict null checks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "any opts a value out of TypeScript type safety."
   }
 ]

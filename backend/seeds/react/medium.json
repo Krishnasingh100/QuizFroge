@@ -264,17 +264,6 @@
     "explanation": "The correct answer is 'components' for React."
   },
   {
-    "question": "Which React API prevents a component from rerendering when props do not change on props?",
-    "options": [
-      "React.memo",
-      "PureComponent",
-      "useCallback",
-      "useMemo"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'React.memo' for React."
-  },
-  {
     "question": "Which hook runs cleanup code when components unmount in React on effects?",
     "options": [
       "useMemo",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is 'components' for React."
+  },
+  {
+    "question": "What does the dependency array in useEffect control?",
+    "options": [
+      "Render priority",
+      "When the effect re-runs after renders",
+      "Component props",
+      "State naming"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The effect reruns only when listed dependencies change (empty array = once)."
   }
 ]

@@ -132,17 +132,6 @@
     "explanation": "The correct answer is 'flex-direction: row' for CSS."
   },
   {
-    "question": "Which property lets content wrap onto a new line in CSS on image?",
-    "options": [
-      "justify-content",
-      "flex-direction",
-      "align-items",
-      "flex-wrap"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'flex-wrap' for CSS."
-  },
-  {
     "question": "Which CSS property controls horizontal overflow in CSS on form?",
     "options": [
       "overflow",
@@ -209,17 +198,6 @@
     "explanation": "The correct answer is 'padding' for CSS."
   },
   {
-    "question": "Which property lets content wrap onto a new line in CSS on form?",
-    "options": [
-      "align-items",
-      "flex-direction",
-      "flex-wrap",
-      "justify-content"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'flex-wrap' for CSS."
-  },
-  {
     "question": "Which selector matches an element by id in CSS on nav?",
     "options": [
       "main",
@@ -240,17 +218,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is 'opacity' for CSS."
-  },
-  {
-    "question": "Which property lets content wrap onto a new line in CSS on header?",
-    "options": [
-      "justify-content",
-      "flex-direction",
-      "align-items",
-      "flex-wrap"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'flex-wrap' for CSS."
   },
   {
     "question": "Which selector matches an element by id in CSS on footer?",
@@ -317,28 +284,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'background-image' for CSS."
-  },
-  {
-    "question": "Which property lets content wrap onto a new line in CSS on button?",
-    "options": [
-      "flex-direction",
-      "justify-content",
-      "flex-wrap",
-      "align-items"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'flex-wrap' for CSS."
-  },
-  {
-    "question": "Which property lets content wrap onto a new line in CSS on container?",
-    "options": [
-      "align-items",
-      "flex-wrap",
-      "justify-content",
-      "flex-direction"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'flex-wrap' for CSS."
   },
   {
     "question": "Which property sets the gap between grid rows in CSS on nav?",
@@ -548,5 +493,60 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'flex-direction: row' for CSS."
+  },
+  {
+    "question": "How does position: sticky behave?",
+    "options": [
+      "Always fixed to the viewport",
+      "Relative until crossing a scroll threshold, then fixed within its parent",
+      "Absolutely positioned by default",
+      "Scrolls opposite to the page"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sticky elements toggle between relative and fixed based on scroll offset."
+  },
+  {
+    "question": "Which selector targets every second child element?",
+    "options": [
+      "::nth(2)",
+      ":nth-child(even)",
+      ":child(even)",
+      ":second-child"
+    ],
+    "correctAnswer": 1,
+    "explanation": ":nth-child(even) matches children 2, 4, 6, ... of a parent."
+  },
+  {
+    "question": "What does box-sizing: border-box change?",
+    "options": [
+      "Borders become rounded automatically",
+      "Width/height include padding and border, excluding margin",
+      "Content shrinks to fit borders",
+      "Margins collapse"
+    ],
+    "correctAnswer": 1,
+    "explanation": "border-box sizing makes declared dimensions include padding and border widths."
+  },
+  {
+    "question": "Order the specificity of selectors from strongest to weakest.",
+    "options": [
+      "class > id > inline > element",
+      "inline > id > class > element",
+      "element > class > id > inline",
+      "id > inline > element > class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inline styles outrank IDs, which outrank classes, which outrank element selectors."
+  },
+  {
+    "question": "Which property smoothly animates a property change without keyframes?",
+    "options": [
+      "animate",
+      "transition",
+      "morph",
+      "easing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "transition interpolates property changes over a duration when values change."
   }
 ]

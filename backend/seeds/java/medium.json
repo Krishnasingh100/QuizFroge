@@ -1,124 +1,552 @@
 [
   {
     "question": "Which interface does java.util.Hashtable implement?",
-    "options": ["List", "Set", "Map", "Collection"],
+    "options": [
+      "List",
+      "Set",
+      "Map",
+      "Collection"
+    ],
     "correctAnswer": 2,
     "explanation": "Hashtable implements the `Map` interface, which stores key-value pairs."
   },
   {
     "question": "What is the difference between ArrayList and LinkedList?",
-    "options": ["ArrayList is synchronized, LinkedList is not", "LinkedList uses a dynamic array, ArrayList uses nodes", "ArrayList is faster for random access, LinkedList is faster for insertions/deletions", "There is no difference"],
+    "options": [
+      "ArrayList is synchronized, LinkedList is not",
+      "LinkedList uses a dynamic array, ArrayList uses nodes",
+      "ArrayList is faster for random access, LinkedList is faster for insertions/deletions",
+      "There is no difference"
+    ],
     "correctAnswer": 2,
     "explanation": "ArrayList is backed by an array, making `get(index)` fast O(1). LinkedList is backed by nodes, making insertions/deletions faster O(1) if the node is known."
   },
   {
     "question": "What will happen if you catch a NullPointerException but a ClassCastException is thrown?",
-    "options": ["The catch block executes", "The program continues normally", "The JVM crashes immediately", "The exception propagates up the call stack"],
+    "options": [
+      "The catch block executes",
+      "The program continues normally",
+      "The JVM crashes immediately",
+      "The exception propagates up the call stack"
+    ],
     "correctAnswer": 3,
     "explanation": "If a thrown exception does not match the catch block's exception type, it propagates up the call stack looking for a matching handler."
   },
   {
     "question": "Which of these is checked at compile-time?",
-    "options": ["RuntimeException", "Error", "IOException", "NullPointerException"],
+    "options": [
+      "RuntimeException",
+      "Error",
+      "IOException",
+      "NullPointerException"
+    ],
     "correctAnswer": 2,
     "explanation": "IOException is a checked exception. RuntimeExceptions and Errors are unchecked and do not require explicit handling at compile-time."
   },
   {
     "question": "What does the 'transient' keyword do?",
-    "options": ["Prevents a variable from being serialized", "Makes a variable thread-safe", "Prevents a method from being overridden", "Forces a variable to be stored in registers"],
+    "options": [
+      "Prevents a variable from being serialized",
+      "Makes a variable thread-safe",
+      "Prevents a method from being overridden",
+      "Forces a variable to be stored in registers"
+    ],
     "correctAnswer": 0,
     "explanation": "Marking a variable as `transient` tells the JVM to ignore it when serializing the object."
   },
   {
     "question": "How does a HashSet determine if an element is a duplicate?",
-    "options": ["Using the compareTo() method", "Using both hashCode() and equals()", "Using the == operator", "Using the memory address"],
+    "options": [
+      "Using the compareTo() method",
+      "Using both hashCode() and equals()",
+      "Using the == operator",
+      "Using the memory address"
+    ],
     "correctAnswer": 1,
     "explanation": "HashSet first checks the `hashCode()`. If a collision occurs, it uses `equals()` to check if the objects are truly identical."
   },
   {
     "question": "Which collection allows null keys and null values?",
-    "options": ["Hashtable", "HashMap", "TreeMap", "ConcurrentHashMap"],
+    "options": [
+      "Hashtable",
+      "HashMap",
+      "TreeMap",
+      "ConcurrentHashMap"
+    ],
     "correctAnswer": 1,
     "explanation": "HashMap allows one null key and multiple null values. Hashtable, TreeMap, and ConcurrentHashMap do not allow null keys."
   },
   {
     "question": "What is the primary difference between Runnable and Callable?",
-    "options": ["Runnable is for threads, Callable is for processes", "Callable can return a result and throw checked exceptions", "Runnable returns a boolean, Callable returns void", "Callable is older and deprecated"],
+    "options": [
+      "Runnable is for threads, Callable is for processes",
+      "Callable can return a result and throw checked exceptions",
+      "Runnable returns a boolean, Callable returns void",
+      "Callable is older and deprecated"
+    ],
     "correctAnswer": 1,
     "explanation": "Unlike Runnable's `run()` method, Callable's `call()` method can return a value (via Future) and throw checked exceptions."
   },
   {
     "question": "What design pattern is the Java Runtime class based on?",
-    "options": ["Factory", "Observer", "Singleton", "Builder"],
+    "options": [
+      "Factory",
+      "Observer",
+      "Singleton",
+      "Builder"
+    ],
     "correctAnswer": 2,
     "explanation": "The `Runtime` class uses the Singleton pattern. You get its single instance via `Runtime.getRuntime()`."
   },
   {
     "question": "Can an interface implement another interface in Java?",
-    "options": ["Yes, using the 'implements' keyword", "Yes, using the 'extends' keyword", "No, interfaces cannot inherit", "Only in Java 8 and above"],
+    "options": [
+      "Yes, using the 'implements' keyword",
+      "Yes, using the 'extends' keyword",
+      "No, interfaces cannot inherit",
+      "Only in Java 8 and above"
+    ],
     "correctAnswer": 1,
     "explanation": "An interface can inherit from one or more other interfaces, but it must use the `extends` keyword to do so."
   },
-  
   {
     "question": "What is the primary difference between StringBuilder and StringBuffer?",
-    "options": ["StringBuilder is synchronized; StringBuffer is not", "StringBuffer is synchronized (thread-safe); StringBuilder is not", "StringBuilder is immutable; StringBuffer is mutable", "StringBuffer is faster than StringBuilder in single-threaded operations"],
+    "options": [
+      "StringBuilder is synchronized; StringBuffer is not",
+      "StringBuffer is synchronized (thread-safe); StringBuilder is not",
+      "StringBuilder is immutable; StringBuffer is mutable",
+      "StringBuffer is faster than StringBuilder in single-threaded operations"
+    ],
     "correctAnswer": 1,
     "explanation": "`StringBuffer` has synchronized methods for thread safety, making it slower than `StringBuilder`, which is non-synchronized."
   },
   {
     "question": "Since Java 8, how can an interface provide concrete method implementations?",
-    "options": ["Using the abstract keyword", "Using default or static methods", "Interfaces still cannot have concrete methods", "Using private final methods only"],
+    "options": [
+      "Using the abstract keyword",
+      "Using default or static methods",
+      "Interfaces still cannot have concrete methods",
+      "Using private final methods only"
+    ],
     "correctAnswer": 1,
     "explanation": "Java 8 introduced `default` and `static` methods in interfaces to allow adding implementation code without breaking implementing classes."
   },
   {
     "question": "What is the difference between Comparable and Comparator?",
-    "options": ["Comparable provides custom sorting; Comparator provides natural ordering", "Comparable is in java.util; Comparator is in java.lang", "Comparable modifies the class itself via compareTo(); Comparator is a separate class via compare()", "There is no difference"],
+    "options": [
+      "Comparable provides custom sorting; Comparator provides natural ordering",
+      "Comparable is in java.util; Comparator is in java.lang",
+      "Comparable modifies the class itself via compareTo(); Comparator is a separate class via compare()",
+      "There is no difference"
+    ],
     "correctAnswer": 2,
     "explanation": "`Comparable` defines single natural ordering inside the class (`compareTo`), while `Comparator` (`compare`) allows multiple custom sorting strategies outside the class."
   },
   {
     "question": "Which superclass sits at the top of the Java exception hierarchy?",
-    "options": ["java.lang.Exception", "java.lang.Throwable", "java.lang.Error", "java.lang.RuntimeException"],
+    "options": [
+      "java.lang.Exception",
+      "java.lang.Throwable",
+      "java.lang.Error",
+      "java.lang.RuntimeException"
+    ],
     "correctAnswer": 1,
     "explanation": "`Throwable` is the superclass of all errors and exceptions in Java."
   },
   {
     "question": "In Java Streams, what does flatMap() do?",
-    "options": ["Filters out null values from a stream", "Flattens a stream of streams into a single stream", "Converts stream elements into a Map", "Sorts elements in descending order"],
+    "options": [
+      "Filters out null values from a stream",
+      "Flattens a stream of streams into a single stream",
+      "Converts stream elements into a Map",
+      "Sorts elements in descending order"
+    ],
     "correctAnswer": 1,
     "explanation": "`flatMap()` transforms each element into a stream of other objects and then flattens all generated streams into a single unified stream."
   },
   {
     "question": "What feature introduced in Java 7 automatically closes resources like streams or database connections?",
-    "options": ["AutoClose Interface", "Try-with-resources", "Garbage Collector 2.0", "Finalize block"],
+    "options": [
+      "AutoClose Interface",
+      "Try-with-resources",
+      "Garbage Collector 2.0",
+      "Finalize block"
+    ],
     "correctAnswer": 1,
     "explanation": "Try-with-resources automatically closes any resource that implements `java.lang.AutoCloseable` at the end of the block."
   },
   {
     "question": "Which rule applies to method overriding in Java?",
-    "options": ["The return type must be completely unrelated", "The overriding method can throw broader checked exceptions", "The overriding method cannot have a lower access level than the overridden method", "Static methods can be overridden polymorphically"],
+    "options": [
+      "The return type must be completely unrelated",
+      "The overriding method can throw broader checked exceptions",
+      "The overriding method cannot have a lower access level than the overridden method",
+      "Static methods can be overridden polymorphically"
+    ],
     "correctAnswer": 2,
     "explanation": "An overriding method cannot reduce the visibility of the method in the superclass (e.g., overriding a `public` method as `protected` causes a compiler error)."
   },
   {
     "question": "What is a shallow copy of an object?",
-    "options": ["A copy that duplicates the object and all nested sub-objects recursively", "A copy that duplicates fields, but reference fields still point to the original objects in memory", "A copy made by serializing to disk", "A copy created without calling constructor"],
+    "options": [
+      "A copy that duplicates the object and all nested sub-objects recursively",
+      "A copy that duplicates fields, but reference fields still point to the original objects in memory",
+      "A copy made by serializing to disk",
+      "A copy created without calling constructor"
+    ],
     "correctAnswer": 1,
     "explanation": "A shallow copy copies field values. If a field is a reference to an object, only the memory address is copied, sharing the underlying object."
   },
   {
     "question": "What does Optional.ofNullable(val) do if 'val' is null?",
-    "options": ["Throws a NullPointerException", "Returns an empty Optional instance", "Returns Optional containing null", "Creates a default object"],
+    "options": [
+      "Throws a NullPointerException",
+      "Returns an empty Optional instance",
+      "Returns Optional containing null",
+      "Creates a default object"
+    ],
     "correctAnswer": 1,
     "explanation": "`Optional.ofNullable()` returns an empty `Optional` if the parameter is null, preventing unexpected `NullPointerException`s."
   },
   {
     "question": "What is method overloading?",
-    "options": ["Methods in different classes with the same name and signature", "Methods in the same class with the same name but different parameters", "Changing method implementation in a subclass", "Making a method run in multiple threads"],
+    "options": [
+      "Methods in different classes with the same name and signature",
+      "Methods in the same class with the same name but different parameters",
+      "Changing method implementation in a subclass",
+      "Making a method run in multiple threads"
+    ],
     "correctAnswer": 1,
     "explanation": "Overloading allows multiple methods in the same class to share a name, provided their parameter lists (types, quantity, or order) differ."
+  },
+  {
+    "question": "What is method overriding?",
+    "options": [
+      "Changing a method name after compilation",
+      "A subclass providing its own implementation of an inherited method",
+      "Hiding a method with the same signature in the same class",
+      "Renaming overloaded methods"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Overriding lets a subclass replace the implementation inherited from its superclass."
+  },
+  {
+    "question": "Can a constructor be declared final in Java?",
+    "options": [
+      "Yes, always",
+      "No, constructors cannot be final",
+      "Only for abstract classes",
+      "Only static constructors"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Constructors are never inherited, so marking them final is illegal."
+  },
+  {
+    "question": "What happens when you mark a class final?",
+    "options": [
+      "It cannot be instantiated",
+      "It cannot be subclassed",
+      "Its methods cannot be called",
+      "It becomes abstract"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A final class cannot be extended, e.g. java.lang.String."
+  },
+  {
+    "question": "What defines an abstract class?",
+    "options": [
+      "A class with only static methods",
+      "A class that cannot be instantiated and may contain abstract methods",
+      "Any class ending with Abstract",
+      "A final class with private fields"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Abstract classes define common state/behavior and may leave methods unimplemented."
+  },
+  {
+    "question": "How many classes can a Java class directly extend?",
+    "options": [
+      "Unlimited",
+      "Two",
+      "One",
+      "None"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Java supports single inheritance for classes through the extends keyword."
+  },
+  {
+    "question": "How many interfaces can a class implement?",
+    "options": [
+      "Exactly one",
+      "At most two",
+      "Multiple",
+      "None unless it is abstract"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Unlike classes, a class may implement any number of interfaces."
+  },
+  {
+    "question": "What does the static keyword mean when applied to a method?",
+    "options": [
+      "The method cannot be overridden",
+      "The method belongs to the class rather than any instance",
+      "The method runs on a separate thread",
+      "The method caches its results"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Static methods are callable on the class itself without creating an object."
+  },
+  {
+    "question": "What is autoboxing in Java?",
+    "options": [
+      "Automatic conversion between primitive types and their wrapper classes",
+      "Compressing class files into a JAR",
+      "Generating getters and setters",
+      "Importing classes automatically"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Autoboxing converts e.g. int to Integer and back automatically."
+  },
+  {
+    "question": "What is the difference between == and .equals() for objects?",
+    "options": [
+      "They are identical for all objects",
+      "== compares references while .equals() compares logical content",
+      ".equals() compares memory addresses",
+      "== compares content while .equals() compares types"
+    ],
+    "correctAnswer": 1,
+    "explanation": "== tests whether two references point to the same object; equals compares values."
+  },
+  {
+    "question": "Which collection allows duplicate elements?",
+    "options": [
+      "HashSet",
+      "TreeSet",
+      "ArrayList",
+      "LinkedHashSet"
+    ],
+    "correctAnswer": 2,
+    "explanation": "List implementations such as ArrayList permit duplicates and preserve order."
+  },
+  {
+    "question": "What is a HashMap used for?",
+    "options": [
+      "Sorting elements automatically",
+      "Storing key-value pairs with fast lookup",
+      "Guaranteeing element order",
+      "Blocking concurrent access"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HashMap maps unique keys to values with average O(1) lookup."
+  },
+  {
+    "question": "Which exception is thrown when dividing an integer by zero?",
+    "options": [
+      "NullPointerException",
+      "NumberFormatException",
+      "ArithmeticException",
+      "IllegalStateException"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Integer division by zero throws ArithmeticException: / by zero."
+  },
+  {
+    "question": "When are checked exceptions verified?",
+    "options": [
+      "At compile time",
+      "At runtime only",
+      "During garbage collection",
+      "When the JVM shuts down"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Checked exceptions must be caught or declared with throws at compile time."
+  },
+  {
+    "question": "Which block always executes whether or not an exception occurs?",
+    "options": [
+      "try",
+      "catch",
+      "finally",
+      "throws"
+    ],
+    "correctAnswer": 2,
+    "explanation": "finally runs even after exceptions, making it ideal for cleanup."
+  },
+  {
+    "question": "Which keyword manually throws an exception?",
+    "options": [
+      "throw",
+      "throws",
+      "raise",
+      "exception"
+    ],
+    "correctAnswer": 0,
+    "explanation": "throw instantiates and raises an exception inside a method body."
+  },
+  {
+    "question": "What does the throws clause declare?",
+    "options": [
+      "Exceptions handled inside the method",
+      "Exceptions a method might propagate to its caller",
+      "Default exception messages",
+      "Runtime errors only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "throws lists checked exceptions a method may propagate."
+  },
+  {
+    "question": "What is garbage collection in Java?",
+    "options": [
+      "Deleting source files",
+      "Automatic reclamation of memory occupied by unreachable objects",
+      "Removing unused imports",
+      "Compiling bytecode"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The JVM garbage collector frees heap memory used by objects no longer referenced."
+  },
+  {
+    "question": "What is a default method in an interface (Java 8+)?",
+    "options": [
+      "A method that is always private",
+      "A method with a body that implementing classes inherit",
+      "A static factory method",
+      "A method that must be overridden"
+    ],
+    "correctAnswer": 1,
+    "explanation": "default methods give interfaces ready-to-use behavior without breaking implementers."
+  },
+  {
+    "question": "What is a lambda expression in Java?",
+    "options": [
+      "A way to declare interfaces",
+      "A concise anonymous function written as parameters -> body",
+      "A compiler optimization",
+      "A type of generic class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lambdas implement functional interfaces, e.g. x -> x * 2."
+  },
+  {
+    "question": "What is the Stream API primarily used for?",
+    "options": [
+      "Reading binary files",
+      "Functional-style processing of sequences such as collections",
+      "Creating GUI windows",
+      "Managing database connections"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Streams support map/filter/reduce pipelines over data sources."
+  },
+  {
+    "question": "Why are Java Strings said to be immutable?",
+    "options": [
+      "They can be changed only once",
+      "Their contents cannot change after creation",
+      "They are stored on the stack",
+      "They delete themselves after use"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Operations like concat return new String objects rather than modifying the original."
+  },
+  {
+    "question": "What advantage does StringBuilder have over String when building text in loops?",
+    "options": [
+      "It uses less syntax",
+      "It mutates an internal buffer instead of creating new objects",
+      "It encrypts the text",
+      "It sorts characters automatically"
+    ],
+    "correctAnswer": 1,
+    "explanation": "StringBuilder avoids the overhead of repeatedly creating immutable String copies."
+  },
+  {
+    "question": "What does the super keyword do?",
+    "options": [
+      "Refers to the current instance",
+      "Calls the parent class constructor or members",
+      "Creates a new thread",
+      "Marks a class as root"
+    ],
+    "correctAnswer": 1,
+    "explanation": "super accesses the immediate superclass fields, methods, or constructor."
+  },
+  {
+    "question": "What is encapsulation?",
+    "options": [
+      "Binding code into a single executable",
+      "Wrapping data private and exposing it via controlled accessors",
+      "Splitting a program into modules",
+      "Converting primitives to objects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Encapsulation hides internal state behind getters/setters to protect integrity."
+  },
+  {
+    "question": "What is polymorphism in Java?",
+    "options": [
+      "Writing multiple constructors",
+      "One interface or method behaving differently based on the actual object",
+      "Copying classes at runtime",
+      "Storing many variables in one array"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Polymorphism lets the same call invoke different implementations, e.g. overridden methods."
+  },
+  {
+    "question": "What is inheritance?",
+    "options": [
+      "A class acquiring fields and methods of another class",
+      "Copying files between packages",
+      "Casting primitives",
+      "Loading classes lazily"
+    ],
+    "correctAnswer": 0,
+    "explanation": "extends lets a subclass reuse and extend its superclass behavior."
+  },
+  {
+    "question": "Which class is the root of the entire Java class hierarchy?",
+    "options": [
+      "java.lang.Class",
+      "java.lang.Object",
+      "java.util.Root",
+      "java.lang.Base"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Every class inherits directly or indirectly from java.lang.Object."
+  },
+  {
+    "question": "Which annotation marks an API as outdated and discouraged?",
+    "options": [
+      "@Override",
+      "@SuppressWarnings",
+      "@Deprecated",
+      "@FunctionalInterface"
+    ],
+    "correctAnswer": 2,
+    "explanation": "@Deprecated signals that an API should no longer be used."
+  },
+  {
+    "question": "What is an anonymous inner class?",
+    "options": [
+      "A private nested class",
+      "A class declared and instantiated inline without a name",
+      "A class without methods",
+      "A generated subclass"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Anonymous classes implement interfaces or extend classes at instantiation time."
+  },
+  {
+    "question": "What is a wrapper class in Java?",
+    "options": [
+      "A class that wraps files",
+      "An object representation of a primitive type, e.g. Integer for int",
+      "A GUI container",
+      "A class loader"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Wrappers let primitives be used where objects are required, e.g. generics."
   }
-
 ]

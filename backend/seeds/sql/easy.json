@@ -460,5 +460,93 @@
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is 'UPDATE' for SQL."
+  },
+  {
+    "question": "What does SQL stand for?",
+    "options": [
+      "Simple Query Logic",
+      "Structured Query Language",
+      "Sequential Query Loop",
+      "System Quality Language"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SQL is the standard language for relational databases."
+  },
+  {
+    "question": "Which statement retrieves data from a table?",
+    "options": [
+      "GET",
+      "SELECT",
+      "FETCH",
+      "READ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SELECT queries rows from database tables."
+  },
+  {
+    "question": "Which clause filters individual rows in a query?",
+    "options": [
+      "GROUP BY",
+      "WHERE",
+      "HAVING",
+      "ORDER BY"
+    ],
+    "correctAnswer": 1,
+    "explanation": "WHERE applies predicates to rows before grouping."
+  },
+  {
+    "question": "Which keyword removes duplicate rows from a result set?",
+    "options": [
+      "UNIQUE",
+      "DISTINCT",
+      "FILTER",
+      "SINGLE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SELECT DISTINCT returns only differing combinations of columns."
+  },
+  {
+    "question": "Which aggregate function returns the number of rows?",
+    "options": [
+      "SUM()",
+      "TOTAL()",
+      "COUNT()",
+      "NUM()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "COUNT(*) counts rows; COUNT(col) counts non-null values."
+  },
+  {
+    "question": "Which clause sorts query results?",
+    "options": [
+      "SORT BY",
+      "ORDER BY",
+      "ARRANGE BY",
+      "RANK BY"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ORDER BY sorts output by specified columns ascending or descending."
+  },
+  {
+    "question": "What does NULL represent in a database?",
+    "options": [
+      "Zero",
+      "Empty string",
+      "An unknown or missing value",
+      "A deleted row"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NULL means no value is present; it differs from zero or empty text."
+  },
+  {
+    "question": "Which clause restricts how many rows a query returns?",
+    "options": [
+      "LIMIT",
+      "CAP",
+      "MAXROWS",
+      "TOP ONLY"
+    ],
+    "correctAnswer": 0,
+    "explanation": "LIMIT n (MySQL/PostgreSQL) caps the number of returned rows."
   }
 ]

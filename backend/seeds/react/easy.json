@@ -451,17 +451,6 @@
     "explanation": "The correct answer is 'useMemo' for React."
   },
   {
-    "question": "Which file extension is common for React components on components?",
-    "options": [
-      ".html",
-      ".css",
-      ".jsx",
-      ".js"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '.jsx' for React."
-  },
-  {
     "question": "Which keyword defines a function component in React on hooks?",
     "options": [
       "function",
@@ -539,14 +528,25 @@
     "explanation": "The correct answer is 'props' for React."
   },
   {
-    "question": "Which hook is used to access context values in React on context?",
+    "question": "Which hook adds state to a function component?",
     "options": [
       "useState",
-      "useRef",
-      "useContext",
-      "useEffect"
+      "useStore",
+      "useVariable",
+      "useData"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'useContext' for React."
+    "correctAnswer": 0,
+    "explanation": "useState returns a stateful value and its setter."
+  },
+  {
+    "question": "Which hook performs side effects such as fetching data in components?",
+    "options": [
+      "useEffect",
+      "useFetch",
+      "useSide",
+      "useAsync"
+    ],
+    "correctAnswer": 0,
+    "explanation": "useEffect runs after render for subscriptions, timers, requests, etc."
   }
 ]

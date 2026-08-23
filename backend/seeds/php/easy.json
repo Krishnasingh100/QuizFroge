@@ -308,17 +308,6 @@
     "explanation": "The correct answer is '10' for PHP."
   },
   {
-    "question": "What is the result of 3 + 4 in PHP header files?",
-    "options": [
-      "0",
-      "7",
-      "34",
-      "Error"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '7' for PHP."
-  },
-  {
     "question": "Which keyword is used to exit a loop early in PHP loop logic?",
     "options": [
       "return",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'true' for PHP."
+  },
+  {
+    "question": "Which symbol must precede all PHP variable names?",
+    "options": [
+      "$",
+      "@",
+      "#",
+      "%"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PHP variables begin with a dollar sign, e.g. $name."
   }
 ]

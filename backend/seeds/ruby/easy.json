@@ -473,28 +473,6 @@
     "explanation": "The correct answer is 'functions' for Ruby."
   },
   {
-    "question": "Which keyword begins a loop in Ruby loop logic?",
-    "options": [
-      "while",
-      "loop",
-      "for",
-      "repeat"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'for' for Ruby."
-  },
-  {
-    "question": "Which keyword is used to exit a loop early in Ruby loop logic?",
-    "options": [
-      "continue",
-      "break",
-      "return",
-      "stop"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'break' for Ruby."
-  },
-  {
     "question": "Which code line prints \"Hello\" in Ruby source code?",
     "options": [
       "echo \"Hello\";",
@@ -548,5 +526,27 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is '#' for Ruby."
+  },
+  {
+    "question": "Which convention marks a Ruby method that returns a boolean?",
+    "options": [
+      "Ending with ?",
+      "Ending with !",
+      "Prefix is_",
+      "ALL CAPS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Predicate methods conventionally end with ?, like empty?."
+  },
+  {
+    "question": "What does puts do differently from print in Ruby?",
+    "options": [
+      "puts prints to files",
+      "puts appends a newline after the output",
+      "print flushes stdout",
+      "No difference"
+    ],
+    "correctAnswer": 1,
+    "explanation": "puts adds a trailing newline; print leaves the cursor on the same line."
   }
 ]

@@ -209,17 +209,6 @@
     "explanation": "The correct answer is 'git reset --hard' for Git."
   },
   {
-    "question": "Which Git command rewrites commits on top of another base branch in branch history?",
-    "options": [
-      "git reset",
-      "git merge",
-      "git checkout",
-      "git rebase"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'git rebase' for Git."
-  },
-  {
     "question": "Which Git command removes untracked files from the working tree in commit history?",
     "options": [
       "git rm -f",
@@ -262,17 +251,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'git clean -f' for Git."
-  },
-  {
-    "question": "Which Git command resets the working tree to the last commit and discards changes in local repository?",
-    "options": [
-      "git clean",
-      "git stash pop",
-      "git revert",
-      "git reset --hard"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'git reset --hard' for Git."
   },
   {
     "question": "Which Git command rewrites commits on top of another base branch in stash area?",
@@ -407,28 +385,6 @@
     "explanation": "The correct answer is 'git reset --hard' for Git."
   },
   {
-    "question": "Which Git command resets the working tree to the last commit and discards changes in staging area?",
-    "options": [
-      "git revert",
-      "git reset --hard",
-      "git clean",
-      "git stash pop"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'git reset --hard' for Git."
-  },
-  {
-    "question": "Which Git command shows a graphical commit history in commit history?",
-    "options": [
-      "git show --graph",
-      "git status --graph",
-      "git diff --graph",
-      "git log --graph"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'git log --graph' for Git."
-  },
-  {
     "question": "Which Git command rewrites the commit message for the last commit in feature branch?",
     "options": [
       "git commit --amend",
@@ -548,5 +504,49 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is 'git tag' for Git."
+  },
+  {
+    "question": "What does git rebase do?",
+    "options": [
+      "Merges remote branches only",
+      "Reapplies your commits on top of another base commit for a linear history",
+      "Deletes merged branches",
+      "Rewrites remote history automatically"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rebase replays commits onto a new base, avoiding merge commits."
+  },
+  {
+    "question": "What does git cherry-pick do?",
+    "options": [
+      "Picks the largest diff",
+      "Applies the changes of a specific existing commit onto the current branch",
+      "Selects files interactively",
+      "Resolves merge conflicts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cherry-picking copies one chosen commit onto another branch as a new commit."
+  },
+  {
+    "question": "What is git bisect used for?",
+    "options": [
+      "Splitting large commits",
+      "Binary-searching history to find the commit that introduced a bug",
+      "Comparing two branches visually",
+      "Halving repository size"
+    ],
+    "correctAnswer": 1,
+    "explanation": "bisect automates checking out midpoints until the faulty commit is found."
+  },
+  {
+    "question": "Merge vs rebase — which statement is true?",
+    "options": [
+      "Rebase always preserves the original branch graph",
+      "Merge preserves the branch topology while rebase produces a linear history",
+      "Merge rewrites commit hashes",
+      "They are synonyms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Merge creates a merge commit; rebase replays commits for a straight-line history."
   }
 ]

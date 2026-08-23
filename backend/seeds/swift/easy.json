@@ -374,17 +374,6 @@
     "explanation": "The correct answer is '7' for Swift."
   },
   {
-    "question": "What is the result of 8 - 3 in Swift source code?",
-    "options": [
-      "5",
-      "3",
-      "8",
-      "2"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '5' for Swift."
-  },
-  {
     "question": "Which option fills the blank in Swift loop logic: let x = 5; x = 10; // __? ",
     "options": [
       "iteration",
@@ -427,17 +416,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is '==' for Swift."
-  },
-  {
-    "question": "Which keyword begins a loop in Swift loop logic?",
-    "options": [
-      "while",
-      "loop",
-      "for",
-      "repeat"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'for' for Swift."
   },
   {
     "question": "Which option fills the blank in Swift library imports: let x = 5; x = 10; // __? ",
@@ -548,5 +526,27 @@
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is '5' for Swift."
+  },
+  {
+    "question": "Which keyword declares a constant in Swift?",
+    "options": [
+      "let",
+      "var",
+      "const",
+      "final"
+    ],
+    "correctAnswer": 0,
+    "explanation": "let defines constants; var defines variables."
+  },
+  {
+    "question": "Which Swift feature safely handles nil values?",
+    "options": [
+      "Pointers",
+      "Optionals",
+      "Templates",
+      "Macros"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Optionals encode possible absence of a value, enforced by the compiler."
   }
 ]

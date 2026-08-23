@@ -143,17 +143,6 @@
     "explanation": "The correct answer is 'import React from \"react\";' for JavaScript."
   },
   {
-    "question": "Which concept means solving a problem by calling the same function inside itself in JavaScript loop logic?",
-    "options": [
-      "iteration",
-      "optimization",
-      "recursion",
-      "compilation"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'recursion' for JavaScript."
-  },
-  {
     "question": "Which keyword declares a function in JavaScript memory management?",
     "options": [
       "var",
@@ -517,17 +506,6 @@
     "explanation": "The correct answer is '+' for JavaScript."
   },
   {
-    "question": "Which keyword starts a conditional expression in JavaScript loop logic?",
-    "options": [
-      "when",
-      "case",
-      "switch",
-      "if"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'if' for JavaScript."
-  },
-  {
     "question": "Which operator in JavaScript is used for string concatenation in function definitions?",
     "options": [
       "+",
@@ -548,5 +526,27 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is '===' for JavaScript."
+  },
+  {
+    "question": "What does Array.prototype.map return?",
+    "options": [
+      "The original array modified in place",
+      "A new array with the callback applied to each element",
+      "A single accumulated value",
+      "undefined"
+    ],
+    "correctAnswer": 1,
+    "explanation": "map builds a new array from transformed elements without mutating the source."
+  },
+  {
+    "question": "What does the ?? (nullish coalescing) operator return?",
+    "options": [
+      "The left operand when falsy",
+      "The right operand only when the left is null or undefined",
+      "Always the right operand",
+      "A boolean"
+    ],
+    "correctAnswer": 1,
+    "explanation": "?? falls back on the right side solely for null/undefined, unlike ||."
   }
 ]

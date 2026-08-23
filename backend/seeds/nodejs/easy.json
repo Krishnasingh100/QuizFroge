@@ -352,28 +352,6 @@
     "explanation": "The correct answer is '=' for Node.js."
   },
   {
-    "question": "What is the result of 8 - 3 in Node.js header files?",
-    "options": [
-      "3",
-      "5",
-      "8",
-      "2"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '5' for Node.js."
-  },
-  {
-    "question": "Which keyword begins a loop in Node.js conditional logic?",
-    "options": [
-      "repeat",
-      "loop",
-      "while",
-      "for"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'for' for Node.js."
-  },
-  {
     "question": "Which file extension is standard for Node.js loop logic?",
     "options": [
       ".txt",
@@ -427,17 +405,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is 'break' for Node.js."
-  },
-  {
-    "question": "What is the result of 8 - 3 in Node.js source code?",
-    "options": [
-      "3",
-      "2",
-      "5",
-      "8"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '5' for Node.js."
   },
   {
     "question": "What is the result of 8 - 3 in Node.js conditional logic?",
@@ -548,5 +515,38 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is 'true' for Node.js."
+  },
+  {
+    "question": "What is npm?",
+    "options": [
+      "Node Program Machine",
+      "The default package manager for the Node.js ecosystem",
+      "A web server module",
+      "A debugging protocol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "npm installs dependencies and manages project scripts via package.json."
+  },
+  {
+    "question": "Which command initializes a new Node.js project manifest interactively?",
+    "options": [
+      "node init",
+      "npm start",
+      "npm init",
+      "package create"
+    ],
+    "correctAnswer": 2,
+    "explanation": "npm init generates package.json, typically with -y for defaults."
+  },
+  {
+    "question": "Which global object gives access to environment variables in Node.js?",
+    "options": [
+      "env.vars",
+      "process.env",
+      "global.env",
+      "environment"
+    ],
+    "correctAnswer": 1,
+    "explanation": "process.env exposes environment variables to the running process."
   }
 ]

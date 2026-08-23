@@ -440,17 +440,6 @@
     "explanation": "The correct answer is 'const' for JavaScript."
   },
   {
-    "question": "Which concept ensures a variable keeps its state across function calls in JavaScript conditional logic?",
-    "options": [
-      "static",
-      "dynamic",
-      "transient",
-      "volatile"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'static' for JavaScript."
-  },
-  {
     "question": "Which statement checks for equality in JavaScript function definitions?",
     "options": [
       ":=",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'automatic garbage collection' for JavaScript."
+  },
+  {
+    "question": "What determines the value of this in a regular (non-arrow) function call?",
+    "options": [
+      "The lexical scope where it was written",
+      "How the function is invoked (call site)",
+      "Always the global object",
+      "The closest class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Regular functions bind this at call time: implicit receiver, new, call/apply, or default."
   }
 ]

@@ -396,17 +396,6 @@
     "explanation": "The correct answer is 'Fork' for GitHub."
   },
   {
-    "question": "Which GitHub feature lets you keep code and documentation together in documentation?",
-    "options": [
-      "Actions",
-      "Wiki",
-      "Issues",
-      "Pages"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'Wiki' for GitHub."
-  },
-  {
     "question": "Which GitHub page shows code scanning results and alerts in package registry?",
     "options": [
       "Security",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is 'Actions' for GitHub."
+  },
+  {
+    "question": "What does a protected branch rule enforce on GitHub?",
+    "options": [
+      "Branches cannot be deleted locally",
+      "Restrictions such as required reviews/status checks before merging or pushing",
+      "Automatic daily backups",
+      "Encrypted repositories"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Protection rules gate direct pushes and merges behind policies."
   }
 ]

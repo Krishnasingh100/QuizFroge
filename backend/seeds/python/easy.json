@@ -286,17 +286,6 @@
     "explanation": "The correct answer is 'True' for Python."
   },
   {
-    "question": "Which keyword is used to exit a loop early in Python conditional logic?",
-    "options": [
-      "stop",
-      "continue",
-      "return",
-      "break"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'break' for Python."
-  },
-  {
     "question": "Which sign is used to assign values in Python source code?",
     "options": [
       "==",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is '.py' for Python."
+  },
+  {
+    "question": "Which built-in function returns the number of items in a list?",
+    "options": [
+      "count()",
+      "len()",
+      "size()",
+      "length()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "len(obj) works on lists, strings, dicts, and other containers."
   }
 ]

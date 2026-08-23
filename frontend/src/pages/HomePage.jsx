@@ -14,7 +14,7 @@ const HomePage = () => {
       try {
         const { data } = await getLanguages();
         setLanguages(data.languages);
-      } catch (err) {
+      } catch {
         setError('Failed to load languages. Make sure backend is running.');
       } finally {
         setLoading(false);
@@ -106,7 +106,7 @@ const HomePage = () => {
       </section>
 
       {/* Languages Section */}
-      <section className="languages-section">
+      <section id="languages-section" className="languages-section">
         <div className="section-header">
           <h2>Choose Your Language</h2>
           <p>Select a topic and test your programming knowledge</p>

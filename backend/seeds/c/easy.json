@@ -330,17 +330,6 @@
     "explanation": "The correct answer is 'int main()' for C."
   },
   {
-    "question": "What is the result of 3 + 4 in C loop logic?",
-    "options": [
-      "34",
-      "7",
-      "Error",
-      "0"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '7' for C."
-  },
-  {
     "question": "Which symbol begins a single-line comment in C function definitions?",
     "options": [
       "<!-- -->",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is '==' for C."
+  },
+  {
+    "question": "Which function is the entry point of a standard C program?",
+    "options": [
+      "begin()",
+      "main()",
+      "start()",
+      "init()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Execution begins at main(), returning int to the operating system."
   }
 ]

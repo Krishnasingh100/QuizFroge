@@ -484,17 +484,6 @@
     "explanation": "The correct answer is 'recursion' for Kotlin."
   },
   {
-    "question": "Which concept means solving a problem by calling the same function inside itself in Kotlin conditional logic?",
-    "options": [
-      "iteration",
-      "compilation",
-      "optimization",
-      "recursion"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'recursion' for Kotlin."
-  },
-  {
     "question": "Which operator in Kotlin is used for string concatenation in function definitions?",
     "options": [
       "+",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is 'array' for Kotlin."
+  },
+  {
+    "question": "What does the ?. safe-call operator in Kotlin do?",
+    "options": [
+      "Throws NullPointerException",
+      "Calls the method only if the receiver is non-null, otherwise yields null",
+      "Converts null to 0",
+      "Asserts non-null"
+    ],
+    "correctAnswer": 1,
+    "explanation": "?. short-circuits to null instead of throwing when the receiver is null."
   }
 ]

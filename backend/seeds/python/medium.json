@@ -385,17 +385,6 @@
     "explanation": "The correct answer is 'immutable' for Python."
   },
   {
-    "question": "Which keyword starts a conditional expression in Python loop logic?",
-    "options": [
-      "when",
-      "if",
-      "case",
-      "switch"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'if' for Python."
-  },
-  {
     "question": "Which line represents a correct function definition in Python data types?",
     "options": [
       "main() {}",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is 'return' for Python."
+  },
+  {
+    "question": "What does a list comprehension [x*x for x in range(5)] build?",
+    "options": [
+      "A generator object",
+      "A new list of squares 0..16",
+      "A tuple of pairs",
+      "A dictionary"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensions construct lists declaratively from iterables."
   }
 ]

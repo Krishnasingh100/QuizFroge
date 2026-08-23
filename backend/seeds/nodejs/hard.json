@@ -363,17 +363,6 @@
     "explanation": "The correct answer is 'static' for Node.js."
   },
   {
-    "question": "Which concept ensures a variable keeps its state across function calls in Node.js conditional logic?",
-    "options": [
-      "static",
-      "dynamic",
-      "volatile",
-      "transient"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'static' for Node.js."
-  },
-  {
     "question": "Which data structure is fastest for random access by index in Node.js error handling?",
     "options": [
       "linked list",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is 'automatic garbage collection' for Node.js."
+  },
+  {
+    "question": "What does the term \"event loop phase\" refer to in libuv?",
+    "options": [
+      "CPU clock cycles",
+      "Ordered stages (timers, poll, check...) processing callbacks per iteration",
+      "Garbage collection steps",
+      "HTTP retry states"
+    ],
+    "correctAnswer": 1,
+    "explanation": "libuv iterates phases like timers → pending → poll → check, running due callbacks."
   }
 ]

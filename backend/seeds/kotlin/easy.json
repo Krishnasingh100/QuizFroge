@@ -462,17 +462,6 @@
     "explanation": "The correct answer is 'true' for Kotlin."
   },
   {
-    "question": "What is the result of 8 - 3 in Kotlin loop logic?",
-    "options": [
-      "2",
-      "3",
-      "5",
-      "8"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '5' for Kotlin."
-  },
-  {
     "question": "Which statement imports libraries or packages in Kotlin loop logic?",
     "options": [
       "use lib;",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is '.kt' for Kotlin."
+  },
+  {
+    "question": "Which keyword declares a read-only variable in Kotlin?",
+    "options": [
+      "var",
+      "val",
+      "let",
+      "const var"
+    ],
+    "correctAnswer": 1,
+    "explanation": "val declares immutable references; var declares mutable ones."
   }
 ]

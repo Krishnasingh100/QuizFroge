@@ -198,17 +198,6 @@
     "explanation": "The correct answer is 'href' for HTML."
   },
   {
-    "question": "Which tag defines a list of definitions in HTML on paragraph?",
-    "options": [
-      "<dt>",
-      "<dl>",
-      "<ol>",
-      "<ul>"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '<dl>' for HTML."
-  },
-  {
     "question": "Which HTML5 element represents a standalone piece of content on form?",
     "options": [
       "<aside>",
@@ -229,17 +218,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is 'href' for HTML."
-  },
-  {
-    "question": "Which attribute changes the display text of a link in HTML on form?",
-    "options": [
-      "rel",
-      "href",
-      "title",
-      "alt"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'title' for HTML."
   },
   {
     "question": "Which tag defines a clickable button in HTML on list?",
@@ -308,17 +286,6 @@
     "explanation": "The correct answer is '<caption>' for HTML."
   },
   {
-    "question": "Which attribute changes the display text of a link in HTML on paragraph?",
-    "options": [
-      "rel",
-      "title",
-      "alt",
-      "href"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'title' for HTML."
-  },
-  {
     "question": "Which element defines the visible title of a document on list?",
     "options": [
       "<header>",
@@ -328,17 +295,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is '<title>' for HTML."
-  },
-  {
-    "question": "Which tag defines a row of table header cells in HTML on table row?",
-    "options": [
-      "<tr>",
-      "<tbody>",
-      "<thead>",
-      "<tfoot>"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '<thead>' for HTML."
   },
   {
     "question": "Which tag defines a row of table header cells in HTML on content section?",
@@ -528,17 +484,6 @@
     "explanation": "The correct answer is 'href' for HTML."
   },
   {
-    "question": "Which tag defines a list of definitions in HTML on navigation?",
-    "options": [
-      "<dl>",
-      "<ol>",
-      "<dt>",
-      "<ul>"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '<dl>' for HTML."
-  },
-  {
     "question": "Which tag defines navigation links in HTML on list?",
     "options": [
       "<header>",
@@ -548,5 +493,60 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is '<nav>' for HTML."
+  },
+  {
+    "question": "Which ARIA attribute should a live region use so screen readers announce dynamic updates?",
+    "options": [
+      "aria-live",
+      "aria-update",
+      "aria-speak",
+      "aria-dynamic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "aria-live regions announce injected/changed content politely or assertively."
+  },
+  {
+    "question": "How do defer and async differ for external scripts?",
+    "options": [
+      "defer pauses parsing; async preserves order",
+      "defer executes after parsing preserving order; async executes immediately when fetched, order unspecified",
+      "Both are identical",
+      "async only works in <body>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "defer delays execution until DOM parse completes in document order; async races fetch completion."
+  },
+  {
+    "question": "Which element displays a scalar measurement within a known range, like disk usage?",
+    "options": [
+      "<progress>",
+      "<meter>",
+      "<range>",
+      "<gauge>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "<meter> shows a gauge value within min/max bounds; <progress> tracks task completion."
+  },
+  {
+    "question": "What does the loading=\"lazy\" attribute on images do?",
+    "options": [
+      "Loads images last after scripts",
+      "Defers loading until the image approaches the viewport",
+      "Reduces image resolution",
+      "Disables caching"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Native lazy loading defers offscreen images, cutting initial bandwidth."
+  },
+  {
+    "question": "Which meta tag configures scaling behavior on mobile devices?",
+    "options": [
+      "meta charset",
+      "name=\"viewport\"",
+      "name=\"mobile\"",
+      "http-equiv=\"scale\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "width=device-width, initial-scale=1 aligns layout width with device width."
   }
 ]

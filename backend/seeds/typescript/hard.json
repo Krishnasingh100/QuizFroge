@@ -374,17 +374,6 @@
     "explanation": "The correct answer is 'automatic garbage collection' for TypeScript."
   },
   {
-    "question": "Which concept ensures a variable keeps its state across function calls in TypeScript conditional logic?",
-    "options": [
-      "static",
-      "volatile",
-      "transient",
-      "dynamic"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'static' for TypeScript."
-  },
-  {
     "question": "Which mechanism helps avoid null reference errors in TypeScript function definitions?",
     "options": [
       "global variables",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'None handling' for TypeScript."
+  },
+  {
+    "question": "What is the difference between unknown and any?",
+    "options": [
+      "unknown disables checking like any",
+      "unknown is type-safe: operations require narrowing first, any skips checks entirely",
+      "unknown only accepts objects",
+      "They are aliases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "unknown accepts anything but demands validation before use, unlike any."
   }
 ]

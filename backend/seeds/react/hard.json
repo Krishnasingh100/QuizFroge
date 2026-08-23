@@ -99,17 +99,6 @@
     "explanation": "The correct answer is 'useMemo' for React."
   },
   {
-    "question": "Which hook is often used to handle user input and form state in React on state?",
-    "options": [
-      "useState",
-      "useEffect",
-      "useMemo",
-      "useRef"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'useState' for React."
-  },
-  {
     "question": "Which hook returns a memoized value in React on rendering?",
     "options": [
       "useMemo",
@@ -130,17 +119,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is 'useState' for React."
-  },
-  {
-    "question": "Which concept should be pure for predictable rendering in React on state?",
-    "options": [
-      "useEffect",
-      "render",
-      "componentDidMount",
-      "setState"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'render' for React."
   },
   {
     "question": "Which React feature lets you share values without passing props down manually on components?",
@@ -176,17 +154,6 @@
     "explanation": "The correct answer is 'conditional rendering' for React."
   },
   {
-    "question": "Which concept should be pure for predictable rendering in React on components?",
-    "options": [
-      "useEffect",
-      "componentDidMount",
-      "setState",
-      "render"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'render' for React."
-  },
-  {
     "question": "Which React feature lets you render elements conditionally on lists?",
     "options": [
       "conditional rendering",
@@ -220,17 +187,6 @@
     "explanation": "The correct answer is 'useState' for React."
   },
   {
-    "question": "Which React feature lets you share values without passing props down manually on props?",
-    "options": [
-      "refs",
-      "context",
-      "state",
-      "hooks"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'context' for React."
-  },
-  {
     "question": "Which hook is often used to handle user input and form state in React on props?",
     "options": [
       "useRef",
@@ -251,17 +207,6 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is 'useCallback' for React."
-  },
-  {
-    "question": "Which concept should be pure for predictable rendering in React on lists?",
-    "options": [
-      "componentDidMount",
-      "useEffect",
-      "setState",
-      "render"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'render' for React."
   },
   {
     "question": "Which hook runs after render and can clean up in React on props?",
@@ -352,17 +297,6 @@
     "explanation": "The correct answer is 'context' for React."
   },
   {
-    "question": "Which concept should be pure for predictable rendering in React on effects?",
-    "options": [
-      "setState",
-      "render",
-      "useEffect",
-      "componentDidMount"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'render' for React."
-  },
-  {
     "question": "Which prop identifies unique items in a list in React on lists?",
     "options": [
       "id",
@@ -394,17 +328,6 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is 'key' for React."
-  },
-  {
-    "question": "Which React hook is useful for expensive calculations that should not rerun every render on rendering?",
-    "options": [
-      "useState",
-      "useContext",
-      "useEffect",
-      "useMemo"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'useMemo' for React."
   },
   {
     "question": "Which prop identifies unique items in a list in React on memoization?",
@@ -451,17 +374,6 @@
     "explanation": "The correct answer is 'conditional rendering' for React."
   },
   {
-    "question": "Which React hook is useful for expensive calculations that should not rerun every render on hooks?",
-    "options": [
-      "useEffect",
-      "useMemo",
-      "useContext",
-      "useState"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'useMemo' for React."
-  },
-  {
     "question": "Which React feature lets you render elements conditionally on state?",
     "options": [
       "conditional rendering",
@@ -473,28 +385,6 @@
     "explanation": "The correct answer is 'conditional rendering' for React."
   },
   {
-    "question": "Which React feature lets you share values without passing props down manually on hooks?",
-    "options": [
-      "refs",
-      "context",
-      "hooks",
-      "state"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'context' for React."
-  },
-  {
-    "question": "Which React feature lets you share values without passing props down manually on context?",
-    "options": [
-      "hooks",
-      "context",
-      "state",
-      "refs"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'context' for React."
-  },
-  {
     "question": "Which React feature lets you render elements conditionally on context?",
     "options": [
       "conditional rendering",
@@ -504,28 +394,6 @@
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is 'conditional rendering' for React."
-  },
-  {
-    "question": "Which concept should be pure for predictable rendering in React on props?",
-    "options": [
-      "render",
-      "useEffect",
-      "componentDidMount",
-      "setState"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'render' for React."
-  },
-  {
-    "question": "Which concept should be pure for predictable rendering in React on memoization?",
-    "options": [
-      "render",
-      "useEffect",
-      "componentDidMount",
-      "setState"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'render' for React."
   },
   {
     "question": "Which hook returns a memoized value in React on effects?",
@@ -548,5 +416,137 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is 'useEffect' for React."
+  },
+  {
+    "question": "When does a useEffect cleanup function execute?",
+    "options": [
+      "Only when the component unmounts",
+      "Before unmount AND before the effect re-runs on subsequent renders",
+      "After every render automatically",
+      "Never, unless called manually"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cleanups guard against leaks and stale timers/subscriptions on each cycle."
+  },
+  {
+    "question": "What problem does useCallback solve?",
+    "options": [
+      "Slow initial renders",
+      "Recreating function instances every render, breaking memoized children",
+      "Global state management",
+      "CSS-in-JS performance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useCallback memoizes a function between renders given stable dependencies."
+  },
+  {
+    "question": "What is reconciliation in React?",
+    "options": [
+      "Merging Redux reducers",
+      "Diffing the previous and next virtual trees to apply minimal DOM updates",
+      "Syncing with the database",
+      "Resolving merge conflicts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The reconciler computes the smallest set of DOM mutations per render."
+  },
+  {
+    "question": "What is the purpose of keys in React lists?",
+    "options": [
+      "Styling list items",
+      "Stable element identity across renders so state/updates track correctly",
+      "Encrypting props",
+      "Registering event handlers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Keys help the reconciler match old/new children efficiently and correctly."
+  },
+  {
+    "question": "What defines a controlled component?",
+    "options": [
+      "A form input whose value is driven by React state",
+      "Any component using useEffect",
+      "A component wrapped in memo",
+      "A server-rendered component"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Controlled inputs mirror state; onChange handlers keep them in sync."
+  },
+  {
+    "question": "How does useLayoutEffect differ from useEffect?",
+    "options": [
+      "It runs asynchronously after paint",
+      "It runs synchronously after DOM mutations but before the browser paints",
+      "It only runs on mount",
+      "It replaces reducers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useLayoutEffect suits DOM measurements/mutations that must land pre-paint."
+  },
+  {
+    "question": "What problem does Context solve?",
+    "options": [
+      "Faster rendering",
+      "Passing data through deep trees without prop drilling",
+      "Form validation",
+      "Code splitting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Context broadcasts values down the tree to consumers directly."
+  },
+  {
+    "question": "What is an Error Boundary?",
+    "options": [
+      "A router guard",
+      "A component catching rendering/lifecycle errors in its subtree and showing fallback UI",
+      "A TypeScript constraint",
+      "A network interceptor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Boundaries use getDerivedStateFromError/componentDidCatch to isolate failures."
+  },
+  {
+    "question": "What causes the warning \"Cannot update a component while rendering a different component\"?",
+    "options": [
+      "Calling setState of another component during render instead of in effects/handlers",
+      "Too many hooks",
+      "Missing keys in lists",
+      "Using legacy context"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Side-effect-free renders are expected; schedule state updates via events/effects."
+  },
+  {
+    "question": "What does React.lazy enable?",
+    "options": [
+      "Lazy evaluation of props",
+      "Code splitting by dynamically importing a component rendered via Suspense",
+      "Deferred state updates",
+      "Slower builds intentionally"
+    ],
+    "correctAnswer": 1,
+    "explanation": "React.lazy(() => import(...)) splits bundles per component chunk."
+  },
+  {
+    "question": "What role does Suspense play with lazy components?",
+    "options": [
+      "Retries failed imports",
+      "Displays a fallback while the lazy child resolves/loads",
+      "Preloads all chunks eagerly",
+      "Handles form submissions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Suspense boundaries show fallbacks for suspended children (loading states)."
+  },
+  {
+    "question": "What is the core difference between state and props?",
+    "options": [
+      "Props are mutable; state is read-only",
+      "State is owned and mutated by the component; props flow in from parents read-only",
+      "State persists to localStorage",
+      "Props exist only in classes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "setState/useState update state internally; props pass data downward immutably."
   }
 ]

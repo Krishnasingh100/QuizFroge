@@ -110,17 +110,6 @@
     "explanation": "The correct answer is '.js' for JavaScript."
   },
   {
-    "question": "What is the result of 8 - 3 in JavaScript library imports?",
-    "options": [
-      "2",
-      "5",
-      "3",
-      "8"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '5' for JavaScript."
-  },
-  {
     "question": "Which keyword declares a constant value in JavaScript function definitions?",
     "options": [
       "let",
@@ -462,17 +451,6 @@
     "explanation": "The correct answer is 'const' for JavaScript."
   },
   {
-    "question": "What is the result of 3 + 4 in JavaScript header files?",
-    "options": [
-      "Error",
-      "0",
-      "34",
-      "7"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '7' for JavaScript."
-  },
-  {
     "question": "Which concept describes reusable code blocks in JavaScript header files?",
     "options": [
       "variables",
@@ -548,5 +526,27 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'function example() {}' for JavaScript."
+  },
+  {
+    "question": "Which declaration creates a variable that cannot be reassigned?",
+    "options": [
+      "var",
+      "let",
+      "const",
+      "static"
+    ],
+    "correctAnswer": 2,
+    "explanation": "const bindings cannot be reassigned (object contents may still mutate)."
+  },
+  {
+    "question": "What does typeof \"hello\" evaluate to?",
+    "options": [
+      "\"string\"",
+      "\"text\"",
+      "\"char\"",
+      "\"word\""
+    ],
+    "correctAnswer": 0,
+    "explanation": "typeof returns \"string\" for string primitives."
   }
 ]

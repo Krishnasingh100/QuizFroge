@@ -484,17 +484,6 @@
     "explanation": "The correct answer is 'true' for Rust."
   },
   {
-    "question": "What is the result of 3 + 4 in Rust conditional logic?",
-    "options": [
-      "7",
-      "Error",
-      "0",
-      "34"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '7' for Rust."
-  },
-  {
     "question": "Which code line uses string concatenation in Rust conditional logic?",
     "options": [
       "\"Hello\" . \"World\"",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is '==' for Rust."
+  },
+  {
+    "question": "Which keyword binds an immutable variable in Rust?",
+    "options": [
+      "let mut",
+      "let",
+      "const var",
+      "final"
+    ],
+    "correctAnswer": 1,
+    "explanation": "let bindings are immutable unless mut is specified."
   }
 ]

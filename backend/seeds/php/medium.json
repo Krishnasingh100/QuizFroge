@@ -374,17 +374,6 @@
     "explanation": "The correct answer is 'array' for PHP."
   },
   {
-    "question": "Which concept means solving a problem by calling the same function inside itself in PHP loop logic?",
-    "options": [
-      "compilation",
-      "optimization",
-      "recursion",
-      "iteration"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'recursion' for PHP."
-  },
-  {
     "question": "Which line represents a correct function definition in PHP function definitions?",
     "options": [
       "function example() {}",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is '8' for PHP."
+  },
+  {
+    "question": "What does the === operator check in PHP?",
+    "options": [
+      "Value equality only",
+      "Value AND type equality",
+      "Reference equality",
+      "Object identity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "=== requires identical values of identical types, unlike loose ==."
   }
 ]

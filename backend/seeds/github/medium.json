@@ -220,17 +220,6 @@
     "explanation": "The correct answer is 'Wiki' for GitHub."
   },
   {
-    "question": "Which GitHub page displays open pull requests in pull requests?",
-    "options": [
-      "Wiki",
-      "Pull requests",
-      "Actions",
-      "Issues"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'Pull requests' for GitHub."
-  },
-  {
     "question": "Which GitHub feature provides temporary pull request environments in repository?",
     "options": [
       "Pages",
@@ -240,17 +229,6 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'Environments' for GitHub."
-  },
-  {
-    "question": "Which GitHub feature is used for collaborative documentation in workflow?",
-    "options": [
-      "Wiki",
-      "Actions",
-      "Pages",
-      "Issues"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'Wiki' for GitHub."
   },
   {
     "question": "Which GitHub feature provides temporary pull request environments in workflow?",
@@ -548,5 +526,27 @@
     ],
     "correctAnswer": 1,
     "explanation": "The correct answer is 'Pull requests' for GitHub."
+  },
+  {
+    "question": "What is GitHub Actions?",
+    "options": [
+      "A keyboard macro recorder",
+      "A CI/CD platform that runs workflows triggered by repository events",
+      "A code formatter",
+      "A project board automation bot only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Actions workflows define jobs/steps reacting to pushes, PRs, schedules, etc."
+  },
+  {
+    "question": "What is a fork on GitHub?",
+    "options": [
+      "A broken clone",
+      "Your personal copy of another user's repository under your account",
+      "A detached HEAD state",
+      "A submodule reference"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Forks let you freely experiment and propose changes back via pull requests."
   }
 ]

@@ -517,17 +517,6 @@
     "explanation": "The correct answer is 'git fetch' for Git."
   },
   {
-    "question": "Which Git command merges another branch into the current branch in commit history?",
-    "options": [
-      "git push",
-      "git rebase",
-      "git merge",
-      "git pull"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'git merge' for Git."
-  },
-  {
     "question": "Which Git command discards unstaged changes in the working tree in feature branch?",
     "options": [
       "git stash",
@@ -548,5 +537,16 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is 'git log' for Git."
+  },
+  {
+    "question": "Which command stages a modified file for the next commit?",
+    "options": [
+      "git commit <file>",
+      "git stage --all",
+      "git add <file>",
+      "git push <file>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "git add moves changes into the staging area awaiting commit."
   }
 ]

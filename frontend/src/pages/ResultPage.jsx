@@ -6,7 +6,7 @@ import Loader from '../components/common/Loader';
 const ResultPage = () => {
   const navigate = useNavigate();
   const { quizData, resetQuiz } = useQuiz();
-  const { result, language, difficulty } = quizData;
+  const { result, language } = quizData;
 
   if (!result) {
     return <Loader message="Loading results..." />;
