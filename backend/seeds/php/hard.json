@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'function' for PHP."
+  },
+  {
+    "question": "What is a PHP Generator and how does yield work?",
+    "options": [
+      "Creates immediate results",
+      "A function that yields values lazily returning a Generator object for iteration",
+      "Generates HTML output",
+      "Creates database records"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Generators produce values on demand using yield returning a Generator object that can be iterated."
+  },
+  {
+    "question": "What is the difference between serialize and unserialize?",
+    "options": [
+      "No difference",
+      "serialize converts data to a storable string unserialize converts it back",
+      "serialize is deprecated",
+      "unserialize is for JSON only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "serialize converts PHP values to a string representation. unserialize restores them back to PHP values."
+  },
+  {
+    "question": "What does the __toString() magic method do?",
+    "options": [
+      "Converts to integer",
+      "Allows an object to be used as a string when echo or string context is used",
+      "Counts string length",
+      "Creates string objects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "__toString is called when an object is treated as a string providing custom string representation."
+  },
+  {
+    "question": "What is the difference between require_once and require?",
+    "options": [
+      "No difference",
+      "require_once checks if the file has already been included and skips if so",
+      "require_once is deprecated",
+      "require is faster"
+    ],
+    "correctAnswer": 1,
+    "explanation": "require_once ensures a file is included only once preventing duplicate inclusions and redeclaration errors."
+  },
+  {
+    "question": "What does the spl_autoload_register function do?",
+    "options": [
+      "Registers users",
+      "Registers a callback function that is called to load class files when they are first referenced",
+      "Registers sessions",
+      "Registers autoloaded variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "spl_autoload_register registers an autoload function that automatically loads class definitions when needed."
+  },
+  {
+    "question": "What is the difference between str_contains and strpos?",
+    "options": [
+      "No difference",
+      "str_contains returns a boolean strpos returns the position or false",
+      "strpos is deprecated",
+      "str_contains is faster"
+    ],
+    "correctAnswer": 1,
+    "explanation": "str_contains returns true or false. strpos returns the position of the first occurrence or false."
+  },
+  {
+    "question": "What does the Reflector API provide in PHP?",
+    "options": [
+      "Reflecting light",
+      "Introspection of classes methods functions and other PHP structures",
+      "Reflection of HTML",
+      "Mirror images"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Reflector API provides classes like ReflectionClass and ReflectionMethod for introspecting PHP structures."
+  },
+  {
+    "question": "What is the difference between SplStack and SplQueue?",
+    "options": [
+      "No difference",
+      "SplStack uses LIFO (last in first out) SplQueue uses FIFO (first in first out)",
+      "SplStack is faster",
+      "SplQueue is deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SplStack is LIFO for push/pop operations. SplQueue is FIFO for enqueue/dequeue operations."
+  },
+  {
+    "question": "What does the WeakMap class do in PHP?",
+    "options": [
+      "Creates weak passwords",
+      "Stores objects as keys with weak references allowing garbage collection when keys are destroyed",
+      "Creates weak variables",
+      "Weakens network connections"
+    ],
+    "correctAnswer": 1,
+    "explanation": "WeakMap holds weak references to objects allowing them to be garbage collected when no other references exist."
+  },
+  {
+    "question": "What is the FFI extension used for?",
+    "options": [
+      "File formatting",
+      "Provides functionality to call C functions and access C data structures from PHP",
+      "Network communication",
+      "Database access"
+    ],
+    "correctAnswer": 1,
+    "explanation": "FFI (Foreign Function Interface) allows PHP code to call C libraries and access C data structures directly."
+  },
+  {
+    "question": "What does the fiber class allow in PHP 8.1?",
+    "options": [
+      "Thread creation",
+      "Creating lightweight concurrent tasks that can be paused and resumed within a single thread",
+      "Fiber optic connections",
+      "Network fibers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fibers provide cooperative multitasking allowing code to pause and resume execution at specific points."
+  },
+  {
+    "question": "What is the difference between DateTimeImmutable and DateTime?",
+    "options": [
+      "No difference",
+      "DateTimeImmutable returns a new object on modification DateTime modifies itself",
+      "DateTimeImmutable is deprecated",
+      "DateTime is immutable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "DateTimeImmutable creates a new object when modified preventing unintended side effects on the original."
+  },
+  {
+    "question": "What does the readonly property do in PHP 8.1?",
+    "options": [
+      "Makes properties static",
+      "Allows properties to be initialized once and then become immutable",
+      "Makes properties private",
+      "Enables read-only access to files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Readonly properties can only be written to once preventing accidental modification after initialization."
+  },
+  {
+    "question": "What is the purpose of the opcache extension?",
+    "options": [
+      "Opcode caching",
+      "Stores precompiled PHP bytecode in shared memory to speed up subsequent requests",
+      "Database caching",
+      "File caching only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "OPcache stores compiled PHP bytecode in shared memory eliminating the need to recompile on each request."
+  },
+  {
+    "question": "What does the posix extension provide?",
+    "options": [
+      "POSIX compliance testing",
+      "POSIX-like functions for working with the operating system like process and user management",
+      "Time zone support",
+      "Text formatting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The posix extension provides functions for POSIX system operations like process management and user info."
+  },
+  {
+    "question": "What is the difference between pthreads and fibers in PHP?",
+    "options": [
+      "No difference",
+      "pthreads use actual OS threads fibers use cooperative multitasking within a single thread",
+      "pthreads is newer",
+      "fibers are deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "pthreads create real OS threads for parallelism. Fibers use cooperative multitasking within one thread."
+  },
+  {
+    "question": "What does the pcntl extension provide?",
+    "options": [
+      "Packet control",
+      "Process control functions for fork signals and process management",
+      "Protocol control",
+      "Priority control"
+    ],
+    "correctAnswer": 1,
+    "explanation": "pcntl provides process control functions including fork signal handling and process status checking."
+  },
+  {
+    "question": "What is the purpose of the Swoole extension for PHP?",
+    "options": [
+      "Speed comparison",
+      "Provides an asynchronous event-driven networking framework for high-performance PHP applications",
+      "Web socket replacement",
+      "Security framework"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Swoole enables asynchronous non-blocking I/O with coroutines websockets and HTTP servers in PHP."
+  },
+  {
+    "question": "What does the amphp library provide for PHP?",
+    "options": [
+      "AMP page generation",
+      "Asynchronous primitives and an event loop for writing concurrent PHP code",
+      "Database management",
+      "Template engine"
+    ],
+    "correctAnswer": 1,
+    "explanation": "amphp provides an async event loop promises and asynchronous I/O primitives for concurrent PHP."
+  },
+  {
+    "question": "What is the difference between PDO and mysqli?",
+    "options": [
+      "No difference",
+      "PDO supports multiple databases mysqli supports only MySQL databases",
+      "PDO is deprecated",
+      "mysqli is slower"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PDO provides a database abstraction layer supporting many databases. mysqli is MySQL-specific with additional features."
   }
 ]

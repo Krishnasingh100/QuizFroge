@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What is the difference between 'ENTRYPOINT' and 'CMD' in a Dockerfile?",
+    "options": ["No difference", "ENTRYPOINT sets the executable, CMD provides default arguments", "CMD sets the executable, ENTRYPOINT provides arguments", "ENTRYPOINT runs at build time, CMD at runtime"],
+    "correctAnswer": 1,
+    "explanation": "ENTRYPOINT defines the main executable, while CMD provides default arguments that can be overridden. Together: ENTRYPOINT ['python'] CMD ['app.py'] runs 'python app.py'."
+  },
+  {
+    "question": "What happens when you set 'restart: always' in docker-compose.yml and the application crashes?",
+    "options": ["The container stays stopped", "Docker automatically restarts the container", "The entire compose stack restarts", "Only manual restart is possible"],
+    "correctAnswer": 1,
+    "explanation": "The 'restart: always' policy instructs Docker to always restart the container, including when the daemon restarts."
+  },
+  {
+    "question": "What is the purpose of the HEALTHCHECK instruction in a Dockerfile?",
+    "options": ["Checks if the image is valid", "Tells Docker how to test if a container is still working", "Scans for vulnerabilities", "Monitors host resource usage"],
+    "correctAnswer": 1,
+    "explanation": "HEALTHCHECK tells Docker how to test a container's health. If the check fails, Docker marks the container as unhealthy."
+  },
+  {
+    "question": "What is the effect of 'COPY --chown=user:group file.txt /app/'?",
+    "options": ["Copies file.txt and sets its owner to user:group inside the container", "Copies file.txt to the host as user:group", "Only copies if you own the file", "Changes the container's user"],
+    "correctAnswer": 0,
+    "explanation": "--chown sets the owner and group of the copied file inside the container image."
+  },
+  {
+    "question": "What is Docker content trust?",
+    "options": ["A backup mechanism", "Ensures images are signed and verified before pulling", "A license verification system", "A logging feature"],
+    "correctAnswer": 1,
+    "explanation": "Docker Content Trust (DCT) uses digital signatures to verify the integrity and publisher of images."
+  },
+  {
+    "question": "In docker-compose, what is the difference between 'depends_on' and links?",
+    "options": ["No difference", "depends_on ensures startup order and waits for health checks (v2.1+), links creates network aliases", "links is the modern approach", "depends_on creates shared volumes"],
+    "correctAnswer": 1,
+    "explanation": "depends_on controls startup order and can wait for health checks. Links is a legacy approach for creating hostnames and shared environment variables."
+  },
+  {
+    "question": "What is the impact of using 'docker build --no-cache'?",
+    "options": ["Prevents caching of the container at runtime", "Builds the image without using any cached layers", "Disables network caching", "Makes the image smaller"],
+    "correctAnswer": 1,
+    "explanation": "--no-cache forces Docker to rebuild all layers from scratch, ignoring any cached layers from previous builds."
+  },
+  {
+    "question": "What is an overlay2 storage driver?",
+    "options": ["A network driver", "A union filesystem driver that layers image layers efficiently", "A logging driver", "A volume driver"],
+    "correctAnswer": 1,
+    "explanation": "overlay2 is a union filesystem driver that efficiently manages image layers using a overlay filesystem."
+  },
+  {
+    "question": "What happens when a container runs as 'docker run --rm ubuntu sleep 10'?",
+    "options": ["The container runs indefinitely", "The container is automatically removed after it exits", "The container is paused after 10 seconds", "Nothing, --rm is invalid with sleep"],
+    "correctAnswer": 1,
+    "explanation": "The --rm flag automatically removes the container when it exits. After sleep 10 finishes, the container is deleted."
+  },
+  {
+    "question": "What is the difference between 'docker compose down' and 'docker compose stop'?",
+    "options": ["No difference", "down stops and removes containers, networks; stop only stops containers", "stop also removes volumes", "down only removes images"],
+    "correctAnswer": 1,
+    "explanation": "docker compose down stops containers AND removes them along with networks. docker compose stop only stops the containers."
+  },
+  {
+    "question": "What is the difference between 'docker compose down -v' and 'docker compose down'?",
+    "options": ["No difference", "-v also removes named volumes declared in the 'volumes' section", "-v also removes all images", "-v enables verbose output"],
+    "correctAnswer": 1,
+    "explanation": "Adding -v to 'docker compose down' additionally removes named volumes declared in the compose file's top-level volumes section."
+  },
+  {
+    "question": "What is a Docker context?",
+    "options": ["The build directory", "A configuration set for switching between different Docker endpoints (local, remote, Swarm)", "The filesystem root of a container", "A Kubernetes namespace"],
+    "correctAnswer": 1,
+    "explanation": "Docker contexts allow you to switch between different Docker daemons (local, remote hosts, Swarm clusters) with a single command."
+  },
+  {
+    "question": "What does 'docker buildx build --platform linux/arm64' do?",
+    "options": ["Builds for the host platform only", "Cross-compiles the image for linux/arm64 architecture", "Runs the image on ARM64", "Pulls an ARM64 image"],
+    "correctAnswer": 1,
+    "explanation": "docker buildx with --platform enables cross-platform image building. This builds an ARM64 image regardless of the host architecture."
+  },
+  {
+    "question": "What happens when you set 'stdin_open: true' and 'tty: true' in docker-compose.yml?",
+    "options": ["Enables logging", "Opens stdin and allocates a pseudo-TTY, keeping the container running interactively", "Enables SSL", "Increases memory"],
+    "correctAnswer": 1,
+    "explanation": "stdin_open keeps stdin open (like -i) and tty allocates a pseudo-TTY (like -t). Together they enable interactive sessions."
+  },
+  {
+    "question": "What is a Docker 'build argument' (ARG) and how does it differ from ENV?",
+    "options": ["No difference", "ARG is available only during build, ENV persists into the running container", "ARG is for images, ENV for containers", "ARG supports secrets, ENV does not"],
+    "correctAnswer": 1,
+    "explanation": "ARG is available only during the build process and is not retained in the final image. ENV sets environment variables that persist in the running container."
+  },
+  {
+    "question": "What is the purpose of 'docker scout' in Docker Desktop?",
+    "options": ["Container monitoring", "Vulnerability scanning and remediation recommendations for container images", "Image compression", "Log aggregation"],
+    "correctAnswer": 1,
+    "explanation": "Docker Scout analyzes container images for known vulnerabilities and provides remediation recommendations."
+  },
+  {
+    "question": "What does 'docker compose config' do?",
+    "options": ["Edits the compose file", "Validates and displays the resolved compose configuration (merging multiple files)", "Creates the compose file", "Dumps container config"],
+    "correctAnswer": 1,
+    "explanation": "docker compose config validates the compose file, resolves variable substitutions, merges multiple compose files, and prints the final resolved configuration."
+  },
+  {
+    "question": "What is the difference between a 'bind mount' and a 'Docker volume'?",
+    "options": ["No difference", "Bind mount maps a host path directly, volume is managed by Docker and stored in a Docker-managed directory", "Volumes are faster", "Bind mounts work only on Linux"],
+    "correctAnswer": 1,
+    "explanation": "Bind mounts reference a specific host path. Volumes are Docker-managed storage that are portable and don't depend on host directory structure."
+  },
+  {
+    "question": "What does 'DOCKER_BUILDKIT=1' environment variable enable?",
+    "options": ["Build caching", "The BuildKit build engine with improved performance, caching, and parallel build stages", "Docker Compose", "Multi-node builds"],
+    "correctAnswer": 1,
+    "explanation": "BuildKit is Docker's modern build engine providing faster builds, better caching, parallel stage execution, and build secrets support."
+  },
+  {
+    "question": "What is the purpose of 'docker compose run' vs 'docker compose up'?",
+    "options": ["No difference", "run starts a one-off command from a service, up starts all services as defined", "up is faster", "run is for production only"],
+    "correctAnswer": 1,
+    "explanation": "'docker compose run' executes a one-off command for a specific service (useful for maintenance tasks), while 'docker compose up' starts all defined services."
+  },
+  {
+    "question": "What is the purpose of 'docker buildx create --use'?",
+    "options": ["Creates a new image", "Creates and activates a new BuildKit builder instance for advanced builds", "Creates a new container", "Creates a network"],
+    "correctAnswer": 1,
+    "explanation": "docker buildx create --use creates a new builder instance and sets it as the active builder, enabling features like multi-platform builds and cache exporters."
+  },
+  {
+    "question": "What does the 'USER' instruction in a Dockerfile do?",
+    "options": ["Creates a new user account", "Sets the user (and optionally group) for subsequent instructions and container runtime", "Switches to root user", "Logs in to Docker Hub"],
+    "correctAnswer": 1,
+    "explanation": "USER sets the user context for subsequent Dockerfile instructions and the running container. Running as non-root improves security."
+  },
+  {
+    "question": "What happens when you use 'docker compose up --remove-orphans'?",
+    "options": ["Removes all containers", "Removes containers for services not defined in the current compose file", "Removes unused images", "Removes orphaned networks"],
+    "correctAnswer": 1,
+    "explanation": "--remove-orphans removes containers that were created by the compose file but are no longer part of the current service definitions."
+  },
+  {
+    "question": "What is the 'docker lock' feature used for?",
+    "options": ["Locking container CPU", "Prevents concurrent Docker builds or compose operations from conflicting", "Locks network ports", "Encrypts data at rest"],
+    "correctAnswer": 1,
+    "explanation": "Docker's build lock mechanism prevents concurrent operations that could cause conflicts during builds and compose operations."
+  },
+  {
+    "question": "What does 'cache_from' do in a docker-compose build section?",
+    "options": ["Ignores cache", "Specifies images to use as cache sources during the build", "Caches network data", "Stores build logs"],
+    "correctAnswer": 1,
+    "explanation": "cache_from tells BuildKit to use specified images as potential cache sources, speeding up builds by reusing layers from previous builds."
+  },
+  {
+    "question": "What is the purpose of 'docker manifest inspect'?",
+    "options": ["Inspects a running container", "Shows the manifest list (multi-arch info) for a container image", "Inspects build history", "Shows image layers"],
+    "correctAnswer": 1,
+    "explanation": "docker manifest inspect displays the manifest list for an image, showing all platform-specific variants available for multi-architecture images."
+  },
+  {
+    "question": "What does 'docker builder prune' do?",
+    "options": ["Removes all images", "Removes build cache (intermediate layers, unused build artifacts)", "Removes build contexts", "Prunes Dockerfiles"],
+    "correctAnswer": 1,
+    "explanation": "docker builder prune cleans up BuildKit's build cache, removing intermediate build layers and unused build artifacts to free disk space."
+  },
+  {
+    "question": "What does the 'docker compose watch' command do (Docker Compose v2.22+)?",
+    "options": ["Monitors container logs", "Watches source files for changes and automatically rebuilds/restarts services", "Monitors resource usage", "Watches network traffic"],
+    "correctAnswer": 1,
+    "explanation": "docker compose watch monitors source code directories and automatically rebuilds and restarts services when files change, enabling hot-reload workflows."
+  },
+  {
+    "question": "What is the security implication of running 'docker run --privileged'?",
+    "options": ["No special implications", "Grants the container nearly all capabilities of the host machine, including access to devices", "Limits container resources", "Enables read-only filesystem"],
+    "correctAnswer": 1,
+    "explanation": "--privileged gives the container access to all host devices and removes most security restrictions, making it equivalent to running as root on the host."
+  },
+  {
+    "question": "What is the difference between 'docker buildx bake' and 'docker buildx build'?",
+    "options": ["No difference", "bake reads a build definition file (HCL/JSON) to define multiple builds; build handles a single build", "bake is for production only", "build is deprecated in favor of bake"],
+    "correctAnswer": 1,
+    "explanation": "docker buildx bake reads build definitions from a file (docker-bake.hcl or JSON), allowing you to define and run multiple builds with shared configuration."
+  },
+  {
+    "question": "What does 'docker run --read-only --tmpfs /tmp:size=100m nginx' do?",
+    "options": ["Makes the image read-only", "Mounts a read-only root filesystem with a writable tmpfs at /tmp limited to 100MB", "Creates a backup", "Limits CPU to 100MB"],
+    "correctAnswer": 1,
+    "explanation": "--read-only makes the root filesystem immutable. --tmpfs creates a writable in-memory filesystem at /tmp with a 100MB size limit."
+  },
+  {
+    "question": "What is the purpose of 'docker buildx --driver-opt' flag?",
+    "options": ["Sets driver logging", "Passes options to the BuildKit driver (e.g., memory, network)", "Configures output format", "Sets build arguments"],
+    "correctAnswer": 1,
+    "explanation": "--driver-opt passes configuration options to the BuildKit build driver, such as memory limits, network settings, or container runtime options."
+  },
+  {
+    "question": "What does 'docker scan --type vuln image_name' do in Docker Desktop?",
+    "options": ["Scans for malware", "Performs vulnerability scanning on the image's OS and application packages", "Scans network traffic", "Scans for secrets"],
+    "correctAnswer": 1,
+    "explanation": "docker scan analyzes the image layers for known vulnerabilities in OS packages and application dependencies, listing severity ratings."
+  },
+  {
+    "question": "What is the 'docker buildx create --driver docker-container' option for?",
+    "options": ["Creates a container from an image", "Creates a BuildKit builder running inside a dedicated container with full capabilities", "Creates a Docker-in-Docker setup", "Creates a compose service"],
+    "correctAnswer": 1,
+    "explanation": "The docker-container driver runs BuildKit inside a dedicated container, providing features like multi-platform builds and advanced caching that the default 'docker' driver lacks."
+  },
+  {
+    "question": "What does the 'DOCKER_HOST' environment variable do?",
+    "options": ["Sets the container hostname", "Specifies the Docker daemon socket or URL to connect to", "Sets the registry host", "Configures DNS for containers"],
+    "correctAnswer": 1,
+    "explanation": "DOCKER_HOST overrides the default Docker daemon connection URL (unix:///var/run/docker.sock), allowing remote Docker management."
+  },
+  {
+    "question": "What is 'containerd' in the Docker architecture?",
+    "options": ["A container image", "An industry-standard container runtime that manages the complete container lifecycle", "A Docker networking tool", "A Docker volume plugin"],
+    "correctAnswer": 1,
+    "explanation": "containerd is the core container runtime that Docker uses to manage container lifecycle: pull images, manage storage, and execute containers."
+  },
+  {
+    "question": "What does 'docker init' do in Docker Desktop?",
+    "options": ["Initializes a new Docker daemon", "Generates optimized Dockerfile, docker-compose.yml, and .dockerignore for a project", "Creates a new Docker project", "Initializes a swarm"],
+    "correctAnswer": 1,
+    "explanation": "docker init analyzes your project and generates starter Dockerfile, docker-compose.yml, and .dockerignore files tailored to your application."
+  },
+  {
+    "question": "What is the purpose of 'docker buildx imagetools inspect'?",
+    "options": ["Inspects running containers", "Shows manifest and platform details of a remote image without pulling it", "Inspects image layers", "Shows image vulnerabilities"],
+    "correctAnswer": 1,
+    "explanation": "imagetools inspect fetches and displays the manifest list for a remote image, showing all platform variants and their digests without downloading the image."
+  },
+  {
+    "question": "What is the 'seccomp' profile in Docker security?",
+    "options": ["A logging profile", "A Linux kernel feature that restricts system calls a container can make", "An encryption profile", "A network security profile"],
+    "correctAnswer": 1,
+    "explanation": "seccomp (Secure Computing Mode) filters which Linux system calls a container is allowed to make, reducing the attack surface."
+  },
+  {
+    "question": "What does 'docker buildx build --cache-from type=registry,ref=myregistry/myimage:cache' do?",
+    "options": ["Pushes cache to registry", "Uses a cached image layer from a remote registry as a cache source for the build", "Deletes cache", "Exports build cache"],
+    "correctAnswer": 1,
+    "explanation": "--cache-from tells BuildKit to pull potential cache layers from the specified registry image, speeding up builds by reusing previously built layers."
+  }
+]

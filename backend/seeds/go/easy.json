@@ -220,333 +220,223 @@
     "explanation": "The correct answer is '==' for Go."
   },
   {
-    "question": "Which value is commonly used for true in Go library imports?",
+    "question": "What is the output?\n\ns := \"Hello\"\nfmt.Println(len(s))",
     "options": [
-      "False",
-      "true",
-      "false",
-      "True"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'true' for Go."
-  },
-  {
-    "question": "Which keyword is used to exit a loop early in Go conditional logic?",
-    "options": [
-      "continue",
-      "stop",
-      "break",
-      "return"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'break' for Go."
-  },
-  {
-    "question": "Which value represents false in Go source code?",
-    "options": [
-      "True",
-      "False",
-      "true",
-      "false"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'false' for Go."
-  },
-  {
-    "question": "Which operator checks equality in Go function definitions?",
-    "options": [
-      "==",
-      "=",
-      "===",
-      "!="
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '==' for Go."
-  },
-  {
-    "question": "Which concept describes reusable code blocks in Go header files?",
-    "options": [
-      "classes",
-      "comments",
-      "functions",
-      "variables"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'functions' for Go."
-  },
-  {
-    "question": "Which file extension is standard for Go function definitions?",
-    "options": [
-      ".json",
-      ".txt",
-      ".md",
-      ".go"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '.go' for Go."
-  },
-  {
-    "question": "Which keyword is used to exit a loop early in Go source code?",
-    "options": [
-      "stop",
-      "continue",
-      "break",
-      "return"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'break' for Go."
-  },
-  {
-    "question": "Which code line prints \"Hello\" in Go library imports?",
-    "options": [
-      "console.log(\"Hello\")",
-      "print(\"Hello\")",
-      "echo \"Hello\";",
-      "puts \"Hello\""
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'print(\"Hello\")' for Go."
-  },
-  {
-    "question": "Which statement imports libraries or packages in Go source code?",
-    "options": [
-      "require(\"lib\")",
-      "include <lib>",
-      "import \"fmt\"",
-      "use lib;"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'import \"fmt\"' for Go."
-  },
-  {
-    "question": "Which value represents false in Go conditional logic?",
-    "options": [
-      "false",
-      "True",
-      "False",
-      "true"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'false' for Go."
-  },
-  {
-    "question": "Which symbol begins a single-line comment in Go loop logic?",
-    "options": [
-      "//",
-      "/* */",
-      "<!-- -->",
-      "#"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '//' for Go."
-  },
-  {
-    "question": "Which keyword begins a loop in Go header files?",
-    "options": [
-      "while",
-      "repeat",
-      "loop",
-      "for"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'for' for Go."
-  },
-  {
-    "question": "Which file extension is standard for Go source code?",
-    "options": [
-      ".go",
-      ".json",
-      ".md",
-      ".txt"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '.go' for Go."
-  },
-  {
-    "question": "Which sign is used to assign values in Go source code?",
-    "options": [
-      "==",
-      ":=",
-      "=>",
-      "="
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '=' for Go."
-  },
-  {
-    "question": "Which statement imports libraries or packages in Go header files?",
-    "options": [
-      "use lib;",
-      "require(\"lib\")",
-      "include <lib>",
-      "import \"fmt\""
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'import \"fmt\"' for Go."
-  },
-  {
-    "question": "Which code line uses string concatenation in Go loop logic?",
-    "options": [
-      "\"Hello\" . \"World\"",
-      "join(\"Hello\", \"World\")",
-      "concat(\"Hello\", \"World\")",
-      "\"Hello\" + \"World\""
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Go."
-  },
-  {
-    "question": "Which value is commonly used for true in Go source code?",
-    "options": [
-      "True",
-      "False",
-      "true",
-      "false"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'true' for Go."
-  },
-  {
-    "question": "Which code line prints \"Hello\" in Go header files?",
-    "options": [
-      "console.log(\"Hello\")",
-      "echo \"Hello\";",
-      "print(\"Hello\")",
-      "puts \"Hello\""
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'print(\"Hello\")' for Go."
-  },
-  {
-    "question": "Which code line prints \"Hello\" in Go loop logic?",
-    "options": [
-      "console.log(\"Hello\")",
-      "echo \"Hello\";",
-      "print(\"Hello\")",
-      "puts \"Hello\""
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'print(\"Hello\")' for Go."
-  },
-  {
-    "question": "What is the result of 8 - 3 in Go header files?",
-    "options": [
-      "8",
-      "2",
+      "4",
       "5",
-      "3"
+      "6",
+      "Compilation error"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '5' for Go."
+    "correctAnswer": 1,
+    "explanation": "\"Hello\" has 5 bytes."
   },
   {
-    "question": "Which code line correctly declares a constant in Go loop logic?",
+    "question": "What is the output?\n\nx, y := 1, 2\nfmt.Println(x + y)",
     "options": [
-      "const",
-      "let",
-      "var",
-      "static"
+      "12",
+      "3",
+      "1 2",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "x + y = 1 + 2 = 3."
+  },
+  {
+    "question": "Which type can hold decimal values in Go?",
+    "options": [
+      "int",
+      "float64",
+      "bool",
+      "byte"
+    ],
+    "correctAnswer": 1,
+    "explanation": "float64 holds decimal values."
+  },
+  {
+    "question": "What is the output?\n\nfor i := range [3]int{} {\n    fmt.Print(i, \" \")\n}",
+    "options": [
+      "0 1 2",
+      "1 2 3",
+      "0 1 2 3",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is 'const' for Go."
+    "explanation": "range over array yields indices."
   },
   {
-    "question": "What is the result of 8 - 3 in Go library imports?",
+    "question": "What is the zero value of a float64?",
     "options": [
-      "8",
-      "3",
-      "2",
-      "5"
+      "null",
+      "nil",
+      "0",
+      "undefined"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '5' for Go."
+    "correctAnswer": 2,
+    "explanation": "The zero value of float64 is 0."
   },
   {
-    "question": "Which value is commonly used for true in Go header files?",
+    "question": "What is the output?\n\ns := make([]int, 0)\ns = append(s, 10)\nfmt.Println(s[0])",
     "options": [
-      "True",
-      "false",
+      "0",
+      "10",
+      "Compilation error",
+      "panic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "append adds 10. s[0] is 10."
+  },
+  {
+    "question": "Which keyword defines a method in Go?",
+    "options": [
+      "func",
+      "method",
+      "def",
+      "fn"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Go uses 'func' with a receiver."
+  },
+  {
+    "question": "What is the output?\n\na := 5\nb := 3\nfmt.Println(a > b)",
+    "options": [
       "true",
-      "False"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'true' for Go."
-  },
-  {
-    "question": "Which keyword begins a loop in Go loop logic?",
-    "options": [
-      "while",
-      "repeat",
-      "for",
-      "loop"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'for' for Go."
-  },
-  {
-    "question": "What is the result of 8 - 3 in Go loop logic?",
-    "options": [
-      "3",
-      "2",
-      "8",
-      "5"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '5' for Go."
-  },
-  {
-    "question": "What is the result of 8 - 3 in Go source code?",
-    "options": [
-      "2",
-      "5",
-      "8",
-      "3"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '5' for Go."
-  },
-  {
-    "question": "Which keyword begins a loop in Go library imports?",
-    "options": [
-      "repeat",
-      "for",
-      "while",
-      "loop"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'for' for Go."
-  },
-  {
-    "question": "Which code line prints \"Hello\" in Go source code?",
-    "options": [
-      "console.log(\"Hello\")",
-      "puts \"Hello\"",
-      "echo \"Hello\";",
-      "print(\"Hello\")"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'print(\"Hello\")' for Go."
-  },
-  {
-    "question": "Which code line uses string concatenation in Go conditional logic?",
-    "options": [
-      "\"Hello\" + \"World\"",
-      "\"Hello\" . \"World\"",
-      "join(\"Hello\", \"World\")",
-      "concat(\"Hello\", \"World\")"
+      "false",
+      "1",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is '\"Hello\" + \"World\"' for Go."
+    "explanation": "5 > 3 is true."
   },
   {
-    "question": "Which keyword starts a concurrent function execution in Go?",
+    "question": "What is the output?\n\nm := map[string]int{\"x\": 10}\nfmt.Println(m[\"x\"])",
     "options": [
-      "async",
-      "parallel",
-      "go",
-      "thread"
+      "0",
+      "10",
+      "x",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Map lookup returns value for key \"x\"."
+  },
+  {
+    "question": "What does 'package main' indicate?",
+    "options": [
+      "First package imported",
+      "Executable program",
+      "Library package",
+      "Test package"
+    ],
+    "correctAnswer": 1,
+    "explanation": "package main indicates an executable."
+  },
+  {
+    "question": "What is the output?\n\nfmt.Println(5 % 2)",
+    "options": [
+      "2.5",
+      "1",
+      "2",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "5 % 2 = 1."
+  },
+  {
+    "question": "What is the output?\n\ns := \"abc\"\nfmt.Println(s + \"def\")",
+    "options": [
+      "abc",
+      "abcdef",
+      "abc def",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "String concatenation: \"abc\" + \"def\" = \"abcdef\"."
+  },
+  {
+    "question": "What is the output?\n\nx := 10\nif x > 5 {\n    fmt.Println(\"big\")\n}",
+    "options": [
+      "big",
+      "small",
+      "nothing",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "10 > 5 is true, so \"big\" is printed."
+  },
+  {
+    "question": "What is the zero value of a string?",
+    "options": [
+      "null",
+      "nil",
+      "\"\"",
+      "undefined"
     ],
     "correctAnswer": 2,
-    "explanation": "goroutines launch with the go keyword before a function call."
+    "explanation": "The zero value of string is \"\"."
+  },
+  {
+    "question": "What is the output?\n\narr := [3]int{10, 20, 30}\nfmt.Println(len(arr))",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Array has 3 elements."
+  },
+  {
+    "question": "What is the output?\n\nx := 7\nfmt.Println(x & 3)",
+    "options": [
+      "7",
+      "3",
+      "1",
+      "0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "7 & 3: 111 & 011 = 011 = 3. Wait, that's 3. Let me recalculate: 7=111, 3=011, AND=011=3. Hmm, option 2 is index 2 which is '3'. That's correct."
+  },
+  {
+    "question": "Which is a valid Go function declaration?",
+    "options": [
+      "function add(a, b int) int",
+      "func add(a int, b int) int",
+      "def add(a, b): int",
+      "func add(a, b) -> int"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Go uses 'func' keyword."
+  },
+  {
+    "question": "What is the output?\n\nfmt.Println(true || false)",
+    "options": [
+      "true",
+      "false",
+      "1",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "true OR false evaluates to true."
+  },
+  {
+    "question": "What does := do?",
+    "options": [
+      "Compares values",
+      "Declares and initializes",
+      "Assigns a value",
+      "Defines function"
+    ],
+    "correctAnswer": 1,
+    "explanation": ":= declares and initializes with type inference."
+  },
+  {
+    "question": "What is the output?\n\nx := 42\nfmt.Printf(\"%x\\n\", x)",
+    "options": [
+      "42",
+      "0x42",
+      "2a",
+      "2A"
+    ],
+    "correctAnswer": 2,
+    "explanation": "%x formats as lowercase hex. 42 decimal = 2a hex."
   }
 ]

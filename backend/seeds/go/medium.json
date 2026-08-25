@@ -220,333 +220,223 @@
     "explanation": "The correct answer is 'recursion' for Go."
   },
   {
-    "question": "Which operator is used to compare two values in Go data types?",
+    "question": "What is the output?\n\ns := \"Hello\"\nfmt.Println([]byte(s))",
     "options": [
-      "==",
-      "===",
-      "!=",
-      "<>"
+      "[72 101 108 108 111]",
+      "[Hello]",
+      "[H e l l o]",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is '==' for Go."
+    "explanation": "Converting string to []byte gives byte values."
   },
   {
-    "question": "Which term describes a variable whose value cannot change after assignment in Go library imports?",
+    "question": "What is the output?\n\nfunc main() {\n    nums := []int{1,2,3,4,5}\n    sum := 0\n    for _, v := range nums {\n        sum += v\n    }\n    fmt.Println(sum)\n}",
     "options": [
-      "mutable",
-      "temporary",
-      "immutable",
-      "dynamic"
+      "10",
+      "12",
+      "15",
+      "Compilation error"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'immutable' for Go."
+    "explanation": "Sum of 1+2+3+4+5 = 15."
   },
   {
-    "question": "Which keyword starts a conditional expression in Go function definitions?",
+    "question": "What is the output?\n\nvar x int32 = 42\nvar y int64 = x\nfmt.Println(y)",
     "options": [
-      "when",
-      "case",
-      "switch",
-      "if"
+      "Compilation error",
+      "42.0",
+      "42",
+      "panic"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'if' for Go."
+    "correctAnswer": 2,
+    "explanation": "Go allows implicit widening from int32 to int64."
   },
   {
-    "question": "Which concept means solving a problem by calling the same function inside itself in Go library imports?",
+    "question": "What is the output?\n\ns := \"abcdef\"\nfmt.Println(s[2:5])",
     "options": [
-      "recursion",
-      "optimization",
-      "compilation",
-      "iteration"
+      "abc",
+      "cde",
+      "cdef",
+      "ab"
+    ],
+    "correctAnswer": 1,
+    "explanation": "s[2:5] returns bytes from index 2 to 4: \"cde\"."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    f := func(x int) int { return x * x }\n    fmt.Println(f(5))\n}",
+    "options": [
+      "5",
+      "10",
+      "25",
+      "Compilation error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Anonymous function squares: 5*5=25."
+  },
+  {
+    "question": "What is the output?\n\nfmt.Println(true && false || true)",
+    "options": [
+      "true",
+      "false",
+      "Compilation error",
+      "1"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is 'recursion' for Go."
+    "explanation": "&& has higher precedence. false || true = true."
   },
   {
-    "question": "Which line represents a correct function definition in Go function definitions?",
+    "question": "What is the output?\n\narr := []int{10, 20, 30}\nfmt.Println(len(arr), cap(arr))",
     "options": [
-      "function main",
-      "main() {}",
-      "func main()",
-      "def main"
+      "3 3",
+      "3 0",
+      "0 3",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Slice literal has length=capacity=3."
+  },
+  {
+    "question": "What does 'go' keyword do?",
+    "options": [
+      "Declares a goroutine",
+      "Imports a package",
+      "Defines a constant",
+      "Starts a loop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'go' starts a new goroutine."
+  },
+  {
+    "question": "What is the output?\n\nm := map[string]int{}\nm[\"a\"] = 1\nm[\"b\"] = 2\nfor k := range m {\n    fmt.Print(k, \" \")\n}",
+    "options": [
+      "a b c",
+      "1 2 3",
+      "a=1 b=2",
+      "Cannot be determined"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Map iteration order is random."
+  },
+  {
+    "question": "What is the output?\n\nx := 5\np := &x\nfmt.Println(*p)",
+    "options": [
+      "5",
+      "&5",
+      "Compilation error",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "*p dereferences to the value 5."
+  },
+  {
+    "question": "What is the output?\n\ntype Color int\nconst (\n    Red Color = iota\n    Green\n    Blue\n)\nfmt.Println(Green)",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "iota: Red=0, Green=1, Blue=2."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    ch := make(chan int, 2)\n    ch <- 10\n    ch <- 20\n    fmt.Println(<-ch + <-ch)\n}",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "Compilation error"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'func main()' for Go."
+    "explanation": "Channel sends 10, 20. Receive: 10+20=30."
   },
   {
-    "question": "Which keyword starts a conditional expression in Go header files?",
+    "question": "What is the output?\n\ns := []int{1, 2, 3, 4, 5}\nfmt.Println(s[:2])",
     "options": [
-      "case",
-      "if",
-      "when",
-      "switch"
+      "[1 2]",
+      "[1 2 3]",
+      "[3 4 5]",
+      "[1 2 3 4 5]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "s[:2] returns first 2 elements."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    for i := 0; i < 3; i++ {\n        defer fmt.Print(i, \" \")\n    }\n}",
+    "options": [
+      "0 1 2",
+      "2 1 0",
+      "3 3 3",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'if' for Go."
+    "explanation": "Defers execute in LIFO order."
   },
   {
-    "question": "Which concept means solving a problem by calling the same function inside itself in Go source code?",
+    "question": "What is the output?\n\ns1 := \"hello\"\ns2 := \"Hello\"\nfmt.Println(s1 == s2)",
     "options": [
-      "compilation",
-      "iteration",
-      "recursion",
-      "optimization"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'recursion' for Go."
-  },
-  {
-    "question": "Which keyword in Go creates a new variable in loop logic?",
-    "options": [
-      "const",
-      "let",
-      "class",
-      "static"
+      "true",
+      "false",
+      "Compilation error",
+      "panic"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'let' for Go."
+    "explanation": "String comparison is case-sensitive."
   },
   {
-    "question": "Which operator in Go is used for string concatenation in source code?",
+    "question": "What is the output?\n\nvar s []int\nfmt.Println(s == nil, len(s), cap(s))",
     "options": [
-      "&",
-      "||",
-      "##",
-      "+"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '+' for Go."
-  },
-  {
-    "question": "Which keyword starts a conditional expression in Go loop logic?",
-    "options": [
-      "case",
-      "switch",
-      "when",
-      "if"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'if' for Go."
-  },
-  {
-    "question": "Which keyword declares a function in Go memory management?",
-    "options": [
-      "class",
-      "const",
-      "var",
-      "func"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'func' for Go."
-  },
-  {
-    "question": "Which term often describes a collection of values in Go header files?",
-    "options": [
-      "object",
-      "array",
-      "function",
-      "class"
+      "false 0 0",
+      "true 0 0",
+      "true 0 5",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'array' for Go."
+    "explanation": "Nil slice has nil, length 0, capacity 0."
   },
   {
-    "question": "Which value is the result of 4 * 2 in Go loop logic?",
+    "question": "What is the output?\n\nm := map[string]int{\"a\": 1, \"b\": 2}\ndelete(m, \"a\")\nfmt.Println(len(m))",
     "options": [
       "2",
-      "6",
-      "8",
-      "16"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '8' for Go."
-  },
-  {
-    "question": "Which concept means solving a problem by calling the same function inside itself in Go data types?",
-    "options": [
-      "iteration",
-      "compilation",
-      "optimization",
-      "recursion"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'recursion' for Go."
-  },
-  {
-    "question": "Which line represents a valid import or include in Go library imports?",
-    "options": [
-      "include <sys>",
-      "require(\"module\")",
-      "import \"fmt\"",
-      "import module"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'import \"fmt\"' for Go."
-  },
-  {
-    "question": "Which operator is used to compare two values in Go conditional logic?",
-    "options": [
-      "<>",
-      "==",
-      "!=",
-      "==="
+      "1",
+      "0",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is '==' for Go."
+    "explanation": "delete removes \"a\", leaving 1 entry."
   },
   {
-    "question": "Which structure is often used for repeated execution in Go function definitions?",
+    "question": "What is the output?\n\nx := 0\nswitch x {\ncase 0:\n    fmt.Println(\"zero\")\ncase 1:\n    fmt.Println(\"one\")\ndefault:\n    fmt.Println(\"other\")\n}",
     "options": [
-      "for",
-      "case",
-      "switch",
-      "if"
+      "zero",
+      "one",
+      "other",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is 'for' for Go."
+    "explanation": "x is 0, matches first case."
   },
   {
-    "question": "Which line represents a valid import or include in Go function definitions?",
+    "question": "What is the output?\n\ns := make([]int, 3, 5)\nfmt.Println(len(s), cap(s))",
     "options": [
-      "require(\"module\")",
-      "import module",
-      "import \"fmt\"",
-      "include <sys>"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'import \"fmt\"' for Go."
-  },
-  {
-    "question": "Which term often describes a collection of values in Go loop logic?",
-    "options": [
-      "function",
-      "object",
-      "array",
-      "class"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'array' for Go."
-  },
-  {
-    "question": "Which keyword defines a function or method name in Go library imports?",
-    "options": [
-      "module",
-      "func",
-      "struct",
-      "class"
+      "3 3",
+      "3 5",
+      "5 5",
+      "0 5"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'func' for Go."
+    "explanation": "make creates slice with length 3, capacity 5."
   },
   {
-    "question": "Which keyword declares a function in Go loop logic?",
+    "question": "What is the output?\n\nfunc main() {\n    ch := make(chan int)\n    go func() { ch <- 42 }()\n    v := <-ch\n    fmt.Println(v)\n}",
     "options": [
-      "class",
-      "func",
-      "const",
-      "var"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'func' for Go."
-  },
-  {
-    "question": "Which operator in Go is used for string concatenation in function definitions?",
-    "options": [
-      "&",
-      "+",
-      "||",
-      "##"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '+' for Go."
-  },
-  {
-    "question": "Which operator in Go is used for string concatenation in loop logic?",
-    "options": [
-      "+",
-      "&",
-      "##",
-      "||"
+      "42",
+      "0",
+      "deadlock",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is '+' for Go."
-  },
-  {
-    "question": "Which term describes a variable whose value cannot change after assignment in Go conditional logic?",
-    "options": [
-      "immutable",
-      "temporary",
-      "mutable",
-      "dynamic"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'immutable' for Go."
-  },
-  {
-    "question": "Which keyword in Go creates a new variable in function definitions?",
-    "options": [
-      "class",
-      "const",
-      "let",
-      "static"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'let' for Go."
-  },
-  {
-    "question": "Which keyword in Go creates a new variable in library imports?",
-    "options": [
-      "const",
-      "static",
-      "let",
-      "class"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'let' for Go."
-  },
-  {
-    "question": "Which keyword defines a function or method name in Go loop logic?",
-    "options": [
-      "struct",
-      "func",
-      "module",
-      "class"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'func' for Go."
-  },
-  {
-    "question": "Which keyword in Go indicates a return value from a function in function definitions?",
-    "options": [
-      "return",
-      "exit",
-      "break",
-      "yield"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'return' for Go."
-  },
-  {
-    "question": "Which keyword in Go creates a new variable in conditional logic?",
-    "options": [
-      "static",
-      "let",
-      "const",
-      "class"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'let' for Go."
-  },
-  {
-    "question": "Which line represents a valid import or include in Go loop logic?",
-    "options": [
-      "require(\"module\")",
-      "import \"fmt\"",
-      "import module",
-      "include <sys>"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'import \"fmt\"' for Go."
+    "explanation": "Goroutine sends 42, main receives it."
   }
 ]

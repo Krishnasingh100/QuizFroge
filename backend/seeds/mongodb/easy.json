@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What type of database is MongoDB?",
+    "options": ["Relational database", "Document-oriented NoSQL database", "Graph database", "Key-value store"],
+    "correctAnswer": 1,
+    "explanation": "MongoDB is a document-oriented NoSQL database that stores data in flexible, JSON-like documents."
+  },
+  {
+    "question": "What is the command to insert a single document in MongoDB?",
+    "options": ["db.collection.insert()", "db.collection.insertOne()", "db.collection.create()", "db.collection.add()"],
+    "correctAnswer": 1,
+    "explanation": "insertOne() is used to insert a single document into a MongoDB collection."
+  },
+  {
+    "question": "Which data format does MongoDB use to store documents?",
+    "options": ["XML", "JSON", "BSON", "CSV"],
+    "correctAnswer": 2,
+    "explanation": "MongoDB stores documents in BSON (Binary JSON) format, which is a binary representation of JSON."
+  },
+  {
+    "question": "What is a collection in MongoDB?",
+    "options": ["A single document", "A group of related documents (similar to a table)", "A database backup", "An index"],
+    "correctAnswer": 1,
+    "explanation": "A collection is a group of related documents, analogous to a table in relational databases."
+  },
+  {
+    "question": "Which command is used to find all documents in a collection?",
+    "options": ["db.collection.find()", "db.collection.selectAll()", "db.collection.get()", "db.collection.list()"],
+    "correctAnswer": 0,
+    "explanation": "find() retrieves all documents in a collection. Pass a query object to filter results."
+  },
+  {
+    "question": "What is the default port MongoDB runs on?",
+    "options": ["3306", "5432", "27017", "6379"],
+    "correctAnswer": 2,
+    "explanation": "MongoDB uses port 27017 by default."
+  },
+  {
+    "question": "What does 'db.collection.countDocuments()' return?",
+    "options": ["The size of the collection in bytes", "The number of documents in the collection", "The number of indexes", "The average document size"],
+    "correctAnswer": 1,
+    "explanation": "countDocuments() returns the total number of documents in a collection."
+  },
+  {
+    "question": "What is MongoDB's primary key called?",
+    "options": ["PK", "_id", "id", "primary"],
+    "correctAnswer": 1,
+    "explanation": "Every MongoDB document has an '_id' field that uniquely identifies it. It serves as the primary key."
+  },
+  {
+    "question": "How do you delete a document in MongoDB?",
+    "options": ["db.collection.delete()", "db.collection.removeOne()", "db.collection.deleteOne()", "db.collection.erase()"],
+    "correctAnswer": 2,
+    "explanation": "deleteOne() removes a single document matching the filter criteria."
+  },
+  {
+    "question": "Which command switches to or creates a database in MongoDB?",
+    "options": ["use mydb", "switch mydb", "open mydb", "create mydb"],
+    "correctAnswer": 0,
+    "explanation": "The 'use' command switches to a database, creating it if it doesn't exist."
+  },
+  {
+    "question": "What is the command to insert multiple documents at once?",
+    "options": ["db.collection.insertMany()", "db.collection.insertMultiple()", "db.collection.bulkInsert()", "db.collection.addMany()"],
+    "correctAnswer": 0,
+    "explanation": "insertMany() inserts multiple documents into a collection in a single operation."
+  },
+  {
+    "question": "What does the 'limit()' method do on a MongoDB cursor?",
+    "options": ["Limits the number of documents returned", "Limits the document size", "Limits connection speed", "Limits index creation"],
+    "correctAnswer": 0,
+    "explanation": "limit() restricts the number of documents the cursor returns from a query."
+  },
+  {
+    "question": "Which operator is used to match documents where a field equals a specific value?",
+    "options": ["$match", "$eq", "$where", "$filter"],
+    "correctAnswer": 1,
+    "explanation": "$eq is the equality comparison operator. You can also omit it for simple equality: { field: value }."
+  },
+  {
+    "question": "What does 'db.dropDatabase()' do?",
+    "options": ["Drops a collection", "Drops the currently selected database", "Drops all databases", "Drops an index"],
+    "correctAnswer": 1,
+    "explanation": "dropDatabase() deletes the entire database that is currently selected with the 'use' command."
+  },
+  {
+    "question": "What type of data can a MongoDB document field store?",
+    "options": ["Only text", "Only numbers", "Strings, numbers, arrays, nested objects, booleans, and more", "Only strings and numbers"],
+    "correctAnswer": 2,
+    "explanation": "MongoDB supports rich data types including strings, numbers, booleans, arrays, embedded documents, dates, and more."
+  },
+  {
+    "question": "What does the 'sort()' method do in MongoDB?",
+    "options": ["Filters documents", "Sorts the result set by specified fields", "Groups documents", "Merges collections"],
+    "correctAnswer": 1,
+    "explanation": "sort() orders query results by one or more fields. Use 1 for ascending and -1 for descending."
+  },
+  {
+    "question": "What is the purpose of the 'pretty()' method on a cursor?",
+    "options": ["Formats documents for export", "Displays documents in a readable JSON format", "Removes extra whitespace", "Sorts documents alphabetically"],
+    "correctAnswer": 1,
+    "explanation": "pretty() formats the cursor output in a human-readable indented JSON format."
+  },
+  {
+    "question": "How do you update a field's value in an existing document?",
+    "options": ["db.collection.modify()", "db.collection.updateOne() with $set operator", "db.collection.change()", "db.collection.put()"],
+    "correctAnswer": 1,
+    "explanation": "updateOne() with the $set operator updates specific fields in a document while preserving other fields."
+  },
+  {
+    "question": "What does 'show dbs' command do in the MongoDB shell?",
+    "options": ["Creates a database", "Lists all databases on the server", "Shows collection details", "Shows user permissions"],
+    "correctAnswer": 1,
+    "explanation": "show dbs lists all databases that currently exist on the MongoDB server."
+  },
+  {
+    "question": "What is the '$in' operator used for in MongoDB queries?",
+    "options": ["Checks if a field exists", "Matches documents where the field value is in a specified array", "Inserts documents", "Creates an index"],
+    "correctAnswer": 1,
+    "explanation": "$in selects documents where the value of a field matches any value in the specified array."
+  },
+  {
+    "question": "What does 'show collections' do in the MongoDB shell?",
+    "options": ["Creates a new collection", "Lists all collections in the current database", "Shows collection schema", "Drops all collections"],
+    "correctAnswer": 1,
+    "explanation": "show collections lists all collections that exist in the currently selected database."
+  },
+  {
+    "question": "What is the '$gt' operator used for in a MongoDB query?",
+    "options": ["Greater than or equal", "Greater than", "Greater than or equal to zero", "Group by"],
+    "correctAnswer": 1,
+    "explanation": "$gt is the 'greater than' comparison operator used to match documents where a field's value exceeds a specified value."
+  },
+  {
+    "question": "What does 'db.collection.find({}).skip(5).limit(3)' return?",
+    "options": ["The first 3 documents", "Documents 6 through 8", "The last 3 documents", "All documents"],
+    "correctAnswer": 1,
+    "explanation": "skip(5) bypasses the first 5 documents, and limit(3) returns the next 3. This is a basic pagination pattern."
+  },
+  {
+    "question": "What does the '$ne' operator do in MongoDB?",
+    "options": ["Not equal - matches documents where the field does not equal the specified value", "Near - matches documents near a geo point", "Next element", "Nested element"],
+    "correctAnswer": 0,
+    "explanation": "$ne is the 'not equal' operator, selecting documents where the field value is not equal to the specified value."
+  },
+  {
+    "question": "What is the purpose of the 'distinct' command in MongoDB?",
+    "options": ["Creates a unique index", "Returns an array of distinct values for a field across a collection", "Deletes duplicates", "Makes a field unique"],
+    "correctAnswer": 1,
+    "explanation": "db.collection.distinct('field') returns an array of unique values for the specified field across the collection."
+  },
+  {
+    "question": "What does 'db.collection.deleteMany({})' do?",
+    "options": ["Deletes the collection", "Deletes all documents in the collection", "Deletes one document", "Deletes the database"],
+    "correctAnswer": 1,
+    "explanation": "deleteMany({}) with an empty filter removes all documents from the collection. The collection itself still exists."
+  },
+  {
+    "question": "What does the 'drop()' method do on a collection?",
+    "options": ["Removes all documents only", "Removes the entire collection including its indexes", "Drops the database", "Removes one document"],
+    "correctAnswer": 1,
+    "explanation": "collection.drop() completely removes the collection, including all its documents and indexes, from the database."
+  },
+  {
+    "question": "What does MongoDB's 'ObjectId' consist of?",
+    "options": ["A random string", "A 12-byte value: timestamp, random value, and counter", "A UUID", "An auto-incrementing integer"],
+    "correctAnswer": 1,
+    "explanation": "ObjectId is a 12-byte value containing a 4-byte timestamp, 5-byte random value, and 3-byte incrementing counter."
+  },
+  {
+    "question": "What does the '$exists' operator check in MongoDB?",
+    "options": ["If a database exists", "If a field exists (or does not exist) in a document", "If a collection exists", "If an index exists"],
+    "correctAnswer": 1,
+    "explanation": "$exists matches documents that have or don't have a specified field. { field: { $exists: true } } finds documents with that field."
+  },
+  {
+    "question": "What does 'db.collection.updateMany({age: {$lt: 18}}, {$set: {status: \"minor\"}})' do?",
+    "options": ["Updates one document", "Sets status to 'minor' for all documents where age is less than 18", "Creates new documents", "Deletes matching documents"],
+    "correctAnswer": 1,
+    "explanation": "updateMany updates all documents matching the filter. It sets the 'status' field to 'minor' for every document with age below 18."
+  },
+  {
+    "question": "What does 'db.collection.find().toArray()' do?",
+    "options": ["Converts the database to an array", "Loads all matching documents into memory as a JavaScript array", "Creates a new collection", "Exports data to CSV"],
+    "correctAnswer": 1,
+    "explanation": "toArray() consumes the cursor and returns all documents as a JavaScript array in the shell."
+  },
+  {
+    "question": "What is the purpose of the 'explain()' method in MongoDB?",
+    "options": ["Explains the schema", "Shows the query execution plan and performance statistics", "Explains errors", "Lists collection indexes"],
+    "correctAnswer": 1,
+    "explanation": "explain() shows how MongoDB would execute a query, including which indexes are used, documents scanned, and execution time."
+  },
+  {
+    "question": "What does the '$push' operator with '$each' do?",
+    "options": ["Pushes one element", "Adds multiple elements to an array field at once", "Pushes elements to another collection", "Creates a new array field"],
+    "correctAnswer": 1,
+    "explanation": "$push with $each appends multiple values to an array field: { $push: { tags: { $each: [\"a\", \"b\"] } } }."
+  },
+  {
+    "question": "What is the '$pull' operator used for?",
+    "options": ["Pulls documents from a collection", "Removes all array elements matching a condition", "Pulls data from replicas", "Creates a pull request"],
+    "correctAnswer": 1,
+    "explanation": "$pull removes all elements from an array that match the specified condition."
+  },
+  {
+    "question": "What does 'db.collection.aggregate([{$sort: {age: -1}}])' do?",
+    "options": ["Sorts in ascending order", "Sorts documents by age in descending order", "Filters by age", "Groups by age"],
+    "correctAnswer": 1,
+    "explanation": "$sort with -1 orders documents in descending order. With 1 it would be ascending."
+  },
+  {
+    "question": "What is the '$gte' operator?",
+    "options": ["Greater than", "Greater than or equal to", "Greater than every", "Get values equal"],
+    "correctAnswer": 1,
+    "explanation": "$gte matches documents where the field value is greater than or equal to the specified value."
+  },
+  {
+    "question": "What does 'db.collection.find({}).skip(10).limit(5).sort({name: 1})' do?",
+    "options": ["Returns first 5 documents", "Returns documents 11-15 sorted by name ascending", "Skips all documents", "Returns 50 documents"],
+    "correctAnswer": 1,
+    "explanation": "sort() orders by name, skip(10) bypasses the first 10, and limit(5) returns the next 5. This is a pagination pattern."
+  },
+  {
+    "question": "What is the '$addToSet' operator?",
+    "options": ["Adds to a set index", "Adds a value to an array only if it does not already exist", "Creates a new set collection", "Removes duplicates from a set"],
+    "correctAnswer": 1,
+    "explanation": "$addToSet appends a value to an array field only if the value is not already present, preventing duplicates."
+  },
+  {
+    "question": "What does 'db.collection.find({name: {$regex: /^J/}})' match?",
+    "options": ["Names containing 'J' anywhere", "Names that start with the letter 'J'", "Names that end with 'J'", "Names equal to 'J'"],
+    "correctAnswer": 1,
+    "explanation": "The regex /^J/ matches strings that start with 'J'. The ^ anchor means 'beginning of string'."
+  },
+  {
+    "question": "What does 'db.collection.countDocuments({status: \"active\"})' return?",
+    "options": ["All documents", "Only the count of documents where status is 'active'", "The status field values", "An error"],
+    "correctAnswer": 1,
+    "explanation": "countDocuments with a filter returns the count of documents matching that specific condition."
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What is the difference between a 'tailable cursor' and a regular cursor in MongoDB?",
+    "options": ["No difference", "A tailable cursor stays open on capped collections and waits for new data", "A tailable cursor only returns documents in reverse order", "A tailable cursor caches results locally"],
+    "correctAnswer": 1,
+    "explanation": "Tailable cursors are designed for capped collections and remain open, waiting for new documents to arrive, similar to tail -f."
+  },
+  {
+    "question": "What happens during a MongoDB election in a replica set when the primary goes down?",
+    "options": ["The database becomes read-only forever", "Secondary nodes hold an election to choose a new primary", "All data is lost", "The application must reconnect manually"],
+    "correctAnswer": 1,
+    "explanation": "When the primary becomes unavailable, secondaries hold an election. A secondary with the most up-to-date data wins and becomes the new primary."
+  },
+  {
+    "question": "What is the 'write concern' 'w: majority' in MongoDB?",
+    "options": ["Write to all nodes", "Write must be acknowledged by majority of voting members before confirming", "Write only to the primary", "Write to the nearest node"],
+    "correctAnswer": 1,
+    "explanation": "w: majority ensures the write is acknowledged by a majority of replica set members before returning success, providing stronger durability."
+  },
+  {
+    "question": "What is the aggregation stage '$graphLookup' used for?",
+    "options": ["Searching the internet", "Recursively searching a collection to traverse hierarchical data", "Finding graph-shaped documents", "Looking up index statistics"],
+    "correctAnswer": 1,
+    "explanation": "$graphLookup performs a recursive search on a collection, useful for traversing tree-like or graph-like relationships between documents."
+  },
+  {
+    "question": "What is the 'retryable writes' feature in MongoDB?",
+    "options": ["Retrying reads automatically", "Automatically retrying write operations that fail due to transient network errors", "Backing up writes to a second server", "Logging failed writes"],
+    "correctAnswer": 1,
+    "explanation": "Retryable writes automatically retry certain write operations if they fail due to transient errors like network interruptions."
+  },
+  {
+    "question": "What is the impact of 'allowDiskUse: true' in an aggregation pipeline?",
+    "options": ["Stores results on disk", "Allows the aggregation to use temporary disk space when RAM is insufficient", "Enables encryption", "Increases memory allocation"],
+    "correctAnswer": 1,
+    "explanation": "allowDiskUse allows MongoDB to write temporary data to disk during aggregation when working set exceeds the 100MB memory limit per stage."
+  },
+  {
+    "question": "What is a 'change stream' in MongoDB?",
+    "options": ["A way to modify schema", "A real-time stream of data changes that can be watched for updates, inserts, and deletes", "A backup streaming service", "A monitoring dashboard"],
+    "correctAnswer": 1,
+    "explanation": "Change streams allow applications to watch for real-time changes to collections, databases, or the entire cluster."
+  },
+  {
+    "question": "What happens when you have a compound index on {a: 1, b: 1} and query {b: 1}?",
+    "options": ["The index is fully used", "The index cannot be used at all (ESR rule violated)", "Only prefix 'a' can be used, 'b' query is not covered", "The query scans all documents"],
+    "correctAnswer": 3,
+    "explanation": "A compound index {a:1, b:1} can only be used for queries that include 'a'. Querying only on 'b' cannot leverage this index efficiently."
+  },
+  {
+    "question": "What is the 'Read Concern' level 'linearizable' in MongoDB?",
+    "options": ["Reads from any node", "Ensures reads reflect all confirmed writes before the read started", "Reads from cache only", "Reads with eventual consistency"],
+    "correctAnswer": 1,
+    "explanation": "linearizable read concern ensures the read reflects the most recent confirmed write, providing the strongest consistency guarantee."
+  },
+  {
+    "question": "What is the $merge pipeline stage used for?",
+    "options": ["Merging two databases", "Writing aggregation results to a collection with upsert capabilities", "Combining documents within a pipeline", "Merging replica sets"],
+    "correctAnswer": 1,
+    "explanation": "$merge writes aggregation results to a specified collection, supporting upserts and allowing results to be merged into existing data."
+  },
+  {
+    "question": "What is the 'Read Concern' level 'snapshot' used for?",
+    "options": ["Creating database backups", "Reading from a point-in-time snapshot, used with causally consistent sessions", "Freezing the database", "Taking a memory snapshot"],
+    "correctAnswer": 1,
+    "explanation": "snapshot read concern provides a consistent view of data at a point in time, used with causally consistent sessions on multi-document transactions."
+  },
+  {
+    "question": "What happens when a MongoDB sharded cluster's balancer is active?",
+    "options": ["It rebalances data chunks across shards to maintain even distribution", "It encrypts data across shards", "It shuts down idle shards", "It replicates data between shards"],
+    "correctAnswer": 0,
+    "explanation": "The balancer migrates chunks (shard key ranges) between shards to ensure even data distribution across the cluster."
+  },
+  {
+    "question": "What is the purpose of 'commitMessage' in a MongoDB transaction?",
+    "options": ["Sends a message to clients", "Provides metadata for the commit, used for auditing and change stream events", "Logs to a file", "Sends an email alert"],
+    "correctAnswer": 1,
+    "explanation": "commitMessage is an optional string attached to a transaction commit, visible in change streams and useful for auditing."
+  },
+  {
+    "question": "What is the 'majority' read concern behavior in a replica set during a network partition?",
+    "options": ["Reads from any available node", "Reads only succeed if the primary can confirm it's still majority, otherwise reads fail", "Reads are always available", "Reads return stale data"],
+    "correctAnswer": 1,
+    "explanation": "With majority read concern, reads only succeed from a node that can confirm it's part of the majority partition, ensuring linearizable reads."
+  },
+  {
+    "question": "What does the '$unionWith' aggregation stage do?",
+    "options": ["Unions databases", "Performs a left outer join with another collection (similar to $lookup but more flexible)", "Merges two clusters", "Unions replica sets"],
+    "correctAnswer": 1,
+    "explanation": "$unionWith combines the result of one collection's aggregation with another, similar to SQL UNION. It's an alternative to $lookup for certain use cases."
+  },
+  {
+    "question": "What is the impact of 'maxTimeMS' on a MongoDB query?",
+    "options": ["It speeds up the query", "It sets a time limit; the query is killed if it exceeds the specified milliseconds", "It adds a delay before execution", "It sets connection timeout"],
+    "correctAnswer": 1,
+    "explanation": "maxTimeMS sets a time limit for the query or operation. If it exceeds this limit, MongoDB kills the operation and returns an error."
+  },
+  {
+    "question": "What is the '$densify' aggregation stage used for?",
+    "options": ["Compressing documents", "Filling gaps in a sequence of documents by creating new documents to densify the data", "Removing duplicates", "Densifying index storage"],
+    "correctAnswer": 1,
+    "explanation": "$densify creates new documents to fill gaps in a field's sequence within a partition, useful for time-series data with missing intervals."
+  },
+  {
+    "question": "What is the purpose of 'let' variables in a MongoDB '$lookup'?",
+    "options": ["Declaring JavaScript variables", "Defining variables accessible in the pipeline expression for the joined collection", "Setting TTL values", "Defining index parameters"],
+    "correctAnswer": 1,
+    "explanation": "The 'let' option in $lookup defines variables that can be referenced in the pipeline of the joined collection, enabling correlated subqueries."
+  },
+  {
+    "question": "What does 'applyOps' do in MongoDB?",
+    "options": ["Applies index operations", "Applies a sequence of operations to the database, primarily used for replication and internal operations", "Applies configuration changes", "Applies aggregation stages"],
+    "correctAnswer": 1,
+    "explanation": "applyOps is an internal command that applies a list of operations to the database, used in replication, point-in-time recovery, and oplog replay."
+  },
+  {
+    "question": "What is the write concern 'w:1' behavior in a MongoDB replica set with async replication?",
+    "options": ["Writes to all nodes synchronously", "Writes are acknowledged by the primary only, with async replication to secondaries", "Writes are queued", "Writes are batched"],
+    "correctAnswer": 1,
+    "explanation": "w:1 only requires acknowledgment from the primary. Secondaries replicate asynchronously, meaning data could be lost if the primary fails before replication."
+  },
+  {
+    "question": "What is a 'mongos' instance in a sharded cluster?",
+    "options": ["A secondary database node", "The router that directs queries to the correct shard", "A config server", "An arbiter node"],
+    "correctAnswer": 1,
+    "explanation": "mongos is the query router that receives client queries and routes them to the appropriate shard(s) based on the shard key."
+  },
+  {
+    "question": "What does the '$setWindowFields' aggregation stage do?",
+    "options": ["Sets window size for the database", "Performs calculations across a set of documents related to the current document (window functions)", "Creates windows for replication", "Sets memory window size"],
+    "correctAnswer": 1,
+    "explanation": "$setWindowFields adds window function fields to documents, enabling operations like running totals, moving averages, and ranking across document windows."
+  },
+  {
+    "question": "What is the purpose of 'hedged reads' in MongoDB?",
+    "options": ["Reading from two copies simultaneously", "Sending read operations to multiple replicas and returning the fastest response", "Hedging bets on data accuracy", "Reading from both primary and secondary"],
+    "correctAnswer": 1,
+    "explanation": "Hedged reads send the query to multiple replica set members and return the first successful response, reducing tail latency for reads."
+  },
+  {
+    "question": "What is the 'oplog' in MongoDB?",
+    "options": ["An operation log for queries only", "A capped collection that records all write operations for replication and change streams", "A backup log file", "A user activity log"],
+    "correctAnswer": 1,
+    "explanation": "The oplog is a capped collection on the primary that records all modification operations, used by secondaries for replication and by change streams."
+  },
+  {
+    "question": "What is the impact of 'collation' on a MongoDB index?",
+    "options": ["No impact", "Determines string comparison rules (case sensitivity, accents) for sorting and querying", "Changes the storage engine", "Affects document size limits"],
+    "correctAnswer": 1,
+    "explanation": "Collation defines locale-specific string comparison rules. An index's collation must match the query's collation to be used effectively."
+  },
+  {
+    "question": "What does 'db.collection.watch().forEach(...)' do in MongoDB?",
+    "options": ["Iterates over all documents", "Opens a change stream and processes each change event as it occurs", "Watch all queries", "Monitors CPU usage"],
+    "correctAnswer": 1,
+    "explanation": "watch() opens a change stream on the collection. forEach() processes each change event (insert, update, delete) in real-time as it happens."
+  },
+  {
+    "question": "What is a 'config server' in a MongoDB sharded cluster?",
+    "options": ["A router node", "Stores metadata about the cluster including shard locations and chunk distribution", "A data node", "A monitoring server"],
+    "correctAnswer": 1,
+    "explanation": "Config servers store the cluster's metadata, including which shards hold which data chunks, enabling mongos to route queries correctly."
+  },
+  {
+    "question": "What does '$facet' aggregation stage allow you to do?",
+    "options": ["Facet search only", "Process multiple aggregation pipelines within a single stage, producing separate results", "Create facets for UI", "Group by multiple fields"],
+    "correctAnswer": 1,
+    "explanation": "$facet processes a single set of input documents through multiple sub-pipelines in parallel, returning combined results in a single document."
+  },
+  {
+    "question": "What is the purpose of 'DBRef' in MongoDB?",
+    "options": ["Creating database references", "Manually references another document using collection name and _id (manual linking)", "Creating foreign keys", "Database backups"],
+    "correctAnswer": 1,
+    "explanation": "DBRef is a convention to manually reference a document in another collection by storing the collection name and _id. Unlike $lookup, resolution is manual."
+  },
+  {
+    "question": "What is the purpose of 'mongodump' and 'mongorestore'?",
+    "options": ["Live data migration", "Binary backup and restore of MongoDB databases at the BSON level", "Schema migration tools", "Log analysis tools"],
+    "correctAnswer": 1,
+    "explanation": "mongorestore creates a binary BSON dump of data. mongorestore imports it back. They operate at the BSON level, preserving all data types."
+  },
+  {
+    "question": "What does the 'readPreference' 'secondaryPreferred' mean?",
+    "options": ["Always reads from primary", "Reads from secondary if available, falls back to primary", "Reads from the nearest node", "Reads from all secondaries"],
+    "correctAnswer": 1,
+    "explanation": "secondaryPreferred routes reads to a secondary replica when possible. If no secondary is available, it falls back to the primary."
+  },
+  {
+    "question": "What is the 'mongos' config server replica set requirement in MongoDB 5.0+?",
+    "options": ["Config servers can be standalone", "Config servers must run as a 3-member replica set", "Config servers need only 2 nodes", "Config servers are optional"],
+    "correctAnswer": 1,
+    "explanation": "MongoDB 5.0+ requires config servers to run as a 3-member replica set (CSRS) for high availability of cluster metadata."
+  },
+  {
+    "question": "What does the '$bucketAuto' aggregation stage do?",
+    "options": ["Automatically buckets data into fixed ranges", "Groups documents into approximately equal-sized buckets based on a specified number of groups", "Creates automatic backups", "Auto-scales buckets"],
+    "correctAnswer": 1,
+    "explanation": "$bucketAuto automatically divides documents into a specified number of equally-sized buckets based on a grouping expression."
+  },
+  {
+    "question": "What is 'operation profiling' in MongoDB?",
+    "options": ["Profiling CPU usage", "Logging slow operations to a system.profile collection for performance analysis", "Profiling network traffic", "Profiling disk usage"],
+    "correctAnswer": 1,
+    "explanation": "The profiler records information about database operations exceeding a configurable threshold to the system.profile collection, aiding performance tuning."
+  },
+  {
+    "question": "What does 'db.collection.stats({ indexDetails: true })' show?",
+    "options": ["Only collection size", "Collection statistics including detailed index information (size, keys, pages)", "Query statistics", "Connection statistics"],
+    "correctAnswer": 1,
+    "explanation": "With indexDetails, stats() provides per-index information including the B-tree depth, key counts, and storage details."
+  },
+  {
+    "question": "What is the 'TransactionTooLarge' error in MongoDB?",
+    "options": ["Too many documents in a transaction", "The total size of operations in a single transaction exceeds 16MB", "Too many collections in a transaction", "Transaction timeout exceeded"],
+    "correctAnswer": 1,
+    "explanation": "MongoDB limits the total size of all operations in a single transaction to 16MB. Exceeding this throws TransactionTooLarge."
+  },
+  {
+    "question": "What does the 'resumeAfter' option do when opening a change stream?",
+    "options": ["Resumes from the beginning", "Starts the change stream from a specific change event token/resume point", "Pauses the stream", "Resumes a failed query"],
+    "correctAnswer": 1,
+    "explanation": "resumeAfter accepts a resume token from a previous change event, allowing the stream to resume from where it left off after disconnection."
+  },
+  {
+    "question": "What is the 'locality' in a MongoDB sharded cluster zone?",
+    "options": ["Physical server location", "A logical grouping of shards to tag data with geographic locality for targeted queries", "Database locality", "Network locality"],
+    "correctAnswer": 1,
+    "explanation": "Zones (shard tags) allow you to associate ranges of the shard key with specific shards, enabling data locality for geo-distributed deployments."
+  },
+  {
+    "question": "What does 'ftdc' stand for in MongoDB diagnostics?",
+    "options": ["File Transfer Data Collection", "Full-Time Diagnostic Data Capture", "Fault Tolerant Data Check", "File Time Delta Capture"],
+    "correctAnswer": 1,
+    "explanation": "FTDC captures diagnostic data about server state at regular intervals, stored in a diagnostic.data directory for performance analysis and troubleshooting."
+  },
+  {
+    "question": "What is the '$merge' stage's 'whenMatched' option?",
+    "options": ["What to do when no match is found", "Defines behavior when an incoming document matches an existing document in the target collection", "Merges two databases", "Sets merge timeout"],
+    "correctAnswer": 1,
+    "explanation": "whenMatched can be set to 'merge' (default), 'replace', 'keepExisting', 'fail', or a pipeline to define what happens to matched documents."
+  }
+]

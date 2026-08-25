@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 1,
     "explanation": "width=device-width, initial-scale=1 aligns layout width with device width."
+  },
+  {
+    "question": "What is the tokenization phase in HTML parsing?",
+    "options": [
+      "Converting tokens to DOM nodes",
+      "Breaking input into tokens like tags attributes and text",
+      "Validating HTML syntax",
+      "Compressing HTML"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tokenization breaks raw HTML into meaningful tokens."
+  },
+  {
+    "question": "What happens when the parser encounters isindex?",
+    "options": [
+      "Creates a search form",
+      "Treated as void element",
+      "Triggers error",
+      "Converted to input type=search"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The obsolete isindex is parsed by creating a form with input."
+  },
+  {
+    "question": "What does the Reset insertion mode algorithm do?",
+    "options": [
+      "Resets parser to initial state",
+      "Determines insertion mode based on context elements",
+      "Clears the DOM",
+      "Resets form values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "It walks up the open elements stack to determine the next insertion mode."
+  },
+  {
+    "question": "What is scope in the adoption agency algorithm?",
+    "options": [
+      "Visual scope of CSS",
+      "Elements determining where formatting elements can be closed",
+      "JavaScript variable scope",
+      "Document viewport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Scope determines boundaries for closing formatting elements."
+  },
+  {
+    "question": "How does the parser handle img with empty src?",
+    "options": [
+      "Fetches the current page as image",
+      "Creates img with empty src which may load the page URL",
+      "Ignores the element",
+      "Replaces with broken image icon"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An empty src may cause the browser to request the page URL itself."
+  },
+  {
+    "question": "What is the after body insertion mode?",
+    "options": [
+      "Parsing content after body tag",
+      "Processes body content",
+      "For footers only",
+      "For scripts"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The after body mode handles tokens appearing after the closing body tag."
+  },
+  {
+    "question": "What does inter-element whitespace mean?",
+    "options": [
+      "Whitespace between CSS properties",
+      "Spaces tabs and newlines between elements ignored in rendering",
+      "Whitespace in attributes",
+      "Whitespace in JavaScript"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inter-element whitespace is normally ignored by the rendering engine."
+  },
+  {
+    "question": "What is the list of active formatting elements initialized with?",
+    "options": [
+      "Starts with body element",
+      "Starts empty and is populated as formatting elements are opened",
+      "Starts with all inline elements",
+      "Starts with the document element"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The list starts empty and entries are added as formatting elements are encountered."
+  },
+  {
+    "question": "What happens when parser encounters optgroup inside select?",
+    "options": [
+      "Creates a visual group with a label for child options",
+      "Throws a parse error",
+      "Converts to a regular option",
+      "Is ignored"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Optgroup creates a grouped section within a select labeled by its label attribute."
+  },
+  {
+    "question": "What does tree order mean in the HTML spec?",
+    "options": [
+      "Order CSS rules are applied",
+      "Depth-first pre-order traversal of the DOM tree",
+      "Alphabetical order of elements",
+      "Order scripts are executed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tree order is depth-first pre-order traversal of the DOM tree."
+  },
+  {
+    "question": "How does the parser handle the math namespace?",
+    "options": [
+      "Converts MathML to HTML elements",
+      "Enters foreign content mode with MathML namespace rules",
+      "Ignores MathML entirely",
+      "Renders as plain text"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When encountering math the parser enters foreign content mode."
+  },
+  {
+    "question": "What is stop parsing in the HTML spec?",
+    "options": [
+      "Halting due to errors",
+      "The algorithm signaling parsing is complete and firing DOMContentLoaded",
+      "A method to pause rendering",
+      "A way to defer script execution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stop parsing triggers the end of HTML parsing and queues DOMContentLoaded."
+  },
+  {
+    "question": "What is the iframe processing model in HTML?",
+    "options": [
+      "Same as the main document",
+      "Each iframe has its own browsing context with its own document and event loop",
+      "iframes share the parents event loop",
+      "iframes are rendered as images"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Each iframe creates a nested browsing context with its own document and event loop."
+  },
+  {
+    "question": "What does about:blank represent in browsing contexts?",
+    "options": [
+      "A blank page saved for later",
+      "An initial empty document loaded into new browsing contexts",
+      "A special URL for debugging",
+      "A hidden browser page"
+    ],
+    "correctAnswer": 1,
+    "explanation": "About blank is the default document loaded when a new browsing context is created."
+  },
+  {
+    "question": "How does the HTML parser handle duplicate attributes?",
+    "options": [
+      "Uses the first occurrence",
+      "Uses the last occurrence and ignores the first",
+      "Throws an error",
+      "Merges them"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If an attribute appears more than once only the first is kept."
+  },
+  {
+    "question": "What is microdata in the HTML5 spec?",
+    "options": [
+      "Tiny JavaScript code",
+      "A mechanism for embedding structured data using itemtype and itemprop",
+      "Small CSS animations",
+      "Minimal HTML documents"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Microdata embeds machine-readable data within HTML using itemscope itemtype and itemprop."
+  },
+  {
+    "question": "What does the nonce attribute on a script tag provide?",
+    "options": [
+      "A random identifier",
+      "A one-time cryptographic token for script execution in CSP environments",
+      "A unique key for caching",
+      "A version number for the script"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The nonce attribute provides a one-time-use token allowing specific scripts to run under CSP."
+  },
+  {
+    "question": "What is the pending parsing blocking script concept?",
+    "options": [
+      "A script waiting to be downloaded",
+      "A script element with src but no async or defer that must execute before parsing continues",
+      "A script blocked by the event loop",
+      "A deferred script"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A parser-blocking script halts HTML parsing until downloaded and executed."
+  },
+  {
+    "question": "What is the CDATA section used for in HTML parsing?",
+    "options": [
+      "Character data that should not be parsed as markup mainly in embedded XML",
+      "Custom data attributes",
+      "Compiled data for optimized loading",
+      "Cascading style data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CDATA sections contain text that should not be parsed as markup."
+  },
+  {
+    "question": "What happens when the parser encounters an unclosed svg element?",
+    "options": [
+      "It immediately closes the svg",
+      "It handles it using foreign content insertion mode rules",
+      "It converts it to a div",
+      "It ignores the svg entirely"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The parser uses foreign content insertion mode rules to handle SVG elements."
   }
 ]

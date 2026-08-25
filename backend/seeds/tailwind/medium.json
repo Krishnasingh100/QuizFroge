@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the 'prefix' option in Tailwind config?",
+    "options": [
+      "Adds a prefix to CSS file names",
+      "Adds a custom prefix to all Tailwind class names (e.g., 'tw-')",
+      "Prefixes HTML elements",
+      "Adds vendor prefixes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The prefix option adds a custom prefix to all generated utility classes to avoid naming conflicts (e.g., 'tw-bg-blue-500')."
+  },
+  {
+    "question": "What is the 'justify-between' class used for in flexbox?",
+    "options": [
+      "Aligns items to the start",
+      "Distributes items evenly with equal space between",
+      "Centers items vertically",
+      "Stacks items vertically"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'justify-between' applies 'justify-content: space-between', placing the first item at the start, last at the end, with equal space between."
+  },
+  {
+    "question": "How do you create a responsive grid with 3 columns in Tailwind?",
+    "options": [
+      "grid-cols-3",
+      "col-3",
+      "grid-3",
+      "columns-3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'grid-cols-3' creates a CSS Grid with 3 equal columns using 'grid-template-columns: repeat(3, minmax(0, 1fr))'."
+  },
+  {
+    "question": "What does 'divide-y divide-gray-300' do?",
+    "options": [
+      "Adds a gray background",
+      "Adds horizontal dividing lines between child elements",
+      "Creates a vertical divider",
+      "Makes text divide"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'divide-y' adds border-bottom between all child elements, and 'divide-gray-300' sets the border color."
+  },
+  {
+    "question": "What is the purpose of the 'dark:' variant in Tailwind?",
+    "options": [
+      "Applies styles at nighttime",
+      "Applies styles when dark mode is active",
+      "Adds dark colors",
+      "Reduces brightness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'dark:' variant applies styles when dark mode is enabled (via media query or class-based strategy)."
+  },
+  {
+    "question": "What does 'transition-all duration-300' do?",
+    "options": [
+      "Transitions all CSS properties over 300ms",
+      "Moves the element for 300ms",
+      "Changes all colors over 300ms",
+      "Resizes the element"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Applies CSS transitions to all property changes with a 300ms duration, creating smooth animations."
+  },
+  {
+    "question": "What does 'group-hover:text-blue-500' do?",
+    "options": [
+      "Changes color on individual hover",
+      "Changes the text color of this element when its parent with 'group' class is hovered",
+      "Creates a group of elements",
+      "Adds a group delay"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'group-hover:' variant lets a child element respond to hover on a parent with the 'group' class."
+  },
+  {
+    "question": "What is Tailwind's JIT (Just-In-Time) mode?",
+    "options": [
+      "Compiles CSS at runtime",
+      "Generates CSS classes on-demand as you build, enabling arbitrary values and faster builds",
+      "Justifies text in time",
+      "A JavaScript compiler"
+    ],
+    "correctAnswer": 1,
+    "explanation": "JIT mode generates only the CSS classes you actually use, enabling arbitrary values like 'w-[345px]' and significantly faster builds."
+  },
+  {
+    "question": "How do you create a custom color in tailwind.config.js?",
+    "options": [
+      "In the 'theme.colors' section",
+      "In the 'customColors' section",
+      "In the 'colors.palette' section",
+      "In the 'plugins' section"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Custom colors are defined in theme.extend.colors in tailwind.config.js to add to the existing color palette."
+  },
+  {
+    "question": "What does 'sr-only' class do?",
+    "options": [
+      "Makes elements smaller",
+      "Hides element visually but keeps it accessible to screen readers",
+      "Adds screen reader tags",
+      "Makes text smaller"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'sr-only' applies CSS that hides the element visually (clip, position) while keeping it in the accessibility tree."
+  },
+  {
+    "question": "What does 'focus:ring-2 focus:ring-blue-500' do?",
+    "options": [
+      "Adds a blue ring around the element always",
+      "Adds a 2px blue ring outline when the element is focused",
+      "Creates a circular animation",
+      "Makes the element ring-shaped"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'focus:ring-2' adds a 2px focus ring outline, and 'focus:ring-blue-500' sets its color to blue when the element receives focus."
+  },
+  {
+    "question": "How do you make an element scrollable vertically in Tailwind?",
+    "options": [
+      "overflow-y-auto",
+      "scroll-vertical",
+      "y-scroll",
+      "scrollable-y"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'overflow-y-auto' applies 'overflow-y: auto', adding a vertical scrollbar only when content overflows."
+  },
+  {
+    "question": "What does 'items-center' do in a flex container?",
+    "options": [
+      "Centers items horizontally",
+      "Centers items along the cross axis (vertically in a row)",
+      "Makes items clickable",
+      "Aligns items to the left"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'items-center' applies 'align-items: center', centering flex children along the cross axis (typically vertical in a row layout)."
+  },
+  {
+    "question": "What does 'placeholder-gray-400' do?",
+    "options": [
+      "Makes the element a placeholder",
+      "Sets the color of input placeholder text to gray-400",
+      "Adds a gray label",
+      "Creates a ghost element"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'placeholder-gray-400' sets the placeholder text color of form inputs to gray-400 using the ::placeholder pseudo-element."
+  },
+  {
+    "question": "What does 'space-x-4' do in a flex container?",
+    "options": [
+      "Adds 4px space to the left",
+      "Adds horizontal margin of 1rem between child elements",
+      "Creates 4 columns",
+      "Sets max-width to 4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'space-x-4' adds margin-left of 1rem to all child elements except the first, creating equal horizontal spacing between items."
+  },
+  {
+    "question": "How do you set different styles for different screen sizes?",
+    "options": [
+      "Using media queries directly",
+      "Using responsive prefixes like 'md:', 'lg:', 'sm:'",
+      "Using JavaScript",
+      "Using CSS files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tailwind's responsive prefixes (sm:, md:, lg:, xl:) apply styles at specific breakpoints using CSS media queries."
+  },
+  {
+    "question": "What does 'truncate' class do?",
+    "options": [
+      "Cuts the element in half",
+      "Truncates overflowing text with an ellipsis (...)",
+      "Removes borders",
+      "Deletes content"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'truncate' applies overflow hidden, text-overflow ellipsis, and white-space nowrap to handle text overflow gracefully."
+  },
+  {
+    "question": "What does 'ring' class do in Tailwind?",
+    "options": [
+      "Creates a circular element",
+      "Adds a box-shadow ring around the element",
+      "Makes the element clickable",
+      "Adds a border-bottom"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'ring' uses box-shadow to add a ring outline around an element without affecting layout or border-box calculations."
+  },
+  {
+    "question": "What does 'shadow-lg' do compared to 'shadow-sm'?",
+    "options": [
+      "shadow-lg is lighter",
+      "shadow-lg creates a larger, more prominent drop shadow than shadow-sm",
+      "They are identical",
+      "shadow-lg removes shadows"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'shadow-lg' creates a larger, more diffused box-shadow than 'shadow-sm', giving a stronger sense of elevation."
+  },
+  {
+    "question": "How do you override a specific Tailwind class in a plugin?",
+    "options": [
+      "Using @layer and @apply in a CSS file",
+      "Editing the built-in CSS directly",
+      "Using !important everywhere",
+      "It cannot be overridden"
+    ],
+    "correctAnswer": 0,
+    "explanation": "You can use @layer and @apply in your CSS to compose and override Tailwind utilities within Tailwind's layer system."
+  },
+  {
+    "question": "What does 'animate-pulse' do in Tailwind?",
+    "options": [
+      "Moves the element up and down",
+      "Creates a pulsing opacity animation for loading states",
+      "Makes the element blink",
+      "Adds a heartbeat effect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'animate-pulse' applies a CSS animation that fades the element's opacity in and out, commonly used for skeleton/loading placeholders."
+  },
+  {
+    "question": "How do you apply a hover effect that scales an element?",
+    "options": [
+      "hover:scale-105",
+      "hover-grow",
+      "scale-on-hover",
+      "hover:resize"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'hover:scale-105' scales the element to 105% of its original size when hovered, creating a subtle zoom effect."
+  },
+  {
+    "question": "What does 'grid-cols-2 gap-4' create?",
+    "options": [
+      "A 2-column layout with spacing",
+      "A 4-column layout",
+      "A single column with margin",
+      "A flexbox container"
+    ],
+    "correctAnswer": 0,
+    "explanation": "grid-cols-2 creates two equal columns and gap-4 adds 1rem spacing between grid items."
+  },
+  {
+    "question": "What does 'aspect-video' do in Tailwind?",
+    "options": [
+      "Makes the element full-screen",
+      "Sets the aspect ratio to 16:9 (video standard)",
+      "Adds video controls",
+      "Creates a video overlay"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'aspect-video' sets 'aspect-ratio: 16/9', commonly used for video containers and responsive media embeds."
+  },
+  {
+    "question": "How do you create a z-index layer in Tailwind?",
+    "options": [
+      "z-10",
+      "layer-10",
+      "stack-10",
+      "depth-10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'z-10' sets 'z-index: 10', controlling the stacking order of positioned elements."
+  },
+  {
+    "question": "What does 'text-ellipsis' combined with 'line-clamp-2' do?",
+    "options": [
+      "Shows all lines",
+      "Limits text to 2 lines and adds ellipsis on overflow",
+      "Truncates at 2 characters",
+      "Creates a two-line heading"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'line-clamp-2' limits content to 2 lines with CSS -webkit-line-clamp, and 'text-ellipsis' adds '...' at the cutoff point."
+  },
+  {
+    "question": "What does 'pointer-events-none' do?",
+    "options": [
+      "Removes all event listeners via JavaScript",
+      "Makes the element ignore all mouse/touch events",
+      "Disables pointer cursor",
+      "Stops event propagation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'pointer-events-none' sets 'pointer-events: none', making the element transparent to mouse clicks and touches (events pass through it)."
+  },
+  {
+    "question": "How do you create a fixed-position header at the top?",
+    "options": [
+      "fixed top-0 left-0 right-0",
+      "sticky-top",
+      "position-fixed",
+      "header-fixed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'fixed top-0 left-0 right-0' creates a fixed-position element pinned to the top of the viewport."
+  },
+  {
+    "question": "What does 'decoration-2' do in Tailwind?",
+    "options": [
+      "Decorates with a pattern",
+      "Sets the thickness of text-decoration (underline/overline)",
+      "Adds a second border",
+      "Creates a decorative shadow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'decoration-2' sets 'text-decoration-thickness: 2px' for thicker underlines or other text decorations."
+  },
+  {
+    "question": "Which class creates a gradient background in Tailwind?",
+    "options": [
+      "bg-gradient-to-r",
+      "gradient",
+      "linear-bg",
+      "bg-linear"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'bg-gradient-to-r' creates a left-to-right linear gradient, paired with 'from-*' and 'to-*' color stops."
+  },
+  {
+    "question": "What does 'animate-bounce' do in Tailwind?",
+    "options": [
+      "Bounces the element up and down repeatedly",
+      "Makes the element disappear",
+      "Bounces the cursor",
+      "Creates a bouncing sound"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'animate-bounce' applies a CSS keyframe animation that moves the element up and down, useful for attention-grabbing icons."
+  },
+  {
+    "question": "How do you style an element based on a sibling's state?",
+    "options": [
+      "Using 'peer' and 'peer-*' variants",
+      "Using 'sibling:' variant",
+      "Using JavaScript events",
+      "Using CSS :has() only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The 'peer' class marks a sibling, and 'peer-checked:', 'peer-focus:', etc. on subsequent siblings apply styles based on the peer's state."
+  },
+  {
+    "question": "What does 'tabular-nums' class do?",
+    "options": [
+      "Makes numbers align in tables",
+      "Sets font-variant-numeric: tabular-nums for uniform number widths",
+      "Creates tab-separated values",
+      "Formats text as a table"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'tabular-nums' enables monospaced number rendering so digits align properly in columns, useful for data displays."
+  },
+  {
+    "question": "How do you create a sticky sidebar layout in Tailwind?",
+    "options": [
+      "sticky top-0 self-start on the sidebar",
+      "position-sticky-sidebar",
+      "fixed-sidebar",
+      "sidebar-sticky"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'sticky top-0 self-start' makes the sidebar stick to the top of the viewport while scrolling within its parent."
+  },
+  {
+    "question": "What does 'backdrop-opacity-75' do?",
+    "options": [
+      "Sets the backdrop opacity to 75%",
+      "Makes the element 75% transparent",
+      "Adds a dark overlay",
+      "Reduces backdrop brightness"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'backdrop-opacity-75' sets the opacity of the backdrop-filter area behind the element to 75%."
+  },
+  {
+    "question": "How do you create a hover-only underline that animates in?",
+    "options": [
+      "hover:decoration-inherit underline decoration-transparent transition-all",
+      "hover-underline",
+      "animated-underline",
+      "text-underline-hover"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Setting underline to transparent by default and animating to the current color on hover creates a smooth underline reveal effect."
+  },
+  {
+    "question": "What is the 'prose' class used for?",
+    "options": [
+      "Styled typography for long-form content via @tailwindcss/typography plugin",
+      "Creates a paragraph element",
+      "Makes text professional",
+      "Adds prose formatting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'prose' from the typography plugin automatically styles child elements (headings, paragraphs, lists, etc.) with beautiful defaults."
+  },
+  {
+    "question": "How do you override the default blue color palette in Tailwind?",
+    "options": [
+      "In theme.extend.colors.blue in tailwind.config.js",
+      "In theme.blueOverride",
+      "In plugins.colors",
+      "In overrides.blue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "theme.extend.colors.blue lets you add or override shades within the blue color family while keeping defaults for other colors."
+  },
+  {
+    "question": "What does 'motion-safe:animate-spin' do?",
+    "options": [
+      "Always spins the element",
+      "Spins only if the user hasn't enabled reduced motion",
+      "Spins on mouse movement",
+      "Creates a safe spinning animation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "motion-safe: applies the animation only when the user's OS preference allows motion, respecting accessibility preferences."
+  },
+  {
+    "question": "How do you create a custom Tailwind utility in a plugin?",
+    "options": [
+      "Using addUtilities() in the plugin function",
+      "Adding to the utilities CSS file",
+      "Using createUtility() API",
+      "Defining in the content array"
+    ],
+    "correctAnswer": 0,
+    "explanation": "addUtilities() in a Tailwind plugin registers new utility classes with their CSS definitions."
+  }
+]

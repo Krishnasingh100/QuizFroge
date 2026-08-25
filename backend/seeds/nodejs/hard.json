@@ -547,6 +547,226 @@
       "HTTP retry states"
     ],
     "correctAnswer": 1,
-    "explanation": "libuv iterates phases like timers → pending → poll → check, running due callbacks."
+    "explanation": "libuv iterates phases like timers \u2192 pending \u2192 poll \u2192 check, running due callbacks."
+  },
+  {
+    "question": "What is a microtask in Node.js event loop?",
+    "options": [
+      "A small task that runs after the current task",
+      "A task that runs after the current operation completes before the next event loop tick",
+      "A network task",
+      "A database task"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Microtasks from promises and queueMicrotask run after the current task but before the next event loop tick."
+  },
+  {
+    "question": "What is the purpose of the AsyncLocalStorage API?",
+    "options": [
+      "Storing data locally on disk",
+      "Provides async-local storage for context propagation across async operations",
+      "Storing async functions",
+      "Managing local storage in browsers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AsyncLocalStorage enables storing context data that persists across async operations like request handling."
+  },
+  {
+    "question": "What does the performance API provide in Node.js?",
+    "options": [
+      "CPU benchmarking only",
+      "High-resolution timing and performance measurement APIs",
+      "Performance optimization tools",
+      "Load testing capabilities"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The performance object provides high-resolution timing via performance.now() and the Performance Observer API."
+  },
+  {
+    "question": "What is the Garbage Collection trend in V8 for Node.js?",
+    "options": [
+      "Manual memory management",
+      "V8 uses generational GC with young and old generation spaces for automatic cleanup",
+      "No garbage collection exists",
+      "GC is disabled by default"
+    ],
+    "correctAnswer": 1,
+    "explanation": "V8 uses a generational garbage collector with a fast young generation and slower old generation for memory management."
+  },
+  {
+    "question": "What is the difference between process.env.NODE_ENV and config files?",
+    "options": [
+      "No difference",
+      "env is runtime environment variables config files are static application configuration",
+      "Config files override env",
+      "env is deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "process.env provides runtime environment variables while config files store static application settings."
+  },
+  {
+    "question": "What does the trace_events module do?",
+    "options": [
+      "Traces network packets",
+      "Provides a mechanism for trace-level logging of system and application events",
+      "Event tracking for analytics",
+      "Performance tracing only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "trace_events provides a low-overhead tracing mechanism for logging system and application events."
+  },
+  {
+    "question": "What is the purpose of the Permission Model in Node.js?",
+    "options": [
+      "User permissions",
+      "Provides a mechanism to restrict access to specific resources and operations",
+      "File permissions only",
+      "Network permissions only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Permission Model allows restricting access to files directories and other resources for security."
+  },
+  {
+    "question": "What does the Fetch API in Node.js provide?",
+    "options": [
+      "Fetching files locally",
+      "A modern HTTP client for making web requests replacing older request modules",
+      "Database fetching",
+      "File system fetching"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The built-in fetch API provides a modern Promise-based HTTP client for making network requests."
+  },
+  {
+    "question": "What is the purpose of the test runner in Node.js 18+?",
+    "options": [
+      "Testing network connections",
+      "Built-in test runner for running tests without additional frameworks",
+      "Running npm scripts",
+      "Testing file systems"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Node.js includes a built-in test runner accessible via node --test for running test suites."
+  },
+  {
+    "question": "What does process.loadEnvFile() do in Node.js?",
+    "options": [
+      "Loads npm packages",
+      "Reads and parses .env files into process.env automatically",
+      "Loads configuration files",
+      "Loads JavaScript modules"
+    ],
+    "correctAnswer": 1,
+    "explanation": "process.loadEnvFile() parses .env files and adds their key-value pairs to process.env."
+  },
+  {
+    "question": "What is the advantage of using worker_threads over child_process?",
+    "options": [
+      "No difference",
+      "worker_threads share memory via SharedArrayBuffer while child_process uses IPC messaging",
+      "worker_threads are slower",
+      "child_process shares memory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "worker_threads can share memory directly via SharedArrayBuffer enabling more efficient parallel computation."
+  },
+  {
+    "question": "What does the EventLoopUtilization function return?",
+    "options": [
+      "CPU utilization only",
+      "An object with idle and active time of the event loop for performance monitoring",
+      "Memory utilization",
+      "Network utilization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "eventLoopUtilization returns idle active and resolution statistics of the event loop for monitoring."
+  },
+  {
+    "question": "What is the purpose of the Permission Model flags in Node.js?",
+    "options": [
+      "Testing permissions",
+      "Allow restricting file system and network access when running scripts",
+      "Setting npm permissions",
+      "Managing user roles"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Flags like --allow-fs-read let you sandbox Node.js processes with fine-grained resource permissions."
+  },
+  {
+    "question": "What does the experimental WebSocket API in Node.js provide?",
+    "options": [
+      "WebSocket server only",
+      "Built-in WebSocket client and server implementation",
+      "WebSocket testing",
+      "WebSocket proxy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Node.js provides a built-in WebSocket API for both client and server WebSocket communication."
+  },
+  {
+    "question": "What is the purpose of the watch mode in Node.js?",
+    "options": [
+      "Watching videos",
+      "Automatically restarts the process when file changes are detected",
+      "Watching network traffic",
+      "Monitoring disk usage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "node --watch monitors files and automatically restarts the process when changes are detected."
+  },
+  {
+    "question": "What does the --experimental-strip-types flag do in Node.js?",
+    "options": [
+      "Strips whitespace",
+      "Enables running TypeScript files directly without compilation",
+      "Strips comments",
+      "Removes type annotations from output"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This flag allows Node.js to run TypeScript files by stripping type annotations at runtime."
+  },
+  {
+    "question": "What is the purpose of the diagnostics_channel module?",
+    "options": [
+      "TV channel diagnostics",
+      "Provides a pub/sub mechanism for application diagnostics and monitoring",
+      "Network diagnostics only",
+      "Database diagnostics"
+    ],
+    "correctAnswer": 1,
+    "explanation": "diagnostic_channel enables creating and subscribing to named channels for application instrumentation."
+  },
+  {
+    "question": "What does the --cpu-prof flag do in Node.js?",
+    "options": [
+      "CPU profiling only",
+      "Generates CPU profiles during process execution for performance analysis",
+      "CPU temperature monitoring",
+      "CPU frequency scaling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "--cpu-prof generates V8 CPU profiles showing which functions consume the most CPU time."
+  },
+  {
+    "question": "What is the purpose of SnapshotBuilder in Node.js?",
+    "options": [
+      "Building websites",
+      "Creates V8 heap snapshots for faster application startup by pre-loading state",
+      "Taking screenshots",
+      "Building modules"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Heap snapshots can be used to speed up cold starts by serializing and restoring application state."
+  },
+  {
+    "question": "What does the --heap-prof flag do in Node.js?",
+    "options": [
+      "Heap size management",
+      "Generates heap profiles showing memory allocation patterns",
+      "Heap garbage collection",
+      "Heap monitoring"
+    ],
+    "correctAnswer": 1,
+    "explanation": "--heap-prof generates V8 heap profiles showing memory allocation patterns for memory leak detection."
   }
 ]

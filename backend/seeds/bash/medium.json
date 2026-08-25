@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the difference between '$variable' and '\"$variable\"' in Bash?",
+    "options": [
+      "No difference",
+      "Double quotes prevent word splitting and globbing, single reference doesn't",
+      "Single quotes are for numbers only",
+      "Double quotes disable variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Quoting a variable preserves its value as a single argument, preventing word splitting on spaces and glob expansion."
+  },
+  {
+    "question": "What does 'set -e' do in a Bash script?",
+    "options": [
+      "Enables verbose logging",
+      "Exits the script immediately if any command returns a non-zero status",
+      "Sets the editor",
+      "Enables debugging"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'set -e' causes the script to exit immediately when a command fails, preventing cascading errors."
+  },
+  {
+    "question": "What is the difference between '[[ $a == $b ]]' and '[ $a == $b ]'?",
+    "options": [
+      "No difference",
+      "[[]] is a Bash keyword supporting pattern matching and regex, [] is POSIX test command",
+      "[[]] is deprecated",
+      "[] supports regex, [[]] does not"
+    ],
+    "correctAnswer": 1,
+    "explanation": "[[]] is a Bash-specific keyword with enhanced features like pattern matching (==) and regex (=~). [] is the standard POSIX test command."
+  },
+  {
+    "question": "What does 'for i in {1..5}; do echo $i; done' output?",
+    "options": [
+      "1 2 3 4 5",
+      "1\\n2\\n3\\n4\\n5 (each on new line)",
+      "15",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The brace expansion {1..5} generates 1 2 3 4 5. Each iteration echoes one number on its own line."
+  },
+  {
+    "question": "What is a trap in Bash?",
+    "options": [
+      "A debugging tool",
+      "A mechanism to catch signals and execute cleanup code",
+      "A type of loop",
+      "A file permission setting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "trap allows you to catch signals (like EXIT, INT, TERM) and execute code before the script exits."
+  },
+  {
+    "question": "What does 'shift' do in a Bash script?",
+    "options": [
+      "Shifts the terminal window",
+      "Removes the first positional parameter and shifts remaining parameters left",
+      "Moves files to another directory",
+      "Switches between users"
+    ],
+    "correctAnswer": 1,
+    "explanation": "shift removes $1 and shifts all positional parameters: $2 becomes $1, $3 becomes $2, etc."
+  },
+  {
+    "question": "What is the purpose of 'source script.sh' vs './script.sh'?",
+    "options": [
+      "No difference",
+      "source runs the script in the current shell, ./script.sh runs in a subshell",
+      "source is faster",
+      "./script.sh doesn't need execute permission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "source (or '.') executes the script in the current shell context, so variables and functions persist. ./script.sh runs in a new subprocess."
+  },
+  {
+    "question": "What does 'ps aux | grep nginx' do?",
+    "options": [
+      "Starts nginx",
+      "Lists running processes and filters for nginx-related ones",
+      "Kills nginx",
+      "Installs nginx"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ps aux lists all running processes, and grep filters the output to show only lines containing 'nginx'."
+  },
+  {
+    "question": "What is the difference between 'awk' and 'sed'?",
+    "options": [
+      "No difference",
+      "awk is for pattern scanning and text processing, sed is for stream editing/substitution",
+      "sed is for numbers, awk is for text",
+      "Both are deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "awk excels at field-based text processing and pattern scanning. sed is designed for stream-based text substitution and editing."
+  },
+  {
+    "question": "What does 'echo \"hello world\" | tee output.txt' do?",
+    "options": [
+      "Only writes to file",
+      "Writes to both the terminal (stdout) and the file",
+      "Only displays on terminal",
+      "Creates a new pipe"
+    ],
+    "correctAnswer": 1,
+    "explanation": "tee reads from stdin and writes to both stdout (terminal) and the specified file simultaneously."
+  },
+  {
+    "question": "What does '${#variable}' return in Bash?",
+    "options": [
+      "The value of the variable",
+      "The length of the variable's string value",
+      "The variable's index",
+      "The variable's type"
+    ],
+    "correctAnswer": 1,
+    "explanation": "${#variable} returns the number of characters in the string value of the variable."
+  },
+  {
+    "question": "What is the difference between 'cut' and 'awk' for extracting fields?",
+    "options": [
+      "No difference",
+      "cut uses fixed delimiters, awk supports pattern-based field extraction with more flexibility",
+      "cut is faster for all cases",
+      "awk cannot handle delimiters"
+    ],
+    "correctAnswer": 1,
+    "explanation": "cut extracts fields by a fixed delimiter. awk can extract fields by delimiter and also supports pattern matching and conditional logic."
+  },
+  {
+    "question": "What does 'xargs' command do?",
+    "options": [
+      "Executes commands in parallel",
+      "Builds and executes command lines from standard input",
+      "Lists extra arguments",
+      "Closes extra processes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "xargs reads items from stdin and executes a specified command with those items as arguments."
+  },
+  {
+    "question": "How do you run a command in the background in Bash?",
+    "options": [
+      "bg command",
+      "command &",
+      "background command",
+      "command --bg"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Appending '&' to a command runs it in the background, allowing the shell to continue with other commands."
+  },
+  {
+    "question": "What does 'wc -l' command do?",
+    "options": [
+      "Writes characters to a file",
+      "Counts the number of lines in input",
+      "Waits for a command",
+      "Wipes cache"
+    ],
+    "correctAnswer": 1,
+    "explanation": "wc -l counts and outputs the number of newline characters (lines) in the input."
+  },
+  {
+    "question": "What is the purpose of 'echo ${variable:-default}'?",
+    "options": [
+      "Always assigns default",
+      "Uses 'default' if variable is empty or unset, otherwise uses variable's value",
+      "Deletes the variable",
+      "Compares variable to default"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The :- operator provides a default value when the variable is unset or empty, without modifying the variable."
+  },
+  {
+    "question": "What does 'find . -name \"*.log\"' do?",
+    "options": [
+      "Creates log files",
+      "Finds all files ending in .log in the current directory and subdirectories",
+      "Deletes log files",
+      "Compresses log files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "find searches for files matching the given pattern. '.' starts from the current directory, -name filters by filename pattern."
+  },
+  {
+    "question": "What is the difference between 'uniq' and 'sort'?",
+    "options": [
+      "No difference",
+      "sort orders lines, uniq removes consecutive duplicate lines",
+      "uniq sorts files",
+      "sort removes all duplicates"
+    ],
+    "correctAnswer": 1,
+    "explanation": "sort arranges lines in order. uniq removes only consecutive duplicate lines, so output must usually be sorted first."
+  },
+  {
+    "question": "What does 'while read line; do ... done < file.txt' do?",
+    "options": [
+      "Reads the file once and exits",
+      "Reads file.txt line by line, executing the loop body for each line",
+      "Writes to file.txt",
+      "Copies file.txt to memory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "This pattern reads a file line by line, processing each line inside the loop. Input redirection feeds the file to read."
+  },
+  {
+    "question": "What is the purpose of 'export' in Bash?",
+    "options": [
+      "Saves variables to a file",
+      "Makes a variable available to child processes",
+      "Imports variables from files",
+      "Deletes variables from memory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "export marks a variable for export to the environment, making it accessible to any child processes spawned from the shell."
+  },
+  {
+    "question": "What does 'echo ${variable:+value}' do?",
+    "options": [
+      "Always assigns value",
+      "Uses 'value' only if variable is set and non-empty",
+      "Sets variable to value permanently",
+      "Checks if value is valid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The :+ operator returns 'value' if the variable is set and non-empty, otherwise returns nothing. Unlike :-, it doesn't handle the unset case differently."
+  },
+  {
+    "question": "What is the output of 'seq 1 3'?",
+    "options": [
+      "1 2 3",
+      "1\\n2\\n3 (each on a new line)",
+      "13",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'seq' command generates a sequence of numbers, one per line, from the start to the end value."
+  },
+  {
+    "question": "What does 'diff file1 file2' do?",
+    "options": [
+      "Deletes differences between files",
+      "Shows the differences between two files line by line",
+      "Merges two files",
+      "Compares file sizes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "diff compares two files line by line and displays the lines that differ, along with indicators of what changed."
+  },
+  {
+    "question": "How do you reference the last argument passed to a script?",
+    "options": [
+      "$last",
+      "${!-1}",
+      "${@: -1}",
+      "$#"
+    ],
+    "correctAnswer": 2,
+    "explanation": "${@: -1} expands to the last positional parameter. The space before -1 is needed to prevent it from being interpreted as a default value."
+  },
+  {
+    "question": "What does 'crontab -e' do?",
+    "options": [
+      "Edits system cron",
+      "Opens the current user's crontab file for editing in an editor",
+      "Exits the cron daemon",
+      "Errors out the cron service"
+    ],
+    "correctAnswer": 1,
+    "explanation": "crontab -e opens the current user's crontab file in the default editor, allowing you to schedule recurring tasks."
+  },
+  {
+    "question": "What is the output of 'echo $(date +%Y)'?",
+    "options": [
+      "The current date in full format",
+      "The current 4-digit year",
+      "The current time",
+      "The word 'date'"
+    ],
+    "correctAnswer": 1,
+    "explanation": "date +%Y formats the current date to show only the 4-digit year (e.g., 2024). $(...) captures this output."
+  },
+  {
+    "question": "What does 'alias ll=\"ls -la\"' do?",
+    "options": [
+      "Creates a new shell",
+      "Defines 'll' as a shortcut for 'ls -la'",
+      "Deletes ls command",
+      "Lists all aliases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "alias creates a shortcut name for a command or set of commands. 'll' will now execute 'ls -la'."
+  },
+  {
+    "question": "What does 'tee -a file.txt' do differently from 'tee file.txt'?",
+    "options": [
+      "Creates a new file",
+      "Appends output to file.txt instead of overwriting",
+      "Reads from file instead of stdin",
+      "Truncates the file first"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The -a flag makes tee append to the file instead of overwriting it, similar to >> vs > for output redirection."
+  },
+  {
+    "question": "What is the purpose of 'getopts' in Bash scripts?",
+    "options": [
+      "Gets system options",
+      "Parses command-line options and flags in a script",
+      "Sets global options",
+      "Retrieves environment settings"
+    ],
+    "correctAnswer": 1,
+    "explanation": "getopts is a built-in Bash command for parsing positional parameters and command-line options like -f and -v."
+  },
+  {
+    "question": "What does 'fg %1' do?",
+    "options": [
+      "Forgets job 1",
+      "Brings background job 1 to the foreground",
+      "Finds job 1",
+      "Frees job 1 from memory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "fg %1 brings the background job with ID 1 to the foreground, giving it control of the terminal."
+  },
+  {
+    "question": "What does 'echo ${!prefix*}' do in Bash?",
+    "options": [
+      "Prints the prefix",
+      "Lists all variable names that start with the given prefix",
+      "Expands a variable by prefix",
+      "Creates a new variable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ! prefix* expansion returns a space-separated list of all variable names that start with the given prefix."
+  },
+  {
+    "question": "What does 'array=(one two three)' and '${array[@]}' do?",
+    "options": [
+      "Creates an array and expands all its elements",
+      "Creates a string and splits it",
+      "Creates a single variable with all values",
+      "Creates an error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "array=(...) creates an indexed array. ${array[@]} expands to all elements as separate words."
+  },
+  {
+    "question": "What is the purpose of 'local' keyword in Bash functions?",
+    "options": [
+      "Declares a global variable",
+      "Restricts the variable's scope to the enclosing function",
+      "Makes the variable permanent",
+      "Logs the variable locally"
+    ],
+    "correctAnswer": 1,
+    "explanation": "local limits the variable's scope to the function where it's declared, preventing name collisions with global variables."
+  },
+  {
+    "question": "How do you perform a case-insensitive grep search?",
+    "options": [
+      "grep -i pattern file",
+      "grep --ignore-case pattern file",
+      "igrep pattern file",
+      "grep -I pattern file"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The -i flag makes grep case-insensitive, matching both upper and lowercase variants of the pattern."
+  },
+  {
+    "question": "What does 'date -d \"next Monday\"' do on GNU systems?",
+    "options": [
+      "Displays the date for next Monday",
+      "Sets the system clock to next Monday",
+      "Schedules a task for Monday",
+      "Deletes Monday's files"
+    ],
+    "correctAnswer": 0,
+    "explanation": "date -d interprets the given string as a date and displays it. On GNU systems, it supports relative date strings."
+  },
+  {
+    "question": "What is the difference between 'grep' and 'egrep'?",
+    "options": [
+      "No difference",
+      "egrep supports extended regex (|, +, ?) without escaping",
+      "egrep is faster",
+      "grep supports extended regex"
+    ],
+    "correctAnswer": 1,
+    "explanation": "egrep is equivalent to grep -E, enabling extended regular expressions where special characters don't need backslashes."
+  },
+  {
+    "question": "How do you run a command and capture its output in a variable?",
+    "options": [
+      "var=$(command)",
+      "var=`command`",
+      "var=command",
+      "capture var command"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$() captures command output into a variable. It's the modern syntax, preferred over backticks for readability and nesting."
+  },
+  {
+    "question": "What does 'truncate -s 0 file.txt' do?",
+    "options": [
+      "Deletes the file",
+      "Empties the file (sets size to 0 bytes) without deleting it",
+      "Truncates the filename",
+      "Truncates to 0 lines"
+    ],
+    "correctAnswer": 1,
+    "explanation": "truncate -s 0 sets the file size to zero bytes. Unlike rm, the file still exists but is now empty."
+  },
+  {
+    "question": "What does 'paste file1.txt file2.txt' do?",
+    "options": [
+      "Pastes clipboard contents",
+      "Joins corresponding lines from two files side by side with a tab delimiter",
+      "Concatenates files end-to-end",
+      "Creates a new file"
+    ],
+    "correctAnswer": 1,
+    "explanation": "paste merges lines from multiple files, combining them side by side with a delimiter (default: tab)."
+  },
+  {
+    "question": "How do you check if a directory exists in Bash?",
+    "options": [
+      "if [ -d \"dir\" ]",
+      "if exists dir",
+      "if dir --exists",
+      "if [ -f \"dir\" ]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The -d flag tests if a path exists and is a directory. -f tests for regular files."
+  }
+]

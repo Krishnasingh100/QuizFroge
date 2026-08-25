@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 1,
     "explanation": "Machine-facing metadata lives in <head>; visible content goes in <body>."
+  },
+  {
+    "question": "What does the <html> element represent?",
+    "options": [
+      "The page body",
+      "The root element of the page",
+      "The head section",
+      "A container for scripts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <html> element is the root element wrapping all page content."
+  },
+  {
+    "question": "Which element defines a table header cell?",
+    "options": [
+      "<td>",
+      "<th>",
+      "<thead>",
+      "<header>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <th> defines a header cell, typically bold and centered."
+  },
+  {
+    "question": "What is the correct HTML for an ordered list?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<list>",
+      "<dl>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <ol> creates an ordered numbered list."
+  },
+  {
+    "question": "Which attribute specifies the URL in an <a> tag?",
+    "options": [
+      "link",
+      "href",
+      "url",
+      "src"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The href attribute specifies the destination URL."
+  },
+  {
+    "question": "Which tag embeds an external stylesheet?",
+    "options": [
+      "<style>",
+      "<link>",
+      "<css>",
+      "<script>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <link> tag with rel=stylesheet connects an external CSS file."
+  },
+  {
+    "question": "What will this display: <p>A<br>B</p>?",
+    "options": [
+      "A B on same line",
+      "A on first line B on second",
+      "An error",
+      "Two paragraphs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The br tag inserts a line break within the paragraph."
+  },
+  {
+    "question": "Which tag creates a clickable button?",
+    "options": [
+      "<button>",
+      "<input>",
+      "<click>",
+      "<action>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The button element creates a clickable button."
+  },
+  {
+    "question": "How many columns in a row with 3 td elements?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Three td elements means three columns."
+  },
+  {
+    "question": "Which element groups table body rows?",
+    "options": [
+      "<tbody>",
+      "<trow>",
+      "<tgroup>",
+      "<section>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The tbody element groups main content rows of a table."
+  },
+  {
+    "question": "What is the default alignment inside th?",
+    "options": [
+      "Left",
+      "Centered and bold",
+      "Right",
+      "Justified"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Text inside th is centered and bold by default."
+  },
+  {
+    "question": "Which tag embeds audio in HTML?",
+    "options": [
+      "<sound>",
+      "<audio>",
+      "<music>",
+      "<mp3>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The audio element embeds audio content with playback controls."
+  },
+  {
+    "question": "What attribute creates a text input field?",
+    "options": [
+      "type=text",
+      "type=string",
+      "type=field",
+      "kind=text"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Setting type=text creates a single-line text input."
+  },
+  {
+    "question": "Which element creates a multi-line text input?",
+    "options": [
+      "input type=text",
+      "textarea",
+      "text",
+      "multiline"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The textarea element creates a multi-line editable text area."
+  },
+  {
+    "question": "Which tag defines a navigation section?",
+    "options": [
+      "<navigation>",
+      "<nav>",
+      "<links>",
+      "<menu>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The nav element defines a section containing navigation links."
+  },
+  {
+    "question": "What is the correct HTML for a checkbox?",
+    "options": [
+      "input type=check",
+      "input type=checkbox",
+      "checkbox",
+      "check"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Setting type=checkbox creates a toggleable checkbox input."
+  },
+  {
+    "question": "Which tag creates a definition list?",
+    "options": [
+      "<dl>",
+      "<ul>",
+      "<ol>",
+      "<def>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The dl element wraps dt (term) and dd (description) pairs."
+  },
+  {
+    "question": "What does the disabled attribute do?",
+    "options": [
+      "Hides the element",
+      "Makes it non-interactive",
+      "Makes it read-only",
+      "Removes it"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The disabled attribute prevents user interaction with the form element."
+  },
+  {
+    "question": "Which tag embeds video in HTML?",
+    "options": [
+      "<video>",
+      "<movie>",
+      "<media>",
+      "<embed>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The video element embeds video content with playback controls."
+  },
+  {
+    "question": "What does meta charset=UTF-8 do?",
+    "options": [
+      "Sets page title",
+      "Defines character encoding",
+      "Creates meta description",
+      "Sets viewport width"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The charset meta tag specifies character encoding for the document."
+  },
+  {
+    "question": "What does the section element represent?",
+    "options": [
+      "A generic container",
+      "A thematic grouping of content",
+      "A sidebar",
+      "A navigation menu"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The section element represents a thematic grouping of content with a heading."
   }
 ]

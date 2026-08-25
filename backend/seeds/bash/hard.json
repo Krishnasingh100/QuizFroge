@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the difference between 'exec' and running a command normally in a script?",
+    "options": [
+      "No difference",
+      "exec replaces the current shell process with the command, no return to script",
+      "exec runs in background",
+      "exec is faster but less reliable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "exec replaces the current shell process. After exec, no further script commands execute because the shell is replaced."
+  },
+  {
+    "question": "What does 'set -o pipefail' do?",
+    "options": [
+      "Prevents pipes from failing",
+      "Causes a pipeline to return the exit status of the last command that failed",
+      "Disables pipe output",
+      "Enables pipe debugging"
+    ],
+    "correctAnswer": 1,
+    "explanation": "By default, only the last command's exit status matters in a pipe. pipefail makes the pipeline fail if any command fails."
+  },
+  {
+    "question": "What is the difference between '$@' and '$*' when quoted?",
+    "options": [
+      "No difference",
+      "\"$@\" expands each argument separately, \"$*\" joins them with IFS",
+      "\"$*\" is safer",
+      "Both are identical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "\"$@\" preserves individual arguments (\"arg1\" \"arg2\"), while \"$*\" concatenates them with IFS (default: space) into one string."
+  },
+  {
+    "question": "What does 'read -r -p \"Enter: \" var' do?",
+    "options": [
+      "Reads a file",
+      "Displays a prompt and reads user input into 'var' without backslash interpretation",
+      "Runs in reverse order",
+      "Reads from pipe"
+    ],
+    "correctAnswer": 1,
+    "explanation": "-p displays a prompt, -r prevents backslash from being interpreted as escape characters, and the input is stored in 'var'."
+  },
+  {
+    "question": "What is process substitution in Bash?",
+    "options": [
+      "Replacing processes",
+      "<(command) and >(command) treat command output as a file for input/output",
+      "Running commands in parallel",
+      "Redirecting all output"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Process substitution <(cmd) creates a temporary file-like reference to a command's output, useful for comparing command outputs or passing to commands expecting files."
+  },
+  {
+    "question": "What does 'shopt -s nullglob' do?",
+    "options": [
+      "Enables null checking",
+      "Makes globs that match nothing expand to nothing instead of the literal pattern",
+      "Disables shell options",
+      "Creates null files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without nullglob, a glob like *.txt that matches nothing returns the literal string '*.txt'. With nullglob, it expands to nothing."
+  },
+  {
+    "question": "What is the purpose of 'IFS' in Bash?",
+    "options": [
+      "Internal File System",
+      "Internal Field Separator - determines word splitting and line parsing behavior",
+      "Input File Storage",
+      "Interactive File Search"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IFS defines how Bash splits words and lines. Default is space/tab/newline. Changing IFS affects how variables are split and read works."
+  },
+  {
+    "question": "What does 'coproc' do in Bash 4?",
+    "options": [
+      "Copies a process",
+      "Creates an asynchronous coprocess with its own I/O channels",
+      "Cooperates between processes",
+      "Copies output to clipboard"
+    ],
+    "correctAnswer": 1,
+    "explanation": "coproc starts a background process with stdin/stdout connected to file descriptors the parent shell can read/write."
+  },
+  {
+    "question": "What is the effect of 'declare -r VAR=value'?",
+    "options": [
+      "Declares a global variable",
+      "Makes VAR read-only (cannot be reassigned)",
+      "Declares a recursive function",
+      "Runs VAR in restricted mode"
+    ],
+    "correctAnswer": 1,
+    "explanation": "declare -r (or readonly) makes a variable read-only. Any attempt to reassign it produces an error."
+  },
+  {
+    "question": "What is the difference between 'cat <<EOF' and 'cat <<\"EOF\"'?",
+    "options": [
+      "No difference",
+      "Unquoted allows variable expansion inside the heredoc, quoted treats content literally",
+      "Quoted is deprecated",
+      "Unquoted is faster"
+    ],
+    "correctAnswer": 1,
+    "explanation": "With unquoted delimiter, variables like $VAR are expanded. With quoted \"EOF\", the content is treated literally with no expansion."
+  },
+  {
+    "question": "What does 'mapfile -t arr < <(command)' do?",
+    "options": [
+      "Creates a map of files",
+      "Reads lines from command output into an array, stripping trailing newlines",
+      "Maps file permissions",
+      "Creates a backup of files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "mapfile reads lines from stdin into array elements. -t strips trailing newlines. Process substitution feeds command output to mapfile."
+  },
+  {
+    "question": "What is the purpose of 'declare -A' in Bash?",
+    "options": [
+      "Declares an indexed array",
+      "Declares an associative (key-value) array",
+      "Declares an alias",
+      "Declares an arithmetic variable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "declare -A creates an associative array (dictionary/map) that uses strings as keys instead of numeric indices."
+  },
+  {
+    "question": "What does 'wait -n' do in Bash?",
+    "options": [
+      "Waits indefinitely",
+      "Waits for any single background job to finish and returns its exit status",
+      "Waits for all jobs",
+      "Cancels all background jobs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "wait -n waits for the next background process to complete and returns its exit status. Unlike plain 'wait', it doesn't wait for all jobs."
+  },
+  {
+    "question": "What is the difference between 'local' and 'declare' inside a function?",
+    "options": [
+      "No difference",
+      "local scopes the variable to the function, declare without -l creates a global variable",
+      "declare is deprecated",
+      "local creates global scope"
+    ],
+    "correctAnswer": 1,
+    "explanation": "local limits the variable's scope to the enclosing function. declare without explicit scope creates or modifies a global variable."
+  },
+  {
+    "question": "What does 'shopt -s extglob' enable?",
+    "options": [
+      "Extended file permissions",
+      "Extended pattern matching features like ?, +, @, ! for complex globs",
+      "External global variables",
+      "Extended debugging"
+    ],
+    "correctAnswer": 1,
+    "explanation": "extglob enables extended globbing patterns such as ?(pattern), +(pattern), @(pattern), and !(pattern) for advanced file matching."
+  },
+  {
+    "question": "What does 'compgen -A command' do?",
+    "options": [
+      "Generates a new command",
+      "Lists all available commands that match tab-completion criteria",
+      "Completes commands automatically",
+      "Compresses command history"
+    ],
+    "correctAnswer": 1,
+    "explanation": "compgen generates possible completions. -A command filters to only show available command names matching the criteria."
+  },
+  {
+    "question": "What is the purpose of 'BASH_REMATCH' array?",
+    "options": [
+      "Rematches file patterns",
+      "Stores captured groups from regex matching in [[ =~ ]]",
+      "Remembers bash settings",
+      "Tracks running processes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "BASH_REMATCH is populated after a regex match with =~. BASH_REMATCH[0] is the full match, BASH_REMATCH[1] is the first group, etc."
+  },
+  {
+    "question": "What does 'printf -v var \"format\" args' do?",
+    "options": [
+      "Prints formatted output to terminal",
+      "Stores formatted output into variable 'var' instead of printing to stdout",
+      "Validates variable format",
+      "Vets format strings"
+    ],
+    "correctAnswer": 1,
+    "explanation": "printf -v redirects the formatted output into the specified variable instead of printing to stdout, useful for string manipulation."
+  },
+  {
+    "question": "What is the difference between 'eval' and 'source'?",
+    "options": [
+      "No difference",
+      "eval executes a string as a command in the current shell, source executes a file",
+      "eval reads files, source evaluates strings",
+      "Both are deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "eval takes a string argument and evaluates it as commands. source executes commands from a file in the current shell context."
+  },
+  {
+    "question": "What does 'mapfile' require that 'readarray' does not?",
+    "options": [
+      "mapfile requires Bash 4, readarray works in earlier versions",
+      "They are identical aliases - neither requires anything different",
+      "mapfile requires root access",
+      "readarray requires a filename argument"
+    ],
+    "correctAnswer": 1,
+    "explanation": "readarray is simply a synonym for mapfile. They are identical commands and work interchangeably."
+  },
+  {
+    "question": "What does 'set -u' do in a Bash script?",
+    "options": [
+      "Enables Unicode support",
+      "Treats unset variables as an error and exits the script",
+      "Unsets all variables",
+      "Sets user permissions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "set -o nounset (or set -u) causes the script to exit with an error if an unset variable is referenced, preventing subtle bugs."
+  },
+  {
+    "question": "What is 'nameref' (declare -n) in Bash 4.3+?",
+    "options": [
+      "Names a reference file",
+      "Creates a variable that references another variable by name (indirect reference)",
+      "Renames a file descriptor",
+      "Creates a named pipe"
+    ],
+    "correctAnswer": 1,
+    "explanation": "declare -n creates a nameref that acts as an alias to another variable. Changes to the nameref affect the referenced variable."
+  },
+  {
+    "question": "What does 'readonly -a' do?",
+    "options": [
+      "Reads all files",
+      "Makes an entire array read-only",
+      "Sets read-only attribute on all processes",
+      "Makes the script read-only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "readonly -a makes an indexed array read-only, preventing modification of its elements. Use readonly -A for associative arrays."
+  },
+  {
+    "question": "What is the effect of 'set -o errexit' combined with 'set -o pipefail'?",
+    "options": [
+      "Has no special effect",
+      "The script exits on any failed command including failures within pipelines",
+      "Disables error checking",
+      "Only checks the last command"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Together they ensure the script exits on any failure, including commands that fail inside a pipeline (not just the last one)."
+  },
+  {
+    "question": "What does 'local -r VAR=value' do inside a function?",
+    "options": [
+      "Declares a global read-only variable",
+      "Creates a read-only variable scoped only to the function",
+      "Makes the function recursive",
+      "Restricts file access"
+    ],
+    "correctAnswer": 1,
+    "explanation": "local -r combines local scope with read-only, so the variable exists only in the function and cannot be modified."
+  },
+  {
+    "question": "What does 'declare -i NUM=5' do?",
+    "options": [
+      "Declares NUM as a string",
+      "Declares NUM as an integer, automatically performing arithmetic evaluation",
+      "Declares an invisible variable",
+      "Initializes NUM five times"
+    ],
+    "correctAnswer": 1,
+    "explanation": "declare -i marks the variable as an integer. Arithmetic expressions assigned to it are automatically evaluated (e.g., NUM=NUM+1 works)."
+  },
+  {
+    "question": "What is the purpose of 'BASH_SOURCE' array?",
+    "options": [
+      "Sources bash configuration",
+      "Contains the source file names of the current execution call stack",
+      "Lists all bash files on the system",
+      "Tracks bash history source"
+    ],
+    "correctAnswer": 1,
+    "explanation": "BASH_SOURCE[0] is the file where the current code is defined. When sourced, it helps determine the actual file path of the script."
+  },
+  {
+    "question": "What does 'readarray -d : arr < <(echo a:b:c)' do?",
+    "options": [
+      "Reads the entire line as one element",
+      "Splits input on ':' delimiter and stores each part as a separate array element",
+      "Creates an associative array",
+      "Reads the file literally"
+    ],
+    "correctAnswer": 1,
+    "explanation": "readarray -d sets the delimiter character. Here it splits on ':' so arr becomes (\"a\" \"b\" \"c\")."
+  },
+  {
+    "question": "What is the 'ERR' trap in Bash?",
+    "options": [
+      "Logs errors to a file",
+      "Runs a specified command whenever a command returns a non-zero exit status",
+      "Disables error messages",
+      "Creates an error log"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ERR trap fires when a command exits with non-zero status (unless set -e catches it first). Useful for error handling and logging."
+  },
+  {
+    "question": "What does 'declare -g VAR=value' do?",
+    "options": [
+      "Declares a local variable",
+      "Forces creation of a global variable even when used inside a function",
+      "Declares a global lock",
+      "Guards a variable from being unset"
+    ],
+    "correctAnswer": 1,
+    "explanation": "declare -g explicitly creates/modifies a global variable from within a function, bypassing the local scope that 'local' or 'declare' would create."
+  },
+  {
+    "question": "What does 'set -o functrace' enable?",
+    "options": [
+      "Traces function definitions",
+      "Enables DEBUG and RETURN trap inheritance in functions and subshells",
+      "Logs function calls to a file",
+      "Disables functions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "functrace enables DEBUG and RETURN trap inheritance in shell functions, allowing tracing of function calls."
+  },
+  {
+    "question": "What is 'BASHPID' variable used for?",
+    "options": [
+      "The PID of the main shell",
+      "The PID of the current subshell or process",
+      "The parent shell PID",
+      "The bash binary PID"
+    ],
+    "correctAnswer": 1,
+    "explanation": "BASHPID contains the process ID of the current Bash instance, which differs from $$ in subshells."
+  },
+  {
+    "question": "What does 'complete -W \"list of words\" cmd' do?",
+    "options": [
+      "Completes the command automatically",
+      "Registers tab-completion for 'cmd' using the given word list",
+      "Finishes running cmd",
+      "Makes cmd complete faster"
+    ],
+    "correctAnswer": 1,
+    "explanation": "complete -W registers a completion function for a command. When pressing Tab after 'cmd', the listed words are offered as completions."
+  },
+  {
+    "question": "What does 'kill -0 PID' do?",
+    "options": [
+      "Kills the process",
+      "Tests whether a signal can be sent to the process (checks if it exists)",
+      "Sets priority to 0",
+      "Pauses the process"
+    ],
+    "correctAnswer": 1,
+    "explanation": "kill -0 doesn't send a signal. It returns success if the process exists and you have permission to signal it, otherwise an error."
+  },
+  {
+    "question": "What is the 'RETURN' trap in Bash?",
+    "options": [
+      "Handles return values from external programs",
+      "Runs a command each time a function or source finishes executing",
+      "Returns to previous directory",
+      "Resets function variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The RETURN trap executes when a function or sourced script finishes, useful for cleanup in modular scripts."
+  },
+  {
+    "question": "What does 'declare -A hash=([key1]=val1 [key2]=val2)' do?",
+    "options": [
+      "Creates an indexed array with keys",
+      "Creates an associative array with specified key-value pairs",
+      "Creates a hash table file",
+      "Declares a function map"
+    ],
+    "correctAnswer": 1,
+    "explanation": "declare -A creates an associative array. The ([key]=value) syntax initializes it with specific key-value pairs."
+  },
+  {
+    "question": "What is the purpose of 'auto_resume' shell option?",
+    "options": [
+      "Resumes interrupted downloads",
+      "Allows resuming stopped jobs by name when running fg/bg",
+      "Auto-restarts crashed services",
+      "Resumes script execution after errors"
+    ],
+    "correctAnswer": 1,
+    "explanation": "shopt -s auto_resume lets you use fg/job-name without the % prefix. Matching is done by unique prefix of the command."
+  },
+  {
+    "question": "What does 'lastpipe' shell option do?",
+    "options": [
+      "Logs the last pipe command",
+      "Runs the last command of a pipeline in the current shell (not a subshell)",
+      "Delays the last pipe",
+      "Pipes to the last user"
+    ],
+    "correctAnswer": 1,
+    "explanation": "shopt -s lastpipe makes the last command of a pipeline execute in the current shell, allowing it to set variables visible after the pipe."
+  },
+  {
+    "question": "What does 'set -o ignoreeof' do?",
+    "options": [
+      "Ignores all file operations",
+      "Prevents Ctrl+D from logging out the shell",
+      "Ignores EOF characters in input",
+      "Disables file reading"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ignoreeof prevents the shell from exiting on EOF (Ctrl+D). You must type 'exit' to leave, preventing accidental logouts."
+  },
+  {
+    "question": "What does 'trap - EXIT' do?",
+    "options": [
+      "Creates an EXIT trap",
+      "Removes the EXIT trap handler",
+      "Exits the script",
+      "Traps exit signals"
+    ],
+    "correctAnswer": 1,
+    "explanation": "trap - EXIT removes the previously defined EXIT trap, so no cleanup code runs when the script exits."
+  }
+]

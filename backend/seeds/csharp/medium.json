@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What is the difference between 'abstract class' and 'interface' in C#?",
+    "options": ["They are identical", "Abstract classes can have implementations, interfaces cannot (pre-C# 8)", "Interfaces support multiple inheritance, abstract classes do not", "Both B and C"],
+    "correctAnswer": 3,
+    "explanation": "Both statements are correct: abstract classes can provide implementation while interfaces (pre-C# 8) could not, and a class can implement multiple interfaces but inherit only one abstract class."
+  },
+  {
+    "question": "What will this code output?\nint[] arr = {1, 2, 3, 4, 5};\nConsole.WriteLine(arr[5]);",
+    "options": ["5", "0", "null", "IndexOutOfRangeException"],
+    "correctAnswer": 3,
+    "explanation": "Arrays are zero-indexed, so valid indices are 0-4. Accessing index 5 throws an IndexOutOfRangeException."
+  },
+  {
+    "question": "What is the purpose of the 'sealed' keyword in C#?",
+    "options": ["Prevents a class from being inherited", "Makes a variable constant", "Prevents a method from being overridden", "Both A and C"],
+    "correctAnswer": 0,
+    "explanation": "'sealed' on a class prevents it from being inherited. On a method (override), it prevents further overriding in derived classes. The primary use is on classes."
+  },
+  {
+    "question": "Given:\nstring s1 = \"hello\";\nstring s2 = \"hello\";\nbool result = s1 == s2;\nWhat is the value of result?",
+    "options": ["true", "false", "Compilation error", "Depends on runtime"],
+    "correctAnswer": 0,
+    "explanation": "C# overloads the == operator for strings to compare content, not reference. Both strings contain \"hello\", so the result is true."
+  },
+  {
+    "question": "What happens when you call a method marked 'async' without using 'await'?",
+    "options": ["Compilation error", "The method runs synchronously", "Runtime exception", "The method returns null"],
+    "correctAnswer": 1,
+    "explanation": "An async method without await runs synchronously up to the first await (or completes), and the compiler generates a warning."
+  },
+  {
+    "question": "Which LINQ method returns all elements matching a condition?",
+    "options": ["Select()", "Where()", "Any()", "First()"],
+    "correctAnswer": 1,
+    "explanation": "Where() filters elements based on a predicate condition."
+  },
+  {
+    "question": "What is the output?\nvar list = new List<int> {1, 2, 3};\nlist.Add(4);\nlist.AddRange(new[] {5, 6});\nConsole.WriteLine(list.Count);",
+    "options": ["4", "5", "6", "7"],
+    "correctAnswer": 2,
+    "explanation": "Starting with 3 elements, Add(4) makes 4, AddRange({5,6}) adds 2 more, totaling 6."
+  },
+  {
+    "question": "What is the purpose of the 'using' statement in C#?",
+    "options": ["Importing namespaces", "Ensuring IDisposable objects are disposed", "Both A and B", "Declaring global variables"],
+    "correctAnswer": 2,
+    "explanation": "The 'using' keyword serves dual purposes: importing namespaces and ensuring IDisposable resources are properly disposed."
+  },
+  {
+    "question": "What is the difference between 'throw' and 'throw ex' in a catch block?",
+    "options": ["No difference", "'throw' preserves stack trace, 'throw ex' resets it", "'throw ex' preserves stack trace", "Both reset the stack trace"],
+    "correctAnswer": 1,
+    "explanation": "'throw' preserves the original stack trace, while 'throw ex' resets the stack trace to the current point, losing debugging information."
+  },
+  {
+    "question": "What will this code output?\nint x = 5;\nAction<int> action = (y) => x = y;\naction(10);\nConsole.WriteLine(x);",
+    "options": ["5", "10", "Compilation error", "NullReferenceException"],
+    "correctAnswer": 1,
+    "explanation": "The lambda captures 'x' by reference. Calling action(10) assigns 10 to x, which is then printed."
+  },
+  {
+    "question": "What will this code output?\nstring s = \"C#\";\nConsole.WriteLine(s.Insert(1, \"++\"));",
+    "options": ["C++#", "C+#", "+C#", "C#+#"],
+    "correctAnswer": 0,
+    "explanation": "Insert(1, \"++\") inserts \"++\" at index 1 of \"C#\", resulting in \"C++#\"."
+  },
+  {
+    "question": "What does 'IsPostBack' check in ASP.NET Web Forms?",
+    "options": ["If the page is cached", "If the page is loaded in response to a client postback", "If the browser supports postback", "If the page contains forms"],
+    "correctAnswer": 1,
+    "explanation": "IsPostBack returns true when the page is loaded in response to a client postback (e.g., button click), not on initial load."
+  },
+  {
+    "question": "What is the difference between 'IEnumerable<T>' and 'ICollection<T>'?",
+    "options": ["No difference", "IEnumerable supports iteration, ICollection also adds Count, Add, Remove, and Contains", "ICollection is generic, IEnumerable is not", "IEnumerable is faster"],
+    "correctAnswer": 1,
+    "explanation": "ICollection<T> extends IEnumerable<T> by adding methods like Count, Add, Remove, Contains, and CopyTo for collection manipulation."
+  },
+  {
+    "question": "What does the 'as' keyword do in C#?",
+    "options": ["Assigns a value", "Performs a cast that returns null on failure instead of throwing an exception", "Creates an alias", "Imports a namespace"],
+    "correctAnswer": 1,
+    "explanation": "The 'as' keyword performs a type cast that returns null (for reference types) if the cast fails, rather than throwing an InvalidCastException."
+  },
+  {
+    "question": "What is the output?\ntry {\n  int[] a = new int[3];\n  a[5] = 10;\n} catch (IndexOutOfRangeException ex) {\n  Console.WriteLine(\"Error: \" + ex.Message);\n}",
+    "options": ["Error: Index was outside the bounds of the array.", "Error", "Compilation error", "No output"],
+    "correctAnswer": 0,
+    "explanation": "Accessing a[5] on a size-3 array throws IndexOutOfRangeException, caught by the catch block which prints the message."
+  },
+  {
+    "question": "Which keyword defines a constant in C#?",
+    "options": ["static", "const", "readonly", "final"],
+    "correctAnswer": 1,
+    "explanation": "The 'const' keyword declares a compile-time constant. 'readonly' is set at runtime in the constructor."
+  },
+  {
+    "question": "What does 'Nullable<T>' (or 'T?') allow in C#?",
+    "options": ["Variables to hold any type", "Value types to also hold null", "Reference types to hold null", "Variables to be thread-safe"],
+    "correctAnswer": 1,
+    "explanation": "Nullable<T> allows value types (like int, bool) to also represent null, which they normally cannot."
+  },
+  {
+    "question": "What is the output?\nFunc<int, bool> isEven = n => n % 2 == 0;\nConsole.WriteLine(isEven(7));",
+    "options": ["true", "false", "Compilation error", "null"],
+    "correctAnswer": 1,
+    "explanation": "7 % 2 equals 1, not 0, so 7 % 2 == 0 evaluates to false."
+  },
+  {
+    "question": "What is the output?\nstring[] words = {\"hello\", \"world\"};\nConsole.WriteLine(string.Join(\" \", words));",
+    "options": ["hello,world", "hello world", "[hello, world]", "helloworld"],
+    "correctAnswer": 1,
+    "explanation": "string.Join inserts the separator between each element. With \" \" as separator, it produces \"hello world\"."
+  },
+  {
+    "question": "What does the '??=' operator do in C# 8+?",
+    "options": ["Checks for null and throws an exception", "Assigns the right-hand value only if the left-hand variable is null", "Compares two values for equality", "Performs a null-conditional call"],
+    "correctAnswer": 1,
+    "explanation": "The ??= (null-coalescing assignment) operator assigns the right side to the variable only if the variable is currently null."
+  },
+  {
+    "question": "What will this code output?\nvar numbers = new List<int> {1, 2, 3, 4, 5};\nvar result = numbers.Select(x => x * 3).ToList();\nConsole.WriteLine(result[2]);",
+    "options": ["3", "6", "9", "12"],
+    "correctAnswer": 2,
+    "explanation": "Select multiplies each element by 3. The list becomes {3, 6, 9, 12, 15}. Index 2 is 9."
+  },
+  {
+    "question": "What is the difference between 'string' and 'StringBuilder' in C#?",
+    "options": ["No difference", "string is immutable, StringBuilder is mutable and more efficient for repeated modifications", "StringBuilder is faster for single operations", "string is mutable, StringBuilder is not"],
+    "correctAnswer": 1,
+    "explanation": "Strings are immutable in C#, creating new objects on modification. StringBuilder modifies in place, making it efficient for concatenation loops."
+  },
+  {
+    "question": "What does 'async Task<T>' return when a method is declared with this signature?",
+    "options": ["A value of type T directly", "A Task<T> that represents the asynchronous operation", "void", "A thread"],
+    "correctAnswer": 1,
+    "explanation": "async Task<T> methods return a Task<T> object representing the pending work. Use .Result or await to get the T value."
+  },
+  {
+    "question": "What is the output?\nint a = 10;\nint b = 3;\nConsole.WriteLine(a / b);",
+    "options": ["3.33", "3", "4", "Compilation error"],
+    "correctAnswer": 1,
+    "explanation": "Integer division truncates the result. 10 / 3 gives 3 with the remainder discarded."
+  },
+  {
+    "question": "What does the 'LINQ' method 'OrderBy' do?",
+    "options": ["Filters elements", "Sorts elements in ascending order by a key", "Groups elements", "Takes a subset of elements"],
+    "correctAnswer": 1,
+    "explanation": "OrderBy sorts elements in ascending order based on a specified key selector function."
+  },
+  {
+    "question": "What is an interface in C#?",
+    "options": ["A class with implementation", "A contract that defines methods, properties, events, or indexers without implementation", "A variable type", "A namespace"],
+    "correctAnswer": 1,
+    "explanation": "An interface defines a contract of members that implementing classes or structs must provide."
+  },
+  {
+    "question": "What is the output?\nList<int> nums = new List<int> {10, 20, 30};\nnums.RemoveAt(1);\nConsole.WriteLine(nums.Count);",
+    "options": ["3", "2", "1", "Error"],
+    "correctAnswer": 1,
+    "explanation": "RemoveAt(1) removes the element at index 1 (20). The list now has 2 elements: {10, 30}."
+  },
+  {
+    "question": "What does the 'is' keyword do in C#?",
+    "options": ["Assigns a value", "Checks if an object is of a specified type", "Creates a new instance", "Defines an interface"],
+    "correctAnswer": 1,
+    "explanation": "The 'is' operator checks whether an object is compatible with a given type, returning true or false."
+  },
+  {
+    "question": "What does the 'double' keyword represent in C#?",
+    "options": ["An integer type", "A 64-bit floating-point number", "A boolean value", "A string literal"],
+    "correctAnswer": 1,
+    "explanation": "double (System.Double) is a 64-bit double-precision floating-point data type in C#."
+  },
+  {
+    "question": "What is the purpose of 'enum' in C#?",
+    "options": ["Creates a list", "Defines a set of named integral constants", "Defines a loop", "Creates an exception"],
+    "correctAnswer": 1,
+    "explanation": "An enum is a value type that defines a group of named integral constants for readability."
+  },
+  {
+    "question": "What is the output?\nvar numbers = Enumerable.Range(1, 4).Where(n => n % 2 == 0).Sum();\nConsole.WriteLine(numbers);",
+    "options": ["2", "6", "10", "4"],
+    "correctAnswer": 1,
+    "explanation": "Range(1,4) gives 1,2,3,4. Where filters even: 2,4. Sum adds them: 2+4=6."
+  },
+  {
+    "question": "What does 'Task.Run(() => Method())' do?",
+    "options": ["Runs Method synchronously", "Queues Method to run on a thread pool thread asynchronously", "Runs Method on the UI thread", "Compiles Method at runtime"],
+    "correctAnswer": 1,
+    "explanation": "Task.Run queues the delegate to execute on a thread pool thread, returning a Task representing the asynchronous operation."
+  },
+  {
+    "question": "What is the output?\nvar list = new List<int> {1, 2, 3, 4, 5};\nvar result = list.First(x => x > 3);\nConsole.WriteLine(result);",
+    "options": ["3", "4", "5", "1"],
+    "correctAnswer": 1,
+    "explanation": "First() returns the first element matching the condition. The first element greater than 3 is 4."
+  },
+  {
+    "question": "What is the difference between 'params' keyword and a regular array parameter?",
+    "options": ["No difference", "params allows passing a variable number of arguments without explicitly creating an array", "params is faster", "params only works with strings"],
+    "correctAnswer": 1,
+    "explanation": "The params keyword lets callers pass any number of arguments of the specified type. The compiler automatically creates an array from them."
+  },
+  {
+    "question": "What does '??' (null-coalescing) operator do?",
+    "options": ["Checks equality", "Returns the left operand if not null, otherwise returns the right operand", "Throws an exception", "Creates a null reference"],
+    "correctAnswer": 1,
+    "explanation": "The ?? operator provides a default value when an expression is null. e.g., 'name ?? \"Unknown\"' returns 'Unknown' if name is null."
+  },
+  {
+    "question": "What is the output?\nstring s = null;\nint len = s?.Length ?? 0;\nConsole.WriteLine(len);",
+    "options": ["null", "0", "Compilation error", "Runtime error"],
+    "correctAnswer": 1,
+    "explanation": "The ?. operator returns null if s is null. The ?? operator then provides 0 as the default value. Result is 0."
+  },
+  {
+    "question": "What is the purpose of the 'IComparable<T>' interface?",
+    "options": ["Makes a type iterable", "Defines a method for comparing instances of the same type for ordering", "Enables equality comparison", "Creates a clone of an object"],
+    "correctAnswer": 1,
+    "explanation": "IComparable<T> defines a CompareTo method that allows instances to be compared for sorting order."
+  },
+  {
+    "question": "What is the output?\nvar dict = new Dictionary<string, int>();\ndict[\"one\"] = 1;\ndict[\"two\"] = 2;\nConsole.WriteLine(dict.ContainsKey(\"one\") && dict[\"one\"] == 1);",
+    "options": ["true", "false", "Compilation error", "Runtime error"],
+    "correctAnswer": 0,
+    "explanation": "ContainsKey returns true because 'one' exists, and dict['one'] equals 1, so the entire expression is true."
+  },
+  {
+    "question": "What does 'ObsoleteAttribute' do in C#?",
+    "options": ["Marks a method as deprecated and generates a warning or error when used", "Removes a method from compilation", "Logs method usage statistics", "Makes a method thread-safe"],
+    "correctAnswer": 0,
+    "explanation": "[Obsolete] marks a type or member as deprecated. The compiler generates a warning (or error if true) when code references it."
+  },
+  {
+    "question": "What is the output?\nint[] arr = {1, 2, 3};\nArray.Reverse(arr);\nConsole.WriteLine(string.Join(\",\", arr));",
+    "options": ["1,2,3", "3,2,1", "1,3,2", "Error"],
+    "correctAnswer": 1,
+    "explanation": "Array.Reverse reverses the elements in place. {1,2,3} becomes {3,2,1}."
+  }
+]

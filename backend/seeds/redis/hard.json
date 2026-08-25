@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What is the difference between Redis Cluster and Redis Sentinel?",
+    "options": ["No difference", "Sentinel provides HA and failover for a single master, Cluster provides sharding across multiple masters", "Cluster is for development, Sentinel for production", "Sentinel handles sharding, Cluster handles replication"],
+    "correctAnswer": 1,
+    "explanation": "Sentinel manages high availability for a single Redis instance. Cluster distributes data across multiple nodes (sharding) with built-in replication."
+  },
+  {
+    "question": "What happens during a Redis pipeline if one command fails?",
+    "options": ["All previous commands are rolled back", "Only the failed command fails; other commands in the pipeline still execute", "The entire pipeline is retried", "The connection is closed"],
+    "correctAnswer": 1,
+    "explanation": "Redis pipelines are not atomic. If one command fails, others continue executing. There is no rollback mechanism in pipelines."
+  },
+  {
+    "question": "What is the maxmemory-policy setting in Redis?",
+    "options": ["Limits connection count", "Determines how Redis evicts keys when memory limit is reached", "Sets maximum key length", "Controls replication buffer size"],
+    "correctAnswer": 1,
+    "explanation": "maxmemory-policy defines which eviction strategy Redis uses (e.g., volatile-lru, allkeys-lru) when memory reaches the limit."
+  },
+  {
+    "question": "What does OBJECT IDLETIME key return?",
+    "options": ["The key's TTL", "The time in seconds since the key was last accessed", "The time since the key was created", "The key's memory usage"],
+    "correctAnswer": 1,
+    "explanation": "OBJECT IDLETIME returns the idle time (seconds since last access) of a key. Useful for LRU-based eviction strategies."
+  },
+  {
+    "question": "What is the difference between RPOPLPUSH source destination and BLMOVE?",
+    "options": ["No difference", "RPOPLPUSH is atomic but deprecated in favor of LMOVE/BLMOVE; BLMOVE adds blocking support", "BLMOVE only works with sets", "RPOPLPUSH is faster"],
+    "correctAnswer": 1,
+    "explanation": "RPOPLPUSH pops from source tail and pushes to destination head atomically. BLMOVE (Redis 6.2+) provides the same with optional blocking."
+  },
+  {
+    "question": "What is a Redis Lua script's main advantage over a transaction?",
+    "options": ["Lua is faster", "Lua scripts can include conditional logic, loops, and deterministic operations", "Lua scripts use less memory", "Lua scripts are persisted to disk"],
+    "correctAnswer": 1,
+    "explanation": "Lua scripts can contain complex logic, conditionals, and loops executed atomically on the server, which transactions cannot do."
+  },
+  {
+    "question": "What does CONFIG SET maxmemory 1gb do at runtime?",
+    "options": ["Restarts the server", "Immediately changes the maxmemory limit without restart", "Requires a restart to take effect", "Only works in redis.conf"],
+    "correctAnswer": 1,
+    "explanation": "CONFIG SET applies configuration changes at runtime without requiring a server restart."
+  },
+  {
+    "question": "What is the purpose of MEMORY USAGE key?",
+    "options": ["Shows total system memory", "Returns the memory bytes consumed by a key and its value", "Shows key count", "Monitors CPU usage"],
+    "correctAnswer": 1,
+    "explanation": "MEMORY USAGE returns the total memory bytes allocated for storing a key and its value, useful for memory optimization."
+  },
+  {
+    "question": "What is Redis Streams consumer group?",
+    "options": ["A group of Redis servers", "A mechanism allowing multiple consumers to read from a stream cooperatively without duplicate processing", "A backup group", "A pub/sub channel group"],
+    "correctAnswer": 1,
+    "explanation": "Consumer groups distribute stream reading among multiple consumers, ensuring each message is processed by only one consumer in the group."
+  },
+  {
+    "question": "What happens with MSET if one of the keys already exists?",
+    "options": ["The operation fails", "All specified keys are set atomically; existing keys are overwritten", "Only new keys are set", "A warning is logged"],
+    "correctAnswer": 1,
+    "explanation": "MSET sets all key-value pairs atomically. If a key already exists, its value is overwritten with the new value."
+  },
+  {
+    "question": "What is the difference between MEMORY DOCTOR and MEMORY USAGE?",
+    "options": ["No difference", "DOCTOR provides overall memory analysis and recommendations, USAGE checks a specific key", "DOCTOR is faster", "USAGE is deprecated"],
+    "correctAnswer": 1,
+    "explanation": "MEMORY DOCTOR gives a comprehensive memory health report and suggestions. MEMORY USAGE returns the memory footprint of a single key."
+  },
+  {
+    "question": "What does CLIENT PAUSE timeout do in Redis?",
+    "options": ["Pauses the server", "Suspends all client connections for the specified duration (in ms or seconds)", "Pauses replication", "Pauses key expiration"],
+    "correctAnswer": 1,
+    "explanation": "CLIENT PAUSE blocks all connected clients for the specified duration. Useful during maintenance or controlled failovers."
+  },
+  {
+    "question": "What is the purpose of WAIT numreplicas timeout command?",
+    "options": ["Waits for a key to exist", "Blocks until the specified number of replicas acknowledge the write or timeout occurs", "Waits for replication to start", "Waits for a client connection"],
+    "correctAnswer": 1,
+    "explanation": "WAIT blocks until the write is replicated to at least numreplicas replicas, or until timeout. It provides a synchronous replication check."
+  },
+  {
+    "question": "What does the Redis CLUSTER INFO command return?",
+    "options": ["Node CPU usage", "Cluster state, known nodes, slot distribution, and health information", "Memory usage per node", "Connected clients list"],
+    "correctAnswer": 1,
+    "explanation": "CLUSTER INFO returns cluster-level metadata including cluster_state, known nodes, slots assigned, and other health metrics."
+  },
+  {
+    "question": "What is FUNCTION LOAD used for in Redis 7+?",
+    "options": ["Loading configuration files", "Registering a new library of Lua functions that can be called from commands", "Loading data from disk", "Loading modules dynamically"],
+    "correctAnswer": 1,
+    "explanation": "FUNCTION LOAD registers a library of named Lua functions (replacing EVAL for reusable scripts) that persist across server restarts."
+  },
+  {
+    "question": "What does XACK stream group message_id do?",
+    "options": ["Deletes a message", "Acknowledges processing of a message by a consumer in a consumer group", "Acknowledges a client connection", "Sends an ACK to a publisher"],
+    "correctAnswer": 1,
+    "explanation": "XACK marks a message as successfully processed by a consumer. Once acknowledged, the message will not be delivered to other consumers in the group."
+  },
+  {
+    "question": "What is the purpose of LINKSTATE in Redis Cluster?",
+    "options": ["Checks link speed", "Reports the connectivity state between cluster nodes", "Links two keys together", "Links client to server"],
+    "correctAnswer": 1,
+    "explanation": "CLUSTER LINKS (or node link state) shows the connection status between nodes in the cluster, used for diagnosing partition issues."
+  },
+  {
+    "question": "What happens with XREADGROUP GROUP g1 consumer1 COUNT 2 STREAMS mystream >?",
+    "options": ["Reads 2 messages from the stream", "Reads up to 2 new (undelivered) messages for consumer1 in group g1 from mystream", "Reads the last 2 messages", "Deletes 2 messages"],
+    "correctAnswer": 1,
+    "explanation": "XREADGROUP with > reads only new messages not yet delivered to any consumer in the group. COUNT 2 limits the result to 2 messages."
+  },
+  {
+    "question": "What is the OBJECT FREQ key command used for?",
+    "options": ["Shows how often a key is accessed (for LFU eviction)", "Shows the key's frequency in Hz", "Shows the network frequency", "Shows the expiration frequency"],
+    "correctAnswer": 0,
+    "explanation": "OBJECT FREQ returns the access frequency count used by the LFU (Least Frequently Used) eviction policy, helping analyze hot keys."
+  },
+  {
+    "question": "What does LATENCY LATEST show in Redis?",
+    "options": ["The latest log message", "The most recent latency samples for each registered event type", "The latest connection time", "The most recent command latency"],
+    "correctAnswer": 1,
+    "explanation": "LATENCY LATEST shows the most recent latency data for each tracked event (e.g., command, fork, AOF rewrite), useful for performance monitoring."
+  },
+  {
+    "question": "What is the difference between EVAL and EVALSHA in Redis?",
+    "options": ["No difference", "EVAL sends the full script text; EVALSHA sends only the SHA1 hash of a previously loaded script", "EVALSHA is deprecated", "EVAL only works with strings"],
+    "correctAnswer": 1,
+    "explanation": "EVAL sends the complete Lua script to the server each time. EVALSHA references a script by its SHA1 hash, reducing network bandwidth after the first load."
+  },
+  {
+    "question": "What does CLUSTER COUNT-FAILURE-REPORTS node-id return?",
+    "options": ["Total cluster nodes", "The number of failure reports (pfail states) for a specific node", "The number of failed commands", "CPU failure count"],
+    "correctAnswer": 1,
+    "explanation": "This command returns how many nodes have reported the specified node as failing (PFAIL state), which helps diagnose cluster health."
+  },
+  {
+    "question": "What is the purpose of the Redis MODULE LOAD command?",
+    "options": ["Loads a configuration file", "Dynamically loads a Redis module (shared library) extending Redis functionality", "Loads data from a dump file", "Loads Lua scripts"],
+    "correctAnswer": 1,
+    "explanation": "MODULE LOAD dynamically loads a compiled Redis module (.so file) at runtime, adding new commands and data types without restarting."
+  },
+  {
+    "question": "What does XTRIM mystream MAXLEN 1000 do?",
+    "options": ["Deletes the stream", "Trims the stream to approximately 1000 messages, removing the oldest entries", "Trims message content to 1000 bytes", "Adds 1000 empty messages"],
+    "correctAnswer": 1,
+    "explanation": "XTRIM with MAXLEN keeps the stream to at most 1000 entries, removing the oldest messages to enforce a size limit."
+  },
+  {
+    "question": "What is the Redis Sentinel SLAVE-OF command used for?",
+    "options": ["Creates a slave", "Forces a Redis instance to replicate from a specified master", "Removes a slave", "Lists all slaves"],
+    "correctAnswer": 1,
+    "explanation": "SLAVEOF (or REPLICAOF in Redis 5+) tells a Redis instance to replicate from the specified master address and port."
+  },
+  {
+    "question": "What happens with WATCH key inside a MULTI/EXEC transaction?",
+    "options": ["Watches are ignored", "WATCH has no effect inside a transaction block", "It causes a syntax error", "WATCH must be before MULTI for optimistic locking"],
+    "correctAnswer": 3,
+    "explanation": "WATCH must be called BEFORE MULTI. Once inside a transaction block, WATCH has no effect. The correct pattern is WATCH, then MULTI, then commands, then EXEC."
+  },
+  {
+    "question": "What does OBJECT HELP return in Redis?",
+    "options": ["Help for the OBJECT command itself", "Lists all OBJECT subcommands with descriptions", "Returns server help text", "Shows key help"],
+    "correctAnswer": 1,
+    "explanation": "OBJECT HELP returns a list of all available OBJECT subcommands (ENCODING, FREQ, IDLETIME, REFCOUNT, HELP) with brief descriptions."
+  },
+  {
+    "question": "What is the purpose of the redis-cli --latency command?",
+    "options": ["Measures network bandwidth", "Continuously pings the server to measure latency distribution", "Tests throughput", "Measures memory latency"],
+    "correctAnswer": 1,
+    "explanation": "redis-cli --latency runs a continuous ping test measuring the round-trip time to the Redis server, showing min/max/avg latency."
+  },
+  {
+    "question": "What does CLUSTER KEYSLOT key return?",
+    "options": ["Whether the key exists", "The hash slot number assigned to the given key (0-16383)", "The key's memory slot", "The key's database number"],
+    "correctAnswer": 1,
+    "explanation": "CLUSTER KEYSLOT returns the hash slot (0-16383) that a key maps to. This determines which shard in a Redis Cluster stores the key."
+  },
+  {
+    "question": "What is the difference between BGSAVE and SAVE in Redis?",
+    "options": ["No difference", "BGSAVE forks a child process for non-blocking save; SAVE blocks the server until complete", "SAVE is deprecated", "BGSAVE only saves keys with TTL"],
+    "correctAnswer": 1,
+    "explanation": "SAVE blocks the Redis server completely while writing the RDB snapshot. BGSAVE forks a child process so the server remains responsive during the save."
+  },
+  {
+    "question": "What does DEBUG SLEEP seconds do in Redis?",
+    "options": ["Puts clients to sleep", "Blocks the server for the specified duration (used for testing latency detection)", "Sleeps a specific key", "Pauses replication"],
+    "correctAnswer": 1,
+    "explanation": "DEBUG SLEEP blocks the Redis server for the given number of seconds. It is primarily used for testing latency monitoring and detection features."
+  },
+  {
+    "question": "What is the purpose of the Redis 'ACL' (Access Control List) system?",
+    "options": ["Controls file access", "Provides fine-grained user authentication and command/keyword authorization", "Manages cluster access", "Controls network access"],
+    "correctAnswer": 1,
+    "explanation": "ACLs let you create users with specific passwords and restrict which commands and keys each user can access, replacing the old requirepass model."
+  },
+  {
+    "question": "What does 'MEMORY PURGE' do in Redis?",
+    "options": ["Deletes all keys", "Asks the allocator to release memory back to the operating system", "Purges expired keys", "Clears the memory log"],
+    "correctAnswer": 1,
+    "explanation": "MEMORY PURGE instructs the memory allocator (jemalloc by default) to release unused memory pages back to the OS."
+  },
+  {
+    "question": "What is the purpose of Redis 'SCRIPT FLUSH'?",
+    "options": ["Deletes all scripts from disk", "Removes all cached Lua scripts from the server's script cache", "Flushes script logs", "Clears the script queue"],
+    "correctAnswer": 1,
+    "explanation": "SCRIPT FLUSH removes all cached Lua scripts from memory, forcing them to be reloaded via EVAL or EVALSHA on next use."
+  },
+  {
+    "question": "What does 'CLUSTER SETSLOT node-id MIGRATING slot' do?",
+    "options": ["Migrates the entire database", "Puts the slot into migrating state on the current node, allowing keys to be moved out", "Creates a new slot", "Resets the slot"],
+    "correctAnswer": 1,
+    "explanation": "SETSLOT MIGRATING prepares a slot for key migration. GET requests still work, but multi-key operations on missing keys return -ASK redirection."
+  },
+  {
+    "question": "What is the purpose of 'CLUSTER REPLICATE node-id' command?",
+    "options": ["Creates a new cluster", "Forces a node to replicate the specified node, becoming its replica", "Replicates data between clusters", "Creates a read replica"],
+    "correctAnswer": 1,
+    "explanation": "CLUSTER REPLICATE configures a node to replicate another node, making it a replica of the specified master in the cluster."
+  },
+  {
+    "question": "What does 'ACL WHOAMI' return?",
+    "options": ["The client IP address", "The name of the ACL user associated with the current connection", "The server hostname", "The connection ID"],
+    "correctAnswer": 1,
+    "explanation": "ACL WHOAMI returns the name of the ACL user that the currently connected client is authenticated as."
+  },
+  {
+    "question": "What is the 'RDB file format' used for in Redis persistence?",
+    "options": ["Logging commands", "Snapshotting the entire in-memory dataset to a compact binary file on disk", "Storing Lua scripts", "Configuration storage"],
+    "correctAnswer": 1,
+    "explanation": "RDB creates point-in-time snapshots of the dataset in a compact binary format, used for backups and fast restarts."
+  },
+  {
+    "question": "What does 'CLUSTER SHARDS' return in Redis 7+?",
+    "options": ["Number of shards", "Shard information including slot ranges, nodes, and their roles", "Shard configuration file", "Disk usage per shard"],
+    "correctAnswer": 1,
+    "explanation": "CLUSTER SHARDS returns detailed information about each shard in the cluster, including slot ranges, node addresses, and primary/replica roles."
+  },
+  {
+    "question": "What is the purpose of Redis 'CONFIG REWRITE'?",
+    "options": ["Rewrites all data", "Modifies the redis.conf file on disk to reflect current runtime configuration changes", "Rewrites Lua scripts", "Rewrites AOF file"],
+    "correctAnswer": 1,
+    "explanation": "CONFIG REWRITE persists any runtime configuration changes made via CONFIG SET back to the redis.conf file, so they survive server restarts."
+  }
+]

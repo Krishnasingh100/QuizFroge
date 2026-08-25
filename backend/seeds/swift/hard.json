@@ -220,333 +220,216 @@
     "explanation": "The correct answer is 'modularity' for Swift."
   },
   {
-    "question": "Which statement checks for equality in Swift library imports?",
+    "question": "What is the output?\n\nlet nums = [1, 2, 3, 4, 5]\nlet sum = nums.reduce(0, +)\nprint(sum)",
     "options": [
-      "==",
-      "=>",
-      "=",
-      ":="
+      "10",
+      "15",
+      "20",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "reduce sums: 15."
+  },
+  {
+    "question": "What is the output?\n\nstruct Point { var x: Int; var y: Int }\nvar p1 = Point(x: 1, y: 2)\nvar p2 = p1\np2.x = 99\nprint(p1.x)",
+    "options": [
+      "99",
+      "1",
+      "2",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Structs are value types."
+  },
+  {
+    "question": "What is the output?\n\nenum Direction { case north, south, east, west }\nlet d = Direction.east\nprint(d)",
+    "options": [
+      "east",
+      "East",
+      "east()",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is '==' for Swift."
+    "explanation": "Enum prints case name."
   },
   {
-    "question": "Which mechanism helps avoid null reference errors in Swift source code?",
+    "question": "What is the output?\n\nlet s = \"Hello, World!\"\nlet words = s.components(separatedBy: \", \")\nprint(words.count)",
     "options": [
-      "exceptions",
-      "inheritance",
-      "global variables",
-      "optional types"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'optional types' for Swift."
-  },
-  {
-    "question": "Which feature is commonly used for concurrency in Swift applications in library imports?",
-    "options": [
-      "closures",
-      "async tasks",
-      "generics",
-      "inheritance"
+      "1",
+      "2",
+      "3",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'async tasks' for Swift."
+    "explanation": "Split into 2 elements."
   },
   {
-    "question": "Which concept ensures a variable keeps its state across function calls in Swift data types?",
+    "question": "What is the output?\n\nvar arr = [1, 2, 3]\narr.insert(0, at: 0)\nprint(arr)",
     "options": [
-      "transient",
-      "static",
-      "dynamic",
-      "volatile"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'static' for Swift."
-  },
-  {
-    "question": "Which statement checks for equality in Swift header files?",
-    "options": [
-      "==",
-      "=",
-      ":=",
-      "=>"
+      "[0, 1, 2, 3]",
+      "[1, 0, 2, 3]",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is '==' for Swift."
+    "explanation": "Insert 0 at beginning."
   },
   {
-    "question": "Which data structure is fastest for random access by index in Swift source code?",
+    "question": "What is the output?\n\nclass Counter {\n    var count = 0\n    func increment() { count += 1 }\n}\nlet c = Counter()\nc.increment()\nc.increment()\nprint(c.count)",
     "options": [
-      "linked list",
-      "queue",
-      "array",
-      "stack"
+      "1",
+      "2",
+      "3",
+      "Compilation error"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'array' for Swift."
+    "correctAnswer": 1,
+    "explanation": "Two increments = 2."
   },
   {
-    "question": "Which statement checks for equality in Swift input/output?",
+    "question": "What is the output?\n\nlet nums = [3, 1, 4, 1, 5]\nprint(nums.min()! , nums.max()!)",
     "options": [
-      "=>",
-      ":=",
-      "=",
-      "=="
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '==' for Swift."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Swift input/output?",
-    "options": [
-      "abstraction",
-      "polymorphism",
-      "encapsulation",
-      "modularity"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'modularity' for Swift."
-  },
-  {
-    "question": "Which data structure is fastest for random access by index in Swift data types?",
-    "options": [
-      "array",
-      "queue",
-      "linked list",
-      "stack"
+      "1 5",
+      "5 1",
+      "3 4",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is 'array' for Swift."
+    "explanation": "min=1, max=5."
   },
   {
-    "question": "Which keyword defines a class in Swift source code?",
+    "question": "What is the output?\n\nlet x = 0b1010\nprint(x)",
     "options": [
-      "module",
-      "namespace",
-      "package",
-      "function"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'function' for Swift."
-  },
-  {
-    "question": "Which statement checks for equality in Swift data types?",
-    "options": [
-      "==",
-      "=>",
-      "=",
-      ":="
+      "10",
+      "1010",
+      "2A",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is '==' for Swift."
+    "explanation": "0b1010 = 10 decimal."
   },
   {
-    "question": "Which statement checks for equality in Swift conditional logic?",
+    "question": "What is the output?\n\nvar x = 5\nlet closure = { x += 10 }\nclosure()\nprint(x)",
     "options": [
-      ":=",
-      "=>",
-      "==",
-      "="
+      "5",
+      "10",
+      "15",
+      "Compilation error"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is '==' for Swift."
+    "explanation": "5 + 10 = 15."
   },
   {
-    "question": "Which statement best describes memory management in Swift library imports?",
+    "question": "What is the output?\n\nlet optional: Int? = 42\nif let val_ = optional {\n    print(val_)\n} else {\n    print(\"nil\")\n}",
     "options": [
-      "implicit typing",
-      "runtime binding",
-      "automatic garbage collection",
-      "syntax highlighting"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Swift code in memory management?",
-    "options": [
-      "var",
-      "let",
-      "let",
-      "mutable"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'let' for Swift."
-  },
-  {
-    "question": "Which feature is commonly used for concurrency in Swift applications in function definitions?",
-    "options": [
-      "closures",
-      "generics",
-      "inheritance",
-      "async tasks"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'async tasks' for Swift."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Swift code in error handling?",
-    "options": [
-      "var",
-      "let",
-      "mutable",
-      "let"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'let' for Swift."
-  },
-  {
-    "question": "Which statement best describes memory management in Swift source code?",
-    "options": [
-      "implicit typing",
-      "runtime binding",
-      "automatic garbage collection",
-      "syntax highlighting"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
-  },
-  {
-    "question": "Which statement best describes memory management in Swift input/output?",
-    "options": [
-      "implicit typing",
-      "runtime binding",
-      "automatic garbage collection",
-      "syntax highlighting"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
-  },
-  {
-    "question": "Which statement best describes memory management in Swift conditional logic?",
-    "options": [
-      "runtime binding",
-      "implicit typing",
-      "automatic garbage collection",
-      "syntax highlighting"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Swift error handling?",
-    "options": [
-      "exceptions",
-      "optional types",
-      "inheritance",
-      "global variables"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'optional types' for Swift."
-  },
-  {
-    "question": "Which relationship lets one type inherit behavior from another in Swift conditional logic?",
-    "options": [
-      "delegation",
-      "inheritance",
-      "composition",
-      "aggregation"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'inheritance' for Swift."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Swift input/output?",
-    "options": [
-      "transient",
-      "dynamic",
-      "static",
-      "volatile"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'static' for Swift."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Swift code in library imports?",
-    "options": [
-      "let",
-      "let",
-      "mutable",
-      "var"
+      "42",
+      "nil",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is 'let' for Swift."
+    "explanation": "if let unwraps 42."
   },
   {
-    "question": "Which data structure is fastest for random access by index in Swift error handling?",
+    "question": "What is the output?\n\nfunc makeArray<T>(item: T, count: Int) -> [T] {\n    return [T](repeating: item, count: count)\n}\nprint(makeArray(item: \"hi\", count: 3))",
     "options": [
-      "linked list",
-      "queue",
-      "stack",
-      "array"
+      "[\"hi\", \"hi\", \"hi\"]",
+      "[\"hi\"]",
+      "Compilation error"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'array' for Swift."
+    "correctAnswer": 0,
+    "explanation": "Creates 3-element array."
   },
   {
-    "question": "Which keyword defines a class in Swift loop logic?",
+    "question": "What is the output?\n\nlet dict = [\"a\": 1, \"b\": 2, \"c\": 3]\nprint(dict.count)",
     "options": [
-      "package",
-      "function",
-      "namespace",
-      "module"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'function' for Swift."
-  },
-  {
-    "question": "Which statement best describes memory management in Swift error handling?",
-    "options": [
-      "syntax highlighting",
-      "automatic garbage collection",
-      "implicit typing",
-      "runtime binding"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Swift loop logic?",
-    "options": [
-      "transient",
-      "volatile",
-      "dynamic",
-      "static"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'static' for Swift."
-  },
-  {
-    "question": "Which data structure is fastest for random access by index in Swift conditional logic?",
-    "options": [
-      "queue",
-      "linked list",
-      "stack",
-      "array"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'array' for Swift."
-  },
-  {
-    "question": "Which statement best describes memory management in Swift loop logic?",
-    "options": [
-      "syntax highlighting",
-      "runtime binding",
-      "implicit typing",
-      "automatic garbage collection"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'automatic garbage collection' for Swift."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Swift code in loop logic?",
-    "options": [
-      "mutable",
-      "var",
-      "let",
-      "let"
+      "1",
+      "2",
+      "3",
+      "6"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'let' for Swift."
+    "explanation": "3 pairs."
+  },
+  {
+    "question": "What is the output?\n\nlet nums = [1, 2, 3, 4, 5]\nlet evens = nums.filter { $0 % 2 == 0 }\nprint(evens)",
+    "options": [
+      "[1, 3, 5]",
+      "[2, 4]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Filter keeps evens."
+  },
+  {
+    "question": "What is the output?\n\nlet s = \"swift\"\nprint(s.capitalized)",
+    "options": [
+      "swift",
+      "Swift",
+      "SWIFT",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "capitalized uppercases first letter."
+  },
+  {
+    "question": "What is the output?\n\nlet nums = [5, 3, 1, 4, 2]\nlet sorted = nums.sorted()\nprint(sorted)",
+    "options": [
+      "[5, 3, 1, 4, 2]",
+      "[1, 2, 3, 4, 5]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "sorted() returns ascending."
+  },
+  {
+    "question": "What is the output?\n\nlet a = [1, 2]\nlet b = [3, 4]\nprint(a + b)",
+    "options": [
+      "[1, 2, 3, 4]",
+      "[4, 6]",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "+ concatenates arrays."
+  },
+  {
+    "question": "What is the output?\n\nlet nums = [1, 2, 3, 4, 5]\nlet result = nums.prefix(3)\nprint(result)",
+    "options": [
+      "[1, 2, 3]",
+      "[3, 4, 5]",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "prefix(3) returns first 3."
+  },
+  {
+    "question": "What is the output?\n\nlet map = [\"x\": 10, \"y\": 20]\nprint(map.values.reduce(0, +))",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "Compilation error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "10 + 20 = 30."
+  },
+  {
+    "question": "What is the output?\n\nlet nums = [1, 2, 3, 4, 5]\nlet result = nums.drop(2)\nprint(result)",
+    "options": [
+      "[1, 2]",
+      "[3, 4, 5]",
+      "[1, 2, 3, 4, 5]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "drop(2) removes first 2 elements."
+  },
+  {
+    "question": "What is the output?\n\nlet nums = [1, 2, 3, 4, 5]\nlet result = nums.contains(3)\nprint(result)",
+    "options": [
+      "true",
+      "false",
+      "3",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "contains(3) is true."
   }
 ]

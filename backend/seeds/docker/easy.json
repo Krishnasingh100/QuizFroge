@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What is the command to list all running Docker containers?",
+    "options": ["docker ps", "docker list", "docker containers", "docker show"],
+    "correctAnswer": 0,
+    "explanation": "docker ps lists all currently running containers. Use -a to see all containers including stopped ones."
+  },
+  {
+    "question": "Which file is used to define the steps for building a Docker image?",
+    "options": ["Dockerfile", "docker-compose.yml", "Docker.config", "docker.build"],
+    "correctAnswer": 0,
+    "explanation": "A Dockerfile contains instructions for building a Docker image."
+  },
+  {
+    "question": "What is the purpose of docker pull?",
+    "options": ["Upload an image to Docker Hub", "Download an image from a registry", "Delete a local image", "Create a new container"],
+    "correctAnswer": 1,
+    "explanation": "docker pull downloads an image from a registry like Docker Hub to your local machine."
+  },
+  {
+    "question": "What does the 'EXPOSE' instruction do in a Dockerfile?",
+    "options": ["Opens a port in the host machine", "Documents which ports the container listens on", "Automatically publishes the port", "Blocks incoming traffic"],
+    "correctAnswer": 1,
+    "explanation": "EXPOSE informs Docker that the container listens on specific ports at runtime. It doesn't actually publish the port."
+  },
+  {
+    "question": "What is the default base image registry when you pull an image without specifying one?",
+    "options": ["GitHub Container Registry", "AWS ECR", "Docker Hub", "Google Container Registry"],
+    "correctAnswer": 2,
+    "explanation": "When no registry is specified, Docker defaults to Docker Hub."
+  },
+  {
+    "question": "Which command removes a stopped container?",
+    "options": ["docker delete", "docker rm", "docker remove", "docker destroy"],
+    "correctAnswer": 1,
+    "explanation": "docker rm removes one or more stopped containers."
+  },
+  {
+    "question": "What is the output of 'docker run -d nginx'?",
+    "options": ["Runs nginx in foreground", "Runs nginx in detached (background) mode", "Downloads nginx and exits", "Stops nginx"],
+    "correctAnswer": 1,
+    "explanation": "The -d flag runs the container in detached mode, meaning it runs in the background."
+  },
+  {
+    "question": "What is a Docker image?",
+    "options": ["A running instance of an application", "A read-only template with instructions for creating a container", "A virtual machine", "A configuration file"],
+    "correctAnswer": 1,
+    "explanation": "A Docker image is a read-only template containing application code, libraries, and dependencies needed to run an application."
+  },
+  {
+    "question": "Which command shows the logs of a running container?",
+    "options": ["docker logs", "docker output", "docker show", "docker debug"],
+    "correctAnswer": 0,
+    "explanation": "docker logs fetches the stdout and stderr output from a container."
+  },
+  {
+    "question": "What does the 'docker stop' command do?",
+    "options": ["Removes the container immediately", "Sends SIGTERM then SIGKILL to gracefully stop a container", "Pauses all processes in the container", "Disconnects the container from the network"],
+    "correctAnswer": 1,
+    "explanation": "docker stop sends SIGTERM to the main process, then SIGKILL after a grace period to gracefully stop a container."
+  },
+  {
+    "question": "Which command is used to list all Docker images on your local machine?",
+    "options": ["docker list images", "docker images", "docker show images", "docker ls images"],
+    "correctAnswer": 1,
+    "explanation": "docker images lists all locally stored Docker images."
+  },
+  {
+    "question": "What does the '-it' flag do when running a Docker container?",
+    "options": ["Increases memory", "Runs interactively with a terminal (stdin + TTY)", "Enables tracing", "Sets initial timeout"],
+    "correctAnswer": 1,
+    "explanation": "The -it flag combines -i (interactive, keeps stdin open) and -t (allocates a pseudo-TTY), enabling interactive terminal sessions."
+  },
+  {
+    "question": "What is the purpose of the 'docker build' command?",
+    "options": ["Run a container from an image", "Create a Docker image from a Dockerfile", "Download an image from the registry", "Push an image to a registry"],
+    "correctAnswer": 1,
+    "explanation": "docker build creates a Docker image by executing the instructions in a Dockerfile."
+  },
+  {
+    "question": "What does the 'docker rm' command do to a running container?",
+    "options": ["Removes it successfully", "Fails with an error unless -f flag is used", "Pauses it first then removes", "Automatically stops and removes it"],
+    "correctAnswer": 1,
+    "explanation": "docker rm cannot remove a running container. Use 'docker rm -f' to force-remove a running container."
+  },
+  {
+    "question": "What is Docker Hub?",
+    "options": ["A container runtime", "A cloud-based registry for finding and sharing Docker images", "A container orchestration tool", "A local build tool"],
+    "correctAnswer": 1,
+    "explanation": "Docker Hub is a cloud-based repository for finding, sharing, and managing Docker images."
+  },
+  {
+    "question": "Which Docker command pauses a running container?",
+    "options": ["docker stop", "docker pause", "docker hold", "docker freeze"],
+    "correctAnswer": 1,
+    "explanation": "docker pause suspends all processes in a container using cgroups freezer. docker unpause resumes it."
+  },
+  {
+    "question": "What does the 'docker version' command show?",
+    "options": ["Container versions", "Docker client and server version information", "Image tags", "OS version"],
+    "correctAnswer": 1,
+    "explanation": "docker version displays version information for the Docker client and Docker daemon (server)."
+  },
+  {
+    "question": "Which command forces Docker to remove a running container?",
+    "options": ["docker rm -f", "docker rm --force", "docker rmi -f", "Both A and B"],
+    "correctAnswer": 3,
+    "explanation": "Both 'docker rm -f' and 'docker rm --force' forcefully remove a running container by sending SIGKILL."
+  },
+  {
+    "question": "What is the purpose of 'docker tag'?",
+    "options": ["Removes a tag from an image", "Creates a new tag (alias) for an existing image", "Lists tags of an image", "Downloads a specific tag"],
+    "correctAnswer": 1,
+    "explanation": "docker tag creates a new tag (reference) pointing to an existing image, useful for preparing an image for push."
+  },
+  {
+    "question": "What does the 'docker inspect' command provide?",
+    "options": ["Only the image size", "Detailed low-level information about a container or image", "Log files only", "Network speed test results"],
+    "correctAnswer": 1,
+    "explanation": "docker inspect returns detailed JSON information about Docker objects including configuration, state, mounts, and network settings."
+  },
+  {
+    "question": "What does 'docker run -e MY_VAR=hello nginx' do?",
+    "options": ["Runs nginx with a custom environment variable MY_VAR set to hello", "Sets a Docker configuration", "Creates a volume named MY_VAR", "Renames the container"],
+    "correctAnswer": 0,
+    "explanation": "The -e flag sets environment variables inside the running container. MY_VAR will be accessible as an env var inside the container."
+  },
+  {
+    "question": "Which command restarts a stopped container?",
+    "options": ["docker start", "docker restart", "docker run", "Both A and B"],
+    "correctAnswer": 3,
+    "explanation": "docker start starts a stopped container. docker restart stops and then starts a container. Both work on stopped containers."
+  },
+  {
+    "question": "What is the difference between 'docker run' and 'docker create'?",
+    "options": ["No difference", "create makes the container without starting it, run creates and starts it", "create is faster", "run cannot use an existing image"],
+    "correctAnswer": 1,
+    "explanation": "docker create creates a container but doesn't start it. docker run creates and starts a container in one step."
+  },
+  {
+    "question": "What does the 'docker top' command show?",
+    "options": ["Docker version info", "Running processes inside a container", "CPU usage of Docker daemon", "Top files by size in a container"],
+    "correctAnswer": 1,
+    "explanation": "docker top displays the running processes inside a specific container, similar to the Linux top/ps command."
+  },
+  {
+    "question": "What does the 'docker diff' command do?",
+    "options": ["Compares two images", "Shows file changes in a container's filesystem since it started", "Diff two Dockerfiles", "Shows network differences"],
+    "correctAnswer": 1,
+    "explanation": "docker diff lists all files that have been added, changed, or deleted in a container's writable layer since creation."
+  },
+  {
+    "question": "What is the purpose of 'docker wait' command?",
+    "options": ["Waits for an image to download", "Blocks until a container stops, then prints its exit code", "Waits for the Docker daemon to start", "Adds a delay before starting a container"],
+    "correctAnswer": 1,
+    "explanation": "docker wait blocks until a container stops and then prints the exit code of the container's main process."
+  },
+  {
+    "question": "What does 'docker export' do?",
+    "options": ["Exports an image to a tar file", "Exports a container's filesystem as a tar archive", "Exports environment variables", "Exports Docker configuration"],
+    "correctAnswer": 1,
+    "explanation": "docker export creates a tarball of a container's entire filesystem, flattening all layers into a single archive."
+  },
+  {
+    "question": "What does 'docker cp' do?",
+    "options": ["Copies Docker images", "Copies files/directories between a container and the host filesystem", "Copies containers", "Copies network configurations"],
+    "correctAnswer": 1,
+    "explanation": "docker cp copies files or directories between a container and the local host filesystem in either direction."
+  },
+  {
+    "question": "Which flag makes a container automatically restart when it exits?",
+    "options": ["--restart always", "--autorestart", "--persistent", "--loop"],
+    "correctAnswer": 0,
+    "explanation": "--restart always tells Docker to always restart the container if it exits, including on daemon startup."
+  },
+  {
+    "question": "What does the 'docker stats' command show?",
+    "options": ["Image statistics", "Live resource usage statistics for running containers (CPU, memory, network)", "Build statistics", "Volume statistics"],
+    "correctAnswer": 1,
+    "explanation": "docker stats displays a live stream of resource usage for all running containers, including CPU%, memory, network I/O, and block I/O."
+  },
+  {
+    "question": "What does 'docker run --rm nginx' do?",
+    "options": ["Runs nginx permanently", "Runs nginx and automatically removes the container when it stops", "Removes the nginx image", "Runs nginx in read-only mode"],
+    "correctAnswer": 1,
+    "explanation": "The --rm flag tells Docker to automatically remove the container when it exits, preventing stopped containers from accumulating."
+  },
+  {
+    "question": "What is the purpose of 'docker logout'?",
+    "options": ["Stops all containers", "Removes stored credentials for a Docker registry", "Logs out of Docker Desktop", "Disconnects from Docker Hub network"],
+    "correctAnswer": 1,
+    "explanation": "docker logout removes the stored authentication credentials for a registry, requiring re-login for future pushes/pulls."
+  },
+  {
+    "question": "What does 'docker container prune' do?",
+    "options": ["Removes all containers", "Removes all stopped containers", "Prunes container logs", "Resets container configuration"],
+    "correctAnswer": 1,
+    "explanation": "docker container prune removes all stopped containers, freeing up disk space used by their writable layers."
+  },
+  {
+    "question": "What does the 'docker logs --tail 10' flag do?",
+    "options": ["Shows first 10 lines", "Shows last 10 lines of container logs", "Shows 10 random lines", "Limits log size to 10MB"],
+    "correctAnswer": 1,
+    "explanation": "The --tail flag limits the output to the last N lines of the container's log output."
+  },
+  {
+    "question": "What does 'docker run -d -p 3000:3000 myapp' map?",
+    "options": ["Port 3000 inside container to port 3000 on host", "Port 3000 on host to port 3000 inside container", "Both ports to localhost", "No port mapping"],
+    "correctAnswer": 1,
+    "explanation": "-p 3000:3000 maps port 3000 on the host to port 3000 inside the container."
+  },
+  {
+    "question": "What does 'docker image ls --digests' show?",
+    "options": ["Only tagged images", "Images with their content-addressable digests", "Corrupted images", "Images without tags"],
+    "correctAnswer": 1,
+    "explanation": "The --digests flag includes the SHA256 digest for each image, which uniquely identifies the image content."
+  },
+  {
+    "question": "What is the purpose of 'docker login'?",
+    "options": ["Starts a container", "Authenticates with a Docker registry for push/pull operations", "Lists logged-in users", "Shows connection status"],
+    "correctAnswer": 1,
+    "explanation": "docker login authenticates your Docker client with a registry (like Docker Hub) so you can push and pull private images."
+  },
+  {
+    "question": "What does 'docker run -e NODE_ENV=production node app' do?",
+    "options": ["Creates a NODE_ENV image", "Sets the NODE_ENV environment variable to 'production' inside the container", "Switches Docker to production mode", "Changes the container hostname"],
+    "correctAnswer": 1,
+    "explanation": "The -e flag sets environment variables inside the running container. NODE_ENV will be available as an environment variable."
+  },
+  {
+    "question": "What does the 'docker container ls -a' command show?",
+    "options": ["Only running containers", "All containers including stopped ones", "All images", "Container logs"],
+    "correctAnswer": 1,
+    "explanation": "docker container ls -a lists all containers, both running and stopped. Without -a, only running containers are shown."
+  },
+  {
+    "question": "What is the purpose of 'docker image inspect'?",
+    "options": ["Shows image size only", "Returns detailed JSON metadata about a specific Docker image", "Lists all images", "Shows image layers in detail"],
+    "correctAnswer": 1,
+    "explanation": "docker image inspect returns detailed information about an image including its layers, configuration, architecture, and OS."
+  }
+]

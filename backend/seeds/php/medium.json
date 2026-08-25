@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 1,
     "explanation": "=== requires identical values of identical types, unlike loose ==."
+  },
+  {
+    "question": "What does array_unique() do in PHP?",
+    "options": [
+      "Removes all elements",
+      "Removes duplicate values from an array keeping only unique ones",
+      "Sorts the array",
+      "Shuffles the array"
+    ],
+    "correctAnswer": 1,
+    "explanation": "array_unique removes duplicate values keeping only the first occurrence of each value."
+  },
+  {
+    "question": "What is the difference between == and !== in PHP?",
+    "options": [
+      "No difference",
+      "== does loose comparison !== does strict comparison and returns true if not equal",
+      "== is faster",
+      "!== is deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "== does loose comparison with type juggling. !== is the strict inequality operator comparing both value and type."
+  },
+  {
+    "question": "What does array_keys() return?",
+    "options": [
+      "Array values only",
+      "An array containing all the keys from the given array",
+      "The first key only",
+      "The count of keys"
+    ],
+    "correctAnswer": 1,
+    "explanation": "array_keys returns an array containing all the string and integer keys from the input array."
+  },
+  {
+    "question": "What is the purpose of the extract() function?",
+    "options": [
+      "Extracts data from databases",
+      "Imports variables from an array into the current symbol table using array keys as variable names",
+      "Extracts text from HTML",
+      "Extracts files from archives"
+    ],
+    "correctAnswer": 1,
+    "explanation": "extract creates variables from array keys making $key available for each key-value pair."
+  },
+  {
+    "question": "What does array_flip() do?",
+    "options": [
+      "Reverses the array order",
+      "Swaps the keys with their corresponding values in an array",
+      "Flips a boolean",
+      "Creates a mirror image"
+    ],
+    "correctAnswer": 1,
+    "explanation": "array_flip exchanges all keys with their associated values."
+  },
+  {
+    "question": "What is the purpose of the spl_autoload_register() function?",
+    "options": [
+      "Registering users",
+      "Registers an autoload function to automatically load classes when first referenced",
+      "Registering sessions",
+      "Registering plugins"
+    ],
+    "correctAnswer": 1,
+    "explanation": "spl_autoload_register registers a function that automatically includes class files when they are needed."
+  },
+  {
+    "question": "What does array_column() do?",
+    "options": [
+      "Creates columns in HTML",
+      "Returns values from a single column in a multidimensional array",
+      "Adds columns to arrays",
+      "Removes columns"
+    ],
+    "correctAnswer": 1,
+    "explanation": "array_column retrieves a single column of values from a multidimensional array."
+  },
+  {
+    "question": "What is the difference between array_map and array_walk?",
+    "options": [
+      "No difference",
+      "array_map creates a new array with results array_walk modifies the original array in place",
+      "array_map is faster",
+      "array_walk is deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "array_map returns a new transformed array while array_walk modifies the original array and returns a boolean."
+  },
+  {
+    "question": "What does the http_response_code() function do?",
+    "options": [
+      "Returns the HTTP client code",
+      "Gets or sets the HTTP response status code",
+      "Creates HTTP responses",
+      "Validates HTTP codes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "http_response_code gets or sets the HTTP response status code for the current response."
+  },
+  {
+    "question": "What is the purpose of the date() function?",
+    "options": [
+      "Creates calendar objects",
+      "Formats a local date and time according to the specified format string",
+      "Sets the system date",
+      "Creates date objects only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "date() formats a timestamp into a human-readable string using format characters."
+  },
+  {
+    "question": "What does array_diff() do?",
+    "options": [
+      "Finds array differences",
+      "Returns an array containing all values from the first array not present in other arrays",
+      "Merges arrays",
+      "Sorts arrays"
+    ],
+    "correctAnswer": 1,
+    "explanation": "array_diff compares the first array against others and returns values present only in the first array."
+  },
+  {
+    "question": "What is the purpose of the parse_url() function?",
+    "options": [
+      "Parses HTML",
+      "Parses a URL and returns its components like scheme host path and query",
+      "Parses JSON",
+      "Parses XML"
+    ],
+    "correctAnswer": 1,
+    "explanation": "parse_url breaks a URL into its components: scheme host path query fragment etc."
+  },
+  {
+    "question": "What does array_push() return as its result?",
+    "options": [
+      "The pushed element",
+      "The new total number of elements in the array",
+      "true on success",
+      "The old array length"
+    ],
+    "correctAnswer": 1,
+    "explanation": "array_push returns the new total number of elements in the array after pushing."
+  },
+  {
+    "question": "What is the difference between sizeof() and count()?",
+    "options": [
+      "sizeof is faster",
+      "They are aliases and return the same result",
+      "count is deprecated",
+      "sizeof only counts strings"
+    ],
+    "correctAnswer": 1,
+    "explanation": "sizeof is an alias for count. They both return the number of elements in an array."
+  },
+  {
+    "question": "What does the mail() function do?",
+    "options": [
+      "Creates postal mail",
+      "Sends an email from a PHP script to a specified address",
+      "Checks mail server",
+      "Creates mailboxes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "mail() sends an email message using the configured mail system on the server."
+  },
+  {
+    "question": "What is the purpose of the usort() function?",
+    "options": [
+      "Counts elements",
+      "Sorts an array using a user-defined comparison function",
+      "Unsets the array",
+      "Searches the array"
+    ],
+    "correctAnswer": 1,
+    "explanation": "usort sorts an array using a callback function that defines the comparison logic."
+  },
+  {
+    "question": "What does array_column with a key parameter do?",
+    "options": [
+      "Creates a new array key",
+      "Uses specified values as keys instead of numeric indices in the returned array",
+      "Renames all keys",
+      "Deletes keys"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The third parameter of array_column specifies which values to use as keys in the result array."
+  },
+  {
+    "question": "What is the purpose of the preg_match() function?",
+    "options": [
+      "Matches strings",
+      "Performs a regular expression match returning true if found",
+      "Parses HTML",
+      "Validates URLs only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "preg_match performs a regex search returning 1 if a match is found 0 if not and false on error."
+  },
+  {
+    "question": "What does the ob_start() function do?",
+    "options": [
+      "Starts a web server",
+      "Enables output buffering so all output can be captured or manipulated before sending",
+      "Starts a session",
+      "Opens a file for writing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ob_start turns on output buffering allowing you to capture all output before it is sent to the browser."
+  },
+  {
+    "question": "What does the debug_backtrace() function provide?",
+    "options": [
+      "Error messages only",
+      "Returns the current call stack with file names and line numbers for debugging",
+      "Debugs database queries",
+      "Traces network requests"
+    ],
+    "correctAnswer": 1,
+    "explanation": "debug_backtrace returns an array with the current call stack useful for debugging function calls."
   }
 ]

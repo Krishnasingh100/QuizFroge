@@ -1,0 +1,443 @@
+[
+  {
+    "question": "What is Tailwind CSS?",
+    "options": [
+      "A JavaScript framework",
+      "A utility-first CSS framework",
+      "A React component library",
+      "A CSS preprocessor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tailwind CSS is a utility-first CSS framework that provides low-level utility classes to build custom designs."
+  },
+  {
+    "question": "Which class makes text centered in Tailwind?",
+    "options": [
+      "text-center",
+      "align-center",
+      "center-text",
+      "text-middle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The 'text-center' class applies 'text-align: center' to the element."
+  },
+  {
+    "question": "How do you add padding to all sides of an element in Tailwind?",
+    "options": [
+      "padding-4",
+      "p-4",
+      "pad-4",
+      "all-padding-4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'p-4' class adds padding of 1rem (16px) to all four sides of an element."
+  },
+  {
+    "question": "What does 'bg-blue-500' do?",
+    "options": [
+      "Sets text color to blue",
+      "Sets background color to blue",
+      "Creates a blue border",
+      "Adds a blue shadow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'bg-blue-500' sets the background color to the 500 shade of the blue color palette."
+  },
+  {
+    "question": "What is the default unit for spacing values in Tailwind?",
+    "options": [
+      "Pixels",
+      "Rems (4px per unit)",
+      "Ems",
+      "Points"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tailwind uses rems by default. Each unit equals 0.25rem (4px at default font size)."
+  },
+  {
+    "question": "Which class makes a flex container?",
+    "options": [
+      "flex",
+      "display-flex",
+      "d-flex",
+      "flexbox"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The 'flex' class applies 'display: flex' to the element."
+  },
+  {
+    "question": "How do you make text bold in Tailwind?",
+    "options": [
+      "text-bold",
+      "font-bold",
+      "bold-text",
+      "fw-bold"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'font-bold' applies 'font-weight: 700' to make text bold."
+  },
+  {
+    "question": "What does 'hover:bg-gray-200' do?",
+    "options": [
+      "Always sets background to gray",
+      "Changes background to gray-200 on hover",
+      "Removes background on hover",
+      "Adds a gray border on hover"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'hover:' variant applies the style only when the element is hovered."
+  },
+  {
+    "question": "Which class hides an element in Tailwind?",
+    "options": [
+      "hidden",
+      "hide",
+      "display-none",
+      "invisible"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'hidden' applies 'display: none', completely removing the element from layout."
+  },
+  {
+    "question": "How do you set a maximum width in Tailwind?",
+    "options": [
+      "max-w-lg",
+      "width-max-lg",
+      "maximum-width-lg",
+      "mw-lg"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'max-w-lg' sets max-width to 32rem (512px). Different sizes use sm, md, lg, xl, 2xl suffixes."
+  },
+  {
+    "question": "What does the 'm-4' class do in Tailwind?",
+    "options": [
+      "Adds margin of 1rem to all sides",
+      "Adds margin of 4px to all sides",
+      "Creates a 4px border",
+      "Sets max-height to 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The 'm-4' class adds a margin of 1rem (16px) on all four sides of the element."
+  },
+  {
+    "question": "Which class makes a text color red in Tailwind?",
+    "options": [
+      "text-red-500",
+      "color-red-500",
+      "font-red-500",
+      "red-text"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'text-red-500' sets the text color to the 500 shade of the red color palette."
+  },
+  {
+    "question": "What does 'rounded-lg' do in Tailwind?",
+    "options": [
+      "Makes the element large",
+      "Applies a large border-radius for rounded corners",
+      "Adds a large shadow",
+      "Makes the element circular"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'rounded-lg' applies a border-radius of 0.5rem (8px) for noticeably rounded corners."
+  },
+  {
+    "question": "How do you make an element a grid container in Tailwind?",
+    "options": [
+      "grid",
+      "display-grid",
+      "d-grid",
+      "css-grid"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The 'grid' class applies 'display: grid' to the element."
+  },
+  {
+    "question": "What does 'text-sm' class do?",
+    "options": [
+      "Makes the element smaller",
+      "Sets font-size to small (0.875rem)",
+      "Reduces spacing",
+      "Makes text thinner"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'text-sm' sets the font-size to 0.875rem (14px), a slightly smaller than default text size."
+  },
+  {
+    "question": "Which class adds a shadow to an element?",
+    "options": [
+      "shadow-md",
+      "box-shadow",
+      "add-shadow",
+      "shadow-on"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'shadow-md' applies a medium box-shadow for a lifted card-like appearance."
+  },
+  {
+    "question": "What does 'w-full' do in Tailwind?",
+    "options": [
+      "Makes the font full width",
+      "Sets width to 100% of the parent",
+      "Makes the element fully rounded",
+      "Sets minimum width"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'w-full' applies 'width: 100%', making the element span the full width of its parent container."
+  },
+  {
+    "question": "Which class makes text uppercase in Tailwind?",
+    "options": [
+      "text-uppercase",
+      "uppercase",
+      "all-caps",
+      "font-uppercase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'uppercase' applies 'text-transform: uppercase' to convert all text to uppercase letters."
+  },
+  {
+    "question": "What does 'relative' class do in Tailwind?",
+    "options": [
+      "Renders the element normally",
+      "Sets position to relative, enabling absolute positioning of children",
+      "Hides the element",
+      "Makes it smaller than siblings"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'relative' applies 'position: relative', which is needed as a positioning context for absolutely positioned child elements."
+  },
+  {
+    "question": "How do you add a border in Tailwind?",
+    "options": [
+      "border",
+      "add-border",
+      "borderline",
+      "has-border"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'border' adds a 1px solid border around the element using the default border color."
+  },
+  {
+    "question": "Which class sets the opacity of an element in Tailwind?",
+    "options": [
+      "opacity-50",
+      "transparency-50",
+      "alpha-50",
+      "fade-50"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'opacity-50' sets the element's opacity to 0.5 (50%), making it semi-transparent."
+  },
+  {
+    "question": "What does 'cursor-pointer' do in Tailwind?",
+    "options": [
+      "Sets the cursor to a pointer arrow on hover",
+      "Creates a clickable element",
+      "Points to a file",
+      "Highlights the element"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'cursor-pointer' changes the mouse cursor to a pointer hand, indicating the element is clickable."
+  },
+  {
+    "question": "Which class makes an image cover its container?",
+    "options": [
+      "object-cover",
+      "img-cover",
+      "fill-cover",
+      "bg-cover"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'object-cover' applies 'object-fit: cover', making an image scale to fill its container while maintaining aspect ratio."
+  },
+  {
+    "question": "How do you add a gap between grid or flex items in Tailwind?",
+    "options": [
+      "gap-4",
+      "spacing-4",
+      "space-4",
+      "gutter-4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'gap-4' adds a 1rem gap between items in a grid or flex container using the CSS gap property."
+  },
+  {
+    "question": "What does 'font-mono' do in Tailwind?",
+    "options": [
+      "Makes the font larger",
+      "Sets the font family to a monospace font",
+      "Makes text bold",
+      "Makes the font italic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'font-mono' applies a monospace font family (ui-monospace, Menlo, Monaco, etc.) to the element."
+  },
+  {
+    "question": "Which class adds a transition effect in Tailwind?",
+    "options": [
+      "transition",
+      "animate",
+      "tween",
+      "fade-in"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'transition' enables CSS transitions on the element for smooth property changes."
+  },
+  {
+    "question": "What does 'sticky top-0' do?",
+    "options": [
+      "Keeps the element at the top of the viewport while scrolling within its parent",
+      "Fixes the element to the absolute top",
+      "Makes the element unmovable",
+      "Pins the element to the page"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'sticky' with 'top-0' makes the element stick to the top of the viewport when it would normally scroll out of view."
+  },
+  {
+    "question": "Which class centers content using flexbox?",
+    "options": [
+      "flex justify-center items-center",
+      "flex-center",
+      "center-all",
+      "text-center"
+    ],
+    "perfect": false,
+    "correctAnswer": 0,
+    "explanation": "Combining 'flex justify-center items-center' centers content both horizontally and vertically in a flex container."
+  },
+  {
+    "question": "What does 'sr-only' do for accessibility?",
+    "options": [
+      "Adds a screen reader announcement",
+      "Hides content visually but keeps it available to screen readers",
+      "Makes text smaller",
+      "Enables screen recording"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'sr-only' visually hides content using clip and position while keeping it in the DOM for assistive technologies."
+  },
+  {
+    "question": "How do you set a specific height in Tailwind?",
+    "options": [
+      "h-64",
+      "height-64",
+      "ht-64",
+      "set-height-64"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'h-64' sets the height to 16rem (256px). Tailwind provides many height scale values."
+  },
+  {
+    "question": "Which class adds an outline ring for focus states?",
+    "options": [
+      "focus:ring",
+      "focus-outline",
+      "focus:border",
+      "active-ring"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'focus:ring' adds a box-shadow based ring outline when the element receives keyboard focus, for accessibility."
+  },
+  {
+    "question": "Which class creates a space between elements inside a flex container?",
+    "options": [
+      "gap-4",
+      "spacing-4",
+      "margin-gap",
+      "flex-space"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'gap-4' adds 1rem spacing between flex or grid children using the CSS gap property."
+  },
+  {
+    "question": "What does 'text-lg' do in Tailwind?",
+    "options": [
+      "Sets font-size to large (1.125rem)",
+      "Makes the text bold",
+      "Increases line height",
+      "Makes text uppercase"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'text-lg' sets font-size to 1.125rem (18px), slightly larger than the default."
+  },
+  {
+    "question": "Which class makes a button appear clickable with a pointer cursor?",
+    "options": [
+      "cursor-pointer",
+      "pointer",
+      "clickable",
+      "btn-cursor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'cursor-pointer' changes the mouse cursor to a pointer hand, indicating interactivity."
+  },
+  {
+    "question": "How do you add a left margin in Tailwind?",
+    "options": [
+      "ml-4",
+      "margin-left-4",
+      "left-margin-4",
+      "ml"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'ml-4' adds a 1rem left margin. The 'l' in 'ml' stands for 'left'."
+  },
+  {
+    "question": "What does 'min-h-screen' do?",
+    "options": [
+      "Sets minimum height to 100vh (full viewport)",
+      "Makes the element screen-width",
+      "Creates a full-screen overlay",
+      "Sets height to auto"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'min-h-screen' sets min-height to 100vh, ensuring the element is at least as tall as the viewport."
+  },
+  {
+    "question": "Which class makes text italic?",
+    "options": [
+      "italic",
+      "text-italic",
+      "font-italic",
+      "style-italic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'italic' applies 'font-style: italic' to make the text appear slanted."
+  },
+  {
+    "question": "What does 'select-none' do?",
+    "options": [
+      "Makes text unselectable by the user",
+      "Deselects all elements",
+      "Removes dropdown selects",
+      "Disables multi-select"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'select-none' applies 'user-select: none', preventing the user from selecting/highlighting text."
+  },
+  {
+    "question": "Which class creates a fixed-size square element in Tailwind?",
+    "options": [
+      "w-10 h-10",
+      "square-10",
+      "size-10",
+      "equal-10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Combining 'w-10 h-10' sets both width and height to 2.5rem, creating a square element."
+  },
+  {
+    "question": "How do you add a bottom border in Tailwind?",
+    "options": [
+      "border-b",
+      "border-bottom",
+      "bborder",
+      "lower-border"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'border-b' adds a 1px border only on the bottom side of the element."
+  }
+]

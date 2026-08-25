@@ -206,7 +206,7 @@
       "That lock-free code will never deadlock"
     ],
     "correctAnswer": 1,
-    "explanation": "A Happens-Before relationship ensures memory visibility—meaning changes made by thread A are guaranteed to be seen by thread B at specific sync points."
+    "explanation": "A Happens-Before relationship ensures memory visibility\u2014meaning changes made by thread A are guaranteed to be seen by thread B at specific sync points."
   },
   {
     "question": "Where is memory allocated when calling ByteBuffer.allocateDirect()?",
@@ -220,333 +220,223 @@
     "explanation": "Direct ByteBuffers allocate native memory outside the normal JVM heap, avoiding copy overhead during native I/O operations."
   },
   {
-    "question": "What replaced PermGen (Permanent Generation) starting in Java 8?",
+    "question": "What is the output?\n\nrecord Point(int x, int y) {}\nvar p = new Point(3, 4);\nSystem.out.println(p.x() + p.y());",
     "options": [
-      "Native Heap",
-      "Metaspace",
-      "G1 Space",
-      "Code Cache"
+      "34",
+      "7",
+      "Compilation error",
+      "Runtime error"
     ],
     "correctAnswer": 1,
-    "explanation": "Java 8 replaced PermGen with Metaspace, which expands dynamically using native host memory rather than fixed JVM heap memory."
+    "explanation": "Record accessors return field values. 3+4=7."
   },
   {
-    "question": "What distinguishes Hashtable from HashMap?",
+    "question": "What is the output?\n\nString s = \"aabbcc\";\nSystem.out.println(s.chars().distinct().count());",
     "options": [
-      "Hashtable allows null keys",
-      "Hashtable is synchronized while HashMap is not",
-      "HashMap is slower by design",
-      "Hashtable preserves insertion order"
+      "3",
+      "6",
+      "2",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "distinct() removes duplicates: a, b, c."
+  },
+  {
+    "question": "What is the output?\n\nAtomicInteger counter = new AtomicInteger(0);\nIntStream.range(0, 1000).parallel().forEach(i -> counter.incrementAndGet());\nSystem.out.println(counter.get());",
+    "options": [
+      "1000",
+      "Less than 1000",
+      "More than 1000",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AtomicInteger is thread-safe."
+  },
+  {
+    "question": "What is the output?\n\nStream.iterate(1, n -> n * 2).limit(5).toList();",
+    "options": [
+      "[1, 2, 4, 8, 16]",
+      "[1, 2, 3, 4, 5]",
+      "[2, 4, 8, 16, 32]",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Iterate doubles: 1,2,4,8,16."
+  },
+  {
+    "question": "What is the output?\n\nvar queue = new ArrayDeque<String>();\nqueue.offer(\"a\");\nqueue.offer(\"b\");\nqueue.offer(\"c\");\nSystem.out.println(queue.poll() + queue.peek());",
+    "options": [
+      "ab",
+      "ac",
+      "bc",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "poll() returns \"a\", peek() returns \"b\"."
+  },
+  {
+    "question": "What is the output?\n\nIntBinaryOperator add = Integer::sum;\nSystem.out.println(add.applyAsInt(3, 4));",
+    "options": [
+      "7",
+      "12",
+      "34",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Integer::sum is a method reference for addition."
+  },
+  {
+    "question": "What is the output?\n\nDeque<Integer> stack = new ArrayDeque<>();\nstack.push(1);\nstack.push(2);\nstack.push(3);\nSystem.out.println(stack.pop() + stack.pop());",
+    "options": [
+      "5",
+      "3",
+      "21",
+      "12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "pop() removes 3, then 2. 3+2=5."
+  },
+  {
+    "question": "What is the output?\n\nList<Integer> a = List.of(1, 2, 3);\nList<Integer> b = List.of(2, 3, 4);\nList<Integer> intersection = a.stream().filter(b::contains).toList();\nSystem.out.println(intersection);",
+    "options": [
+      "[1, 2, 3]",
+      "[2, 3]",
+      "[2, 3, 4]",
+      "[3]"
     ],
     "correctAnswer": 1,
-    "explanation": "Hashtable methods are synchronized, making it thread-safe but slower than HashMap."
+    "explanation": "Elements in both lists: 2 and 3."
   },
   {
-    "question": "What is ConcurrentHashMap designed for?",
+    "question": "What is the output?\n\nvar sb = new StringJoiner(\", \");\nsb.add(\"one\").add(\"two\").add(\"three\");\nSystem.out.println(sb.toString());",
     "options": [
-      "Faster single-threaded iteration",
-      "High-concurrency thread-safe map access",
-      "Persisting maps to disk",
-      "Sorting entries automatically"
+      "one, two, three",
+      "onetwothree",
+      "one two three",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "StringJoiner joins with the delimiter."
+  },
+  {
+    "question": "What is the output?\n\nPredicate<String> len3 = s -> s.length() == 3;\nPredicate<String> startsH = s -> s.startsWith(\"H\");\nSystem.out.println(len3.and(startsH).test(\"Hi\"));",
+    "options": [
+      "true",
+      "false",
+      "Compilation error",
+      "Runtime error"
     ],
     "correctAnswer": 1,
-    "explanation": "ConcurrentHashMap enables safe concurrent reads/writes without full-table locking."
+    "explanation": "\"Hi\" length is 2, not 3. len3 fails."
   },
   {
-    "question": "Why must hashCode be overridden whenever equals is overridden?",
+    "question": "What is the output?\n\nString s = \"Hello, World!\";\nMap<Character, Long> freq = s.chars()\n    .mapToObj(c -> (char) c)\n    .collect(Collectors.groupingBy(c -> c, Collectors.counting()));\nSystem.out.println(freq.get('l'));",
     "options": [
-      "To satisfy the compiler",
-      "So equal objects hash equally, keeping hash-based collections correct",
-      "To speed up reflection",
-      "Because Object requires native calls"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Violating the equals/hashCode contract corrupts HashMap and HashSet lookups."
-  },
-  {
-    "question": "What does the volatile keyword guarantee?",
-    "options": [
-      "Atomic increments",
-      "Visibility of a variable's changes across threads",
-      "Thread ownership of the variable",
-      "Immutability"
-    ],
-    "correctAnswer": 1,
-    "explanation": "volatile ensures reads/writes bypass CPU caches so all threads see the latest value."
-  },
-  {
-    "question": "What is a deadlock?",
-    "options": [
-      "A thread paused by the scheduler",
-      "Two or more threads blocked forever waiting on each other's locks",
-      "An exception thrown by the JVM",
-      "A terminated daemon thread"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Deadlock arises from circular lock dependencies between threads."
-  },
-  {
-    "question": "What does the synchronized keyword enforce?",
-    "options": [
-      "Parallel execution",
-      "That only one thread enters a method or block at a time",
-      "Immediate flushing of output",
-      "Lazy class loading"
-    ],
-    "correctAnswer": 1,
-    "explanation": "synchronized acquires a monitor lock providing mutual exclusion."
-  },
-  {
-    "question": "What is ExecutorService?",
-    "options": [
-      "A servlet container",
-      "A higher-level API for managing thread pools and async tasks",
-      "A garbage collector mode",
-      "A bytecode verifier"
-    ],
-    "correctAnswer": 1,
-    "explanation": "ExecutorService abstracts thread creation and lifecycle behind pooled workers."
-  },
-  {
-    "question": "What is CompletableFuture used for?",
-    "options": [
-      "Synchronous blocking I/O",
-      "Building composable asynchronous computations with callbacks",
-      "Defining final constants",
-      "Serializing objects"
-    ],
-    "correctAnswer": 1,
-    "explanation": "CompletableFuture chains thenApply/thenCompose style async pipelines."
-  },
-  {
-    "question": "What does a fail-fast iterator do when its collection is structurally modified mid-iteration?",
-    "options": [
-      "Skips the new elements",
-      "Throws ConcurrentModificationException",
-      "Restarts iteration silently",
-      "Blocks until modification completes"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Fail-fast iterators detect unexpected modifications and throw ConcurrentModificationException."
-  },
-  {
-    "question": "Which is a benefit of String immutability in the JVM?",
-    "options": [
-      "Strings can store primitives",
-      "Safe sharing across threads and cached hash codes",
-      "Faster disk writes",
-      "Automatic encryption"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Immutable Strings are thread-safe and their hash codes can be cached for hashing collections."
-  },
-  {
-    "question": "What is string interning?",
-    "options": [
-      "Encrypting string literals",
-      "Storing one shared copy of each distinct string in the pool",
-      "Converting strings to byte arrays",
-      "Inlining string methods"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Interning deduplicates identical string contents in the JVM string pool."
-  },
-  {
-    "question": "How can a memory leak occur in Java despite garbage collection?",
-    "options": [
-      "GC never frees objects",
-      "Objects remain reachable through forgotten static collections or listeners",
-      "Primitives accumulate on the stack",
-      "Bytecode grows over time"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Unintended live references prevent GC from reclaiming unused objects."
-  },
-  {
-    "question": "What does the JVM Metaspace store?",
-    "options": [
-      "Heap objects",
-      "Class metadata (replacing the older PermGen)",
-      "Thread stacks",
-      "String literals only"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Metaspace holds loaded-class metadata and grows outside the Java heap."
-  },
-  {
-    "question": "What is double-checked locking used for?",
-    "options": [
-      "Verifying bytecode twice",
-      "Reducing synchronization cost in lazy singleton initialization",
-      "Locking files on disk",
-      "Detecting deadlocks"
-    ],
-    "correctAnswer": 1,
-    "explanation": "DCL checks the instance condition before and inside a synchronized block for lazy creation."
-  },
-  {
-    "question": "What does the transient modifier mean for serialization?",
-    "options": [
-      "The field is encrypted",
-      "The field is excluded from serialization",
-      "The field becomes volatile",
-      "The field must be static"
-    ],
-    "correctAnswer": 1,
-    "explanation": "transient fields are skipped when the object is serialized."
-  },
-  {
-    "question": "Which of these is a marker interface?",
-    "options": [
-      "Comparable",
-      "Runnable",
-      "Serializable",
-      "AutoCloseable"
+      "1",
+      "2",
+      "3",
+      "null"
     ],
     "correctAnswer": 2,
-    "explanation": "Serializable declares no methods; it only tags serializable types."
+    "explanation": "'l' appears 3 times in \"Hello, World!\"."
   },
   {
-    "question": "What is the Java Reflection API used for?",
+    "question": "What is the output?\n\nvar result = IntStream.rangeClosed(1, 5).boxed()\n    .collect(Collectors.collectingAndThen(\n        Collectors.toList(),\n        list -> { Collections.reverse(list); return list; }));\nSystem.out.println(result);",
     "options": [
-      "Rendering graphics",
-      "Inspecting and invoking classes, methods, and fields at runtime",
-      "Compiling annotations",
-      "Pooling threads"
+      "[1, 2, 3, 4, 5]",
+      "[5, 4, 3, 2, 1]",
+      "Compilation error",
+      "[0, 1, 2, 3, 4]"
     ],
     "correctAnswer": 1,
-    "explanation": "Reflection enables runtime introspection and dynamic invocation of members."
+    "explanation": "Range 1-5 collected then reversed."
   },
   {
-    "question": "What is the role of a ClassLoader?",
+    "question": "What is the output?\n\nList<String> words = List.of(\"Go\", \"Java\", \"Python\", \"Rust\");\nString longest = words.stream().max(Comparator.comparingInt(String::length)).orElse(\"\");\nSystem.out.println(longest);",
     "options": [
-      "Compiling source files",
-      "Loading class bytecode into the JVM at runtime",
-      "Cleaning the heap",
-      "Scheduling threads"
+      "Go",
+      "Java",
+      "Python",
+      "Rust"
+    ],
+    "correctAnswer": 2,
+    "explanation": "\"Python\" has 6 chars, the longest."
+  },
+  {
+    "question": "What is the output?\n\nMap<String, Integer> scores = Map.of(\"Alice\", 90, \"Bob\", 85, \"Charlie\", 95);\nString top = scores.entrySet().stream()\n    .max(Map.Entry.comparingByValue())\n    .map(Map.Entry::getKey).orElse(\"\");\nSystem.out.println(top);",
+    "options": [
+      "Alice",
+      "Bob",
+      "Charlie",
+      "Compilation error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Charlie has highest score 95."
+  },
+  {
+    "question": "What is the output?\n\nint[] arr = {1, 2, 3, 4, 5, 6};\nint[] result = Arrays.stream(arr).filter(x -> x % 2 == 0).map(x -> x * x).toArray();\nSystem.out.println(Arrays.toString(result));",
+    "options": [
+      "[2, 4, 6]",
+      "[4, 16, 36]",
+      "[1, 9, 25]",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "ClassLoaders locate and load .class bytes, linking them into running JVM state."
+    "explanation": "Even numbers squared: 4, 16, 36."
   },
   {
-    "question": "What does <T extends Number> specify?",
+    "question": "What is the output?\n\nSupplier<String> supplier = () -> \"Hello\";\nFunction<String, String> upper = String::toUpperCase;\nFunction<String, String> exclaim = s -> s + \"!\";\nSystem.out.println(upper.andThen(exclaim).apply(supplier.get()));",
     "options": [
-      "T must be a superclass of Number",
-      "T is restricted to Number or its subtypes",
-      "T defaults to Integer",
-      "T cannot be used with primitives"
+      "Hello!",
+      "HELLO!",
+      "HELLO",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "Bounded type parameters constrain allowed generic arguments."
+    "explanation": "supplier=\"Hello\", upper=\"HELLO\", exclaim=\"HELLO!\"."
   },
   {
-    "question": "What problem does Optional address?",
+    "question": "What is the output?\n\nMap<Integer, List<String>> grouped = Stream.of(\"apple\", \"banana\", \"avocado\", \"blueberry\")\n    .collect(Collectors.groupingBy(s -> s.charAt(0)));\nSystem.out.println(grouped.size());",
     "options": [
-      "Slow I/O",
-      "Explicit handling of possibly-absent values to avoid NullPointerException",
-      "Memory leaks in collections",
-      "Thread starvation"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
     "correctAnswer": 1,
-    "explanation": "Optional forces callers to acknowledge absence instead of dereferencing null."
+    "explanation": "Two groups: 'a' and 'b'. Size is 2."
   },
   {
-    "question": "What is a method reference like String::isEmpty?",
+    "question": "What is the output?\n\nvar list = new ArrayList<String>();\nCollections.synchronizedList(list);\nlist.add(\"a\");\nlist.add(\"b\");\nlist.add(\"c\");\nSystem.out.println(list.size());",
     "options": [
-      "A lambda shorthand referring to an existing method",
-      "A deprecated syntax",
-      "A way to override methods",
-      "A serialization format"
+      "0",
+      "1",
+      "3",
+      "Compilation error"
     ],
-    "correctAnswer": 0,
-    "explanation": ":: creates function objects pointing at existing methods or constructors."
+    "correctAnswer": 2,
+    "explanation": "synchronizedList wraps the list. All 3 adds succeed."
   },
   {
-    "question": "How does Callable differ from Runnable?",
+    "question": "What is the output?\n\nint[] arr = {1, 2, 3, 4, 5, 6};\nint sum = Arrays.stream(arr).parallel().reduce(0, Integer::sum);\nSystem.out.println(sum);",
     "options": [
-      "Callable is faster",
-      "Callable can return a result and throw checked exceptions",
-      "Callable cannot be submitted to executors",
-      "Runnable accepts generics"
+      "15",
+      "20",
+      "21",
+      "Compilation error"
     ],
-    "correctAnswer": 1,
-    "explanation": "Callable<V>.call() yields a Future result and may throw checked exceptions."
+    "correctAnswer": 2,
+    "explanation": "Sum of 1+2+3+4+5+6 = 21."
   },
   {
-    "question": "What does CountDownLatch allow?",
+    "question": "What is the output?\n\nList<Integer> nums = List.of(1, 2, 3, 4, 5);\nint product = nums.stream().filter(n -> n > 2).reduce(1, (a, b) -> a * b);\nSystem.out.println(product);",
     "options": [
-      "Counting method invocations",
-      "Threads waiting until a count reaches zero before proceeding",
-      "Measuring elapsed time",
-      "Limiting file handles"
+      "6",
+      "15",
+      "60",
+      "120"
     ],
-    "correctAnswer": 1,
-    "explanation": "await() blocks until latch.countDown() drives the counter to zero."
-  },
-  {
-    "question": "What does try-with-resources guarantee?",
-    "options": [
-      "Resources implementing AutoCloseable are closed automatically",
-      "Exceptions are suppressed permanently",
-      "Faster file reads",
-      "Transactional rollback"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Resources declared in try(...) are closed in reverse order, even on failure."
-  },
-  {
-    "question": "What is a WeakReference?",
-    "options": [
-      "A reference that prevents garbage collection",
-      "A reference that does not stop its referent from being collected",
-      "A synchronized pointer",
-      "A compressed object header"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Weakly reachable objects may be collected once no strong references exist."
-  },
-  {
-    "question": "What is the happens-before relationship in the Java Memory Model?",
-    "options": [
-      "A scheduling priority rule",
-      "A visibility guarantee that one operation's effects are visible to another",
-      "Class loading order",
-      "Compilation sequence"
-    ],
-    "correctAnswer": 1,
-    "explanation": "happens-before defines when writes in one thread are visible to reads in another."
-  },
-  {
-    "question": "What is the difference between Comparable and Comparator?",
-    "options": [
-      "Comparable is external sorting logic; Comparator is built-in",
-      "Comparable defines natural ordering inside the class; Comparator supplies external ordering",
-      "Comparator only works with primitives",
-      "They are interchangeable aliases"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Use Comparable for default order and Comparator for alternative/custom orders."
-  },
-  {
-    "question": "What is a record (Java 16+)?",
-    "options": [
-      "A logging utility",
-      "An immutable data carrier class with auto-generated accessors and equality",
-      "A database driver",
-      "A deprecated enum variant"
-    ],
-    "correctAnswer": 1,
-    "explanation": "records concisely model immutable data with built-in constructor/accessors/equals."
-  },
-  {
-    "question": "What is ThreadLocal used for?",
-    "options": [
-      "Sharing state between threads",
-      "Giving each thread its own isolated copy of a variable",
-      "Prioritizing threads",
-      "Joining thread executions"
-    ],
-    "correctAnswer": 1,
-    "explanation": "ThreadLocal variables hold independent values per thread."
+    "correctAnswer": 2,
+    "explanation": "Filtered: 3,4,5. Product: 3*4*5=60."
   }
 ]

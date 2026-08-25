@@ -589,6 +589,195 @@ const LanguageIcon = ({
         />
       </svg>
     ),
+
+    // C#
+    csharp: (
+      <svg {...commonProps}>
+        <defs>
+          <linearGradient
+            id={`csharp-${uniqueId}`}
+            x1="0"
+            y1="0"
+            x2="1"
+            y2="1"
+          >
+            <stop offset="0" stopColor="#68217A" />
+            <stop offset="1" stopColor="#9B4F96" />
+          </linearGradient>
+        </defs>
+
+        <rect
+          x="2"
+          y="2"
+          width="60"
+          height="60"
+          rx="10"
+          fill={`url(#csharp-${uniqueId})`}
+        />
+
+        <text
+          x="32"
+          y="42"
+          textAnchor="middle"
+          fontFamily="Arial, sans-serif"
+          fontWeight="700"
+          fontSize="22"
+          fill="#fff"
+        >
+          C#
+        </text>
+      </svg>
+    ),
+
+    // Docker
+    docker: (
+      <svg {...commonProps}>
+        <rect
+          x="2"
+          y="2"
+          width="60"
+          height="60"
+          rx="10"
+          fill="#2496ED"
+        />
+
+        <path
+          d="M48 28c-1-1-3-1-3-1s-1 0-1 1v5h-2v-7c0-1-1-2-2-2h-14c-2 0-3 1-3 3v11h-2v-4c0-1-1-2-2-2h-2c-2 0-3 2-3 3v6c0 2 1 3 3 3h24c3 0 5-2 5-5v-4c0-1 0-2-1-3z"
+          fill="#fff"
+        />
+
+        <g stroke="#fff" strokeWidth="1.8" strokeLinecap="round">
+          <line x1="24" y1="22" x2="24" y2="25" />
+          <line x1="28" y1="22" x2="28" y2="25" />
+          <line x1="32" y1="22" x2="32" y2="25" />
+          <line x1="36" y1="22" x2="36" y2="25" />
+          <line x1="40" y1="22" x2="40" y2="25" />
+        </g>
+      </svg>
+    ),
+
+    // MongoDB
+    mongodb: (
+      <svg {...commonProps}>
+        <rect
+          x="2"
+          y="2"
+          width="60"
+          height="60"
+          rx="10"
+          fill="#47A248"
+        />
+
+        <path
+          d="M32 8c-2 10-8 14-11 22-2 5-1 11 2 16 1 2 3 5 5 8h8c2-3 4-6 5-8 3-5 4-11 2-16-3-8-9-12-11-22z"
+          fill="none"
+          stroke="#fff"
+          strokeWidth="2.5"
+          strokeLinejoin="round"
+        />
+
+        <ellipse
+          cx="32"
+          cy="24"
+          rx="11"
+          ry="5"
+          fill="none"
+          stroke="#fff"
+          strokeWidth="2"
+        />
+
+        <path
+          d="M21 24v14c0 3 5 5 11 5s11-2 11-5V24"
+          fill="none"
+          stroke="#fff"
+          strokeWidth="2"
+        />
+      </svg>
+    ),
+
+    // Redis
+    redis: (
+      <svg {...commonProps}>
+        <rect
+          x="2"
+          y="2"
+          width="60"
+          height="60"
+          rx="10"
+          fill="#DC382D"
+        />
+
+        <text
+          x="32"
+          y="28"
+          textAnchor="middle"
+          fontFamily="Arial, sans-serif"
+          fontWeight="700"
+          fontSize="12"
+          fill="#fff"
+        >
+          REDIS
+        </text>
+
+        <g stroke="#fff" strokeWidth="2" strokeLinecap="round">
+          <line x1="16" y1="34" x2="48" y2="34" />
+          <line x1="14" y1="38" x2="50" y2="38" />
+          <line x1="16" y1="42" x2="48" y2="42" />
+          <line x1="14" y1="46" x2="50" y2="46" />
+          <line x1="16" y1="50" x2="48" y2="50" />
+        </g>
+      </svg>
+    ),
+
+    // Bash
+    bash: (
+      <svg {...commonProps}>
+        <rect
+          x="2"
+          y="2"
+          width="60"
+          height="60"
+          rx="10"
+          fill="#4EAA25"
+        />
+
+        <text
+          x="32"
+          y="27"
+          textAnchor="middle"
+          fontFamily="monospace"
+          fontWeight="700"
+          fontSize="14"
+          fill="#fff"
+        >
+          $
+        </text>
+
+        <g stroke="#fff" strokeWidth="2.5" strokeLinecap="round">
+          <polyline points="18,34 26,40 18,46" fill="none" />
+          <line x1="28" y1="46" x2="46" y2="46" />
+        </g>
+      </svg>
+    ),
+
+    // Tailwind CSS
+    tailwind: (
+      <svg {...commonProps}>
+        <rect
+          x="2"
+          y="2"
+          width="60"
+          height="60"
+          rx="10"
+          fill="#0F172A"
+        />
+
+        <path
+          d="M20 26c3-8 8-8 12 0 3-8 8-8 12 0 0 10-6 16-18 16S14 36 20 26Z"
+          fill="#38BDF8"
+        />
+      </svg>
+    ),
   };
 
   // Render exactly ONE language icon.

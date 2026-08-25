@@ -1,0 +1,242 @@
+[
+  {
+    "question": "Which keyword is used to define a class in C#?",
+    "options": ["struct", "class", "object", "type"],
+    "correctAnswer": 1,
+    "explanation": "The 'class' keyword is used to define a class in C#."
+  },
+  {
+    "question": "What is the entry point of a C# console application?",
+    "options": ["start()", "Main()", "init()", "run()"],
+    "correctAnswer": 1,
+    "explanation": "The Main() method is the entry point of a C# application."
+  },
+  {
+    "question": "What is the output of Console.WriteLine(10 % 3)?",
+    "options": ["3", "1", "3.33", "0"],
+    "correctAnswer": 1,
+    "explanation": "The % operator returns the remainder of division. 10 divided by 3 is 3 remainder 1."
+  },
+  {
+    "question": "Which access modifier makes a member accessible only within its own class?",
+    "options": ["public", "protected", "private", "internal"],
+    "correctAnswer": 2,
+    "explanation": "The 'private' access modifier restricts access to within the declaring class."
+  },
+  {
+    "question": "What is the correct way to declare an integer variable in C#?",
+    "options": ["int x = 5;", "integer x = 5;", "var x = 5;", "Both A and C"],
+    "correctAnswer": 3,
+    "explanation": "Both 'int x = 5;' and 'var x = 5;' are valid. 'var' infers the type as int from the assignment."
+  },
+  {
+    "question": "What will the following code output?\nstring s = \"Hello\";\nConsole.WriteLine(s.Length);",
+    "options": ["4", "5", "6", "Error"],
+    "correctAnswer": 1,
+    "explanation": "\"Hello\" has 5 characters, so the Length property returns 5."
+  },
+  {
+    "question": "Which collection stores key-value pairs in C#?",
+    "options": ["List<T>", "Array", "Dictionary<TKey, TValue>", "Queue<T>"],
+    "correctAnswer": 2,
+    "explanation": "Dictionary<TKey, TValue> is used to store key-value pairs in C#."
+  },
+  {
+    "question": "What does 'this' refer to in a C# class?",
+    "options": ["The parent class", "The current instance", "The static context", "The base constructor"],
+    "correctAnswer": 1,
+    "explanation": "'this' refers to the current instance of the class."
+  },
+  {
+    "question": "What is the default value of an unassigned bool variable in C#?",
+    "options": ["true", "false", "null", "0"],
+    "correctAnswer": 1,
+    "explanation": "The default value of a bool in C# is false."
+  },
+  {
+    "question": "Which method is used to read input from the console in C#?",
+    "options": ["Console.Read()", "Console.ReadLine()", "Console.Input()", "Console.Scan()"],
+    "correctAnswer": 1,
+    "explanation": "Console.ReadLine() reads a line of input from the console."
+  },
+  {
+    "question": "Which keyword is used to create an object from a class in C#?",
+    "options": ["new", "create", "instance", "make"],
+    "correctAnswer": 0,
+    "explanation": "The 'new' keyword instantiates a new object from a class."
+  },
+  {
+    "question": "What is the output of Console.WriteLine(2 + 3 * 4)?",
+    "options": ["20", "14", "24", "32"],
+    "correctAnswer": 1,
+    "explanation": "Multiplication has higher precedence than addition. 3*4=12, then 2+12=14."
+  },
+  {
+    "question": "Which loop structure in C# is best suited when you know the exact number of iterations?",
+    "options": ["while loop", "do-while loop", "for loop", "foreach loop"],
+    "correctAnswer": 2,
+    "explanation": "A for loop is ideal when the number of iterations is known beforehand."
+  },
+  {
+    "question": "What does the 'using' directive allow you to do at the top of a C# file?",
+    "options": ["Allocate memory", "Reference a namespace without full qualification", "Import binary files", "Define global variables"],
+    "correctAnswer": 1,
+    "explanation": "The 'using' directive allows you to use types from a namespace without fully qualifying their names."
+  },
+  {
+    "question": "Which C# data type can hold the largest whole number?",
+    "options": ["int", "long", "short", "byte"],
+    "correctAnswer": 1,
+    "explanation": "long (Int64) holds values from approximately -9.2 quintillion to 9.2 quintillion, the largest among these options."
+  },
+  {
+    "question": "What is the correct syntax for a single-line comment in C#?",
+    "options": ["/* comment */", "// comment", "# comment", "-- comment"],
+    "correctAnswer": 1,
+    "explanation": "// starts a single-line comment in C#. /* */ is for multi-line comments."
+  },
+  {
+    "question": "What does Console.WriteLine(\"Value is: {0}\", 42) output?",
+    "options": ["Value is: {0}", "Value is: 42", "42 Value is:", "Error"],
+    "correctAnswer": 1,
+    "explanation": "String formatting replaces {0} with the first argument, producing 'Value is: 42'."
+  },
+  {
+    "question": "Which operator is used to check equality in C#?",
+    "options": ["=", "==", "!=", "==="],
+    "correctAnswer": 1,
+    "explanation": "The == operator compares two values for equality. = is the assignment operator."
+  },
+  {
+    "question": "What is an array in C#?",
+    "options": ["A dynamic collection that grows automatically", "A fixed-size collection of elements of the same type", "A linked list", "A hash table"],
+    "correctAnswer": 1,
+    "explanation": "An array is a fixed-size, zero-indexed collection of elements of the same type."
+  },
+  {
+    "question": "What does the 'break' keyword do inside a loop?",
+    "options": ["Pauses the loop", "Exits the loop immediately", "Restarts the loop", "Skips to the next iteration"],
+    "correctAnswer": 1,
+    "explanation": "The 'break' statement exits the current loop immediately."
+  },
+  {
+    "question": "What is the output of Console.WriteLine(\"Hello\" + \" \" + \"World\")?",
+    "options": ["HelloWorld", "Hello World", "Hello + World", "Error"],
+    "correctAnswer": 1,
+    "explanation": "The + operator concatenates strings. \"Hello\" + \" \" + \"World\" produces \"Hello World\"."
+  },
+  {
+    "question": "Which keyword is used to inherit from a base class in C#?",
+    "options": ["extends", "inherits", ":", "base"],
+    "correctAnswer": 2,
+    "explanation": "The colon (:) is used after a class name to specify its base class or implemented interfaces."
+  },
+  {
+    "question": "What is the output?\nint[] nums = new int[3];\nConsole.WriteLine(nums[0]);",
+    "options": ["null", "0", "Compilation error", "3"],
+    "correctAnswer": 1,
+    "explanation": "Numeric arrays in C# are automatically initialized with default values. int elements default to 0."
+  },
+  {
+    "question": "What is a property in C#?",
+    "options": ["A variable inside a method", "A member that provides a flexible mechanism to read, write, or compute a value", "A type of loop", "An exception handler"],
+    "correctAnswer": 1,
+    "explanation": "Properties encapsulate fields with get and set accessors, providing controlled access to private data."
+  },
+  {
+    "question": "What does 'var' do when used to declare a variable in C#?",
+    "options": ["Declares a dynamic variable", "Lets the compiler infer the type from the assigned value", "Declares a variant type", "Creates a global variable"],
+    "correctAnswer": 1,
+    "explanation": "The 'var' keyword tells the compiler to infer the variable's type from the initialization expression."
+  },
+  {
+    "question": "What is the output of Console.WriteLine(7 / 2)?",
+    "options": ["3.5", "3", "4", "Error"],
+    "correctAnswer": 1,
+    "explanation": "Integer division in C# truncates the decimal. 7 / 2 results in 3, not 3.5."
+  },
+  {
+    "question": "Which of these is NOT a valid C# loop type?",
+    "options": ["for", "while", "do-while", "repeat-until"],
+    "correctAnswer": 3,
+    "explanation": "C# does not have a 'repeat-until' loop. It uses 'do-while' instead."
+  },
+  {
+    "question": "What does the 'new' keyword do when applied to a string?",
+    "options": ["Creates a string on the stack", "Creates a new string object on the heap", "Deletes the old string", "Makes the string mutable"],
+    "correctAnswer": 1,
+    "explanation": "'new' allocates a new string object on the heap, though string interning may reuse existing instances."
+  },
+  {
+    "question": "What is the purpose of a constructor in C#?",
+    "options": ["Destroys objects", "Initializes new instances of a class", "Converts data types", "Imports libraries"],
+    "correctAnswer": 1,
+    "explanation": "A constructor is a special method that is called when an object is created, used to initialize its state."
+  },
+  {
+    "question": "What does 'Console.Write(\"A\")' do compared to 'Console.WriteLine(\"A\")'?",
+    "options": ["No difference", "Write does not add a newline after the output", "WriteLine does not add a newline", "Write outputs in bold"],
+    "correctAnswer": 1,
+    "explanation": "Console.Write outputs text without appending a newline character, while WriteLine adds a newline after the output."
+  },
+  {
+    "question": "What is the output of Console.WriteLine(true && false)?",
+    "options": ["true", "false", "1", "Compilation error"],
+    "correctAnswer": 1,
+    "explanation": "The && operator performs logical AND. true AND false evaluates to false."
+  },
+  {
+    "question": "Which of these is a valid C# variable name?",
+    "options": ["2names", "_count", "class", "my-name"],
+    "correctAnswer": 1,
+    "explanation": "Variable names cannot start with a number or contain hyphens, and cannot be reserved keywords. '_count' is valid."
+  },
+  {
+    "question": "What is the output of Console.WriteLine(\"ABC\".ToLower())?",
+    "options": ["ABC", "abc", "Abc", "Error"],
+    "correctAnswer": 1,
+    "explanation": "ToLower() converts all characters in the string to lowercase, producing 'abc'."
+  },
+  {
+    "question": "What does the 'static' keyword mean when applied to a method?",
+    "options": ["The method cannot be modified", "The method belongs to the class rather than an instance", "The method runs slowly", "The method is private"],
+    "correctAnswer": 1,
+    "explanation": "A static method belongs to the type itself, not to any specific instance. It can be called without creating an object."
+  },
+  {
+    "question": "What is the output of Console.WriteLine(10 / 3.0)?",
+    "options": ["3", "3.333...", "3.0", "Error"],
+    "correctAnswer": 1,
+    "explanation": "When dividing an integer by a double, the integer is promoted to double. 10.0 / 3.0 gives approximately 3.333."
+  },
+  {
+    "question": "Which method converts a string to an integer in C#?",
+    "options": ["string.ToInt()", "int.Parse() or Convert.ToInt32()", "Integer.valueOf()", "atoi()"],
+    "correctAnswer": 1,
+    "explanation": "int.Parse() and Convert.ToInt32() both convert a string representation to an int value."
+  },
+  {
+    "question": "What is the output of Console.WriteLine(\"Hello\".Substring(1, 3))?",
+    "options": ["Hel", "ell", "ello", "elll"],
+    "correctAnswer": 1,
+    "explanation": "Substring(1, 3) starts at index 1 and takes 3 characters: 'e', 'l', 'l', producing 'ell'."
+  },
+  {
+    "question": "What does 'string interpolation' ($\"...\") do in C#?",
+    "options": ["Adds spaces between words", "Embeds expressions directly inside a string literal using {expression} syntax", "Creates a regex pattern", "Performs string compression"],
+    "correctAnswer": 1,
+    "explanation": "String interpolation with the $ prefix allows embedding C# expressions inside strings using {expression} syntax, e.g., $\"Value is {x}\"."
+  },
+  {
+    "question": "What is the output of Console.WriteLine(Math.Max(5, 10))?",
+    "options": ["5", "10", "15", "Error"],
+    "correctAnswer": 1,
+    "explanation": "Math.Max returns the larger of two values. Between 5 and 10, it returns 10."
+  },
+  {
+    "question": "What does 'throw new Exception(\"Error\")' do?",
+    "options": ["Catches an exception", "Creates and throws a new Exception with the message 'Error'", "Logs an error", "Returns an error code"],
+    "correctAnswer": 1,
+    "explanation": "The 'throw' keyword raises an exception. 'new Exception(\"Error\")' creates a new exception object with the specified message."
+  }
+]

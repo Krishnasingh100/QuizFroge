@@ -220,333 +220,219 @@
     "explanation": "The correct answer is 'async tasks' for Kotlin."
   },
   {
-    "question": "Which relationship lets one type inherit behavior from another in Kotlin input/output?",
+    "question": "What is the output?\n\nval words = listOf(\"hello\", \"world\")\nval result = words.filter { it.length > 4 }.map { it.uppercase() }\nprintln(result)",
     "options": [
-      "aggregation",
-      "composition",
-      "delegation",
-      "inheritance"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'inheritance' for Kotlin."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Kotlin source code?",
-    "options": [
-      "polymorphism",
-      "encapsulation",
-      "modularity",
-      "abstraction"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'modularity' for Kotlin."
-  },
-  {
-    "question": "Which keyword defines a class in Kotlin header files?",
-    "options": [
-      "module",
-      "package",
-      "namespace",
-      "function"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'function' for Kotlin."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Kotlin header files?",
-    "options": [
-      "polymorphism",
-      "encapsulation",
-      "modularity",
-      "abstraction"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'modularity' for Kotlin."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Kotlin error handling?",
-    "options": [
-      "global variables",
-      "exceptions",
-      "None handling",
-      "inheritance"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'None handling' for Kotlin."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Kotlin library imports?",
-    "options": [
-      "abstraction",
-      "encapsulation",
-      "polymorphism",
-      "modularity"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'modularity' for Kotlin."
-  },
-  {
-    "question": "Which statement best describes memory management in Kotlin source code?",
-    "options": [
-      "implicit typing",
-      "syntax highlighting",
-      "runtime binding",
-      "automatic garbage collection"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Kotlin code in data types?",
-    "options": [
-      "var",
-      "val",
-      "let",
-      "mutable"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'val' for Kotlin."
-  },
-  {
-    "question": "Which keyword defines a class in Kotlin conditional logic?",
-    "options": [
-      "module",
-      "namespace",
-      "function",
-      "package"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'function' for Kotlin."
-  },
-  {
-    "question": "Which statement best describes memory management in Kotlin function definitions?",
-    "options": [
-      "syntax highlighting",
-      "runtime binding",
-      "implicit typing",
-      "automatic garbage collection"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
-  },
-  {
-    "question": "Which relationship lets one type inherit behavior from another in Kotlin loop logic?",
-    "options": [
-      "aggregation",
-      "composition",
-      "delegation",
-      "inheritance"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'inheritance' for Kotlin."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Kotlin function definitions?",
-    "options": [
-      "encapsulation",
-      "polymorphism",
-      "modularity",
-      "abstraction"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'modularity' for Kotlin."
-  },
-  {
-    "question": "Which keyword defines a class in Kotlin data types?",
-    "options": [
-      "package",
-      "function",
-      "module",
-      "namespace"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'function' for Kotlin."
-  },
-  {
-    "question": "Which data structure is fastest for random access by index in Kotlin source code?",
-    "options": [
-      "stack",
-      "array",
-      "linked list",
-      "queue"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'array' for Kotlin."
-  },
-  {
-    "question": "Which statement best describes memory management in Kotlin memory management?",
-    "options": [
-      "syntax highlighting",
-      "runtime binding",
-      "implicit typing",
-      "automatic garbage collection"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
-  },
-  {
-    "question": "Which data structure is fastest for random access by index in Kotlin library imports?",
-    "options": [
-      "queue",
-      "array",
-      "linked list",
-      "stack"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'array' for Kotlin."
-  },
-  {
-    "question": "Which statement checks for equality in Kotlin input/output?",
-    "options": [
-      "=",
-      ":=",
-      "=>",
-      "=="
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '==' for Kotlin."
-  },
-  {
-    "question": "Which statement best describes memory management in Kotlin library imports?",
-    "options": [
-      "automatic garbage collection",
-      "syntax highlighting",
-      "runtime binding",
-      "implicit typing"
+      "[HELLO, WORLD]",
+      "[hello, world]",
+      "[HELLO]",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
+    "explanation": "Both pass filter. map uppercases."
   },
   {
-    "question": "Which relationship lets one type inherit behavior from another in Kotlin header files?",
+    "question": "What is the output?\n\nval x = 5\nval y = x.let { it * 2 }\nprintln(y)",
     "options": [
-      "composition",
-      "aggregation",
-      "delegation",
-      "inheritance"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'inheritance' for Kotlin."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Kotlin data types?",
-    "options": [
-      "volatile",
-      "static",
-      "dynamic",
-      "transient"
+      "5",
+      "10",
+      "2.5",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'static' for Kotlin."
+    "explanation": "let applies lambda: 5*2=10."
   },
   {
-    "question": "Which statement checks for equality in Kotlin library imports?",
+    "question": "What is the output?\n\ndata class Person(val name: String, val age: Int)\nval p1 = Person(\"Alice\", 30)\nval p2 = Person(\"Alice\", 30)\nprintln(p1 == p2)",
     "options": [
-      "=>",
-      "=",
-      "==",
-      ":="
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '==' for Kotlin."
-  },
-  {
-    "question": "Which statement checks for equality in Kotlin loop logic?",
-    "options": [
-      "=",
-      "==",
-      ":=",
-      "=>"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '==' for Kotlin."
-  },
-  {
-    "question": "Which statement checks for equality in Kotlin data types?",
-    "options": [
-      "==",
-      "=>",
-      ":=",
-      "="
+      "true",
+      "false",
+      "Compilation error",
+      "Runtime error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is '==' for Kotlin."
+    "explanation": "data class generates equals() based on properties."
   },
   {
-    "question": "Which relationship lets one type inherit behavior from another in Kotlin conditional logic?",
+    "question": "What is the output?\n\nval numbers = listOf(1, 2, 3, 4, 5)\nval sum = numbers.reduce { acc, i -> acc + i }\nprintln(sum)",
     "options": [
-      "delegation",
-      "composition",
-      "inheritance",
-      "aggregation"
+      "15",
+      "10",
+      "5",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "reduce combines: 1+2+3+4+5 = 15."
+  },
+  {
+    "question": "What is the output?\n\nsealed class Result {\n    class Success(val data: String) : Result()\n    class Error(val msg: String) : Result()\n}\nval r = Result.Success(\"ok\")\nwhen (r) {\n    is Result.Success -> println(r.data)\n    is Result.Error -> println(r.msg)\n}",
+    "options": [
+      "ok",
+      "Error",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "r is Success, prints data."
+  },
+  {
+    "question": "What is the output?\n\nfun greet(name: String = \"World\") {\n    println(\"Hello, $name!\")\n}\ngreet()\ngreet(\"Kotlin\")",
+    "options": [
+      "Hello, World! Hello, Kotlin!",
+      "Hello, Kotlin!",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "First uses default, second uses \"Kotlin\"."
+  },
+  {
+    "question": "What is the output?\n\nval strings = listOf(\"a\", \"bb\", \"ccc\", \"dddd\")\nval grouped = strings.groupBy { it.length }\nprintln(grouped.keys)",
+    "options": [
+      "[1, 2, 3, 4]",
+      "[a, bb, ccc, dddd]",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "groupBy keys are lengths: 1, 2, 3, 4."
+  },
+  {
+    "question": "What is the output?\n\nfun factorial(n: Int): Int {\n    return if (n <= 1) 1 else n * factorial(n - 1)\n}\nprintln(factorial(5))",
+    "options": [
+      "120",
+      "24",
+      "60",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "5! = 120."
+  },
+  {
+    "question": "What is the output?\n\nval list = listOf(1, 2, 3, 4, 5)\nval result = list.take(3)\nprintln(result)",
+    "options": [
+      "[1, 2, 3]",
+      "[3, 4, 5]",
+      "[1, 2, 3, 4, 5]",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "take(3) returns first 3."
+  },
+  {
+    "question": "What is the output?\n\nval nums = listOf(1, 2, 3, 4, 5)\nval evens = nums.filter { it % 2 == 0 }\nprintln(evens)",
+    "options": [
+      "[1, 3, 5]",
+      "[2, 4]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "filter keeps evens: 2, 4."
+  },
+  {
+    "question": "What is the output?\n\nval map = mutableMapOf<String, Int>()\nmap[\"x\"] = 10\nmap[\"y\"] = 20\nprintln(map.values.sum())",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "Compilation error"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'inheritance' for Kotlin."
+    "explanation": "10 + 20 = 30."
   },
   {
-    "question": "Which keyword indicates an immutable value in Kotlin code in library imports?",
+    "question": "What is the output?\n\nfun isEven(n: Int) = n % 2 == 0\nprintln(isEven(4))",
     "options": [
-      "let",
-      "mutable",
-      "val",
-      "var"
+      "true",
+      "false",
+      "4",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "4 % 2 == 0 is true."
+  },
+  {
+    "question": "What is the output?\n\nval s = \"kotlin\"\nprintln(s.replaceFirstChar { it.uppercase() })",
+    "options": [
+      "Kotlin",
+      "kotlin",
+      "KOTLIN",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Uppercases first char."
+  },
+  {
+    "question": "What is the output?\n\nval pair = Pair(\"a\", 1)\nprintln(pair.first)",
+    "options": [
+      "1",
+      "a",
+      "(a, 1)",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "first returns \"a\"."
+  },
+  {
+    "question": "What is the output?\n\nval triple = Triple(1, 2, 3)\nprintln(triple.third)",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Compilation error"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'val' for Kotlin."
+    "explanation": "third is 3."
   },
   {
-    "question": "Which concept ensures a variable keeps its state across function calls in Kotlin error handling?",
+    "question": "What is the output?\n\nval nums = listOf(5, 3, 1, 4, 2)\nprintln(nums.sorted())",
     "options": [
-      "dynamic",
-      "volatile",
-      "static",
-      "transient"
+      "[5, 3, 1, 4, 2]",
+      "[1, 2, 3, 4, 5]",
+      "Compilation error"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'static' for Kotlin."
+    "correctAnswer": 1,
+    "explanation": "sorted() returns ascending."
   },
   {
-    "question": "Which keyword indicates an immutable value in Kotlin code in memory management?",
+    "question": "What is the output?\n\nval a = listOf(1, 2)\nval b = listOf(3, 4)\nprintln(a + b)",
     "options": [
-      "var",
-      "mutable",
-      "let",
-      "val"
+      "[1, 2, 3, 4]",
+      "[4, 6]",
+      "Compilation error"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'val' for Kotlin."
+    "correctAnswer": 0,
+    "explanation": "+ concatenates lists."
   },
   {
-    "question": "Which term describes code reuse through a function call in Kotlin data types?",
+    "question": "What is the output?\n\nval text = \"Hello, World!\"\nval words = text.split(\", \")\nprintln(words.size)",
     "options": [
-      "encapsulation",
-      "abstraction",
-      "modularity",
-      "polymorphism"
+      "1",
+      "2",
+      "3",
+      "Compilation error"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'modularity' for Kotlin."
+    "correctAnswer": 1,
+    "explanation": "Split gives 2 elements."
   },
   {
-    "question": "Which keyword defines a class in Kotlin source code?",
+    "question": "What is the output?\n\nval map = mapOf(1 to \"a\", 2 to \"b\", 3 to \"c\")\nprintln(map.entries.associate { (k, v) -> v to k })",
     "options": [
-      "namespace",
-      "module",
-      "function",
-      "package"
+      "{a=1, b=2, c=3}",
+      "{1=a, 2=b, 3=c}",
+      "Compilation error"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'function' for Kotlin."
+    "correctAnswer": 0,
+    "explanation": "associate swaps keys and values."
   },
   {
-    "question": "Which statement best describes memory management in Kotlin input/output?",
+    "question": "What is the output?\n\ninline fun <T> measureTime(block: () -> T): T {\n    return block()\n}\nval result = measureTime { 42 }\nprintln(result)",
     "options": [
-      "runtime binding",
-      "syntax highlighting",
-      "implicit typing",
-      "automatic garbage collection"
+      "42",
+      "Time measurement",
+      "Compilation error",
+      "Runtime error"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'automatic garbage collection' for Kotlin."
+    "correctAnswer": 0,
+    "explanation": "measureTime returns block result: 42."
   }
 ]

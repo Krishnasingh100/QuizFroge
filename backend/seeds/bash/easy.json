@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Which symbol is used to start a comment in Bash?",
+    "options": [
+      "//",
+      "/*",
+      "#",
+      "--"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Bash, the # symbol marks the beginning of a comment."
+  },
+  {
+    "question": "What does 'ls -la' do?",
+    "options": [
+      "Lists files recursively",
+      "Lists all files in long format including hidden files",
+      "Lists only directories",
+      "Lists files by size"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'-l' shows long format (permissions, size, date) and '-a' includes hidden files starting with dot."
+  },
+  {
+    "question": "How do you assign a variable in Bash?",
+    "options": [
+      "var = value",
+      "var=value",
+      "let var=value",
+      "define var=value"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Bash, variable assignment uses no spaces: var=value. Spaces cause errors."
+  },
+  {
+    "question": "What does '$?' represent in Bash?",
+    "options": [
+      "The current directory",
+      "The exit status of the last command",
+      "The process ID",
+      "The user's home directory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$? holds the exit status of the last executed command. 0 means success, non-zero means failure."
+  },
+  {
+    "question": "Which command changes the current directory?",
+    "options": [
+      "chdir",
+      "cd",
+      "dir",
+      "move"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'cd' command changes the current working directory."
+  },
+  {
+    "question": "What is the output of 'echo $HOME'?",
+    "options": [
+      "The current directory",
+      "The user's home directory path",
+      "The username",
+      "Nothing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$HOME is an environment variable containing the path to the user's home directory."
+  },
+  {
+    "question": "How do you make a script executable?",
+    "options": [
+      "chmod +x script.sh",
+      "bash script.sh",
+      "run script.sh",
+      "exec script.sh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "chmod +x adds execute permission to the file. You can then run it with ./script.sh."
+  },
+  {
+    "question": "What does 'grep pattern file' do?",
+    "options": [
+      "Copies pattern to file",
+      "Searches for pattern in file and displays matching lines",
+      "Creates file with pattern",
+      "Compares two files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "grep searches for text patterns in files and prints lines that match."
+  },
+  {
+    "question": "How do you redirect standard output to a file?",
+    "options": [
+      ">>",
+      "<",
+      ">",
+      "&"
+    ],
+    "correctAnswer": 2,
+    "explanation": "'>' redirects standard output to a file, overwriting it. '>>' appends instead of overwriting."
+  },
+  {
+    "question": "What does 'echo $((2 + 3))' output?",
+    "options": [
+      "2+3",
+      "5",
+      "23",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$(( )) performs arithmetic evaluation in Bash. 2 + 3 = 5."
+  },
+  {
+    "question": "Which command is used to copy files in Bash?",
+    "options": [
+      "cp",
+      "copy",
+      "mv",
+      "duplicate"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The 'cp' command copies files or directories from source to destination."
+  },
+  {
+    "question": "What does 'pwd' stand for and what does it do?",
+    "options": [
+      "Print Working Directory - shows current directory path",
+      "Password Directory - changes password",
+      "Process Working Directory - kills a process",
+      "Print Write Data - outputs file contents"
+    ],
+    "correctAnswer": 0,
+    "explanation": "pwd stands for Print Working Directory and outputs the full path of the current directory."
+  },
+  {
+    "question": "How do you display the contents of a file in Bash?",
+    "options": [
+      "show file.txt",
+      "cat file.txt",
+      "view file.txt",
+      "open file.txt"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'cat' command concatenates and displays the contents of a file to standard output."
+  },
+  {
+    "question": "What is the purpose of the 'mkdir' command?",
+    "options": [
+      "Moves a directory",
+      "Creates a new directory",
+      "Removes a directory",
+      "Renames a directory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "mkdir creates a new directory at the specified path."
+  },
+  {
+    "question": "What does '$USER' variable contain in Bash?",
+    "options": [
+      "The user's home directory",
+      "The current username",
+      "The user ID number",
+      "The user's shell path"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$USER is an environment variable that holds the current logged-in username."
+  },
+  {
+    "question": "Which symbol separates multiple commands on a single line?",
+    "options": [
+      "&",
+      "|",
+      ";",
+      ","
+    ],
+    "correctAnswer": 2,
+    "explanation": "The semicolon (;) allows you to run multiple commands sequentially on the same line."
+  },
+  {
+    "question": "What does 'rm' command do?",
+    "options": [
+      "Renames a file",
+      "Removes (deletes) a file or directory",
+      "Moves a file",
+      "Reads a file"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'rm' command removes files or directories. Use 'rm -r' for directories."
+  },
+  {
+    "question": "What is the difference between '>>' and '>' operators?",
+    "options": [
+      ">> creates files, > appends",
+      "> overwrites file, >> appends to file",
+      "They are identical",
+      "> reads files, >> writes files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'>' overwrites the file contents, while '>>' appends to the end of the file without overwriting."
+  },
+  {
+    "question": "What does 'touch' command do?",
+    "options": [
+      "Reads a file's contents",
+      "Creates an empty file or updates its timestamp",
+      "Deletes a file",
+      "Checks file permissions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "touch creates a new empty file if it doesn't exist, or updates the modification timestamp if it does."
+  },
+  {
+    "question": "What does '#!/bin/bash' at the start of a script mean?",
+    "options": [
+      "A comment explaining the script",
+      "A shebang line specifying the Bash interpreter path",
+      "A variable declaration",
+      "A function definition"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The shebang (#!) tells the system which interpreter to use when executing the script."
+  },
+  {
+    "question": "How do you display a message to the terminal in Bash?",
+    "options": [
+      "print 'Hello'",
+      "echo 'Hello'",
+      "msg 'Hello'",
+      "display 'Hello'"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'echo' command outputs text or variables to standard output (the terminal)."
+  },
+  {
+    "question": "What does 'ls' command do?",
+    "options": [
+      "Lists files and directories in the current location",
+      "Logs out the user",
+      "Links files together",
+      "Locks a file"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The 'ls' command lists the files and directories in the current or specified directory."
+  },
+  {
+    "question": "Which command removes a directory in Bash?",
+    "options": [
+      "rmdir",
+      "rm",
+      "del",
+      "erase"
+    ],
+    "correctAnswer": 0,
+    "explanation": "rmdir removes empty directories. For non-empty directories, use 'rm -r'."
+  },
+  {
+    "question": "What does '$#' represent in a Bash script?",
+    "options": [
+      "The script name",
+      "The number of positional parameters passed to the script",
+      "The process ID",
+      "The current line number"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$# holds the count of arguments passed to the script or function."
+  },
+  {
+    "question": "What is a pipe (|) used for in Bash?",
+    "options": [
+      "Running commands in background",
+      "Sending the output of one command as input to another",
+      "Connecting two files",
+      "Setting a variable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The pipe operator '|' passes the stdout of the left command as stdin to the right command."
+  },
+  {
+    "question": "What does '$0' represent in a Bash script?",
+    "options": [
+      "The first argument",
+      "The name of the script being executed",
+      "The exit code",
+      "The zero value"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$0 holds the name of the script itself as it was invoked."
+  },
+  {
+    "question": "How do you check if a file exists in Bash?",
+    "options": [
+      "if [ -e file ]",
+      "if exists file",
+      "if file --exists",
+      "if [ -f file ] or if [ -e file ]"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The -f flag tests if a file exists and is a regular file. -e tests if it exists (any type)."
+  },
+  {
+    "question": "What does 'clear' command do in Bash?",
+    "options": [
+      "Clears the file system",
+      "Clears the terminal screen",
+      "Clears environment variables",
+      "Clears command history"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'clear' command clears the terminal screen, moving the prompt to the top."
+  },
+  {
+    "question": "What is the exit code of a successful command in Bash?",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "255"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An exit code of 0 indicates success. Non-zero codes indicate various types of failure."
+  },
+  {
+    "question": "Which command is used to rename or move files in Bash?",
+    "options": [
+      "mv",
+      "rename",
+      "rn",
+      "move"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The 'mv' command moves or renames files and directories."
+  },
+  {
+    "question": "What does 'echo $RANDOM' output?",
+    "options": [
+      "The current time",
+      "A random integer between 0 and 32767",
+      "A random filename",
+      "An error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$RANDOM is a special variable that returns a random integer between 0 and 32767 each time it's expanded."
+  },
+  {
+    "question": "What does 'head -n 5 file.txt' do?",
+    "options": [
+      "Shows the first 5 lines of file.txt",
+      "Shows the last 5 lines of file.txt",
+      "Shows the 5th line only",
+      "Creates a file with 5 lines"
+    ],
+    "correctAnswer": 0,
+    "explanation": "head -n 5 displays the first 5 lines of a file. Without -n, head defaults to 10 lines."
+  },
+  {
+    "question": "What does 'tail -f logfile.log' do?",
+    "options": [
+      "Shows the last line of the file and stops",
+      "Continuously displays new lines appended to the file in real-time",
+      "Forwards the file to another user",
+      "Creates a fake log file"
+    ],
+    "correctAnswer": 1,
+    "explanation": "tail -f follows the file, printing new lines as they are written. Commonly used to monitor log files."
+  },
+  {
+    "question": "How do you check your current shell in Bash?",
+    "options": [
+      "$SHELL",
+      "$CURRENT_SHELL",
+      "echo shell",
+      "getshell"
+    ],
+    "correctAnswer": 0,
+    "explanation": "$SHELL is an environment variable that holds the path to the user's default login shell."
+  },
+  {
+    "question": "What does 'chmod 755 script.sh' set?",
+    "options": [
+      "No permissions",
+      "Owner: rwx, Group: r-x, Others: r-x",
+      "All users get full access",
+      "Read-only for everyone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "755 in octal means 4+2+1 (owner=rwx), 4+0+1 (group=r-x), 4+0+1 (others=r-x)."
+  },
+  {
+    "question": "What does 'cat file1.txt file2.txt > combined.txt' do?",
+    "options": [
+      "Deletes both files",
+      "Concatenates both files and writes the result to combined.txt",
+      "Compares the two files",
+      "Moves file2 into file1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "cat reads both files in order and > redirects the combined output into combined.txt."
+  },
+  {
+    "question": "Which command counts words, lines, and characters?",
+    "options": [
+      "count",
+      "wc",
+      "len",
+      "stats"
+    ],
+    "correctAnswer": 1,
+    "explanation": "wc (word count) outputs line, word, and byte counts. Use -l, -w, or -c for individual counts."
+  },
+  {
+    "question": "How do you see hidden files starting with a dot?",
+    "options": [
+      "ls -a",
+      "ls --hidden",
+      "ls -all",
+      "ls -d"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ls -a shows all files including hidden ones (those starting with .). Combine with -l for detailed listing."
+  },
+  {
+    "question": "What does 'file /bin/bash' typically report?",
+    "options": [
+      "A text file",
+      "A binary or executable file",
+      "A directory",
+      "An empty file"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'file' command identifies file types. /bin/bash is an ELF binary executable."
+  },
+  {
+    "question": "How do you delete a non-empty directory recursively?",
+    "options": [
+      "rmdir dir",
+      "rm -r dir",
+      "delete dir",
+      "rm dir"
+    ],
+    "correctAnswer": 1,
+    "explanation": "rm -r recursively removes a directory and all its contents. Use rm -rf to skip confirmation prompts."
+  }
+]

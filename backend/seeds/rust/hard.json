@@ -220,333 +220,222 @@
     "explanation": "The correct answer is 'static' for Rust."
   },
   {
-    "question": "Which statement best describes memory management in Rust data types?",
+    "question": "What is the output?\n\nuse std::rc::Rc;\nlet a = Rc::new(5);\nlet b = Rc::clone(&a);\nlet c = Rc::clone(&a);\nprintln!(\"{} {} {}\", a, b, c);",
     "options": [
-      "implicit typing",
-      "automatic garbage collection",
-      "syntax highlighting",
-      "runtime binding"
+      "5 5 5",
+      "Compilation error",
+      "Runtime error",
+      "5 10 15"
     ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
+    "correctAnswer": 0,
+    "explanation": "Rc::clone increments ref count. All point to 5."
   },
   {
-    "question": "Which feature is commonly used for concurrency in Rust applications in function definitions?",
+    "question": "What is the output?\n\nfn main() {\n    let mut s = String::from(\"hello\");\n    let slice: &str = &s[..];\n    s.push_str(\" world\");\n    println!(\"{}\", slice);\n}",
     "options": [
-      "generics",
-      "inheritance",
-      "closures",
-      "async tasks"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'async tasks' for Rust."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Rust code in header files?",
-    "options": [
-      "var",
-      "mutable",
-      "const",
-      "let"
+      "hello",
+      "hello world",
+      "Compilation error",
+      "Runtime error"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'const' for Rust."
+    "explanation": "push_str requires mutable borrow while slice holds immutable borrow."
   },
   {
-    "question": "Which statement best describes memory management in Rust loop logic?",
+    "question": "What is the output?\n\nlet mut map = std::collections::HashMap::new();\nmap.insert(\"a\", 1);\nlet entry = map.entry(\"a\").or_insert(0);\n*entry += 10;\nprintln!(\"{}\", map[\"a\"]);",
     "options": [
-      "runtime binding",
-      "implicit typing",
-      "automatic garbage collection",
-      "syntax highlighting"
+      "1",
+      "10",
+      "11",
+      "Compilation error"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
+    "explanation": "or_insert returns existing value 1, then += 10 makes it 11."
   },
   {
-    "question": "Which data structure is fastest for random access by index in Rust data types?",
+    "question": "What is the output?\n\nlet x = &5;\nmatch x {\n    &5 => println!(\"five\"),\n    _ => println!(\"other\"),\n}",
     "options": [
-      "array",
-      "queue",
-      "stack",
-      "linked list"
+      "five",
+      "other",
+      "Compilation error",
+      "Runtime error"
     ],
     "correctAnswer": 0,
-    "explanation": "The correct answer is 'array' for Rust."
+    "explanation": "x is &5, matching pattern &5."
   },
   {
-    "question": "Which data structure is fastest for random access by index in Rust input/output?",
+    "question": "What is the output?\n\nfn main() {\n    let result: Result<i32, String> = Ok(42);\n    let value = result.unwrap_or_else(|e| {\n        println!(\"Error: {}\", e);\n        0\n    });\n    println!(\"{}\", value);\n}",
     "options": [
-      "stack",
-      "queue",
-      "array",
-      "linked list"
+      "42",
+      "0",
+      "Error: ...",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Result is Ok(42), unwrap_or_else returns 42."
+  },
+  {
+    "question": "What is the output?\n\nuse std::cell::RefCell;\nlet x = RefCell::new(5);\n*x.borrow_mut() += 1;\nprintln!(\"{}\", x.borrow());",
+    "options": [
+      "5",
+      "6",
+      "Compilation error",
+      "Runtime panic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "RefCell interior mutability: 5+1=6."
+  },
+  {
+    "question": "What is the output?\n\nlet mut s = String::from(\"hello\");\ns.push_str(\" world\");\nlet words: Vec<&str> = s.split_whitespace().collect();\nprintln!(\"{}\", words.len());",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "\"hello world\" splits into 2 words."
+  },
+  {
+    "question": "What is the output?\n\nlet v = vec![1, 2, 3];\nlet mut iter = v.iter();\nprintln!(\"{:?}\", iter.next());\nprintln!(\"{:?}\", iter.next());",
+    "options": [
+      "Some(1) Some(2)",
+      "1 2",
+      "None None",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "next() returns Option<&T>. Some(1), then Some(2)."
+  },
+  {
+    "question": "What is the output?\n\nlet data = vec![vec![1, 2], vec![3, 4]];\nlet flat: Vec<&i32> = data.iter().flat_map(|v| v.iter()).collect();\nprintln!(\"{:?}\", flat);",
+    "options": [
+      "[[1, 2], [3, 4]]",
+      "[1, 2, 3, 4]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "flat_map flattens nested vecs."
+  },
+  {
+    "question": "What is the output?\n\nfn main() {\n    let x = Box::new(5);\n    let y = x;\n    println!(\"{}\", *y);\n}",
+    "options": [
+      "5",
+      "&5",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Box is moved. *y dereferences to 5."
+  },
+  {
+    "question": "What is the output?\n\nfn main() {\n    let x = 42;\n    let y = &x;\n    let z = y;\n    println!(\"{} {}\", y, z);\n}",
+    "options": [
+      "42 42",
+      "42 &42",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "References implement Copy. Both refer to x."
+  },
+  {
+    "question": "What is the output?\n\nlet mut v = vec![1, 2, 3];\nv.retain(|x| *x > 1);\nprintln!(\"{:?}\", v);",
+    "options": [
+      "[1, 2, 3]",
+      "[2, 3]",
+      "[1]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "retain keeps elements where closure returns true."
+  },
+  {
+    "question": "What is the output?\n\nlet s = String::from(\"hello\");\nlet upper: String = s.chars().map(|c| c.to_ascii_uppercase()).collect();\nprintln!(\"{}\", upper);",
+    "options": [
+      "hello",
+      "HELLO",
+      "Hello",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "to_ascii_uppercase converts each char."
+  },
+  {
+    "question": "What is the output?\n\nuse std::ops::Add;\nlet a = 5;\nlet b = 10;\nprintln!(\"{}\", a.add(b));",
+    "options": [
+      "15",
+      "510",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Add trait's add method: 5+10=15."
+  },
+  {
+    "question": "What is the output?\n\nfn main() {\n    let s = \"hello\";\n    let r: &str = &s[0..3];\n    println!(\"{}\", r);\n}",
+    "options": [
+      "hel",
+      "hell",
+      "hello",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "&s[0..3] creates slice of first 3 bytes: \"hel\"."
+  },
+  {
+    "question": "What is the output?\n\nlet v = vec![1, 2, 3, 4, 5];\nlet chunk_sum: Vec<i32> = v.chunks(2).map(|c| c.iter().sum()).collect();\nprintln!(\"{:?}\", chunk_sum);",
+    "options": [
+      "[3, 7, 5]",
+      "[3, 7, 8]",
+      "[1, 2, 3, 4, 5]",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "chunks(2): [1,2]->3, [3,4]->7, [5]->5."
+  },
+  {
+    "question": "What is the output?\n\nlet x = 0b1010;\nlet y = 0b1100;\nprintln!(\"{:b}\", x | y);",
+    "options": [
+      "1010",
+      "1100",
+      "1110",
+      "1001100"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'array' for Rust."
+    "explanation": "1010 | 1100 = 1110 in binary."
   },
   {
-    "question": "Which mechanism helps avoid null reference errors in Rust error handling?",
+    "question": "What is the output?\n\nlet result = (1..=5).fold(0, |acc, x| acc + x);\nprintln!(\"{}\", result);",
     "options": [
-      "optional types",
-      "exceptions",
-      "inheritance",
-      "global variables"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'optional types' for Rust."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Rust memory management?",
-    "options": [
-      "optional types",
-      "global variables",
-      "exceptions",
-      "inheritance"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'optional types' for Rust."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Rust code in library imports?",
-    "options": [
-      "mutable",
-      "const",
-      "let",
-      "var"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'const' for Rust."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Rust loop logic?",
-    "options": [
-      "abstraction",
-      "modularity",
-      "polymorphism",
-      "encapsulation"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'modularity' for Rust."
-  },
-  {
-    "question": "Which data structure is fastest for random access by index in Rust library imports?",
-    "options": [
-      "linked list",
-      "queue",
-      "stack",
-      "array"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'array' for Rust."
-  },
-  {
-    "question": "Which data structure is fastest for random access by index in Rust error handling?",
-    "options": [
-      "linked list",
-      "array",
-      "queue",
-      "stack"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'array' for Rust."
-  },
-  {
-    "question": "Which keyword defines a class in Rust header files?",
-    "options": [
-      "module",
-      "package",
-      "namespace",
-      "struct"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'struct' for Rust."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Rust code in function definitions?",
-    "options": [
-      "let",
-      "var",
-      "mutable",
-      "const"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'const' for Rust."
-  },
-  {
-    "question": "Which feature is commonly used for concurrency in Rust applications in data types?",
-    "options": [
-      "async tasks",
-      "inheritance",
-      "closures",
-      "generics"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'async tasks' for Rust."
-  },
-  {
-    "question": "Which feature is commonly used for concurrency in Rust applications in memory management?",
-    "options": [
-      "async tasks",
-      "closures",
-      "inheritance",
-      "generics"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'async tasks' for Rust."
-  },
-  {
-    "question": "Which feature is commonly used for concurrency in Rust applications in loop logic?",
-    "options": [
-      "inheritance",
-      "generics",
-      "async tasks",
-      "closures"
+      "5",
+      "10",
+      "15",
+      "20"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'async tasks' for Rust."
+    "explanation": "fold accumulates: 0+1+2+3+4+5 = 15."
   },
   {
-    "question": "Which concept ensures a variable keeps its state across function calls in Rust loop logic?",
+    "question": "What is the output?\n\nlet mut counter = 0;\nlet mut increment = || {\n    counter += 1;\n    counter\n};\nprintln!(\"{} {} {}\", increment(), increment(), increment());",
     "options": [
-      "dynamic",
-      "volatile",
-      "transient",
-      "static"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'static' for Rust."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Rust code in source code?",
-    "options": [
-      "var",
-      "let",
-      "mutable",
-      "const"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'const' for Rust."
-  },
-  {
-    "question": "Which statement best describes memory management in Rust conditional logic?",
-    "options": [
-      "syntax highlighting",
-      "runtime binding",
-      "automatic garbage collection",
-      "implicit typing"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
-  },
-  {
-    "question": "Which relationship lets one type inherit behavior from another in Rust input/output?",
-    "options": [
-      "composition",
-      "delegation",
-      "aggregation",
-      "inheritance"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'inheritance' for Rust."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Rust source code?",
-    "options": [
-      "optional types",
-      "exceptions",
-      "global variables",
-      "inheritance"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'optional types' for Rust."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Rust function definitions?",
-    "options": [
-      "polymorphism",
-      "modularity",
-      "abstraction",
-      "encapsulation"
+      "1 1 1",
+      "1 2 3",
+      "0 1 2",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'modularity' for Rust."
+    "explanation": "Closure captures counter by reference. Returns 1, 2, 3."
   },
   {
-    "question": "Which statement checks for equality in Rust conditional logic?",
+    "question": "What is the output?\n\nlet v = vec![\"a\", \"b\", \"c\", \"d\"];\nlet result: String = v.iter().enumerate()\n    .filter(|(i, _)| i % 2 == 0)\n    .map(|(_, &s)| s)\n    .collect();\nprintln!(\"{}\", result);",
     "options": [
-      "==",
-      ":=",
-      "=",
-      "=>"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '==' for Rust."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Rust data types?",
-    "options": [
-      "static",
-      "transient",
-      "volatile",
-      "dynamic"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'static' for Rust."
-  },
-  {
-    "question": "Which statement best describes memory management in Rust library imports?",
-    "options": [
-      "runtime binding",
-      "automatic garbage collection",
-      "syntax highlighting",
-      "implicit typing"
+      "bd",
+      "ac",
+      "abcd",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
-  },
-  {
-    "question": "Which statement best describes memory management in Rust error handling?",
-    "options": [
-      "syntax highlighting",
-      "runtime binding",
-      "automatic garbage collection",
-      "implicit typing"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'automatic garbage collection' for Rust."
-  },
-  {
-    "question": "Which keyword defines a class in Rust loop logic?",
-    "options": [
-      "package",
-      "struct",
-      "namespace",
-      "module"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'struct' for Rust."
-  },
-  {
-    "question": "Which feature is commonly used for concurrency in Rust applications in conditional logic?",
-    "options": [
-      "async tasks",
-      "inheritance",
-      "closures",
-      "generics"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'async tasks' for Rust."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Rust data types?",
-    "options": [
-      "global variables",
-      "optional types",
-      "inheritance",
-      "exceptions"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'optional types' for Rust."
+    "explanation": "Even indices: 0->\"a\", 2->\"c\". Collected: \"ac\"."
   }
 ]

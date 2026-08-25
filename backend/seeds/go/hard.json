@@ -220,333 +220,223 @@
     "explanation": "The correct answer is 'inheritance' for Go."
   },
   {
-    "question": "Which statement best describes memory management in Go input/output?",
+    "question": "What is the output?\n\nfunc main() {\n    ch := make(chan int, 3)\n    ch <- 1\n    ch <- 2\n    ch <- 3\n    close(ch)\n    sum := 0\n    for v := range ch {\n        sum += v\n    }\n    fmt.Println(sum)\n}",
     "options": [
-      "implicit typing",
-      "automatic garbage collection",
-      "syntax highlighting",
-      "runtime binding"
+      "3",
+      "6",
+      "0",
+      "panic"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'automatic garbage collection' for Go."
+    "explanation": "range over closed channel yields 1,2,3. Sum=6."
   },
   {
-    "question": "Which keyword defines a class in Go library imports?",
+    "question": "What is the output?\n\nfunc main() {\n    x := 5\n    p := &x\n    fmt.Println(*p + 10)\n}",
     "options": [
-      "module",
-      "namespace",
-      "function",
-      "package"
+      "5",
+      "10",
+      "15",
+      "Compilation error"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'function' for Go."
+    "explanation": "*p=5, 5+10=15."
   },
   {
-    "question": "Which statement best describes memory management in Go source code?",
+    "question": "What is the output?\n\ntype Stack[T any] []T\nfunc (s *Stack[T]) Push(v T) { *s = append(*s, v) }\nfunc (s *Stack[T]) Pop() (T, bool) {\n    if len(*s) == 0 { var zero T; return zero, false }\n    v := (*s)[len(*s)-1]\n    *s = (*s)[:len(*s)-1]\n    return v, true\n}\nfunc main() {\n    var s Stack[int]\n    s.Push(10)\n    s.Push(20)\n    v, _ := s.Pop()\n    fmt.Println(v)\n}",
     "options": [
-      "implicit typing",
-      "syntax highlighting",
-      "runtime binding",
-      "automatic garbage collection"
+      "10",
+      "20",
+      "30",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pop returns last pushed: 20."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    result := make(chan int)\n    go func() {\n        time.Sleep(10 * time.Millisecond)\n        result <- 42\n    }()\n    select {\n    case v := <-result:\n        fmt.Println(v)\n    case <-time.After(time.Second):\n        fmt.Println(\"timeout\")\n    }\n}",
+    "options": [
+      "42",
+      "timeout",
+      "deadlock",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Goroutine sends before timeout."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    s := []int{1, 2, 3, 4, 5}\n    s2 := append(s[:2], s[3:]...)\n    fmt.Println(s2)\n}",
+    "options": [
+      "[1 2 3 4 5]",
+      "[1 2 4 5]",
+      "[1 2 3]",
+      "[3 4 5]"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Skip element at index 2. Result: [1 2 4 5]."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    var x, y interface{} = 1, 1\n    fmt.Println(x == y)\n}",
+    "options": [
+      "true",
+      "false",
+      "Compilation error",
+      "panic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "interface{} compares underlying values."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    ch := make(chan int)\n    go func() { close(ch) }()\n    v, ok := <-ch\n    fmt.Println(v, ok)\n}",
+    "options": [
+      "0 false",
+      "0 true",
+      "panic",
+      "deadlock"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Receiving from closed channel returns zero value and false."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    var s string\n    s = fmt.Sprintf(\"%T %v\", 42, 42)\n    fmt.Println(s)\n}",
+    "options": [
+      "int 42",
+      "42 int",
+      "string 42",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "%T prints type, %v prints value."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    nums := make([]int, 5)\n    for i := range nums {\n        nums[i] = i * i\n    }\n    fmt.Println(nums)\n}",
+    "options": [
+      "[0 1 2 3 4]",
+      "[0 1 4 9 16]",
+      "[1 4 9 16 25]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Each index squared."
+  },
+  {
+    "question": "What is the output?\n\ntype Animal interface { Speak() string }\ntype Cat struct{}\nfunc (c Cat) Speak() string { return \"Meow\" }\nfunc main() {\n    var a Animal = Cat{}\n    switch v := a.(type) {\n    case Cat: fmt.Println(v.Speak())\n    default: fmt.Println(\"unknown\")\n    }\n}",
+    "options": [
+      "Meow",
+      "unknown",
+      "panic",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Type switch matches Cat."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    m := sync.Map{}\n    m.Store(\"x\", 10)\n    m.Store(\"y\", 20)\n    count := 0\n    m.Range(func(k, v interface{}) bool {\n        count++\n        return true\n    })\n    fmt.Println(count)\n}",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Compilation error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "sync.Map has 2 entries."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    ch1 := make(chan string, 1)\n    ch2 := make(chan string, 1)\n    ch1 <- \"hello\"\n    ch2 <- \"world\"\n    select {\n    case v := <-ch1:\n        fmt.Println(v)\n    case v := <-ch2:\n        fmt.Println(v)\n    }\n}",
+    "options": [
+      "hello world",
+      "hello",
+      "world",
+      "Cannot be determined"
     ],
     "correctAnswer": 3,
-    "explanation": "The correct answer is 'automatic garbage collection' for Go."
+    "explanation": "Both channels ready, select picks randomly."
   },
   {
-    "question": "Which feature is commonly used for concurrency in Go applications in memory management?",
+    "question": "What is the output?\n\nfunc main() {\n    var wg sync.WaitGroup\n    results := make([]int, 3)\n    for i := 0; i < 3; i++ {\n        wg.Add(1)\n        go func(n int) {\n            defer wg.Done()\n            results[n] = n * n\n        }(i)\n    }\n    wg.Wait()\n    fmt.Println(results)\n}",
     "options": [
-      "goroutines",
-      "closures",
-      "inheritance",
-      "generics"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'goroutines' for Go."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Go input/output?",
-    "options": [
-      "transient",
-      "dynamic",
-      "static",
-      "volatile"
+      "[0 1 2]",
+      "[0 1 4]",
+      "[0 4 9]",
+      "Cannot be determined"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'static' for Go."
+    "explanation": "Each goroutine writes n*n. 0,1,4."
   },
   {
-    "question": "Which statement checks for equality in Go header files?",
+    "question": "What is the output?\n\nfunc main() {\n    done := make(chan struct{})\n    go func() {\n        fmt.Println(\"working\")\n        close(done)\n    }()\n    <-done\n    fmt.Println(\"done\")\n}",
     "options": [
-      "=",
-      ":=",
-      "=>",
-      "=="
+      "working done",
+      "done working",
+      "Compilation error",
+      "panic"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '==' for Go."
+    "correctAnswer": 0,
+    "explanation": "Goroutine prints first, signals done."
   },
   {
-    "question": "Which term describes code reuse through a function call in Go header files?",
+    "question": "What is the output?\n\nfunc main() {\n    s := []int{5, 3, 1, 4, 2}\n    sort.Ints(s)\n    fmt.Println(s)\n}",
     "options": [
-      "encapsulation",
-      "abstraction",
-      "modularity",
-      "polymorphism"
+      "[5 3 1 4 2]",
+      "[1 2 3 4 5]",
+      "[5 4 3 2 1]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "sort.Ints sorts ascending."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    ch := make(chan int)\n    go func() {\n        for i := 0; i < 5; i++ {\n            ch <- i\n        }\n        close(ch)\n    }()\n    for v := range ch {\n        fmt.Print(v, \" \")\n    }\n}",
+    "options": [
+      "0 1 2 3 4",
+      "0 1 2 3 4 5",
+      "Cannot be determined",
+      "panic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "range reads until close. Prints 0-4."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    var mu sync.Mutex\n    s := []int{}\n    var wg sync.WaitGroup\n    for i := 0; i < 5; i++ {\n        wg.Add(1)\n        go func(n int) {\n            defer wg.Done()\n            mu.Lock()\n            s = append(s, n)\n            mu.Unlock()\n        }(i)\n    }\n    wg.Wait()\n    fmt.Println(len(s))\n}",
+    "options": [
+      "0",
+      "5",
+      "Less than 5",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mutex protects append. All 5 complete."
+  },
+  {
+    "question": "What is the output?\n\nfunc main() {\n    type Pair struct { A, B int }\n    pairs := []Pair{{1,2},{3,4},{5,6}}\n    sum := 0\n    for _, p := range pairs {\n        sum += p.A + p.B\n    }\n    fmt.Println(sum)\n}",
+    "options": [
+      "10",
+      "15",
+      "21",
+      "6"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'modularity' for Go."
+    "explanation": "(1+2)+(3+4)+(5+6) = 3+7+11 = 21."
   },
   {
-    "question": "Which statement checks for equality in Go memory management?",
+    "question": "What is the output?\n\nfunc main() {\n    ctx, cancel := context.WithCancel(context.Background())\n    cancel()\n    fmt.Println(ctx.Err())\n}",
     "options": [
-      "=>",
-      "==",
-      ":=",
-      "="
+      "nil",
+      "context canceled",
+      "context deadline exceeded",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is '==' for Go."
+    "explanation": "cancel() was called, so Err returns context.Canceled."
   },
   {
-    "question": "Which data structure is fastest for random access by index in Go function definitions?",
+    "question": "What is the output?\n\nfunc main() {\n    s1 := []int{1, 2, 3}\n    s2 := make([]int, len(s1))\n    copy(s2, s1)\n    s2[0] = 99\n    fmt.Println(s1[0], s2[0])\n}",
     "options": [
-      "linked list",
-      "array",
-      "queue",
-      "stack"
+      "99 99",
+      "1 99",
+      "1 1",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'array' for Go."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Go function definitions?",
-    "options": [
-      "dynamic",
-      "static",
-      "volatile",
-      "transient"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'static' for Go."
-  },
-  {
-    "question": "Which relationship lets one type inherit behavior from another in Go source code?",
-    "options": [
-      "inheritance",
-      "composition",
-      "aggregation",
-      "delegation"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'inheritance' for Go."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Go code in conditional logic?",
-    "options": [
-      "var",
-      "const",
-      "mutable",
-      "let"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'const' for Go."
-  },
-  {
-    "question": "Which keyword defines a class in Go input/output?",
-    "options": [
-      "module",
-      "package",
-      "namespace",
-      "function"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'function' for Go."
-  },
-  {
-    "question": "Which concept ensures a variable keeps its state across function calls in Go loop logic?",
-    "options": [
-      "static",
-      "transient",
-      "volatile",
-      "dynamic"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'static' for Go."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Go data types?",
-    "options": [
-      "None handling",
-      "exceptions",
-      "inheritance",
-      "global variables"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'None handling' for Go."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Go error handling?",
-    "options": [
-      "inheritance",
-      "global variables",
-      "None handling",
-      "exceptions"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'None handling' for Go."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Go function definitions?",
-    "options": [
-      "modularity",
-      "polymorphism",
-      "abstraction",
-      "encapsulation"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'modularity' for Go."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Go loop logic?",
-    "options": [
-      "abstraction",
-      "modularity",
-      "encapsulation",
-      "polymorphism"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'modularity' for Go."
-  },
-  {
-    "question": "Which relationship lets one type inherit behavior from another in Go loop logic?",
-    "options": [
-      "inheritance",
-      "composition",
-      "delegation",
-      "aggregation"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'inheritance' for Go."
-  },
-  {
-    "question": "Which keyword defines a class in Go header files?",
-    "options": [
-      "function",
-      "module",
-      "namespace",
-      "package"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'function' for Go."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Go code in memory management?",
-    "options": [
-      "var",
-      "mutable",
-      "const",
-      "let"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'const' for Go."
-  },
-  {
-    "question": "Which keyword indicates an immutable value in Go code in function definitions?",
-    "options": [
-      "let",
-      "var",
-      "mutable",
-      "const"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'const' for Go."
-  },
-  {
-    "question": "Which term describes code reuse through a function call in Go source code?",
-    "options": [
-      "abstraction",
-      "encapsulation",
-      "modularity",
-      "polymorphism"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'modularity' for Go."
-  },
-  {
-    "question": "Which statement best describes memory management in Go function definitions?",
-    "options": [
-      "automatic garbage collection",
-      "syntax highlighting",
-      "implicit typing",
-      "runtime binding"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'automatic garbage collection' for Go."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Go header files?",
-    "options": [
-      "None handling",
-      "exceptions",
-      "inheritance",
-      "global variables"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'None handling' for Go."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Go memory management?",
-    "options": [
-      "inheritance",
-      "None handling",
-      "global variables",
-      "exceptions"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'None handling' for Go."
-  },
-  {
-    "question": "Which feature is commonly used for concurrency in Go applications in data types?",
-    "options": [
-      "closures",
-      "inheritance",
-      "goroutines",
-      "generics"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'goroutines' for Go."
-  },
-  {
-    "question": "Which data structure is fastest for random access by index in Go source code?",
-    "options": [
-      "array",
-      "linked list",
-      "queue",
-      "stack"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'array' for Go."
-  },
-  {
-    "question": "Which statement checks for equality in Go error handling?",
-    "options": [
-      "=>",
-      "=",
-      "==",
-      ":="
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '==' for Go."
-  },
-  {
-    "question": "Which mechanism helps avoid null reference errors in Go source code?",
-    "options": [
-      "inheritance",
-      "None handling",
-      "global variables",
-      "exceptions"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'None handling' for Go."
+    "explanation": "copy creates independent slice. s1 stays 1, s2 becomes 99."
   }
 ]

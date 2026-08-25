@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What is the purpose of an index in MongoDB?",
+    "options": ["To encrypt data", "To improve query performance by reducing the number of documents scanned", "To enforce relationships between collections", "To compress documents"],
+    "correctAnswer": 1,
+    "explanation": "Indexes improve query performance by allowing MongoDB to find documents without scanning the entire collection."
+  },
+  {
+    "question": "What is a MongoDB aggregation pipeline?",
+    "options": ["A backup mechanism", "A framework for processing documents through multiple stages", "A network protocol", "A replication strategy"],
+    "correctAnswer": 1,
+    "explanation": "The aggregation pipeline processes documents through a sequence of stages (match, group, project, etc.) to transform data."
+  },
+  {
+    "question": "What does '$lookup' do in a MongoDB aggregation?",
+    "options": ["Looks up document count", "Performs a left outer join with another collection", "Searches for text", "Looks up index information"],
+    "correctAnswer": 1,
+    "explanation": "$lookup performs a left outer join, combining documents from the input collection with documents from another collection."
+  },
+  {
+    "question": "What is a MongoDB replica set?",
+    "options": ["A backup copy of the database", "A group of mongod processes maintaining the same data set for redundancy", "A sharding configuration", "A development environment clone"],
+    "correctAnswer": 1,
+    "explanation": "A replica set is a group of mongod instances that maintain the same data, providing redundancy and automatic failover."
+  },
+  {
+    "question": "What is the difference between 'updateOne' and 'updateMany'?",
+    "options": ["No difference", "updateOne modifies the first matching document, updateMany modifies all matching documents", "updateOne is faster", "updateMany creates new documents"],
+    "correctAnswer": 1,
+    "explanation": "updateOne updates only the first document matching the filter, while updateMany updates all matching documents."
+  },
+  {
+    "question": "What does the '$set' operator do in an update?",
+    "options": ["Deletes a field", "Creates or updates the value of a field", "Renames a field", "Creates an index"],
+    "correctAnswer": 1,
+    "explanation": "$set replaces the value of a field with the specified value, creating the field if it doesn't exist."
+  },
+  {
+    "question": "What is MongoDB sharding?",
+    "options": ["Breaking documents into pieces", "Distributing data across multiple machines to support horizontal scaling", "Creating read replicas", "Compressing large documents"],
+    "correctAnswer": 1,
+    "explanation": "Sharding distributes data across multiple servers (shards), enabling horizontal scaling for large datasets."
+  },
+  {
+    "question": "What happens when you run 'db.collection.find({name: /john/i})'?",
+    "options": ["Finds documents where name equals 'john'", "Finds documents where name contains 'john' (case-insensitive)", "Finds documents where name starts with 'john'", "Throws an error"],
+    "correctAnswer": 1,
+    "explanation": "The /john/i is a regular expression that matches any document where the name field contains 'john' case-insensitively."
+  },
+  {
+    "question": "What is a covered query in MongoDB?",
+    "options": ["A query that uses a cursor", "A query that uses only an index and doesn't need to examine documents", "A query with a limit", "A query on a secondary node"],
+    "correctAnswer": 1,
+    "explanation": "A covered query satisfies entirely from the index without accessing the actual documents, making it very efficient."
+  },
+  {
+    "question": "What does 'db.collection.explain().find(...)' show?",
+    "options": ["The query results", "The query execution plan including index usage and stages", "The collection schema", "Server configuration"],
+    "correctAnswer": 1,
+    "explanation": "explain() shows the query execution plan, including which indexes were used, documents examined, and execution stages."
+  },
+  {
+    "question": "What is the '$match' stage used for in an aggregation pipeline?",
+    "options": ["Matches fields across collections", "Filters documents to pass only those matching the condition", "Creates text indexes", "Performs joins"],
+    "correctAnswer": 1,
+    "explanation": "$match filters documents in the pipeline. It's best placed early to reduce the number of documents processed in later stages."
+  },
+  {
+    "question": "What is the '$group' stage in an aggregation pipeline?",
+    "options": ["Groups collections together", "Groups documents by a key and applies accumulator operations", "Groups indexes", "Groups database connections"],
+    "correctAnswer": 1,
+    "explanation": "$group groups documents by a specified key (_id) and can apply accumulators like $sum, $avg, $min, $max on grouped data."
+  },
+  {
+    "question": "What does the '$unset' operator do in an update?",
+    "options": ["Removes a field from a document", "Unsets a lock on the document", "Removes an index", "Disables a collection"],
+    "correctAnswer": 0,
+    "explanation": "$unset removes the specified field(s) from a document."
+  },
+  {
+    "question": "What is a 'schema validation' rule in MongoDB?",
+    "options": ["A client-side check", "A server-side rule that enforces document structure on insert/update", "An index type", "A backup rule"],
+    "correctAnswer": 1,
+    "explanation": "Schema validation allows you to define rules for document structure that MongoDB enforces during insert and update operations."
+  },
+  {
+    "question": "What does 'db.collection.aggregate([{$count: \"total\"}])' return?",
+    "options": ["The first document", "A single document with a 'total' field containing the collection count", "All documents", "An error"],
+    "correctAnswer": 1,
+    "explanation": "$count creates a new field with the total number of documents passing through the pipeline stage."
+  },
+  {
+    "question": "What is the '$push' operator used for?",
+    "options": ["Pushes a document to another collection", "Adds an element to an array field", "Pushes data to a replica", "Creates a new field"],
+    "correctAnswer": 1,
+    "explanation": "$push appends a value to an array field. Use $addToSet to add only if the value doesn't already exist."
+  },
+  {
+    "question": "What happens when you create a unique index on a field?",
+    "options": ["It compresses the field data", "It prevents documents from having duplicate values in that field", "It makes the field required", "It sorts documents faster"],
+    "correctAnswer": 1,
+    "explanation": "A unique index ensures all values in the indexed field are distinct across the collection. Inserting duplicates throws a duplicate key error."
+  },
+  {
+    "question": "What is the difference between 'find()' and 'findOne()'?",
+    "options": ["No difference", "find() returns a cursor with all matches, findOne() returns only the first matching document", "findOne() is faster", "find() returns a single document"],
+    "correctAnswer": 1,
+    "explanation": "find() returns a cursor (lazy iterator) over multiple documents. findOne() returns a single document or null, and is convenient when you expect one result."
+  },
+  {
+    "question": "What does the '$project' stage do in aggregation?",
+    "options": ["Projects data to another server", "Reshapes documents by including/excluding fields and computing new fields", "Creates database projections", "Backs up the collection"],
+    "correctAnswer": 1,
+    "explanation": "$project reshapes each document: you can include/exclude fields, create computed fields, and rename fields."
+  },
+  {
+    "question": "What is a 'tailable cursor' best suited for?",
+    "options": ["Large static result sets", "Continuously reading new documents from a capped collection as they arrive", "Reading in reverse order", "Paginating results"],
+    "correctAnswer": 1,
+    "explanation": "Tailable cursors stay open on capped collections and wait for new data, making them ideal for tailing log-like collections."
+  },
+  {
+    "question": "What is a compound index in MongoDB?",
+    "options": ["An index on a compound type", "An index on multiple fields of a document", "An index created by multiple users", "An index that combines data from two collections"],
+    "correctAnswer": 1,
+    "explanation": "A compound index is an index on two or more fields, e.g., db.collection.createIndex({a: 1, b: -1})."
+  },
+  {
+    "question": "What does the '$first' accumulator do in a '$group' stage?",
+    "options": ["Returns the first document in the collection", "Returns the first value in a group based on the defined sort order", "Returns the first field", "Returns the oldest document"],
+    "correctAnswer": 1,
+    "explanation": "$first returns the first value encountered in the group. It requires a preceding $sort stage to define the order."
+  },
+  {
+    "question": "What is the purpose of a 'capped collection' in MongoDB?",
+    "options": ["Limits the number of queries", "Fixed-size collection that overwrites oldest documents when size limit is reached", "Caps the number of indexes", "Limits document size"],
+    "correctAnswer": 1,
+    "explanation": "Capped collections have a fixed maximum size. When the size limit is reached, they overwrite the oldest documents, making them ideal for logs."
+  },
+  {
+    "question": "What does '$unwind' do in an aggregation pipeline?",
+    "options": ["Removes duplicates", "Deconstructs an array field, outputting one document per array element", "Winds up the pipeline", "Sorts documents"],
+    "correctAnswer": 1,
+    "explanation": "$unwind takes an array field and outputs one document for each element, duplicating other fields."
+  },
+  {
+    "question": "What does 'db.collection.createIndex({email: 1}, {unique: true})' do?",
+    "options": ["Creates a regular index on email", "Creates a unique index that prevents duplicate email values", "Sorts emails alphabetically", "Creates a text index for search"],
+    "correctAnswer": 1,
+    "explanation": "The unique: true option ensures no two documents can have the same value for the 'email' field."
+  },
+  {
+    "question": "What is the '$sum' accumulator used for in aggregation?",
+    "options": ["Counts documents only", "Adds up numeric values across grouped documents", "Sums field names", "Adds two arrays"],
+    "correctAnswer": 1,
+    "explanation": "$sum adds up numeric field values within groups. e.g., { totalSales: { $sum: \"$amount\" } } sums the amount field."
+  },
+  {
+    "question": "What does 'allowDiskUse' do in an aggregation query?",
+    "options": ["Stores results on disk permanently", "Allows the aggregation to use temporary disk storage when working set exceeds RAM", "Enables SSD storage", "Increases RAM allocation"],
+    "correctAnswer": 1,
+    "explanation": "allowDiskUse permits MongoDB to write temporary data to disk when an aggregation stage exceeds the 100MB memory limit."
+  },
+  {
+    "question": "What does 'db.collection.dropIndex({name: 1})' do?",
+    "options": ["Drops the collection", "Removes the specified index from the collection", "Drops all indexes", "Removes the name field"],
+    "correctAnswer": 1,
+    "explanation": "dropIndex removes a specific index. Use dropIndexes() to remove all non-_id indexes."
+  },
+  {
+    "question": "What is the difference between '$and' and '$or' in MongoDB queries?",
+    "options": ["No difference", "$and requires all conditions to be true, $or requires at least one condition to be true", "$or is faster", "$and only works with two conditions"],
+    "correctAnswer": 1,
+    "explanation": "$and matches documents satisfying ALL conditions. $or matches documents satisfying ANY of the conditions."
+  },
+  {
+    "question": "What does 'db.collection.find().explain(\"executionStats\")' provide?",
+    "options": ["Basic query plan only", "Detailed execution statistics including documents examined, returned, and execution time", "Server logs", "Index creation plan"],
+    "correctAnswer": 1,
+    "explanation": "explain('executionStats') provides detailed metrics: totalDocsExamined, nReturned, executionTimeMillis, and index usage details."
+  },
+  {
+    "question": "What is a 'partial index' in MongoDB?",
+    "options": ["An incomplete index", "An index that only includes documents matching a filter expression", "An index on partial data types", "An index that is partially built"],
+    "correctAnswer": 1,
+    "explanation": "Partial indexes only index documents that match a specified filter, reducing index size and improving performance for queries on a subset of data."
+  },
+  {
+    "question": "What does the '$arrayElemAt' aggregation operator do?",
+    "options": ["Adds an element to an array", "Returns the element at a specified array index from an array expression", "Removes an element", "Counts array elements"],
+    "correctAnswer": 1,
+    "explanation": "$arrayElemAt returns the element at the specified index of an array. Use negative index to access from the end."
+  },
+  {
+    "question": "What is the purpose of 'db.collection.reIndex()'?",
+    "options": ["Creates a new collection", "Rebuilds all existing indexes on the collection", "Removes all indexes", "Renames the collection"],
+    "correctAnswer": 1,
+    "explanation": "reIndex drops and recreates all indexes on a collection. Useful for maintenance but causes a write lock during execution."
+  },
+  {
+    "question": "What does '$size' do in a query filter?",
+    "options": ["Returns the size of documents", "Matches documents where the array field has exactly the specified number of elements", "Limits result size", "Measures document bytes"],
+    "correctAnswer": 1,
+    "explanation": "{ field: { $size: 3 } } matches documents where the array field contains exactly 3 elements."
+  },
+  {
+    "question": "What is the '$cond' aggregation operator?",
+    "options": ["Adds a condition to the database", "Implements if/then/else logic within an aggregation expression", "Creates conditional indexes", "Filters with conditions"],
+    "correctAnswer": 1,
+    "explanation": "$cond evaluates a boolean expression and returns one of two values based on the result, similar to a ternary operator."
+  },
+  {
+    "question": "What does 'db.collection.find().hint(\"indexName\")' do?",
+    "options": ["Hints at the document count", "Forces MongoDB to use the specified index for the query", "Suggests a query optimization", "Disables index usage"],
+    "correctAnswer": 1,
+    "explanation": "hint() forces MongoDB to use the specified index instead of letting the query optimizer choose. Useful for testing and query performance tuning."
+  },
+  {
+    "question": "What is the '$filter' aggregation operator?",
+    "options": ["Filters documents from the pipeline", "Filters elements within an array expression based on a condition", "Creates a filter index", "Removes null values"],
+    "correctAnswer": 1,
+    "explanation": "$filter processes an array and returns only elements matching a condition, similar to the Array.filter() method in programming."
+  },
+  {
+    "question": "What does the '$redact' stage do in aggregation?",
+    "options": ["Redacts sensitive data", "Filters documents based on information stored in the documents themselves (field-level security)", "Deletes documents", "Removes fields"],
+    "correctAnswer": 1,
+    "explanation": "$redact evaluates documents and restricts them based on embedded field values, enabling document-level access control within aggregation."
+  },
+  {
+    "question": "What is a 'wildcard index' in MongoDB?",
+    "options": ["A random index", "An index that indexes all fields and sub-documents matching a pattern", "An unstable index", "An index on the _id field"],
+    "correctAnswer": 1,
+    "explanation": "Wildcard indexes use $** to index every field in a document (or a pattern), useful when field names are unpredictable or dynamic."
+  },
+  {
+    "question": "What does 'db.collection.aggregate([{$limit: 5}])' do?",
+    "options": ["Limits document size to 5 bytes", "Passes only the first 5 documents through the pipeline", "Creates a limit of 5 indexes", "Limits connections to 5"],
+    "correctAnswer": 1,
+    "explanation": "$limit restricts the number of documents passing through the pipeline stage. Only the first 5 documents continue to subsequent stages."
+  }
+]

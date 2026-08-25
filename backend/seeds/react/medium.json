@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 1,
     "explanation": "The effect reruns only when listed dependencies change (empty array = once)."
+  },
+  {
+    "question": "What is the purpose of useCallback hook?",
+    "options": [
+      "Creating new state",
+      "Preventing unnecessary re-renders by memoizing callback functions",
+      "Handling side effects",
+      "Styling components"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useCallback memoizes a function reference preventing recreation on every render."
+  },
+  {
+    "question": "What happens when you return null from a React component?",
+    "options": [
+      "Error occurs",
+      "The component renders nothing visible in the DOM",
+      "Renders an empty div",
+      "Renders an empty string"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Returning null tells React to render nothing for that component."
+  },
+  {
+    "question": "What does useRef return?",
+    "options": [
+      "A DOM element directly",
+      "A mutable ref object with a current property that persists across renders",
+      "A new state variable",
+      "A promise"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useRef returns a mutable ref object whose current property can hold any value."
+  },
+  {
+    "question": "What is the purpose of React.memo with a custom comparator?",
+    "options": [
+      "Deep comparison only",
+      "Controls when re-renders should be skipped based on custom logic",
+      "Forces re-renders",
+      "Disables memoization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A custom comparator defines exactly when a component should re-render instead of default shallow comparison."
+  },
+  {
+    "question": "What does useMemo do?",
+    "options": [
+      "Memoizes hooks",
+      "Memoizes an expensive computation result so it only recalculates when dependencies change",
+      "Memoizes the component",
+      "Creates memo objects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useMemo caches the result of an expensive function call to avoid recomputation on every render."
+  },
+  {
+    "question": "What problem does useTransition solve?",
+    "options": [
+      "Page transitions",
+      "Keeps the UI responsive during expensive state updates by marking them as non-urgent",
+      "Styling transitions",
+      "Route transitions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useTransition marks updates as low priority keeping UI interactive during expensive computations."
+  },
+  {
+    "question": "What is the purpose of React DevTools?",
+    "options": [
+      "Writing components",
+      "Inspecting React component tree state props and performance",
+      "Debugging network",
+      "Testing CSS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "React DevTools lets you inspect the component tree view state and props and profile performance."
+  },
+  {
+    "question": "What does the useDeferredValue hook do?",
+    "options": [
+      "Defers state initialization",
+      "Returns a value that updates with lower priority to keep UI responsive",
+      "Delays API calls",
+      "Defers rendering"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useDeferredValue creates a deferred version of a value for lower priority rendering."
+  },
+  {
+    "question": "What is the key prop used for in React lists?",
+    "options": [
+      "Styling items",
+      "Providing a stable identity to help React efficiently update the list",
+      "Sorting items",
+      "Creating keys for maps"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Keys give React a stable identity for each item enabling efficient list reconciliation."
+  },
+  {
+    "question": "What happens if you call a hook inside a conditional?",
+    "options": [
+      "It works fine",
+      "It violates the Rules of Hooks causing unpredictable behavior",
+      "Nothing happens",
+      "It throws a warning only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hooks must be called in the same order every render. Conditionals can break this rule."
+  },
+  {
+    "question": "What does the useCallback dependency array control?",
+    "options": [
+      "Which state to create",
+      "When the memoized function should be recreated based on value changes",
+      "How often to render",
+      "Which props to accept"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The dependency array tells useCallback when to create a new function reference."
+  },
+  {
+    "question": "What is the purpose of React.Suspense for data fetching?",
+    "options": [
+      "Fetching data directly",
+      "Providing a loading boundary for components that suspend while fetching data",
+      "Caching data",
+      "Managing API calls"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Suspense catches suspended components during data fetching and shows a fallback."
+  },
+  {
+    "question": "What does useSyncExternalStore do?",
+    "options": [
+      "Stores data externally",
+      "Subscribes to external data sources while ensuring consistent snapshots during concurrent rendering",
+      "Creates external stores",
+      "Syncs local state"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useSyncExternalStore safely subscribes to external stores with tear-free rendering."
+  },
+  {
+    "question": "What is the purpose of React.memo for list items?",
+    "options": [
+      "Storing items",
+      "Preventing re-rendering of unchanged list items for performance optimization",
+      "Sorting items",
+      "Filtering items"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Wrapping list items in React.memo prevents unnecessary re-renders when other items change."
+  },
+  {
+    "question": "What does the useImperativeHandle hook do?",
+    "options": [
+      "Imperative API access",
+      "Customizes the ref value exposed to parent components",
+      "Direct DOM manipulation",
+      "Forces imperative rendering"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useImperativeHandle customizes which methods and properties are exposed via ref."
+  },
+  {
+    "question": "What is concurrent rendering in React?",
+    "options": [
+      "Multi-threading",
+      "Allowing React to prepare multiple versions of the UI simultaneously interrupting lower-priority updates",
+      "Parallel CSS processing",
+      "Concurrent database access"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Concurrent rendering lets React work on multiple UI versions allowing interruption for urgent updates."
+  },
+  {
+    "question": "What does useEffect with empty dependency array do?",
+    "options": [
+      "Runs every render",
+      "Runs only once after the initial render like componentDidMount",
+      "Never runs",
+      "Throws an error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An empty dependency array means the effect only runs once on mount."
+  },
+  {
+    "question": "What is the purpose of the useReducer hook?",
+    "options": [
+      "Reducing components",
+      "Managing complex state logic with a reducer function similar to Redux pattern",
+      "Reducing renders",
+      "Optimizing performance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useReducer manages complex state transitions via a reducer function with dispatch actions."
+  },
+  {
+    "question": "What does the isPending value from useTransition indicate?",
+    "options": [
+      "If the transition is complete",
+      "Whether a transition update is currently in progress",
+      "If the component is mounted",
+      "If props are pending"
+    ],
+    "correctAnswer": 1,
+    "explanation": "isPending is true while the transition update is still being processed."
+  },
+  {
+    "question": "What is the purpose of React.memo for context consumers?",
+    "options": [
+      "Creating context",
+      "Preventing re-renders when context value changes if own props have not changed",
+      "Memoizing context",
+      "Deleting context"
+    ],
+    "correctAnswer": 1,
+    "explanation": "React.memo can prevent unnecessary re-renders even when parent re-renders due to context updates."
   }
 ]

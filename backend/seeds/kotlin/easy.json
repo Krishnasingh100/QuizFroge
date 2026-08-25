@@ -220,333 +220,223 @@
     "explanation": "The correct answer is '7' for Kotlin."
   },
   {
-    "question": "Which concept describes reusable code blocks in Kotlin source code?",
+    "question": "What is the output?\n\nval x = 10\nval y = x * 2\nprintln(y)",
     "options": [
-      "comments",
-      "variables",
-      "functions",
-      "classes"
+      "10",
+      "20",
+      "22",
+      "Compilation error"
     ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'functions' for Kotlin."
+    "correctAnswer": 1,
+    "explanation": "10 * 2 = 20."
   },
   {
-    "question": "Which phrase describes the main function signature in Kotlin conditional logic?",
+    "question": "What is the output?\n\nval name = \"Kotlin\"\nprintln(\"Length: ${name.length}\")",
     "options": [
-      "function main() {}",
-      "def main():",
-      "main()",
-      "fun main() {}"
+      "Length: 5",
+      "Length: 6",
+      "Length: Kotlin",
+      "Compilation error"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'fun main() {}' for Kotlin."
+    "correctAnswer": 0,
+    "explanation": "String template with expression."
   },
   {
-    "question": "Which keyword is used to exit a loop early in Kotlin conditional logic?",
+    "question": "What is the output?\n\nval flag = !true\nprintln(flag)",
     "options": [
-      "continue",
-      "return",
-      "break",
-      "stop"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'break' for Kotlin."
-  },
-  {
-    "question": "Which value is produced by 2 * 5 in Kotlin header files?",
-    "options": [
+      "true",
+      "false",
       "0",
-      "25",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "!true is false."
+  },
+  {
+    "question": "What is the output?\n\nval a = 5\nval b = 3\nprintln(a > b)",
+    "options": [
+      "true",
+      "false",
+      "1",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "5 > 3 is true."
+  },
+  {
+    "question": "What is the output?\n\nval nums = listOf(10, 20, 30)\nprintln(nums.last())",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "Compilation error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "last() returns the final element: 30."
+  },
+  {
+    "question": "What is the output?\n\nval x = 7\nprintln(x / 2)",
+    "options": [
+      "3",
+      "3.5",
+      "4",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Integer division truncates: 7/2=3."
+  },
+  {
+    "question": "What is the output?\n\nval s = \"Hello\"\nprintln(s[0])",
+    "options": [
+      "H",
+      "e",
+      "0",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Index 0 is the first character 'H'."
+  },
+  {
+    "question": "What is the output?\n\nval empty = \"\"\nprintln(empty.isEmpty())",
+    "options": [
+      "true",
+      "false",
+      "null",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Empty string isEmpty() returns true."
+  },
+  {
+    "question": "What is the output?\n\nval x = 42\nprintln(x.toLong())",
+    "options": [
+      "42",
+      "42L",
+      "42.0",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "toLong() converts to Long. Prints as 42."
+  },
+  {
+    "question": "What is the output?\n\nval colors = listOf(\"red\", \"green\", \"blue\")\nprintln(colors.contains(\"green\"))",
+    "options": [
+      "true",
+      "false",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "contains checks if element exists."
+  },
+  {
+    "question": "What is the output?\n\nval x = 5\nval y = 10\nprintln(minOf(x, y))",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "minOf returns the smaller value: 5."
+  },
+  {
+    "question": "What is the output?\n\nval s = \"Kotlin\"\nprintln(s.lowercase())",
+    "options": [
+      "Kotlin",
+      "kotlin",
+      "KOTLIN",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "lowercase() converts to lowercase."
+  },
+  {
+    "question": "What is the output?\n\nval list = mutableListOf(1, 2, 3)\nlist.add(4)\nprintln(list)",
+    "options": [
+      "[1, 2, 3]",
+      "[1, 2, 3, 4]",
+      "[4, 1, 2, 3]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "add() appends to end of mutable list."
+  },
+  {
+    "question": "What is the output?\n\nval x = 10\nval z = x.toString()\nprintln(z::class.simpleName)",
+    "options": [
+      "Int",
+      "String",
+      "Long",
+      "Any"
+    ],
+    "correctAnswer": 1,
+    "explanation": "toString() returns a String type."
+  },
+  {
+    "question": "What is the output?\n\nval pair = Pair(1, \"one\")\nprintln(pair)",
+    "options": [
+      "1",
+      "one",
+      "(1, one)",
+      "Compilation error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pair prints as (1, one)."
+  },
+  {
+    "question": "What is the output?\n\nval map = mapOf(\"a\" to 1, \"b\" to 2)\nprintln(map[\"a\"])",
+    "options": [
+      "a",
+      "1",
       "2",
-      "10"
+      "null"
     ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '10' for Kotlin."
+    "correctAnswer": 1,
+    "explanation": "Map lookup returns value for key \"a\"."
   },
   {
-    "question": "What is the result of 3 + 4 in Kotlin source code?",
+    "question": "What is the output?\n\nval list = listOf(1, 2, 3, 4, 5)\nprintln(list.filter { it > 3 })",
     "options": [
-      "0",
+      "[1, 2, 3]",
+      "[4, 5]",
+      "[1, 2, 3, 4, 5]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "filter keeps elements > 3."
+  },
+  {
+    "question": "What is the output?\n\nfun add(a: Int, b: Int): Int = a + b\nprintln(add(3, 4))",
+    "options": [
       "34",
       "7",
-      "Error"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '7' for Kotlin."
-  },
-  {
-    "question": "Which code line prints \"Hello\" in Kotlin loop logic?",
-    "options": [
-      "puts \"Hello\"",
-      "println(\"Hello\")",
-      "echo \"Hello\";",
-      "console.log(\"Hello\")"
+      "12",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'println(\"Hello\")' for Kotlin."
+    "explanation": "Single-expression function returns 7."
   },
   {
-    "question": "Which code line correctly declares a constant in Kotlin header files?",
+    "question": "What is the output?\n\nval range = 1..5\nprintln(range.sum())",
     "options": [
-      "var",
-      "val",
-      "let",
-      "static"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'val' for Kotlin."
-  },
-  {
-    "question": "Which statement imports libraries or packages in Kotlin source code?",
-    "options": [
-      "require(\"lib\")",
-      "import kotlin.random.Random",
-      "include <lib>",
-      "use lib;"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'import kotlin.random.Random' for Kotlin."
-  },
-  {
-    "question": "Which concept describes reusable code blocks in Kotlin loop logic?",
-    "options": [
-      "variables",
-      "functions",
-      "classes",
-      "comments"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'functions' for Kotlin."
-  },
-  {
-    "question": "Which operator checks equality in Kotlin conditional logic?",
-    "options": [
-      "=",
-      "!=",
-      "==",
-      "==="
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '==' for Kotlin."
-  },
-  {
-    "question": "Which sign is used to assign values in Kotlin conditional logic?",
-    "options": [
-      ":=",
-      "=",
-      "==",
-      "=>"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '=' for Kotlin."
-  },
-  {
-    "question": "Which keyword begins a loop in Kotlin header files?",
-    "options": [
-      "for",
-      "loop",
-      "while",
-      "repeat"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'for' for Kotlin."
-  },
-  {
-    "question": "Which keyword declares a constant value in Kotlin loop logic?",
-    "options": [
-      "var",
-      "val",
-      "let",
-      "static"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'val' for Kotlin."
-  },
-  {
-    "question": "Which code line correctly declares a constant in Kotlin source code?",
-    "options": [
-      "var",
-      "val",
-      "let",
-      "static"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'val' for Kotlin."
-  },
-  {
-    "question": "Which code line prints \"Hello\" in Kotlin library imports?",
-    "options": [
-      "echo \"Hello\";",
-      "puts \"Hello\"",
-      "println(\"Hello\")",
-      "console.log(\"Hello\")"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'println(\"Hello\")' for Kotlin."
-  },
-  {
-    "question": "Which operator checks equality in Kotlin header files?",
-    "options": [
-      "!=",
-      "===",
-      "=",
-      "=="
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '==' for Kotlin."
-  },
-  {
-    "question": "Which statement imports libraries or packages in Kotlin conditional logic?",
-    "options": [
-      "include <lib>",
-      "import kotlin.random.Random",
-      "use lib;",
-      "require(\"lib\")"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'import kotlin.random.Random' for Kotlin."
-  },
-  {
-    "question": "Which option fills the blank in Kotlin loop logic: val x = 5; x = 10; // __? ",
-    "options": [
-      "iteration",
-      "declaration",
-      "comparison",
-      "assignment"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'assignment' for Kotlin."
-  },
-  {
-    "question": "Which code line correctly declares a constant in Kotlin conditional logic?",
-    "options": [
-      "static",
-      "val",
-      "let",
-      "var"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'val' for Kotlin."
-  },
-  {
-    "question": "Which operator checks equality in Kotlin source code?",
-    "options": [
-      "!=",
-      "==",
-      "===",
-      "="
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '==' for Kotlin."
-  },
-  {
-    "question": "What is the result of 8 - 3 in Kotlin header files?",
-    "options": [
-      "2",
       "5",
-      "3",
-      "8"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '5' for Kotlin."
-  },
-  {
-    "question": "Which value is commonly used for true in Kotlin header files?",
-    "options": [
-      "False",
-      "false",
-      "true",
-      "True"
+      "10",
+      "15",
+      "25"
     ],
     "correctAnswer": 2,
-    "explanation": "The correct answer is 'true' for Kotlin."
+    "explanation": "Sum of 1+2+3+4+5 = 15."
   },
   {
-    "question": "Which statement imports libraries or packages in Kotlin loop logic?",
+    "question": "What is the output?\n\nval x: Int? = null\nprintln(x ?: 0)",
     "options": [
-      "use lib;",
-      "import kotlin.random.Random",
-      "require(\"lib\")",
-      "include <lib>"
+      "null",
+      "0",
+      "Compilation error",
+      "Runtime error"
     ],
     "correctAnswer": 1,
-    "explanation": "The correct answer is 'import kotlin.random.Random' for Kotlin."
-  },
-  {
-    "question": "Which phrase describes the main function signature in Kotlin header files?",
-    "options": [
-      "main()",
-      "def main():",
-      "fun main() {}",
-      "function main() {}"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'fun main() {}' for Kotlin."
-  },
-  {
-    "question": "Which statement imports libraries or packages in Kotlin library imports?",
-    "options": [
-      "import kotlin.random.Random",
-      "require(\"lib\")",
-      "use lib;",
-      "include <lib>"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'import kotlin.random.Random' for Kotlin."
-  },
-  {
-    "question": "Which sign is used to assign values in Kotlin library imports?",
-    "options": [
-      "==",
-      "=>",
-      ":=",
-      "="
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '=' for Kotlin."
-  },
-  {
-    "question": "Which symbol begins a single-line comment in Kotlin source code?",
-    "options": [
-      "/* */",
-      "//",
-      "<!-- -->",
-      "#"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '//' for Kotlin."
-  },
-  {
-    "question": "Which symbol begins a single-line comment in Kotlin loop logic?",
-    "options": [
-      "//",
-      "/* */",
-      "#",
-      "<!-- -->"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '//' for Kotlin."
-  },
-  {
-    "question": "Which file extension is standard for Kotlin library imports?",
-    "options": [
-      ".md",
-      ".json",
-      ".txt",
-      ".kt"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '.kt' for Kotlin."
-  },
-  {
-    "question": "Which keyword declares a read-only variable in Kotlin?",
-    "options": [
-      "var",
-      "val",
-      "let",
-      "const var"
-    ],
-    "correctAnswer": 1,
-    "explanation": "val declares immutable references; var declares mutable ones."
+    "explanation": "?: (Elvis) returns 0 when x is null."
   }
 ]

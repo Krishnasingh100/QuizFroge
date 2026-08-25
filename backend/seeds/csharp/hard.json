@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What is the output of the following code?\nstring s = null;\ntry {\n  Console.WriteLine(s.Length);\n} catch (NullReferenceException) {\n  Console.WriteLine(\"caught\");\n} finally {\n  Console.WriteLine(\"finally\");\n}\nConsole.WriteLine(\"done\");",
+    "options": ["caught done", "caught finally done", "finally done", "NullReferenceException"],
+    "correctAnswer": 1,
+    "explanation": "The NullReferenceException is caught, then the finally block executes, followed by the code after the try-catch-finally."
+  },
+  {
+    "question": "What is the output?\nList<int> a = new List<int> {1, 2, 3};\nList<int> b = a;\nb.Add(4);\nConsole.WriteLine(a.Count);",
+    "options": ["3", "4", "Compilation error", "Runtime error"],
+    "correctAnswer": 1,
+    "explanation": "Lists are reference types. 'b' points to the same object as 'a', so adding to 'b' also affects 'a'. Count is 4."
+  },
+  {
+    "question": "What does the following code print?\nvar numbers = Enumerable.Range(1, 5).Select(x => x * 2).Where(x => x > 4).ToList();\nConsole.WriteLine(string.Join(\", \", numbers));",
+    "options": ["2, 4, 6, 8, 10", "6, 8, 10", "4, 6, 8, 10", "6, 8"],
+    "correctAnswer": 1,
+    "explanation": "Range(1,5) produces 1-5, Select doubles them to 2,4,6,8,10, Where filters > 4 giving 6,8,10."
+  },
+  {
+    "question": "What is the result?\nstruct Point { public int X; public int Y; }\nvar p1 = new Point { X = 1, Y = 2 };\nvar p2 = p1;\np2.X = 10;\nConsole.WriteLine(p1.X);",
+    "options": ["10", "1", "0", "Compilation error"],
+    "correctAnswer": 1,
+    "explanation": "Structs are value types. p2 is a copy of p1, so modifying p2.X does not affect p1.X."
+  },
+  {
+    "question": "Which statement about C# generics is TRUE?",
+    "options": ["Generics are erased at runtime like Java", "Generic type parameters are preserved at runtime", "Generics only work with reference types", "Generics cannot be used with async methods"],
+    "correctAnswer": 1,
+    "explanation": "Unlike Java's type erasure, C# preserves generic type information at runtime through reification, allowing reflection on generic types."
+  },
+  {
+    "question": "What will this output?\nFunc<int, int, int> add = (a, b) => a + b;\nFunc<int, int> add5 = x => add(x, 5);\nConsole.WriteLine(add5(3));",
+    "options": ["3", "5", "8", "Compilation error"],
+    "correctAnswer": 2,
+    "explanation": "add5(3) calls add(3, 5) which returns 3 + 5 = 8."
+  },
+  {
+    "question": "What is the output of this code?\nint i = 0;\nfor (; i < 5; ) { i += 2; }\nConsole.WriteLine(i);",
+    "options": ["4", "5", "6", "Infinite loop"],
+    "correctAnswer": 2,
+    "explanation": "The loop increments i by 2: 0→2→4→6. When i=6, 6<5 is false, loop ends. i is 6."
+  },
+  {
+    "question": "What does 'yield return' do in a C# iterator method?",
+    "options": ["Returns immediately from the method", "Returns a value and suspends execution until the next call", "Returns a Task<T>", "Throws an exception"],
+    "correctAnswer": 1,
+    "explanation": "'yield return' produces a value and pauses execution. The method resumes when the next value is requested."
+  },
+  {
+    "question": "What is the output?\nobject o = 42;\nint x = (int)(long)o;",
+    "options": ["42", "InvalidCastException", "Compilation error", "OverflowException"],
+    "correctAnswer": 1,
+    "explanation": "You cannot unbox directly from int to long in C#. The cast (long)o fails because o is boxed as an int, not a long."
+  },
+  {
+    "question": "What is the purpose of 'volatile' keyword in C#?",
+    "options": ["Makes a variable thread-safe", "Ensures reads/writes are not optimized by the compiler", "Prevents null references", "Makes a variable immutable"],
+    "correctAnswer": 1,
+    "explanation": "'volatile' ensures that reads and writes go directly to main memory, preventing compiler/CPU optimizations that could cache the value."
+  },
+  {
+    "question": "What is the output?\nvar query = from x in new[] {1, 2, 3, 4, 5}\n           where x % 2 != 0\n           select x * x;\nConsole.WriteLine(string.Join(\", \", query));",
+    "options": ["1, 4, 9, 16, 25", "1, 9, 25", "2, 4", "4, 16"],
+    "correctAnswer": 1,
+    "explanation": "where filters odd numbers (1,3,5), select squares them: 1,9,25."
+  },
+  {
+    "question": "What does the 'default' keyword do when used as a method argument type in generics (e.g., default(T))?",
+    "options": ["Throws a default exception", "Returns the default value of type T (null for reference types, zero for value types)", "Returns a random value", "Forces T to be a value type"],
+    "correctAnswer": 1,
+    "explanation": "default(T) returns null for reference types, 0 for numeric types, false for bool, etc. It's the type's default initialization value."
+  },
+  {
+    "question": "What is the output?\nint[] arr = {1, 2, 3};\nvar span = arr.AsSpan();\nspan[1] = 99;\nConsole.WriteLine(arr[1]);",
+    "options": ["2", "99", "0", "Compilation error"],
+    "correctAnswer": 1,
+    "explanation": "Span<T> provides a view over the array. Modifying span[1] directly modifies arr[1] since they share memory."
+  },
+  {
+    "question": "What happens when you mark a class as 'partial' in C#?",
+    "options": ["The class cannot be inherited", "The class definition can be split across multiple files", "The class is compiled with partial optimizations", "Only some members are compiled"],
+    "correctAnswer": 1,
+    "explanation": "The 'partial' modifier allows a class's definition to be split across multiple files, all merged at compile time."
+  },
+  {
+    "question": "What is the output?\nConcurrentDictionary<string, int> dict = new();\ndict.TryAdd(\"a\", 1);\ndict.AddOrUpdate(\"a\", 2, (k, v) => v + 10);\nConsole.WriteLine(dict[\"a\"]);",
+    "options": ["1", "2", "11", "12"],
+    "correctAnswer": 2,
+    "explanation": "TryAdd sets 'a' to 1. AddOrUpdate finds key 'a' exists (value=1), so it calls the update function: v+10 = 1+10 = 11."
+  },
+  {
+    "question": "What does 'Expression-bodied member' syntax (=>) do for a property?",
+    "options": ["Makes it read-only", "Provides a concise syntax for a get-only property using an expression", "Makes it automatically thread-safe", "Converts it to a field"],
+    "correctAnswer": 1,
+    "explanation": "Expression-bodied properties like 'int X => 42;' provide a shorthand for get-only properties, equivalent to 'int X { get { return 42; } }'."
+  },
+  {
+    "question": "What is the output?\nobject a = (object)1;\nobject b = (object)1;\nConsole.WriteLine(a == b);",
+    "options": ["true", "false", "Compilation error", "Depends on CLR version"],
+    "correctAnswer": 1,
+    "explanation": "Boxing creates separate heap objects. a and b point to different boxed copies, so reference equality (==) returns false."
+  },
+  {
+    "question": "What is the effect of using 'static local functions' in C# 8+?",
+    "options": ["They can access local variables of the enclosing method", "They cannot capture enclosing local variables and are more efficient", "They are always async", "They run on a separate thread"],
+    "correctAnswer": 1,
+    "explanation": "Static local functions cannot capture any enclosing local variables, eliminating closure overhead and making them more efficient."
+  },
+  {
+    "question": "What does 'CallerArgumentExpression' attribute do in C# 10+?",
+    "options": ["Records the source file name", "Captures the text of a method argument's expression as a string", "Logs the call stack", "Enables argument validation"],
+    "correctAnswer": 1,
+    "explanation": "CallerArgumentExpression captures the string representation of an argument's expression at the call site, useful for building assertion libraries."
+  },
+  {
+    "question": "What is the output?\nLazy<int> lazy = new Lazy<int>(() => 42);\nConsole.WriteLine(lazy.Value);\nConsole.WriteLine(lazy.Value);",
+    "options": ["42\\n42", "42\\n0", "Compilation error", "Throws exception on second access"],
+    "correctAnswer": 0,
+    "explanation": "Lazy<T> initializes only once. Both accesses return 42. The factory runs only on the first .Value access."
+  },
+  {
+    "question": "What is the output?\nrecord Person(string Name, int Age);\nvar p1 = new Person(\"Alice\", 30);\nvar p2 = new Person(\"Alice\", 30);\nConsole.WriteLine(p1 == p2);",
+    "options": ["false", "true", "Compilation error", "Depends on reference equality"],
+    "correctAnswer": 1,
+    "explanation": "Records use value-based equality by default. Two records with the same property values are considered equal."
+  },
+  {
+    "question": "What is the output?\nSpan<int> span = stackalloc int[] {1, 2, 3, 4, 5};\nConsole.WriteLine(span[3]);",
+    "options": ["3", "4", "5", "Compilation error"],
+    "correctAnswer": 1,
+    "explanation": "stackalloc allocates on the stack. The span accesses the array by index: span[3] is the 4th element, which is 4."
+  },
+  {
+    "question": "What does 'where T : notnull' constrain in a generic type parameter?",
+    "options": ["T must be a value type", "T must be a non-nullable type", "T must implement INotNull", "T must be a reference type"],
+    "correctAnswer": 1,
+    "explanation": "The 'notnull' constraint requires that T must be a non-nullable type, either a non-nullable value type or a non-nullable reference type."
+  },
+  {
+    "question": "What is the output?\nusing System.Collections.Immutable;\nvar list = ImmutableList.Create(1, 2, 3);\nvar list2 = list.Add(4);\nConsole.WriteLine(list.Count + \" \" + list2.Count);",
+    "options": ["3 4", "4 4", "4 3", "Compilation error"],
+    "correctAnswer": 0,
+    "explanation": "ImmutableList is immutable. list.Add(4) returns a NEW list (list2) with 4 elements. The original list remains unchanged with 3 elements."
+  },
+  {
+    "question": "What does the 'pattern matching' syntax 'if (obj is string { Length: > 5 } s)' check?",
+    "options": ["If obj is a string with exactly 5 characters", "If obj is a string with length greater than 5, and assigns it to s", "If obj is null", "If obj is a string array"],
+    "correctAnswer": 1,
+    "explanation": "This pattern matching checks if obj is a string AND has a Length property greater than 5. If true, the string is assigned to variable s."
+  },
+  {
+    "question": "What is the output?\nvar dict = new Dictionary<string, int> { [\"a\"] = 1, [\"b\"] = 2 };\nvar val = dict.GetValueOrDefault(\"c\", -1);\nConsole.WriteLine(val);",
+    "options": ["0", "1", "-1", "KeyNotFoundException"],
+    "correctAnswer": 2,
+    "explanation": "GetValueOrDefault returns the default or provided value when the key is not found. Since 'c' doesn't exist, it returns -1."
+  },
+  {
+    "question": "What does 'switch expression' syntax look like in C# 8+?",
+    "options": ["Uses case/break statements", "Uses => arm syntax with a discard pattern, returning values directly", "Only works with integers", "Cannot return values"],
+    "correctAnswer": 1,
+    "explanation": "Switch expressions use pattern matching with => arms and return values directly, e.g., 'x switch { 1 => \"one\", _ => \"other\" }'."
+  },
+  {
+    "question": "What is the output?\nrecord struct Coord(int X, int Y);\nvar c1 = new Coord(1, 2);\nvar c2 = c1;\nc2.X = 10;\nConsole.WriteLine(c1.X);",
+    "options": ["10", "1", "0", "Compilation error"],
+    "correctAnswer": 1,
+    "explanation": "record struct is a value type. c2 is a copy of c1, so modifying c2.X does not affect c1.X."
+  },
+  {
+    "question": "What does 'FrozenDictionary' (C# 12+) provide over a regular Dictionary?",
+    "options": ["Thread-safe writes", "An immutable, read-optimized dictionary that disallows modifications after freezing", "Supports null keys", "Faster serialization"],
+    "correctAnswer": 1,
+    "explanation": "FrozenDictionary is immutable after creation and optimized for fast lookups. It cannot be modified once frozen, making it ideal for static lookup data."
+  },
+  {
+    "question": "What is the output?\nNullable<int> x = 5;\nint y = x ?? 0;\nint z = x.GetValueOrDefault();\nConsole.WriteLine(y + \" \" + z);",
+    "options": ["5 5", "0 5", "5 0", "Compilation error"],
+    "correctAnswer": 0,
+    "explanation": "?? returns the left operand if non-null (5). GetValueOrDefault() returns the value or default(int)=0 if null. Both give 5 since x has value 5."
+  },
+  {
+    "question": "What is the output?\nusing var ms = new MemoryStream();\nbyte[] data = {1, 2, 3};\nms.Write(data, 0, data.Length);\nConsole.WriteLine(ms.Length);",
+    "options": ["0", "3", "1", "Compilation error"],
+    "correctAnswer": 1,
+    "explanation": "Write adds 3 bytes to the MemoryStream. The Length property reflects the number of bytes written, which is 3."
+  },
+  {
+    "question": "What is the difference between 'struct' and 'record' in C#?",
+    "options": ["No difference", "Records provide value-based equality, ToString, and deconstruction by default; structs do not", "Records are reference types", "Structs are immutable by default"],
+    "correctAnswer": 1,
+    "explanation": "Records (C# 9+) auto-generate value-based equality, ToString, and deconstruction. Structs are value types but lack these conveniences."
+  },
+  {
+    "question": "What does 'Channel<T>.CreateUnbounded()' provide?",
+    "options": ["A thread-safe bounded queue", "An asynchronous channel with no capacity limit for producer/consumer patterns", "A database connection channel", "A network socket"],
+    "correctAnswer": 1,
+    "explanation": "Channel<T>.CreateUnbounded creates an async-compatible unbounded channel for passing data between producer and consumer tasks."
+  },
+  {
+    "question": "What is the output?\nvar source = Enumerable.Range(1, 100).AsParallel().Where(x => x % 10 == 0).Count();\nConsole.WriteLine(source);",
+    "options": ["10", "100", "50", "Depends on CPU cores"],
+    "correctAnswer": 0,
+    "explanation": "Range(1,100) gives 1-100. Where filters multiples of 10: 10,20,...,100. Count returns 10. Parallelism doesn't change the result."
+  },
+  {
+    "question": "What is the purpose of 'Spectre.Console' or similar libraries with [DoesNotReturn] attribute?",
+    "options": ["Marks a method that never returns normally (always throws)", "Makes a method virtual", "Enables async", "Enables threading"],
+    "correctAnswer": 0,
+    "explanation": "[DoesNotReturn] (from System.Diagnostics.CodeAnalysis) informs the compiler that a method will never return, suppressing null warnings after its call."
+  },
+  {
+    "question": "What is the output?\nvar queue = new Queue<int>(new[] {1, 2, 3, 4, 5});\nqueue.Dequeue();\nqueue.Enqueue(6);\nConsole.WriteLine(queue.Peek());",
+    "options": ["1", "2", "6", "5"],
+    "correctAnswer": 1,
+    "explanation": "Dequeue removes 1 (FIFO). Peek returns the front element, which is now 2. Enqueue(6) adds 6 to the back."
+  },
+  {
+    "question": "What does 'Memory<byte>' provide over 'byte[]'?",
+    "options": ["Nothing different", "A lightweight struct that can represent a slice of an array without copying", "Automatic garbage collection", "Faster I/O"],
+    "correctAnswer": 1,
+    "explanation": "Memory<T> is a lightweight wrapper that can represent a portion of an array (slice) without allocating a new array, reducing GC pressure."
+  },
+  {
+    "question": "What is the output?\nFunc<int, int, int> func = (a, b) => a * b;\nvar composed = func.Compose(x => x + 1);\nConsole.WriteLine(composed(3, 4));",
+    "options": ["12", "13", "7", "Compilation error"],
+    "correctAnswer": 3,
+    "explanation": "There is no built-in Compose extension method on Func in C#. This would cause a compilation error unless a custom extension is defined."
+  },
+  {
+    "question": "What does the 'required' modifier (C# 11) do on a property?",
+    "options": ["Makes the property read-only", "Requires the property to be initialized at the object creation site", "Makes the property nullable", "Adds null checking"],
+    "correctAnswer": 1,
+    "explanation": "The 'required' modifier forces callers to initialize the property when creating an instance, providing compile-time safety for object initializers."
+  },
+  {
+    "question": "What is the output?\nStack<int> stack = new Stack<int>();\nstack.Push(10);\nstack.Push(20);\nstack.Push(30);\nConsole.WriteLine(stack.Pop() + stack.Peek());",
+    "options": ["40", "50", "30", "60"],
+    "correctAnswer": 1,
+    "explanation": "Pop removes and returns 30 (top). Peek returns the new top, 20. 30 + 20 = 50."
+  }
+]

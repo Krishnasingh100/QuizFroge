@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 0,
     "explanation": "The correct answer is 'function' for Node.js."
+  },
+  {
+    "question": "What is the purpose of the assert module?",
+    "options": [
+      "Asserting user input",
+      "Provides a simple set of assertion functions for testing purposes",
+      "Asserting database connections",
+      "Making HTTP assertions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The assert module provides testing assertion functions like assert.equal and assert.ok."
+  },
+  {
+    "question": "What does the url.parse() method do?",
+    "options": [
+      "Creates URLs",
+      "Breaks a URL string into components like hostname pathname and protocol",
+      "Validates URLs",
+      "Encodes URLs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "url.parse() decomposes a URL string into its individual components."
+  },
+  {
+    "question": "What is the purpose of the events module?",
+    "options": [
+      "Scheduling events",
+      "Provides the EventEmitter class for handling events",
+      "Event calendar management",
+      "UI event handling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The events module exports the EventEmitter class used throughout Node.js for event-driven programming."
+  },
+  {
+    "question": "What does the child_process module do?",
+    "options": [
+      "Manages child processes",
+      "Provides the ability to spawn and manage child processes",
+      "Creates child elements",
+      "Manages process families"
+    ],
+    "correctAnswer": 1,
+    "explanation": "child_process allows spawning child processes to run shell commands or other programs."
+  },
+  {
+    "question": "What is the purpose of Buffer in Node.js?",
+    "options": [
+      "To buffer network requests",
+      "To handle binary data directly in memory efficiently",
+      "To buffer database queries",
+      "To cache HTML output"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Buffer handles raw binary data enabling efficient manipulation of streams of data."
+  },
+  {
+    "question": "What does the util.inspect() function do?",
+    "options": [
+      "Inspects network traffic",
+      "Returns a string representation of an object for debugging",
+      "Validates object properties",
+      "Inspects file permissions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "util.inspect converts any JavaScript value into a human-readable string representation."
+  },
+  {
+    "question": "What is a Readable stream?",
+    "options": [
+      "A stream that only reads files",
+      "A stream from which data can be read in a streaming fashion",
+      "A stream that displays text",
+      "A stream that buffers output"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Readable streams represent a source from which data is consumed piece by piece."
+  },
+  {
+    "question": "What does process.exit(0) indicate?",
+    "options": [
+      "An error occurred",
+      "The process terminated successfully",
+      "The process was killed",
+      "The process is restarting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Exit code 0 conventionally indicates successful program termination."
+  },
+  {
+    "question": "What is the purpose of the querystring module?",
+    "options": [
+      "Database queries",
+      "Provides utilities for parsing and formatting URL query strings",
+      "Search engine queries",
+      "Template queries"
+    ],
+    "correctAnswer": 1,
+    "explanation": "querystring handles encoding and decoding URL query string parameters."
+  },
+  {
+    "question": "What does the dns module provide?",
+    "options": [
+      "DNS hosting",
+      "Provides methods to perform DNS lookups and resolve domain names",
+      "DNS management",
+      "DNS security"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The dns module provides functions for performing DNS resolution of hostnames to IP addresses."
+  },
+  {
+    "question": "What is the difference between process.nextTick and queueMicrotask?",
+    "options": [
+      "No difference",
+      "nextTick is Node.js specific and runs before I/O queueMicrotask is standard JS",
+      "queueMicrotask is deprecated",
+      "nextTick is faster"
+    ],
+    "correctAnswer": 1,
+    "explanation": "process.nextTick is Node-specific running before I/O callbacks. queueMicrotask is the standard equivalent."
+  },
+  {
+    "question": "What does the readline module do?",
+    "options": [
+      "Reads line numbers",
+      "Provides an interface for reading input line by line from streams",
+      "Counts lines in files",
+      "Reads line drawings"
+    ],
+    "correctAnswer": 1,
+    "explanation": "readline provides a line-by-line reading interface useful for command-line prompts."
+  },
+  {
+    "question": "What is the purpose of the Timers module?",
+    "options": [
+      "Clock management",
+      "Provides functions like setTimeout setInterval and setImmediate for scheduling",
+      "Stopwatch functionality",
+      "Date management only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Timers module provides scheduling functions including setTimeout setInterval and setImmediate."
+  },
+  {
+    "question": "What does the dgram module handle?",
+    "options": [
+      "Data graphics",
+      "Provides UDP datagram socket support for network communication",
+      "Data management",
+      "Digital diagrams"
+    ],
+    "correctAnswer": 1,
+    "explanation": "dgram provides support for UDP datagram sockets for connectionless network communication."
+  },
+  {
+    "question": "What is the purpose of process.binding() in Node.js?",
+    "options": [
+      "Binding CSS classes",
+      "Provides low-level bindings to internal C++ modules",
+      "Binding database connections",
+      "Binding event handlers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "process.binding gives access to low-level internal C++ module bindings used by the runtime."
+  },
+  {
+    "question": "What does the vm module do?",
+    "options": [
+      "Virtual machine management",
+      "Provides JavaScript code compilation and execution within V8 virtual machine contexts",
+      "Version management",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The vm module allows compiling and executing JavaScript within V8 virtual machine contexts."
+  },
+  {
+    "question": "What is the difference between spawn and exec in child_process?",
+    "options": [
+      "No difference",
+      "spawn streams output while exec buffers it all in memory",
+      "exec is faster",
+      "spawn is deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "spawn provides streaming output and is preferred for large outputs. exec buffers all output in memory."
+  },
+  {
+    "question": "What does the net module provide?",
+    "options": [
+      "Internet connectivity",
+      "Server and client networking classes for TCP and IPC connections",
+      "Network speed testing",
+      "Internet speed measurement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The net module provides TCP and IPC server and client implementations for network communication."
+  },
+  {
+    "question": "What is the purpose of the tty module?",
+    "options": [
+      "Typing utilities",
+      "Provides utilities for TTY streams handling terminal I/O",
+      "Telephone communication",
+      "Text-to-YouTube conversion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The tty module provides classes and utilities specific to terminal and TTY stream handling."
+  },
+  {
+    "question": "What does process.memoryUsage() return?",
+    "options": [
+      "Available system memory",
+      "An object describing Node.js process memory consumption in detail",
+      "Memory allocation limits",
+      "Virtual memory settings"
+    ],
+    "correctAnswer": 1,
+    "explanation": "It returns an object with rss heapTotal heapUsed and external memory usage statistics."
   }
 ]

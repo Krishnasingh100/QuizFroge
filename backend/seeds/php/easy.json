@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 0,
     "explanation": "PHP variables begin with a dollar sign, e.g. $name."
+  },
+  {
+    "question": "What does the $ sign represent in PHP?",
+    "options": [
+      "Dollar currency",
+      "The prefix that denotes a variable",
+      "A comment marker",
+      "A string delimiter"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In PHP all variables must start with a dollar sign followed by the variable name."
+  },
+  {
+    "question": "Which superglobal contains GET parameters from the URL?",
+    "options": [
+      "$_POST",
+      "$_GET",
+      "$_REQUEST",
+      "$_SERVER"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$_GET contains variables passed through the URL query string parameters."
+  },
+  {
+    "question": "How do you start a PHP code block?",
+    "options": [
+      "<php>",
+      "<?php",
+      "<script>",
+      "PHP:"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PHP code blocks begin with <?php and can optionally end with ?>."
+  },
+  {
+    "question": "What is the output of echo strlen('Hello')?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "strlen returns 5 because Hello has 5 characters."
+  },
+  {
+    "question": "Which operator is used for string concatenation in PHP?",
+    "options": [
+      "+",
+      "&",
+      ".",
+      "++"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The dot operator concatenates strings in PHP."
+  },
+  {
+    "question": "What does the count() function do?",
+    "options": [
+      "Counts characters only",
+      "Returns the number of elements in an array or items in a countable object",
+      "Counts lines in a file",
+      "Counts words in a string"
+    ],
+    "correctAnswer": 1,
+    "explanation": "count() returns the number of elements in an array or object implementing Countable."
+  },
+  {
+    "question": "What is the correct way to create a comment in PHP?",
+    "options": [
+      "// comment",
+      "Both // and # are valid for single line comments",
+      "<!-- comment -->",
+      "% comment"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PHP supports both // and # for single-line comments."
+  },
+  {
+    "question": "What does var_dump() do?",
+    "options": [
+      "Creates variables",
+      "Outputs detailed information about a variable including type and value",
+      "Deletes variables",
+      "Imports variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "var_dump displays structured information about a variable including its type and value."
+  },
+  {
+    "question": "What does the include() statement do?",
+    "options": [
+      "Includes CSS files",
+      "Includes and evaluates a specified file returning warning on failure",
+      "Includes JavaScript",
+      "Includes database tables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "include includes and evaluates a file. It produces a warning if the file is not found but continues execution."
+  },
+  {
+    "question": "What is the output of 7 % 3?",
+    "options": [
+      "2.33",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The modulus operator returns the remainder of division. 7 divided by 3 leaves remainder 1."
+  },
+  {
+    "question": "What does the explode() function do?",
+    "options": [
+      "Destroys strings",
+      "Splits a string into an array based on a delimiter",
+      "Joins arrays into strings",
+      "Removes whitespace"
+    ],
+    "correctAnswer": 1,
+    "explanation": "explode splits a string into an array using a specified delimiter."
+  },
+  {
+    "question": "What does the count() return for an empty array?",
+    "options": [
+      "null",
+      "0",
+      "false",
+      "undefined"
+    ],
+    "correctAnswer": 1,
+    "explanation": "count() returns 0 for an empty array because it has zero elements."
+  },
+  {
+    "question": "What is the difference between echo and var_dump?",
+    "options": [
+      "No difference",
+      "echo outputs strings var_dump outputs detailed type and value information",
+      "var_dump is faster",
+      "echo is deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "echo outputs one or more strings while var_dump provides detailed variable information including type."
+  },
+  {
+    "question": "What does the str_replace() function do?",
+    "options": [
+      "Replaces file paths",
+      "Searches for occurrences of a string and replaces them with another string",
+      "Replaces variables",
+      "Replaces array keys"
+    ],
+    "correctAnswer": 1,
+    "explanation": "str_replace replaces all occurrences of a search string with a replacement string."
+  },
+  {
+    "question": "What is the correct PHP syntax for a function?",
+    "options": [
+      "def myFunc()",
+      "function myFunc()",
+      "func myFunc()",
+      "create function myFunc()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Functions in PHP are declared with the function keyword followed by the name and parentheses."
+  },
+  {
+    "question": "What does the array_push() function do?",
+    "options": [
+      "Removes elements",
+      "Adds one or more elements to the end of an array",
+      "Sorts the array",
+      "Merges arrays"
+    ],
+    "correctAnswer": 1,
+    "explanation": "array_push appends elements to the end of an array increasing its length."
+  },
+  {
+    "question": "What is the output of echo true in PHP?",
+    "options": [
+      "true",
+      "1",
+      "Error",
+      "null"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In PHP echo outputs 1 for boolean true when converted to string."
+  },
+  {
+    "question": "What does the header() function do?",
+    "options": [
+      "Adds HTML headers",
+      "Sends an HTTP header to the client browser",
+      "Creates page headers",
+      "Sets database headers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "header() sends a raw HTTP header response to the client before any output."
+  },
+  {
+    "question": "What is the purpose of the $_SESSION superglobal?",
+    "options": [
+      "Storing cookies",
+      "Stores session variables that persist across multiple page requests",
+      "Stores server info",
+      "Stores form data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "$_SESSION stores data that persists across multiple HTTP requests using session tracking."
+  },
+  {
+    "question": "What does the is_array() function check?",
+    "options": [
+      "If a variable is an array",
+      "If a URL is valid",
+      "If a file exists",
+      "If a function is defined"
+    ],
+    "correctAnswer": 0,
+    "explanation": "is_array returns true if the given variable is an array type."
   }
 ]

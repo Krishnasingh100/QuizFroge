@@ -220,333 +220,223 @@
     "explanation": "Overloading allows multiple methods in the same class to share a name, provided their parameter lists (types, quantity, or order) differ."
   },
   {
-    "question": "What is method overriding?",
+    "question": "What is the output?\n\nString s = \"  Hello  \";\nSystem.out.println(s.trim().length());",
     "options": [
-      "Changing a method name after compilation",
-      "A subclass providing its own implementation of an inherited method",
-      "Hiding a method with the same signature in the same class",
-      "Renaming overloaded methods"
+      "5",
+      "7",
+      "9",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "Overriding lets a subclass replace the implementation inherited from its superclass."
+    "explanation": "trim() removes leading/trailing spaces. \"Hello\" has 5 chars."
   },
   {
-    "question": "Can a constructor be declared final in Java?",
+    "question": "Which interface allows comparing objects for natural ordering?",
     "options": [
-      "Yes, always",
-      "No, constructors cannot be final",
-      "Only for abstract classes",
-      "Only static constructors"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Constructors are never inherited, so marking them final is illegal."
-  },
-  {
-    "question": "What happens when you mark a class final?",
-    "options": [
-      "It cannot be instantiated",
-      "It cannot be subclassed",
-      "Its methods cannot be called",
-      "It becomes abstract"
-    ],
-    "correctAnswer": 1,
-    "explanation": "A final class cannot be extended, e.g. java.lang.String."
-  },
-  {
-    "question": "What defines an abstract class?",
-    "options": [
-      "A class with only static methods",
-      "A class that cannot be instantiated and may contain abstract methods",
-      "Any class ending with Abstract",
-      "A final class with private fields"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Abstract classes define common state/behavior and may leave methods unimplemented."
-  },
-  {
-    "question": "How many classes can a Java class directly extend?",
-    "options": [
-      "Unlimited",
-      "Two",
-      "One",
-      "None"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Java supports single inheritance for classes through the extends keyword."
-  },
-  {
-    "question": "How many interfaces can a class implement?",
-    "options": [
-      "Exactly one",
-      "At most two",
-      "Multiple",
-      "None unless it is abstract"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Unlike classes, a class may implement any number of interfaces."
-  },
-  {
-    "question": "What does the static keyword mean when applied to a method?",
-    "options": [
-      "The method cannot be overridden",
-      "The method belongs to the class rather than any instance",
-      "The method runs on a separate thread",
-      "The method caches its results"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Static methods are callable on the class itself without creating an object."
-  },
-  {
-    "question": "What is autoboxing in Java?",
-    "options": [
-      "Automatic conversion between primitive types and their wrapper classes",
-      "Compressing class files into a JAR",
-      "Generating getters and setters",
-      "Importing classes automatically"
+      "Comparable",
+      "Runnable",
+      "Serializable",
+      "Cloneable"
     ],
     "correctAnswer": 0,
-    "explanation": "Autoboxing converts e.g. int to Integer and back automatically."
+    "explanation": "Comparable defines natural ordering via compareTo()."
   },
   {
-    "question": "What is the difference between == and .equals() for objects?",
+    "question": "What is the output?\n\nList<Integer> list = Arrays.asList(3, 1, 4, 1, 5);\nlist.remove(Integer.valueOf(1));\nSystem.out.println(list);",
     "options": [
-      "They are identical for all objects",
-      "== compares references while .equals() compares logical content",
-      ".equals() compares memory addresses",
-      "== compares content while .equals() compares types"
-    ],
-    "correctAnswer": 1,
-    "explanation": "== tests whether two references point to the same object; equals compares values."
-  },
-  {
-    "question": "Which collection allows duplicate elements?",
-    "options": [
-      "HashSet",
-      "TreeSet",
-      "ArrayList",
-      "LinkedHashSet"
-    ],
-    "correctAnswer": 2,
-    "explanation": "List implementations such as ArrayList permit duplicates and preserve order."
-  },
-  {
-    "question": "What is a HashMap used for?",
-    "options": [
-      "Sorting elements automatically",
-      "Storing key-value pairs with fast lookup",
-      "Guaranteeing element order",
-      "Blocking concurrent access"
-    ],
-    "correctAnswer": 1,
-    "explanation": "HashMap maps unique keys to values with average O(1) lookup."
-  },
-  {
-    "question": "Which exception is thrown when dividing an integer by zero?",
-    "options": [
-      "NullPointerException",
-      "NumberFormatException",
-      "ArithmeticException",
-      "IllegalStateException"
-    ],
-    "correctAnswer": 2,
-    "explanation": "Integer division by zero throws ArithmeticException: / by zero."
-  },
-  {
-    "question": "When are checked exceptions verified?",
-    "options": [
-      "At compile time",
-      "At runtime only",
-      "During garbage collection",
-      "When the JVM shuts down"
+      "[3, 4, 5]",
+      "[3, 4, 1, 5]",
+      "[3, 1, 4, 5]",
+      "UnsupportedOperationException"
     ],
     "correctAnswer": 0,
-    "explanation": "Checked exceptions must be caught or declared with throws at compile time."
+    "explanation": "remove(Object) removes first occurrence of value 1."
   },
   {
-    "question": "Which block always executes whether or not an exception occurs?",
+    "question": "What does 'final' do to a method?",
     "options": [
-      "try",
-      "catch",
-      "finally",
-      "throws"
+      "Makes it static",
+      "Prevents overriding",
+      "Makes it abstract",
+      "Makes it synchronized"
     ],
-    "correctAnswer": 2,
-    "explanation": "finally runs even after exceptions, making it ideal for cleanup."
+    "correctAnswer": 1,
+    "explanation": "A final method cannot be overridden by subclasses."
   },
   {
-    "question": "Which keyword manually throws an exception?",
+    "question": "What is the output?\n\nint x = 0;\nfor (int i = 0; i < 5; i++) x += i;\nSystem.out.println(x);",
     "options": [
-      "throw",
-      "throws",
-      "raise",
-      "exception"
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "correctAnswer": 1,
+    "explanation": "0+1+2+3+4 = 10."
+  },
+  {
+    "question": "What is the output?\n\nMap<Integer, String> map = new HashMap<>();\nmap.putIfAbsent(1, \"one\");\nmap.putIfAbsent(1, \"uno\");\nSystem.out.println(map.get(1));",
+    "options": [
+      "one",
+      "uno",
+      "null",
+      "Compilation error"
     ],
     "correctAnswer": 0,
-    "explanation": "throw instantiates and raises an exception inside a method body."
+    "explanation": "putIfAbsent doesn't replace existing entries."
   },
   {
-    "question": "What does the throws clause declare?",
+    "question": "What is the output?\n\nString s = \"Java\";\nSystem.out.println(s.toUpperCase().charAt(0));",
     "options": [
-      "Exceptions handled inside the method",
-      "Exceptions a method might propagate to its caller",
-      "Default exception messages",
-      "Runtime errors only"
+      "j",
+      "J",
+      "a",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "throws lists checked exceptions a method may propagate."
+    "explanation": "toUpperCase() makes \"JAVA\", charAt(0) returns 'J'."
   },
   {
-    "question": "What is garbage collection in Java?",
+    "question": "What is the output?\n\nString s1 = \"test\";\nString s2 = new String(\"test\");\nSystem.out.println(s1.hashCode() == s2.hashCode());",
     "options": [
-      "Deleting source files",
-      "Automatic reclamation of memory occupied by unreachable objects",
-      "Removing unused imports",
-      "Compiling bytecode"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The JVM garbage collector frees heap memory used by objects no longer referenced."
-  },
-  {
-    "question": "What is a default method in an interface (Java 8+)?",
-    "options": [
-      "A method that is always private",
-      "A method with a body that implementing classes inherit",
-      "A static factory method",
-      "A method that must be overridden"
-    ],
-    "correctAnswer": 1,
-    "explanation": "default methods give interfaces ready-to-use behavior without breaking implementers."
-  },
-  {
-    "question": "What is a lambda expression in Java?",
-    "options": [
-      "A way to declare interfaces",
-      "A concise anonymous function written as parameters -> body",
-      "A compiler optimization",
-      "A type of generic class"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Lambdas implement functional interfaces, e.g. x -> x * 2."
-  },
-  {
-    "question": "What is the Stream API primarily used for?",
-    "options": [
-      "Reading binary files",
-      "Functional-style processing of sequences such as collections",
-      "Creating GUI windows",
-      "Managing database connections"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Streams support map/filter/reduce pipelines over data sources."
-  },
-  {
-    "question": "Why are Java Strings said to be immutable?",
-    "options": [
-      "They can be changed only once",
-      "Their contents cannot change after creation",
-      "They are stored on the stack",
-      "They delete themselves after use"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Operations like concat return new String objects rather than modifying the original."
-  },
-  {
-    "question": "What advantage does StringBuilder have over String when building text in loops?",
-    "options": [
-      "It uses less syntax",
-      "It mutates an internal buffer instead of creating new objects",
-      "It encrypts the text",
-      "It sorts characters automatically"
-    ],
-    "correctAnswer": 1,
-    "explanation": "StringBuilder avoids the overhead of repeatedly creating immutable String copies."
-  },
-  {
-    "question": "What does the super keyword do?",
-    "options": [
-      "Refers to the current instance",
-      "Calls the parent class constructor or members",
-      "Creates a new thread",
-      "Marks a class as root"
-    ],
-    "correctAnswer": 1,
-    "explanation": "super accesses the immediate superclass fields, methods, or constructor."
-  },
-  {
-    "question": "What is encapsulation?",
-    "options": [
-      "Binding code into a single executable",
-      "Wrapping data private and exposing it via controlled accessors",
-      "Splitting a program into modules",
-      "Converting primitives to objects"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Encapsulation hides internal state behind getters/setters to protect integrity."
-  },
-  {
-    "question": "What is polymorphism in Java?",
-    "options": [
-      "Writing multiple constructors",
-      "One interface or method behaving differently based on the actual object",
-      "Copying classes at runtime",
-      "Storing many variables in one array"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Polymorphism lets the same call invoke different implementations, e.g. overridden methods."
-  },
-  {
-    "question": "What is inheritance?",
-    "options": [
-      "A class acquiring fields and methods of another class",
-      "Copying files between packages",
-      "Casting primitives",
-      "Loading classes lazily"
+      "true",
+      "false",
+      "Compilation error",
+      "Runtime error"
     ],
     "correctAnswer": 0,
-    "explanation": "extends lets a subclass reuse and extend its superclass behavior."
+    "explanation": "String hashCode is based on content."
   },
   {
-    "question": "Which class is the root of the entire Java class hierarchy?",
+    "question": "What is the output?\n\nList<Integer> list = List.of(1, 2, 3);\nList<Integer> copy = new ArrayList<>(list);\ncopy.set(0, 99);\nSystem.out.println(list.get(0));",
     "options": [
-      "java.lang.Class",
-      "java.lang.Object",
-      "java.util.Root",
-      "java.lang.Base"
+      "99",
+      "1",
+      "0",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "Every class inherits directly or indirectly from java.lang.Object."
+    "explanation": "New ArrayList copies elements. Modifying copy doesn't affect original."
   },
   {
-    "question": "Which annotation marks an API as outdated and discouraged?",
+    "question": "What is the output?\n\nMap<String, Integer> map = new HashMap<>();\nmap.merge(\"a\", 1, Integer::sum);\nmap.merge(\"a\", 2, Integer::sum);\nSystem.out.println(map.get(\"a\"));",
     "options": [
-      "@Override",
-      "@SuppressWarnings",
-      "@Deprecated",
-      "@FunctionalInterface"
+      "1",
+      "2",
+      "3",
+      "null"
     ],
     "correctAnswer": 2,
-    "explanation": "@Deprecated signals that an API should no longer be used."
+    "explanation": "merge applies sum: 1+2=3."
   },
   {
-    "question": "What is an anonymous inner class?",
+    "question": "What is the output?\n\nint x = 0xFF;\nSystem.out.println(x);",
     "options": [
-      "A private nested class",
-      "A class declared and instantiated inline without a name",
-      "A class without methods",
-      "A generated subclass"
+      "255",
+      "15",
+      "FF",
+      "Compilation error"
     ],
-    "correctAnswer": 1,
-    "explanation": "Anonymous classes implement interfaces or extend classes at instantiation time."
+    "correctAnswer": 0,
+    "explanation": "0xFF is hexadecimal for 255."
   },
   {
-    "question": "What is a wrapper class in Java?",
+    "question": "What is the output?\n\nString s = \"Hello World\";\nSystem.out.println(s.substring(6));",
     "options": [
-      "A class that wraps files",
-      "An object representation of a primitive type, e.g. Integer for int",
-      "A GUI container",
-      "A class loader"
+      "Hello",
+      "World",
+      "o World",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "Wrappers let primitives be used where objects are required, e.g. generics."
+    "explanation": "substring(6) returns from index 6 to end."
+  },
+  {
+    "question": "What is the output?\n\nint[] arr = {1, 2, 3, 4, 5};\nint sum = Arrays.stream(arr).filter(x -> x % 2 == 1).sum();\nSystem.out.println(sum);",
+    "options": [
+      "6",
+      "9",
+      "15",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Odd numbers: 1+3+5 = 9."
+  },
+  {
+    "question": "What is the output?\n\nString s = \"abcdef\";\nSystem.out.println(new StringBuilder(s).reverse().toString());",
+    "options": [
+      "abcdef",
+      "fedcba",
+      "abc",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "reverse() reverses the string."
+  },
+  {
+    "question": "What is the output?\n\nint[] a = {1, 2, 3};\nint[] b = a;\nb[0] = 99;\nSystem.out.println(a[0]);",
+    "options": [
+      "1",
+      "99",
+      "0",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Arrays are reference types. b points to same array."
+  },
+  {
+    "question": "What is the output?\n\nSet<Integer> set = new TreeSet<>();\nset.add(5);\nset.add(1);\nset.add(3);\nSystem.out.println(set);",
+    "options": [
+      "[5, 1, 3]",
+      "[1, 3, 5]",
+      "[3, 1, 5]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TreeSet sorts elements."
+  },
+  {
+    "question": "What is the output?\n\nint a = 5, b = 10;\nSystem.out.println(Math.max(a, b));",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Math.max returns the larger value: 10."
+  },
+  {
+    "question": "What is the output?\n\nMap<String, Boolean> map = Map.of(\"a\", true, \"b\", false);\nboolean result = map.values().stream().allMatch(v -> v);\nSystem.out.println(result);",
+    "options": [
+      "true",
+      "false",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "allMatch checks all values are true. false exists."
+  },
+  {
+    "question": "What is the output?\n\nint x = 7;\nSystem.out.println(x << 1);",
+    "options": [
+      "7",
+      "14",
+      "3",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Left shift by 1 multiplies by 2. 7*2=14."
+  },
+  {
+    "question": "What is the output?\n\nList<String> list = new ArrayList<>();\nlist.add(\"x\");\nlist.add(\"y\");\nlist.add(\"z\");\nSystem.out.println(list.subList(1, 3));",
+    "options": [
+      "[x, y]",
+      "[y, z]",
+      "[x, y, z]",
+      "[y]"
+    ],
+    "correctAnswer": 1,
+    "explanation": "subList(1,3) returns elements at index 1 and 2."
   }
 ]

@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 1,
     "explanation": "transition interpolates property changes over a duration when values change."
+  },
+  {
+    "question": "What is a block formatting context (BFC)?",
+    "options": [
+      "A CSS selector",
+      "An independent layout region that isolates floats and margins created by float overflow display flow-root etc",
+      "A JavaScript layout method",
+      "A CSS animation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "BFCs create isolated layout contexts that contain floats and prevent margin collapse."
+  },
+  {
+    "question": "What does display contents do and why is it problematic?",
+    "options": [
+      "Renders element normally",
+      "Makes the elements box disappear while keeping children in layout but breaks accessibility",
+      "Displays contents as text",
+      "Hides contents"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Display contents removes the box but keeps children in parent context. It can break accessibility."
+  },
+  {
+    "question": "What is the nesting selector in native CSS?",
+    "options": [
+      "The child combinator",
+      "A reference to the parent selector enabling CSS nesting without preprocessors",
+      "The descendant combinator",
+      "A specificity booster"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ampersand nesting selector references the parent rule enabling CSS nesting."
+  },
+  {
+    "question": "What does align-content do on a flex container with a single line?",
+    "options": [
+      "Aligns items horizontally",
+      "Has no effect when there is only a single flex line",
+      "Centers items vertically",
+      "Wraps items"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Align-content only distributes space between multiple flex lines. Single line has no effect."
+  },
+  {
+    "question": "What is the difference between will-change transform and applying transform?",
+    "options": [
+      "They do the same thing",
+      "will-change promotes element to its own compositing layer proactively transform visually changes the element",
+      "will-change is slower",
+      "transform is deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Will-change hints the browser to optimize by creating layers early while transform applies actual change."
+  },
+  {
+    "question": "What is the interpolate-size CSS property?",
+    "options": [
+      "Animates text size",
+      "Enables automatic size interpolation for transitions between different size units like auto to 0",
+      "Measures element size",
+      "Calculates responsive sizes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Interpolate-size enables transitioning to/from intrinsic sizing keywords like auto min-content."
+  },
+  {
+    "question": "What does text-box-trim do?",
+    "options": [
+      "Trims text to fit a box",
+      "Removes extra space above first line and below last line of text",
+      "Cuts overflowing text",
+      "Trims the border around text"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Text-box-trim removes leading and trailing whitespace from the top and bottom of text."
+  },
+  {
+    "question": "What is the color-scheme CSS property?",
+    "options": [
+      "Defines a color palette",
+      "Tells the browser which color schemes the page supports affecting form controls and scrollbars",
+      "Sets text color",
+      "Creates gradients"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Color-scheme informs the browser of supported schemes changing native UI elements."
+  },
+  {
+    "question": "What is the difference between outline and border?",
+    "options": [
+      "They are identical",
+      "border takes up space in box model outline does not and is drawn outside",
+      "outline is always red",
+      "border is invisible"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Outline does not affect layout does not take space and is drawn outside the border edge."
+  },
+  {
+    "question": "What does word-break break-all do vs overflow-wrap break-word?",
+    "options": [
+      "They are identical",
+      "break-all breaks at any character overflow-wrap only breaks at word boundaries",
+      "break-all is for Chinese",
+      "overflow-wrap breaks all words"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Break-all allows breaks at any character. Overflow-wrap only breaks at word boundaries."
+  },
+  {
+    "question": "What is the contain CSS property used for?",
+    "options": [
+      "Hiding overflowing content",
+      "Isolating an elements layout style and paint from the rest of the page for performance",
+      "Creating modal dialogs",
+      "Preventing text selection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Contain tells the browser an element is independent enabling optimizations."
+  },
+  {
+    "question": "What is the color-mix CSS function?",
+    "options": [
+      "A function to create gradients",
+      "A function to mix two colors in a specified color space",
+      "A function to convert color formats",
+      "A function to create color palettes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Color-mix interpolates between two colors in a given color space with a specified proportion."
+  },
+  {
+    "question": "What does the isolation CSS property do?",
+    "options": [
+      "Prevents user selection",
+      "Creates a new stacking context to isolate blending and compositing",
+      "Hides elements from screen readers",
+      "Prevents element interactions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Isolation create creates a new stacking context preventing mix-blend-mode from leaking."
+  },
+  {
+    "question": "What is the anchor positioning CSS feature?",
+    "options": [
+      "A way to set page scroll position",
+      "A system to position elements relative to an anchor element for tooltips and popovers",
+      "A navigation anchor link system",
+      "A way to fix elements to the page"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Anchor positioning lets you position elements relative to an anchor element using CSS."
+  },
+  {
+    "question": "What does text-wrap balance do?",
+    "options": [
+      "Distributes text across lines to create more even line lengths reducing raggedness",
+      "Wraps text around a float",
+      "Forces text to wrap at every word",
+      "Disables text wrapping"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Text-wrap balance distributes text across lines to create more even line lengths."
+  },
+  {
+    "question": "What is the container query in CSS?",
+    "options": [
+      "A media query targeting the browser window",
+      "A query that styles elements based on the size of their nearest containing ancestor",
+      "A query for screen resolution",
+      "A query for print media"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Container queries let you style elements based on their container size not viewport."
+  },
+  {
+    "question": "What does mix-blend-mode vs background-blend-mode do?",
+    "options": [
+      "They are identical",
+      "mix-blend-mode blends element with what is behind it background-blend-mode blends multiple backgrounds of same element",
+      "background-blend-mode is deprecated",
+      "mix-blend-mode only works with images"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mix-blend-mode composites the element with backdrop. Background-blend-mode blends multiple backgrounds."
+  },
+  {
+    "question": "What does the light-dark CSS function do?",
+    "options": [
+      "Detects screen brightness",
+      "Returns one of two color values based on computed light or dark color scheme",
+      "Creates light and dark shadows",
+      "Adjusts contrast ratio"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Light-dark returns the first color in light mode or second in dark mode based on color-scheme."
+  },
+  {
+    "question": "What does content-visibility auto do?",
+    "options": [
+      "Hides content completely",
+      "Skips rendering of off-screen content until needed improving initial load performance",
+      "Makes content transparent",
+      "Forces lazy loading"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Content-visibility auto skips layout and painting of off-screen elements improving performance."
+  },
+  {
+    "question": "What is the view transition API in CSS?",
+    "options": [
+      "A way to animate between page layouts",
+      "A browser API enabling smooth animated transitions between DOM states or navigations",
+      "A CSS animation property",
+      "A JavaScript animation library"
+    ],
+    "correctAnswer": 1,
+    "explanation": "View Transitions API captures old and new states creating animated transitions between them."
   }
 ]

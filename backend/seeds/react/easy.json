@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 0,
     "explanation": "useEffect runs after render for subscriptions, timers, requests, etc."
+  },
+  {
+    "question": "What is the main advantage of using React?",
+    "options": [
+      "Server-side rendering only",
+      "Component-based architecture that enables reusable UI with efficient updates",
+      "Faster than all other frameworks",
+      "Built-in database support"
+    ],
+    "correctAnswer": 1,
+    "explanation": "React uses a component-based architecture enabling reusable and maintainable UI development."
+  },
+  {
+    "question": "What does JSX compile to?",
+    "options": [
+      "HTML directly",
+      "React.createElement() function calls that create React elements",
+      "Plain JavaScript objects",
+      "DOM manipulation code"
+    ],
+    "correctAnswer": 1,
+    "explanation": "JSX is syntactic sugar that compiles to React.createElement() calls during build time."
+  },
+  {
+    "question": "Can you use JavaScript expressions inside JSX?",
+    "options": [
+      "No never",
+      "Yes using curly braces {}",
+      "Only using template literals",
+      "Only in event handlers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Curly braces let you embed any JavaScript expression inside JSX for dynamic rendering."
+  },
+  {
+    "question": "What is the difference between a class component and a functional component?",
+    "options": [
+      "No difference",
+      "Class components use ES6 classes with lifecycle methods functional components use hooks",
+      "Class components are faster",
+      "Functional components cannot have state"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Class components use lifecycle methods while functional components use hooks for state and side effects."
+  },
+  {
+    "question": "What does the key prop do when rendering lists?",
+    "options": [
+      "Sets the HTML id",
+      "Helps React identify which items have changed for efficient reconciliation",
+      "Styles list items",
+      "Sorts the list"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Keys help React track which items were added removed or reordered during list updates."
+  },
+  {
+    "question": "How do you conditionally render content in React?",
+    "options": [
+      "Using CSS display:none",
+      "Using JavaScript conditional expressions like ternary or logical AND",
+      "Using if statements in JSX directly",
+      "Using switch statements only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Use ternary operators or logical AND for conditional rendering inside JSX."
+  },
+  {
+    "question": "What is a controlled component in React?",
+    "options": [
+      "A component that controls its children",
+      "A form element whose value is managed by React state",
+      "A component with error handling",
+      "A component with routing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Controlled components have their form values driven by React state making state the source of truth."
+  },
+  {
+    "question": "What does React.memo do?",
+    "options": [
+      "Memoizes state",
+      "Prevents unnecessary re-renders by memoizing a component when props have not changed",
+      "Creates memo objects",
+      "Stores DOM references"
+    ],
+    "correctAnswer": 1,
+    "explanation": "React.memo wraps a component to skip re-renders when props have not changed."
+  },
+  {
+    "question": "What is prop drilling in React?",
+    "options": [
+      "Drilling through files",
+      "Passing props through multiple intermediate components to reach deeply nested components",
+      "Creating drill-shaped components",
+      "Passing state down drilling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Prop drilling is when data passes through many layers of components that do not need it."
+  },
+  {
+    "question": "What is the purpose of Fragment in React?",
+    "options": [
+      "Breaking components",
+      "Groups multiple elements without adding an extra DOM node",
+      "Creates page fragments",
+      "Stores component data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fragment lets you return multiple elements without adding extra wrapper divs to the DOM."
+  },
+  {
+    "question": "What does useCallback memo?",
+    "options": [
+      "DOM elements",
+      "The function definition itself preventing unnecessary re-creations on each render",
+      "Component state",
+      "Props objects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useCallback returns a memoized version of a function that only changes when dependencies change."
+  },
+  {
+    "question": "What is the children prop used for?",
+    "options": [
+      "Accessing child state",
+      "Passing elements or components as children for composition patterns",
+      "Creating child routes",
+      "Styling children"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The children prop enables component composition by passing elements between opening and closing tags."
+  },
+  {
+    "question": "How do you create a custom hook in React?",
+    "options": [
+      "Use a special keyword",
+      "Define a function starting with use that can call other hooks",
+      "Extend the Hook class",
+      "Use React.createHook()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Custom hooks are regular functions prefixed with use that can call built-in hooks."
+  },
+  {
+    "question": "What is the purpose of React.Profiler?",
+    "options": [
+      "Profiling components code",
+      "Measures rendering performance of a React tree programmatically",
+      "Profiles user behavior",
+      "Creates reports"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Profiler measures how often a React tree renders and the cost of those renders."
+  },
+  {
+    "question": "What happens when you mutate state directly?",
+    "options": [
+      "It works fine",
+      "React will not detect the change so component will not re-render",
+      "It causes a syntax error",
+      "Only works in class components"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Direct mutation does not create a new reference so React change detection will not trigger a re-render."
+  },
+  {
+    "question": "What is the purpose of useId?",
+    "options": [
+      "Generating random IDs",
+      "Generating unique stable IDs that work across server and client rendering",
+      "Creating list keys",
+      "Setting element focus"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useId generates consistent IDs during SSR and client rendering avoiding hydration mismatches."
+  },
+  {
+    "question": "What does React.lazy do?",
+    "options": [
+      "Makes components slow",
+      "Enables code-splitting by lazy-loading components on demand",
+      "Creates lazy state",
+      "Defers initialization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "React.lazy dynamically imports a component splitting it into a separate bundle loaded on demand."
+  },
+  {
+    "question": "What does the Suspense component do?",
+    "options": [
+      "Pauses rendering",
+      "Shows a fallback UI while lazy-loaded content or async data is loading",
+      "Prevents re-renders",
+      "Handles errors"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Suspense displays a fallback like a spinner while its children are suspended during loading."
+  },
+  {
+    "question": "What is the purpose of forwardRef?",
+    "options": [
+      "Forwards props to parent",
+      "Allows a component to expose a DOM ref to a parent component through itself",
+      "Moves component forward",
+      "References previous state"
+    ],
+    "correctAnswer": 1,
+    "explanation": "forwardRef lets a parent access the DOM node of a child component through the child."
+  },
+  {
+    "question": "What does useLayoutEffect do differently from useEffect?",
+    "options": [
+      "They are identical",
+      "useLayoutEffect fires synchronously after DOM mutations but before browser paint",
+      "useLayoutEffect is deprecated",
+      "useEffect runs synchronously"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useLayoutEffect blocks paint until complete ideal for DOM measurements. useEffect is asynchronous."
   }
 ]

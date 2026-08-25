@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 1,
     "explanation": "target=\"_blank\" opens the linked document in a new browsing context."
+  },
+  {
+    "question": "What is the purpose of figure in HTML5?",
+    "options": [
+      "Creates a form",
+      "Groups self-contained content with optional figcaption",
+      "Creates a grid layout",
+      "Wraps inline text"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Figure groups self-contained content like images or code with figcaption."
+  },
+  {
+    "question": "What does srcset on img do?",
+    "options": [
+      "Sets the image source",
+      "Provides multiple sources for responsive loading",
+      "Sets image style",
+      "Creates thumbnails"
+    ],
+    "correctAnswer": 1,
+    "explanation": "srcset lets browsers choose the best image for the screen."
+  },
+  {
+    "question": "Which input type provides a slider control?",
+    "options": [
+      "type=slider",
+      "type=range",
+      "type=scale",
+      "type=scroll"
+    ],
+    "correctAnswer": 1,
+    "explanation": "type=range creates a slider control."
+  },
+  {
+    "question": "What does the main element represent?",
+    "options": [
+      "Navigation area",
+      "Dominant content of the body",
+      "Sidebar content",
+      "Page footer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Main represents the dominant content, one per page."
+  },
+  {
+    "question": "What does the placeholder attribute do?",
+    "options": [
+      "Sets input value",
+      "Displays hint text before user types",
+      "Makes field read-only",
+      "Adds a label above"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Placeholder shows sample text that disappears on typing."
+  },
+  {
+    "question": "What will ol type=A create?",
+    "options": [
+      "Unordered list",
+      "Ordered list with uppercase letters",
+      "Ordered with lowercase",
+      "Ordered with Roman numerals"
+    ],
+    "correctAnswer": 1,
+    "explanation": "type=A sets markers to uppercase letters A B C."
+  },
+  {
+    "question": "What does the aside element represent?",
+    "options": [
+      "Main content",
+      "Content tangentially related like a sidebar",
+      "Footer section",
+      "Comment block"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aside represents indirectly related content often a sidebar."
+  },
+  {
+    "question": "What does target=_blank do on a link?",
+    "options": [
+      "Opens in same tab",
+      "Opens in a new tab or window",
+      "Downloads the file",
+      "Removes the link"
+    ],
+    "correctAnswer": 1,
+    "explanation": "target=_blank opens the URL in a new browsing context."
+  },
+  {
+    "question": "How do you group form inputs with a common label?",
+    "options": [
+      "<group>",
+      "<fieldset>",
+      "<formgroup>",
+      "<section>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fieldset groups related controls and legend provides the caption."
+  },
+  {
+    "question": "Which attribute allows input to accept multiple values?",
+    "options": [
+      "multiple",
+      "multi",
+      "many",
+      "bulk"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The multiple attribute allows more than one value."
+  },
+  {
+    "question": "What is the correct way to mark time in HTML?",
+    "options": [
+      "<time>",
+      "<datetime>",
+      "<date>",
+      "<tstamp>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The time element represents a time period with optional datetime attribute."
+  },
+  {
+    "question": "What does the readonly attribute do on input?",
+    "options": [
+      "Hides the field",
+      "Prevents modification while submittable",
+      "Makes it invisible",
+      "Disables submission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Readonly makes input non-editable but still submitted."
+  },
+  {
+    "question": "Which element represents the page footer?",
+    "options": [
+      "<bottom>",
+      "<footer>",
+      "<end>",
+      "<section>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The footer element defines a footer for a document or section."
+  },
+  {
+    "question": "What do min and max do on a number input?",
+    "options": [
+      "Set min and max allowed values",
+      "Set the width",
+      "Define step increment",
+      "Limit text length"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Min and max set the bounds for numeric input values."
+  },
+  {
+    "question": "What is the purpose of the mark element?",
+    "options": [
+      "Creates bold text",
+      "Highlights text for reference",
+      "Underlines text",
+      "Creates a footnote"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mark highlights text often with a yellow background."
+  },
+  {
+    "question": "What does the accept attribute do on a file input?",
+    "options": [
+      "Accepts form data",
+      "Specifies allowed file types",
+      "Accepts cookies",
+      "Accepts keyboard input"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Accept limits selectable file types like accept=image/*."
+  },
+  {
+    "question": "Which HTML5 element represents a progress bar?",
+    "options": [
+      "<progress>",
+      "<meter>",
+      "<loader>",
+      "<spinner>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Progress shows completion progress of a task."
+  },
+  {
+    "question": "What does the dialog element do in HTML5?",
+    "options": [
+      "Creates a chat interface",
+      "Represents a native dialog box",
+      "Creates an alert",
+      "Opens a new window"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dialog provides native modal and non-modal dialog boxes."
+  },
+  {
+    "question": "What does the for attribute on label do?",
+    "options": [
+      "Specifies label text",
+      "Associates label with a form control via id",
+      "Creates a loop",
+      "Defines form action"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The for attribute links a label to a form element by id."
+  },
+  {
+    "question": "What does autocomplete=off do?",
+    "options": [
+      "Enables auto-fill",
+      "Prevents browser from auto-filling values",
+      "Clears form data",
+      "Disables keyboard input"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Autocomplete=off stops browser suggestions of past values."
   }
 ]

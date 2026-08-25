@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What is the order of precedence for Tailwind variants?",
+    "options": [
+      "responsive > hover > focus",
+      "Variants are applied in the order defined in the config's 'variants' key",
+      "Hover always overrides responsive",
+      "Precedence doesn't matter"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tailwind variants are applied based on the order in the 'variants' key of the config. The last variant in the array takes precedence."
+  },
+  {
+    "question": "What is the difference between '@apply' and directly writing utility classes?",
+    "options": [
+      "No difference",
+      "@apply inlines utility class styles into CSS, useful for reusable component styles",
+      "@apply is deprecated",
+      "Direct classes are always faster"
+    ],
+    "correctAnswer": 1,
+    "explanation": "@apply composes utility classes within CSS, useful for creating reusable component styles while maintaining Tailwind's design system."
+  },
+  {
+    "question": "What does the 'important' option in tailwind.config.js do?",
+    "options": [
+      "Makes the config file important",
+      "Adds !important to all generated utility classes",
+      "Prioritizes certain classes",
+      "Enables critical CSS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Setting important: true adds !important to all utility classes, useful for overriding third-party CSS that's hard to override."
+  },
+  {
+    "question": "What is the purpose of 'content' configuration in Tailwind?",
+    "options": [
+      "Adds content to the page",
+      "Specifies file paths for Tailwind to scan for class usage",
+      "Generates content files",
+      "Adds meta content tags"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The content array specifies which files Tailwind should scan to find used classes and generate the appropriate CSS."
+  },
+  {
+    "question": "What does 'peer-checked:border-blue-500' do?",
+    "options": [
+      "Changes border when this element is checked",
+      "Changes border when a sibling element with 'peer' class is in checked state",
+      "Adds a blue border always",
+      "Creates a checkbox"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'peer-checked:' variant applies styles to an element when a preceding sibling with the 'peer' class (like an input) is checked."
+  },
+  {
+    "question": "How do you create arbitrary Tailwind values?",
+    "options": [
+      "Use any number directly",
+      "Use square brackets like 'w-[200px]' or 'text-[#1da1f2]'",
+      "Use exclamation marks",
+      "Use curly braces"
+    ],
+    "correctAnswer": 1,
+    "explanation": "JIT mode supports arbitrary values in square brackets: 'w-[200px]', 'bg-[#ff0000]', 'text-[22px]', etc."
+  },
+  {
+    "question": "What is the 'safelist' option in Tailwind config?",
+    "options": [
+      "A list of safe HTML elements",
+      "Classes that should always be included in the output regardless of scanning",
+      "A security feature",
+      "A list of deprecated classes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "safelist ensures dynamically-constructed class names (e.g., from templates) are always generated even if not found during scanning."
+  },
+  {
+    "question": "What does 'backdrop-blur-sm' do?",
+    "options": [
+      "Blurs the text",
+      "Applies a small blur effect to the element's backdrop (behind it)",
+      "Blurs the background image",
+      "Creates a shadow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "backdrop-blur applies a Gaussian blur to the area behind the element (like frosted glass effect). 'sm' is the small variant."
+  },
+  {
+    "question": "What is the purpose of 'theme.extend' vs 'theme' in tailwind.config.js?",
+    "options": [
+      "No difference",
+      "'theme' replaces defaults, 'theme.extend' adds to existing defaults",
+      "'extend' is for extensions only",
+      "'theme' is deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Using 'theme' completely replaces the default theme. 'theme.extend' adds to or overrides specific values while keeping the rest."
+  },
+  {
+    "question": "What is the 'container' class behavior in Tailwind?",
+    "options": [
+      "Full width always",
+      "Centers content with responsive max-widths (sm, md, lg, xl) by default",
+      "Adds a border container",
+      "Creates a flex container"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'container' class centers content with auto margins and applies responsive max-widths at different breakpoints."
+  },
+  {
+    "question": "What does the 'layer' directive do in Tailwind CSS?",
+    "options": [
+      "Adds z-index layers",
+      "Defines CSS layer order for base, components, and utilities to control specificity",
+      "Creates stacked elements",
+      "Manages server layers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "@layer base, components, utilities defines the cascade order. Base is lowest, utilities is highest, ensuring utilities override components."
+  },
+  {
+    "question": "What is the purpose of the 'corePlugins' option in tailwind.config.js?",
+    "options": [
+      "Adds core functionality",
+      "Enables or disables specific built-in Tailwind plugins",
+      "Compiles core CSS",
+      "Manages plugin dependencies"
+    ],
+    "correctAnswer": 1,
+    "explanation": "corePlugins lets you disable specific built-in plugins (e.g., preflight, container) to customize which utilities are generated."
+  },
+  {
+    "question": "What does 'motion-reduce:transition-none' do?",
+    "options": [
+      "Always removes transitions",
+      "Disables transitions when the user has 'prefers-reduced-motion' enabled",
+      "Makes animations faster",
+      "Adds motion blur"
+    ],
+    "correctAnswer": 1,
+    "explanation": "motion-reduce applies styles when the OS-level reduced-motion preference is active, respecting accessibility settings."
+  },
+  {
+    "question": "How does Tailwind's 'prefix' interact with the 'important' option?",
+    "options": [
+      "They conflict and cannot be used together",
+      "The !important is added before the prefix in generated CSS",
+      "The prefix is added after !important in class names",
+      "They are independent"
+    ],
+    "correctAnswer": 2,
+    "explanation": "When both are used, the generated class is like 'tw-!bg-red-500' or '!tw-bg-red-500' depending on the important config type (boolean vs selector)."
+  },
+  {
+    "question": "What is the purpose of the 'postcss' plugin configuration in Tailwind?",
+    "options": [
+      "Handles JavaScript compilation",
+      "Processes CSS with autoprefixer and nesting support before Tailwind generates utilities",
+      "Manages database connections",
+      "Compiles TypeScript"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PostCSS plugins like autoprefixer (vendor prefixes) and postcss-nesting run before/after Tailwind to enhance the CSS processing pipeline."
+  },
+  {
+    "question": "What does 'aria-checked:underline' do?",
+    "options": [
+      "Always underlines the element",
+      "Applies underline when the element's aria-checked state is true",
+      "Underlines aria labels",
+      "Creates a hyperlink"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'aria-checked:' variant applies styles based on the aria-checked attribute state of the element, useful for custom ARIA components."
+  },
+  {
+    "question": "What is the difference between 'rm' and 'purge' in Tailwind v3+?",
+    "options": [
+      "rm removes files, purge removes classes",
+      "purge was renamed to 'content' in v3, rm is unrelated",
+      "They are the same",
+      "rm deletes the config file"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'purge' option was renamed to 'content' in Tailwind CSS v3. Both specify which files to scan for class usage."
+  },
+  {
+    "question": "What does 'supports-backdrop-blur:backdrop-blur-md' do?",
+    "options": [
+      "Always applies backdrop blur",
+      "Applies backdrop-blur only if the browser supports backdrop-filter",
+      "Checks server support",
+      "Enables blur on click"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'supports-' variant applies styles only when the browser matches a given CSS @supports query, providing progressive enhancement."
+  },
+  {
+    "question": "What does 'will-change-transform' do in Tailwind?",
+    "options": [
+      "Transforms the element immediately",
+      "Hints to the browser that transform will change, enabling GPU acceleration",
+      "Changes the element's will",
+      "Adds a CSS transform"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'will-change-transform' sets 'will-change: transform', hinting the browser to optimize for future transform changes."
+  },
+  {
+    "question": "What is the purpose of 'matchUtilities' in a Tailwind plugin?",
+    "options": [
+      "Matches HTML elements",
+      "Dynamically generates utility classes based on a mapping of values to CSS",
+      "Matches color palettes",
+      "Compares utility versions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "matchUtilities is a plugin API that lets you define a utility class pattern and dynamically generate CSS from a set of values."
+  },
+  {
+    "question": "What does 'print:bg-white' do in Tailwind?",
+    "options": [
+      "Always sets white background",
+      "Applies white background only when the page is printed",
+      "Prints the background color",
+      "Removes print styles"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'print:' variant applies styles only in the print media context, useful for ensuring readable printed output."
+  },
+  {
+    "question": "How do you create a Tailwind plugin that adds custom utilities?",
+    "options": [
+      "Use plugin() with addUtilities() API in tailwind.config.js plugins array",
+      "Edit the Tailwind source code directly",
+      "Add utilities via @import",
+      "Use addClass() method"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tailwind plugins use the plugin() function and addUtilities() to register custom utility classes that get generated alongside built-in ones."
+  },
+  {
+    "question": "What does 'not-sr-only' do?",
+    "options": [
+      "Hides from screen readers",
+      "Reverses sr-only, making visually-hidden content visible again",
+      "Negates screen reader detection",
+      "Adds a no-access label"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'not-sr-only' undoes the 'sr-only' class, restoring normal visibility for elements that were previously hidden from view but accessible to screen readers."
+  },
+  {
+    "question": "What is the purpose of 'addBase' in a Tailwind plugin?",
+    "options": [
+      "Adds base HTML elements",
+      "Injects base layer styles (like element resets) that run before components and utilities",
+      "Creates a new base theme",
+      "Adds a base CSS file"
+    ],
+    "correctAnswer": 1,
+    "explanation": "addBase injects styles into the @layer base, useful for creating custom element resets or global styles that sit below component and utility layers."
+  },
+  {
+    "question": "What does 'last:border-none' do in a list?",
+    "options": [
+      "Removes all borders",
+      "Removes the border only from the last child element",
+      "Adds a none border class",
+      "Clears the last row"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'last:' variant applies the utility only to the last child element. 'border-none' removes any border."
+  },
+  {
+    "question": "How do you define a custom screen breakpoint in tailwind.config.js?",
+    "options": [
+      "theme.extend.screens",
+      "theme.breakpoints",
+      "config.screens.custom",
+      "extensions.breakpoints"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Custom breakpoints are added in theme.extend.screens (to keep defaults) or theme.screens (to replace defaults)."
+  },
+  {
+    "question": "What does 'empty:hidden' do?",
+    "options": [
+      "Always hides the element",
+      "Hides an element only when it has no child content",
+      "Hides empty attributes",
+      "Shows a placeholder"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'empty:hidden' uses the CSS :empty pseudo-class to hide elements that contain no children or text content."
+  },
+  {
+    "question": "What is 'addComponents' used for in a Tailwind plugin?",
+    "options": [
+      "Adds React components",
+      "Injects styles into the components layer for reusable UI patterns",
+      "Creates component templates",
+      "Generates component documentation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "addComponents injects styles into @layer components, useful for creating reusable component styles that sit between base resets and utilities."
+  },
+  {
+    "question": "What does 'dark:mode-class' configuration enable?",
+    "options": [
+      "Adds a dark class to HTML",
+      "Activates dark mode via a CSS class on a parent element (class strategy) instead of media query",
+      "Enables class-based dark mode toggling",
+      "Creates a dark color mode"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Setting darkMode: 'class' lets you toggle dark mode by adding a 'dark' class to the html/body element, enabling user-controlled dark mode."
+  },
+  {
+    "question": "What does 'text-balance' do in Tailwind?",
+    "options": [
+      "Balances font weights",
+      "Applies text-wrap: balance for more even line lengths in headlines",
+      "Distributes text evenly",
+      "Justifies paragraph text"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'text-balance' sets 'text-wrap: balance', which distributes text across lines more evenly, reducing orphaned words in headings."
+  },
+  {
+    "question": "What does 'data-[state=open]:bg-gray-100' do?",
+    "options": [
+      "Always sets background",
+      "Applies bg-gray-100 when the element has data-state='open' attribute",
+      "Opens the element",
+      "Closes the element"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'data-*:' variant applies styles based on data attributes, useful for state management with Headless UI and similar libraries."
+  },
+  {
+    "question": "What is the purpose of 'theme.extend.spacing' in tailwind.config.js?",
+    "options": [
+      "Extends only the spacing scale with new values",
+      "Replaces all spacing values",
+      "Adds margin utilities only",
+      "Overrides padding only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "theme.extend.spacing adds new values to the default spacing scale without removing existing ones, available to padding, margin, gap, etc."
+  },
+  {
+    "question": "How do you reference a theme value in a Tailwind plugin?",
+    "options": [
+      "Using theme('colors.blue.500') function",
+      "Using getTheme('colors')",
+      "Using config.theme.blue.500",
+      "Using require('tailwind').theme()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The theme() function in a plugin accesses resolved theme values: theme('colors.blue.500') returns the actual CSS value."
+  },
+  {
+    "question": "What does 'has-[*]:border' do?",
+    "options": [
+      "Adds a border to all elements",
+      "Adds a border to any element that contains child elements",
+      "Creates a parent wrapper",
+      "Bolds all child borders"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'has-[*]:border' applies a border to any element that has at least one child, useful for conditional styling."
+  },
+  {
+    "question": "What is the 'important' selector mode in Tailwind config?",
+    "options": [
+      "important: '#app'",
+      "Adds !important using a selector wrapper for more targeted specificity instead of blanket !important",
+      "Makes the config important",
+      "Prioritizes in the stylesheet"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Setting important to a selector string (like '#app') wraps generated utilities with that selector for specificity, avoiding blanket !important."
+  },
+  {
+    "question": "How do you extend the default box-shadow in Tailwind?",
+    "options": [
+      "theme.extend.boxShadow with custom shadow values",
+      "plugins.boxShadow",
+      "shadow.extend",
+      "theme.shadows.custom"
+    ],
+    "correctAnswer": 0,
+    "explanation": "theme.extend.boxShadow adds new shadow values to the default set, accessible via shadow-* utility classes."
+  },
+  {
+    "question": "What does 'peer-[]:border' do?",
+    "options": [
+      "Adds a border to the peer element",
+      "Adds a border to elements following a sibling that matches arbitrary selector",
+      "Creates a peer connection",
+      "Borders all siblings"
+    ],
+    "correctAnswer": 1,
+    "explanation": "peer-[]: is the arbitrary variant form of peer variants, allowing custom selector-based sibling state styling."
+  },
+  {
+    "question": "What does 'min-w-0' fix in a flex child?",
+    "options": [
+      "Allows the flex item to shrink below its content size",
+      "Sets minimum width to zero",
+      "Fixes overflow issues",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "min-w-0 overrides the default min-width: auto in flex items, allowing them to shrink and preventing overflow."
+  },
+  {
+    "question": "How do you add a custom @font-face in Tailwind?",
+    "options": [
+      "@layer base in your CSS file with @font-face declaration",
+      "In tailwind.config.js fonts section",
+      "In plugins.fonts",
+      "Using font() utility"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Custom @font-face declarations go in your CSS file within @layer base, then reference the font family in theme.extend.fontFamily."
+  },
+  {
+    "question": "What does 'break-after-page' do?",
+    "options": [
+      "Breaks after the element in print layouts, forcing a page break",
+      "Adds a page break before the element",
+      "Splits content into pages",
+      "Creates a new HTML page"
+    ],
+    "correctAnswer": 0,
+    "explanation": "'break-after-page' sets 'break-after: page', inserting a page break after the element when printing."
+  }
+]

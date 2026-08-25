@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What is the difference between 'LPUSH' and 'RPUSH' in Redis?",
+    "options": ["No difference", "LPUSH adds to the left (head), RPUSH adds to the right (tail) of the list", "LPUSH is faster", "RPUSH is deprecated"],
+    "correctAnswer": 1,
+    "explanation": "LPUSH inserts at the beginning (head), RPUSH inserts at the end (tail) of a Redis list."
+  },
+  {
+    "question": "What is a Redis hash used for?",
+    "options": ["Storing hash values", "Storing maps of field-value pairs under a single key", "Generating checksums", "Creating hash tables"],
+    "correctAnswer": 1,
+    "explanation": "Redis hashes store maps of field-value pairs, ideal for representing objects like user profiles."
+  },
+  {
+    "question": "What does 'MULTI/EXEC' do in Redis?",
+    "options": ["Enables multi-threading", "Begins and executes a transaction (commands are queued and run atomically)", "Connects to multiple Redis servers", "Increases memory allocation"],
+    "correctAnswer": 1,
+    "explanation": "MULTI begins a transaction block, commands are queued, and EXEC executes them all atomically without interruption."
+  },
+  {
+    "question": "What is the difference between 'SET key value EX 60' and 'SETEX key 60 value'?",
+    "options": ["No difference, both set key with 60 second expiry", "SETEX is deprecated", "EX only works with integers", "SET with EX is not valid"],
+    "correctAnswer": 0,
+    "explanation": "Both commands are functionally equivalent: they set a key with a 60-second expiration."
+  },
+  {
+    "question": "What is a Redis Set data type?",
+    "options": ["A sorted collection", "An unordered collection of unique strings", "A key with multiple values", "A database backup"],
+    "correctAnswer": 1,
+    "explanation": "Redis Sets are unordered collections of unique strings with fast membership testing."
+  },
+  {
+    "question": "What does 'PUBLISH channel message' do in Redis?",
+    "options": ["Saves a message to disk", "Publishes a message to a channel for pub/sub subscribers", "Posts a message to a queue", "Creates a new channel"],
+    "correctAnswer": 1,
+    "explanation": "PUBLISH sends a message to a Redis channel. Clients subscribed to that channel receive the message."
+  },
+  {
+    "question": "What is the purpose of 'SCAN' over 'KEYS' in production Redis?",
+    "options": ["SCAN is faster", "SCAN iterates without blocking the server, KEYS can block", "KEYS is deprecated", "SCAN supports regex, KEYS does not"],
+    "correctAnswer": 1,
+    "explanation": "KEYS blocks the Redis server for large keyspaces. SCAN iterates incrementally using a cursor, making it production-safe."
+  },
+  {
+    "question": "What does 'INCRBY key 5' do?",
+    "options": ["Sets key to 5", "Increments the integer value of key by 5", "Increments key 5 times", "Creates 5 copies of key"],
+    "correctAnswer": 1,
+    "explanation": "INCRBY atomically increments the integer value of a key by the specified amount (5 in this case)."
+  },
+  {
+    "question": "What is a Redis Sorted Set (ZSET)?",
+    "options": ["A sorted list of strings", "A collection of unique strings scored by a numeric value for ordering", "A set that auto-sorts alphabetically", "A set with priorities"],
+    "correctAnswer": 1,
+    "explanation": "Sorted Sets store unique strings with associated scores, enabling efficient range queries and ordering by score."
+  },
+  {
+    "question": "What is the purpose of 'WATCH' in Redis transactions?",
+    "options": ["Monitors CPU usage", "Implements optimistic locking by monitoring keys for changes", "Watches log files", "Enables read replicas"],
+    "correctAnswer": 1,
+    "explanation": "WATCH implements optimistic locking. If a watched key is modified before EXEC, the transaction is aborted."
+  },
+  {
+    "question": "What does 'HSET user:1 name Alice age 30' do?",
+    "options": ["Creates 3 separate keys", "Sets multiple fields on a hash key in a single command", "Sets a single field", "Returns an error"],
+    "correctAnswer": 1,
+    "explanation": "HSET can set multiple field-value pairs on a single hash key atomically. Here it sets name='Alice' and age=30 on user:1."
+  },
+  {
+    "question": "What does 'SREM myset member1' do?",
+    "options": ["Adds member1 to myset", "Removes member1 from myset", "Checks if member1 exists", "Counts members in myset"],
+    "correctAnswer": 1,
+    "explanation": "SREM removes the specified member from a Redis set. Returns 1 if removed, 0 if the member didn't exist."
+  },
+  {
+    "question": "What is the difference between 'SUBSCRIBE' and 'PSUBSCRIBE'?",
+    "options": ["No difference", "SUBSCRIBE matches exact channel names, PSUBSCRIBE matches glob patterns", "PSUBSCRIBE is deprecated", "SUBSCRIBE is faster"],
+    "correctAnswer": 1,
+    "explanation": "SUBSCRIBE listens to exact channel names. PSUBSCRIBE uses glob-style patterns (e.g., 'news.*') to match multiple channels."
+  },
+  {
+    "question": "What does 'ZRANGEBYSCORE myzset 10 20' do?",
+    "options": ["Returns all members with scores between 10 and 20", "Returns members sorted alphabetically", "Returns the top 20 members", "Returns members from index 10 to 20"],
+    "correctAnswer": 0,
+    "explanation": "ZRANGEBYSCORE returns all members of a sorted set with scores within the specified min and max range (inclusive)."
+  },
+  {
+    "question": "What is the output of 'LPUSH mylist a b c'?",
+    "options": ["mylist contains [a, b, c]", "mylist contains [c, b, a]", "mylist contains [a, c, b]", "Error"],
+    "correctAnswer": 1,
+    "explanation": "LPUSH inserts each element at the head. 'a' is pushed first (leftmost), then 'b' goes before 'a', then 'c' goes before 'b'. Result: [c, b, a]."
+  },
+  {
+    "question": "What does 'MULTI' followed by 'EXEC' without any commands between them do?",
+    "options": ["Errors out", "Executes an empty transaction (no-op)", "Rolls back", "Locks the database"],
+    "correctAnswer": 1,
+    "explanation": "An empty transaction block is valid. MULTI queues nothing, EXEC executes nothing. It's essentially a no-op."
+  },
+  {
+    "question": "What does 'SRANDMEMBER myset 3' return?",
+    "options": ["Always 3 members", "Up to 3 random unique members from the set", "The first 3 members", "An error if set has fewer than 3 members"],
+    "correctAnswer": 1,
+    "explanation": "SRANDMEMBER with a count returns up to count unique random elements. If the set has fewer elements, it returns all of them."
+  },
+  {
+    "question": "What does the 'OBJECT ENCODING key' command reveal?",
+    "options": ["The compression algorithm used", "The internal data encoding Redis uses to store the value (e.g., int, ziplist, hashtable)", "The encryption method", "The storage path"],
+    "correctAnswer": 1,
+    "explanation": "OBJECT ENCODING shows the internal representation of a value's encoding, which Redis may change dynamically for memory optimization."
+  },
+  {
+    "question": "What is the difference between 'HGETALL' and 'HMGET'?",
+    "options": ["No difference", "HGETALL returns all fields and values, HMGET returns specific fields' values", "HGETALL is faster", "HMGET returns all fields"],
+    "correctAnswer": 1,
+    "explanation": "HGETALL returns every field-value pair in a hash. HMGET takes specific field names and returns only their values."
+  },
+  {
+    "question": "What does 'LPUSHX key value' do if the key does not exist?",
+    "options": ["Creates the key and adds value", "Does nothing (LPUSHX only works on existing lists)", "Returns an error", "Creates an empty list"],
+    "correctAnswer": 1,
+    "explanation": "LPUSHX (LPUSH eXisting) only pushes to a list if the key already exists. If the key doesn't exist, it performs no action."
+  },
+  {
+    "question": "What is the output of 'SADD myset a b c a'?",
+    "options": ["4", "3", "Error", "2"],
+    "correctAnswer": 1,
+    "explanation": "SADD returns the number of elements actually added. Since 'a' is a duplicate, only 'b' and 'c' are new, but 'a' is also added. Total unique: 3."
+  },
+  {
+    "question": "What does 'LREM mylist 2 hello' do?",
+    "options": ["Removes the first 2 elements", "Removes up to 2 occurrences of 'hello' from the list", "Removes all occurrences", "Returns an error"],
+    "correctAnswer": 1,
+    "explanation": "LREM removes count occurrences of value from the list. Count=2 means remove up to 2 occurrences of 'hello'."
+  },
+  {
+    "question": "What does 'ZRANK myzset member' return?",
+    "options": ["The score of member", "The index (rank) of member in the sorted set (0-based, lowest score first)", "The number of members", "1 if member exists"],
+    "correctAnswer": 1,
+    "explanation": "ZRANK returns the 0-based rank of a member in the sorted set, ordered from lowest to highest score."
+  },
+  {
+    "question": "What is the difference between 'ZADD' and 'ZINCRBY'?",
+    "options": ["No difference", "ZADD adds or updates members with scores, ZINCRBY increments the score of an existing member", "ZADD is for sets", "ZINCRBY creates new members"],
+    "correctAnswer": 1,
+    "explanation": "ZADD adds new members (or updates existing scores) to a sorted set. ZINCRBY increments the score of an existing member by a given amount."
+  },
+  {
+    "question": "What does 'LINDEX mylist 0' return?",
+    "options": ["The last element", "The first element of the list", "The list length", "The list type"],
+    "correctAnswer": 1,
+    "explanation": "LINDEX returns the element at the given 0-based index. Index 0 returns the first (head) element."
+  },
+  {
+    "question": "What does 'SMEMBERS myset' do?",
+    "options": ["Returns the count of members", "Returns all members of the set", "Returns a random member", "Checks if a member exists"],
+    "correctAnswer": 1,
+    "explanation": "SMEMBERS returns all members of a Redis set as an array of strings."
+  },
+  {
+    "question": "What is the output of 'EVAL \"return 1\" 0' in Redis?",
+    "options": ["1", "0", "Error", "nil"],
+    "correctAnswer": 0,
+    "explanation": "EVAL executes a Lua script. 'return 1' simply returns the integer 1. The '0' indicates no keys are passed to the script."
+  },
+  {
+    "question": "What does 'LPOP mylist' do?",
+    "options": ["Removes the last element", "Removes and returns the first element of the list", "Returns the list length", "Adds an element"],
+    "correctAnswer": 1,
+    "explanation": "LPOP removes and returns the first element (head) of the list."
+  },
+  {
+    "question": "What is the purpose of 'SELECT index' in Redis?",
+    "options": ["Selects a key", "Switches to a different database by index number", "Selects an index type", "Enables a plugin"],
+    "correctAnswer": 1,
+    "explanation": "SELECT switches the active database. Redis has databases numbered 0-15 by default."
+  },
+  {
+    "question": "What does 'SCARD myset' return?",
+    "options": ["The set type", "The number of members in the set", "The set name", "Whether the set exists"],
+    "correctAnswer": 1,
+    "explanation": "SCARD returns the cardinality (number of elements) of the set stored at the key."
+  },
+  {
+    "question": "What is the purpose of 'EVAL' in Redis?",
+    "options": ["Evaluates a query", "Executes a Lua script on the server atomically", "Evaluates memory usage", "Evaluates key patterns"],
+    "correctAnswer": 1,
+    "explanation": "EVAL executes a Lua script on the Redis server. The script runs atomically, meaning no other commands can execute during its execution."
+  },
+  {
+    "question": "What does 'ZADD myzset 10 a 20 b 30 c' create?",
+    "options": ["A list with 3 elements", "A sorted set with members a(10), b(20), c(30)", "Three separate keys", "A hash with 3 fields"],
+    "correctAnswer": 1,
+    "explanation": "ZADD adds members with associated scores to a sorted set. Member 'a' has score 10, 'b' has 20, and 'c' has 30."
+  },
+  {
+    "question": "What does 'UNSUBSCRIBE channel' do?",
+    "options": ["Subscribes to a channel", "Unsubscribes from the specified channel", "Deletes a channel", "Lists all channels"],
+    "correctAnswer": 1,
+    "explanation": "UNSUBSCRIBE stops listening for messages on the specified channel. Without arguments, it unsubscribes from all channels."
+  },
+  {
+    "question": "What does 'OBJECT REFCOUNT key' return?",
+    "options": ["The key's TTL", "The reference count of the value's internal object", "The number of keys referencing this value", "The reference count of clients"],
+    "correctAnswer": 1,
+    "explanation": "OBJECT REFCOUNT returns the number of references to the internal object stored at the key. Useful for understanding memory sharing."
+  },
+  {
+    "question": "What does 'SINTERSTORE destination key1 key2' do?",
+    "options": ["Creates a union of sets", "Stores the intersection of key1 and key2 into destination", "Copies key1 to destination", "Merges two sets"],
+    "correctAnswer": 1,
+    "explanation": "SINTERSTORE computes the intersection of sets and stores the result in the destination key, replacing any existing value."
+  },
+  {
+    "question": "What does 'LLEN mylist' return?",
+    "options": ["The first element", "The number of elements in the list", "The last element", "The list type"],
+    "correctAnswer": 1,
+    "explanation": "LLEN returns the length (number of elements) of the list stored at the key."
+  },
+  {
+    "question": "What does 'BLPOP mylist 30' do?",
+    "options": ["Pops from the right", "Blocks until an element is available on mylist or 30-second timeout, then pops from left", "Blocks forever", "Returns an error"],
+    "correctAnswer": 1,
+    "explanation": "BLPOP blocks until an element can be popped from the head of the list, or until the 30-second timeout expires."
+  },
+  {
+    "question": "What is the output of 'SET counter 5' followed by 'INCRBY counter 10' followed by 'GET counter'?",
+    "options": ["5", "10", "15", "Error"],
+    "correctAnswer": 2,
+    "explanation": "SET sets counter to 5. INCRBY adds 10, making it 15. GET returns 15."
+  },
+  {
+    "question": "What does 'HINCRBY myhash field 1' do?",
+    "options": ["Sets field to 1", "Increments the integer value of field in the hash by 1", "Creates a new field", "Returns an error if field is not integer"],
+    "correctAnswer": 1,
+    "explanation": "HINCRBY atomically increments a hash field's integer value by the specified amount. If the field doesn't exist, it is treated as 0 first."
+  },
+  {
+    "question": "What is the purpose of 'CONFIG GET *' in Redis?",
+    "options": ["Gets all keys", "Returns all configuration parameters and their current values", "Gets all client connections", "Returns all commands"],
+    "correctAnswer": 1,
+    "explanation": "CONFIG GET with '*' returns every configuration parameter and its current value, useful for inspecting the server configuration."
+  }
+]

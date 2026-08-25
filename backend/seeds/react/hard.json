@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 1,
     "explanation": "setState/useState update state internally; props pass data downward immutably."
+  },
+  {
+    "question": "What is the lane system in React Fiber?",
+    "options": [
+      "Swimming lanes",
+      "A priority system that determines which updates are processed first",
+      "Network lanes",
+      "Memory lanes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lanes assign priorities to updates allowing React to process urgent updates before lower-priority ones."
+  },
+  {
+    "question": "What does React do during the render phase?",
+    "options": [
+      "Applies changes to the DOM",
+      "Calculates what needs to change in the virtual DOM tree without touching real DOM",
+      "Fetches data",
+      "Triggers event handlers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The render phase computes the virtual DOM diff without making any real DOM mutations."
+  },
+  {
+    "question": "What is the purpose of useInsertionEffect?",
+    "options": [
+      "Inserting DOM elements",
+      "Runs before DOM mutations to inject styles useful for CSS-in-JS libraries",
+      "Inserting state",
+      "Running after paint"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useInsertionEffect runs before layout effects allowing CSS-in-JS to inject styles before browser measurement."
+  },
+  {
+    "question": "What is the automatic batching improvement in React 18?",
+    "options": [
+      "Batching CSS changes",
+      "React automatically batches multiple state updates into a single re-render even across async boundaries",
+      "Batching network requests",
+      "Batching DOM reads"
+    ],
+    "correctAnswer": 1,
+    "explanation": "React 18 batches state updates across setTimeout promises and event handlers into one re-render."
+  },
+  {
+    "question": "What does createRoot do in React 18?",
+    "options": [
+      "Creates a root CSS file",
+      "Initializes the concurrent root for React 18 features replacing ReactDOM.render",
+      "Creates a root component",
+      "Roots the app to a database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "createRoot enables concurrent features like automatic batching and transitions."
+  },
+  {
+    "question": "What is the double-rendering in Strict Mode for?",
+    "options": [
+      "Performance",
+      "Detecting impure rendering logic and side effects that might cause bugs",
+      "Doubling performance",
+      "Rendering animations"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Strict mode double-invokes render and effect functions to surface impure code and hidden side effects."
+  },
+  {
+    "question": "What is the difference between Server Components and Client Components?",
+    "options": [
+      "No difference",
+      "Server Components render on the server only Client Components run in the browser",
+      "Server Components are faster",
+      "Client Components cannot have state"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Server Components execute on the server reducing client bundle. Client Components run in the browser with hooks."
+  },
+  {
+    "question": "What does the unstable_NOT_SUSPENDED progression status mean?",
+    "options": [
+      "Component is suspended",
+      "A low-priority update that can be interrupted by higher priority updates",
+      "Component has crashed",
+      "Component is loading"
+    ],
+    "correctAnswer": 1,
+    "explanation": "NOT_SUSPENDED indicates an update that can be deprioritized and interrupted for urgent work."
+  },
+  {
+    "question": "What is the purpose of useInsertionEffect over useLayoutEffect?",
+    "options": [
+      "They are identical",
+      "useInsertionEffect runs even earlier before DOM layout measurements",
+      "useInsertionEffect is faster",
+      "useLayoutEffect is deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useInsertionEffect runs before useLayoutEffect before the browser measures layout making it ideal for style injection."
+  },
+  {
+    "question": "What happens with useEffect cleanup on fast re-renders?",
+    "options": [
+      "No cleanup runs",
+      "React runs the previous effects cleanup before running the new effect",
+      "Cleanup runs after paint",
+      "Cleanup is skipped"
+    ],
+    "correctAnswer": 1,
+    "explanation": "React cleans up the previous effect before running the next one ensuring no stale side effects."
+  },
+  {
+    "question": "What is Reacts reconciliation algorithm based on?",
+    "options": [
+      "DOM comparison",
+      "The assumption that elements of different types produce different trees and keys identify list items",
+      "CSS specificity",
+      "Network latency"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reconciliation uses type differences and keys to determine the minimal set of DOM operations needed."
+  },
+  {
+    "question": "What does the offscreen API proposal in React enable?",
+    "options": [
+      "Offline support",
+      "Preserving component state when it is not visible and restoring it when needed",
+      "Screen recording",
+      "Picture in picture"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Offscreen lets React preserve component state and DOM when components are hidden reducing re-mount costs."
+  },
+  {
+    "question": "What is the purpose of the use() hook in React?",
+    "options": [
+      "Using context",
+      "Reading the value of a resource like a Promise or Context in render with automatic suspense integration",
+      "Using state",
+      "Using refs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The use hook reads promises or context in render triggering Suspense boundaries when values are not ready."
+  },
+  {
+    "question": "What does React do when a component throws an error during render?",
+    "options": [
+      "Crashes the whole app",
+      "The nearest Error Boundary catches it and renders a fallback UI instead",
+      "Ignores the error",
+      "Removes the component silently"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Error boundaries catch rendering errors and display fallback UI preventing the entire app from crashing."
+  },
+  {
+    "question": "What is the purpose of shouldComponentUpdate in class components?",
+    "options": [
+      "Updating state",
+      "Allowing manual optimization to skip re-rendering when props or state have not changed",
+      "Forcing updates",
+      "Creating new state"
+    ],
+    "correctAnswer": 1,
+    "explanation": "shouldComponentUpdate lets you prevent unnecessary re-renders by returning false when update is not needed."
+  },
+  {
+    "question": "What does useDeferredValue do during rapid typing?",
+    "options": [
+      "Delays input",
+      "Shows stale UI while re-rendering with the new value in the background keeping input responsive",
+      "Ignores input",
+      "Batches keystrokes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "useDeferredValue shows the previous value while computing the new one preventing jank during rapid updates."
+  },
+  {
+    "question": "What is the React compiler experimental feature?",
+    "options": [
+      "Code compilation",
+      "An optimizing compiler that automatically memoizes components and hooks reducing manual optimization",
+      "JSX compilation",
+      "TypeScript compilation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The React compiler automatically inserts memoization calls eliminating the need for manual useMemo and useCallback."
+  },
+  {
+    "question": "What does the startTransition function do differently from setTimeout?",
+    "options": [
+      "They are identical",
+      "startTransition integrates with React priority system while setTimeout just defers execution",
+      "startTransition is slower",
+      "setTimeout is deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "startTransition marks updates as transitions within React priority system. setTimeout just queues a macrotask."
+  },
+  {
+    "question": "What is the hydration mismatch in React SSR?",
+    "options": [
+      "CSS mismatch",
+      "When server-rendered HTML does not match what the client React tree would render causing warnings",
+      "HTML encoding mismatch",
+      "JSON mismatch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hydration mismatch occurs when server and client produce different DOM causing React hydration warnings."
+  },
+  {
+    "question": "What does React.Profiler onRender callback provide?",
+    "options": [
+      "Component code",
+      "Performance measurements including actual and base durations for a render cycle",
+      "User metrics",
+      "Error tracking"
+    ],
+    "correctAnswer": 1,
+    "explanation": "onRender provides id phase actualDuration baseDuration and commitTime for performance analysis."
   }
 ]

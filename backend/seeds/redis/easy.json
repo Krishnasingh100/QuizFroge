@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What type of data structure is Redis primarily based on?",
+    "options": ["Relational tables", "Key-value store", "Document store", "Graph"],
+    "correctAnswer": 1,
+    "explanation": "Redis is an in-memory key-value data structure store."
+  },
+  {
+    "question": "Which command sets a key-value pair in Redis?",
+    "options": ["SET key value", "PUT key value", "INSERT key value", "ADD key value"],
+    "correctAnswer": 0,
+    "explanation": "The SET command assigns a value to a key in Redis."
+  },
+  {
+    "question": "What is the default port for Redis?",
+    "options": ["6379", "27017", "3306", "5432"],
+    "correctAnswer": 0,
+    "explanation": "Redis uses port 6379 by default."
+  },
+  {
+    "question": "Which command retrieves the value of a key in Redis?",
+    "options": ["GET key", "FETCH key", "RETRIEVE key", "READ key"],
+    "correctAnswer": 0,
+    "explanation": "The GET command returns the value associated with a key."
+  },
+  {
+    "question": "Which command deletes a key in Redis?",
+    "options": ["DELETE key", "DEL key", "REMOVE key", "Both A and B"],
+    "correctAnswer": 3,
+    "explanation": "Both DEL and DELETE are valid commands to remove a key in Redis."
+  },
+  {
+    "question": "Where does Redis primarily store data?",
+    "options": ["Hard disk", "RAM (memory)", "SSD", "Network storage"],
+    "correctAnswer": 1,
+    "explanation": "Redis stores data in RAM for extremely fast read/write operations."
+  },
+  {
+    "question": "Which Redis command increments a numeric value?",
+    "options": ["INCR key", "INCREMENT key", "ADD key 1", "PLUS key"],
+    "correctAnswer": 0,
+    "explanation": "INCR atomically increments the integer value of a key by 1."
+  },
+  {
+    "question": "What does TTL stand for in Redis?",
+    "options": ["Total Time Limit", "Time To Live", "Transaction Log Length", "Type Transfer Layer"],
+    "correctAnswer": 1,
+    "explanation": "TTL (Time To Live) is the duration in seconds after which a key will expire."
+  },
+  {
+    "question": "Which command sets a key with an expiration time in Redis?",
+    "options": ["SETEX key seconds value", "SET key value EXPIRE seconds", "SET key value TTL seconds", "EXPIRE key seconds value"],
+    "correctAnswer": 0,
+    "explanation": "SETEX sets a key's value and its expiration time in seconds simultaneously."
+  },
+  {
+    "question": "What data type can a Redis list store?",
+    "options": ["Only strings", "Strings and numbers only", "Only numbers", "Only JSON objects"],
+    "correctAnswer": 0,
+    "explanation": "Redis lists store strings. Each element in a list is a string value."
+  },
+  {
+    "question": "Which command checks if a key exists in Redis?",
+    "options": ["EXISTS key", "HAS key", "CONTAINS key", "CHECK key"],
+    "correctAnswer": 0,
+    "explanation": "EXISTS returns 1 if the key exists, 0 if it does not."
+  },
+  {
+    "question": "What does the 'PING' command do in Redis?",
+    "options": ["Pings another Redis server", "Tests server connectivity and returns PONG", "Pings a connected client", "Checks network latency"],
+    "correctAnswer": 1,
+    "explanation": "PING is a connectivity test command. The server responds with PONG if it's alive and reachable."
+  },
+  {
+    "question": "What is the output of 'SET counter 10' followed by 'INCR counter'?",
+    "options": ["10", "11", "12", "Error"],
+    "correctAnswer": 1,
+    "explanation": "INCR atomically increments the current value (10) by 1, resulting in 11."
+  },
+  {
+    "question": "Which command removes the expiration from a key?",
+    "options": ["PERSIST key", "REMOVE_EXPIRE key", "CLEAR key", "KEEP key"],
+    "correctAnswer": 0,
+    "explanation": "PERSIST removes the TTL from a key, making it persist indefinitely."
+  },
+  {
+    "question": "What does the 'APPEND' command do in Redis?",
+    "options": ["Adds a key to a list", "Appends a value to the string stored at a key", "Appends data to a file", "Adds a new database"],
+    "correctAnswer": 1,
+    "explanation": "APPEND adds the string value to the end of the existing string value at the specified key."
+  },
+  {
+    "question": "What is the output of 'TYPE mykey' if mykey contains a list?",
+    "options": ["list", "array", "collection", "string"],
+    "correctAnswer": 0,
+    "explanation": "The TYPE command returns the data type of the value stored at the key (string, list, set, hash, etc.)."
+  },
+  {
+    "question": "Which Redis command returns all keys matching a pattern?",
+    "options": ["KEYS pattern", "FIND pattern", "SEARCH pattern", "MATCH pattern"],
+    "correctAnswer": 0,
+    "explanation": "KEYS returns all keys matching the given pattern (e.g., 'user:*'). Use with caution in production."
+  },
+  {
+    "question": "What is the output of 'DBSIZE'?",
+    "options": ["The memory usage", "The number of keys in the currently selected database", "The number of connections", "The number of commands"],
+    "correctAnswer": 1,
+    "explanation": "DBSIZE returns the number of keys in the currently selected Redis database."
+  },
+  {
+    "question": "What does 'RENAME oldkey newkey' do?",
+    "options": ["Creates a copy", "Renames oldkey to newkey", "Deletes oldkey and creates newkey", "Swaps two keys"],
+    "correctAnswer": 1,
+    "explanation": "RENAME atomically renames oldkey to newkey. If newkey already exists, it is overwritten."
+  },
+  {
+    "question": "What does the 'MGET' command do?",
+    "options": ["Gets the maximum value", "Returns the values of multiple keys in a single call", "Gets metadata of a key", "Gets the most recent value"],
+    "correctAnswer": 1,
+    "explanation": "MGET returns the values of multiple keys at once, reducing round trips compared to calling GET multiple times."
+  },
+  {
+    "question": "What does 'SETNX key value' do?",
+    "options": ["Sets key to value regardless", "Sets key to value only if the key does not already exist", "Deletes key if it exists", "Returns the current value"],
+    "correctAnswer": 1,
+    "explanation": "SETNX (SET if Not eXists) sets a key's value only when the key doesn't exist. Returns 1 if set, 0 if the key already exists."
+  },
+  {
+    "question": "What is the output of 'DECR counter' if counter does not exist?",
+    "options": ["-1", "0", "Error", "1"],
+    "correctAnswer": 0,
+    "explanation": "If the key doesn't exist, DECR treats it as 0 and decrements by 1, resulting in -1."
+  },
+  {
+    "question": "What does 'EXPIRE key 60' do?",
+    "options": ["Deletes key after 60 attempts", "Sets the key to expire in 60 seconds", "Locks the key for 60 seconds", "Extends TTL by 60 seconds"],
+    "correctAnswer": 1,
+    "explanation": "EXPIRE sets a timeout on a key. After 60 seconds, the key will be automatically deleted."
+  },
+  {
+    "question": "What is the output of 'STRLEN mykey' if mykey holds 'hello'?",
+    "options": ["4", "5", "6", "Error"],
+    "correctAnswer": 1,
+    "explanation": "STRLEN returns the length of the string stored at the key. 'hello' has 5 characters."
+  },
+  {
+    "question": "What does 'MSET key1 val1 key2 val2' do?",
+    "options": ["Sets only key1", "Sets multiple key-value pairs atomically", "Merges two keys", "Creates a map"],
+    "correctAnswer": 1,
+    "explanation": "MSET sets multiple keys to their respective values in a single atomic operation."
+  },
+  {
+    "question": "What does the 'FLUSHDB' command do?",
+    "options": ["Flushes all Redis data", "Deletes all keys in the currently selected database", "Clears the command queue", "Resets the server"],
+    "correctAnswer": 1,
+    "explanation": "FLUSHDB removes all keys from the currently selected Redis database. FLUSHALL removes all keys from all databases."
+  },
+  {
+    "question": "What is the output of 'LPUSH mylist a b c'?",
+    "options": ["mylist = [a, b, c]", "mylist = [c, b, a]", "3", "Error"],
+    "correctAnswer": 2,
+    "explanation": "LPUSH returns the length of the list after the push. With 3 elements pushed, the result is 3."
+  },
+  {
+    "question": "What does 'SETRANGE key 6 World' do if key holds 'Hello Redis'?",
+    "options": ["Replaces 'Redis' with 'World'", "Prepends 'World'", "Appends 'World'", "Deletes the key"],
+    "correctAnswer": 0,
+    "explanation": "SETRANGE overwrites part of the string starting at the given offset. Starting at offset 6, 'Redis' becomes 'World', making it 'Hello World'."
+  },
+  {
+    "question": "What does 'INCRBYFLOAT key 1.5' do?",
+    "options": ["Sets key to 1.5", "Increments the float value of key by 1.5", "Increments key 1.5 times", "Returns an error"],
+    "correctAnswer": 1,
+    "explanation": "INCRBYFLOAT increments the floating-point value of a key by the specified increment."
+  },
+  {
+    "question": "What is the default Redis database number?",
+    "options": ["0", "1", "15", "16"],
+    "correctAnswer": 0,
+    "explanation": "Redis has 16 databases numbered 0-15. The default selected database is 0."
+  },
+  {
+    "question": "What does 'SET key value EX 30' do?",
+    "options": ["Sets key with no expiration", "Sets key to value with a 30-second expiration", "Sets key and executes after 30 seconds", "Creates 30 copies of the key"],
+    "correctAnswer": 1,
+    "explanation": "SET with EX sets the key's value and its expiration time. The key will be automatically deleted after 30 seconds."
+  },
+  {
+    "question": "What is the output of 'DECRBY counter 5' if counter is 20?",
+    "options": ["25", "15", "5", "20"],
+    "correctAnswer": 1,
+    "explanation": "DECRBY decrements the integer value by the specified amount. 20 - 5 = 15."
+  },
+  {
+    "question": "What does 'KEYS user:*' return?",
+    "options": ["The value of user:*", "All keys matching the user:* pattern", "Error - invalid command", "The key 'user:*' itself"],
+    "correctAnswer": 1,
+    "explanation": "KEYS returns all keys matching the given glob pattern. 'user:*' matches any key starting with 'user:'."
+  },
+  {
+    "question": "What does 'TTL mykey' return if mykey has no expiration?",
+    "options": ["0", "-1", "-2", "null"],
+    "correctAnswer": 1,
+    "explanation": "TTL returns -1 if the key exists but has no expiration set. Returns -2 if the key does not exist."
+  },
+  {
+    "question": "What is the output of 'SETNX mykey value' if mykey already exists?",
+    "options": ["1", "0", "Error", "null"],
+    "correctAnswer": 1,
+    "explanation": "SETNX returns 0 if the key already exists and does not set the value. Returns 1 if the key was set successfully."
+  },
+  {
+    "question": "What does 'LRANGE mylist 0 -1' return?",
+    "options": ["Only the first element", "All elements of the list", "Only the last element", "An error"],
+    "correctAnswer": 1,
+    "explanation": "LRANGE with 0 and -1 returns all elements from the head (0) to the tail (-1) of the list."
+  },
+  {
+    "question": "What does the 'SAVE' command do in Redis?",
+    "options": ["Saves configuration", "Synchronously saves all data to disk (RDB snapshot), blocking the server", "Saves a key-value pair", "Enables auto-save"],
+    "correctAnswer": 1,
+    "explanation": "SAVE performs a synchronous RDB snapshot of the entire dataset to disk. It blocks the server until the save completes."
+  },
+  {
+    "question": "What is the output of 'GETBIT mykey 0' if mykey stores 'A' (ASCII 65)?",
+    "options": ["0", "1", "65", "Error"],
+    "correctAnswer": 1,
+    "explanation": "'A' is ASCII 65, which is binary 01000001. Bit at position 0 (LSB) is 1."
+  },
+  {
+    "question": "What does 'SHUTDOWN' command do?",
+    "options": ["Shuts down a client", "Saves data to disk and shuts down the Redis server", "Clears all data", "Disconnects all clients"],
+    "correctAnswer": 1,
+    "explanation": "SHUTDOWN performs a final RDB save (unless persistence is disabled) and then shuts down the Redis server gracefully."
+  },
+  {
+    "question": "What is the output of 'RANDOMKEY' if the database is empty?",
+    "options": ["(nil)", "0", "Error", "null"],
+    "correctAnswer": 0,
+    "explanation": "RANDOMKEY returns (nil) when there are no keys in the currently selected database."
+  }
+]

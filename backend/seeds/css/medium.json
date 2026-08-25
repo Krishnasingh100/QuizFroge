@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 3,
     "explanation": "The correct answer is 'text-align' for CSS."
+  },
+  {
+    "question": "What is CSS specificity and how is it calculated?",
+    "options": [
+      "A single number based on element count",
+      "A weight from IDs classes and elements",
+      "Based solely on declaration order",
+      "Determined by !important only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Specificity is a 4-part weight: inline > IDs > classes > elements."
+  },
+  {
+    "question": "What does display grid create?",
+    "options": [
+      "An inline layout",
+      "A two-dimensional grid layout system for rows and columns",
+      "A flex container",
+      "A table layout"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Display grid creates a grid formatting context for two-dimensional layouts."
+  },
+  {
+    "question": "What does transition-delay do?",
+    "options": [
+      "Speeds up transitions",
+      "Delays the start of a transition by a specified duration",
+      "Repeats the transition",
+      "Cancels the transition"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Transition-delay specifies how long to wait before starting a transition."
+  },
+  {
+    "question": "What is a media query in CSS?",
+    "options": [
+      "A database query",
+      "A technique to apply styles based on device characteristics",
+      "A JavaScript event",
+      "A DOM query method"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Media queries apply different styles depending on device characteristics."
+  },
+  {
+    "question": "What does transform-origin control?",
+    "options": [
+      "Element position on page",
+      "The point around which transforms like rotation are applied",
+      "Element origin point",
+      "Center of the viewport"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Transform-origin defines the anchor point for transforms defaulting to center."
+  },
+  {
+    "question": "What is the difference between class and id specificity?",
+    "options": [
+      "Same specificity",
+      "id has higher specificity than class",
+      "class has higher specificity than id",
+      "Neither has specificity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ID selectors have higher specificity (100) than class selectors (10)."
+  },
+  {
+    "question": "What does flex-direction column do?",
+    "options": [
+      "Arranges items horizontally",
+      "Stacks flex items vertically from top to bottom",
+      "Reverses order of items",
+      "Centers items"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Flex-direction column sets the main axis to vertical stacking items top to bottom."
+  },
+  {
+    "question": "What does gap do in CSS Grid?",
+    "options": [
+      "Creates empty grid cells",
+      "Sets spacing between grid rows and columns",
+      "Adds margins to grid items",
+      "Creates a gap in the border"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gap sets spacing between grid tracks without affecting outer edges."
+  },
+  {
+    "question": "What does position relative do?",
+    "options": [
+      "Removes from document flow",
+      "Positions relative to its normal position without removing from flow",
+      "Makes it relative to viewport",
+      "Same as static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Relative keeps the element in normal flow but allows offset properties to move it."
+  },
+  {
+    "question": "What does the hover pseudo-class do?",
+    "options": [
+      "Styles when active",
+      "Styles when mouse pointer is over it",
+      "Styles when focused",
+      "Styles after visited"
+    ],
+    "correctAnswer": 1,
+    "explanation": ":hover applies styles when the user hovers over an element."
+  },
+  {
+    "question": "What does margin auto do for a block element with set width?",
+    "options": [
+      "Removes all margin",
+      "Centers horizontally by distributing equal margin on both sides",
+      "Sets margin to zero",
+      "Makes element full width"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Margin auto on a block with defined width centers it horizontally."
+  },
+  {
+    "question": "What is the inherit keyword used for?",
+    "options": [
+      "Creating new styles",
+      "Makes element take the computed value of its parents property",
+      "Imports external CSS",
+      "Creates a style copy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inherit forces an element to use the same computed value as its parent."
+  },
+  {
+    "question": "What does text-overflow ellipsis do?",
+    "options": [
+      "Makes text bold",
+      "Truncates overflowing text with ellipsis when it does not fit",
+      "Adds a scroll bar",
+      "Wraps text to next line"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Text-overflow ellipsis shows ... when text overflows its container."
+  },
+  {
+    "question": "What is the currentColor keyword?",
+    "options": [
+      "The browsers current color",
+      "Represents the computed value of the color property on the same element",
+      "Always black",
+      "The parents text color"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Currentcolor refers to the computed color property value on the current element."
+  },
+  {
+    "question": "What does @keyframes define?",
+    "options": [
+      "A media query",
+      "A set of styles at different points during an animation sequence",
+      "A list of CSS rules",
+      "A font definition"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Keyframes defines animation stages at percentages from 0% to 100%."
+  },
+  {
+    "question": "What does flex-wrap wrap do?",
+    "options": [
+      "Prevents items from wrapping",
+      "Allows flex items to wrap onto multiple lines when exceeding container width",
+      "Wraps text inside items",
+      "Creates circular layout"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Flex-wrap wrap allows items to wrap onto new lines instead of shrinking."
+  },
+  {
+    "question": "What is the pointer-events property?",
+    "options": [
+      "Events triggered by CSS animations",
+      "Controls whether an element responds to mouse or pointer events",
+      "Creates event listeners",
+      "Detects touch events"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pointer-events determines if an element can be the target of pointer events."
+  },
+  {
+    "question": "What does max-height do differently from height?",
+    "options": [
+      "They are the same",
+      "max-height sets an upper limit while height sets a fixed size",
+      "max-height is always smaller",
+      "height is always larger"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Height forces exact size. Max-height caps height but allows it to be shorter."
+  },
+  {
+    "question": "What does box-shadow accept?",
+    "options": [
+      "Only a color value",
+      "Horizontal offset vertical offset blur radius spread radius and color",
+      "Only a blur value",
+      "Only a position value"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Box-shadow takes offset-x offset-y blur-radius spread-radius color and inset."
+  },
+  {
+    "question": "What is the difference between em and rem?",
+    "options": [
+      "They are identical",
+      "em is relative to parent rem is relative to root element",
+      "rem is relative to parent",
+      "em is absolute"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Em is relative to parents font-size while rem is relative to root elements font-size."
   }
 ]

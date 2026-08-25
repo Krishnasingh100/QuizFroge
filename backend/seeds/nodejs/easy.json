@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 1,
     "explanation": "process.env exposes environment variables to the running process."
+  },
+  {
+    "question": "What is the event loop in simple terms?",
+    "options": [
+      "A loop that runs forever",
+      "A mechanism for non-blocking I/O operations",
+      "A for-loop for arrays",
+      "A loop for database queries"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The event loop enables Node.js to handle asynchronous operations without blocking."
+  },
+  {
+    "question": "Which command installs a package globally in npm?",
+    "options": [
+      "npm install package",
+      "npm install -g package",
+      "npm global package",
+      "npm add package"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The -g flag installs a package globally making it available system-wide."
+  },
+  {
+    "question": "What does process.cwd() return?",
+    "options": [
+      "The Node.js version",
+      "The current working directory path",
+      "The root directory",
+      "The home directory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "process.cwd() returns the current working directory from which Node.js was launched."
+  },
+  {
+    "question": "How do you export a single function from a module?",
+    "options": [
+      "exports = function",
+      "module.exports = function",
+      "export function",
+      "return function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "module.exports assigns a value that becomes the modules public interface."
+  },
+  {
+    "question": "What does npm start typically do?",
+    "options": [
+      "Installs dependencies",
+      "Runs the start script in package.json",
+      "Creates a new project",
+      "Starts a database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "npm start runs the start script defined in the package.json file."
+  },
+  {
+    "question": "What does __dirname refer to in Node.js?",
+    "options": [
+      "The current module filename",
+      "The directory name of the current module",
+      "The root directory",
+      "The home directory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "__dirname contains the directory path of the current module file."
+  },
+  {
+    "question": "What does the fs module do?",
+    "options": [
+      "Handles HTTP requests",
+      "Provides file system operations like reading and writing files",
+      "Manages databases",
+      "Creates network connections"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The fs module provides an API for interacting with the file system."
+  },
+  {
+    "question": "What is the purpose of node_modules?",
+    "options": [
+      "A configuration file",
+      "A folder where npm stores installed package dependencies",
+      "A log directory",
+      "A test folder"
+    ],
+    "correctAnswer": 1,
+    "explanation": "node_modules is where npm installs all third-party packages and their dependencies."
+  },
+  {
+    "question": "What does process.argv contain?",
+    "options": [
+      "System environment variables",
+      "Command-line arguments passed to the Node.js process",
+      "Database connections",
+      "HTTP request data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "process.argv is an array containing command-line arguments when Node.js was launched."
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous code in Node.js?",
+    "options": [
+      "No difference",
+      "Sync blocks execution until complete async allows other operations to run",
+      "Sync is faster",
+      "Async is always better"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Synchronous code blocks the event loop while asynchronous code allows non-blocking execution."
+  },
+  {
+    "question": "What does JSON.parse() do?",
+    "options": [
+      "Converts objects to JSON strings",
+      "Parses a JSON string into a JavaScript object",
+      "Validates JSON syntax",
+      "Creates JSON files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "JSON.parse() converts a JSON string into a JavaScript object."
+  },
+  {
+    "question": "What does the os module provide in Node.js?",
+    "options": [
+      "Output streaming",
+      "Operating system related utilities like CPU info and memory usage",
+      "Operating system installation",
+      "OS scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The os module provides information about the operating system like CPU architecture and free memory."
+  },
+  {
+    "question": "What is a callback function in Node.js?",
+    "options": [
+      "A function that calls another function",
+      "A function passed as an argument to be executed later when an operation completes",
+      "A function that runs on startup",
+      "A function that handles errors only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Callbacks are functions passed as arguments that execute when an asynchronous operation completes."
+  },
+  {
+    "question": "What does the url module do?",
+    "options": [
+      "Downloads web pages",
+      "Provides utilities for URL parsing and URL resolution",
+      "Creates URLs",
+      "Validates email addresses"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The url module provides methods for parsing URL strings and resolving URLs."
+  },
+  {
+    "question": "What is the purpose of .gitignore in a Node.js project?",
+    "options": [
+      "Ignores Git commits",
+      "Specifies files and folders that Git should not track like node_modules",
+      "Ignores npm packages",
+      "Hides sensitive data from code review"
+    ],
+    "correctAnswer": 1,
+    "explanation": ".gitignore tells Git which files to exclude from version control like node_modules."
+  },
+  {
+    "question": "What does setTimeout() do in Node.js?",
+    "options": [
+      "Sets a timeout for HTTP requests",
+      "Executes a function after a specified delay in milliseconds",
+      "Pauses the event loop",
+      "Sets a timer for the server"
+    ],
+    "correctAnswer": 1,
+    "explanation": "setTimeout schedules a function to run after a specified number of milliseconds."
+  },
+  {
+    "question": "What is the event emitter in Node.js?",
+    "options": [
+      "A function that emits events",
+      "A class that allows objects to emit named events and subscribe to them",
+      "A logging mechanism",
+      "A network protocol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "EventEmitter allows objects to emit and listen for named events for asynchronous communication."
+  },
+  {
+    "question": "What does the path.join() method do?",
+    "options": [
+      "Joins strings together",
+      "Joins path segments into a single path handling platform differences",
+      "Joins arrays",
+      "Joins objects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "path.join() combines multiple path segments into one path using the correct platform separator."
+  },
+  {
+    "question": "What is the purpose of package.json scripts?",
+    "options": [
+      "To run tests only",
+      "To define custom command-line shortcuts for common tasks",
+      "To import modules",
+      "To define database schemas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Scripts define custom commands like npm start npm test that can be run with npm run."
+  },
+  {
+    "question": "What does the crypto module provide in Node.js?",
+    "options": [
+      "Cryptocurrency mining",
+      "Cryptographic functionality like hashing encryption and random generation",
+      "Cryptography lessons",
+      "Crypto trading APIs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The crypto module provides cryptographic primitives for hashing data and creating secure random values."
   }
 ]

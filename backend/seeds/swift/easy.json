@@ -220,333 +220,223 @@
     "explanation": "The correct answer is 'true' for Swift."
   },
   {
-    "question": "What is the result of 3 + 4 in Swift library imports?",
-    "options": [
-      "34",
-      "0",
-      "Error",
-      "7"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is '7' for Swift."
-  },
-  {
-    "question": "Which concept describes reusable code blocks in Swift header files?",
-    "options": [
-      "variables",
-      "classes",
-      "comments",
-      "functions"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'functions' for Swift."
-  },
-  {
-    "question": "Which file extension is standard for Swift header files?",
-    "options": [
-      ".txt",
-      ".json",
-      ".swift",
-      ".md"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '.swift' for Swift."
-  },
-  {
-    "question": "Which file extension is standard for Swift function definitions?",
-    "options": [
-      ".swift",
-      ".txt",
-      ".json",
-      ".md"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '.swift' for Swift."
-  },
-  {
-    "question": "Which statement imports libraries or packages in Swift loop logic?",
-    "options": [
-      "import Foundation",
-      "use lib;",
-      "include <lib>",
-      "require(\"lib\")"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'import Foundation' for Swift."
-  },
-  {
-    "question": "Which value is commonly used for true in Swift library imports?",
-    "options": [
-      "true",
-      "False",
-      "false",
-      "True"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'true' for Swift."
-  },
-  {
-    "question": "Which phrase describes the main function signature in Swift library imports?",
-    "options": [
-      "def main():",
-      "function main() {}",
-      "main()",
-      "func example() {}"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'func example() {}' for Swift."
-  },
-  {
-    "question": "Which option fills the blank in Swift conditional logic: let x = 5; x = 10; // __? ",
-    "options": [
-      "declaration",
-      "assignment",
-      "comparison",
-      "iteration"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'assignment' for Swift."
-  },
-  {
-    "question": "Which code line correctly declares a constant in Swift loop logic?",
-    "options": [
-      "let",
-      "static",
-      "let",
-      "var"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'let' for Swift."
-  },
-  {
-    "question": "Which symbol begins a single-line comment in Swift conditional logic?",
-    "options": [
-      "//",
-      "#",
-      "<!-- -->",
-      "/* */"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '//' for Swift."
-  },
-  {
-    "question": "Which symbol begins a single-line comment in Swift header files?",
-    "options": [
-      "<!-- -->",
-      "/* */",
-      "//",
-      "#"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '//' for Swift."
-  },
-  {
-    "question": "Which value represents false in Swift loop logic?",
-    "options": [
-      "false",
-      "True",
-      "False",
-      "true"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'false' for Swift."
-  },
-  {
-    "question": "Which keyword begins a loop in Swift source code?",
-    "options": [
-      "loop",
-      "repeat",
-      "for",
-      "while"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'for' for Swift."
-  },
-  {
-    "question": "What is the result of 3 + 4 in Swift conditional logic?",
-    "options": [
-      "0",
-      "7",
-      "34",
-      "Error"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '7' for Swift."
-  },
-  {
-    "question": "Which option fills the blank in Swift loop logic: let x = 5; x = 10; // __? ",
-    "options": [
-      "iteration",
-      "assignment",
-      "declaration",
-      "comparison"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is 'assignment' for Swift."
-  },
-  {
-    "question": "Which operator checks equality in Swift function definitions?",
-    "options": [
-      "=",
-      "!=",
-      "==",
-      "==="
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '==' for Swift."
-  },
-  {
-    "question": "Which symbol begins a single-line comment in Swift library imports?",
-    "options": [
-      "//",
-      "/* */",
-      "#",
-      "<!-- -->"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '//' for Swift."
-  },
-  {
-    "question": "Which operator checks equality in Swift header files?",
-    "options": [
-      "==",
-      "=",
-      "!=",
-      "==="
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '==' for Swift."
-  },
-  {
-    "question": "Which option fills the blank in Swift library imports: let x = 5; x = 10; // __? ",
-    "options": [
-      "assignment",
-      "iteration",
-      "declaration",
-      "comparison"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'assignment' for Swift."
-  },
-  {
-    "question": "Which concept describes reusable code blocks in Swift library imports?",
-    "options": [
-      "classes",
-      "variables",
-      "functions",
-      "comments"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'functions' for Swift."
-  },
-  {
-    "question": "Which operator checks equality in Swift library imports?",
-    "options": [
-      "==",
-      "=",
-      "!=",
-      "==="
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '==' for Swift."
-  },
-  {
-    "question": "Which value is commonly used for true in Swift conditional logic?",
-    "options": [
-      "false",
-      "True",
-      "False",
-      "true"
-    ],
-    "correctAnswer": 3,
-    "explanation": "The correct answer is 'true' for Swift."
-  },
-  {
-    "question": "Which value is produced by 2 * 5 in Swift loop logic?",
-    "options": [
-      "25",
-      "10",
-      "0",
-      "2"
-    ],
-    "correctAnswer": 1,
-    "explanation": "The correct answer is '10' for Swift."
-  },
-  {
-    "question": "Which value is commonly used for true in Swift loop logic?",
-    "options": [
-      "False",
-      "True",
-      "true",
-      "false"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is 'true' for Swift."
-  },
-  {
-    "question": "Which symbol begins a single-line comment in Swift function definitions?",
-    "options": [
-      "/* */",
-      "<!-- -->",
-      "//",
-      "#"
-    ],
-    "correctAnswer": 2,
-    "explanation": "The correct answer is '//' for Swift."
-  },
-  {
-    "question": "Which phrase describes the main function signature in Swift source code?",
-    "options": [
-      "func example() {}",
-      "main()",
-      "function main() {}",
-      "def main():"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'func example() {}' for Swift."
-  },
-  {
-    "question": "Which code line prints \"Hello\" in Swift conditional logic?",
-    "options": [
-      "print(\"Hello\")",
-      "puts \"Hello\"",
-      "echo \"Hello\";",
-      "console.log(\"Hello\")"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is 'print(\"Hello\")' for Swift."
-  },
-  {
-    "question": "What is the result of 8 - 3 in Swift loop logic?",
+    "question": "What is the output?\n\nlet x = 5\nlet y = x * 2\nprint(y)",
     "options": [
       "5",
-      "3",
-      "2",
-      "8"
-    ],
-    "correctAnswer": 0,
-    "explanation": "The correct answer is '5' for Swift."
-  },
-  {
-    "question": "Which keyword declares a constant in Swift?",
-    "options": [
-      "let",
-      "var",
-      "const",
-      "final"
-    ],
-    "correctAnswer": 0,
-    "explanation": "let defines constants; var defines variables."
-  },
-  {
-    "question": "Which Swift feature safely handles nil values?",
-    "options": [
-      "Pointers",
-      "Optionals",
-      "Templates",
-      "Macros"
+      "10",
+      "7",
+      "Compilation error"
     ],
     "correctAnswer": 1,
-    "explanation": "Optionals encode possible absence of a value, enforced by the compiler."
+    "explanation": "5 * 2 = 10."
+  },
+  {
+    "question": "What is the output?\n\nlet name = \"Swift\"\nprint(\"Length: \\(name.count)\")",
+    "options": [
+      "Length: 5",
+      "Length: 4",
+      "Length: Swift",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "String interpolation with count."
+  },
+  {
+    "question": "What is the output?\n\nlet flag = !true\nprint(flag)",
+    "options": [
+      "true",
+      "false",
+      "0",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "!true is false."
+  },
+  {
+    "question": "What is the output?\n\nlet a = 10\nlet b = 3\nprint(a / b)",
+    "options": [
+      "3",
+      "3.33",
+      "4",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Integer division: 10/3 = 3."
+  },
+  {
+    "question": "What is the output?\n\nlet nums = [10, 20, 30]\nprint(nums.last!)",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "nil"
+    ],
+    "correctAnswer": 2,
+    "explanation": "last! force-unwraps the final element: 30."
+  },
+  {
+    "question": "What is the output?\n\nlet s = \"Hello\"\nprint(s[s.startIndex])",
+    "options": [
+      "H",
+      "e",
+      "0",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "First character is 'H'."
+  },
+  {
+    "question": "What is the output?\n\nlet empty = \"\"\nprint(empty.isEmpty)",
+    "options": [
+      "true",
+      "false",
+      "nil",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Empty string isEmpty is true."
+  },
+  {
+    "question": "What is the output?\n\nlet x: Double = 5.0\nlet y: Int = 3\nprint(x + Double(y))",
+    "options": [
+      "8.0",
+      "8",
+      "53",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "5.0 + 3.0 = 8.0."
+  },
+  {
+    "question": "What is the output?\n\nlet colors = [\"red\", \"green\", \"blue\"]\nprint(colors.contains(\"green\"))",
+    "options": [
+      "true",
+      "false",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "contains checks membership."
+  },
+  {
+    "question": "What is the output?\n\nlet x = 7\nlet y = 10\nprint(min(x, y))",
+    "options": [
+      "7",
+      "10",
+      "17",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "min(7, 10) = 7."
+  },
+  {
+    "question": "What is the output?\n\nlet s = \"Swift\"\nprint(s.lowercased())",
+    "options": [
+      "Swift",
+      "swift",
+      "SWIFT",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "lowercased() converts to lowercase."
+  },
+  {
+    "question": "What is the output?\n\nvar list = [1, 2, 3]\nlist.append(4)\nprint(list)",
+    "options": [
+      "[1, 2, 3]",
+      "[1, 2, 3, 4]",
+      "[4, 1, 2, 3]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "append adds to end."
+  },
+  {
+    "question": "What is the output?\n\nlet x = 42\nlet z = String(x)\nprint(type(of: z))",
+    "options": [
+      "Int",
+      "String",
+      "Any",
+      "Optional"
+    ],
+    "correctAnswer": 1,
+    "explanation": "String(x) creates a String type."
+  },
+  {
+    "question": "What is the output?\n\nlet pair = (1, \"one\")\nprint(pair.0)",
+    "options": [
+      "1",
+      "one",
+      "(1, one)",
+      "Compilation error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tuple element access by index."
+  },
+  {
+    "question": "What is the output?\n\nlet map = [\"a\": 1, \"b\": 2]\nprint(map[\"a\"]!)",
+    "options": [
+      "a",
+      "1",
+      "2",
+      "nil"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dictionary lookup returns value."
+  },
+  {
+    "question": "What is the output?\n\nlet nums = [1, 2, 3, 4, 5]\nprint(nums.filter { $0 > 3 })",
+    "options": [
+      "[1, 2, 3]",
+      "[4, 5]",
+      "[1, 2, 3, 4, 5]",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "filter keeps elements > 3."
+  },
+  {
+    "question": "What is the output?\n\nfunc add(_ a: Int, _ b: Int) -> Int { return a + b }\nprint(add(3, 4))",
+    "options": [
+      "34",
+      "7",
+      "12",
+      "Compilation error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "add(3, 4) = 7."
+  },
+  {
+    "question": "What is the output?\n\nlet range = 1...5\nprint(range.reduce(0, +))",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "25"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sum of 1 to 5 = 15."
+  },
+  {
+    "question": "What is the output?\n\nlet x: Int? = nil\nprint(x ?? 0)",
+    "options": [
+      "nil",
+      "0",
+      "Compilation error",
+      "Runtime error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "?? returns 0 when x is nil."
+  },
+  {
+    "question": "What is the output?\n\nlet s = \"a,b,c\"\nlet parts = s.split(separator: \",\")\nprint(parts.count)",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Compilation error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Split on comma gives 3 parts."
   }
 ]

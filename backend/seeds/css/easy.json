@@ -548,5 +548,225 @@
     ],
     "correctAnswer": 2,
     "explanation": "The correct answer is '/* */' for CSS."
+  },
+  {
+    "question": "What does the margin property do in CSS?",
+    "options": [
+      "Adds space inside an element",
+      "Adds space outside an elements border",
+      "Sets the element width",
+      "Creates a border"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Margin creates space outside the elements border pushing other elements away."
+  },
+  {
+    "question": "Which CSS property changes text alignment?",
+    "options": [
+      "text-align",
+      "text-style",
+      "align-text",
+      "font-align"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The text-align property sets the horizontal alignment of text."
+  },
+  {
+    "question": "How do you select all p elements?",
+    "options": [
+      ".p",
+      "#p",
+      "p",
+      "*p"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Element selectors use the tag name directly to select all elements of that type."
+  },
+  {
+    "question": "What does float left do to an element?",
+    "options": [
+      "Moves it left allowing text to wrap around it",
+      "Aligns it left inside its container",
+      "Makes it float above other elements",
+      "Positions it fixed on the left"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Float left takes the element out of normal flow positioning it to the left."
+  },
+  {
+    "question": "Which property sets the line height of text?",
+    "options": [
+      "line-height",
+      "text-height",
+      "line-spacing",
+      "font-height"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Line-height sets the distance between lines of text."
+  },
+  {
+    "question": "What is the shorthand for margin 10px 20px?",
+    "options": [
+      "Top and bottom 10px left and right 20px",
+      "Top 10px right 20px bottom 10px left 20px",
+      "All sides 15px",
+      "Top 20px right 10px"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Two values for margin shorthand: first is top/bottom second is left/right."
+  },
+  {
+    "question": "What does overflow hidden do?",
+    "options": [
+      "Hides the element",
+      "Clips any content that overflows the elements box",
+      "Makes the element scrollable",
+      "Hides the scrollbar"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Overflow hidden clips content extending beyond the elements box boundaries."
+  },
+  {
+    "question": "Which property changes the background image?",
+    "options": [
+      "background-image",
+      "bg-image",
+      "image-background",
+      "background-src"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The background-image property sets background images for an element."
+  },
+  {
+    "question": "What is the difference between width and max-width?",
+    "options": [
+      "They are the same",
+      "width sets a fixed width max-width sets the maximum allowing it to shrink",
+      "max-width is always larger",
+      "width is deprecated"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Width sets an exact width while max-width sets an upper limit."
+  },
+  {
+    "question": "Which CSS property controls text decoration?",
+    "options": [
+      "text-decoration",
+      "text-style",
+      "font-decoration",
+      "text-underline"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Text-decoration adds decorative lines like underline overline or line-through."
+  },
+  {
+    "question": "What does display inline do?",
+    "options": [
+      "Takes up full width",
+      "Flows within text without line breaks",
+      "Makes it a flex container",
+      "Hides the element"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inline elements flow within surrounding text taking only needed width."
+  },
+  {
+    "question": "Which property sets font style to italic?",
+    "options": [
+      "font-style: italic",
+      "font-weight: italic",
+      "text-style: italic",
+      "font-italic: true"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Font-style: italic renders text in italic style."
+  },
+  {
+    "question": "What does list-style-type control?",
+    "options": [
+      "List background color",
+      "Appearance of list markers like bullets or numbers",
+      "List font",
+      "List width"
+    ],
+    "correctAnswer": 1,
+    "explanation": "List-style-type sets the marker type such as disc circle square decimal."
+  },
+  {
+    "question": "Which property sets the space between words?",
+    "options": [
+      "word-spacing",
+      "letter-spacing",
+      "text-spacing",
+      "word-gap"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Word-spacing increases or decreases space between words."
+  },
+  {
+    "question": "What does text-transform uppercase do?",
+    "options": [
+      "Converts all text to uppercase",
+      "Makes text bold",
+      "Capitalizes only first letter",
+      "Makes text smaller"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Text-transform uppercase converts all characters to uppercase."
+  },
+  {
+    "question": "Which property creates a shadow behind text?",
+    "options": [
+      "text-shadow",
+      "box-shadow",
+      "font-shadow",
+      "text-glow"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Text-shadow adds a shadow effect to text with offset blur and color."
+  },
+  {
+    "question": "What does cursor pointer do?",
+    "options": [
+      "Changes text to a pointer",
+      "Displays hand cursor on hover for clickable elements",
+      "Moves the element",
+      "Creates a pointer to another page"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cursor pointer changes the mouse cursor to a hand icon for interactive elements."
+  },
+  {
+    "question": "What is the shorthand property for font settings?",
+    "options": [
+      "font",
+      "font-style",
+      "text-font",
+      "typeface"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The font shorthand sets font-style weight size line-height and family."
+  },
+  {
+    "question": "What does display block do?",
+    "options": [
+      "Flows inline with text",
+      "Takes up full available width with line breaks before and after",
+      "Makes it invisible",
+      "Makes it flex"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Block-level elements take up full width and start on a new line."
+  },
+  {
+    "question": "What is the difference between opacity and rgba alpha?",
+    "options": [
+      "They are identical",
+      "Opacity affects entire element rgba alpha affects only the color",
+      "Opacity is deprecated",
+      "rgba alpha is not supported"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Opacity affects the whole element including children. rgba alpha affects only that specific color."
   }
 ]
