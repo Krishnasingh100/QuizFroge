@@ -1203,15 +1203,38 @@ section[id] {
   .stat-label {
     font-size: 0.62rem;
   }
+  .score-card {
+    padding: 20px 14px;
+  }
+  .score-value {
+    font-size: 2.6rem;
+    margin: 8px 0 4px;
+  }
+  .score-percent {
+    font-size: 1.2rem;
+  }
+  .score-meta {
+    margin-top: 6px;
+  }
+  .score-status.passed,
+  .score-status.failed {
+    margin-top: 8px;
+    font-size: 0.9rem;
+  }
   .score-actions {
-    flex-direction: column;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
   }
   .score-actions .btn {
-    width: 100%;
-    min-height: 36px;
-    padding: 0 14px;
-    font-size: 0.8rem;
-    border-radius: 9px;
+    flex: 1 1 130px;
+    min-height: 34px;
+    padding: 0 12px;
+    font-size: 0.78rem;
+    border-radius: 8px;
+  }
+  .review-section {
+    margin-top: 30px;
   }
 }
 
@@ -1219,7 +1242,7 @@ section[id] {
 @media (max-width: 350px) {
   .page,
   .home-page {
-    width: calc(100% - 20px);
+    width: calc(100% - 16px);
   }
   .hero-title {
     font-size: 1.35rem;
@@ -1280,40 +1303,51 @@ section[id] {
     margin-top: 20px;
     font-size: 0.82rem;
   }
+  .review-section {
+    margin-top: 24px;
+  }
+  .review-list {
+    gap: 8px;
+  }
+  .review-item p {
+    margin-top: 4px;
+    font-size: 0.8rem;
+  }
   .score-card {
-    padding: 14px 12px;
+    padding: 16px 12px;
     border-radius: 18px;
-  }
-  .score-value {
-    font-size: 2rem;
-    margin: 8px 0 4px;
-  }
-  .score-percent {
-    font-size: 1.1rem;
   }
   .score-label {
     font-size: 0.7rem;
+    letter-spacing: 0.06em;
+  }
+  .score-value {
+    font-size: 2.4rem;
+    margin: 6px 0 2px;
+  }
+  .score-percent {
+    font-size: 1.1rem;
+    margin: 0;
   }
   .score-meta {
     font-size: 0.72rem;
-    margin-top: 6px;
+    margin-top: 4px;
   }
   .score-status.passed,
   .score-status.failed {
     font-size: 0.82rem;
-    margin-top: 8px;
+    margin-top: 6px;
   }
   .score-actions {
     gap: 8px;
-    margin-top: 18px;
+    margin-top: 16px;
   }
   .score-actions .btn {
     flex: 1 1 120px;
-    min-height: 30px;
+    min-height: 32px;
     padding: 0 10px;
     font-size: 0.72rem;
     border-radius: 7px;
-    letter-spacing: 0.01em;
   }
   .quiz-actions .btn {
     min-height: 34px;
